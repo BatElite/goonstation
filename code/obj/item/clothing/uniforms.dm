@@ -54,7 +54,7 @@
 		var/list_counter = 0
 		src.images = list()
 
-		for (var/C as anything in src.component_images)
+		for (var/C as() in src.component_images)
 			list_counter++
 			var/image/suit_image = image(icon = src.wear_image_icon, icon_state = C, layer = MOB_CLOTHING_LAYER)
 			suit_image.icon_state = C
@@ -68,7 +68,6 @@
 /obj/item/clothing/under/crafted
 	name = "jumpsuit"
 	desc = "A generic jumpsuit with no rank markings."
-	c_flags = ONESIZEFITSALL
 	icon_state = "white"
 	item_state = "white"
 
@@ -77,7 +76,6 @@
 /obj/item/clothing/under/color
 	name = "black jumpsuit"
 	desc = "A generic jumpsuit with no rank markings."
-	c_flags = ONESIZEFITSALL
 
 	grey
 		name = "grey jumpsuit"
@@ -201,7 +199,7 @@
 
 	aro
 		name = "aro pride jumpsuit"
-		desc = "A corporate token of inclusivity, made in a sweatshop. It's based off of the aromatic pride flag."
+		desc = "A corporate token of inclusivity, made in a sweatshop. It's based off of the aromantic pride flag."
 		icon_state ="aro"
 		item_state = "aro"
 
@@ -749,7 +747,6 @@
 	icon_state = "shortsGy"
 	item_state = "shortsGy"
 	compatible_species = list("human", "monkey")
-	c_flags = ONESIZEFITSALL
 
 	red
 		icon_state = "shortsR"
@@ -900,6 +897,7 @@
 /obj/item/clothing/under/shirt_pants
 	name = "shirt and pants"
 	desc = "A button-down shirt and some pants."
+	icon = 'icons/obj/clothing/uniforms/item_js_misc.dmi'
 	wear_image_icon = 'icons/mob/jumpsuits/worn_js_misc.dmi'
 	icon_state = "shirt_n_pant-b"
 	item_state = "shirt_n_pant-b"
@@ -1339,7 +1337,6 @@
 		desc = "Christ, these things stink!"
 		icon_state = "wario"
 		item_state = "wario"
-		c_flags = ONESIZEFITSALL
 
 	waluigi
 		name = "total prick's overalls"

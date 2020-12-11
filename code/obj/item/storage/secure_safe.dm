@@ -558,7 +558,7 @@
 	name = "paper- 'IOU'"
 	New()
 		..()
-		var/iou_name = pick(uppercase_letters) + " " + pick(last_names)
+		var/iou_name = pick(uppercase_letters) + " " + pick_string_autokey("names/last.txt")
 		if (prob(1))
 			iou_name = pick("L Alliman", "J Antonsson") // we're stealin all ur stuff >:D
 		var/iou_thing = pick("gold bar", "telecrystal", "skull", "football", "human arm", "human arm", "human leg", "human leg", "[pick("pile", "wad")] of cash",\
@@ -581,7 +581,8 @@
 			if (1)
 				new /obj/item/storage/pill_bottle/cyberpunk(src)
 				new /obj/item/storage/pill_bottle/ipecac(src)
-				new /obj/item/gun/kinetic/pistol(src)
+				new /obj/item/gun/kinetic/pistol/empty(src)
+				new /obj/item/ammo/bullets/bullet_9mm/five_shots(src)
 				new /obj/item/paper/orangeroomsafe(src)
 			if (2)
 				new /obj/item/storage/pill_bottle/bathsalts(src)

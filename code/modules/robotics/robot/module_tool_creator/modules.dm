@@ -56,7 +56,7 @@
 		/obj/item/saw/cyborg,
 		/obj/item/satchel/hydro, // TODO: make more versatile version
 		/obj/item/reagent_containers/glass/bucket, // TODO: make large version
-		/obj/item/spraybottle/cleaner,
+		/obj/item/spraybottle/cleaner/robot,
 		/obj/item/mop,
 		/obj/item/lamp_manufacturer,
 		/obj/item/device/camera_viewer,
@@ -137,12 +137,11 @@
 		///obj/item/reagent_containers/patch/bruise/medbot,
 		/obj/item/reagent_containers/mender/brute/medbot,
 		/obj/item/reagent_containers/mender/burn/medbot,
-		/obj/item/reagent_containers/hypospray, // TODO: make large version
+		/obj/item/robospray, // TODO: make large version
 		/obj/item/reagent_containers/hypospray, // TODO: make large version
 		/obj/item/reagent_containers/syringe,
 		/obj/item/reagent_containers/syringe,
-		/obj/item/reagent_containers/glass/beaker/large/epinephrine,
-		/obj/item/reagent_containers/glass/beaker/large/antitox,
+		/obj/item/reagent_containers/glass/beaker/large,
 		/obj/item/reagent_containers/glass/beaker/large,
 		/obj/item/reagent_containers/dropper,
 	)

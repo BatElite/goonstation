@@ -12,7 +12,7 @@
 	name = "storage"
 	desc = "this is a parent item you shouldn't see!!"
 	flags = FPRINT | NOSPLASH | FLUID_SUBMERGE
-	event_handler_flags = USE_FLUID_ENTER | USE_CANPASS
+	event_handler_flags = USE_FLUID_ENTER | USE_CANPASS | NO_MOUSEDROP_QOL
 	icon = 'icons/obj/large_storage.dmi'
 	icon_state = "closed"
 	density = 1
@@ -51,20 +51,21 @@
 
 	var/list/spawn_contents = list() // maybe better than just a bunch of stuff in New()?
 	var/made_stuff
+
+	var/grab_stuff_on_spawn = TRUE
 	New()
 		..()
+		START_TRACKING
 		SPAWN_DBG(1 DECI SECOND)
 			src.update_icon()
 
-			if (!src.open)		// if closed, any item at src's loc is put in the contents
-				for (var/obj/O in src.loc)
-					if (src.is_acceptable_content(O))
-						O.set_loc(src)
-
-		lockers_and_crates.Add(src)
+			if (!src.open && grab_stuff_on_spawn)		// if closed, any item at src's loc is put in the contents
+				for (var/atom/movable/A in src.loc)
+					if (src.is_acceptable_content(A))
+						A.set_loc(src)
 
 	disposing()
-		lockers_and_crates.Remove(src)
+		STOP_TRACKING
 		..()
 
 	proc/make_my_stuff() // use this rather than overriding the container's New()
@@ -89,10 +90,10 @@
 			flick(src.closing_anim,src)
 			src.icon_state = src.icon_closed
 
-		if (src.overlays)
-			src.overlays = list()
 		if (src.welded)
-			src.overlays += src.icon_welded
+			src.UpdateOverlays(image(src.icon, src.icon_welded), "welded")
+		else
+			src.UpdateOverlays(null, "welded")
 
 	emp_act()
 		if (!src.open && src.contents.len)
@@ -153,7 +154,7 @@
 		src.visible_message("<span class='alert'><b>[user]</b> kicks [src] open!</span>")
 
 	attack_hand(mob/user as mob)
-		if (get_dist(user, src) > 1)
+		if (!in_range(src, user))
 			return
 
 		interact_particle(user,src)
@@ -287,7 +288,7 @@
 					L.changeStatus("weakened", 4 SECONDS)
 				if (prob(25))
 					L.show_text("You hit your head on [no_go]!", "red")
-					L.TakeDamage("head", 0, 10)
+					L.TakeDamage("head", 10, 0, 0, DAMAGE_BLUNT)
 
 			. = 0
 		else
@@ -302,7 +303,7 @@
 			return
 
 		if (isitem(O) && (O:cant_drop || (issilicon(user) && O.loc == user))) //For borg held items
-			user.show_text("You can't put that in [src] when it's attached to you!", "red")
+			boutput(user, "<span class='alert'>You can't put that in [src] when it's attached to you!</span>")
 			return
 
 		src.add_fingerprint(user)
@@ -542,8 +543,7 @@
 #ifdef HALLOWEEN
 			if (halloween_mode && prob(5)) //remove the prob() if you want, it's just a little broken if dudes are constantly teleporting
 				var/list/obj/storage/myPals = list()
-				for (var/obj/storage/O in lockers_and_crates)
-					LAGCHECK(LAG_LOW)
+				for_by_tcl(O, /obj/storage)
 					if (O.z != src.z || O.open || !O.can_open())
 						continue
 					myPals.Add(O)
@@ -755,7 +755,7 @@
 			duration = duration_i
 		if (ishuman(owner))
 			var/mob/living/carbon/human/H = owner
-			if (H.traitHolder.hasTrait("carpenter"))
+			if (H.traitHolder.hasTrait("carpenter") || H.traitHolder.hasTrait("training_engineer"))
 				duration = round(duration / 2)
 
 	onUpdate()
@@ -816,11 +816,14 @@
 
 		if(!src.open || always_display_locks)
 			if (src.emagged)
-				src.overlays += src.icon_sparks
+				src.UpdateOverlays(image(src.icon, src.icon_sparks), "sparks")
 			else if (src.locked)
-				src.overlays += src.icon_redlight
+				src.UpdateOverlays(image(src.icon, src.icon_redlight), "light")
 			else
-				src.overlays += src.icon_greenlight
+				src.UpdateOverlays(image(src.icon, src.icon_greenlight), "light")
+		else
+			src.UpdateOverlays(null, "sparks")
+			src.UpdateOverlays(null, "light")
 
 	receive_signal(datum/signal/signal)
 		if (!src.radio_control)
@@ -842,7 +845,7 @@
 
 				if ("lock")
 					. = 0
-					if (signal.data["pass"] == netpass_heads)
+					if (signal.data["pass"] == netpass_security)
 						. = 1
 						src.locked = !src.locked
 						src.visible_message("[src] clicks[src.open ? "" : " locked"].")
@@ -860,7 +863,7 @@
 
 				if ("unlock")
 					. = 0
-					if (signal.data["pass"] == netpass_heads)
+					if (signal.data["pass"] == netpass_security)
 						. = 1
 						src.locked = !src.locked
 						src.visible_message("[src] clicks[src.open ? "" : " unlocked"].")

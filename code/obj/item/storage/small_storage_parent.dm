@@ -299,8 +299,10 @@
 	spawn_contents = list(/obj/item/clothing/mask/breath)
 	make_my_stuff()
 		..()
-		if (prob(15))
+		if (prob(15) || ticker?.round_elapsed_ticks > 20 MINUTES) //aaaaaa
 			new /obj/item/tank/emergency_oxygen(src)
+		if (ticker?.round_elapsed_ticks > 20 MINUTES)
+			new /obj/item/crowbar/red(src)
 		if (prob(10)) // put these together
 			new /obj/item/clothing/suit/space/emerg(src)
 			new /obj/item/clothing/head/emerg(src)
@@ -338,7 +340,7 @@
 
 	New()
 		..()
-		BLOCK_BOOK
+		BLOCK_SETUP(BLOCK_BOOK)
 
 /obj/item/storage/desk_drawer
 	name = "desk drawer"
@@ -395,15 +397,10 @@
 		if (!I)
 			return
 
-		I.throwforce += 8 //Ugly. Who cares.
-		SPAWN_DBG(1.5 SECONDS)
-			if (I)
-				I.throwforce -= 8
-
 		I.set_loc(get_turf(src.loc))
 		I.dropped()
 		src.hud.remove_item(I) //fix the funky UI stuff
 		I.layer = initial(I.layer)
-		I.throw_at(target, 8, 2)
+		I.throw_at(target, 8, 2, bonus_throwforce=8)
 
 		playsound(src, 'sound/effects/singsuck.ogg', 40, 1)

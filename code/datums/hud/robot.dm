@@ -1,6 +1,3 @@
-#define COLOR_MATRIX_IDENTITY list(1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1)
-#define COLOR_MATRIX_GRAYSCALE list(0.2126,0.2126,0.2126,0, 0.7152,0.7152,0.7152,0, 0.0722,0.0722,0.0722,0, 0,0,0,1)
-
 /obj/screen/hud/robotstorage
 	MouseEntered(location, control, params)
 		if (src.name)
@@ -174,34 +171,35 @@
 				return
 			if(!master.module_states[1] && istype(master.part_arm_l,/obj/item/parts/robot_parts/arm/))
 				master.module_states[1] = O
-				O.loc = master
+				O.set_loc(master)
 				O.pickup(master) // Handle light datums and the like.
 			else if(!master.module_states[2])
 				master.module_states[2] = O
-				O.loc = master
+				O.set_loc(master)
 				O.pickup(master)
 			else if(!master.module_states[3] && istype(master.part_arm_r,/obj/item/parts/robot_parts/arm/))
 				master.module_states[3] = O
-				O.loc = master
+				O.set_loc(master)
 				O.pickup(master)
 			else
 				master.uneq_active()
 				if(!master.module_states[1] && istype(master.part_arm_l,/obj/item/parts/robot_parts/arm/))
 					master.module_states[1] = O
-					O.loc = master
+					O.set_loc(master)
 					O.pickup(master)
 				else if(!master.module_states[2])
 					master.module_states[2] = O
-					O.loc = master
+					O.set_loc(master)
 					O.pickup(master)
 				else if(!master.module_states[3] && istype(master.part_arm_r,/obj/item/parts/robot_parts/arm/))
 					master.module_states[3] = O
-					O.loc = master
+					O.set_loc(master)
 					O.pickup(master)
 			update_equipment()
 			update_tools()
 
 	New(M)
+		..()
 		master = M
 
 		// @TODO i fucking hate the boxes not being clickable so here's a gross hack to fix it
@@ -270,8 +268,8 @@
 		mainframe.underlays += "block"
 
 
-	scrolled(id, dx, dy, loc, parms, obj/screen/hud/scr)
-		if(!master) return
+	scrolled(id, dx, dy, user, parms, obj/screen/hud/scr)
+		if(!master || user != master) return
 		switch(id)
 			if("object1", "object2", "object3", "object4", "object5", "object6", "object7", "next", "nextbg", "prev", "prevbg", "boxes")
 				if(dy < 0) items_screen++
@@ -387,7 +385,7 @@
 			remove_screen(G)
 
 		for(var/datum/statusEffect/S in src.statusUiElements) //Remove stray effects.
-			if(!master.statusEffects || !(S in master.statusEffects) || !S.visible)
+			if(!master.statusEffects || !(S in master.statusEffects))
 				pool(statusUiElements[S])
 				src.statusUiElements.Remove(S)
 				qdel(S)

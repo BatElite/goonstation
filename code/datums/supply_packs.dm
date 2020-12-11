@@ -1,7 +1,7 @@
 
 /proc/build_supply_pack_cache()
 	qm_supply_cache.Cut()
-	for(var/S in childrentypesof(/datum/supply_packs))
+	for(var/S in concrete_typesof(/datum/supply_packs))
 		qm_supply_cache += new S()
 
 /datum/supply_order
@@ -233,13 +233,18 @@
 	containertype = /obj/storage/crate/freezer
 	containername = "Catering: Condiment Crate"
 
+ABSTRACT_TYPE (/datum/supply_packs/electrical)
 /datum/supply_packs/electrical
-	name = "Electrical Supplies Crate - 2 pack"
-	desc = "x2 Cabling Box (14 cable coils total)"
+	name = "cable crate"
+	desc = "Parent object for Electrical Cable crates, you shouldn't see this..."
 	category = "Basic Materials"
-	contains = list(/obj/item/storage/box/cablesbox = 2)
 	cost = 2000
 	containertype = /obj/storage/crate
+
+/datum/supply_packs/electrical/red
+	name = "Electrical Supplies Crate (red) - 2 pack"
+	desc = "x2 Cabling Box (14 cable coils total)"
+	contains = list(/obj/item/storage/box/cablesbox = 2)
 	containername = "Electrical Supplies Crate - 2 pack"
 
 /datum/supply_packs/engineering
@@ -394,18 +399,28 @@
 // Added security resupply crate (Convair880).
 /datum/supply_packs/security_resupply
 	name = "Weapons Crate - Security Equipment (Cardlocked \[Security])"
-	desc = "x1 Security Belt, 1x Armoured Vest, 1x Helmet, x1 Taser, x1 Stun Baton, x1 Security-Issue Grenade Box, x1 Handcuff Kit"
+	desc = "x1 Security Requisition Token, 1x Armoured Vest, 1x Helmet, x1 Handcuff Kit"
 	category = "Security Department"
-	contains = list(/obj/item/storage/belt/security,
-					/obj/item/clothing/suit/armor/vest,
+	contains = list(/obj/item/clothing/suit/armor/vest,
 					/obj/item/clothing/head/helmet/hardhat/security,
-					/obj/item/gun/energy/taser_gun,
-					/obj/item/baton,
-					/obj/item/storage/box/QM_grenadekit_security,
+					/obj/item/requisition_token/security,
 					/obj/item/storage/box/handcuff_kit)
-	cost = 5000
+	cost = 10000
 	containertype = /obj/storage/secure/crate/weapon
 	containername = "Weapons Crate - Security Equipment (Cardlocked \[Security])"
+	access = access_security
+
+/datum/supply_packs/security_upgrade
+	name = "Weapons Crate - Experimental Security Equipment (Cardlocked \[Security])"
+	desc = "1x Clock 180, x1 Elite Security Helmet, x1 Lethal Grenade Kit, 1x Experimental Grenade Kit"
+	category = "Security Department"
+	contains = list(/obj/item/gun/kinetic/clock_188/boomerang,
+					/obj/item/storage/box/QM_grenadekit_security,
+					/obj/item/storage/box/QM_grenadekit_experimentalweapons,
+					/obj/item/clothing/head/helmet/hardhat/security/improved)
+	cost = 12000
+	containertype = /obj/storage/secure/crate/weapon
+	containername = "Weapons Crate - Experimental Security Equipment (Cardlocked \[Security])"
 	access = access_security
 
 /datum/supply_packs/security_brig_resupply
@@ -419,17 +434,6 @@
 	containername = "Security Containment Crate - Security Equipment (Cardlocked \[Security])"
 	access = access_security
 
-/datum/supply_packs/security_upgrade //Azungar's upgrade pack for security.
-	name = "Weapons Crate - Security Equipment Upgrade (Cardlocked \[Security])"
-	desc = "x1 Taser Shotgun, x1 Elite Security Helmet"
-	category = "Security Department"
-	contains = list(/obj/item/gun/energy/tasershotgun,
-					/obj/item/clothing/head/helmet/hardhat/security/improved)
-	cost = 15000
-	containertype = /obj/storage/secure/crate/weapon
-	containername = "Weapons Crate - Security Equipment Upgrade (Cardlocked \[Security])"
-	access = access_security
-
 /datum/supply_packs/weapons2
 	name = "Weapons Crate - Phasers (Cardlocked \[Security])"
 	desc = "x2 Phaser Gun"
@@ -438,17 +442,6 @@
 	cost = 5000
 	containertype = /obj/storage/secure/crate/weapon
 	containername = "Weapons Crate - Phasers (Cardlocked \[Security])"
-	access = access_security
-
-/datum/supply_packs/eweapons
-	name = "Weapons Crate - Experimental (Cardlocked \[Security])"
-	desc = "x1 Wave gun, x1 Experimental Grenade Box (7 grenades)"
-	category = "Security Department"
-	contains = list(/obj/item/gun/energy/wavegun,
-					/obj/item/storage/box/QM_grenadekit_experimentalweapons)
-	cost = 5000
-	containertype = /obj/storage/secure/crate/weapon
-	containername = "Weapons Crate - Experimental (Cardlocked \[Security])"
 	access = access_security
 
 /datum/supply_packs/evacuation
@@ -504,7 +497,7 @@
 					/obj/machinery/bot/cleanbot,
 					/obj/machinery/bot/medbot,
 					/obj/machinery/bot/firebot)
-	cost = 2000
+	cost = 7500
 	containertype = /obj/storage/crate
 	containername = "Robotics Crate"
 
@@ -912,7 +905,8 @@
 	contains = list(/obj/item/clothing/suit/rad = 4,
 					/obj/item/clothing/head/rad_hood = 4,
 					/obj/item/storage/pill_bottle/antirad = 2,
-					/obj/item/reagent_containers/emergency_injector/anti_rad = 4)
+					/obj/item/reagent_containers/emergency_injector/anti_rad = 4,
+					/obj/item/device/geiger = 2)
 	cost = 2000
 	containertype = /obj/storage/crate/wooden
 	containername = "Radiation Emergency Supplies"
@@ -1229,10 +1223,8 @@
 			if (isnum(frames[path]))
 				amt = abs(frames[path])
 
-			// vvv this is barf vvv
-			var/atom/template = new path()
-			var/template_name = template ? template.name : null
-			qdel(template)
+			var/atom/template = path
+			var/template_name = initial(template.name)
 			if (!template_name)
 				continue
 

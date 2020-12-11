@@ -976,7 +976,7 @@
 
 	New()
 		..()
-		BLOCK_BOOK
+		BLOCK_SETUP(BLOCK_BOOK)
 
 	examine(mob/user)
 		if (!issilicon(user))
@@ -1971,6 +1971,7 @@ globules of this sludge can be harvested from the plant however - with proper pr
 			<li>brain = cut -> saw -> cut -> saw - Target HEAD on "HELP" intent (*note - Performing this surgery on "HARM" intent can decapitate the head).
 			<li>eyes = L/R spoon -> L/R cut -> L/R spoon - 	in order to remove a specific eye, you must only hold a tool in the corresponding hand R/L.
 			<li>limbs = cut -> saw -> cut 	while targeting the appropriate limb. Replacing a limb only requires you to target the correct limb, and then staple it firmly to the stump.
+			<li>tail = saw -> cut -> saw	while targetting the chest. I don't even know why they taught me this in medschool.
 			<li>butt = I do not know how to remove butts, and if I did I wouldn't spread that knowledge for it is a cruel and inhumane practice to remove a butt from anyone.
 		</ul>
 		</div>
@@ -2754,7 +2755,7 @@ I'm being taken somewhere. I can feel it. Piece by piece, particle by particle, 
 		playsound(src.loc, "rustle", 50, 1)
 		return ..(target)
 
-	throw_impact(atom/hit_atom)
+	throw_impact(atom/hit_atom, datum/thrown_thing/thr)
 		icon_state = "lawbook"
 		if(hit_atom == usr)
 			if(prob(prob_clonk))
@@ -2867,6 +2868,8 @@ I'm being taken somewhere. I can feel it. Piece by piece, particle by particle, 
 	medical
 		name = "Medbay Pocket Guide"
 		icon_state = "mediguide"
+
+
 
 		info = {"<body><h1>NT MEDICAL DIVISION</h1>
 		<h2>Introductory briefing for aspiring Medical Doctors!</h2>

@@ -53,9 +53,9 @@
 //MBC : moving lights to consume power inside as an area-wide process() instead of each individual light processing its own shit
 /obj/machinery/light_area_manager
 	#define LIGHTING_POWER_FACTOR 40
-	event_handler_flags = IMMUNE_SINGULARITY
+	event_handler_flags = IMMUNE_SINGULARITY | USE_FLUID_ENTER
 	invisibility = 100
-	var/area/my_area = 0
+	var/area/my_area = null
 	var/list/lights = list()
 	var/brightness_placeholder = 1	//hey, maybe later use this in a way that is more optimized than iterating through each individual light
 
@@ -63,7 +63,7 @@
 	return
 
 /obj/machinery/light_area_manager/process()
-	if(my_area && my_area.power_light && my_area.lightswitch)
+	if(my_area?.power_light && my_area.lightswitch)
 		..()
 		var/thepower = src.brightness_placeholder * LIGHTING_POWER_FACTOR
 		use_power(thepower * lights.len, LIGHT)
@@ -139,7 +139,7 @@
 						var/is_jen_wall = 0 // jen walls' ceilings are narrower, so let's move the lights a bit further inward!
 						if (istype(T, /turf/simulated/wall/auto/jen) || istype(T, /turf/simulated/wall/auto/reinforced/jen))
 							is_jen_wall = 1
-						src.dir = dir
+						src.set_dir(dir)
 						if (dir == EAST)
 							if (is_jen_wall)
 								src.pixel_x = 12
@@ -196,6 +196,9 @@
 	purpleish
 		name = "purpleish fluorescent light bulb"
 		light_type = /obj/item/light/bulb/purpleish
+	frostedred
+		name = "frosted red fluorescent light bulb"
+		light_type = /obj/item/light/bulb/emergency
 
 	warm
 		name = "fluorescent light bulb"
@@ -217,6 +220,13 @@
 		very
 			name = "very harsh incandescent light bulb"
 			light_type = /obj/item/light/bulb/harsh/very
+
+	broken //Made at first to replace a decal in cog1's wreckage area
+		name = "shattered light bulb"
+
+		New()
+			..()
+			current_lamp.light_status = LIGHT_BROKEN
 
 	//The only difference between these small lights and others are that these automatically stick to walls! Wow!!
 	sticky
@@ -256,6 +266,8 @@
 			very
 				name = "very harsh incandescent light bulb"
 				light_type = /obj/item/light/bulb/harsh/very
+
+
 
 //floor lights
 /obj/machinery/light/small/floor
@@ -404,6 +416,7 @@
 	allowed_type = /obj/item/light/bulb
 	wallmounted = 0
 	deconstruct_flags = DECON_SIMPLE
+	plane = PLANE_DEFAULT
 
 	var/switchon = 0		// independent switching for lamps - not controlled by area lightswitch
 
@@ -591,6 +604,22 @@
 
 		var/obj/item/lamp_manufacturer/M = W
 		var/obj/item/light/L = null
+
+		if (issilicon(user))
+			var/mob/living/silicon/S = user
+			if (S.cell)
+				if (!inserted_lamp)
+					S.cell.charge -= M.cost_empty
+				else
+					S.cell.charge -= M.cost_broken
+		else
+			if (M.metal_ammo > 0)
+				M.metal_ammo--
+				M.inventory_counter.update_number(M.metal_ammo)
+			else
+				boutput(user, "You need to load up some metal sheets.")
+				return // Stop lights from being made if a human user lacks materials.
+
 		if (fitting == "tube")
 			L = new M.dispensing_tube()
 		else
@@ -600,14 +629,6 @@
 				boutput(user, "This fitting already has an identical lamp.")
 				qdel(L)
 				return //Stop borgs from making more sparks than necessary
-
-		if (issilicon(user)) //Not that non-silicons should have these
-			var/mob/living/silicon/S = user
-			if (S.cell)
-				if (!inserted_lamp)
-					S.cell.charge -= M.cost_empty
-				else
-					S.cell.charge -= M.cost_broken
 
 		insert(user, L)
 		if (!isghostdrone(user)) // Same as ghostdrone RCDs, no sparks
@@ -930,6 +951,14 @@
 		color_r = 0.95
 		color_g = 0.2
 		color_b = 0.2
+	reddish
+		name = "reddish light tube"
+		desc = "Fancy."
+		icon_state = "tube-red"
+		base_state = "tube-red"
+		color_r = 0.98
+		color_g = 0.75
+		color_b = 0.5
 	yellow
 		name = "yellow light tube"
 		desc = "Fancy."
@@ -938,6 +967,14 @@
 		color_r = 0.95
 		color_g = 0.95
 		color_b = 0.2
+	yellowish
+		name = "yellowish light tube"
+		desc = "Fancy."
+		icon_state = "tube-yellow"
+		base_state = "tube-yellow"
+		color_r = 0.98
+		color_g = 0.98
+		color_b = 0.75
 	green
 		name = "green light tube"
 		desc = "Fancy."
@@ -970,6 +1007,14 @@
 		color_r = 0.95
 		color_g = 0.2
 		color_b = 0.95
+	light_purpleish
+		name = "light purpleish light tube"
+		desc = "Fancy."
+		icon_state = "tube-purple"
+		base_state = "tube-purple"
+		color_r = 0.98
+		color_g = 0.76
+		color_b = 0.98
 	blacklight
 		name = "black light tube"
 		desc = "Fancy."
@@ -1088,6 +1133,14 @@
 		color_r = 0.95
 		color_g = 0.95
 		color_b = 0.2
+	yellowish
+		name = "yellowish light bulb"
+		desc = "Fancy."
+		icon_state = "bulb-yellow"
+		base_state = "bulb-yellow"
+		color_r = 0.98
+		color_g = 0.98
+		color_b = 0.75
 	green
 		name = "green light bulb"
 		desc = "Fancy."

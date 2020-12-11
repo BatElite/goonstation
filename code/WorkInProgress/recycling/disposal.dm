@@ -19,7 +19,6 @@
 	var/active = 0	// true if the holder is moving, otherwise inactive
 	dir = 0
 	var/count = 1000	//*** can travel 1000 steps before going inactive (in case of loops)
-	var/has_fat_guy = 0	// true if contains a fat person
 	var/last_sound = 0
 
 	var/slowed = 0 // when you move, slows you down
@@ -30,17 +29,15 @@
 		..()
 		gas = null
 		active = 0
-		dir = 0
+		set_dir(0)
 		count = initial(count)
-		has_fat_guy = 0
 		last_sound = 0
 		mail_tag = null
 
 	pooled()
 		gas = null
 		active = 0
-		dir = 0
-		has_fat_guy = 0
+		set_dir(0)
 		last_sound = 0
 		mail_tag = null
 		..()
@@ -49,7 +46,7 @@
 	proc/init(var/obj/machinery/disposal/D)
 		gas = D.air_contents.remove_ratio(1)	// transfer gas resv. into holder object
 
-		// loc = null makes some stuff grumpy, ok?
+		// set_loc(null makes some stuff grumpy, ok?)
 		if(D.trunk)
 			src.set_loc(D.trunk)
 		else
@@ -62,8 +59,6 @@
 			if(ishuman(AM))
 				var/mob/living/carbon/human/H = AM
 				H.unlock_medal("It'sa me, Mario", 1)
-				if(H.bioHolder.HasEffect("fat"))		// is a human and fat?
-					has_fat_guy = 1			// set flag on holder
 
 
 
@@ -74,9 +69,9 @@
 			D.expel(src)	// no trunk connected, so expel immediately
 			return
 
-		loc = D.trunk
+		set_loc(D.trunk)
 		active = 1
-		dir = DOWN
+		set_dir(DOWN)
 		SPAWN_DBG(1 DECI SECOND)
 			process()		// spawn off the movement process
 
@@ -86,14 +81,6 @@
 	proc/process()
 		var/obj/disposalpipe/last
 		while(active)
-			if(has_fat_guy && prob(2)) // chance of becoming stuck per segment if contains a fat guy
-				active = 0
-				// find the fat guys
-				for(var/mob/living/carbon/human/H in src)
-					if(H.bioHolder.HasEffect("fat"))
-						H.unlock_medal("Try jiggling the handle",1)
-
-				break
 			sleep(0.1 SECONDS)		// was 1
 			if(slowed > 0)
 				slowed--
@@ -134,8 +121,6 @@
 	proc/merge(var/obj/disposalholder/other)
 		for(var/atom/movable/AM in other)
 			AM.set_loc(src)	// move everything in other holder to this one
-		if(other.has_fat_guy)
-			has_fat_guy = 1
 		if(other.mail_tag && !src.mail_tag)
 			src.mail_tag = other.mail_tag
 		pool(other)
@@ -226,7 +211,7 @@
 			// holder was present
 			H.active = 0
 			var/turf/T = get_turf(src)
-			if(T && T.density)
+			if(T?.density)
 				// deleting pipe is inside a dense turf (wall)
 				// this is unlikely, but just dump out everything into the turf in case
 
@@ -251,7 +236,7 @@
 	//
 	proc/transfer(var/obj/disposalholder/H)
 		var/nextdir = nextdir(H.dir)
-		H.dir = nextdir
+		H.set_dir(nextdir)
 		var/turf/T = H.nextloc()
 		var/obj/disposalpipe/P = H.findpipe(T)
 
@@ -326,9 +311,7 @@
 			for(var/atom/movable/AM in H)
 				AM.set_loc(T)
 				AM.pipe_eject(direction)
-				SPAWN_DBG(1 DECI SECOND)
-					if(AM)
-						AM.throw_at(target, 100, 1)
+				AM?.throw_at(target, 100, 1)
 			H.vent_gas(T)
 			pool(H)
 
@@ -340,9 +323,7 @@
 
 				AM.set_loc(T)
 				AM.pipe_eject(0)
-				SPAWN_DBG(1 DECI SECOND)
-					if(AM)
-						AM.throw_at(target, 5, 1)
+				AM?.throw_at(target, 5, 1)
 
 			H.vent_gas(T)	// all gas vent to turf
 			pool(H)
@@ -360,7 +341,7 @@
 			for(var/D in cardinal)
 				if(D & dpdir)
 					var/obj/disposalpipe/broken/P = new(src.loc)
-					P.dir = D
+					P.set_dir(D)
 
 		src.invisibility = 101	// make invisible (since we won't delete the pipe immediately)
 		var/obj/disposalholder/H = locate() in src
@@ -478,7 +459,7 @@
 		if (user)
 			boutput(user, "You finish slicing [C].")
 
-		C.dir = dir
+		C.set_dir(dir)
 		C.mail_tag = src.mail_tag
 		C.update()
 
@@ -576,7 +557,7 @@
 		icon_state = "pipe-c"
 		for(var/d in list(1, 2, 4, 8))
 			if((d | turn(d, -90)) == dpdir)
-				dir = d
+				set_dir(d)
 				break
 	base_icon_state = icon_state
 	src.update()
@@ -738,7 +719,7 @@
 			same_group = 1
 
 		var/nextdir = nextdir(H.dir, same_group)
-		H.dir = nextdir
+		H.set_dir(nextdir)
 		var/turf/T = H.nextloc()
 		var/obj/disposalpipe/P = H.findpipe(T)
 
@@ -820,7 +801,7 @@
 				break
 
 		var/nextdir = nextdir(H.dir, redirect)
-		H.dir = nextdir
+		H.set_dir(nextdir)
 		var/turf/T = H.nextloc()
 		var/obj/disposalpipe/P = H.findpipe(T)
 
@@ -841,7 +822,7 @@
 
 		var/obj/disposalconstruct/C = new (src.loc)
 		C.ptype = (src.icon_state == "pipe-sj1" ? 8 : 9)
-		C.dir = dir
+		C.set_dir(dir)
 		C.mail_tag = src.mail_tag
 		C.update()
 
@@ -890,8 +871,6 @@
 						var/mob/M = O2
 						M.ghostize()
 					qdel(O2)
-					H.contents -= O2
-					O2 = null
 
 				var/obj/item/reagent_containers/food/snacks/einstein_loaf/estein = new /obj/item/reagent_containers/food/snacks/einstein_loaf(src)
 				estein.set_loc(H)
@@ -928,7 +907,7 @@
 
 					if (newIngredient.reagents)
 						var/anItem = isitem(newIngredient)
-						while (newIngredient.reagents.total_volume > 0 || (anItem && newIngredient:w_class--))
+						while (length(new_nuggets) < 50 && (newIngredient.reagents.total_volume > 0 || (anItem && newIngredient:w_class--)))
 							newIngredient.reagents.trans_to(current_nugget, current_nugget.reagents.maximum_volume)
 							if (current_nugget.reagents.total_volume >= current_nugget.reagents.maximum_volume)
 								current_nugget = new /obj/item/reagent_containers/food/snacks/ingredient/meat/mysterymeat/nugget(src)
@@ -939,8 +918,6 @@
 								new_nuggets += current_nugget
 
 					qdel(newIngredient)
-					H.contents -= newIngredient
-					newIngredient = null
 					LAGCHECK(LAG_MED)
 
 				for (var/obj/O in new_nuggets)
@@ -994,7 +971,7 @@
 						newLoaf.loaf_factor++
 
 					H.contents -= newIngredient
-					newIngredient.loc = null
+					newIngredient.set_loc(null)
 					newIngredient = null
 
 					//LAGCHECK(LAG_MED)
@@ -1015,7 +992,7 @@
 			//src.visible_message("<b>[src] deactivates!</b>") // Processor + loop = SPAM
 
 		var/nextdir = nextdir(H.dir)
-		H.dir = nextdir
+		H.set_dir(nextdir)
 		var/turf/T = H.nextloc()
 		var/obj/disposalpipe/P = H.findpipe(T)
 
@@ -1036,7 +1013,7 @@
 
 		/*var/obj/disposalconstruct/C = new (src.loc)
 		C.ptype = 10
-		C.dir = dir
+		C.set_dir(dir)
 		C.update()
 
 		qdel(src)*/
@@ -1063,12 +1040,10 @@
 	icon_state = "eloaf"
 	force = 0
 	throwforce = 0
+	initial_volume = 1000
 
 	New()
 		..()
-		var/datum/reagents/R = new/datum/reagents(1000)
-		reagents = R
-		R.my_atom = src
 		src.reagents.add_reagent("liquid spacetime",11)
 		src.setMaterial(getMaterial("negativematter"), appearance = 0, setname = 0)
 
@@ -1079,15 +1054,13 @@
 	icon_state = "ploaf0"
 	force = 0
 	throwforce = 0
+	initial_volume = 1000
 	var/loaf_factor = 1
 	var/loaf_recursion = 1
 	var/processing = 0
 
 	New()
 		..()
-		var/datum/reagents/R = new/datum/reagents(1000)
-		reagents = R
-		R.my_atom = src
 		src.reagents.add_reagent("gravy",10)
 		src.reagents.add_reagent("refried_beans",10)
 		src.reagents.add_reagent("fakecheese",10)
@@ -1211,8 +1184,7 @@
 			return
 		if(src.loc == get_turf(src))
 			var/edge = get_edge_target_turf(src, pick(alldirs))
-			SPAWN_DBG(0)
-				src.throw_at(edge, 100, 1)
+			src.throw_at(edge, 100, 1)
 		if (istype(src.loc,/obj/))
 			if (prob(33))
 				var/obj/container = src.loc
@@ -1286,7 +1258,7 @@
 	welded()
 		var/obj/disposalconstruct/C = new (src.loc)
 		C.ptype = 11
-		C.dir = dir
+		C.set_dir(dir)
 		C.update()
 		qdel(src)
 
@@ -1309,8 +1281,8 @@
 		var/otherdir = nextdir(origHolder.dir, 0)
 		var/biodir = nextdir(origHolder.dir, 1)
 
-		origHolder.dir = otherdir
-		bioHolder.dir = biodir
+		origHolder.set_dir(otherdir)
+		bioHolder.set_dir(biodir)
 
 		var/turf/nonBioTurf = origHolder.nextloc()
 		var/turf/bioTurf = bioHolder.nextloc()
@@ -1337,7 +1309,7 @@
 			boutput(world, "I found a bio pipe at [bioPipe.loc] with [bioHolder.loc]")
 
 		bioHolder.active = 1
-		bioHolder.dir = biodir
+		bioHolder.set_dir(biodir)
 		SPAWN_DBG(1 DECI SECOND)
 			bioHolder.process()
 
@@ -1346,7 +1318,7 @@
 	welded()
 		var/obj/disposalconstruct/C = new (src.loc)
 		C.ptype = (src.icon_state == "pipe-sj1" ? 8 : 9)
-		C.dir = dir
+		C.set_dir(dir)
 		C.mail_tag = src.mail_tag
 		C.update()
 
@@ -1398,8 +1370,7 @@
 			for(var/atom/movable/AM in H)
 				AM.set_loc(src.loc)
 				AM.pipe_eject(dir)
-				SPAWN_DBG(1 DECI SECOND)
-					AM.throw_at(stuff_chucking_target, 3, 1)
+				AM.throw_at(stuff_chucking_target, 3, 1)
 			H.vent_gas(src.loc)
 			pool(H)
 
@@ -1469,8 +1440,7 @@
 			for (var/atom/movable/AM in things_to_dump)
 				AM.set_loc(src.loc)
 				AM.pipe_eject(dir)
-				SPAWN_DBG(1 DECI SECOND)
-					AM.throw_at(stuff_chucking_target, 3, 1)
+				AM.throw_at(stuff_chucking_target, 3, 1)
 			if (H.contents.len < 1)
 				H.vent_gas(src.loc)
 				pool(H)
@@ -1588,7 +1558,7 @@
 	welded()
 		var/obj/disposalconstruct/C = new (src.loc)
 		C.ptype = 12
-		C.dir = dir
+		C.set_dir(dir)
 		C.update()
 		SEND_SIGNAL(src,COMSIG_MECHCOMP_RM_ALL_CONNECTIONS)
 		qdel(src)
@@ -1750,6 +1720,7 @@
 	var/active = 0
 	var/turf/target	// this will be where the output objects are 'thrown' to.
 	mats = 12
+	var/range = 10
 
 	var/message = null
 	var/mailgroup = null
@@ -1781,7 +1752,7 @@
 		..()
 
 		SPAWN_DBG(1 DECI SECOND)
-			target = get_ranged_target_turf(src, dir, 10)
+			target = get_ranged_target_turf(src, dir, range)
 		SPAWN_DBG(0.8 SECONDS)
 			if(radio_controller)
 				radio_connection = radio_controller.add_object(src, "[frequency]")
@@ -1838,8 +1809,7 @@
 		for(var/atom/movable/AM in H)
 			AM.set_loc(src.loc)
 			AM.pipe_eject(dir)
-			SPAWN_DBG(1 DECI SECOND)
-				AM.throw_at(target, src.throw_range, 1)
+			AM.throw_at(target, src.throw_range, 1)
 		H.vent_gas(src.loc)
 		pool(H)
 
@@ -1918,8 +1888,7 @@
 		for(var/atom/movable/AM in H)
 			AM.set_loc(src.loc)
 			AM.pipe_eject(dir)
-			SPAWN_DBG(1 DECI SECOND)
-				AM.throw_at(target, 10, 10) //This is literally the only thing that was changed in this, otherwise it booted them way too close.
+			AM.throw_at(target, 10, 10) //This is literally the only thing that was changed in this, otherwise it booted them way too close.
 		H.vent_gas(src.loc)
 		pool(H)
 
@@ -1941,23 +1910,23 @@ proc/pipe_reconnect_disconnected(var/obj/disposalpipe/pipe, var/new_dir, var/mak
 		if(istype(pipe, /obj/disposalpipe/trunk))
 			var/obj/disposalpipe/segment/segment = new(pipe.loc)
 			segment.dpdir = pipe.dpdir | new_dir
-			segment.dir = new_dir
+			segment.set_dir(new_dir)
 			qdel(pipe)
 			segment.fix_sprite()
 		else if(istype(pipe, /obj/disposalpipe/junction))
 			var/obj/disposalpipe/segment/horiz = new(pipe.loc)
 			horiz.dpdir = 1 | 2
-			horiz.dir = 1
+			horiz.set_dir(1)
 			horiz.fix_sprite()
 			var/obj/disposalpipe/segment/vert = new(pipe.loc)
 			vert.dpdir = 4 | 8
-			vert.dir = 4
+			vert.set_dir(4)
 			vert.fix_sprite()
 			qdel(pipe)
 		if(istype(pipe, /obj/disposalpipe/segment))
 			var/obj/disposalpipe/junction/junction = new(pipe.loc)
 			junction.dpdir = pipe.dpdir | new_dir
-			junction.dir = new_dir
+			junction.set_dir(new_dir)
 			qdel(pipe)
 			junction.fix_sprite()
 		return
@@ -1967,6 +1936,6 @@ proc/pipe_reconnect_disconnected(var/obj/disposalpipe/pipe, var/new_dir, var/mak
 				pipe.dpdir &= ~d
 				pipe.dpdir |= new_dir
 				if(!(pipe.dir & pipe.dpdir)) // if we lost our dir
-					pipe.dir = new_dir
+					pipe.set_dir(new_dir)
 				break
 	pipe.fix_sprite()

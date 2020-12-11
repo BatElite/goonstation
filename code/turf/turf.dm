@@ -1,9 +1,7 @@
-var/global/turf/ff_debug_turf = null
-var/global/client/ff_debugger = null
-
 /turf
 	icon = 'icons/turf/floors.dmi'
 	plane = PLANE_FLOOR //See _plane.dm, required for shadow effect
+	appearance_flags = TILE_BOUND | PIXEL_SCALE
 	var/intact = 1
 	var/allows_vehicles = 1
 
@@ -13,30 +11,23 @@ var/global/client/ff_debugger = null
 
 	unsimulated
 		var/can_replace_with_stuff = 0	//If ReplaceWith() actually does a thing or not.
+#ifdef RUNTIME_CHECKING
+		can_replace_with_stuff = 1  //Shitty dumb hack bullshit
+#endif
 		allows_vehicles = 0
-
-	proc/set_dir(newdir)
-		dir = newdir
 
 	proc/burn_down()
 		return
 
-	proc/debug_fireflash_here()
-		set name = "Debug Fireflash Here"
-		set popup_menu = 1
-		SET_ADMIN_CAT(ADMIN_CAT_UNUSED)
-		set desc = "Debug-print the effects of all fireflashes affecting this tile."
-		ff_debug_turf = src
-		ff_debugger = usr.client
-
 		//Properties for open tiles (/floor)
 	#define _UNSIM_TURF_GAS_DEF(GAS, ...) var/GAS = 0;
 	APPLY_TO_GASES(_UNSIM_TURF_GAS_DEF)
-	#undef _UNSIM_TURF_GAS_DEF
 
 	//Properties for airtight tiles (/wall)
 	var/thermal_conductivity = 0.05
 	var/heat_capacity = 1
+
+	#undef _UNSIM_TURF_GAS_DEF
 
 	//Properties for both
 	var/temperature = T20C
@@ -67,9 +58,10 @@ var/global/client/ff_debugger = null
 		..()
 
 	Del()
-		if (cameras && cameras.len)
-			for (var/obj/machinery/camera/C in cameras)
-				C.coveredTiles -= src
+		if (length(cameras))
+			for (var/obj/machinery/camera/C as() in by_type[/obj/machinery/camera])
+				if(C.coveredTiles)
+					C.coveredTiles -= src
 		cameras = null
 		..()
 
@@ -112,7 +104,8 @@ var/global/client/ff_debugger = null
 			return 0
 		for( var/thing in contents )
 			var/atom/A = thing
-			if( A.density && !ismob(A) ) return 0
+			if( A.density && !ismob(A) )
+				return 0
 		return 1
 
 	proc/tilenotify(turf/notifier)
@@ -121,12 +114,12 @@ var/global/client/ff_debugger = null
 
 	proc/generate_worldgen()
 
-	proc/inherit_area()//jerko built a thing
+	proc/inherit_area() //jerko built a thing
 		if(!loc:expandable) return
 		for(var/dir in (cardinal + 0))
 			var/turf/thing = get_step(src, dir)
 			var/area/fuck_everything = thing?.loc
-			if(fuck_everything && fuck_everything.expandable && (fuck_everything.type != /area))
+			if(fuck_everything?.expandable && (fuck_everything.type != /area))
 				fuck_everything.contents += src
 				return
 
@@ -257,7 +250,7 @@ var/global/client/ff_debugger = null
 	if (density)
 		pathable = 0
 	for(var/atom/movable/AM as mob|obj in src)
-		if (AM) // ????
+		if (AM) // ???? x2
 			src.Entered(AM)
 	RL_Init()
 	return
@@ -271,10 +264,11 @@ var/global/client/ff_debugger = null
 		return 1
 
 	//First, check objects to block exit
-	if (cturf && cturf.checkingexit > 0) //dont bother checking unless the turf actually contains a checkable :)
+	if (cturf?.checkingexit > 0) //dont bother checking unless the turf actually contains a checkable :)
 		for(var/thing in cturf)
 			var/obj/obstacle = thing
-			if(obstacle == mover) continue
+			if(obstacle == mover)
+				continue
 			if((mover != obstacle) && (forget != obstacle))
 				if(obstacle.event_handler_flags & USE_CHECKEXIT)
 					if(!obstacle.CheckExit(mover, src))
@@ -303,6 +297,28 @@ var/global/client/ff_debugger = null
 
 						mover.Bump(obstacle,1)
 						return 0
+
+	if (mirrored_physical_zone_created) //checking visual mirrors for blockers if set
+		if (length(src.vis_contents))
+			var/turf/T = locate(/turf) in src.vis_contents
+			if (T)
+				for(var/thing in T)
+
+					var/atom/movable/obstacle = thing
+					if(obstacle == mover) continue
+					if(!mover)	return 0
+					if ((forget != obstacle))
+						if(obstacle.event_handler_flags & USE_CANPASS)
+							if(!obstacle.CanPass(mover, cturf, 1, 0))
+
+								mover.Bump(obstacle, 1)
+								return 0
+						else //cheaper, skip proc call lol lol
+							if (obstacle.density)
+
+								mover.Bump(obstacle,1)
+								return 0
+
 	return 1 //Nothing found to block so return success!
 
 /turf/Exited(atom/movable/Obj, atom/newloc)
@@ -313,6 +329,8 @@ var/global/client/ff_debugger = null
 	if (src.checkinghasentered > 0)  //dont bother checking unless the turf actually contains a checkable :)
 		for(var/thing in src)
 			var/atom/A = thing
+			if(A == Obj)
+				continue
 			// I Said No sanity check
 			if(i >= 50)
 				break
@@ -328,10 +346,6 @@ var/global/client/ff_debugger = null
 				if (!(locate(/obj/table) in src) && !(locate(/obj/rack) in src))
 					Ar.sims_score = min(Ar.sims_score + 4, 100)
 
-#ifdef NON_EUCLIDEAN
-	if(vistarget)
-		vistarget.vis_contents -= Obj
-#endif
 
 	return ..(Obj, newloc)
 
@@ -356,6 +370,8 @@ var/global/client/ff_debugger = null
 	if (src.checkinghasentered > 0)  //dont bother checking unless the turf actually contains a checkable :)
 		for(var/thing in src)
 			var/atom/A = thing
+			if(A == M)
+				continue
 			// I Said No sanity check
 			if(i++ >= 50)
 				break
@@ -375,14 +391,22 @@ var/global/client/ff_debugger = null
 				if (A.event_handler_flags & USE_PROXIMITY)
 					A.HasProximity(M, 1) //IMPORTANT MBCNOTE : ADD USE_PROXIMITY FLAG TO ANY ATOM USING HASPROX THX BB
 
-	if(!src.throw_unlimited && M && M.no_gravity)
+	if(!src.throw_unlimited && M?.no_gravity)
 		BeginSpacePush(M)
 
 #ifdef NON_EUCLIDEAN
-	if(vistarget)
-		vistarget.vis_contents += M
 	if(warptarget)
-		M.set_loc(warptarget)
+		if(OldLoc)
+			switch (warptarget_modifier)
+				if(LANDMARK_VM_WARP_NON_ADMINS) //warp away nonadmin
+					if (ismob(M))
+						var/mob/mob = M
+						if (!mob.client?.holder && mob.last_client)
+							M.set_loc(warptarget)
+						if (rank_to_level(mob.client.holder.rank) < LEVEL_SA)
+							M.set_loc(warptarget)
+				else
+					M.set_loc(warptarget)
 #endif
 
 // Ported from unstable r355
@@ -417,6 +441,13 @@ var/global/client/ff_debugger = null
 	else if (A.y >= (world.maxy - 1))
 		edge_step(A, 0, 3)
 
+/turf/hitby(atom/movable/AM, datum/thrown_thing/thr)
+	. = ..()
+	if(src.density)
+		if(AM.throwforce >= 80)
+			src.meteorhit(AM)
+		. = 'sound/impact_sounds/Generic_Stab_1.ogg'
+
 /turf/proc/levelupdate()
 	for(var/obj/O in src)
 		if(O.level == 1)
@@ -440,7 +471,6 @@ var/global/client/ff_debugger = null
 	var/temp_old = null
 	#define _OLD_GAS_VAR_DEF(GAS, ...) var/GAS ## _old = null;
 	APPLY_TO_GASES(_OLD_GAS_VAR_DEF)
-	#undef _OLD_GAS_VAR_DEF
 
 	if (handle_air)
 		if (istype(src, /turf/simulated)) //Setting oldair & oldparent if simulated.
@@ -451,9 +481,10 @@ var/global/client/ff_debugger = null
 		else if (istype(src, /turf/unsimulated)) //Apparently unsimulated turfs can have static air as well!
 			#define _OLD_GAS_VAR_ASSIGN(GAS, ...) GAS ## _old = src.GAS;
 			APPLY_TO_GASES(_OLD_GAS_VAR_ASSIGN)
-			#undef _OLD_GAS_VAR_ASSIGN
 			temp_old = src.temperature
+			#undef _OLD_GAS_VAR_ASSIGN
 
+	#undef _OLD_GAS_VAR_DEF
 
 	if (istype(src, /turf/simulated/floor))
 		icon_old = icon_state // a hack but OH WELL, leagues better than before
@@ -527,7 +558,7 @@ var/global/client/ff_debugger = null
 	new_turf.name_old = name_old
 
 	if (handle_dir)
-		new_turf.dir = old_dir
+		new_turf.set_dir(old_dir)
 
 	new_turf.levelupdate()
 
@@ -582,18 +613,20 @@ var/global/client/ff_debugger = null
 			#define _OLD_GAS_VAR_NOT_NULL(GAS, ...) GAS ## _old ||
 			if (N.air && (APPLY_TO_GASES(_OLD_GAS_VAR_NOT_NULL) 0)) //Unsimulated tile w/ static atmos -> simulated floor handling
 				#define _OLD_GAS_VAR_RESTORE(GAS, ...) N.air.GAS += GAS ## _old;
+
 				APPLY_TO_GASES(_OLD_GAS_VAR_RESTORE)
-				#undef _OLD_GAS_VAR_RESTORE
 				if (!N.air.temperature)
 					N.air.temperature = temp_old
+
+				#undef _OLD_GAS_VAR_RESTORE
 			#undef _OLD_GAS_VAR_NOT_NULL
 
 			// tell atmos to update this tile's air settings
 			if (air_master)
-				air_master.queue_update_tile(N)
+				air_master.tiles_to_update |= N
 
 		if (air_master && oldparent) //Handling air parent changes for oldparent for Simulated -> Anything
-			air_master.queue_update_group(oldparent) //Puts the oldparent into a queue to update the members.
+			air_master.groups_to_rebuild |= oldparent //Puts the oldparent into a queue to update the members.
 
 	if (istype(new_turf, /turf/simulated))
 		// tells the atmos system "hey this tile changed, maybe rebuild the group / borders"
@@ -828,7 +861,11 @@ var/global/client/ff_debugger = null
 	density = 1
 	pathable = 0
 	turf_flags = ALWAYS_SOLID_FLUID
+#ifndef IN_MAP_EDITOR // display disposal pipes etc. above walls in map editors
 	plane = PLANE_WALL
+#else
+	plane = PLANE_FLOOR
+#endif
 
 /turf/unsimulated/wall/solidcolor
 	name = "invisible solid turf"
@@ -873,10 +910,8 @@ var/global/client/ff_debugger = null
 	#endif
 		lobby_titlecard = src
 
-#ifndef RP_MODE
 		if (!player_capa)
 			encourage()
-#endif
 
 	proc/encourage()
 		var/obj/overlay/clickable = new/obj/overlay(src)
@@ -1035,7 +1070,7 @@ Other Goonstation servers:[serverList]"}
 
 	if (A.z == 1 && zlevel != A.z)
 		if (!(isitem(A) && A:w_class <= 2))
-			for (var/obj/machinery/communications_dish/C in comm_dishes)
+			for_by_tcl(C, /obj/machinery/communications_dish)
 				C.add_cargo_logs(A)
 
 	A.z = zlevel
@@ -1044,7 +1079,7 @@ Other Goonstation servers:[serverList]"}
 	if (newy)
 		A.y = newy
 	SPAWN_DBG (0)
-		if ((A && A.loc))
+		if ((A?.loc))
 			A.loc.Entered(A)
 
 //Vr turf is a jerk and pretends to be broken.
@@ -1101,7 +1136,7 @@ Other Goonstation servers:[serverList]"}
 
 	New()
 		..()
-		dir = pick(NORTH,SOUTH)
+		src.set_dir(pick(NORTH,SOUTH))
 
 /turf/unsimulated/pool/no_animate
 	name = "pool floor"
@@ -1110,8 +1145,7 @@ Other Goonstation servers:[serverList]"}
 
 	New()
 		..()
-		dir = pick(NORTH,SOUTH)
-
+		src.set_dir(pick(NORTH,SOUTH))
 /turf/simulated/pool
 	name = "water"
 	icon = 'icons/obj/stationobjs.dmi'
@@ -1119,7 +1153,7 @@ Other Goonstation servers:[serverList]"}
 
 	New()
 		..()
-		dir = pick(NORTH,SOUTH)
+		src.set_dir(pick(NORTH,SOUTH))
 
 /turf/simulated/pool/no_animate
 	name = "pool floor"
@@ -1128,7 +1162,7 @@ Other Goonstation servers:[serverList]"}
 
 	New()
 		..()
-		dir = pick(NORTH,SOUTH)
+		src.set_dir(pick(NORTH,SOUTH))
 
 /turf/unsimulated/grasstodirt
 	name = "grass"
@@ -1183,7 +1217,7 @@ Other Goonstation servers:[serverList]"}
 /turf/unsimulated/nicegrass/random
 	New()
 		..()
-		src.dir = pick(cardinal)
+		src.set_dir(pick(cardinal))
 
 /turf/unsimulated/floor/ballpit
 	name = "ball pit"

@@ -86,11 +86,11 @@
 		switch (act)
 			if ("scream","hiss")
 				if (src.emote_check(voluntary, 50))
-					playsound(get_turf(src), "sound/voice/animal/cat_hiss.ogg", 80, 1)
+					playsound(get_turf(src), "sound/voice/animal/cat_hiss.ogg", 80, 1, channel=VOLUME_CHANNEL_EMOTE)
 					return "<b>[src]</b> hisses!"
 			if ("smile","coo")
 				if (src.emote_check(voluntary, 50))
-					playsound(get_turf(src), "sound/voice/babynoise.ogg", 50, 1)
+					playsound(get_turf(src), "sound/voice/babynoise.ogg", 50, 1, channel=VOLUME_CHANNEL_EMOTE)
 					return "<b>[src]</b> coos!"
 		return null
 
@@ -174,6 +174,7 @@
 	density = 0
 	flags = TABLEPASS
 	fits_under_table = 1
+	can_grab = 0 // Causes issues with tablepass, and doesn't make too much sense
 	health_brute = 25
 	health_burn = 25
 	good_grip = 0
@@ -437,7 +438,7 @@
 	var/turf/Q = get_turf(location)
 	if (!Q)
 		return
-	if (ejectables && ejectables.len)
+	if (length(ejectables))
 		for (var/atom/movable/I in ejectables)
 			var/turf/target = null
 			var/tries = 0
