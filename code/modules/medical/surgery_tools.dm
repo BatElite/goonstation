@@ -86,6 +86,11 @@ CONTAINS:
 	icon = 'icons/effects/VR.dmi'
 	icon_state = "scalpel"
 
+/obj/item/scalpel/syndicate
+	New()
+		..()
+		reagents.maximum_volume = 60
+
 /* ====================================================== */
 /* -------------------- Circular Saw -------------------- */
 /* ====================================================== */
@@ -156,6 +161,11 @@ CONTAINS:
 	icon = 'icons/effects/VR.dmi'
 	icon_state = "saw"
 
+/obj/item/circular_saw/syndicate
+	New()
+		..()
+		reagents.maximum_volume = 60
+
 /* =========================================================== */
 /* -------------------- Enucleation Spoon -------------------- */
 /* =========================================================== */
@@ -221,6 +231,10 @@ CONTAINS:
 		if (..() && reagents)
 			reagents.move_trigger(M, kindof)
 
+/obj/item/surgical_spoon/syndicate
+	New()
+		..()
+		reagents.maximum_volume = 60
 /* ==================================================== */
 /* -------------------- Staple Gun -------------------- */
 /* ==================================================== */
@@ -1683,3 +1697,8 @@ keeping this here because I want to make something else with it eventually
 			. = ..()
 			SPAWN_DBG(1 DECI SECOND) //sync with the organs spawn
 				make_cleanable(/obj/decal/cleanable/blood/gibs, src.loc)
+
+/obj/item/scissors/surgical_scissors/syndicate
+	New()
+		..()
+		reagents.maximum_volume = 60

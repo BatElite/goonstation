@@ -658,6 +658,14 @@ This is basically useless for anyone but miners.
 	job = list("Medical Doctor", "Medical Director", "Research Director", "Scientist", "Bartender")
 	blockedmode = list(/datum/game_mode/spy, /datum/game_mode/revolution)
 
+/datum/syndicate_buylist/traitor/syndie_surgery
+	name = "Syndie Surgery(tm) high-capacity surgical tools"
+	item = /obj/item/storage/box/syndie_surgery
+	cost = 3
+	desc = "Drawing too much suspicion poisoning your surgery tools? This set is engineered with an internal reservoir to last several successive surgeries! Despite the box' claims, the contents are 100% guaranteed not sterile."
+	job = list("Medical Doctor", "Medical Director", "Research Director", "Scientist", "Geneticist", "Roboticist")
+	blockedmode = list(/datum/game_mode/spy, /datum/game_mode/revolution)
+
 /datum/syndicate_buylist/traitor/powergloves
 	name = "Power Gloves"
 	item = /obj/item/clothing/gloves/powergloves

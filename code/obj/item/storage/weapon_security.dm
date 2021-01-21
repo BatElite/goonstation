@@ -336,6 +336,15 @@
 	icon_state = "box"
 	spawn_contents = list(/obj/item/reagent_containers/glass/bottle/poison = 7)
 
+/obj/item/storage/box/syndie_surgery
+	name = "surgical tool set"
+	desc = "A box for a set of sterile surgical tools."
+	icon_state = "health_upgr"
+	spawn_contents = list(/obj/item/scalpel/syndicate,\
+	/obj/item/surgical_spoon/syndicate,\
+	/obj/item/circular_saw/syndicate,\
+	/obj/item/scissors/surgical_scissors/syndicate)
+
 // Starter kit used in the conspiracy/spy game mode.
 /obj/item/storage/box/spykit
 	name = "spy starter kit"
