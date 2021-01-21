@@ -1672,7 +1672,6 @@ keeping this here because I want to make something else with it eventually
 
 	New()
 		..()
-		src.create_reagents(5)
 		handle = image('icons/obj/surgery.dmi', "")
 		if (prob(1) && prob(10))	// 1:1000 chance
 			handle.icon_state = "surgical-scissors-handle-c"

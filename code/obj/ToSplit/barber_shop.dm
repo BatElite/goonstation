@@ -41,6 +41,7 @@
 
 	New()
 		..()
+		src.create_reagents(5)
 		src.setItemSpecial(/datum/item_special/double) // should be doable even in barbermode
 		AddComponent(/datum/component/transfer_on_attack)
 		AddComponent(/datum/component/barber/haircut)
@@ -50,9 +51,19 @@
 	attack(mob/M as mob, mob/user as mob)
 		if (src.remove_bandage(M, user))
 			return 1
-		if (snip_surgery(M, user))
+		if (src.reagents && src.reagents.total_volume)
+			logTheThing("combat", user, M, "used [src] on [constructTarget(M,"combat")] (<b>Intent</b>: <i>[user.a_intent]</i>) (<b>Targeting</b>: <i>[user.zone_sel.selecting]</i>) [log_reagents(src)]")
+		else
+			logTheThing("combat", user, M, "used [src] on [constructTarget(M,"combat")] (<b>Intent</b>: <i>[user.a_intent]</i>) (<b>Targeting</b>: <i>[user.zone_sel.selecting]</i>)")
+		if (!snip_surgery(M, user))
+			return ..()
+		else
+			if (src.reagents && src.reagents.total_volume)//ugly but this is the sanest way I can see to make the surgical use 'ignore' armor
+				src.reagents.trans_to(M,5)
+			return
+		/*if (snip_surgery(M, user))
 			return 1
-		..()
+		..()*/
 
 	custom_suicide = 1
 	suicide(var/mob/user as mob)

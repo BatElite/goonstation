@@ -338,7 +338,7 @@
 
 /obj/item/storage/box/syndie_surgery
 	name = "surgical tool set"
-	desc = "A box for a set of sterile surgical tools."
+	desc = "A box for a set of sterile surgical tools. The brand has been blacked out."
 	icon_state = "health_upgr"
 	spawn_contents = list(/obj/item/scalpel/syndicate,\
 	/obj/item/surgical_spoon/syndicate,\
