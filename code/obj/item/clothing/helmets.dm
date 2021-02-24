@@ -195,8 +195,7 @@
 
 	commissar_cap
 		name = "commander's cap"
-		wear_image_icon = 'icons/mob/fruithat.dmi'
-		icon_state = "commissar_cap"
+		icon_state = "syndie_commander"
 		desc = "A terrifyingly tall, black & red cap, typically worn by a Syndicate Nuclear Operative Commander. Maybe they're trying to prove something to the Head of Security?"
 		seal_hair = 0
 		see_face = 1
@@ -261,8 +260,8 @@
 
 		medic
 			name = "specialist health monitor"
-			icon_state = "syndie_specialist"
-			item_state = "syndie_specialist"
+			icon_state = "syndie_specialist-medic"
+			item_state = "syndie_specialist-medic"
 			permeability_coefficient = 0.01
 			c_flags = SPACEWEAR | COVERSEYES | COVERSMOUTH | BLOCKCHOKE
 			var/client/assigned = null
