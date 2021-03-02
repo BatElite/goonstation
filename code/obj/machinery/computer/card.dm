@@ -265,7 +265,10 @@
 				t1 = strip_html(t1, 100, 1)
 				playsound(src.loc, "keyboard", 50, 1, -15)
 			else
+				var/had_maxsec = modify.access.Find(access_maxsec) // maxsec access isn't exactly replaceable...
 				src.modify.access = get_access(t1)
+				if (had_maxsec)
+					src.modify.access += access_maxsec // ...so we'll put it back in afterwards
 
 			//Wire: This possibly happens after the input() above, so we re-do the initial checks
 			if (src.authenticated && src.modify)
