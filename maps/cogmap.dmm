@@ -43184,10 +43184,6 @@
 /obj/reagent_dispensers/fueltank,
 /turf/simulated/floor/grime,
 /area/station/storage/warehouse)
-"bRW" = (
-/obj/machinery/bot/floorbot,
-/turf/simulated/floor/grime,
-/area/station/storage/warehouse)
 "bRX" = (
 /obj/item/cable_coil/cut{
 	icon_state = "coil1"
@@ -63553,6 +63549,13 @@
 /obj/machinery/turret,
 /turf/space,
 /area/station/turret_protected/armory_outside)
+"wCE" = (
+/obj/machinery/atmospherics/pipe/manifold{
+	dir = 4
+	},
+/obj/machinery/bot/floorbot,
+/turf/simulated/floor/plating,
+/area/station/atmos/hookups/east)
 "wIz" = (
 /obj/disposalpipe/segment,
 /obj/table/auto,
@@ -115702,7 +115705,7 @@ bXX
 bZB
 bZL
 cbf
-cco
+wCE
 cdz
 ceQ
 cgg
@@ -117506,7 +117509,7 @@ bts
 bNO
 bPe
 bGc
-bRW
+bDP
 bTt
 bIF
 bVY
