@@ -551,14 +551,7 @@ A Flamethrower in various states of assembly
 	if (src.fueltank)
 		src.inventory_counter.update_percent(src.fueltank.reagents.total_volume, src.fueltank.reagents.maximum_volume)
 
-	var/fuel = "_no_fuel"
-	if(src.fueltank)
-		fuel = "_fuel"
-	src.icon_state = "flamethrower_oxy[fuel]"
-	var/oxy = "_no_oxy"
-	if(src.gastank)
-		oxy = "_oxy"
-	src.icon_state = "flamethrower[oxy]_fuel"
+	src.icon_state = "flamethrower[src.gastank ? "_oxy" : "_no_oxy"][src.fueltank ? "_fuel" : "_no_fuel"]"
 
 	src.updateSelfDialog()
 	SPAWN_DBG(0.5 SECONDS)
