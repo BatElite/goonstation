@@ -1604,7 +1604,9 @@ datum/preferences
 		//Wire: Not everything has a bioholder you morons
 		if (character.bioHolder)
 			character.bioHolder.age = age
-			character.bioHolder.mobAppearance.CopyOther(AH)
+			//Now happens in bioHolder.New() using AH_we_spawned_with, as the preferences AH is passed when a player's mob is created anyway.
+			//Reason being that limb (item) colouring happens using mobAppearance before we reach this code, so they were all using the defaults.
+			//character.bioHolder.mobAppearance.CopyOther(AH)
 			character.bioHolder.mobAppearance.gender = src.gender
 			character.bioHolder.mobAppearance.flavor_text = src.flavor_text
 
