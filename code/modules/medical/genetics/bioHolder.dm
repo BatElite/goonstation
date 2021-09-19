@@ -356,7 +356,7 @@ var/list/datum/bioEffect/mutini_effects = list()
 		uid_hash = md5(Uid)
 		bioUids[Uid] = null
 		mobAppearance = new/datum/appearanceHolder()
-		if (!isnull(owner.AH_we_spawned_with))
+		if (!isnull(owner?.AH_we_spawned_with))
 			mobAppearance.CopyOther(owner.AH_we_spawned_with) //Should fix people's limbs being the default colour
 		mobAppearance.owner = owner
 		mobAppearance.parentHolder = src
