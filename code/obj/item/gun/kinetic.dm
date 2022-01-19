@@ -71,9 +71,9 @@ ABSTRACT_TYPE(/obj/item/gun/kinetic)
 	update_icon()
 
 		if (src.ammo)
-			inventory_counter.update_number(src.ammo.amount_left)
+			inventory_counter?.update_number(src.ammo.amount_left)
 		else
-			inventory_counter.update_text("-")
+			inventory_counter?.update_text("-")
 
 		if(src.has_empty_state)
 			if (src.ammo.amount_left < 1 && !findtext(src.icon_state, "-empty")) //sanity check
@@ -1339,7 +1339,7 @@ ABSTRACT_TYPE(/obj/item/gun/kinetic)
 	name = "\improper MPRT-7"
 	icon = 'icons/obj/large/64x32.dmi'
 	inhand_image_icon = 'icons/mob/inhand/hand_weapons.dmi'
-	icon_state = "rpg7"
+	icon_state = "MPRT_A"
 	uses_multiple_icon_states = 1
 	item_state = "rpg7"
 	wear_image_icon = 'icons/mob/clothing/back.dmi'
@@ -1354,25 +1354,31 @@ ABSTRACT_TYPE(/obj/item/gun/kinetic)
 	can_dual_wield = 0
 	two_handed = 1
 	muzzle_flash = "muzzle_flash_launch"
-	has_empty_state = 1
+	//has_empty_state = 1 //It does have an empty state but the visual variants means we can't use the regular code
 	default_magazine = /obj/item/ammo/bullets/rpg
 	ammobag_magazines = list(/obj/item/ammo/bullets/rpg)
 	ammobag_spec_required = TRUE
 	ammobag_restock_cost = 4
+	var/visual_variant = FALSE //There's two flavours of MPRT now woo (FALSE is A, TRUE is B)
 
 	New()
 		START_TRACKING_CAT(TR_CAT_NUKE_OP_STYLE)
 		ammo = new default_magazine
 		ammo.amount_left = 0 // Spawn empty.
 		set_current_projectile(new /datum/projectile/bullet/rpg)
+		if (prob(50))
+			visual_variant = TRUE
+			update_icon()
 		..()
 
 	update_icon()
 		..()
 		if (src.ammo.amount_left < 1)
-			src.item_state = "rpg7_empty"
+			src.icon_state = "[visual_variant ? "MPRT_B-empty" : "MPRT_A-empty"]"
+			src.item_state = "[visual_variant ? "MPRT_B-empty" : "MPRT_A-empty"]"
 		else
-			src.item_state = "rpg7"
+			src.icon_state = "[visual_variant ? "MPRT_B" : "MPRT_A"]"
+			src.item_state = "[visual_variant ? "MPRT_B" : "MPRT_A"]"
 		if (ishuman(src.loc))
 			var/mob/living/carbon/human/H = src.loc
 			H.update_inhands()

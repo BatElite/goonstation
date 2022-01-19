@@ -920,7 +920,7 @@
 	amount_left = 1
 	max_amount = 1
 	icon = 'icons/obj/projectiles.dmi'
-	icon_state = "rpg_rocket"
+	icon_state = "MPRT_rocket"
 	ammo_type = new /datum/projectile/bullet/rpg
 	caliber = 1.58
 	w_class = W_CLASS_NORMAL

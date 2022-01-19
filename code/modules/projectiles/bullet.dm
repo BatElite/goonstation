@@ -1248,7 +1248,7 @@ datum/projectile/bullet/autocannon
 	name = "MPRT rocket"
 	window_pass = 0
 	icon = 'icons/obj/projectiles.dmi'
-	icon_state = "rpg_rocket"
+	icon_state = "MPRT_rocket"
 	damage_type = D_KINETIC
 	hit_type = DAMAGE_BLUNT
 	power = 40
