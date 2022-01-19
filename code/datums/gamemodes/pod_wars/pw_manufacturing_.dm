@@ -412,8 +412,7 @@ ABSTRACT_TYPE(/datum/manufacture/pod_wars/pod)
 		"salicylic_acid", "blood",\
 		"menthol", "antihistamine")
 
-	icon_state = "dispenser"
-	icon_base = "dispenser"
+	icon_state = "dispenser_med"
 	dispenser_name = "Medical"
 
 
