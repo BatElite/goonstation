@@ -24688,14 +24688,6 @@
 	},
 /turf/space,
 /area/space)
-"bmX" = (
-/obj/lattice{
-	dir = 1;
-	icon_state = "lattice-dir"
-	},
-/obj/effects/background_objects/x3,
-/turf/space,
-/area/space)
 "bmY" = (
 /obj/lattice{
 	dir = 5;
@@ -25162,6 +25154,10 @@
 /obj/machinery/ai_status_display{
 	pixel_y = 28
 	},
+/turf/space,
+/area/space)
+"qFd" = (
+/obj/effects/background_objects/x3,
 /turf/space,
 /area/space)
 "rdq" = (
@@ -38502,7 +38498,7 @@ aaa
 aaa
 aaa
 aaa
-efg
+aaa
 anF
 aWr
 aWF
@@ -68813,7 +68809,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+efg
 aaa
 aaa
 aaa
@@ -72479,7 +72475,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+qFd
 aaa
 aaa
 aaa
@@ -73337,7 +73333,7 @@ aaa
 aaa
 aaa
 aaa
-auA
+aaa
 agt
 agS
 ahj
@@ -79111,7 +79107,7 @@ boP
 boP
 boP
 boP
-bmX
+boP
 boP
 boP
 boP
@@ -89838,7 +89834,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+auA
 aaa
 aaa
 aaa

@@ -120,7 +120,7 @@ toxic - poisons
 //0.223
 /datum/projectile/bullet/assault_rifle
 	name = "bullet"
-	shot_sound = 'sound/weapons/ak47shot.ogg'  // todo: single shot sound?
+	shot_sound = 'sound/weapons/assrifle.ogg'  // todo: single shot sound?
 	power = 45
 	cost = 1
 	ks_ratio = 1.0
@@ -138,7 +138,6 @@ toxic - poisons
 
 /datum/projectile/bullet/assault_rifle/burst
 	sname = "burst fire"
-	shot_sound = 'sound/weapons/ak47shot.ogg'
 	power = 45
 	cost = 2
 	shot_number = 2
@@ -181,11 +180,6 @@ toxic - poisons
 	icon_turf_hit = "bhole-small"
 	implanted = /obj/item/implant/projectile/bullet_308
 	casing = /obj/item/casing/rifle
-
-/datum/projectile/bullet/ak47/semiauto
-	power = 40
-	cost = 1
-	shot_number = 1
 
 /datum/projectile/bullet/rifle_3006
 	name = "bullet"
