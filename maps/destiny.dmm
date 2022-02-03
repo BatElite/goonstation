@@ -28827,6 +28827,29 @@
 	},
 /turf/simulated/floor/black,
 /area/station/hallway/primary/west)
+"hpj" = (
+/obj/table/reinforced/chemistry/auto,
+/obj/item/pinpointer/category/artifacts/safe{
+	pixel_x = 6;
+	pixel_y = -1
+	},
+/obj/item/device/audio_log{
+	pixel_x = -5;
+	pixel_y = 10
+	},
+/obj/item/device/audio_log{
+	pixel_x = -5
+	},
+/obj/cable{
+	icon_state = "4-8"
+	},
+/obj/item/audio_tape{
+	pixel_y = 5
+	},
+/turf/simulated/floor/purplewhite{
+	dir = 1
+	},
+/area/station/science/artifact)
 "hps" = (
 /obj/decal/tile_edge/line/green{
 	dir = 4;
@@ -36728,10 +36751,6 @@
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/plating/random,
 /area/station/science/lab)
-"lNC" = (
-/obj/bookshelf/persistent,
-/turf/simulated/floor,
-/area/station/crew_quarters/lounge/starboard)
 "lNG" = (
 /obj/cable{
 	icon_state = "4-8"
@@ -44115,6 +44134,13 @@
 "pIj" = (
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/hallway/primary/west)
+"pIJ" = (
+/obj/bookshelf/persistent{
+	density = 0;
+	pixel_y = 19
+	},
+/turf/simulated/floor,
+/area/station/crew_quarters/lounge/starboard)
 "pJz" = (
 /obj/cable{
 	icon_state = "4-8"
@@ -49356,29 +49382,6 @@
 /obj/disposalpipe/segment,
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/medical/medbay/pharmacy)
-"sFY" = (
-/obj/table/reinforced/chemistry/auto,
-/obj/item/pinpointer/category/artifacts/safe{
-	pixel_x = 6;
-	pixel_y = -1
-	},
-/obj/item/device/audio_log{
-	pixel_x = -5;
-	pixel_y = 10
-	},
-/obj/item/device/audio_log{
-	pixel_x = -5
-	},
-/obj/cable{
-	icon_state = "4-8"
-	},
-/obj/item/audio_tape{
-	pixel_y = 5
-	},
-/turf/simulated/floor/purplewhite{
-	dir = 1
-	},
-/area/station/science/artifact)
 "sGr" = (
 /obj/rack,
 /obj/item/clothing/suit/fire,
@@ -108306,7 +108309,7 @@ tNB
 vJJ
 ekq
 aiK
-lNC
+pIJ
 aGb
 aIu
 wig
@@ -118661,7 +118664,7 @@ ycV
 wOQ
 jyn
 raN
-sFY
+hpj
 oiF
 oTi
 xQd

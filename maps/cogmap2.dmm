@@ -30016,19 +30016,6 @@
 	},
 /turf/simulated/floor/shuttlebay,
 /area/station/hangar/main)
-"brl" = (
-/obj/window/auto/reinforced,
-/obj/cable{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/obj/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/obj/grille/steel,
-/turf/simulated/floor/plating,
-/area/station/security/checkpoint/podbay)
 "brm" = (
 /obj/machinery/light{
 	dir = 1;
@@ -36806,39 +36793,6 @@
 	},
 /turf/space,
 /area/space)
-"bEK" = (
-/obj/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/light{
-	dir = 8;
-	layer = 9.1;
-	pixel_x = -10
-	},
-/obj/rack,
-/obj/machinery/atmospherics/pipe/simple/color_pipe/yellow_pipe/overfloor/northeast,
-/obj/item/clothing/suit/armor/EOD,
-/obj/item/clothing/suit/armor/EOD,
-/obj/item/clothing/head/helmet/EOD,
-/obj/item/clothing/head/helmet/EOD,
-/obj/item/clothing/mask/gas,
-/obj/item/clothing/mask/gas,
-/obj/item/clothing/glasses/thermal,
-/obj/item/clothing/glasses/thermal,
-/obj/item/clothing/glasses/nightvision,
-/obj/item/clothing/glasses/nightvision,
-/obj/item/breaching_charge{
-	pixel_x = 7;
-	pixel_y = -6
-	},
-/obj/item/breaching_charge{
-	pixel_x = -6;
-	pixel_y = -6
-	},
-/turf/simulated/floor/engine,
-/area/station/ai_monitored/armory)
 "bEL" = (
 /obj/grille/steel,
 /obj/disposalpipe/segment/mail/horizontal,
@@ -37405,23 +37359,6 @@
 	dir = 8
 	},
 /area/station/hallway/primary/west)
-"bFX" = (
-/obj/window/auto/reinforced,
-/obj/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/obj/cable{
-	icon_state = "0-4"
-	},
-/obj/cable{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/obj/grille/steel,
-/turf/simulated/floor/plating,
-/area/station/security/checkpoint/podbay)
 "bFY" = (
 /obj/disposalpipe/segment/transport{
 	dir = 4
@@ -43282,20 +43219,6 @@
 	},
 /turf/simulated/floor/delivery,
 /area/station/security/checkpoint/podbay)
-"bQi" = (
-/obj/machinery/atmospherics/pipe/simple/color_pipe/cyan_pipe/vertical,
-/obj/window/auto/reinforced,
-/obj/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/obj/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/obj/grille/steel,
-/turf/simulated/floor/plating,
-/area/station/security/checkpoint/podbay)
 "bQj" = (
 /obj/cable{
 	d1 = 4;
@@ -43951,26 +43874,6 @@
 /turf/unsimulated/floor/red/side{
 	dir = 1
 	},
-/area/station/security/checkpoint/podbay)
-"bRK" = (
-/obj/machinery/atmospherics/pipe/simple/insulated/cold{
-	dir = 6
-	},
-/obj/machinery/meter,
-/obj/window/auto/reinforced,
-/obj/cable{
-	icon_state = "0-4"
-	},
-/obj/cable{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/obj/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/obj/grille/steel,
-/turf/simulated/floor/plating,
 /area/station/security/checkpoint/podbay)
 "bRL" = (
 /obj/machinery/disposal_pipedispenser/mobile,
@@ -44820,17 +44723,6 @@
 /obj/machinery/atmospherics/pipe/simple/color_pipe/cyan_pipe/northwest,
 /obj/disposalpipe/segment/mail/vertical,
 /turf/simulated/floor,
-/area/station/security/checkpoint/podbay)
-"bTr" = (
-/obj/machinery/atmospherics/pipe/simple/insulated/cold,
-/obj/window/auto/reinforced,
-/obj/cable{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/obj/cable,
-/obj/grille/steel,
-/turf/simulated/floor/plating,
 /area/station/security/checkpoint/podbay)
 "bTs" = (
 /obj/machinery/light{
@@ -68166,17 +68058,6 @@
 	},
 /turf/simulated/floor/plating/damaged3,
 /area/station/maintenance/south)
-"cUG" = (
-/obj/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/bookshelf/persistent,
-/turf/simulated/floor/arrival{
-	dir = 9
-	},
-/area/station/hallway/secondary/exit)
 "cUH" = (
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/mining/staff_room)
@@ -68721,13 +68602,6 @@
 "cVQ" = (
 /turf/simulated/floor/delivery,
 /area/station/maintenance/northeast)
-"cVR" = (
-/obj/machinery/atmospherics/pipe/simple/insulated/cold,
-/obj/window/auto/reinforced,
-/obj/cable,
-/obj/grille/steel,
-/turf/simulated/floor/plating,
-/area/station/security/checkpoint/podbay)
 "cVS" = (
 /obj/grille/steel,
 /obj/window/auto/reinforced,
@@ -71075,23 +70949,6 @@
 /obj/cable,
 /obj/landmark/artifact,
 /turf/simulated/floor/delivery,
-/area/station/science/artifact)
-"daE" = (
-/obj/table/reinforced/auto,
-/obj/item/device/matanalyzer,
-/obj/item/device/matanalyzer,
-/obj/machinery/light,
-/obj/artifact_paper_dispenser{
-	pixel_x = -6;
-	pixel_y = 10
-	},
-/obj/item/pinpointer/category/artifacts/safe{
-	pixel_x = 5;
-	pixel_y = 8
-	},
-/obj/item/hand_labeler,
-/obj/item/hand_labeler,
-/turf/simulated/floor/purple,
 /area/station/science/artifact)
 "daF" = (
 /obj/machinery/power/data_terminal,
@@ -77997,6 +77854,23 @@
 /obj/item/shipcomponent/mainweapon/phaser,
 /turf/simulated/floor/shuttlebay,
 /area/station/security/checkpoint/podbay)
+"foz" = (
+/obj/window/auto/reinforced,
+/obj/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/cable{
+	icon_state = "0-4"
+	},
+/obj/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/grille/steel,
+/turf/simulated/floor/plating,
+/area/station/security/checkpoint/podbay)
 "fuP" = (
 /obj/cable{
 	d1 = 4;
@@ -78272,6 +78146,17 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/hangar/escape)
+"huO" = (
+/obj/machinery/atmospherics/pipe/simple/insulated/cold,
+/obj/window/auto/reinforced,
+/obj/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/cable,
+/obj/grille/steel,
+/turf/simulated/floor/plating,
+/area/station/security/checkpoint/podbay)
 "hyI" = (
 /obj/machinery/launcher_loader/south{
 	door_delay = 5
@@ -78283,31 +78168,6 @@
 	icon_state = "12"
 	},
 /area/station/crew_quarters/arcade)
-"hGX" = (
-/obj/rack,
-/obj/item/clothing/suit/armor/heavy,
-/obj/item/clothing/suit/armor/heavy,
-/obj/machinery/atmospherics/pipe/simple/color_pipe/cyan_pipe/overfloor/horizontal,
-/obj/item/clothing/mask/gas,
-/obj/item/clothing/mask/gas,
-/obj/item/clothing/glasses/thermal,
-/obj/item/clothing/glasses/thermal,
-/obj/item/clothing/head/helmet/riot,
-/obj/item/clothing/head/helmet/riot,
-/obj/item/breaching_hammer{
-	pixel_x = -1;
-	pixel_y = 1
-	},
-/obj/item/breaching_charge{
-	pixel_x = 7;
-	pixel_y = -6
-	},
-/obj/item/breaching_charge{
-	pixel_x = -6;
-	pixel_y = -6
-	},
-/turf/simulated/floor/engine,
-/area/station/ai_monitored/armory)
 "hJl" = (
 /obj/decal/poster/wallsign/hazard_caution,
 /turf/simulated/wall/auto/reinforced/supernorn,
@@ -78809,6 +78669,26 @@
 /obj/window/auto/crystal/reinforced,
 /turf/simulated/floor/plating,
 /area/station/maintenance/southeast)
+"kaC" = (
+/obj/machinery/atmospherics/pipe/simple/insulated/cold{
+	dir = 6
+	},
+/obj/machinery/meter,
+/obj/window/auto/reinforced,
+/obj/cable{
+	icon_state = "0-4"
+	},
+/obj/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/grille/steel,
+/turf/simulated/floor/plating,
+/area/station/security/checkpoint/podbay)
 "kaE" = (
 /turf/simulated/floor/stairs{
 	dir = 1;
@@ -78910,6 +78790,39 @@
 	dir = 6
 	},
 /area/space)
+"kRr" = (
+/obj/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/light{
+	dir = 8;
+	layer = 9.1;
+	pixel_x = -10
+	},
+/obj/rack,
+/obj/machinery/atmospherics/pipe/simple/color_pipe/yellow_pipe/overfloor/northeast,
+/obj/item/clothing/suit/armor/EOD,
+/obj/item/clothing/suit/armor/EOD,
+/obj/item/clothing/head/helmet/EOD,
+/obj/item/clothing/head/helmet/EOD,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/glasses/thermal,
+/obj/item/clothing/glasses/thermal,
+/obj/item/clothing/glasses/nightvision,
+/obj/item/clothing/glasses/nightvision,
+/obj/item/breaching_charge{
+	pixel_x = 7;
+	pixel_y = -6
+	},
+/obj/item/breaching_charge{
+	pixel_x = -6;
+	pixel_y = -6
+	},
+/turf/simulated/floor/engine,
+/area/station/ai_monitored/armory)
 "kSc" = (
 /obj/disposalpipe/segment/mail/horizontal,
 /obj/cable{
@@ -79072,6 +78985,19 @@
 /obj/table/reinforced/auto,
 /turf/simulated/floor/engine,
 /area/station/hallway/primary/west)
+"lSf" = (
+/obj/window/auto/reinforced,
+/obj/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/grille/steel,
+/turf/simulated/floor/plating,
+/area/station/security/checkpoint/podbay)
 "lVF" = (
 /obj/machinery/power/pt_laser{
 	dir = 8
@@ -79162,6 +79088,20 @@
 /obj/machinery/light,
 /turf/simulated/floor/grass/leafy,
 /area/station/ranch)
+"miv" = (
+/obj/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/bookshelf/persistent{
+	density = 0;
+	pixel_y = 19
+	},
+/turf/simulated/floor/arrival{
+	dir = 9
+	},
+/area/station/hallway/secondary/exit)
 "mjk" = (
 /obj/disposalpipe/segment/mail/vertical,
 /obj/machinery/atmospherics/pipe/simple/color_pipe/cyan_pipe/vertical,
@@ -80066,6 +80006,20 @@
 /obj/random_item_spawner/tools,
 /turf/simulated/floor/plating,
 /area/space)
+"rLa" = (
+/obj/machinery/atmospherics/pipe/simple/color_pipe/cyan_pipe/vertical,
+/obj/window/auto/reinforced,
+/obj/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/grille/steel,
+/turf/simulated/floor/plating,
+/area/station/security/checkpoint/podbay)
 "rOo" = (
 /obj/railing/orange/reinforced,
 /turf/simulated/floor/grasstodirt,
@@ -80459,6 +80413,23 @@
 /obj/machinery/flasher/portable,
 /turf/simulated/floor/specialroom/bar,
 /area/station/security/checkpoint/chapel)
+"tJd" = (
+/obj/table/reinforced/auto,
+/obj/item/device/matanalyzer,
+/obj/item/device/matanalyzer,
+/obj/machinery/light,
+/obj/artifact_paper_dispenser{
+	pixel_x = -6;
+	pixel_y = 10
+	},
+/obj/item/pinpointer/category/artifacts/safe{
+	pixel_x = 5;
+	pixel_y = 8
+	},
+/obj/item/hand_labeler,
+/obj/item/hand_labeler,
+/turf/simulated/floor/purple,
+/area/station/science/artifact)
 "tKc" = (
 /obj/cable{
 	d1 = 4;
@@ -80672,6 +80643,31 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/hallway/primary/west)
+"vrI" = (
+/obj/rack,
+/obj/item/clothing/suit/armor/heavy,
+/obj/item/clothing/suit/armor/heavy,
+/obj/machinery/atmospherics/pipe/simple/color_pipe/cyan_pipe/overfloor/horizontal,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/glasses/thermal,
+/obj/item/clothing/glasses/thermal,
+/obj/item/clothing/head/helmet/riot,
+/obj/item/clothing/head/helmet/riot,
+/obj/item/breaching_hammer{
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/item/breaching_charge{
+	pixel_x = 7;
+	pixel_y = -6
+	},
+/obj/item/breaching_charge{
+	pixel_x = -6;
+	pixel_y = -6
+	},
+/turf/simulated/floor/engine,
+/area/station/ai_monitored/armory)
 "vrU" = (
 /obj/table/wood/auto,
 /obj/item/plantanalyzer,
@@ -80704,6 +80700,13 @@
 /obj/storage/closet/medicalclothes,
 /turf/simulated/floor/blue,
 /area/station/medical/medbay)
+"vxY" = (
+/obj/machinery/atmospherics/pipe/simple/insulated/cold,
+/obj/window/auto/reinforced,
+/obj/cable,
+/obj/grille/steel,
+/turf/simulated/floor/plating,
+/area/station/security/checkpoint/podbay)
 "vyj" = (
 /obj/table/auto,
 /obj/item/plate,
@@ -111283,7 +111286,7 @@ cWk
 cXE
 cWk
 cZF
-daE
+tJd
 cTD
 dcz
 ddI
@@ -113950,7 +113953,7 @@ bCc
 bCg
 bCl
 bFO
-bQi
+rLa
 bRJ
 bTq
 cCa
@@ -114252,8 +114255,8 @@ bhA
 bfc
 cdr
 bFQ
-brl
-bFX
+lSf
+foz
 rVb
 nLO
 bWy
@@ -114555,9 +114558,9 @@ bfc
 bCO
 bFW
 bHV
-bRK
-bTr
-cVR
+kaC
+huO
+vxY
 bWz
 bhA
 bhA
@@ -134481,8 +134484,8 @@ bBk
 bDc
 bFa
 bGV
-bEK
-hGX
+kRr
+vrI
 bMH
 bNW
 bBn
@@ -140255,7 +140258,7 @@ csM
 cvB
 cxg
 crl
-cUG
+miv
 cBF
 cCM
 cEA

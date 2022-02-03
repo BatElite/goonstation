@@ -30863,31 +30863,6 @@
 	},
 /turf/simulated/floor,
 /area/station/science/artifact)
-"bnT" = (
-/obj/table/reinforced/auto,
-/obj/item/pinpointer/category/artifacts/safe{
-	pixel_x = 5;
-	pixel_y = 6
-	},
-/obj/item/hand_labeler,
-/obj/item/device/audio_log,
-/obj/item/audio_tape{
-	pixel_y = 5
-	},
-/obj/item/audio_tape{
-	pixel_y = 5
-	},
-/obj/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/obj/machinery/light{
-	dir = 4;
-	pixel_x = 10
-	},
-/turf/simulated/floor,
-/area/station/science/artifact)
 "bnU" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -43003,15 +42978,6 @@
 	},
 /turf/simulated/grimycarpet,
 /area/ghostdrone_factory)
-"bMC" = (
-/obj/disposalpipe/segment{
-	dir = 4
-	},
-/obj/bookshelf/persistent,
-/turf/simulated/floor/black/side{
-	dir = 1
-	},
-/area/station/hallway/secondary/central)
 "bMD" = (
 /obj/machinery/camera{
 	c_tag = "autotag";
@@ -44256,6 +44222,31 @@
 	},
 /turf/simulated/floor/grime,
 /area/station/maintenance/northeast)
+"cSV" = (
+/obj/table/reinforced/auto,
+/obj/item/pinpointer/category/artifacts/safe{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/item/hand_labeler,
+/obj/item/device/audio_log,
+/obj/item/audio_tape{
+	pixel_y = 5
+	},
+/obj/item/audio_tape{
+	pixel_y = 5
+	},
+/obj/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/machinery/light{
+	dir = 4;
+	pixel_x = 10
+	},
+/turf/simulated/floor,
+/area/station/science/artifact)
 "cTK" = (
 /obj/table/auto,
 /obj/item/storage/goodybag,
@@ -46043,6 +46034,18 @@
 /obj/landmark/gps_waypoint,
 /turf/simulated/floor/specialroom/arcade,
 /area/station/janitor/office)
+"huD" = (
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/obj/bookshelf/persistent{
+	density = 0;
+	pixel_y = 19
+	},
+/turf/simulated/floor/black/side{
+	dir = 1
+	},
+/area/station/hallway/secondary/central)
 "huQ" = (
 /obj/table/reinforced/auto,
 /obj/item/paper_bin,
@@ -81302,7 +81305,7 @@ aHn
 aIo
 aJB
 aEu
-bMC
+huD
 aNs
 aOu
 aPE
@@ -93660,7 +93663,7 @@ bjq
 bkC
 blK
 scS
-bnT
+cSV
 bpu
 bgS
 brB

@@ -40679,15 +40679,6 @@
 	dir = 4
 	},
 /area/station/security/main)
-"bYE" = (
-/obj/bookshelf/persistent,
-/obj/disposalpipe/segment/cargo{
-	dir = 4
-	},
-/turf/simulated/floor/blue/side{
-	dir = 1
-	},
-/area/station/hallway/primary/central)
 "bYK" = (
 /obj/decal/cleanable/blood/tracks{
 	dir = 4
@@ -52684,31 +52675,6 @@
 /area/station/science/artifact{
 	name = "Artifact Lounge"
 	})
-"cDN" = (
-/obj/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/obj/table/wood/auto,
-/obj/item/clipboard/with_pen,
-/obj/item/pinpointer/category/artifacts/safe{
-	pixel_x = 4;
-	pixel_y = 6
-	},
-/obj/item/storage/box/diskbox,
-/obj/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/floor/black,
-/area/station/science/artifact{
-	name = "Artifact Lounge"
-	})
 "cDO" = (
 /obj/stool/bar,
 /obj/machinery/atmospherics/pipe/simple/color_pipe/cyan_pipe/vertical,
@@ -54293,6 +54259,18 @@
 /obj/window/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/station/maintenance/south)
+"gOQ" = (
+/obj/bookshelf/persistent{
+	density = 0;
+	pixel_y = 19
+	},
+/obj/disposalpipe/segment/cargo{
+	dir = 4
+	},
+/turf/simulated/floor/blue/side{
+	dir = 1
+	},
+/area/station/hallway/primary/central)
 "gSl" = (
 /obj/machinery/camera{
 	c_tag = "Aft Cargo Router A";
@@ -59343,6 +59321,31 @@
 	},
 /turf/simulated/floor/plating/random,
 /area/station/storage/auxillary)
+"tim" = (
+/obj/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/table/wood/auto,
+/obj/item/clipboard/with_pen,
+/obj/item/pinpointer/category/artifacts/safe{
+	pixel_x = 4;
+	pixel_y = 6
+	},
+/obj/item/storage/box/diskbox,
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/floor/black,
+/area/station/science/artifact{
+	name = "Artifact Lounge"
+	})
 "tiY" = (
 /obj/grille/catwalk,
 /obj/cable{
@@ -114495,7 +114498,7 @@ ntf
 bXJ
 aEN
 aEN
-bYE
+gOQ
 brT
 btY
 bwk
@@ -134719,7 +134722,7 @@ aCk
 aGJ
 cBC
 crI
-cDN
+tim
 czv
 cBZ
 cCO

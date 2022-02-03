@@ -12141,16 +12141,6 @@
 "aHN" = (
 /turf/simulated/floor/circuit,
 /area/station/turret_protected/ai)
-"aHP" = (
-/obj/machinery/power/apc/autoname_west,
-/obj/bookshelf/persistent,
-/obj/cable{
-	icon_state = "0-4"
-	},
-/turf/simulated/floor/wood,
-/area/station/crew_quarters/info{
-	name = "Book Nook"
-	})
 "aHS" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -43676,6 +43666,18 @@
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/station/maintenance/southeast)
+"gDO" = (
+/obj/table/auto,
+/obj/item/pinpointer/category/artifacts/safe{
+	pixel_x = 5;
+	pixel_y = 4
+	},
+/obj/item/storage/box/tapebox,
+/obj/item/device/audio_log,
+/obj/item/audio_tape,
+/obj/item/audio_tape,
+/turf/simulated/floor/darkblue/checker,
+/area/station/science/artifact)
 "gEt" = (
 /obj/machinery/door/airlock/pyro/glass{
 	name = "Cargo Dock"
@@ -48319,6 +48321,19 @@
 	},
 /turf/simulated/floor/sanitary,
 /area/station/crew_quarters/showers)
+"lBm" = (
+/obj/machinery/power/apc/autoname_west,
+/obj/bookshelf/persistent{
+	density = 0;
+	pixel_y = 19
+	},
+/obj/cable{
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/wood,
+/area/station/crew_quarters/info{
+	name = "Book Nook"
+	})
 "lBr" = (
 /obj/machinery/conveyor{
 	dir = 1;
@@ -51575,18 +51590,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/security/main)
-"oXc" = (
-/obj/table/auto,
-/obj/item/pinpointer/category/artifacts/safe{
-	pixel_x = 5;
-	pixel_y = 4
-	},
-/obj/item/storage/box/tapebox,
-/obj/item/device/audio_log,
-/obj/item/audio_tape,
-/obj/item/audio_tape,
-/turf/simulated/floor/darkblue/checker,
-/area/station/science/artifact)
 "oXg" = (
 /obj/machinery/conveyor{
 	dir = 1;
@@ -94809,7 +94812,7 @@ bEa
 bEW
 bGe
 bAT
-oXc
+gDO
 bKm
 bLC
 bMD
@@ -114071,7 +114074,7 @@ axl
 azq
 amJ
 axl
-aHP
+lBm
 apU
 avq
 asa

@@ -17547,19 +17547,6 @@
 	},
 /turf/simulated/floor,
 /area/station/crew_quarters/courtroom)
-"aUr" = (
-/obj/bookshelf/persistent,
-/obj/cable{
-	icon_state = "2-8"
-	},
-/obj/machinery/light{
-	dir = 1;
-	pixel_y = 21
-	},
-/turf/simulated/floor/specialroom/chapel{
-	dir = 8
-	},
-/area/station/chapel/sanctuary)
 "aUs" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -45275,22 +45262,6 @@
 	},
 /turf/simulated/floor/white,
 /area/station/science/artifact)
-"clT" = (
-/obj/table/auto,
-/obj/item/storage/box/tapebox{
-	pixel_x = -12;
-	pixel_y = 7
-	},
-/obj/item/pinpointer/category/artifacts/safe{
-	pixel_x = 5;
-	pixel_y = 8
-	},
-/obj/item/device/audio_log{
-	pixel_x = 3;
-	pixel_y = 2
-	},
-/turf/simulated/floor,
-/area/station/science/artifact)
 "clU" = (
 /obj/disposalpipe/segment,
 /turf/simulated/wall/auto/supernorn,
@@ -57358,6 +57329,22 @@
 /obj/firedoor_spawn,
 /turf/simulated/floor/bot,
 /area/station/crew_quarters/market)
+"lxF" = (
+/obj/table/auto,
+/obj/item/storage/box/tapebox{
+	pixel_x = -12;
+	pixel_y = 7
+	},
+/obj/item/pinpointer/category/artifacts/safe{
+	pixel_x = 5;
+	pixel_y = 8
+	},
+/obj/item/device/audio_log{
+	pixel_x = 3;
+	pixel_y = 2
+	},
+/turf/simulated/floor,
+/area/station/science/artifact)
 "lxQ" = (
 /obj/item/device/radio/intercom/security{
 	dir = 8
@@ -59391,6 +59378,22 @@
 /obj/window/auto,
 /turf/simulated/floor/plating,
 /area/station/crew_quarters/market)
+"pxn" = (
+/obj/bookshelf/persistent{
+	density = 0;
+	pixel_y = 19
+	},
+/obj/cable{
+	icon_state = "2-8"
+	},
+/obj/machinery/light{
+	dir = 1;
+	pixel_y = 21
+	},
+/turf/simulated/floor/specialroom/chapel{
+	dir = 8
+	},
+/area/station/chapel/sanctuary)
 "pzj" = (
 /obj/disposalpipe/segment/mail{
 	dir = 4;
@@ -61098,6 +61101,12 @@
 /obj/firedoor_spawn,
 /turf/simulated/floor/delivery,
 /area/station/crew_quarters/stockex)
+"sps" = (
+/obj/machinery/launcher_loader/west{
+	door_delay = 5
+	},
+/turf/simulated/floor/plating/airless,
+/area/space)
 "sqK" = (
 /obj/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/manifold{
@@ -64530,12 +64539,6 @@
 /obj/machinery/power/apc/autoname_east,
 /turf/simulated/floor/plating,
 /area/station/engine/elect)
-"xVK" = (
-/obj/machinery/launcher_loader/west{
-	door_delay = 5
-	},
-/turf/simulated/floor/plating/airless,
-/area/space)
 "xWf" = (
 /obj/disposalpipe/segment{
 	dir = 4
@@ -93953,7 +93956,7 @@ cgI
 chQ
 cjd
 ckw
-clT
+lxF
 ccX
 cog
 cpj
@@ -119544,7 +119547,7 @@ aGh
 beu
 aII
 aGo
-aUr
+pxn
 aMn
 aNs
 aMl
@@ -131049,7 +131052,7 @@ aaw
 aap
 aaB
 aai
-xVK
+sps
 aap
 aaw
 aaw

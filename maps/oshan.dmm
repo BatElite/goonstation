@@ -9761,22 +9761,6 @@
 /obj/disposalpipe/trunk/mail/south,
 /turf/simulated/floor/black,
 /area/station/science/artifact)
-"awS" = (
-/obj/table/reinforced/auto,
-/obj/item/pinpointer/category/artifacts/safe{
-	pixel_x = -6;
-	pixel_y = 5
-	},
-/obj/item/storage/box/tapebox,
-/obj/item/disk/data/tape{
-	layer = 3.5
-	},
-/obj/machinery/light_switch/auto,
-/obj/artifact_paper_dispenser{
-	pixel_x = 15
-	},
-/turf/simulated/floor/black,
-/area/station/science/artifact)
 "awT" = (
 /obj/table/reinforced/auto,
 /obj/item/hand_labeler,
@@ -45458,10 +45442,6 @@
 	},
 /turf/simulated/floor/specialroom/cafeteria,
 /area/station/crew_quarters/kitchen)
-"clV" = (
-/obj/bookshelf/persistent,
-/turf/simulated/floor,
-/area/station/hallway/primary/north)
 "clW" = (
 /obj/item/storage/belt/utility,
 /obj/item/storage/belt/utility,
@@ -46287,6 +46267,22 @@
 /obj/machinery/light/incandescent/netural,
 /turf/simulated/floor/shuttlebay,
 /area/research_outpost/hangar)
+"gAK" = (
+/obj/table/reinforced/auto,
+/obj/item/pinpointer/category/artifacts/safe{
+	pixel_x = -6;
+	pixel_y = 5
+	},
+/obj/item/storage/box/tapebox,
+/obj/item/disk/data/tape{
+	layer = 3.5
+	},
+/obj/machinery/light_switch/auto,
+/obj/artifact_paper_dispenser{
+	pixel_x = 15
+	},
+/turf/simulated/floor/black,
+/area/station/science/artifact)
 "gCF" = (
 /obj/storage/crate,
 /obj/item/storage/box/beakerbox,
@@ -48372,6 +48368,13 @@
 	},
 /turf/simulated/floor,
 /area/station/hangar/sec)
+"uQG" = (
+/obj/bookshelf/persistent{
+	density = 0;
+	pixel_y = 19
+	},
+/turf/simulated/floor,
+/area/station/hallway/primary/north)
 "uTy" = (
 /obj/submachine/cargopad{
 	name = "Security Pod Bay Pad"
@@ -80652,7 +80655,7 @@ ate
 auu
 avJ
 awY
-clV
+uQG
 azc
 aAl
 aBo
@@ -110246,7 +110249,7 @@ aqv
 asX
 auk
 avE
-awS
+gAK
 axT
 ayX
 aAe
