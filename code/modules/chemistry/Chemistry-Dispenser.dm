@@ -124,11 +124,11 @@
 	ex_act(severity)
 		switch(severity)
 			if(1.0)
-				SPAWN_DBG(0)
+				SPAWN(0)
 					src.take_damage(400)
 				return
 			if(2.0)
-				SPAWN_DBG(0)
+				SPAWN(0)
 					src.take_damage(150)
 				return
 
@@ -178,7 +178,7 @@
 			glass_overlay.icon_state = "dispenser_glass-[rand(1,5)]"
 		UpdateOverlays(glass_overlay, "glass")
 
-	MouseDrop(over_object, src_location, over_location)
+	mouse_drop(over_object, src_location, over_location)
 		if(!isliving(usr))
 			boutput(usr, "<span class='alert'>Only living mobs are able to set the dispenser's output target.</span>")
 			return
