@@ -19186,6 +19186,20 @@
 	},
 /turf/simulated/floor/carpet,
 /area/station/crew_quarters/quartersA)
+"aSb" = (
+/obj/table/wood/round/auto,
+/obj/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/light/lamp/green{
+	pixel_x = -3;
+	pixel_y = 12
+	},
+/obj/item/storage/toolbox/artistic,
+/turf/simulated/floor/carpet,
+/area/station/crew_quarters/quartersA)
 "aSc" = (
 /obj/stool/chair/wooden{
 	dir = 8
@@ -70563,33 +70577,6 @@
 	},
 /turf/simulated/floor/purple,
 /area/station/science/artifact)
-"cZH" = (
-/obj/machinery/atmospherics/pipe/simple/insulated/cold{
-	can_rupture = 0;
-	dir = 5
-	},
-/obj/table/auto,
-/obj/item/reagent_containers/glass/beaker/cryoxadone{
-	pixel_x = 4;
-	pixel_y = 5
-	},
-/obj/item/reagent_containers/glass/beaker/cryoxadone{
-	pixel_x = 4;
-	pixel_y = 5
-	},
-/obj/item/reagent_containers/glass/beaker/cryoxadone{
-	pixel_x = 4;
-	pixel_y = 5
-	},
-/obj/machinery/camera{
-	c_tag = "autotag";
-	dir = 4;
-	name = "autoname - SS13";
-	pixel_x = -10;
-	tag = ""
-	},
-/turf/simulated/floor/blue,
-/area/station/medical/medbay)
 "cZI" = (
 /obj/machinery/atmospherics/pipe/simple/insulated/cold{
 	can_rupture = 0;
@@ -70607,17 +70594,6 @@
 /turf/simulated/floor/bluewhite{
 	dir = 6
 	},
-/area/station/medical/medbay)
-"cZK" = (
-/obj/machinery/atmospherics/pipe/simple/insulated/cold{
-	can_rupture = 0;
-	dir = 9
-	},
-/obj/table/auto,
-/obj/item/wrench,
-/obj/item/device/analyzer/healthanalyzer,
-/obj/item/remote/porter/port_a_medbay,
-/turf/simulated/floor/blue,
 /area/station/medical/medbay)
 "cZL" = (
 /obj/machinery/light{
@@ -76326,6 +76302,14 @@
 	dir = 1
 	},
 /area/space)
+"dmE" = (
+/obj/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/unsimulated/wall/auto/adventure/shuttle/dark,
+/area/space)
 "dmF" = (
 /turf/simulated/wall/asteroid{
 	dir = 5
@@ -76354,6 +76338,17 @@
 	},
 /turf/simulated/floor/plating,
 /area/research_outpost)
+"dmJ" = (
+/turf/unsimulated/wall/auto/adventure/shuttle/dark,
+/area/listeningpost/power)
+"dmK" = (
+/obj/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/unsimulated/wall/auto/adventure/shuttle/dark,
+/area/listeningpost/power)
 "dmL" = (
 /turf/simulated/wall/asteroid{
 	dir = 4
@@ -76576,6 +76571,22 @@
 /obj/machinery/computer/solar_control/small_backup4,
 /turf/simulated/floor/plating,
 /area/listeningpost/power)
+"dnb" = (
+/obj/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/unsimulated/wall/auto/adventure/shuttle/dark,
+/area/listeningpost/power)
+"dnc" = (
+/obj/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/unsimulated/wall/auto/adventure/shuttle/dark,
+/area/listeningpost/power)
 "dnd" = (
 /obj/cable,
 /obj/machinery/power/solar/small_backup4,
@@ -76705,6 +76716,10 @@
 	dir = 9
 	},
 /area/space)
+"dnq" = (
+/obj/securearea,
+/turf/unsimulated/wall/auto/adventure/shuttle/dark,
+/area/listeningpost)
 "dnr" = (
 /obj/cable{
 	d1 = 1;
@@ -76772,6 +76787,9 @@
 /turf/simulated/floor/grey/side{
 	dir = 8
 	},
+/area/listeningpost)
+"dnA" = (
+/turf/unsimulated/wall/auto/adventure/shuttle/dark,
 /area/listeningpost)
 "dnB" = (
 /turf/space,
@@ -77067,6 +77085,10 @@
 	icon_state = "green2"
 	},
 /area/listeningpost)
+"dol" = (
+/obj/submachine/ATM,
+/turf/unsimulated/wall/auto/adventure/shuttle/dark,
+/area/listeningpost)
 "dom" = (
 /obj/machinery/vending/snack{
 	profit = 0
@@ -77090,6 +77112,9 @@
 	dir = 5
 	},
 /area/listeningpost)
+"dop" = (
+/turf/unsimulated/wall/auto/adventure/shuttle/dark,
+/area/syndicate_teleporter)
 "doq" = (
 /obj/cable{
 	d2 = 4;
@@ -77920,14 +77945,6 @@
 /obj/item/shipcomponent/mainweapon/phaser,
 /turf/simulated/floor/shuttlebay,
 /area/station/security/checkpoint/podbay)
-"fqj" = (
-/obj/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/unsimulated/wall/auto/adventure/shuttle/dark,
-/area/listeningpost/power)
 "fuP" = (
 /obj/cable{
 	d1 = 4;
@@ -78186,14 +78203,6 @@
 	},
 /turf/simulated/wall/auto/supernorn,
 /area/station/crew_quarters/arcade)
-"hrb" = (
-/obj/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
-/turf/unsimulated/wall/auto/adventure/shuttle/dark,
-/area/listeningpost/power)
 "htk" = (
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/plating,
@@ -78211,6 +78220,33 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/hangar/escape)
+"hwU" = (
+/obj/machinery/atmospherics/pipe/simple/insulated/cold{
+	can_rupture = 0;
+	dir = 5
+	},
+/obj/table/reinforced/auto,
+/obj/item/reagent_containers/glass/beaker/cryoxadone{
+	pixel_x = 4;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/glass/beaker/cryoxadone{
+	pixel_x = 4;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/glass/beaker/cryoxadone{
+	pixel_x = 4;
+	pixel_y = 5
+	},
+/obj/machinery/camera{
+	c_tag = "autotag";
+	dir = 4;
+	name = "autoname - SS13";
+	pixel_x = -10;
+	tag = ""
+	},
+/turf/simulated/floor/blue,
+/area/station/medical/medbay)
 "hyI" = (
 /obj/machinery/launcher_loader/south{
 	door_delay = 5
@@ -78294,10 +78330,6 @@
 	icon_state = "blue1"
 	},
 /area/station/crew_quarters/arcade/dungeon)
-"hKL" = (
-/obj/securearea,
-/turf/unsimulated/wall/auto/adventure/shuttle/dark,
-/area/listeningpost)
 "hLE" = (
 /obj/table/reinforced/auto,
 /obj/item/clipboard,
@@ -78330,6 +78362,17 @@
 	icon_state = "engine_caution_south"
 	},
 /area/station/mining/staff_room)
+"hQa" = (
+/obj/machinery/atmospherics/pipe/simple/insulated/cold{
+	can_rupture = 0;
+	dir = 9
+	},
+/obj/table/reinforced/auto,
+/obj/item/wrench,
+/obj/item/device/analyzer/healthanalyzer,
+/obj/item/remote/porter/port_a_medbay,
+/turf/simulated/floor/blue,
+/area/station/medical/medbay)
 "hQX" = (
 /obj/machinery/vehicle/miniputt/nanoputt/security{
 	dir = 8
@@ -79520,9 +79563,6 @@
 	},
 /turf/simulated/floor/specialroom/medbay,
 /area/station/medical/medbay/lobby)
-"oot" = (
-/turf/unsimulated/wall/auto/adventure/shuttle/dark,
-/area/listeningpost)
 "oxp" = (
 /obj/submachine/chicken_incubator,
 /obj/item/reagent_containers/food/snacks/ingredient/egg{
@@ -79700,10 +79740,6 @@
 /obj/submachine/weapon_vendor/security,
 /turf/simulated/floor/specialroom/bar,
 /area/station/security/checkpoint/chapel)
-"pIJ" = (
-/obj/submachine/ATM,
-/turf/unsimulated/wall/auto/adventure/shuttle/dark,
-/area/listeningpost)
 "pJc" = (
 /obj/stool,
 /obj/item/device/radio/intercom{
@@ -79751,14 +79787,6 @@
 "qaU" = (
 /turf/space,
 /area/shuttle/escape/station)
-"qct" = (
-/obj/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/unsimulated/wall/auto/adventure/shuttle/dark,
-/area/space)
 "qfb" = (
 /obj/item/storage/wall/medical{
 	dir = 1;
@@ -79801,20 +79829,6 @@
 "qmv" = (
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/crew_quarters/arcade/dungeon)
-"qtl" = (
-/obj/table/wood/round/auto,
-/obj/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/light/lamp/green{
-	pixel_x = -3;
-	pixel_y = 12
-	},
-/obj/item/storage/toolbox/artistic,
-/turf/simulated/floor/carpet,
-/area/station/crew_quarters/quartersA)
 "qwX" = (
 /turf/space,
 /turf/simulated/wall/auto/reinforced/supernorn,
@@ -79977,9 +79991,6 @@
 	},
 /turf/simulated/floor/plating/airless,
 /area/space)
-"rhS" = (
-/turf/unsimulated/wall/auto/adventure/shuttle/dark,
-/area/listeningpost/power)
 "rsO" = (
 /obj/table/auto,
 /obj/item/kitchen/rollingpin,
@@ -80051,14 +80062,6 @@
 	},
 /turf/simulated/floor/plating/airless,
 /area/space)
-"rUA" = (
-/obj/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/unsimulated/wall/auto/adventure/shuttle/dark,
-/area/listeningpost/power)
 "rVb" = (
 /obj/table/reinforced/auto,
 /obj/machinery/networked/printer{
@@ -81135,9 +81138,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/ranch)
-"ydd" = (
-/turf/unsimulated/wall/auto/adventure/shuttle/dark,
-/area/syndicate_teleporter)
 "yfA" = (
 /obj/machinery/disposal/mail/small{
 	mail_tag = "medbay";
@@ -112174,7 +112174,7 @@ cVj
 vxs
 cXG
 cYQ
-cZH
+hwU
 daG
 cHZ
 dac
@@ -113080,7 +113080,7 @@ dcf
 cPg
 cQC
 cYQ
-cZK
+hQa
 daJ
 cHZ
 dcF
@@ -139266,7 +139266,7 @@ aMN
 aNZ
 aPp
 aQK
-qtl
+aSb
 aTf
 aUv
 aVR
@@ -159951,11 +159951,11 @@ aaF
 aan
 aan
 aan
-oot
-oot
-oot
-oot
-oot
+dnA
+dnA
+dnA
+dnA
+dnA
 aab
 aaa
 aaa
@@ -160253,11 +160253,11 @@ aaF
 aan
 aan
 aan
-oot
+dnA
 dnR
 dnZ
 doi
-oot
+dnA
 dmG
 dmG
 aaa
@@ -160552,14 +160552,14 @@ aab
 aab
 dmU
 dne
-hKL
+dnq
 dnw
-hKL
-oot
+dnq
+dnA
 dnS
 doa
 doj
-oot
+dnA
 aab
 dmG
 dmG
@@ -160851,19 +160851,19 @@ aaS
 aaS
 dmC
 aab
-rhS
-rhS
-rhS
-rhS
+dmJ
+dmJ
+dmJ
+dmJ
 dnx
-oot
-oot
+dnA
+dnA
 dnT
 dob
 dok
-oot
-oot
-oot
+dnA
+dnA
+dnA
 dmG
 dmG
 dhQ
@@ -161153,19 +161153,19 @@ dlU
 dlU
 dmD
 aab
-rhS
+dmJ
 dmV
 dnf
-rhS
+dmJ
 dnw
-oot
+dnA
 dnL
 dnU
 doc
 doc
 doc
 doq
-oot
+dnA
 aab
 aab
 aaa
@@ -161453,12 +161453,12 @@ aaa
 dlU
 dmk
 anh
-qct
-qct
-rUA
+dmE
+dmE
+dmK
 dmW
 dng
-rhS
+dmJ
 dny
 dnE
 dnM
@@ -161467,7 +161467,7 @@ dnM
 dnM
 dnM
 dor
-oot
+dnA
 aab
 aab
 aaa
@@ -161757,7 +161757,7 @@ dlU
 dlU
 dmD
 aab
-rhS
+dmJ
 dmX
 dnh
 dnr
@@ -161769,7 +161769,7 @@ dod
 dnN
 dnF
 dnN
-oot
+dnA
 aab
 dmG
 dmG
@@ -162059,21 +162059,21 @@ aaB
 aaB
 dmC
 aab
-rhS
+dmJ
 dmY
 dni
-rhS
-rhS
-oot
-oot
+dmJ
+dmJ
+dnA
+dnA
 dnX
-oot
-pIJ
-oot
+dnA
+dol
+dnA
 dnx
-oot
-oot
-oot
+dnA
+dnA
+dnA
 dnC
 dnC
 aaa
@@ -162361,21 +162361,21 @@ aaa
 aaa
 dmC
 aab
-rhS
+dmJ
 dmZ
 dnj
 dns
-rhS
+dmJ
 dnG
 dnO
 dnY
 doe
-oot
+dnA
 dom
 dos
 doy
 doE
-oot
+dnA
 aab
 doJ
 aaa
@@ -162663,21 +162663,21 @@ aaa
 aaa
 dmF
 dmF
-rhS
+dmJ
 dna
 dnk
 dnt
-rhS
+dmJ
 dnH
 dnP
 dnP
 iEg
-oot
+dnA
 don
 dot
 doz
 doF
-oot
+dnA
 aab
 doJ
 aaa
@@ -162965,21 +162965,21 @@ aaa
 aaa
 aaa
 dmC
-rhS
-fqj
-rhS
-rhS
-rhS
+dmJ
+dnb
+dmJ
+dmJ
+dmJ
 dnI
 dnP
 dnP
 dog
-oot
+dnA
 doo
 dou
 doA
 doG
-oot
+dnA
 aab
 doJ
 aaa
@@ -163268,20 +163268,20 @@ aaa
 aaa
 dmF
 dmL
-fqj
+dnb
 dmF
 aab
-oot
+dnA
 dnJ
 dnQ
 dnQ
 doh
-oot
-ydd
-ydd
+dnA
+dop
+dop
 doB
-ydd
-ydd
+dop
+dop
 aab
 doJ
 dhQ
@@ -163570,20 +163570,20 @@ aaa
 aaa
 aaa
 dpb
-hrb
+dnc
 dmF
 aab
-oot
-oot
-oot
-oot
-oot
-oot
-ydd
+dnA
+dnA
+dnA
+dnA
+dnA
+dnA
+dop
 dov
 dox
 dox
-ydd
+dop
 doI
 doI
 aaa
@@ -163881,11 +163881,11 @@ aab
 aab
 aab
 aab
-ydd
+dop
 dow
 doC
 doH
-ydd
+dop
 doI
 aaa
 aaa
@@ -164183,11 +164183,11 @@ dnB
 dnB
 dnB
 dnl
-ydd
+dop
 dox
 doD
 dox
-ydd
+dop
 aab
 aab
 aaa
@@ -164485,11 +164485,11 @@ aaa
 aab
 aab
 dnl
-ydd
-ydd
-ydd
-ydd
-ydd
+dop
+dop
+dop
+dop
+dop
 aab
 aab
 aaa
