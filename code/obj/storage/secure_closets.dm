@@ -9,21 +9,17 @@
 	volume = 70
 	_max_health = LOCKER_HEALTH_AVERAGE
 	_health = LOCKER_HEALTH_AVERAGE
-	/// Anchored if TRUE
-	var/bolted = TRUE
 	/// Can't be broken open with melee
 	var/reinforced = FALSE
 	var/obj/particle/attack/attack_particle
 
 	New()
 		..()
-		if (bolted)
-			anchored = 1
 		src.attack_particle = new /obj/particle/attack
 		src.attack_particle.icon = 'icons/mob/mob.dmi'
 
 	get_desc(dist)
-		. += "[reinforced ? "It's reinforced, only stronger firearms and explosives could break into this. " : ""] [bolted ? "It's bolted to the floor." : ""]"
+		. += "[reinforced ? "It's reinforced, only stronger firearms and explosives could break into this. " : ""]"
 
 	attackby(obj/item/I as obj, mob/user as mob)
 		if (src.open || !src.locked)
@@ -34,13 +30,6 @@
 			..()
 		else if (isweldingtool(I))
 			..()
-		else if (iswrenchingtool(I))
-			if (istype(get_turf(src), /turf/space))
-				if (user)
-					user.show_text("What exactly are you gunna secure [src] to?", "red")
-				return
-			playsound(src.loc, "sound/items/Ratchet.ogg", 50, 1)
-			SETUP_GENERIC_ACTIONBAR(user, src, 5 SECONDS, .proc/toggle_bolts, user, I.icon, I.icon_state,"", null)
 		else if (istype(I, /obj/item/card/))
 			..()
 		else if (user.a_intent == INTENT_HELP)
@@ -114,11 +103,6 @@
 		SPAWN(0.2 SECONDS)
 			src.attack_particle.alpha = 0
 
-	proc/toggle_bolts(var/mob/M)
-		M.visible_message("<b>[M]</b> [src.bolted ? "loosens" : "tightens"] the floor bolts of [src].[istype(src.loc, /turf/space) ? " It doesn't do much, though, since [src] is in space and all." : null]")
-		src.bolted = !src.bolted
-		src.anchored = !src.anchored
-
 	proc/take_damage(var/amount, var/mob/M = null, obj/item/I = null, var/obj/projectile/P = null)
 		if (!isnum(amount) || amount <= 0)
 			return
@@ -186,7 +170,6 @@
 	icon_state = "command"
 	icon_closed = "command"
 	icon_opened = "secure_blue-open"
-	bolted = TRUE
 
 /obj/storage/secure/closet/command/captain
 	name = "\improper Captain's locker"
@@ -337,7 +320,6 @@
 	icon_opened = "secure_red-open"
 	_max_health = LOCKER_HEALTH_STRONG
 	_health = LOCKER_HEALTH_STRONG
-	bolted = TRUE
 
 /obj/storage/secure/closet/security/equipment
 	name = "\improper Security equipment locker"
@@ -386,7 +368,6 @@
 	_max_health = LOCKER_HEALTH_STRONG
 	_health = LOCKER_HEALTH_STRONG
 	reinforced = TRUE
-	bolted = TRUE
 
 // Old Mushroom-era feature I fixed up (Convair880).
 /obj/storage/secure/closet/brig/automatic
