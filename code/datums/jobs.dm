@@ -985,12 +985,21 @@ ABSTRACT_TYPE(/datum/job/civilian)
 	cant_allocate_unwanted = 1
 	map_can_autooverride = 0
 	slot_jump = list(/obj/item/clothing/under/rank)
-	slot_foot = list(/obj/item/clothing/shoes/black)
 	slot_ears = list(/obj/item/device/radio/headset/civilian)
+	#ifdef TESTING_STAFFIE_BENEFITS
+	slot_belt = list(/obj/item/storage/belt/utility/prepared/ceshielded)
+	slot_foot = list(/obj/item/clothing/shoes/industrial)
+	#else
+	slot_foot = list(/obj/item/clothing/shoes/black
+	#endif
 
 	New()
 		..()
+		#ifdef TESTING_STAFFIE_BENEFITS
+		src.access = get_access("Captain")
+		#else
 		src.access = get_access("Staff Assistant")
+		#endif
 		return
 
 /datum/job/civilian/clown

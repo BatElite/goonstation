@@ -44,6 +44,8 @@ o+`        `-` ``..-:yooos-..----------..`
 
 //#define Z_LOG_ENABLE 1  // Enable additional world.log logging
 
+//#define TESTING_STAFFIE_BENEFITS 1 // Staff assistants spawn with cap access, industrial boots and a CE belt. Don't use on a live server
+
 //////////// PROFILING OPTIONS
 
 //#define SERVER_SIDE_PROFILING_FULL_ROUND 1 // Generate and save profiler data for the entire round
