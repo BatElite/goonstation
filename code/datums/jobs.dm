@@ -990,7 +990,7 @@ ABSTRACT_TYPE(/datum/job/civilian)
 	slot_belt = list(/obj/item/storage/belt/utility/prepared/ceshielded)
 	slot_foot = list(/obj/item/clothing/shoes/industrial)
 	#else
-	slot_foot = list(/obj/item/clothing/shoes/black
+	slot_foot = list(/obj/item/clothing/shoes/black)
 	#endif
 
 	New()
