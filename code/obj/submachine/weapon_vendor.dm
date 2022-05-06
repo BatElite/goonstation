@@ -180,7 +180,7 @@
 		materiel_stock += new/datum/materiel/loadout/engineer
 		materiel_stock += new/datum/materiel/loadout/marksman
 		materiel_stock += new/datum/materiel/loadout/knight
-		materiel_stock += new/datum/materiel/loadout/bard
+		//materiel_stock += new/datum/materiel/loadout/bard -- Fuck this let's keep nukies serious
 		materiel_stock += new/datum/materiel/loadout/custom
 /*
 		materiel_stock += new/datum/materiel/storage/rucksack
