@@ -1361,9 +1361,6 @@ Other Goonstation servers:[serverList]</span>"})
 	matter_create_window = 1
 	time_create_window = 0
 
-	matter_create_light_fixture = 1
-	time_create_light_fixture = 0
-
 	matter_remove_door = 1
 	time_remove_door = 0
 
@@ -1384,9 +1381,6 @@ Other Goonstation servers:[serverList]</span>"})
 
 	matter_remove_window = 1
 	time_remove_window = 0
-
-	matter_remove_light_fixture = 1
-	time_remove_light_fixture = 0
 
 
 
