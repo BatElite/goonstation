@@ -408,7 +408,7 @@ var/zapLimiter = 0
 					else
 						boutput(user, "<span class='alert'>Not enough cable! <I>(Requires four pieces)</I></span>")
 						return
-					SETUP_GENERIC_ACTIONBAR(user, src, 10 SECONDS, /obj/machinery/power/apc/proc/fix_wiring,\
+					SETUP_GENERIC_ACTIONBAR(user, src, 7 SECONDS, /obj/machinery/power/apc/proc/fix_wiring,\
 					list(theCoil, user), W.icon, W.icon_state, null, null)
 					return
 				if (2)
@@ -425,7 +425,7 @@ var/zapLimiter = 0
 					boutput(user, "<span class='alert'>You must repair the autotransformer's windings prior to tuning it.</span>")
 				if (2)
 					boutput(user, "You begin to carefully tune the autotransformer.  This might take a little while.")
-					SETUP_GENERIC_ACTIONBAR(user, src, 6 SECONDS, /obj/machinery/power/apc/proc/fix_autotransformer,\
+					SETUP_GENERIC_ACTIONBAR(user, src, 4 SECONDS, /obj/machinery/power/apc/proc/fix_autotransformer,\
 					list(user), W.icon, W.icon_state, null, null)
 				else
 					boutput(user, "The autotransformer is already tuned.")
