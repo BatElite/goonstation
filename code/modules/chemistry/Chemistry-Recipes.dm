@@ -932,7 +932,7 @@ datum
 			drinkrecipe = 1
 
 		cocktail_beach
-			name = "Bliss on the Beach"
+			name = "Sex on the Beach"
 			id = "beach"
 			result = "beach"
 			required_reagents = list("vodka" = 1, "juice_cran" = 1, "juice_orange" = 1)
