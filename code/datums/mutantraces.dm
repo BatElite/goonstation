@@ -1089,8 +1089,8 @@ TYPEINFO(/datum/mutantrace)
 
 /datum/mutantrace/skeleton
 	name = "skeleton"
-	icon = 'icons/mob/skeleton.dmi'
-	mutant_folder = 'icons/mob/skeleton.dmi'
+	icon = 'icons/mob/skeletons/skeleton_human.dmi'
+	mutant_folder = 'icons/mob/skeletons/skeleton_human.dmi'
 	icon_state = "skeleton"
 	voice_override = "skelly"
 	mutant_organs = list("left_eye" = /obj/item/organ/eye/skeleton,
