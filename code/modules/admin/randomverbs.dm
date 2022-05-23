@@ -1131,7 +1131,7 @@
 	set name = "Possess"
 	SET_ADMIN_CAT(ADMIN_CAT_UNUSED)
 	set popup_menu = 0
-	new /mob/living/object(O, usr)
+	new /mob/living/object(get_turf(O), O, usr)
 
 /proc/possessmob(mob/M as mob in world)
 	set name = "Possess Mob"
@@ -1254,7 +1254,7 @@
 		return
 		//target = input(usr, "Target", "Target") as mob in world
 
-	boutput(usr, scan_health(target, 1, 255, 1))
+	boutput(usr, scan_health(target, 1, 255, 1, syndicate = TRUE))
 	return
 
 /client/proc/cmd_admin_check_reagents(var/atom/target as null|mob|obj|turf in world)
@@ -1689,6 +1689,7 @@
 	if (!(newMind in ticker.minds))
 		ticker.minds.Add(newMind)
 	M.mind = newMind
+	M.mind.brain.owner = M.mind
 
 	M.antagonist_overlay_refresh(1, 1)
 
