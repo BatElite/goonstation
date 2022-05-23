@@ -545,7 +545,7 @@
 	proc/dootize(var/mob/living/carbon/human/S as mob)
 		if (!istype(S))
 			return
-		if (S.mob_flags & IS_BONEY)
+		if (S.mob_flags & IS_BONER)
 			S.visible_message("<span class='notice'><b>[S.name]</b> claks in appreciation!</span>")
 			playsound(S.loc, "sound/items/Scissor.ogg", 50, 0)
 			return

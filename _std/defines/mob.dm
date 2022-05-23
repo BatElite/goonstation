@@ -5,7 +5,7 @@
 #define SPEECH_REVERSE (1 << 1)
 #define SPEECH_BLOB (1 << 2)		//yes
 #define SEE_THRU_CAMERAS (1 << 3)	//for ai eye
-#define IS_BONEY (1 << 4)			//for skeletals
+#define IS_BONER (1 << 4)			//for skeletals
 #define UNUSED_32 (1 << 5)
 #define UNUSED_64 (1 << 6)
 #define UNUSED_128 (1 << 7)
