@@ -39,115 +39,85 @@
 /obj/item/clothing/under/color
 	name = "black jumpsuit"
 	desc = "A generic jumpsuit with no rank markings."
+	wear_state = "bot_pants_black"
 
-	grey
-		name = "grey jumpsuit"
-		icon_state = "grey"
-		item_state = "grey"
+	var/has_skirt = FALSE
+	var/has_chest = FALSE
+	var/bottom_pants = "bot_pants_black"
+	var/bottom_skirt = "bot_skirt_black"
+	var/top_flat = "top_flat_black"
+	var/top_chest = "top_chest_black"
+	var/image/top
 
-	whitetemp
+	New()
+		..()
+		top = image(wear_image_icon)
+		UpdateIcon()
+
+	attack_self(mob/user)
+		has_skirt = !has_skirt
+		UpdateIcon()
+		..()
+
+	attackby(obj/item/W, mob/user, params)
+		if (istool(W, TOOL_PULSING))
+			has_chest = !has_chest
+			UpdateIcon()
+		..()
+
+	update_icon(...)
+		wear_image.overlays = null
+		if (ismonkey(src.loc))
+			wear_state = icon_state
+			return
+		wear_state = has_skirt ? bottom_skirt : bottom_pants
+		top.icon_state = has_chest ? top_chest : top_flat
+		wear_image.overlays += top
+		//UpdateOverlays(top, "shirt")
+
+	whitetemp //What is this?
 		name = "jumpsuit"
 		icon_state = "white"
 		item_state = "white"
 
-	white
-		name = "white jumpsuit"
-		icon_state = "white"
-		item_state = "white"
-
-	darkred
-		name = "dark red jumpsuit"
-		icon_state = "darkred"
-		item_state  = "darkred"
-
-	red
-		name = "red jumpsuit"
-		icon_state = "red"
-		item_state = "red"
-
-	lightred
-		name = "light red jumpsuit"
-		icon_state = "lightred"
-		item_state  = "lightred"
-
-	orange
-		name = "orange jumpsuit"
-		icon_state = "orange"
-		item_state = "orange"
-
-	brown
-		name = "brown jumpsuit"
-		icon_state = "brown"
-		item_state  = "brown"
-
-	lightbrown
-		name = "tan jumpsuit"
-		icon_state = "lightbrown"
-		item_state  = "lightbrown"
-
-	yellow
-		name = "yellow jumpsuit"
-		icon_state = "yellow"
-		item_state = "yellow"
-
-	yellowgreen
-		name = "olive jumpsuit"
-		icon_state = "yellowgreen"
-		item_state  = "yellowgreen"
-
-	lime
-		name = "lime jumpsuit"
-		icon_state = "lightgreen"
-		item_state = "lightgreen"
-
-	green
-		name = "green jumpsuit"
-		icon_state = "green"
-		item_state = "green"
-
-	aqua
-		name = "cyan jumpsuit"
-		icon_state = "aqua"
-		item_state  = "aqua"
-
-	lightblue
-		name = "sky blue jumpsuit"
-		icon_state = "lightblue"
-		item_state  = "lightblue"
-
-	blue
-		name = "blue jumpsuit"
-		icon_state = "blue"
-		item_state = "blue"
-
-	darkblue
-		name = "indigo jumpsuit"
-		icon_state = "darkblue"
-		item_state  = "darkblue"
-
-	purple
-		name = "purple jumpsuit"
-		icon_state = "purple"
-		item_state  = "purple"
-
-	lightpurple
-		name = "violet jumpsuit"
-		icon_state = "lightpurple"
-		item_state  = "lightpurple"
-
-	magenta
-		name = "magenta jumpsuit"
-		icon_state = "magenta"
-		item_state = "magenta"
-
-	pink
-		name = "pink jumpsuit"
-		icon_state = "pink"
-		item_state = "pink"
-
 	unremovable
 		cant_self_remove = 1
 		cant_other_remove = 1
+
+//Fuck updating all 21 colours to shirt/pant combos manually
+#define colorjumpsuit(_color, _name)\
+/obj/item/clothing/under/color/_color;\
+/obj/item/clothing/under/color/_color/name = ""+#_name+" jumpsuit";\
+/obj/item/clothing/under/color/_color/bottom_pants = "bot_pants_"+#_color+"";\
+/obj/item/clothing/under/color/_color/bottom_skirt = "bot_skirt_"+#_color+"";\
+/obj/item/clothing/under/color/_color/top_flat = "top_flat_"+#_color+"";\
+/obj/item/clothing/under/color/_color/top_chest = "top_chest_"+#_color+"";\
+/obj/item/clothing/under/color/_color/icon_state = ""+#_color+"";\
+/obj/item/clothing/under/color/_color/item_state = ""+#_color+"";\
+
+colorjumpsuit(grey, grey)
+colorjumpsuit(white, white)
+colorjumpsuit(darkred, dark red)
+colorjumpsuit(red, red)
+colorjumpsuit(lightred, light red)
+colorjumpsuit(orange, orange)
+colorjumpsuit(brown, brown)
+colorjumpsuit(lightbrown, tan)
+colorjumpsuit(yellow, yellow)
+colorjumpsuit(yellowgreen, olive)
+colorjumpsuit(lime, lime)
+colorjumpsuit(green, green)
+colorjumpsuit(aqua, aqua)
+colorjumpsuit(lightblue, sky blue)
+colorjumpsuit(blue, blue)
+colorjumpsuit(darkblue, dark blue)
+colorjumpsuit(purple, purple)
+colorjumpsuit(lightpurple, light purple)
+colorjumpsuit(magenta, magenta)
+colorjumpsuit(pink, pink)
+
+
+#undef colorjumpsuit
 //PRIDE
 /obj/item/clothing/under/pride
 	name = "LGBT pride jumpsuit"

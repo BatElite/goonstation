@@ -1400,7 +1400,7 @@ ABSTRACT_TYPE(/obj/item/clothing/gloves/ring)
 	name = "frog jumpsuit"
 	desc = "A jumpsuit with a cute frog pattern on it. Get it? <i>Jump</i>suit? Ribbit!"
 	icon_state = "frogsuit"
-	item_state = "lightgreen"
+	item_state = "lime"
 	equipped(var/mob/user, var/slot)
 		if (slot == SLOT_W_UNIFORM && user.bioHolder)
 			user.bioHolder.AddEffect("jumpy_suit", 0, 0, 0, 1) // id, variant, time left, do stability, magical
