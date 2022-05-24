@@ -225,6 +225,12 @@ menu "menu"
 		can-check = true
 		saved-params = "is-checked"
 		is-checked = true
+	elem "hide_status_bar"
+		name = "&Hide status bar"
+		command = ".winset \"hide_status_bar.is-checked=true?mainwindow.statusbar=false:mainwindow.statusbar=true\""
+		category = "&Window"
+		can-check = true
+		saved-params = "is-checked"
 	elem "hide_menu"
 		name = "&Hide menu"
 		command = "disable_menu"
@@ -691,7 +697,6 @@ window "mainwindow"
 		icon = 'icons\\goon_64.png'
 		macro = "base_macro"
 		menu = "menu"
-		statusbar = false
 		on-status = ".winset\"mainwindow.hovertooltip.text=[[*]]\""
 	elem "mainvsplit"
 		type = CHILD
@@ -714,17 +719,17 @@ window "mainwindow"
 		text = ""
 	elem "hovertooltip"
 		type = LABEL
-		pos = 2,402
-		size = 180x18
+		pos = 2,420
+		size = 600x18
 		anchor1 = 0,100
-		anchor2 = none
+		anchor2 = 100,100
 		font-size = 9
 		align = "left"
 		saved-params = ""
 		text = "hover"
 	elem "input"
 		type = INPUT
-		pos = 185,402
+		pos = 2,402
 		size = 600x18
 		anchor1 = 0,100
 		anchor2 = 100,100
