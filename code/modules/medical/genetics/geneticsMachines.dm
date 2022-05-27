@@ -8,7 +8,7 @@
 	name = "genetics console"
 	icon = 'icons/obj/computer.dmi'
 	icon_state = "scanner"
-	req_access = list(access_medlab)
+	req_access = list() //Excuse me let's not make this medlab access??
 	object_flags = CAN_REPROGRAM_ACCESS
 	can_reconnect = TRUE
 	circuit_type = /obj/item/circuitboard/genetics
