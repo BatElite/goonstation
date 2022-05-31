@@ -2,14 +2,14 @@ client/verb/hotkeys()
 	set name = "Hotkeys"
 	src.Browse( {"<ul style='list-style-type:disc'>
 		<h3>Common Keys</h3>
-			<li><b>F1:</b> Adminhelp</li>
+			<li><b>F1:</b> Adminhelp (rules questions and reporting)</li>
 			<li><b>F2:</b> Quick screenshot</li>
 			<li><b>Ctrl+F2:</b> Save screenshot</li>
-			<li><b>F3:</b> Mentorhelp</li>
+			<li><b>F3:</b> Mentorhelp (questions about the game)</li>
 			<li><b>Alt:</b> Examine object clicked on</li>
 			<li><b>Ctrl:</b> Pull or release object clicked on</li>
-			<li><b>Space:</b> Toggles throw mode on when held down, toggles off when released</li>
-			<li><b>Alt+C:</b> OOC</li>
+			<li><b>Space:</b> Activates throw mode on while held</li>
+			<li><b>O:</b> OOC</li>
 			<li><b>TAB:</b> Bring focus to the input bar</li>
 			<li><b>G:</b> Bring focus to, and clear, the input bar</li>
 			<li><b>Esc:</b> Bring focus to the main game window and clear the input bar</li>
