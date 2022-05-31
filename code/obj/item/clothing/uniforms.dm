@@ -1179,7 +1179,6 @@ colorjumpsuit(pink, pink)
 	burn_point = 450
 	burn_output = 800
 	burn_possible = 1
-	health = 20
 	rand_pos = 0
 
 	setupProperties()

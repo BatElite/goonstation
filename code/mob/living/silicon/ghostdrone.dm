@@ -222,7 +222,7 @@
 			msg += "<br>"
 		msg += "[src] has a power charge of [bicon(src.cell)] [src.cell.charge]/[src.cell.maxcharge]</span>"
 
-		. += msg.Join("")
+		. += msg.Join()
 
 		if (src.health < src.max_health)
 			if (src.health < (src.max_health / 2))
@@ -375,7 +375,7 @@
 		if (src.client && src.client.check_key(KEY_PULL))
 			var/atom/movable/movable = target
 			if (istype(movable))
-				movable.pull()
+				movable.pull(src)
 			return
 
 		var/reach = can_reach(src, target)
