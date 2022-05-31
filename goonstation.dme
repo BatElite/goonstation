@@ -1809,6 +1809,7 @@ var/datum/preMapLoad/preMapLoad = new
 #include "code\WorkInProgress\gehenna.dm"
 #include "code\WorkInProgress\GerhazoStuff.dm"
 #include "code\WorkInProgress\HaineWhatever.dm"
+#include "code\WorkInProgress\hotkeys.dm"
 #include "code\WorkInProgress\Hydrothings.dm"
 #include "code\WorkInProgress\IconProcs.dm"
 #include "code\WorkInProgress\infernal_contracts.dm"
