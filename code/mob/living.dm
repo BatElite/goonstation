@@ -510,7 +510,7 @@
 					unpull_particle(src,src.pulling)
 					src.set_pulling(null)
 				else
-					movable.pull()
+					movable.pull(src)
 
 				if (mob_flags & AT_GUNPOINT)
 					for(var/obj/item/grab/gunpoint/G in grabbed_by)
