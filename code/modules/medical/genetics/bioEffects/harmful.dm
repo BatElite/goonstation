@@ -525,6 +525,7 @@
 	desc = "Selectively inhibits the L-cones in the subject's eyes, causing red-green colorblindness."
 	id = "protanopia"
 	effectType = EFFECT_TYPE_DISABILITY
+	occur_in_genepools = 0 //Look these colourblind mutations are pretty neat but also they're simultaneously boring and aggravating to get all the fucking time.
 	isBad = 1
 	msgGain = "Everything starts looking a lot more yellow."
 	msgLose = "You notice a few extra colors."
