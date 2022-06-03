@@ -217,6 +217,19 @@
 	/obj/item/device/radio/headset/shipping,\
 	/obj/item/device/pda2/quartermaster)
 
+///Just a box of shit to make the CE locker less of a clutterfest
+/obj/item/storage/box/clothing/work_safety
+	name = "work safety apparel"
+	spawn_contents = list(/obj/item/clothing/shoes/magnetic,\
+	/obj/item/clothing/ears/earmuffs,\
+	/obj/item/clothing/gloves/yellow,\
+	/obj/item/clothing/suit/hi_vis,\
+	/obj/item/clothing/head/helmet/welding,\
+	/obj/item/clothing/head/helmet/hardhat,\
+	/obj/item/clothing/glasses/meson)
+
+// Random miscellaneous crap that's not in costumes fsr?
+
 /obj/item/storage/box/clothing/wedding_dress
 	name = "wedding dress set"
 	desc = "A box that contains everything* you need to walk down that isle!<br><small><i>*Ring and fiancé(e) not included.</i></small>"

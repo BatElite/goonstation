@@ -281,23 +281,17 @@
 /obj/storage/secure/closet/command/chief_engineer
 	name = "\improper Chief Engineer's locker"
 	req_access = list(access_engineering_chief)
-	spawn_contents = list(/obj/item/storage/toolbox/mechanical/yellow_tools,
-	/obj/item/storage/backpack/engineering,
+	spawn_contents = list(/obj/item/storage/backpack/engineering,
 	/obj/item/storage/box/clothing/chief_engineer,
-	/obj/item/clothing/gloves/yellow,
+	/obj/item/storage/box/clothing/work_safety,
 	/obj/item/clothing/shoes/brown,
-	/obj/item/clothing/shoes/magnetic,
-	/obj/item/clothing/ears/earmuffs,
-	/obj/item/clothing/glasses/meson,
 	/obj/item/clothing/suit/fire,
 	/obj/item/clothing/mask/gas,
 	/obj/item/storage/belt/utility/prepared/ceshielded,
-	/obj/item/clothing/head/helmet/welding,
-	/obj/item/clothing/head/helmet/hardhat,
 	/obj/item/device/multitool,
 	/obj/item/device/flash,
 	/obj/item/stamp/ce,
-	/obj/item/clothing/suit/hi_vis,
+
 #ifdef UNDERWATER_MAP
 	/obj/item/clothing/suit/space/diving/engineering,
 	/obj/item/clothing/head/helmet/space/engineer/diving,
