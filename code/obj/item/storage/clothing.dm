@@ -9,57 +9,49 @@
 /obj/item/storage/box/clothing/captain
 	name = "\improper Captain's clothing"
 	spawn_contents = list(/obj/item/clothing/under/rank/captain,
-	/obj/item/clothing/under/rank/captain/dress,
-	/obj/item/clothing/head/fancy/captain,
-	/obj/item/clothing/under/rank/captain/fancy,
 	/obj/item/clothing/under/suit/captain,
-	/obj/item/clothing/under/suit/captain/dress,
-	/obj/item/clothing/suit/wintercoat/command)
+	/obj/item/clothing/suit/wintercoat/command,
+	/obj/item/clothing/shoes/brown,
+	/obj/item/device/radio/headset/command/captain)
 
 /obj/item/storage/box/clothing/hos
 	name = "\improper Head of Security's clothing"
 	spawn_contents = list(/obj/item/clothing/under/rank/head_of_security,
-	/obj/item/clothing/under/rank/head_of_security/dress,
 	/obj/item/clothing/under/suit/hos,
-	/obj/item/clothing/under/suit/hos/dress,
-	/obj/item/clothing/under/rank/head_of_security/fancy,
-	/obj/item/clothing/suit/wintercoat/command)
+	/obj/item/clothing/suit/wintercoat/command,
+	/obj/item/clothing/shoes/brown,
+	/obj/item/device/radio/headset/command/hos)
 
 /obj/item/storage/box/clothing/hop
 	name = "\improper Head of Personnel's clothing"
 	spawn_contents = list(/obj/item/clothing/under/rank/head_of_personnel,
-	/obj/item/clothing/under/rank/head_of_personnel/dress,
 	/obj/item/clothing/under/suit/hop,
-	/obj/item/clothing/under/suit/hop/dress,
-	/obj/item/clothing/head/fancy/rank,
-	/obj/item/clothing/under/rank/head_of_personnel/fancy,
-	/obj/item/clothing/suit/wintercoat/command)
+	/obj/item/clothing/suit/wintercoat/command,
+	/obj/item/clothing/shoes/brown,
+	/obj/item/device/radio/headset/command/hop)
 
 /obj/item/storage/box/clothing/research_director
 	name = "\improper Research Director's clothing"
 	spawn_contents = list(/obj/item/clothing/under/rank/research_director,
-	/obj/item/clothing/under/rank/research_director/dress,
 	/obj/item/clothing/suit/labcoat,
-	/obj/item/clothing/head/fancy/rank,
-	/obj/item/clothing/under/rank/research_director/fancy,
-	/obj/item/clothing/suit/wintercoat/command)
+	/obj/item/clothing/suit/wintercoat/command,
+	/obj/item/clothing/shoes/brown,
+	/obj/item/device/radio/headset/command/rd)
 
 /obj/item/storage/box/clothing/medical_director
 	name = "\improper Medical Director's clothing"
 	spawn_contents = list(/obj/item/clothing/under/rank/medical_director,
-	/obj/item/clothing/under/rank/medical_director/dress,
 	/obj/item/clothing/suit/labcoat,
-	/obj/item/clothing/head/fancy/rank,
-	/obj/item/clothing/under/rank/medical_director/fancy,
-	/obj/item/clothing/suit/wintercoat/command)
+	/obj/item/clothing/suit/wintercoat/command,
+	/obj/item/clothing/shoes/brown,
+	/obj/item/device/radio/headset/command/md)
 
 /obj/item/storage/box/clothing/chief_engineer
 	name = "\improper Chief Engineer's clothing"
 	spawn_contents = list(/obj/item/clothing/under/rank/chief_engineer,
-	/obj/item/clothing/under/rank/chief_engineer/dress,
-	/obj/item/clothing/head/fancy/rank,
-	/obj/item/clothing/under/rank/chief_engineer/fancy,
-	/obj/item/clothing/suit/wintercoat/command)
+	/obj/item/clothing/suit/wintercoat/command,
+	/obj/item/clothing/shoes/brown,
+	/obj/item/device/radio/headset/command/ce)
 
 // Civilian Equipment
 
@@ -217,8 +209,8 @@
 	/obj/item/device/radio/headset/shipping,\
 	/obj/item/device/pda2/quartermaster)
 
-///Just a box of shit to make the CE locker less of a clutterfest
-/obj/item/storage/box/clothing/work_safety
+
+/obj/item/storage/box/clothing/work_safety //Just a box of shit to make the CE locker less of a clutterfest
 	name = "work safety apparel"
 	spawn_contents = list(/obj/item/clothing/shoes/magnetic,\
 	/obj/item/clothing/ears/earmuffs,\

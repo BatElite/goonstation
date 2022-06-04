@@ -178,12 +178,10 @@
 	/obj/item/storage/box/id_kit,
 	/obj/item/storage/box/clothing/captain,
 	/obj/item/clothing/suit/armor/capcoat,
-	/obj/item/clothing/shoes/brown,
 	/obj/item/clothing/suit/armor/vest,
 	/obj/item/clothing/head/helmet/swat,
 	/obj/item/clothing/glasses/sunglasses,
-	/obj/item/stamp/cap,
-	/obj/item/device/radio/headset/command/captain)
+	/obj/item/stamp/cap)
 
 /obj/storage/secure/closet/command/captain/fake
 	req_access = null
@@ -204,15 +202,12 @@
 	/obj/item/storage/box/clothing/hos,
 	/obj/item/clothing/suit/det_suit/hos,
 	/obj/item/clothing/suit/armor/hoscape,
-	/obj/item/clothing/shoes/brown,
 	/obj/item/clothing/suit/armor/vest,
 	/obj/item/clothing/head/helmet/hardhat/security,
 	/obj/item/clothing/glasses/sunglasses/sechud,
 	/obj/item/gun/energy/egun,
-	/obj/item/device/radio/headset/security,
 	/obj/item/clothing/glasses/thermal,
 	/obj/item/stamp/hos,
-	/obj/item/device/radio/headset/command/hos,
 	/obj/item/clothing/shoes/swat/heavy,
 	/obj/item/barrier)
 
@@ -222,10 +217,8 @@
 	spawn_contents = list(/obj/item/device/flash,
 	/obj/item/storage/box/id_kit,
 	/obj/item/storage/box/clothing/hop,
-	/obj/item/clothing/shoes/brown,
 	/obj/item/clothing/suit/armor/vest,
 	/obj/item/stamp/hop,
-	/obj/item/device/radio/headset/command/hop,
 	/obj/item/device/accessgun)
 
 /obj/storage/secure/closet/command/research_director
@@ -234,7 +227,6 @@
 	spawn_contents = list(/obj/item/plant/herb/cannabis/spawnable,
 	/obj/item/device/light/zippo,
 	/obj/item/storage/box/clothing/research_director,
-	/obj/item/clothing/shoes/brown,
 	/obj/item/circular_saw,
 	/obj/item/scalpel,
 	/obj/item/hand_tele,
@@ -242,8 +234,7 @@
 	/obj/item/device/radio/electropack,
 	/obj/item/clothing/mask/gas,
 	/obj/item/device/flash,
-	/obj/item/stamp/rd,
-	/obj/item/device/radio/headset/command/rd)
+	/obj/item/stamp/rd)
 
 	make_my_stuff()
 		if (..()) // make_my_stuff is called multiple times due to lazy init, so the parent returns 1 if it actually fired and 0 if it already has
@@ -255,7 +246,6 @@
 	name = "\improper Medical Director's locker"
 	req_access = list(access_medical_director)
 	spawn_contents = list(/obj/item/storage/box/clothing/medical_director,
-	/obj/item/clothing/shoes/brown,
 	/obj/item/gun/implanter,
 	/obj/item/gun/reagent/syringe/NT,
 	/obj/item/reagent_containers/mender/both,
@@ -268,8 +258,7 @@
 	/obj/item/storage/firstaid/docbag,
 	/obj/item/reagent_containers/hypospray,
 	/obj/item/device/flash,
-	/obj/item/stamp/md,
-	/obj/item/device/radio/headset/command/md)
+	/obj/item/stamp/md)
 
 	make_my_stuff()
 		if (..()) // make_my_stuff is called multiple times due to lazy init, so the parent returns 1 if it actually fired and 0 if it already has
@@ -284,14 +273,12 @@
 	spawn_contents = list(/obj/item/storage/backpack/engineering,
 	/obj/item/storage/box/clothing/chief_engineer,
 	/obj/item/storage/box/clothing/work_safety,
-	/obj/item/clothing/shoes/brown,
 	/obj/item/clothing/suit/fire,
 	/obj/item/clothing/mask/gas,
 	/obj/item/storage/belt/utility/prepared/ceshielded,
 	/obj/item/device/multitool,
 	/obj/item/device/flash,
 	/obj/item/stamp/ce,
-
 #ifdef UNDERWATER_MAP
 	/obj/item/clothing/suit/space/diving/engineering,
 	/obj/item/clothing/head/helmet/space/engineer/diving,
@@ -299,7 +286,6 @@
 	/obj/item/clothing/suit/space/engineer,
 	/obj/item/clothing/head/helmet/space/engineer,
 #endif
-	/obj/item/device/radio/headset/command/ce,
 	/obj/item/paper/manufacturer_blueprint/lawrack)
 
 /* ==================== */
