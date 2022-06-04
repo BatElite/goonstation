@@ -59433,15 +59433,6 @@
 	dir = 4
 	},
 /area/station/security/main)
-"phf" = (
-/obj/table/auto,
-/obj/decal/cleanable/generic,
-/obj/item/storage/box/beer{
-	pixel_x = 14;
-	pixel_y = -3
-	},
-/turf/simulated/floor/grey/whitegrime/other,
-/area/station/maintenance/northeast)
 "pic" = (
 /obj/machinery/atmospherics/pipe/simple{
 	dir = 4
@@ -60031,6 +60022,21 @@
 /obj/access_spawn/heads,
 /turf/simulated/floor/delivery,
 /area/station/turret_protected/ai_upload_foyer)
+"qdV" = (
+/obj/table/auto,
+/obj/item/platestack{
+	icon_state = "platestack4";
+	pixel_x = -3;
+	pixel_y = 8;
+	platenum = 5
+	},
+/obj/decal/cleanable/generic,
+/obj/item/storage/box/beer{
+	pixel_x = 14;
+	pixel_y = -3
+	},
+/turf/simulated/floor/grey/whitegrime/other,
+/area/station/maintenance/northeast)
 "qfa" = (
 /obj/item/device/radio/intercom/catering{
 	dir = 8
@@ -118842,7 +118848,7 @@ ajc
 ajc
 oPG
 lTS
-phf
+qdV
 ajc
 aie
 amj
