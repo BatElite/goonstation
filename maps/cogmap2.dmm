@@ -6966,19 +6966,6 @@
 	icon_state = "wooden"
 	},
 /area/station/chapel/sanctuary)
-"aqq" = (
-/obj/table/wood/auto,
-/obj/deskclutter,
-/obj/item/card_box/tarot,
-/obj/machinery/camera{
-	c_tag = "autotag";
-	dir = 4;
-	name = "autoname - SS13";
-	pixel_x = -10;
-	tag = ""
-	},
-/turf/simulated/floor/black,
-/area/station/chapel/sanctuary)
 "aqr" = (
 /obj/disposalpipe/segment/mail/bent/north,
 /turf/simulated/floor/specialroom/chapel{
@@ -6993,16 +6980,6 @@
 	},
 /turf/simulated/floor/specialroom/chapel{
 	dir = 4
-	},
-/area/station/chapel/sanctuary)
-"aqt" = (
-/obj/disposalpipe/segment/mail/bent/south,
-/obj/machinery/status_display{
-	pixel_y = 30
-	},
-/turf/simulated/floor/carpet{
-	dir = 9;
-	icon_state = "fpurple2"
 	},
 /area/station/chapel/sanctuary)
 "aqu" = (
@@ -24136,6 +24113,11 @@
 /turf/space,
 /turf/simulated/floor/airless/plating/catwalk,
 /area/station/catwalk/north)
+"bez" = (
+/obj/machinery/atmospherics/pipe/tank/air_repressurization/east,
+/turf/simulated/floor/plating/damaged3,
+/turf/simulated/floor/plating/damaged2,
+/area/station/engine/substation/west)
 "beA" = (
 /obj/grille/catwalk,
 /obj/cable{
@@ -26657,6 +26639,24 @@
 	dir = 4
 	},
 /area/station/catwalk/north)
+"bkH" = (
+/obj/table/reinforced/auto,
+/obj/machinery/door_control{
+	id = "lockdown_sec";
+	name = "Security Lockdown";
+	pixel_x = -24;
+	pixel_y = -8
+	},
+/obj/disposalpipe/segment/transport,
+/obj/item/device/radio/intercom/brig,
+/obj/machinery/phone,
+/obj/blind_switch/area{
+	dir = 4;
+	pixel_x = -22;
+	pixel_y = 4
+	},
+/turf/simulated/floor/carpet/grime,
+/area/station/security/hos)
 "bkI" = (
 /obj/machinery/vending/cola/blue,
 /turf/simulated/floor/black,
@@ -31875,6 +31875,21 @@
 	},
 /turf/simulated/floor,
 /area/station/security/main)
+"bwd" = (
+/obj/table/reinforced/auto,
+/obj/item/clothing/suit/straight_jacket,
+/obj/item/clothing/suit/straight_jacket,
+/obj/item/reagent_containers/syringe/haloperidol,
+/obj/random_item_spawner/desk_stuff,
+/obj/machinery/light_switch/north{
+	dir = 4;
+	pixel_x = 22;
+	pixel_y = 0
+	},
+/turf/simulated/floor/red/side{
+	dir = 4
+	},
+/area/station/security/main)
 "bwe" = (
 /obj/machinery/light{
 	dir = 8;
@@ -33658,6 +33673,17 @@
 	},
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/plating,
+/area/station/security/main)
+"bzL" = (
+/obj/drink_rack/mug{
+	pixel_x = -22;
+	pixel_y = 4
+	},
+/obj/table/reinforced/auto,
+/obj/machinery/coffeemaker/security,
+/turf/simulated/floor/red/side{
+	dir = 10
+	},
 /area/station/security/main)
 "bzM" = (
 /obj/machinery/atmospherics/pipe/simple/color_pipe/yellow_pipe/vertical,
@@ -77704,17 +77730,6 @@
 	},
 /turf/simulated/floor/wood,
 /area/station/ranch)
-"jgW" = (
-/obj/drink_rack/mug{
-	pixel_x = -22;
-	pixel_y = 4
-	},
-/obj/table/reinforced/auto,
-/obj/machinery/coffeemaker/security,
-/turf/simulated/floor/red/side{
-	dir = 10
-	},
-/area/station/security/main)
 "jis" = (
 /obj/indestructible/shuttle_corner{
 	dir = 4
@@ -78596,21 +78611,6 @@
 /area/station/crew_quarters/clown{
 	name = "Clown's Quarters"
 	})
-"nAW" = (
-/obj/table/reinforced/auto,
-/obj/item/clothing/suit/straight_jacket,
-/obj/item/clothing/suit/straight_jacket,
-/obj/item/reagent_containers/syringe/haloperidol,
-/obj/random_item_spawner/desk_stuff,
-/obj/machinery/light_switch/north{
-	dir = 4;
-	pixel_x = 22;
-	pixel_y = 0
-	},
-/turf/simulated/floor/red/side{
-	dir = 4
-	},
-/area/station/security/main)
 "nCq" = (
 /turf/simulated/floor/stairs{
 	icon_state = "Stairs_wide"
@@ -79424,11 +79424,6 @@
 	dir = 4
 	},
 /area/station/ranch)
-"sch" = (
-/obj/machinery/atmospherics/pipe/tank/air_repressurization/east,
-/turf/simulated/floor/plating/damaged3,
-/turf/simulated/floor/plating/damaged2,
-/area/station/engine/substation/west)
 "sfG" = (
 /obj/storage/cart/mechcart{
 	desc = "A big rolling supply cart equipped for handling hull breaches.";
@@ -79446,24 +79441,6 @@
 /obj/item/old_grenade/oxygen,
 /turf/simulated/floor/plating,
 /area/research_outpost)
-"sgL" = (
-/obj/table/reinforced/auto,
-/obj/machinery/door_control{
-	id = "lockdown_sec";
-	name = "Security Lockdown";
-	pixel_x = -24;
-	pixel_y = -8
-	},
-/obj/disposalpipe/segment/transport,
-/obj/item/device/radio/intercom/brig,
-/obj/machinery/phone,
-/obj/blind_switch/area{
-	dir = 4;
-	pixel_x = -22;
-	pixel_y = 4
-	},
-/turf/simulated/floor/carpet/grime,
-/area/station/security/hos)
 "shU" = (
 /obj/decal/tile_edge/stripe/big{
 	dir = 4
@@ -79851,6 +79828,13 @@
 /obj/item/old_grenade/oxygen,
 /turf/simulated/floor/plating,
 /area/station/engine/substation/east)
+"tER" = (
+/obj/disposalpipe/segment/mail/bent/south,
+/turf/simulated/floor/carpet{
+	dir = 9;
+	icon_state = "fpurple2"
+	},
+/area/station/chapel/sanctuary)
 "tFo" = (
 /obj/machinery/door/airlock/pyro/glass{
 	name = "Research Outpost";
@@ -80281,6 +80265,22 @@
 	dir = 9
 	},
 /area/station/hallway/secondary/exit)
+"wtw" = (
+/obj/table/wood/auto,
+/obj/deskclutter,
+/obj/item/card_box/tarot,
+/obj/machinery/camera{
+	c_tag = "autotag";
+	dir = 4;
+	name = "autoname - SS13";
+	pixel_x = -10;
+	tag = ""
+	},
+/obj/machinery/status_display{
+	pixel_y = 30
+	},
+/turf/simulated/floor/black,
+/area/station/chapel/sanctuary)
 "wuE" = (
 /obj/securearea{
 	desc = "This hazard stripe marks a high-intensity beamline.";
@@ -126070,7 +126070,7 @@ bcu
 bdr
 beb
 beF
-sch
+bez
 beR
 aaa
 bes
@@ -126642,7 +126642,7 @@ alF
 amZ
 anZ
 aph
-aqq
+wtw
 arw
 asH
 alM
@@ -127548,7 +127548,7 @@ alI
 alI
 akr
 akr
-aqt
+tER
 arz
 asI
 atY
@@ -136656,7 +136656,7 @@ bsw
 bum
 bvW
 byc
-jgW
+bzL
 bBo
 bMp
 bFj
@@ -138768,7 +138768,7 @@ bpe
 bqO
 bsD
 but
-nAW
+bwd
 byi
 bzS
 bBu
@@ -139370,7 +139370,7 @@ blY
 bnA
 bpg
 bqQ
-sgL
+bkH
 buv
 bwe
 byk
