@@ -7548,6 +7548,18 @@
 /obj/item/reagent_containers/food/snacks/cereal_box,
 /turf/simulated/floor/black,
 /area/station/crew_quarters/quartersA)
+"arR" = (
+/obj/stool/chair/green{
+	dir = 8
+	},
+/obj/landmark/start{
+	name = "Staff Assistant"
+	},
+/obj/machinery/light_switch/auto,
+/turf/simulated/floor/blueblack{
+	dir = 4
+	},
+/area/station/crew_quarters/quartersA)
 "arS" = (
 /obj/lattice{
 	icon_state = "lattice-dir"
@@ -8085,6 +8097,17 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/black,
+/area/station/crew_quarters/quartersA)
+"ath" = (
+/obj/stool/chair/blue{
+	dir = 8
+	},
+/obj/machinery/status_display{
+	pixel_x = 32
+	},
+/turf/simulated/floor/blueblack{
+	dir = 4
+	},
 /area/station/crew_quarters/quartersA)
 "ati" = (
 /obj/shrub,
@@ -44888,17 +44911,6 @@
 /obj/decal/fakeobjects/flock/antenna,
 /turf/simulated/shuttle/wall/flock,
 /area/space)
-"eJk" = (
-/obj/stool/chair/blue{
-	dir = 8
-	},
-/obj/machinery/status_display{
-	pixel_x = 32
-	},
-/turf/simulated/floor/blueblack{
-	dir = 4
-	},
-/area/station/crew_quarters/quartersA)
 "eJX" = (
 /obj/lattice{
 	icon_state = "lattice-dir"
@@ -47025,6 +47037,12 @@
 	},
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/inner/central)
+"qJz" = (
+/obj/item/storage/secure/ssafe/diner_arcade{
+	pixel_x = -30
+	},
+/turf/simulated/floor/black,
+/area/diner/dining)
 "qKr" = (
 /obj/decal/tile_edge/line/red{
 	dir = 10;
@@ -47638,18 +47656,6 @@
 	},
 /turf/simulated/floor,
 /area/station/hangar/sec)
-"uJi" = (
-/obj/stool/chair/green{
-	dir = 8
-	},
-/obj/landmark/start{
-	name = "Staff Assistant"
-	},
-/obj/machinery/light_switch/auto,
-/turf/simulated/floor/blueblack{
-	dir = 4
-	},
-/area/station/crew_quarters/quartersA)
 "uTy" = (
 /obj/submachine/cargopad{
 	name = "Security Pod Bay Pad"
@@ -80571,8 +80577,8 @@ anD
 aou
 apo
 lXd
-uJi
-eJk
+arR
+ath
 auw
 avL
 axa
@@ -122083,7 +122089,7 @@ aqn
 aPB
 cab
 cai
-cao
+qJz
 aPB
 caG
 caJ

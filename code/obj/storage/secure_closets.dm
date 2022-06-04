@@ -21,7 +21,7 @@
 	get_desc(dist)
 		. += "[reinforced ? "It's reinforced, only stronger firearms and explosives could break into this. " : ""]"
 
-	attackby(obj/item/I as obj, mob/user as mob)
+	attackby(obj/item/I, mob/user)
 		if (src.open || !src.locked)
 			..()
 		else if (!I)
@@ -179,7 +179,7 @@
 	/obj/item/storage/box/clothing/captain,
 	/obj/item/clothing/suit/armor/capcoat,
 	/obj/item/clothing/suit/armor/vest,
-	/obj/item/clothing/head/helmet/swat,
+	/obj/item/clothing/head/helmet,
 	/obj/item/clothing/glasses/sunglasses,
 	/obj/item/stamp/cap)
 

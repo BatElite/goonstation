@@ -196,7 +196,7 @@ WET FLOOR SIGN
 		new/obj/janitorTsunamiWave(get_turf(src), A)
 		playsound(src.loc, 'sound/effects/bigwave.ogg', 70, 1)
 
-/obj/item/spraybottle/attack(mob/living/carbon/human/M as mob, mob/user as mob)
+/obj/item/spraybottle/attack(mob/living/carbon/human/M, mob/user)
 	return
 
 /obj/item/spraybottle/afterattack(atom/A as mob|obj, mob/user as mob)
@@ -361,7 +361,7 @@ WET FLOOR SIGN
 			user.visible_message("[user] raises a mop as a lance!", "You raise the mop into jousting position.")
 			S.joustingTool = src
 
-/obj/item/mop/attack(mob/living/M as mob, mob/user as mob)
+/obj/item/mop/attack(mob/living/M, mob/user)
 	if (user.a_intent == INTENT_HELP)
 		user.visible_message("[user] pokes [M] with \the [src].", "You poke [M] with \the [src].")
 		return
@@ -478,7 +478,7 @@ WET FLOOR SIGN
 	if(reagents?.total_volume)
 		. += "<span class='notice'>[src] is wet!</span>"
 
-/obj/item/sponge/attack(mob/living/M as mob, mob/user as mob)
+/obj/item/sponge/attack(mob/living/M, mob/user)
 	if (user.a_intent == INTENT_HELP)
 		return
 	return ..()
@@ -498,7 +498,7 @@ WET FLOOR SIGN
 	SPAWN(1 SECOND)
 	spam_flag = 0
 
-/obj/item/sponge/attackby(obj/item/W as obj, mob/user as mob)
+/obj/item/sponge/attackby(obj/item/W, mob/user)
 	if (istool(W, TOOL_CUTTING | TOOL_SNIPPING))
 		user.visible_message("<span class='notice'>[user] cuts [src] into the shape of... cheese?</span>")
 		if(src.loc == user)

@@ -12393,13 +12393,6 @@
 	},
 /turf/unsimulated/floor/grass/leafy,
 /area/crater/biodome/north)
-"aMM" = (
-/obj/critter/spacebee,
-/obj/spacevine{
-	icon_state = "vine-light2"
-	},
-/turf/unsimulated/floor/grass/leafy,
-/area/crater/biodome/north)
 "aMN" = (
 /obj/spacevine{
 	density = 1;
@@ -12614,16 +12607,6 @@
 /obj/machinery/light/runway_light/delay4,
 /turf/unsimulated/floor/airless,
 /area/space)
-"aNu" = (
-/obj/critter/spacebee,
-/obj/spacevine{
-	icon_state = "vine-light3"
-	},
-/obj/spacevine{
-	icon_state = "vine-light2"
-	},
-/turf/unsimulated/floor/grass/leafy,
-/area/crater/biodome/north)
 "aNv" = (
 /obj/decal/statue/monkey2,
 /turf/unsimulated/floor/setpieces{
@@ -12787,16 +12770,6 @@
 	dir = 1
 	},
 /area/crater/biodome/north)
-"aOa" = (
-/obj/spacevine{
-	density = 1;
-	icon_state = "vine-med2"
-	},
-/obj/critter/spacebee,
-/turf/unsimulated/floor/green/side{
-	dir = 1
-	},
-/area/crater/biodome/north)
 "aOb" = (
 /obj/spacevine{
 	density = 1;
@@ -12815,15 +12788,6 @@
 	dir = 1
 	},
 /area/crater/biodome/north)
-"aOd" = (
-/obj/critter/spacebee,
-/obj/spacevine{
-	icon_state = "vine-light2"
-	},
-/turf/unsimulated/floor/green/side{
-	dir = 1
-	},
-/area/crater/biodome/north)
 "aOe" = (
 /turf/unsimulated/wall/setpieces/fakewindow{
 	dir = 6
@@ -12834,15 +12798,6 @@
 	icon_state = "vine-light3"
 	},
 /obj/item/clothing/head/safari,
-/turf/unsimulated/floor/green/side{
-	dir = 1
-	},
-/area/crater/biodome/north)
-"aOg" = (
-/obj/spacevine{
-	icon_state = "vine-light3"
-	},
-/obj/critter/spacebee,
 /turf/unsimulated/floor/green/side{
 	dir = 1
 	},
@@ -13212,16 +13167,6 @@
 	icon_state = "vine-hvy2";
 	opacity = 1
 	},
-/turf/unsimulated/floor/green/side,
-/area/crater/biodome/north)
-"aPc" = (
-/obj/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/spacevine,
-/obj/critter/spacebee,
 /turf/unsimulated/floor/green/side,
 /area/crater/biodome/north)
 "aPd" = (
@@ -70985,6 +70930,14 @@
 /obj/lattice,
 /turf/unsimulated/floor/void,
 /area/diner/cow)
+"gmI" = (
+/obj/table/reinforced/auto,
+/obj/traitorifier/virtual/arcfiend,
+/turf/unsimulated/floor/setpieces/gauntlet{
+	desc = "This place is going to be a fucking mess.";
+	name = "\proper the murderbox"
+	},
+/area/sim/gunsim)
 "gmY" = (
 /obj/machinery/lawrack/syndicate,
 /turf/unsimulated/floor/darkblue,
@@ -71369,6 +71322,15 @@
 "hKE" = (
 /turf/unsimulated/wall/auto/lead/gray,
 /area/sim/tdome/tdome1)
+"hLd" = (
+/obj/spacevine{
+	icon_state = "vine-light3"
+	},
+/obj/critter/wasp,
+/turf/unsimulated/floor/green/side{
+	dir = 1
+	},
+/area/crater/biodome/north)
 "hLe" = (
 /obj/table/reinforced/bar/auto,
 /obj/machinery/light,
@@ -72921,14 +72883,6 @@
 	},
 /turf/unsimulated/floor/carpet/purple/fancy/edge/south,
 /area/centcom/offices/virvatuli)
-"mSD" = (
-/obj/table/reinforced/auto,
-/obj/traitorifier/virtual/arcfiend,
-/turf/unsimulated/floor/setpieces/gauntlet{
-	desc = "This place is going to be a fucking mess.";
-	name = "\proper the murderbox"
-	},
-/area/sim/gunsim)
 "mUi" = (
 /obj/admin_plaque{
 	name = "Studenterhue's Office"
@@ -73814,6 +73768,16 @@
 	dir = 1
 	},
 /area/centcom)
+"oZO" = (
+/obj/critter/wasp,
+/obj/spacevine{
+	icon_state = "vine-light3"
+	},
+/obj/spacevine{
+	icon_state = "vine-light2"
+	},
+/turf/unsimulated/floor/grass/leafy,
+/area/crater/biodome/north)
 "oZS" = (
 /obj/machinery/light,
 /obj/table/wood/auto/desk,
@@ -74027,6 +73991,16 @@
 	},
 /turf/unsimulated/outdoors/grass,
 /area/diner/cow)
+"pAh" = (
+/obj/spacevine{
+	density = 1;
+	icon_state = "vine-med2"
+	},
+/obj/critter/wasp,
+/turf/unsimulated/floor/green/side{
+	dir = 1
+	},
+/area/crater/biodome/north)
 "pAL" = (
 /obj/decal/aliencomputer{
 	desc = "This appears to be some sort of martian computer. A broken one, at that.";
@@ -74328,13 +74302,6 @@
 	icon_state = "floor2"
 	},
 /area/shuttle/merchant_shuttle/diner_centcom)
-"qfh" = (
-/obj/table/reinforced/auto,
-/turf/unsimulated/floor/setpieces/gauntlet{
-	desc = "This place is going to be a fucking mess.";
-	name = "\proper the murderbox"
-	},
-/area/sim/gunsim)
 "qfQ" = (
 /obj/indestructible/shuttle_corner{
 	dir = 9;
@@ -74474,6 +74441,15 @@
 /obj/machinery/computer3/generic/personal/meatland,
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/mrfishstick)
+"qGN" = (
+/obj/critter/wasp,
+/obj/spacevine{
+	icon_state = "vine-light2"
+	},
+/turf/unsimulated/floor/green/side{
+	dir = 1
+	},
+/area/crater/biodome/north)
 "qHA" = (
 /obj/landmark/viscontents_spawn{
 	targetZ = 4
@@ -75310,6 +75286,13 @@
 	icon_state = "floor5"
 	},
 /area/wizard_station)
+"ssh" = (
+/obj/table/reinforced/auto,
+/turf/unsimulated/floor/setpieces/gauntlet{
+	desc = "This place is going to be a fucking mess.";
+	name = "\proper the murderbox"
+	},
+/area/sim/gunsim)
 "suO" = (
 /obj/machinery/shuttle/engine/heater{
 	dir = 1;
@@ -76270,6 +76253,23 @@
 	icon_state = "red2"
 	},
 /area/diner/cow)
+"vKi" = (
+/obj/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/spacevine,
+/obj/critter/wasp,
+/turf/unsimulated/floor/green/side,
+/area/crater/biodome/north)
+"vLV" = (
+/obj/critter/wasp,
+/obj/spacevine{
+	icon_state = "vine-light2"
+	},
+/turf/unsimulated/floor/grass/leafy,
+/area/crater/biodome/north)
 "vNH" = (
 /obj/indestructible/shuttle_corner{
 	dir = 8;
@@ -111874,7 +111874,7 @@ pTc
 aLZ
 aMI
 aMN
-aOa
+pAh
 aOW
 nyQ
 aQu
@@ -113082,7 +113082,7 @@ aSr
 aMd
 aMK
 aML
-aOd
+qGN
 aOZ
 nyQ
 kAx
@@ -113383,7 +113383,7 @@ aKg
 aSr
 aMb
 aML
-aMM
+vLV
 aOc
 aPa
 vld
@@ -113684,7 +113684,7 @@ aKg
 aLw
 aSr
 aMe
-aMM
+vLV
 aML
 bil
 aPa
@@ -113987,7 +113987,7 @@ aLy
 pTc
 aMf
 aMN
-aNu
+oZO
 aOf
 aPa
 nyQ
@@ -114593,7 +114593,7 @@ aLY
 aMI
 aMN
 aOb
-aPc
+vKi
 nOg
 iXR
 aQx
@@ -114894,7 +114894,7 @@ aSr
 aMh
 aMd
 aMI
-aOg
+hLd
 aPd
 aPQ
 nyQ
@@ -136518,7 +136518,7 @@ cix
 ciw
 ciw
 ciw
-mSD
+gmI
 clQ
 clP
 cmw
@@ -137424,7 +137424,7 @@ ciN
 ciw
 ciw
 ciw
-qfh
+ssh
 sfP
 mIR
 cmG

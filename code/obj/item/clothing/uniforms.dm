@@ -1221,7 +1221,7 @@ colorjumpsuit(pink, pink)
 					qdel(src)
 					return
 
-	attackby(obj/item/W as obj, mob/user as mob)
+	attackby(obj/item/W, mob/user)
 		if (issnippingtool(W))
 			boutput(user, "You begin cutting up [src].")
 			if (!do_after(user, 3 SECONDS))
@@ -1238,7 +1238,7 @@ colorjumpsuit(pink, pink)
 		else
 			return ..()
 
-	attack(mob/M as mob, mob/user as mob, def_zone)
+	attack(mob/M, mob/user, def_zone)
 		src.add_fingerprint(user)
 		if (user.a_intent != "harm")
 			M.visible_message("[user] towels [M == user ? "[him_or_her(user)]self" : M] dry.")
@@ -1426,7 +1426,7 @@ colorjumpsuit(pink, pink)
     icon_state = "bandshirt"
     item_state = "bandshirt"
 
-/obj/item/clothing/under/misc/bandshirt/attack_hand(mob/user as mob)
+/obj/item/clothing/under/misc/bandshirt/attack_hand(mob/user)
 	if  ( ..() && !disturbed )
 		new /obj/item/clothing/mask/cigarette/dryjoint(get_turf(user))
 		boutput(user, "Something falls out of the shirt as you pick it up!")
