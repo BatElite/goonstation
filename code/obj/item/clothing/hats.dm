@@ -1208,7 +1208,7 @@ proc/filter_trait_hats(var/type)
 	desc = "The hat of not-so-funny-clown."
 	icon_state = "jester"
 	item_state = "jester"
-	seal_hair = 1
+	//seal_hair = 1 no, fuck off
 
 /obj/item/clothing/head/party
 	name = "party hat"
@@ -1859,3 +1859,4 @@ ABSTRACT_TYPE(/obj/item/clothing/head/basecap)
 	desc = "A surgical hat designed to keep the wearers hair from falling into the patient, essentially a fancier hair net."
 	icon_state = "bouffant"
 	item_state = "bouffant"
+	seal_hair = TRUE //Why didn't it have this FFS

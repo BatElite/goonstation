@@ -801,6 +801,7 @@
 	item_state = "nthelm"
 	c_flags = SPACEWEAR | COVERSEYES | COVERSMOUTH | BLOCKCHOKE
 	see_face = 0.0
+	seal_hair = TRUE
 	setupProperties()
 		..()
 		setProperty("meleeprot_head", 8)
