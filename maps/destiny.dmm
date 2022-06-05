@@ -40530,6 +40530,10 @@
 	icon_state = "engine_caution_west"
 	},
 /area/station/hangar/main)
+"nIL" = (
+/obj/machinery/status_display,
+/turf/simulated/wall/auto/reinforced/supernorn,
+/area/station/crewquarters/cryotron)
 "nIZ" = (
 /obj/machinery/light{
 	dir = 4
@@ -49933,6 +49937,21 @@
 	},
 /turf/simulated/floor/black,
 /area/station/teleporter)
+"sWu" = (
+/obj/machinery/camera{
+	c_tag = "autotag";
+	dir = 1;
+	name = "autoname - SS13"
+	},
+/obj/machinery/power/apc/autoname_north,
+/obj/cable{
+	icon_state = "0-4"
+	},
+/obj/cable{
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/plating/random,
+/area/station/maintenance/north)
 "sWw" = (
 /obj/rack,
 /obj/item/clothing/suit/bio_suit/paramedic,
@@ -51835,21 +51854,6 @@
 /obj/decal/tile_edge/stripe/extra_big,
 /turf/simulated/floor,
 /area/station/hallway/primary/east)
-"tVu" = (
-/obj/machinery/camera{
-	c_tag = "autotag";
-	dir = 1;
-	name = "autoname - SS13"
-	},
-/obj/machinery/power/apc/autoname_north,
-/obj/cable{
-	icon_state = "0-4"
-	},
-/obj/cable{
-	icon_state = "0-8"
-	},
-/turf/simulated/floor/plating/random,
-/area/station/maintenance/north)
 "tVI" = (
 /obj/disposalpipe/segment/mail{
 	dir = 4;
@@ -56581,6 +56585,14 @@
 "woc" = (
 /turf/simulated/floor,
 /area/station/security/equipment)
+"wou" = (
+/obj/machinery/light/incandescent/warm{
+	dir = 4
+	},
+/obj/table/round/auto,
+/obj/machinery/computer/tour_console,
+/turf/simulated/floor/darkblue/checker,
+/area/station/crew_quarters/fitness)
 "wox" = (
 /obj/cable{
 	icon_state = "4-8"
@@ -56815,17 +56827,6 @@
 /obj/cable,
 /turf/simulated/floor/black,
 /area/station/security/checkpoint/customs)
-"wsz" = (
-/obj/machinery/light/incandescent/warm{
-	dir = 4
-	},
-/obj/table/round/auto,
-/obj/machinery/computer/tour_console,
-/obj/machinery/status_display{
-	pixel_x = 32
-	},
-/turf/simulated/floor/darkblue/checker,
-/area/station/crew_quarters/fitness)
 "wsM" = (
 /obj/disposalpipe/segment{
 	dir = 8;
@@ -108003,7 +108004,7 @@ qqm
 qqm
 nXS
 alU
-tVu
+sWu
 tNB
 ybU
 wId
@@ -108080,7 +108081,7 @@ xUg
 xUg
 xUg
 faU
-vMh
+nIL
 qyS
 lBQ
 lBQ
@@ -109597,7 +109598,7 @@ aFW
 bvR
 kDq
 qcW
-wsz
+wou
 koy
 exq
 bKX
