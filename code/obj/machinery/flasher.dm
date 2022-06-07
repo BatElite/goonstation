@@ -192,7 +192,7 @@
 
 //Let the AI trigger them directly.
 /obj/machinery/flasher/attack_ai()
-	if (src.anchored && !ON_COOLDOWN(src, "flash", cooldown_flash))
+	if (src.anchored)
 		return src.flash()
 	else
 		return
@@ -201,12 +201,12 @@
 	if (!powered())
 		return
 
-	if (src.disable)
+	if (src.disable || ON_COOLDOWN(src, "flash", cooldown_flash))
 		return
 
 	playsound(src.loc, "sound/weapons/flash.ogg", 100, 1)
 	flick("[base_state]_flash", src)
-	ON_COOLDOWN(src, "flash", cooldown_flash)
+
 	use_power(1000)
 
 	for (var/mob/O in viewers(src, null))

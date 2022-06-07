@@ -1,12 +1,13 @@
 /obj/machinery/artifact/noisy_thing
 	name = "artifact noisy thing"
 	associated_datum = /datum/artifact/noisy_thing
-
+//unfixed bug: https://github.com/goonstation/goonstation/issues/6498
+//(yes it's closed there but only because they removed the entire thing)
 /datum/artifact/noisy_thing
 	associated_object = /obj/machinery/artifact/noisy_thing
 	type_name = "Noisemaker"
 	type_size = ARTIFACT_SIZE_LARGE
-	rarity_weight = 450
+	rarity_weight = 0 //Gonna keep this but disabled for now, maybe we can slot some nicer sounds in than every damn siren and technocrunch. Value was 450
 	validtypes = list("ancient","martian","wizard","eldritch","precursor")
 	validtriggers = list(/datum/artifact_trigger/force,/datum/artifact_trigger/electric,/datum/artifact_trigger/heat,
 	/datum/artifact_trigger/radiation,/datum/artifact_trigger/carbon_touch,/datum/artifact_trigger/silicon_touch)
