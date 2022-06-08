@@ -962,7 +962,7 @@ datum
 			thirst_value = -0.09
 			stun_resist = 50
 			threshold = THRESHOLD_INIT
-			var/purge_brain = TRUE
+			//var/purge_brain = TRUE
 
 			on_add()
 				if(ismob(holder?.my_atom))
@@ -1000,11 +1000,11 @@ datum
 				if(M.sleeping) M.sleeping = 0
 				if(prob(50))
 					M.take_brain_damage(1 * mult)
-				if(purge_brain)
+				/*if(purge_brain)
 					if(holder.has_reagent("synaptizine"))
 						holder.remove_reagent("synaptizine", 5 * mult)
 					if(holder.has_reagent("mannitol"))
-						holder.remove_reagent("mannitol", 5 * mult)
+						holder.remove_reagent("mannitol", 5 * mult)*/
 				..()
 				return
 
@@ -1042,14 +1042,14 @@ datum
 					else if (effect <= 7)
 						M.emote("laugh")
 
-			syndicate
+			/*syndicate
 				name = "methamphetamine"
 				id = "synd_methamphetamine"
 				description = "Methamphetamine is a highly effective and dangerous stimulant drug. This batch seems unusally high-grade and pure."
 				purge_brain = FALSE
 				fluid_r = 115 // This shit's pure and blue
 				fluid_g = 197
-				fluid_b = 250
+				fluid_b = 250*/
 
 		drug/hellshroom_extract
 			name = "Hellshroom extract"
