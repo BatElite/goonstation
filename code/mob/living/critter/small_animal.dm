@@ -1802,6 +1802,8 @@ var/list/mob_bird_species = list("smallowl" = /mob/living/critter/small_animal/b
 /mob/living/critter/small_animal/opossum/morty
 	name = "Morty"
 	real_name = "Morty"
+	icon_state = "morty"
+	icon_state_dead = "morty-dead"
 
 /* ================================================ */
 /* ----------------- Armadillo -------------------- */

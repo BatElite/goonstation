@@ -153,6 +153,7 @@
 /obj/critter/opossum/morty
 	name = "Morty"
 	generic = 0
+	icon_state = "morty" //Walp your sprites are lovely but that thin bean isn't Morty
 
 // hi I added my childhood cats' names to the list cause I miss em, they aren't really funny names but they were great cats
 // remove em if you want I guess
