@@ -982,13 +982,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/quartermaster/office)
-"cs" = (
-/obj/machinery/door/airlock/pyro/glass{
-	name = "Cargo";
-	req_access_txt = "27"
-	},
-/turf/simulated/floor/yellow,
-/area/station/quartermaster/office)
 "ct" = (
 /turf/simulated/wall/auto/supernorn,
 /area/station/maintenance/north)
@@ -2305,6 +2298,15 @@
 /obj/machinery/portable_atmospherics/canister/air/large,
 /turf/simulated/floor/delivery,
 /area/station/hallway/primary/south)
+"fW" = (
+/obj/table/wood/auto,
+/obj/machinery/light/lamp/black,
+/obj/item/record/atlas{
+	pixel_x = 5;
+	pixel_y = -10
+	},
+/turf/simulated/floor/wood/two,
+/area/station/bridge/united_command)
 "fX" = (
 /obj/machinery/door/airlock/pyro/external,
 /turf/simulated/floor/caution/northsouth,
@@ -6205,13 +6207,6 @@
 "pA" = (
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/security/secwing)
-"pB" = (
-/obj/table/auto,
-/obj/item/hand_tele,
-/turf/simulated/floor/purpleblack{
-	dir = 10
-	},
-/area/station/teleporter)
 "pC" = (
 /obj/machinery/light_switch/auto,
 /turf/simulated/floor/purpleblack,
@@ -9788,12 +9783,6 @@
 	},
 /turf/space,
 /area/space)
-"xI" = (
-/obj/displaycase{
-	displayed = new /obj/item/captaingun
-	},
-/turf/simulated/floor/blue,
-/area/station/bridge/captain)
 "xJ" = (
 /obj/storage/closet/emergency,
 /obj/machinery/light/small{
@@ -10505,15 +10494,6 @@
 	dir = 8;
 	layer = 9.1;
 	pixel_x = -10
-	},
-/turf/simulated/floor/wood/two,
-/area/station/bridge/united_command)
-"zt" = (
-/obj/table/wood/auto,
-/obj/machinery/light/lamp/black,
-/obj/item/record/atlas{
-	pixel_x = 5;
-	pixel_y = -10
 	},
 /turf/simulated/floor/wood/two,
 /area/station/bridge/united_command)
@@ -12101,6 +12081,13 @@
 "Dz" = (
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/mining/refinery)
+"DB" = (
+/obj/table/auto,
+/obj/item/hand_tele,
+/turf/simulated/floor/purpleblack{
+	dir = 10
+	},
+/area/station/teleporter)
 "DC" = (
 /obj/storage/closet/wardrobe/mixed,
 /turf/simulated/floor/plating/random,
@@ -20515,6 +20502,12 @@
 /obj/machinery/phone,
 /turf/simulated/floor/carpet/red/fancy/edge/ne,
 /area/station/security/main)
+"YZ" = (
+/obj/displaycase{
+	displayed = new /obj/item/captaingun
+	},
+/turf/simulated/floor/blue,
+/area/station/bridge/captain)
 "Za" = (
 /obj/machinery/atmospherics/binary/pump{
 	dir = 8;
@@ -20697,6 +20690,13 @@
 	dir = 1
 	},
 /area/station/bridge/customs)
+"ZB" = (
+/obj/machinery/door/airlock/pyro/glass{
+	name = "Cargo"
+	},
+/obj/access_spawn/maint,
+/turf/simulated/floor/yellow,
+/area/station/quartermaster/office)
 "ZC" = (
 /obj/wingrille_spawn/auto/crystal,
 /obj/machinery/door/poddoor/pyro{
@@ -63855,7 +63855,7 @@ aT
 bB
 bB
 dx
-cs
+ZB
 cV
 dz
 ea
@@ -77764,7 +77764,7 @@ rQ
 ct
 nZ
 oN
-pB
+DB
 mr
 rI
 sp
@@ -77773,7 +77773,7 @@ uo
 vf
 FO
 Wz
-zt
+fW
 Ah
 AX
 Qj
@@ -80784,7 +80784,7 @@ xG
 IW
 xu
 xE
-xI
+YZ
 mu
 rR
 sX
