@@ -1451,38 +1451,6 @@
 /obj/submachine/record_player,
 /turf/simulated/floor/carpet/grime,
 /area/radiostation/studio)
-"aep" = (
-/obj/storage/crate/bin,
-/obj/machinery/light{
-	dir = 4;
-	pixel_x = 10
-	},
-/obj/item/radio_tape/advertisement/dans_tickets,
-/obj/item/radio_tape/advertisement/grones{
-	pixel_x = 6;
-	pixel_y = 4
-	},
-/obj/item/radio_tape/audio_book/heisenbee,
-/obj/item/radio_tape/advertisement/danitos_burritos{
-	pixel_x = -5;
-	pixel_y = -3
-	},
-/obj/item/radio_tape/advertisement/quik_noodles{
-	pixel_x = 2;
-	pixel_y = -6
-	},
-/obj/item/radio_tape/advertisement/pope_crunch,
-/obj/item/radio_tape/advertisement/security_psa{
-	pixel_x = -3;
-	pixel_y = 4
-	},
-/obj/item/radio_tape/advertisement/cloning_psa,
-/obj/item/radio_tape/advertisement/captain_psa{
-	pixel_x = -8;
-	pixel_y = 6
-	},
-/turf/simulated/floor/carpet/grime,
-/area/radiostation/studio)
 "aeq" = (
 /obj/machinery/light{
 	dir = 4;
@@ -2023,11 +1991,6 @@
 /obj/item/brick,
 /turf/unsimulated/floor/setpieces/hivefloor,
 /area/space_hive)
-"agd" = (
-/obj/table/auto,
-/obj/machinery/light/lamp/bright,
-/turf/simulated/floor/black,
-/area/mining/quarters)
 "age" = (
 /turf/simulated/wall/auto/asteroid{
 	dir = 10
@@ -14986,6 +14949,21 @@
 	},
 /turf/simulated/floor,
 /area/h7)
+"aUM" = (
+/obj/decal/fakeobjects/firelock_broken{
+	dir = 8
+	},
+/obj/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/pyro/external{
+	dir = 4;
+	name = "Compartment Hatch"
+	},
+/turf/simulated/floor,
+/area/h7)
 "aUN" = (
 /obj/cable{
 	d1 = 1;
@@ -15041,6 +15019,24 @@
 /obj/machinery/atmospherics/valve,
 /turf/simulated/floor/grime,
 /area/iss)
+"aUU" = (
+/obj/decal/fakeobjects/firelock_broken{
+	dir = 4
+	},
+/obj/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/pyro/glass{
+	dir = 4;
+	icon_state = "door_locked";
+	locked = 1;
+	name = "Damaged Glass Airlock";
+	secondsElectrified = -1
+	},
+/turf/simulated/floor,
+/area/h7)
 "aUV" = (
 /obj/machinery/door/airlock/pyro/maintenance{
 	dir = 4
@@ -21489,6 +21485,38 @@
 /obj/item/device/audio_log/timewarp_01,
 /turf/unsimulated/floor/black,
 /area/timewarp/ship)
+"iEu" = (
+/obj/storage/crate/bin,
+/obj/machinery/light{
+	dir = 4;
+	pixel_x = 10
+	},
+/obj/item/radio_tape/advertisement/dans_tickets,
+/obj/item/radio_tape/advertisement/grones{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/obj/item/radio_tape/audio_book/heisenbee,
+/obj/item/radio_tape/advertisement/danitos_burritos{
+	pixel_x = -5;
+	pixel_y = -3
+	},
+/obj/item/radio_tape/advertisement/quik_noodles{
+	pixel_x = 2;
+	pixel_y = -6
+	},
+/obj/item/radio_tape/advertisement/pope_crunch,
+/obj/item/radio_tape/advertisement/security_psa{
+	pixel_x = -3;
+	pixel_y = 4
+	},
+/obj/item/radio_tape/advertisement/cloning_psa,
+/obj/item/radio_tape/advertisement/captain_psa{
+	pixel_x = -8;
+	pixel_y = 6
+	},
+/turf/simulated/floor/carpet/grime,
+/area/radiostation/studio)
 "iIc" = (
 /obj/critter/gunbot/drone/heavydrone,
 /turf/simulated/floor/plating/airless/asteroid,
@@ -21553,6 +21581,11 @@
 /obj/item/cable_coil,
 /turf/space,
 /area/space)
+"jBo" = (
+/obj/table/auto,
+/obj/machinery/light/lamp/black/bright,
+/turf/simulated/floor/black,
+/area/mining/quarters)
 "jBT" = (
 /obj/decal/timeplug{
 	dir = 1
@@ -22268,21 +22301,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/helldrone)
-"pjZ" = (
-/obj/decal/fakeobjects/firelock_broken{
-	dir = 8
-	},
-/obj/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/door/airlock/pyro/external{
-	dir = 4;
-	name = "Compartment Hatch"
-	},
-/turf/simulated/floor,
-/area/h7)
 "plh" = (
 /obj/indestructible/shuttle_corner{
 	dir = 8;
@@ -22901,24 +22919,6 @@
 /obj/item/rubberduck,
 /turf/simulated/floor/white/grime,
 /area/derelict_ai_sat)
-"vNW" = (
-/obj/decal/fakeobjects/firelock_broken{
-	dir = 4
-	},
-/obj/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/door/airlock/pyro/glass{
-	dir = 4;
-	icon_state = "door_locked";
-	locked = 1;
-	name = "Damaged Glass Airlock";
-	secondsElectrified = -1
-	},
-/turf/simulated/floor,
-/area/h7)
 "vNX" = (
 /obj/machinery/door/airlock/pyro/classic{
 	dir = 4
@@ -35369,7 +35369,7 @@ aaa
 aaa
 biJ
 biJ
-pjZ
+aUM
 biJ
 biJ
 aFj
@@ -38087,7 +38087,7 @@ aNY
 aNY
 aNY
 aNY
-vNW
+aUU
 aNY
 aNY
 aNY
@@ -76671,7 +76671,7 @@ aaa
 aaa
 aak
 afu
-agd
+jBo
 afu
 agX
 ahk
@@ -107171,7 +107171,7 @@ adt
 ady
 adx
 adL
-aep
+iEu
 aey
 aeG
 adg
