@@ -10005,7 +10005,7 @@
 /area/spacehabitat/pool)
 "cGy" = (
 /obj/table/wood/auto,
-/obj/machinery/light/lamp{
+/obj/machinery/light/lamp/black{
 	pixel_x = -2;
 	pixel_y = 6
 	},
@@ -21483,7 +21483,7 @@
 /area/station/medical/medbay/treatment)
 "fVE" = (
 /obj/table/wood/auto,
-/obj/machinery/light/lamp{
+/obj/machinery/light/lamp/black{
 	pixel_x = -1;
 	pixel_y = 8
 	},
@@ -39332,7 +39332,7 @@
 /area/station/science/lab)
 "lob" = (
 /obj/table/wood/auto,
-/obj/machinery/light/lamp{
+/obj/machinery/light/lamp/black{
 	switchon = 1
 	},
 /turf/simulated/floor/black,
@@ -45508,7 +45508,7 @@
 	pixel_x = -7;
 	pixel_y = 9
 	},
-/obj/machinery/light/lamp{
+/obj/machinery/light/lamp/black{
 	pixel_x = 6
 	},
 /obj/machinery/light/incandescent/greenish,
@@ -48376,7 +48376,7 @@
 /area/station/science/lobby)
 "nUz" = (
 /obj/table/wood/round/auto,
-/obj/machinery/light/lamp{
+/obj/machinery/light/lamp/black{
 	pixel_x = 8;
 	pixel_y = 8
 	},
@@ -50095,7 +50095,7 @@
 /area/station/maintenance/inner/nw)
 "osC" = (
 /obj/table/wood/auto/desk,
-/obj/machinery/light/lamp{
+/obj/machinery/light/lamp/black{
 	pixel_x = 2;
 	pixel_y = 2
 	},
@@ -71369,7 +71369,7 @@
 /area/station/crew_quarters/cafeteria)
 "uyq" = (
 /obj/table/reinforced/auto,
-/obj/machinery/light/lamp,
+/obj/machinery/light/lamp/black,
 /obj/machinery/light/emergency{
 	dir = 8
 	},
@@ -75588,7 +75588,7 @@
 /area/station/maintenance/outer/ne)
 "vEX" = (
 /obj/table/reinforced/auto,
-/obj/machinery/light/lamp{
+/obj/machinery/light/lamp/black{
 	pixel_x = 3;
 	pixel_y = 5
 	},
@@ -76461,7 +76461,7 @@
 	pixel_x = -3;
 	pixel_y = 3
 	},
-/obj/machinery/light/lamp{
+/obj/machinery/light/lamp/black{
 	pixel_y = 17
 	},
 /turf/simulated/floor/carpet/red/fancy,

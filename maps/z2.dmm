@@ -13631,7 +13631,7 @@
 	},
 /obj/table/wood/auto,
 /obj/deskclutter,
-/obj/machinery/light/lamp,
+/obj/machinery/light/lamp/black,
 /turf/unsimulated/floor/carpet/grime,
 /area/crater/biodome/research)
 "aQw" = (
@@ -13667,7 +13667,7 @@
 	dir = 1
 	},
 /obj/table/wood/auto,
-/obj/machinery/light/lamp,
+/obj/machinery/light/lamp/black,
 /turf/unsimulated/floor/carpet/grime,
 /area/crater/biodome/research)
 "aQE" = (
@@ -14408,7 +14408,7 @@
 	dir = 8
 	},
 /obj/table/wood/auto,
-/obj/machinery/light/lamp,
+/obj/machinery/light/lamp/black,
 /obj/window/cubicle{
 	dir = 2
 	},
@@ -14464,7 +14464,7 @@
 	},
 /obj/table/wood/auto,
 /obj/deskclutter,
-/obj/machinery/light/lamp,
+/obj/machinery/light/lamp/black,
 /obj/window/cubicle{
 	dir = 2
 	},
@@ -20304,7 +20304,7 @@
 	layer = 8;
 	name = "window"
 	},
-/obj/machinery/light/lamp{
+/obj/machinery/light/lamp/black{
 	icon_state = "lamp-burned"
 	},
 /turf/unsimulated/floor/specialroom/medbay,
@@ -21185,7 +21185,7 @@
 	dir = 8
 	},
 /obj/table/wood/auto,
-/obj/machinery/light/lamp,
+/obj/machinery/light/lamp/black,
 /turf/unsimulated/floor/carpet/grime,
 /area/drone/office)
 "bkV" = (
@@ -21393,7 +21393,7 @@
 	dir = 4
 	},
 /obj/table/wood/auto,
-/obj/machinery/light/lamp,
+/obj/machinery/light/lamp/black,
 /turf/unsimulated/floor/carpet/grime,
 /area/drone/office)
 "blw" = (
@@ -25108,7 +25108,7 @@
 /area/iomoon/base)
 "bvv" = (
 /obj/table/auto,
-/obj/machinery/light/lamp,
+/obj/machinery/light/lamp/black,
 /turf/unsimulated/floor/carpet/grime,
 /area/iomoon/base)
 "bvw" = (
@@ -27012,7 +27012,7 @@
 /obj/window/cubicle{
 	dir = 1
 	},
-/obj/machinery/light/lamp,
+/obj/machinery/light/lamp/black,
 /turf/unsimulated/floor/carpet{
 	icon_state = "fred1"
 	},
@@ -27043,7 +27043,7 @@
 /obj/window/cubicle{
 	dir = 1
 	},
-/obj/machinery/light/lamp,
+/obj/machinery/light/lamp/black,
 /turf/unsimulated/floor/carpet{
 	icon_state = "fred1"
 	},
@@ -31238,7 +31238,7 @@
 /area/afterlife/heaven/hydroponics)
 "bMZ" = (
 /obj/table/reinforced/auto,
-/obj/machinery/light/lamp,
+/obj/machinery/light/lamp/black,
 /turf/unsimulated/floor/red,
 /area/syndicate_station/battlecruiser)
 "bNa" = (
@@ -32366,7 +32366,7 @@
 /area/crypt/sigma/crew)
 "bQs" = (
 /obj/table/wood/auto,
-/obj/machinery/light/lamp,
+/obj/machinery/light/lamp/black,
 /turf/unsimulated/floor/carpet/grime,
 /area/crypt/sigma/crew)
 "bQt" = (
@@ -44632,7 +44632,7 @@
 /area/owlery/office)
 "cAE" = (
 /obj/table/reinforced/auto,
-/obj/machinery/light/lamp,
+/obj/machinery/light/lamp/black,
 /turf/unsimulated/floor/white,
 /area/owlery/lab)
 "cAF" = (
@@ -48056,7 +48056,7 @@
 /obj/machinery/light/emergency{
 	dir = 8
 	},
-/obj/machinery/light/lamp,
+/obj/machinery/light/lamp/black,
 /turf/unsimulated/floor/redblack{
 	dir = 10
 	},
@@ -48306,7 +48306,7 @@
 /area/owlery/gangzone)
 "cJs" = (
 /obj/table/reinforced/bar/auto,
-/obj/machinery/light/lamp,
+/obj/machinery/light/lamp/black,
 /turf/unsimulated/floor/wizard/carpet,
 /area/owlery/office)
 "cJt" = (
@@ -54289,7 +54289,7 @@
 /area/owlery/owleryhall)
 "cWL" = (
 /obj/table/wood/auto/desk,
-/obj/machinery/light/lamp{
+/obj/machinery/light/lamp/black{
 	pixel_y = 10
 	},
 /turf/unsimulated/floor/wood/two,
@@ -61395,7 +61395,7 @@
 	pixel_y = 28
 	},
 /obj/table/wood/auto/desk,
-/obj/machinery/light/lamp{
+/obj/machinery/light/lamp/black{
 	pixel_y = 7
 	},
 /obj/item/clothing/head/sea_captain{
@@ -66758,7 +66758,7 @@
 /obj/table/reinforced/bar/auto{
 	name = "table"
 	},
-/obj/machinery/light/lamp,
+/obj/machinery/light/lamp/black,
 /turf/unsimulated/floor/carpet{
 	dir = 1;
 	icon_state = "fpurple2"
@@ -67501,7 +67501,7 @@
 /obj/table/reinforced/bar/auto{
 	name = "table"
 	},
-/obj/machinery/light/lamp,
+/obj/machinery/light/lamp/black,
 /turf/unsimulated/floor/carpet{
 	dir = 9;
 	icon_state = "fblue4"
@@ -67945,7 +67945,7 @@
 /obj/table/reinforced/bar/auto{
 	name = "table"
 	},
-/obj/machinery/light/lamp,
+/obj/machinery/light/lamp/black,
 /turf/unsimulated/floor/carpet{
 	dir = 6;
 	icon_state = "fblue4"
@@ -69171,7 +69171,7 @@
 /area/centcom/lounge)
 "dRH" = (
 /obj/table/wood/round/auto,
-/obj/machinery/light/lamp,
+/obj/machinery/light/lamp/black,
 /turf/unsimulated/floor/carpet{
 	dir = 9;
 	icon_state = "purple3";
@@ -70099,7 +70099,7 @@
 /area/crypt/sigma/rd)
 "dUn" = (
 /obj/table/wood/auto,
-/obj/machinery/light/lamp,
+/obj/machinery/light/lamp/black,
 /obj/item/clothing/glasses/regular,
 /turf/unsimulated/floor/carpet/grime,
 /area/crypt/sigma/rd)
@@ -70119,7 +70119,7 @@
 /area/iomoon/caves)
 "dXN" = (
 /obj/table/wood/auto/desk,
-/obj/machinery/light/lamp,
+/obj/machinery/light/lamp/black,
 /turf/unsimulated/floor/wood/seven,
 /area/centcom/offices/sovexe)
 "dYf" = (
@@ -73352,7 +73352,7 @@
 /area/centcom/offices/rodney)
 "nRU" = (
 /obj/table/glass/auto,
-/obj/machinery/light/lamp{
+/obj/machinery/light/lamp/black{
 	pixel_x = 3;
 	pixel_y = 6
 	},
@@ -73946,7 +73946,7 @@
 /area/syndicate_station/assault_pod)
 "ptp" = (
 /obj/table/wood/auto,
-/obj/machinery/light/lamp{
+/obj/machinery/light/lamp/black{
 	pixel_y = 12
 	},
 /obj/item/reagent_containers/food/drinks/drinkingglass/artifact{
@@ -75568,7 +75568,7 @@
 /area/iomoon)
 "tuF" = (
 /obj/table/wood/round/auto,
-/obj/machinery/light/lamp,
+/obj/machinery/light/lamp/black,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},

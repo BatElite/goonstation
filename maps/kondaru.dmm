@@ -42100,7 +42100,7 @@
 /area/station/quartermaster/cargobay)
 "fdv" = (
 /obj/table/reinforced/auto,
-/obj/machinery/light/lamp,
+/obj/machinery/light/lamp/black,
 /obj/machinery/alarm{
 	pixel_y = 24
 	},
@@ -42709,7 +42709,7 @@
 /area/station/storage/tech)
 "fFj" = (
 /obj/table/wood/auto,
-/obj/machinery/light/lamp{
+/obj/machinery/light/lamp/black{
 	pixel_x = 1;
 	pixel_y = 10
 	},
@@ -44119,7 +44119,7 @@
 /area/station/crew_quarters/barber_shop)
 "gWE" = (
 /obj/table/wood/auto,
-/obj/machinery/light/lamp{
+/obj/machinery/light/lamp/black{
 	pixel_x = 1;
 	pixel_y = 10
 	},
@@ -49564,7 +49564,7 @@
 /area/station/crew_quarters/quarters_east)
 "mLE" = (
 /obj/table/wood/round/auto,
-/obj/machinery/light/lamp{
+/obj/machinery/light/lamp/black{
 	pixel_x = 1;
 	pixel_y = 10
 	},
@@ -50092,7 +50092,7 @@
 	pixel_x = -4;
 	pixel_y = 1
 	},
-/obj/machinery/light/lamp{
+/obj/machinery/light/lamp/black{
 	pixel_x = 1;
 	pixel_y = 10
 	},
@@ -50973,7 +50973,7 @@
 /area/station/hallway/secondary/exit)
 "ofa" = (
 /obj/table/wood/auto,
-/obj/machinery/light/lamp{
+/obj/machinery/light/lamp/black{
 	pixel_x = 1;
 	pixel_y = 10
 	},
@@ -51044,7 +51044,7 @@
 /area/station/maintenance/central)
 "oia" = (
 /obj/table/wood/auto,
-/obj/machinery/light/lamp,
+/obj/machinery/light/lamp/black,
 /obj/machinery/light/small,
 /obj/item/reagent_containers/food/snacks/snack_cake{
 	pixel_x = 11;

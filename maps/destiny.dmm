@@ -42267,7 +42267,7 @@
 	pixel_y = 28
 	},
 /obj/table/wood/auto/desk,
-/obj/machinery/light/lamp{
+/obj/machinery/light/lamp/black{
 	pixel_x = -5;
 	pixel_y = 10;
 	switchon = 1
@@ -49770,7 +49770,7 @@
 /area/station/engine/gas)
 "sLL" = (
 /obj/table/wood/auto/desk,
-/obj/machinery/light/lamp{
+/obj/machinery/light/lamp/black{
 	pixel_x = -5;
 	pixel_y = 10;
 	switchon = 1
@@ -55201,7 +55201,7 @@
 /area/station/security/detectives_office)
 "vtX" = (
 /obj/table/wood/auto/desk,
-/obj/machinery/light/lamp{
+/obj/machinery/light/lamp/black{
 	pixel_x = -5;
 	pixel_y = 10;
 	switchon = 1
@@ -58062,7 +58062,7 @@
 /area/station/crew_quarters/observatory)
 "wTy" = (
 /obj/table/wood/auto/desk,
-/obj/machinery/light/lamp{
+/obj/machinery/light/lamp/black{
 	pixel_x = -5;
 	pixel_y = 10;
 	switchon = 1
