@@ -1402,10 +1402,10 @@
 			..()
 
 		specialist
-		name = "specialist heavy operative combat armor"
-		desc = "A syndicate issue heavy combat dress system, pressurized for space travel and reinforced for greater protection in firefights."
-		icon_state = "syndie_specialist-heavy"
-		item_state = "syndie_specialist-heavy"
+			name = "specialist heavy operative combat armor"
+			desc = "A syndicate issue heavy combat dress system, pressurized for space travel and reinforced for greater protection in firefights."
+			icon_state = "syndie_specialist-heavy"
+			item_state = "syndie_specialist-heavy"
 
 	ntso
 
