@@ -27,6 +27,12 @@
 	var/image/atmos_dmi
 	var/image/bomb_dmi
 
+	New()
+		..()
+		src.AddComponent(/datum/component/bullet_holes, 5, 0)
+		atmos_dmi = image('icons/obj/atmospherics/atmos.dmi')
+		bomb_dmi = image('icons/obj/canisterbomb.dmi')
+
 	onMaterialChanged()
 		..()
 		if(istype(src.material))
