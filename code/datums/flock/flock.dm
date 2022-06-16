@@ -692,7 +692,7 @@ var/flock_signal_unleashed = FALSE
 				continue
 			if (istype(O, /obj/machinery))
 				if (istype(O, /obj/machinery/door))
-					if (istype(O, /obj/machinery/door/firedoor/pyro) || istype(O, /obj/machinery/door/window) || istype(O, /obj/machinery/door/airlock/pyro/glass/windoor) || istype(O, /obj/machinery/door/poddoor/pyro/shutters) || istype(O, /obj/machinery/door/unpowered/wood))
+					if (istype(O, /obj/machinery/door/firedoor/pyro) || istype(O, /obj/machinery/door/window) || istype(O, /obj/machinery/door/airlock/pyro/glass/windoor) || istype(O, /obj/machinery/door/unpowered/wood))
 						qdel(O)
 						break
 				if (istype(O, /obj/machinery/computer))
