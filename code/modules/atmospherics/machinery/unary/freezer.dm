@@ -5,7 +5,6 @@
 	density = 1
 	anchored = 1.0
 	current_heat_capacity = 1000
-	var/pipe_direction = 1
 
 	north
 		dir = NORTH
@@ -43,24 +42,6 @@
 			dir = SOUTH
 		west
 			dir = WEST
-
-	New()
-		..()
-		pipe_direction = src.dir
-		initialize_directions = pipe_direction
-
-	initialize()
-		if(node) return
-
-		var/node_connect = pipe_direction
-
-		for(var/obj/machinery/atmospherics/target in get_step(src,node_connect))
-			if(target.initialize_directions & get_dir(target,src))
-				node = target
-				break
-
-		UpdateIcon()
-
 
 	update_icon()
 

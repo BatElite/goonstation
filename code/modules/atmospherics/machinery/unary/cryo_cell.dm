@@ -15,7 +15,6 @@
 	var/show_beaker_contents = FALSE
 
 	var/current_heat_capacity = 50
-	var/pipe_direction //! Direction of the pipe leading into this, set in New() based on dir
 
 	var/reagent_scan_enabled = 0
 	var/reagent_scan_active = 0
@@ -37,18 +36,7 @@
 		light.set_brightness(0.6)
 		light.set_height(1.5)
 		light.set_color(0, 0.8, 0.5)
-		build_icon()
-		pipe_direction = src.dir
-		initialize_directions = pipe_direction
-
-	initialize()
-		if(node) return
-		var/node_connect = pipe_direction
-		for(var/obj/machinery/atmospherics/target in get_step(src,node_connect))
-			if(target.initialize_directions & get_dir(target,src))
-				node = target
-				break
-		build_icon()
+		UpdateIcon()
 
 	disposing()
 		for (var/mob/M in src)
@@ -165,7 +153,7 @@
 		if (( usr.using_dialog_of(src) && ((BOUNDS_DIST(src, usr) == 0) && istype(src.loc, /turf))) || (isAI(usr)))
 			if(href_list["start"])
 				src.on = !src.on
-				build_icon()
+				UpdateIcon()
 			if(href_list["eject"])
 				beaker:set_loc(src.loc)
 				usr.put_in_hand_or_eject(beaker) // try to eject it into the users hand, if we can
@@ -269,7 +257,7 @@
 				return
 			src.UpdateOverlays(src.SafeGetOverlayImage("defib", 'icons/obj/Cryogenic2.dmi', "defib-on", 2, pixel_y=-32), "defib")
 
-	proc/build_icon()
+	update_icon()
 		if(on)
 			light.enable()
 			icon_state = "celltop"

@@ -13707,12 +13707,10 @@
 	layer = 9.1;
 	pixel_y = 21
 	},
-/obj/machinery/atmospherics/unary/cryo_cell{
-	pipe_direction = 8
-	},
 /obj/disposalpipe/segment/morgue{
 	dir = 4
 	},
+/obj/machinery/atmospherics/unary/cryo_cell,
 /turf/simulated/floor/bluewhite{
 	dir = 1
 	},
@@ -13743,12 +13741,10 @@
 	},
 /area/station/medical/medbay)
 "aKL" = (
-/obj/machinery/atmospherics/unary/cryo_cell{
-	pipe_direction = 8
-	},
 /obj/disposalpipe/segment/morgue{
 	dir = 4
 	},
+/obj/machinery/atmospherics/unary/cryo_cell,
 /turf/simulated/floor/bluewhite{
 	dir = 1
 	},
