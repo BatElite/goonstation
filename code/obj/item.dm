@@ -557,18 +557,17 @@
 		qdel(src)
 	return 1
 
-/obj/item/proc/stack_item(obj/item/other)
+/obj/item/proc/stack_item(obj/item/other) //other tends to be the stack that a mob is holding
 	var/added = 0
-	if(isrobot(other.loc))
-		max_stack = 500
-		if (other != src && check_valid_stack(src))
-			if (src.amount + other.amount > max_stack)
-				added = max_stack - other.amount
+	if(isrobot(other.loc)) //Borgs take the other stack into their inventory
+		if (other != src && check_valid_stack(other))
+			if (src.amount + other.amount > other.max_stack)
+				added = other.max_stack - other.amount
 			else
 				added = src.amount
 			src.change_stack_amount(-added)
 			other.change_stack_amount(added)
-	else
+	else //Non-borgs place the attacking stack they're carrying on the other
 		if (other != src && check_valid_stack(other))
 			if (src.amount + other.amount > max_stack)
 				added = max_stack - src.amount
