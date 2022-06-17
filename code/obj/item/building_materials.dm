@@ -1139,7 +1139,7 @@ MATERIAL
 		if (!success)
 			boutput(user, "<span class='alert'>You can't put any more tiles in this stack!</span>")
 			return
-		if(!user.is_in_hands(src))
+		if(!equipped_or_holding(src,user))//user.is_in_hands(src))
 			user.put_in_hand(src)
 		if(isrobot(user))
 			boutput(user, "<span class='notice'>You add [success] tiles to the stack. It now has [W.amount] tiles.</span>")

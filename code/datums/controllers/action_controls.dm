@@ -1488,45 +1488,15 @@ var/datum/action_controller/actions
 			var/mob/M = target.loc
 			M.u_equip(target)
 		picker.pickupItem(target, owner)
-		actions.start(new/datum/action/magPickerHold(picker, picker.highpower), owner)
+		//actions.start(new/datum/action/magPickerHold(picker, picker.highpower), owner)
 
-
-/datum/action/magPickerHold
-	duration = 30
-	interrupt_flags = INTERRUPT_MOVE | INTERRUPT_STUNNED
-	id = "magpickerhold"
-
-	var/obj/item/magtractor/picker = null //This is the magpicker.
-
-	New(Picker, hpm)
-		if (hpm)
-			src.interrupt_flags &= ~INTERRUPT_MOVE
-		picker = Picker
-		picker.holdAction = src
-		..()
-
-	onUpdate() //Again, check here for special conditions that are not normally handled in here. You probably dont need to do anything.
-		..()
-		if(picker == null || owner == null) //Interrupt if the user or the magpicker disappears.
-			interrupt(INTERRUPT_ALWAYS)
-			return
-
-	onStart()
-		..()
-		state = ACTIONSTATE_INFINITE //We can hold it indefinitely unless we move.
-		if(picker == null || owner == null) //Interrupt if the user or the magpicker dont exist.
-			interrupt(INTERRUPT_ALWAYS)
-			return
-
-	onEnd()
-		..()
-		if (picker)
-			picker.dropItem()
-
-	onInterrupt(var/flag)
-		..()
-		if (picker)
-			picker.dropItem()
+/*
+/datum/action/magPickerHold used to live here and I think it predated comsigs
+Its existed to my knowledge so that moving interrupted the low power mode on magtractors
+But a byproduct of doing it this way is that the mob had this action left over if you tried, and magtractors dropped items by ending this action instead
+So there was no sane way to have magtractors function independently of a holding mob, fuck!
+Also there'd be constant calls to its onUpdate so long as the magtractor held anything.
+*/
 
 
 /datum/action/bar/icon/butcher_living_critter //Used when butchering a player-controlled critter

@@ -1950,7 +1950,6 @@
 	if (src.equipped() && istype(src.equipped(), /obj/item/magtractor))
 		var/obj/item/magtractor/M = src.equipped()
 		if (M.pickupItem(I, src))
-			actions.start(new/datum/action/magPickerHold(M), src)
 			return 1
 		return 0
 	if (I.two_handed) //MARKER1

@@ -19,7 +19,7 @@
 	stamina_damage = 15
 	stamina_cost = 15
 	stamina_crit_chance = 5
-	var/working = 0
+	var/working = 0 //magtractor is currently in the middle of item pickup/drop code
 	var/mob/holder //this is hacky way to get the user without looping through all mobs in process
 	var/processHeld = 0
 	var/highpower = 0 //high power mode (holding during movement)
@@ -37,7 +37,7 @@
 		//power usage here maybe??
 
 		if ((!src.holding || src.holding.disposed) && src.holder && processHeld) //If the item has been consumed somehow
-			actions.stopId("magpickerhold", src.holder)
+			dropItem()
 			processHeld = 0
 		return
 
@@ -50,6 +50,9 @@
 
 	dropped(mob/user)
 		..()
+		if (src.holding)
+			dropItem(TRUE) //unregisters signal, needs to happen before holder is nulled
+		actions.stopId("magpicker", user)
 		src.holder = null
 		src.verbs -= /obj/item/magtractor/proc/toggleHighPower
 
@@ -109,7 +112,7 @@
 			actions.start(new/datum/action/bar/private/icon/magPicker(target, src), user)
 
 		else if ((src.holding && src.holding.loc != src) || src.holding.disposed) // it's gone!!
-			actions.stopId("magpickerhold", user)
+			dropItem()
 
 		return 1
 
@@ -117,13 +120,12 @@
 		..()
 		actions.stopId("magpicker", usr)
 		if (src.holding)
-			actions.stopId("magpickerhold", usr)
+			dropItem()
 
-	dropped(mob/user as mob)
-		..()
-		actions.stopId("magpicker", user)
-		if (src.holding)
-			actions.stopId("magpickerhold", user)
+
+	Exited(Obj, newloc)
+		if (Obj == src.holding)
+			dropItem(FALSE)
 
 	examine()
 		. = ..()
@@ -139,7 +141,7 @@
 		set category = "Local"
 
 		if (!src || !src.holding || usr.stat || usr.getStatusDuration("stunned") || usr.getStatusDuration("weakened") || usr.getStatusDuration("paralysis")) return 0
-		actions.stopId("magpickerhold", usr)
+		dropItem()
 		return 1
 
 	proc/toggleHighPower()
@@ -153,12 +155,12 @@
 		var/image/magField = GetOverlayImage("magField")
 		var/msg = "<span class='notice'>You toggle the [src]'s HPM "
 		if (src.highpower)
-			if (src.holdAction) src.holdAction.interrupt_flags |= INTERRUPT_MOVE
+			if (holding) RegisterSignal(holder, COMSIG_MOVABLE_MOVED, .proc/dropItem)
 			if (magField) magField.color = "#66ebe0" //blue
 			src.highpower = 0
 			msg += "off"
 		else
-			if (src.holdAction) src.holdAction.interrupt_flags &= ~INTERRUPT_MOVE
+			if (holding) UnregisterSignal(holder, COMSIG_MOVABLE_MOVED)
 			if (magField) magField.color = "#FF4A4A" //red
 			src.highpower = 1
 			msg += "on"
@@ -209,6 +211,7 @@
 			I.color = "#FF4A4A" //red
 		else
 			I.color = "#66ebe0" //blue
+			RegisterSignal(holder, COMSIG_MOVABLE_MOVED, .proc/dropItem)
 
 		src.UpdateOverlays(I, "magField")
 		src.updateHeldOverlay(W)
@@ -231,6 +234,9 @@
 
 		if (isitem(src.holding) && usr)
 			src.holding.dropped(usr)
+		if (holder && !highpower)
+			UnregisterSignal(holder, COMSIG_MOVABLE_MOVED)
+
 		src.working = 1
 		src.w_class = W_CLASS_NORMAL //normal
 		src.useInnerItem = 0

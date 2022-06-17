@@ -138,8 +138,10 @@
 			if (content_id > master.tools.len || content_id < 1)
 				boutput(usr, "<span class='alert'>An error occurred. Please notify Marquesas immediately. (Content ID: [content_id].)</span>")
 
-			if (master.active_tool && istype(master.active_tool, /obj/item/magtractor) && master.active_tool:holding)
-				actions.stopId("magpickerhold", master)
+			if (master.active_tool && istype(master.active_tool, /obj/item/magtractor))
+				var/obj/item/magtractor/thingo = master.active_tool
+				if (thingo.holding)
+					thingo.dropItem()
 			var/obj/item/O = master.tools[content_id]
 			master.active_tool = O
 			O.set_loc(master)

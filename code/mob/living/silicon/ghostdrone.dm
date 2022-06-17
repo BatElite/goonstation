@@ -580,9 +580,10 @@
 	u_equip(obj/item/W as obj)
 		..()
 		if (src.active_tool)
-			if (istype(src.active_tool, /obj/item/magtractor) && src.active_tool:holding && W == src.active_tool:holding)
+			if (istype(src.active_tool, /obj/item/magtractor))
 				var/obj/item/magtractor/mag = src.active_tool
-				mag.dropItem(0)
+				if (mag.holding)
+					mag.dropItem(0)
 			else if (W == src.active_tool)
 				src.uneq_slot()
 
@@ -593,7 +594,7 @@
 				if (mag.holding)
 					// drop the item that's being held first,
 					// so we can pick up things immediately without having to re-equip
-					actions.stopId("magpickerhold", src)
+					mag.dropItem()
 					hud.update_tools()
 					hud.update_equipment()
 					return

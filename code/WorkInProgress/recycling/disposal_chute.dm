@@ -150,7 +150,7 @@
 				qdel(G)
 		else
 			if (istype(mag))
-				actions.stopId("magpickerhold", user)
+				mag.dropItem()
 			else if (!user.drop_item())
 				return
 			I.set_loc(src)

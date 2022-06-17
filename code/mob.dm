@@ -1242,8 +1242,7 @@
 			u_equip(W)
 			.= 0
 		if (origW)
-			origW.holding = null
-			actions.stopId("magpickerhold", src)
+			origW.dropItem()
 
 //throw the dropped item
 /mob/proc/drop_item_throw(obj/item/W)
