@@ -286,7 +286,7 @@
 	/obj/item/clothing/suit/space/engineer,
 	/obj/item/clothing/head/helmet/space/engineer,
 #endif
-	/obj/item/paper/manufacturer_blueprint/lawrack)
+	/obj/item/disk/data/floppy/manudrive/law_rack)
 
 /* ==================== */
 /* ----- Security ----- */
