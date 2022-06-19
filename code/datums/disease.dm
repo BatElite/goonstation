@@ -95,7 +95,6 @@ The reason I know that is because whoever did that split also didn't clean up th
 	var/recureprob = 8						// probability per tick that the reagent will cure the disease
 	var/temperature_cure = 406				// this temp or higher will cure the disease
 	var/resistance_prob = 0					// how likely this disease is to grant immunity once cured
-	var/list/strain_data = list()  			// Used for Rhinovirus, but a couple other diseases look like they could use some arbitrary storage too
 
 	disposing()
 		if (affected_mob)
@@ -105,7 +104,6 @@ The reason I know that is because whoever did that split also didn't clean up th
 
 		master = null
 		reagentcure = null
-
 		..()
 
 	proc/stage_act(var/mult)
@@ -162,6 +160,7 @@ The reason I know that is because whoever did that split also didn't clean up th
 	var/virulence = 100    // how likely is this disease to spread
 	var/develop_resist = 0 // can you develop a resistance to this?
 	var/cycles = 0         // does this disease have a cyclical nature? if so, how many cycles have elapsed?
+	var/list/strain_data = list()  			// Used for Rhinovirus, but a couple other diseases look like they could use some arbitrary storage too
 
 	stage_act(var/mult)
 		if (!affected_mob || disposed)
@@ -237,6 +236,10 @@ The reason I know that is because whoever did that split also didn't clean up th
 				master.stage_act(affected_mob, src, mult)
 
 		return 0
+
+	disposing()
+		strain_data = null
+		..()
 
 /datum/ailment_data/addiction
 	var/associated_reagent = null
@@ -396,7 +399,7 @@ The reason I know that is because whoever did that split also didn't clean up th
 			AD.info = strain.info
 			AD.resistance_prob = strain.resistance_prob
 			AD.temperature_cure = strain.temperature_cure
-			AD.strain_data = strain.strain_data
+			AD.strain_data = strain.strain_data.Copy()
 		else
 			AD.name = D.name
 			AD.stage_prob = D.stage_prob
