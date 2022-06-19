@@ -9863,6 +9863,15 @@
 	pixel_y = 19
 	},
 /obj/disposalpipe/segment/transport,
+/obj{
+	name = "---Merge conflict marker---"
+	},
+/obj/bookshelf/persistent{
+	density = 0;
+	layer = 3.01;
+	pixel_y = 19
+	},
+/obj/disposalpipe/segment/transport,
 /turf/simulated/floor/wood/six,
 /area/station/library)
 "cDt" = (
