@@ -9850,22 +9850,8 @@
 /turf/simulated/floor/plating/jen,
 /area/station/maintenance/inner/sw)
 "cDn" = (
-/obj/bookshelf/persistent{
-	layer = 10
-	},
 /obj/disposalpipe/segment/transport,
-/obj{
-	name = "---Merge conflict marker---"
-	},
-/obj/bookshelf/persistent{
-	density = 0;
-	layer = 10;
-	pixel_y = 19
-	},
 /obj/disposalpipe/segment/transport,
-/obj{
-	name = "---Merge conflict marker---"
-	},
 /obj/bookshelf/persistent{
 	density = 0;
 	layer = 3.01;
@@ -77621,15 +77607,6 @@
 /area/station/medical/research{
 	name = "Genetic Research"
 	})
-"wkO" = (
-/obj/bookshelf,
-/obj/bookshelf,
-/obj{
-	name = "---Merge conflict marker---"
-	},
-/obj/bookshelf,
-/turf/simulated/floor/wood/six,
-/area/station/library)
 "wkT" = (
 /obj/table/reinforced/auto,
 /turf/simulated/floor/shuttlebay{
@@ -110463,7 +110440,7 @@ tZm
 sGu
 quz
 quz
-wkO
+fJQ
 iEn
 fJQ
 quz
@@ -110765,7 +110742,7 @@ czv
 sGu
 vau
 quz
-wkO
+fJQ
 iEn
 fJQ
 quz
@@ -111067,7 +111044,7 @@ xjU
 mXZ
 cUw
 quz
-wkO
+fJQ
 iEn
 fJQ
 quz
