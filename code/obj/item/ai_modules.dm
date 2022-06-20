@@ -409,3 +409,12 @@ ABSTRACT_TYPE(/obj/item/aiModule/hologram_expansion)
 	highlight_color = rgb(173, 11, 11, 255)
 	expansion = "rogue"
 
+ABSTRACT_TYPE(/obj/item/aiModule/ability_expansion)
+/obj/item/aiModule/ability_expansion
+	name = "Function Expansion Module"
+	desc = "A module that expands AI functionality."
+	lawText = "ABILITY EXPANSION MODULE"
+	color = "#BBB"
+	var/list/datum/targetable/ai_abilities
+	var/last_use
+	var/shared_cooldown
