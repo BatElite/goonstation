@@ -39,7 +39,7 @@
 	var/list/availableModulesData = list()
 	for (var/obj/item/robot_module/module in src.modules)
 		var/list/availableModuleData = list()
-		availableModuleData["name"] = module.name //leading space is intentional
+		availableModuleData["name"] = module.name
 		availableModuleData["ref"] = "\ref[module]"
 		availableModuleData["in_borg"] = FALSE
 		// wrapping in a list to append actual list rather than contents
@@ -47,7 +47,7 @@
 
 	for (var/obj/item/robot_module/module in src.borg_modules) //same deal but in-borg modules
 		var/list/availableModuleData = list()
-		availableModuleData["name"] = "[module.name] ([borg_modules[module].name])" //leading space is intentional
+		availableModuleData["name"] = "[module.name] ([borg_modules[module].name])"
 		availableModuleData["ref"] = "\ref[module]"
 		availableModuleData["in_borg"] = TRUE
 		availableModulesData += list(availableModuleData)
