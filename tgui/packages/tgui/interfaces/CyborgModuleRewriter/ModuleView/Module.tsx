@@ -36,6 +36,8 @@ interface ModuleProps {
   onMoveToolDown: (toolRef: string) => void,
   onMoveToolUp: (toolRef: string) => void,
   onRemoveTool: (toolRef: string) => void,
+  onPickTool: (toolRef: string) => void,
+  onInsertTool: (toolRef: string) => void,
   onResetModule: (moduleId: string) => void,
   tools: Array<ToolData>,
 }
@@ -45,6 +47,8 @@ export const Module: SFC<ModuleProps> = props => {
     onMoveToolDown,
     onMoveToolUp,
     onRemoveTool,
+    onPickTool,
+    onInsertTool,
     onResetModule,
     tools,
   } = props;
@@ -75,6 +79,8 @@ export const Module: SFC<ModuleProps> = props => {
           onMoveToolDown={onMoveToolDown}
           onMoveToolUp={onMoveToolUp}
           onRemoveTool={onRemoveTool}
+          onPickTool={onPickTool}
+          onInsertTool={onInsertTool}
           tools={tools}
         />
       </Section>

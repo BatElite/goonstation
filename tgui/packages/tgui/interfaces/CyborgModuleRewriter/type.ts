@@ -33,6 +33,8 @@ export enum Action {
   EjectModule = 'module-eject',
   MoveTool = 'tool-move',
   RemoveTool = 'tool-remove',
+  PickTool = 'tool-pick',
+  InsertTool = 'tool-insert',
   ResetModule = 'module-reset',
   SelectModule = 'module-select',
 }

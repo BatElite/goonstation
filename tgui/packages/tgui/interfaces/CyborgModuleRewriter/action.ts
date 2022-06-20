@@ -19,5 +19,7 @@ const createAction = <T extends object>(action: Action) => (act: Act, payload: T
 export const ejectModule = createAction<ModuleActionPayload>(Action.EjectModule);
 export const moveTool = createAction<MoveToolActionPayload>(Action.MoveTool);
 export const removeTool = createAction<ToolActionPayload>(Action.RemoveTool);
+export const pickTool = createAction<ToolActionPayload>(Action.PickTool);
+export const insertTool = createAction<ToolActionPayload>(Action.InsertTool);
 export const resetModule = createAction<ResetModuleActionPayload>(Action.ResetModule);
 export const selectModule = createAction<ModuleActionPayload>(Action.SelectModule);

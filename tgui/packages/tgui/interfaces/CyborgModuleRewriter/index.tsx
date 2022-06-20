@@ -8,7 +8,7 @@
 import { useBackend } from '../../backend';
 import { Window } from '../../layouts';
 import { ModuleView } from './ModuleView';
-import { ejectModule, moveTool, removeTool, resetModule, selectModule } from './action';
+import { ejectModule, moveTool, removeTool, pickTool, insertTool, resetModule, selectModule } from './action';
 import * as styles from './style';
 import { CyborgModuleRewriterData, Direction } from './type';
 
@@ -31,6 +31,14 @@ export const CyborgModuleRewriter = (_props, context) => {
     moduleRef,
     toolRef,
   });
+  const handlePickTool = (moduleRef: string, toolRef: string) => pickTool(act, {
+    moduleRef,
+    toolRef,
+  });
+  const handleInsertTool = (moduleRef: string, toolRef: string) => insertTool(act, {
+    moduleRef,
+    toolRef,
+  });
   const handleResetModule = (moduleRef: string, moduleId: string) => resetModule(act, {
     moduleId,
     moduleRef,
@@ -49,6 +57,8 @@ export const CyborgModuleRewriter = (_props, context) => {
           onMoveToolDown={handleMoveToolDown}
           onMoveToolUp={handleMoveToolUp}
           onRemoveTool={handleRemoveTool}
+          onPickTool={handlePickTool}
+          onInsertTool={handleInsertTool}
           onResetModule={handleResetModule}
           onSelectModule={handleSelectModule}
         />

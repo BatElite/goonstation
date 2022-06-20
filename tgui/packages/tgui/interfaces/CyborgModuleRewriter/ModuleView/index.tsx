@@ -20,6 +20,8 @@ interface ModuleViewProps {
   onMoveToolDown: (moduleRef: string, toolRef: string) => void,
   onMoveToolUp: (moduleRef: string, toolRef: string) => void,
   onRemoveTool: (moduleRef: string, toolRef: string) => void,
+  onPickTool: (moduleRef: string, toolRef: string) => void,
+  onInsertTool: (moduleRef: string, toolRef: string) => void,
   onResetModule: (moduleRef: string, moduleId: string) => void,
   onSelectModule: (moduleRef: string) => void,
 }
@@ -34,6 +36,8 @@ export const ModuleView = (props: ModuleViewProps) => {
     onMoveToolDown,
     onMoveToolUp,
     onRemoveTool,
+    onPickTool,
+    onInsertTool,
     onResetModule,
     onSelectModule,
   } = props;
@@ -45,6 +49,8 @@ export const ModuleView = (props: ModuleViewProps) => {
   const handleMoveToolDown = (toolRef: string) => onMoveToolDown(selectedModuleRef, toolRef);
   const handleMoveToolUp = (toolRef: string) => onMoveToolUp(selectedModuleRef, toolRef);
   const handleRemoveTool = (toolRef: string) => onRemoveTool(selectedModuleRef, toolRef);
+  const handlePickTool = (toolRef: string) => onPickTool(selectedModuleRef, toolRef);
+  const handleInsertTool = (toolRef: string) => onInsertTool(selectedModuleRef, toolRef);
   const handleResetModule = (moduleId: string) => onResetModule(selectedModuleRef, moduleId);
 
   return (
@@ -91,6 +97,8 @@ export const ModuleView = (props: ModuleViewProps) => {
                     onMoveToolDown={handleMoveToolDown}
                     onMoveToolUp={handleMoveToolUp}
                     onRemoveTool={handleRemoveTool}
+                    onPickTool={handlePickTool}
+                    onInsertTool={handleInsertTool}
                     onResetModule={handleResetModule}
                     tools={tools}
                   />

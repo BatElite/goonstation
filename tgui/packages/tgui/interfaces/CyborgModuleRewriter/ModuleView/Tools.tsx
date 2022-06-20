@@ -15,6 +15,8 @@ interface ToolProps {
   onMoveToolDown: () => void,
   onMoveToolUp: () => void,
   onRemoveTool: () => void,
+  onPickTool: () => void,
+  onInsertTool: () => void,
 }
 
 const Tool: SFC<ToolProps> = props => {
@@ -23,12 +25,16 @@ const Tool: SFC<ToolProps> = props => {
     onMoveToolDown,
     onMoveToolUp,
     onRemoveTool,
+    onPickTool,
+    onInsertTool,
   } = props;
   return (
     <div>
       <Button icon="arrow-up" onClick={onMoveToolUp} title="Move Up" />
       <Button icon="arrow-down" onClick={onMoveToolDown} title="Move Down" />
       <Button icon="trash" onClick={onRemoveTool} title="Remove" />
+      <Button icon="cut" onClick={onPickTool} title="Pick" />
+      <Button icon="paste" onClick={onInsertTool} title="Insert" />
       <span className={styles.ToolLabel}>{children}</span>
     </div>
   );
@@ -38,6 +44,8 @@ interface ToolsProps {
   onMoveToolDown: (toolRef: string) => void,
   onMoveToolUp: (toolRef: string) => void,
   onRemoveTool: (toolRef: string) => void,
+  onPickTool: (toolRef: string) => void,
+  onInsertTool: (toolRef: string) => void,
   tools: Array<ToolData>
 }
 
@@ -46,6 +54,8 @@ export const Tools: SFC<ToolsProps> = props => {
     onMoveToolDown,
     onMoveToolUp,
     onRemoveTool,
+    onPickTool,
+    onInsertTool,
     tools = [],
   } = props;
   return (
@@ -62,6 +72,8 @@ export const Tools: SFC<ToolsProps> = props => {
                 onMoveToolDown={() => onMoveToolDown(toolRef)}
                 onMoveToolUp={() => onMoveToolUp(toolRef)}
                 onRemoveTool={() => onRemoveTool(toolRef)}
+                onPickTool={() => onPickTool(toolRef)}
+                onInsertTool={() => onInsertTool(toolRef)}
                 key={toolRef}
               >
                 {name}
