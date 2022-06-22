@@ -1415,14 +1415,6 @@
 	},
 /turf/simulated/floor,
 /area/station/ai_monitored/armory)
-"aeY" = (
-/obj/storage/crate,
-/obj/item/clothing/under/gimmick/princess,
-/obj/window/cubicle{
-	dir = 4
-	},
-/turf/simulated/floor/purple,
-/area/station/crew_quarters/quartersA)
 "aeZ" = (
 /obj/table/auto,
 /obj/machinery/light/small{
@@ -3816,13 +3808,6 @@
 	},
 /turf/simulated/floor/grime,
 /area/station/security/brig)
-"alq" = (
-/obj/storage/secure/closet/brig/automatic/solitary,
-/obj/cable{
-	icon_state = "1-2"
-	},
-/turf/simulated/floor,
-/area/station/security/brig)
 "alr" = (
 /obj/disposalpipe/segment/ejection,
 /obj/cable{
@@ -5967,13 +5952,6 @@
 	},
 /turf/simulated/floor/grime,
 /area/station/security/brig)
-"arL" = (
-/obj/storage/secure/closet/brig/automatic/genpop_n,
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/simulated/floor/grime,
-/area/station/security/brig)
 "arM" = (
 /obj/structure/girder,
 /turf/simulated/floor/plating/airless,
@@ -6671,21 +6649,6 @@
 "atC" = (
 /turf/simulated/wall/auto/supernorn,
 /area/station/crew_quarters/baroffice)
-"atD" = (
-/obj/table/reinforced/auto,
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "kitchen";
-	layer = 4;
-	name = "Kitchen Shutter";
-	opacity = 0;
-	p_open = 1
-	},
-/obj/item/storage/box/donkpocket_kit,
-/obj/machinery/door/firedoor/pyro,
-/turf/simulated/floor/carpet/grime,
-/area/station/crew_quarters/baroffice)
 "atE" = (
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/crew_quarters/baroffice)
@@ -7324,28 +7287,6 @@
 	},
 /turf/simulated/floor,
 /area/station/hangar/sec)
-"avs" = (
-/obj/cable{
-	icon_state = "0-4"
-	},
-/obj/cable{
-	icon_state = "0-2"
-	},
-/obj/cable,
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 4;
-	icon_state = "pdoor0";
-	id = "eva";
-	name = "E.V.A.";
-	opacity = 0
-	},
-/obj/machinery/atmospherics/pipe/simple{
-	dir = 4
-	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/plating,
-/area/station/ai_monitored/storage/eva)
 "avt" = (
 /obj/cable,
 /obj/disposalpipe/segment/brig{
@@ -7936,36 +7877,6 @@
 /obj/disposalpipe/segment/transport,
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/security/main)
-"awQ" = (
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "brig_divide";
-	name = "Brig Divider Shutters";
-	opacity = 0
-	},
-/obj/disposalpipe/segment/brig,
-/obj/decal/tile_edge/stripe/extra_big,
-/obj/decal/tile_edge/stripe/extra_big{
-	dir = 1
-	},
-/turf/simulated/floor/grime,
-/area/station/security/brig)
-"awR" = (
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "brig_divide";
-	name = "Brig Divider Shutters";
-	opacity = 0
-	},
-/obj/disposalpipe/segment/ejection,
-/obj/decal/tile_edge/stripe/extra_big,
-/obj/decal/tile_edge/stripe/extra_big{
-	dir = 1
-	},
-/turf/simulated/floor/grime,
-/area/station/security/brig)
 "awS" = (
 /obj/disposalpipe/segment/brig,
 /turf/simulated/wall/auto/reinforced/supernorn,
@@ -9071,13 +8982,6 @@
 /obj/disposalpipe/segment/mail{
 	dir = 4
 	},
-/turf/simulated/floor/grime,
-/area/station/security/brig)
-"azT" = (
-/obj/disposalpipe/segment/mail{
-	dir = 4
-	},
-/obj/storage/secure/closet/brig/automatic/genpop_s,
 /turf/simulated/floor/grime,
 /area/station/security/brig)
 "azU" = (
@@ -11307,20 +11211,6 @@
 	},
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/maintenance/solar/west)
-"aFe" = (
-/obj/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "interrogation";
-	name = "Interrogation Room";
-	opacity = 0
-	},
-/obj/machinery/door/firedoor/pyro,
-/turf/simulated/floor/black,
-/area/station/security/main)
 "aFj" = (
 /obj/table/reinforced/auto,
 /obj/cable{
@@ -15184,21 +15074,6 @@
 	icon_state = "blue1"
 	},
 /area/station/bridge)
-"aOJ" = (
-/obj/cable{
-	icon_state = "0-2"
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 9;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/plating,
-/area/station/bridge)
 "aOK" = (
 /obj/machinery/atmospherics/pipe/simple,
 /turf/simulated/wall/auto/reinforced/supernorn,
@@ -15647,39 +15522,6 @@
 	icon_state = "fred2"
 	},
 /area/station/chapel/sanctuary)
-"aPJ" = (
-/obj/cable{
-	icon_state = "0-8"
-	},
-/obj/cable{
-	icon_state = "0-4"
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/plating,
-/area/station/bridge)
-"aPK" = (
-/obj/cable{
-	icon_state = "0-8"
-	},
-/obj/cable,
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 6;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/plating,
-/area/station/bridge)
 "aPL" = (
 /obj/machinery/camera{
 	c_tag = "autotag";
@@ -16473,43 +16315,6 @@
 	icon_state = "fred2"
 	},
 /area/station/chapel/sanctuary)
-"aRP" = (
-/obj/cable{
-	icon_state = "0-2"
-	},
-/obj/cable{
-	icon_state = "0-4"
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 9;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/plating,
-/area/station/bridge)
-"aRQ" = (
-/obj/cable,
-/obj/cable{
-	icon_state = "0-8"
-	},
-/obj/cable{
-	icon_state = "0-4"
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 6;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/plating,
-/area/station/bridge)
 "aRR" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -17432,21 +17237,6 @@
 /turf/simulated/floor/grey/side{
 	dir = 1
 	},
-/area/station/bridge)
-"aUf" = (
-/obj/cable{
-	icon_state = "0-2"
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 4;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/plating,
 /area/station/bridge)
 "aUg" = (
 /obj/lattice,
@@ -19092,22 +18882,6 @@
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/plating,
 /area/station/chapel/sanctuary)
-"aXR" = (
-/obj/cable{
-	icon_state = "0-2"
-	},
-/obj/cable,
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 4;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/plating,
-/area/station/bridge)
 "aXS" = (
 /obj/machinery/power/data_terminal,
 /obj/cable{
@@ -19216,19 +18990,6 @@
 	dir = 4
 	},
 /turf/simulated/floor/grey/side,
-/area/station/bridge)
-"aYd" = (
-/obj/cable,
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 4;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/plating,
 /area/station/bridge)
 "aYe" = (
 /obj/machinery/light/emergency{
@@ -19589,6 +19350,15 @@
 "aYQ" = (
 /turf/simulated/wall/auto/supernorn,
 /area/station/maintenance/east)
+"aYR" = (
+/obj/displaycase{
+	displayed = new /obj/item/captaingun
+	},
+/obj/window/reinforced{
+	dir = 2
+	},
+/turf/simulated/floor/carpet/arcade,
+/area/station/crew_quarters/captain)
 "aYS" = (
 /turf/simulated/wall/false_wall,
 /area/station/chapel/sanctuary)
@@ -19891,40 +19661,6 @@
 /obj/decal/cleanable/rust,
 /turf/simulated/wall/auto/supernorn,
 /area/station/chapel/sanctuary)
-"aZK" = (
-/obj/cable,
-/obj/cable{
-	icon_state = "0-4"
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 10;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/plating,
-/area/station/bridge)
-"aZL" = (
-/obj/cable{
-	icon_state = "0-2"
-	},
-/obj/cable{
-	icon_state = "0-8"
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 5;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/plating,
-/area/station/bridge)
 "aZM" = (
 /obj/cable{
 	icon_state = "1-4"
@@ -20067,18 +19803,6 @@
 	},
 /turf/simulated/floor,
 /area/station/hallway/primary/central)
-"baj" = (
-/obj/table/auto,
-/obj/item/hand_tele,
-/obj/decal/cleanable/cobweb,
-/obj/machinery/camera{
-	c_tag = "autotag";
-	dir = 4;
-	name = "autoname - SS13";
-	tag = ""
-	},
-/turf/simulated/floor/black,
-/area/station/teleporter)
 "bak" = (
 /obj/cable{
 	icon_state = "1-4"
@@ -20272,22 +19996,6 @@
 "baM" = (
 /turf/simulated/floor/plating,
 /area/station/maintenance/east)
-"baN" = (
-/obj/cable,
-/obj/cable{
-	icon_state = "0-2"
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 4;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/plating,
-/area/station/bridge)
 "baO" = (
 /obj/shrub{
 	dir = 1
@@ -20685,20 +20393,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/maintenance/west)
-"bbO" = (
-/obj/cable{
-	icon_state = "0-8"
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/plating,
-/area/station/bridge)
 "bbP" = (
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/crew_quarters/captain)
@@ -21150,23 +20844,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/maintenance/west)
-"bcQ" = (
-/obj/cable{
-	icon_state = "0-2"
-	},
-/obj/wingrille_spawn/auto,
-/obj/window_blinds/cog2/right{
-	dir = 4
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/turf/simulated/floor/plating,
-/area/station/crew_quarters/captain)
 "bcR" = (
 /obj/item/reagent_containers/food/drinks/bottle/thegoodstuff,
 /obj/shrub/captainshrub{
@@ -21207,23 +20884,6 @@
 	dir = 8
 	},
 /turf/simulated/floor/carpet/arcade,
-/area/station/crew_quarters/captain)
-"bcW" = (
-/obj/cable{
-	icon_state = "0-2"
-	},
-/obj/wingrille_spawn/auto,
-/obj/window_blinds/cog2/left{
-	dir = 8
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/turf/simulated/floor/plating,
 /area/station/crew_quarters/captain)
 "bcX" = (
 /obj/cable{
@@ -21587,24 +21247,6 @@
 /obj/machinery/light/small,
 /turf/simulated/floor/plating,
 /area/station/maintenance/west)
-"bdP" = (
-/obj/cable,
-/obj/cable{
-	icon_state = "0-4"
-	},
-/obj/wingrille_spawn/auto,
-/obj/window_blinds/cog2/left{
-	dir = 4
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/turf/simulated/floor/plating,
-/area/station/crew_quarters/captain)
 "bdQ" = (
 /obj/cable{
 	icon_state = "4-8"
@@ -21688,24 +21330,6 @@
 	dir = 5;
 	icon_state = "fred6"
 	},
-/area/station/crew_quarters/captain)
-"bdV" = (
-/obj/cable,
-/obj/cable{
-	icon_state = "0-8"
-	},
-/obj/wingrille_spawn/auto,
-/obj/window_blinds/cog2/right{
-	dir = 8
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/turf/simulated/floor/plating,
 /area/station/crew_quarters/captain)
 "bdW" = (
 /obj/cable{
@@ -22395,23 +22019,6 @@
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/plating,
 /area/station/maintenance/disposal)
-"bfG" = (
-/obj/cable{
-	icon_state = "0-4"
-	},
-/obj/wingrille_spawn/auto,
-/obj/window_blinds/cog2{
-	dir = 4
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/turf/simulated/floor/plating,
-/area/station/crew_quarters/captain)
 "bfH" = (
 /obj/cable{
 	icon_state = "2-4"
@@ -22473,23 +22080,6 @@
 	dir = 6;
 	icon_state = "fred6"
 	},
-/area/station/crew_quarters/captain)
-"bfM" = (
-/obj/cable{
-	icon_state = "0-8"
-	},
-/obj/wingrille_spawn/auto,
-/obj/window_blinds/cog2{
-	dir = 8
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/turf/simulated/floor/plating,
 /area/station/crew_quarters/captain)
 "bfN" = (
 /obj/wingrille_spawn/auto,
@@ -22901,15 +22491,6 @@
 "bgG" = (
 /turf/simulated/floor/plating,
 /area/space)
-"bgH" = (
-/obj/displaycase{
-	displayed = new /obj/item/captaingun
-	},
-/obj/window/reinforced{
-	dir = 2
-	},
-/turf/simulated/floor/carpet/arcade,
-/area/station/crew_quarters/captain)
 "bgI" = (
 /obj/machinery/door/window/southleft{
 	req_access_txt = null
@@ -23569,23 +23150,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/maintenance/disposal)
-"biu" = (
-/obj/cable{
-	icon_state = "0-2"
-	},
-/obj/wingrille_spawn/auto,
-/obj/window_blinds/cog2{
-	dir = 4
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/turf/simulated/floor/plating,
-/area/station/crew_quarters/captain)
 "biv" = (
 /obj/table/auto,
 /obj/item/card/id/captains_spare{
@@ -23623,26 +23187,6 @@
 	pixel_y = 2
 	},
 /turf/simulated/floor/black,
-/area/station/crew_quarters/captain)
-"biy" = (
-/obj/cable{
-	icon_state = "0-2"
-	},
-/obj/cable{
-	icon_state = "0-8"
-	},
-/obj/wingrille_spawn/auto,
-/obj/window_blinds/cog2{
-	dir = 8
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/turf/simulated/floor/plating,
 /area/station/crew_quarters/captain)
 "biz" = (
 /obj/table/glass/auto,
@@ -24046,38 +23590,6 @@
 /obj/grille/steel,
 /turf/simulated/floor/plating,
 /area/station/maintenance/disposal)
-"bjy" = (
-/obj/cable,
-/obj/cable{
-	icon_state = "0-4"
-	},
-/obj/wingrille_spawn/auto,
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 10;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/turf/simulated/floor/plating,
-/area/station/crew_quarters/captain)
-"bjC" = (
-/obj/cable,
-/obj/cable{
-	icon_state = "0-8"
-	},
-/obj/wingrille_spawn/auto,
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 6;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/turf/simulated/floor/plating,
-/area/station/crew_quarters/captain)
 "bjE" = (
 /obj/table/glass/auto,
 /obj/item/decoration/ashtray,
@@ -24576,29 +24088,6 @@
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/plating,
 /area/station/maintenance/east)
-"bkQ" = (
-/obj/machinery/conveyor{
-	dir = 4;
-	name = "cargo belt - east";
-	operating = 1
-	},
-/obj/machinery/mass_driver{
-	dir = 4;
-	drive_range = 5;
-	id = "speedboost_crusher"
-	},
-/obj/machinery/door/poddoor/pyro{
-	dir = 4;
-	id = "speedboost_crusher";
-	name = "Disposals Door"
-	},
-/obj/disposalpipe/segment/mail,
-/obj/decal/tile_edge/stripe/extra_big,
-/obj/decal/tile_edge/stripe/extra_big{
-	dir = 1
-	},
-/turf/simulated/floor/grime,
-/area/station/maintenance/disposal)
 "bkR" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -24879,16 +24368,6 @@
 	dir = 4
 	},
 /area/space)
-"blF" = (
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "market_2";
-	name = "Public Market";
-	opacity = 0
-	},
-/turf/simulated/floor/delivery,
-/area/station/crew_quarters/market)
 "blG" = (
 /turf/simulated/floor/neutral/side{
 	dir = 8
@@ -25479,21 +24958,6 @@
 	},
 /turf/simulated/floor,
 /area/station/crew_quarters/market)
-"bnc" = (
-/obj/cable{
-	icon_state = "0-2"
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 4;
-	icon_state = "pdoor0";
-	id = "eva";
-	name = "E.V.A.";
-	opacity = 0
-	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/plating,
-/area/station/ai_monitored/storage/eva)
 "bnd" = (
 /obj/table/auto,
 /obj/decal/tile_edge/stripe/extra_big{
@@ -26027,20 +25491,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/maintenance/disposal)
-"boc" = (
-/obj/machinery/conveyor{
-	dir = 4;
-	id = "garbage";
-	move_lag = 30;
-	operating = 1
-	},
-/obj/machinery/door/poddoor/pyro{
-	dir = 4;
-	id = "speedboost_crusher";
-	name = "Disposals Door"
-	},
-/turf/simulated/floor/plating,
-/area/station/maintenance/disposal)
 "bod" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -26302,19 +25752,6 @@
 	},
 /turf/simulated/floor,
 /area/station/crew_quarters/market)
-"boD" = (
-/obj/cable,
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 4;
-	icon_state = "pdoor0";
-	id = "eva";
-	name = "E.V.A.";
-	opacity = 0
-	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/plating,
-/area/station/ai_monitored/storage/eva)
 "boE" = (
 /obj/table/auto,
 /obj/decal/tile_edge/stripe/extra_big{
@@ -27351,62 +26788,6 @@
 	},
 /turf/simulated/floor/circuit,
 /area/station/turret_protected/ai)
-"bro" = (
-/obj/cable{
-	icon_state = "0-2"
-	},
-/obj/cable{
-	icon_state = "0-4"
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 9;
-	icon_state = "pdoor0";
-	id = "ai_core";
-	name = "AI Core Shield";
-	opacity = 0
-	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/circuit,
-/area/station/turret_protected/ai)
-"brp" = (
-/obj/cable{
-	icon_state = "0-4"
-	},
-/obj/cable{
-	icon_state = "0-8"
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "ai_core";
-	name = "AI Core Shield";
-	opacity = 0
-	},
-/obj/disposalpipe/segment/morgue{
-	name = "crematorium pipe"
-	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/circuit,
-/area/station/turret_protected/ai)
-"brq" = (
-/obj/cable{
-	icon_state = "0-2"
-	},
-/obj/cable{
-	icon_state = "0-8"
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 5;
-	icon_state = "pdoor0";
-	id = "ai_core";
-	name = "AI Core Shield";
-	opacity = 0
-	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/circuit,
-/area/station/turret_protected/ai)
 "brr" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -27615,40 +26996,6 @@
 /obj/table/auto,
 /turf/simulated/floor,
 /area/station/crew_quarters/market)
-"brW" = (
-/obj/cable{
-	icon_state = "0-2"
-	},
-/obj/cable,
-/obj/cable{
-	icon_state = "0-8"
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 4;
-	icon_state = "pdoor0";
-	id = "ai_core";
-	name = "AI Core Shield";
-	opacity = 0
-	},
-/turf/simulated/wall/auto/reinforced/supernorn,
-/area/station/turret_protected/ai)
-"brY" = (
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 4;
-	icon_state = "pdoor0";
-	id = "ai_core";
-	name = "AI Core Shield";
-	opacity = 0
-	},
-/obj/cable{
-	icon_state = "0-2"
-	},
-/obj/cable,
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/circuit,
-/area/station/turret_protected/ai)
 "bsa" = (
 /obj/machinery/firealarm{
 	dir = 4;
@@ -27898,15 +27245,6 @@
 /obj/disposalpipe/segment,
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/engine/gas)
-"bsX" = (
-/obj/wingrille_spawn/auto,
-/obj/machinery/door/poddoor/pyro{
-	dir = 4;
-	id = "pt_laser";
-	name = "PTL Door"
-	},
-/turf/simulated/floor/plating,
-/area/station/engine/ptl)
 "bsY" = (
 /obj/disposalpipe/segment/mail,
 /obj/lattice{
@@ -31346,22 +30684,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/quartermaster/office)
-"bCM" = (
-/obj/machinery/launcher_loader/west{
-	name = "Trash Re-router";
-	trash = 1
-	},
-/obj/machinery/door/poddoor/pyro{
-	dir = 4;
-	id = "cargo_shutter";
-	name = "Bypass Door"
-	},
-/obj/decal/tile_edge/stripe/extra_big{
-	dir = 1
-	},
-/obj/decal/tile_edge/stripe/extra_big,
-/turf/simulated/floor,
-/area/station/quartermaster/office)
 "bCN" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -31767,39 +31089,6 @@
 "bDP" = (
 /turf/simulated/floor/grime,
 /area/station/storage/warehouse)
-"bDQ" = (
-/obj/machinery/conveyor{
-	dir = 1;
-	name = "cargo belt - north";
-	operating = 1
-	},
-/obj/plasticflaps,
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "cargo_shutter";
-	layer = 5;
-	name = "Safety Shutters";
-	opacity = 0
-	},
-/turf/simulated/floor/plating,
-/area/station/quartermaster/office)
-"bDS" = (
-/obj/machinery/conveyor{
-	name = "cargo belt - south";
-	operating = 1
-	},
-/obj/plasticflaps,
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "cargo_shutter";
-	layer = 5;
-	name = "Safety Shutters";
-	opacity = 0
-	},
-/turf/simulated/floor/plating,
-/area/station/quartermaster/office)
 "bDT" = (
 /obj/table/auto,
 /obj/item/sheet/glass/reinforced/fullstack,
@@ -32535,22 +31824,6 @@
 	},
 /turf/simulated/floor,
 /area/station/hangar/qm)
-"bGk" = (
-/obj/machinery/conveyor{
-	dir = 4;
-	id = "qmout"
-	},
-/obj/machinery/door/poddoor/pyro{
-	dir = 4;
-	id = "cargodock_out";
-	name = "Cargo Routing Door"
-	},
-/obj/decal/tile_edge/stripe/extra_big,
-/obj/decal/tile_edge/stripe/extra_big{
-	dir = 1
-	},
-/turf/simulated/floor,
-/area/station/hangar/qm)
 "bGl" = (
 /obj/machinery/launcher_loader/east,
 /obj/decal/tile_edge/stripe/extra_big,
@@ -32605,17 +31878,6 @@
 	tag = "ZETA_MAINFRAME"
 	},
 /turf/simulated/floor/delivery,
-/area/station/turret_protected/Zeta)
-"bGr" = (
-/obj/machinery/door/poddoor/pyro{
-	dir = 4;
-	id = "dwaine_core";
-	name = "DWAINE Core Access"
-	},
-/obj/decal/tile_edge/stripe/extra_big{
-	dir = 8
-	},
-/turf/simulated/floor,
 /area/station/turret_protected/Zeta)
 "bGs" = (
 /obj/cable{
@@ -32979,30 +32241,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/storage/warehouse)
-"bHI" = (
-/obj/plasticflaps,
-/obj/machinery/conveyor{
-	dir = 4;
-	id = "enginesupply"
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 4;
-	icon_state = "pdoor0";
-	id = "cargo_shutter";
-	layer = 5;
-	name = "Safety Shutters";
-	opacity = 0
-	},
-/obj/decal/tile_edge/stripe/extra_big,
-/obj/decal/tile_edge/stripe/extra_big{
-	dir = 1
-	},
-/obj/machinery/door/firedoor/pyro{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/station/quartermaster/office)
 "bHK" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -33066,22 +32304,6 @@
 	},
 /turf/simulated/floor,
 /area/station/hangar/qm)
-"bHQ" = (
-/obj/machinery/conveyor{
-	dir = 4;
-	id = "qmin"
-	},
-/obj/machinery/door/poddoor/pyro{
-	dir = 4;
-	id = "cargodock_in";
-	name = "Cargo Routing Door"
-	},
-/obj/decal/tile_edge/stripe/extra_big,
-/obj/decal/tile_edge/stripe/extra_big{
-	dir = 1
-	},
-/turf/simulated/floor,
-/area/station/hangar/qm)
 "bHR" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -33138,15 +32360,6 @@
 "bHX" = (
 /obj/decal/poster/wallsign/fire,
 /turf/simulated/wall/auto/reinforced/supernorn,
-/area/station/science/lab)
-"bHY" = (
-/obj/grille/steel,
-/obj/machinery/door/poddoor/pyro{
-	id = "tox_vent3";
-	layer = 8;
-	name = "Exhaust Vent"
-	},
-/turf/simulated/floor/plating/airless,
 /area/station/science/lab)
 "bHZ" = (
 /turf/simulated/wall/auto/reinforced/supernorn,
@@ -34579,22 +33792,6 @@
 	dir = 4
 	},
 /area/station/science/teleporter)
-"bLy" = (
-/obj/machinery/door/poddoor/pyro{
-	dir = 4;
-	id = "scienceteleporter";
-	name = "Teleporter Blast Shield";
-	p_open = 1
-	},
-/obj/cable{
-	icon_state = "0-8"
-	},
-/obj/cable{
-	icon_state = "0-4"
-	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/engine,
-/area/station/science/teleporter)
 "bLz" = (
 /obj/cable{
 	icon_state = "2-8"
@@ -34626,28 +33823,6 @@
 /turf/simulated/floor/engine{
 	allows_vehicles = 0
 	},
-/area/station/science/teleporter)
-"bLC" = (
-/obj/machinery/door/poddoor/pyro{
-	dir = 4;
-	id = "scienceteleporter2";
-	name = "Teleporter Blast Shield";
-	p_open = 1
-	},
-/obj/cable{
-	icon_state = "0-4"
-	},
-/obj/disposalpipe/segment/transport,
-/obj/cable{
-	icon_state = "0-8"
-	},
-/obj/wingrille_spawn/auto,
-/obj/securearea{
-	desc = "Careless use of experimental teleportation technology may be hazardous to your health.";
-	name = "Molecular Integrity Hazard";
-	pixel_y = -4
-	},
-/turf/simulated/floor/engine,
 /area/station/science/teleporter)
 "bLD" = (
 /obj/disposalpipe/segment/mail,
@@ -35288,24 +34463,6 @@
 /obj/machinery/power/apc/autoname_east,
 /turf/simulated/floor/plating,
 /area/station/maintenance/inner/central)
-"bNm" = (
-/obj/plasticflaps,
-/obj/machinery/conveyor{
-	dir = 4;
-	id = "enginesupply"
-	},
-/obj/firedoor_spawn,
-/obj/machinery/door/poddoor/pyro{
-	dir = 4;
-	id = "engsupply_shutter";
-	name = "Safety Shutters"
-	},
-/obj/decal/tile_edge/stripe/extra_big,
-/obj/decal/tile_edge/stripe/extra_big{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
-/area/station/storage/warehouse)
 "bNn" = (
 /turf/simulated/floor,
 /area/station/engine/elect)
@@ -35653,16 +34810,6 @@
 	},
 /turf/simulated/floor/shuttlebay,
 /area/station/hangar/qm)
-"bOb" = (
-/obj/grille/steel,
-/obj/machinery/door/poddoor/pyro{
-	dir = 4;
-	id = "tox_vent2";
-	layer = 8;
-	name = "Exhaust Vent"
-	},
-/turf/simulated/floor/plating/airless,
-/area/station/science/lab)
 "bOc" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 4;
@@ -36255,42 +35402,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/storage/warehouse)
-"bPj" = (
-/obj/machinery/conveyor{
-	id = "cargo"
-	},
-/obj/plasticflaps,
-/obj/firedoor_spawn,
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "cargosto";
-	layer = 4;
-	name = "Storage Doors";
-	opacity = 0
-	},
-/turf/simulated/floor,
-/area/station/quartermaster/office)
-"bPk" = (
-/obj/machinery/conveyor{
-	id = "cargo"
-	},
-/obj/plasticflaps,
-/obj/firedoor_spawn,
-/obj/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "cargosto";
-	layer = 4;
-	name = "Storage Doors";
-	opacity = 0
-	},
-/obj/disposalpipe/segment/mail,
-/turf/simulated/floor,
-/area/station/quartermaster/office)
 "bPl" = (
 /obj/cable{
 	icon_state = "0-2"
@@ -36846,27 +35957,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/storage/warehouse)
-"bQy" = (
-/obj/machinery/conveyor{
-	dir = 8;
-	id = "cargo"
-	},
-/obj/plasticflaps,
-/obj/machinery/door/poddoor/pyro{
-	dir = 4;
-	id = "cargosto";
-	layer = 5;
-	name = "Storage Door"
-	},
-/obj/decal/tile_edge/stripe/extra_big{
-	dir = 1
-	},
-/obj/decal/tile_edge/stripe/extra_big,
-/obj/machinery/door/firedoor/pyro{
-	dir = 4
-	},
-/turf/simulated/floor,
-/area/station/quartermaster/office)
 "bQz" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -37546,17 +36636,6 @@
 	},
 /turf/simulated/floor,
 /area/station/quartermaster/office)
-"bSb" = (
-/obj/machinery/door/poddoor/pyro{
-	dir = 4;
-	id = "cargosto";
-	name = "Storage Door"
-	},
-/obj/decal/tile_edge/stripe/extra_big{
-	dir = 5
-	},
-/turf/simulated/floor,
-/area/station/quartermaster/office)
 "bSc" = (
 /obj/disposalpipe/segment,
 /turf/simulated/floor/neutral/side{
@@ -37683,15 +36762,6 @@
 	name = "FIRE HAZARD"
 	},
 /turf/simulated/wall/auto/reinforced/supernorn,
-/area/station/science/lab)
-"bSn" = (
-/obj/grille/steel,
-/obj/machinery/door/poddoor/pyro{
-	id = "tox_mix";
-	layer = 8;
-	name = "Mixing Vent"
-	},
-/turf/simulated/floor/engine/vacuum,
 /area/station/science/lab)
 "bSo" = (
 /obj/machinery/door_control{
@@ -38295,16 +37365,6 @@
 	},
 /turf/simulated/floor,
 /area/station/hangar/qm)
-"bTL" = (
-/obj/grille/steel,
-/obj/machinery/door/poddoor/pyro{
-	dir = 4;
-	id = "tox_vent1";
-	layer = 8;
-	name = "Exhaust Vent"
-	},
-/turf/simulated/floor/plating/airless,
-/area/station/science/lab)
 "bTM" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 6
@@ -41294,10 +40354,6 @@
 	dir = 4
 	},
 /area/station/science/lobby)
-"cbJ" = (
-/obj/machinery/manufacturer/general,
-/turf/simulated/floor/delivery,
-/area/station/science/lobby)
 "cbK" = (
 /obj/table/auto,
 /obj/item/paper/book/from_file/guardbot_guide{
@@ -43937,13 +42993,6 @@
 	},
 /turf/simulated/floor/grime,
 /area/station/security/checkpoint/cargo)
-"ciP" = (
-/obj/storage/secure/closet/brig/automatic/minibrig,
-/obj/decal/tile_edge/stripe/extra_big{
-	dir = 8
-	},
-/turf/simulated/floor/grime,
-/area/station/security/checkpoint/cargo)
 "ciQ" = (
 /obj/machinery/manufacturer/mining,
 /turf/simulated/floor/delivery,
@@ -44524,25 +43573,6 @@
 	id = "mining"
 	},
 /obj/plasticflaps,
-/obj/decal/tile_edge/stripe/extra_big,
-/obj/decal/tile_edge/stripe/extra_big{
-	dir = 1
-	},
-/turf/simulated/floor,
-/area/station/mining/staff_room)
-"ckk" = (
-/obj/machinery/conveyor{
-	dir = 4;
-	id = "mining"
-	},
-/obj/machinery/door/poddoor/pyro{
-	autoclose = 1;
-	dir = 4;
-	id = "miningshutter";
-	layer = 4;
-	name = "Ore Belt External Door"
-	},
-/obj/machinery/launcher_loader/west,
 /obj/decal/tile_edge/stripe/extra_big,
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 1
@@ -46097,22 +45127,6 @@
 /obj/machinery/portable_atmospherics/scrubber,
 /turf/simulated/floor/plating,
 /area/station/science/testchamber)
-"cok" = (
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 4;
-	icon_state = "pdoor0";
-	id = "chemistry";
-	name = "Chemistry Privacy Shutters";
-	opacity = 0
-	},
-/obj/cable{
-	icon_state = "0-2"
-	},
-/obj/disposalpipe/segment/transport,
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/plating,
-/area/station/science/chemistry)
 "col" = (
 /obj/machinery/chemicompiler_stationary,
 /obj/decal/tile_edge/stripe/extra_big,
@@ -46606,26 +45620,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/science/testchamber)
-"cpn" = (
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 4;
-	icon_state = "pdoor0";
-	id = "chemistry";
-	name = "Chemistry Privacy Shutters";
-	opacity = 0
-	},
-/obj/cable,
-/obj/cable{
-	icon_state = "0-4"
-	},
-/obj/disposalpipe/segment/transport{
-	dir = 8;
-	icon_state = "pipe-c"
-	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/plating,
-/area/station/science/chemistry)
 "cpo" = (
 /obj/machinery/bot/firebot,
 /obj/cable{
@@ -47194,29 +46188,6 @@
 /turf/simulated/floor/purplewhite{
 	dir = 6
 	},
-/area/station/science/chemistry)
-"cqz" = (
-/obj/table/reinforced/auto,
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 4;
-	icon_state = "pdoor0";
-	id = "chemistry";
-	name = "Chemistry Privacy Shutters";
-	opacity = 0
-	},
-/obj/item/reagent_containers/glass/beaker/large{
-	pixel_x = -6;
-	pixel_y = 8
-	},
-/obj/item/storage/box/beakerbox{
-	pixel_x = 6;
-	pixel_y = 3
-	},
-/obj/machinery/door/firedoor/pyro{
-	dir = 4
-	},
-/turf/simulated/floor/delivery,
 /area/station/science/chemistry)
 "cqB" = (
 /turf/simulated/floor/white,
@@ -48124,14 +47095,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/maintenance/southwest)
-"csQ" = (
-/obj/storage/secure/closet/medical{
-	name = "locker"
-	},
-/turf/simulated/floor/bluewhite{
-	dir = 8
-	},
-/area/station/medical/medbay/cloner)
 "csR" = (
 /obj/machinery/power/data_terminal,
 /obj/cable{
@@ -48645,18 +47608,6 @@
 	},
 /turf/simulated/floor/delivery,
 /area/station/science/chemistry)
-"cub" = (
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 4;
-	icon_state = "pdoor0";
-	id = "chemistry";
-	name = "Chemistry Privacy Shutters";
-	opacity = 0
-	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/plating,
-/area/station/science/chemistry)
 "cuf" = (
 /turf/simulated/wall/auto/supernorn,
 /area/station/medical/medbay)
@@ -48739,22 +47690,6 @@
 	},
 /turf/simulated/floor/blue/checker,
 /area/station/medical/research)
-"cut" = (
-/obj/disposalpipe/segment{
-	dir = 8;
-	icon_state = "pipe-c"
-	},
-/obj/storage/secure/closet/medical{
-	name = "locker"
-	},
-/obj/machinery/light_switch{
-	name = "E light switch";
-	pixel_x = 24
-	},
-/turf/simulated/floor/bluewhite{
-	dir = 6
-	},
-/area/station/medical/medbay/cloner)
 "cuu" = (
 /obj/decal/poster/wallsign/stencil/right/p{
 	pixel_x = 15
@@ -49675,20 +48610,6 @@
 /obj/machinery/bot/secbot,
 /turf/simulated/floor/bluewhite,
 /area/station/medical/medbay)
-"cwH" = (
-/obj/disposalpipe/segment{
-	dir = 4
-	},
-/obj/window/reinforced{
-	dir = 8
-	},
-/obj/machinery/atmospherics/unary/cryo_cell{
-	dir = 1
-	},
-/turf/simulated/floor/redwhite{
-	dir = 10
-	},
-/area/station/medical/medbay/surgery)
 "cwI" = (
 /obj/surgery_tray,
 /obj/item/circular_saw{
@@ -49737,20 +48658,6 @@
 	pixel_y = 4
 	},
 /turf/simulated/floor/redwhite,
-/area/station/medical/medbay/surgery)
-"cwK" = (
-/obj/disposalpipe/segment{
-	dir = 4
-	},
-/obj/window/reinforced{
-	dir = 4
-	},
-/obj/machinery/atmospherics/unary/cryo_cell{
-	dir = 1
-	},
-/turf/simulated/floor/redwhite{
-	dir = 6
-	},
 /area/station/medical/medbay/surgery)
 "cwL" = (
 /obj/machinery/disposal,
@@ -49859,14 +48766,6 @@
 	},
 /turf/simulated/floor/blue/checker,
 /area/station/medical/research)
-"cwS" = (
-/obj/storage/secure/closet/medical{
-	name = "locker"
-	},
-/turf/simulated/floor/bluewhite{
-	dir = 10
-	},
-/area/station/medical/medbay/cloner)
 "cwU" = (
 /obj/landmark/gps_waypoint,
 /obj/disposalpipe/segment,
@@ -50907,6 +49806,23 @@
 	dir = 8
 	},
 /area/listeningpost)
+"czL" = (
+/obj/cable{
+	icon_state = "0-4"
+	},
+/obj/wingrille_spawn/auto,
+/obj/window_blinds/cog2{
+	dir = 4
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/turf/simulated/floor/plating,
+/area/station/crew_quarters/captain)
 "czN" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -52290,22 +51206,6 @@
 	icon_state = "catwalk_cross"
 	},
 /area/station/solar/north)
-"cWc" = (
-/obj/machinery/door/poddoor/pyro{
-	dir = 4;
-	id = "scienceteleporter";
-	name = "Teleporter Blast Shield";
-	p_open = 1
-	},
-/obj/machinery/door/airlock/pyro/glass{
-	dir = 4;
-	name = "Teleporter Pad";
-	req_access_txt = null
-	},
-/obj/access_spawn/tox,
-/obj/firedoor_spawn,
-/turf/simulated/floor/engine,
-/area/station/science/teleporter)
 "cWB" = (
 /obj/cable{
 	icon_state = "0-8"
@@ -52390,6 +51290,17 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/engine/core)
+"dec" = (
+/obj/machinery/door/poddoor/pyro{
+	dir = 4;
+	id = "dwaine_core";
+	name = "DWAINE Core Access"
+	},
+/obj/decal/tile_edge/stripe/extra_big{
+	dir = 8
+	},
+/turf/simulated/floor,
+/area/station/turret_protected/Zeta)
 "dgj" = (
 /obj/machinery/launcher_loader/south{
 	door_delay = 5
@@ -52413,6 +51324,24 @@
 	name = "astroturf"
 	},
 /area/station/medical/research)
+"dhl" = (
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/obj/machinery/door/airlock/pyro/security{
+	dir = 4;
+	name = "Head of Security";
+	req_access = null
+	},
+/obj/access_spawn/hos,
+/obj/firedoor_spawn,
+/turf/simulated/floor/delivery,
+/area/station/security/hos)
 "diC" = (
 /obj/storage/secure/closet/security/armory,
 /obj/decal/tile_edge/stripe/extra_big{
@@ -52429,6 +51358,21 @@
 	},
 /turf/simulated/floor/black,
 /area/station/engine/hotloop)
+"diW" = (
+/obj/table/reinforced/auto,
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "kitchen";
+	layer = 4;
+	name = "Kitchen Shutter";
+	opacity = 0;
+	p_open = 1
+	},
+/obj/item/storage/box/donkpocket_kit,
+/obj/machinery/door/firedoor/pyro,
+/turf/simulated/floor/carpet/grime,
+/area/station/crew_quarters/baroffice)
 "djC" = (
 /obj/machinery/conveyor/east{
 	operating = 1
@@ -52726,6 +51670,21 @@
 	},
 /turf/simulated/floor,
 /area/station/security/main)
+"dEM" = (
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "brig_divide";
+	name = "Brig Divider Shutters";
+	opacity = 0
+	},
+/obj/disposalpipe/segment/brig,
+/obj/decal/tile_edge/stripe/extra_big,
+/obj/decal/tile_edge/stripe/extra_big{
+	dir = 1
+	},
+/turf/simulated/floor/grime,
+/area/station/security/brig)
 "dGl" = (
 /obj/machinery/door_timer/solitary{
 	pixel_x = -24
@@ -53159,17 +52118,6 @@
 /obj/access_spawn/janitor,
 /turf/simulated/floor/grime,
 /area/station/janitor/office)
-"eln" = (
-/obj/machinery/door/poddoor/pyro{
-	dir = 4;
-	id = "dwaine_core";
-	name = "DWAINE Core Access"
-	},
-/obj/decal/tile_edge/stripe/extra_big{
-	dir = 4
-	},
-/turf/simulated/floor,
-/area/station/turret_protected/Zeta)
 "emu" = (
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/grime,
@@ -53203,6 +52151,22 @@
 /obj/firedoor_spawn,
 /turf/simulated/floor/plating,
 /area/station/routing/eva)
+"erB" = (
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "ai_core";
+	name = "AI Core Shield";
+	opacity = 0
+	},
+/obj/cable{
+	icon_state = "0-2"
+	},
+/obj/cable,
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/circuit,
+/area/station/turret_protected/ai)
 "erY" = (
 /obj/cable{
 	icon_state = "1-4"
@@ -53320,6 +52284,28 @@
 	},
 /turf/simulated/floor,
 /area/station/engine/elect)
+"eyt" = (
+/obj/machinery/door/poddoor/pyro{
+	dir = 4;
+	id = "scienceteleporter2";
+	name = "Teleporter Blast Shield";
+	p_open = 1
+	},
+/obj/cable{
+	icon_state = "0-4"
+	},
+/obj/disposalpipe/segment/transport,
+/obj/cable{
+	icon_state = "0-8"
+	},
+/obj/wingrille_spawn/auto,
+/obj/securearea{
+	desc = "Careless use of experimental teleportation technology may be hazardous to your health.";
+	name = "Molecular Integrity Hazard";
+	pixel_y = -4
+	},
+/turf/simulated/floor/engine,
+/area/station/science/teleporter)
 "ezG" = (
 /obj/window/reinforced{
 	dir = 4
@@ -53549,6 +52535,23 @@
 /obj/item/pen/fancy,
 /turf/simulated/floor/plating/damaged3,
 /area/station/maintenance/northeast)
+"eOA" = (
+/obj/cable{
+	icon_state = "0-8"
+	},
+/obj/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "chemistry";
+	name = "Chemistry Privacy Shutters";
+	opacity = 0
+	},
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/plating,
+/area/station/science/chemistry)
 "eOP" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -53564,6 +52567,26 @@
 	},
 /turf/simulated/floor/delivery,
 /area/station/mining/staff_room)
+"eOY" = (
+/obj/machinery/conveyor{
+	id = "cargo"
+	},
+/obj/plasticflaps,
+/obj/firedoor_spawn,
+/obj/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "cargosto";
+	layer = 4;
+	name = "Storage Doors";
+	opacity = 0
+	},
+/obj/disposalpipe/segment/mail,
+/turf/simulated/floor,
+/area/station/quartermaster/office)
 "ePs" = (
 /obj/machinery/atmospherics/pipe/manifold{
 	dir = 4;
@@ -53634,6 +52657,19 @@
 /obj/firedoor_spawn,
 /turf/simulated/floor,
 /area/station/engine/elect)
+"eXt" = (
+/obj/cable,
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/plating,
+/area/station/bridge)
 "eYd" = (
 /obj/machinery/door/airlock/pyro/external,
 /turf/simulated/floor,
@@ -53878,6 +52914,36 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/maintenance/solar/west)
+"fqo" = (
+/obj/cable,
+/obj/cable{
+	icon_state = "0-4"
+	},
+/obj/wingrille_spawn/auto,
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 10;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/turf/simulated/floor/plating,
+/area/station/crew_quarters/captain)
+"fsg" = (
+/obj/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "chemistry";
+	name = "Chemistry Privacy Shutters";
+	opacity = 0
+	},
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/plating,
+/area/station/science/chemistry)
 "fsG" = (
 /obj/storage/closet/fire,
 /turf/simulated/floor/red/side{
@@ -53908,6 +52974,15 @@
 	},
 /turf/simulated/floor,
 /area/station/engine/engineering)
+"ftG" = (
+/obj/storage/crate,
+/obj/item/clothing/under/gimmick/princess,
+/obj/item/clothing/gloves/princess,
+/obj/window/cubicle{
+	dir = 4
+	},
+/turf/simulated/floor/purple,
+/area/station/crew_quarters/quartersA)
 "ftU" = (
 /obj/disposalpipe/segment,
 /turf/simulated/wall/auto/supernorn,
@@ -54165,27 +53240,6 @@
 /obj/window/auto,
 /turf/simulated/floor/plating,
 /area/station/crew_quarters/market)
-"fIP" = (
-/obj/disposalpipe/segment/morgue{
-	name = "crematorium pipe"
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "ai_core";
-	name = "AI Core Shield";
-	opacity = 0
-	},
-/obj/cable{
-	icon_state = "0-4"
-	},
-/obj/cable{
-	icon_state = "0-8"
-	},
-/obj/cable,
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/circuit,
-/area/station/turret_protected/ai)
 "fJl" = (
 /obj/machinery/door/airlock/pyro/external{
 	name = "Supply Dock Airlock"
@@ -54316,6 +53370,16 @@
 	},
 /turf/simulated/floor/red/side,
 /area/station/security/main)
+"fXU" = (
+/obj/grille/steel,
+/obj/machinery/door/poddoor/pyro{
+	dir = 4;
+	id = "tox_vent1";
+	layer = 8;
+	name = "Exhaust Vent"
+	},
+/turf/simulated/floor/plating/airless,
+/area/station/science/lab)
 "fXV" = (
 /obj/machinery/light_switch{
 	name = "W light switch";
@@ -54351,6 +53415,20 @@
 /obj/firedoor_spawn,
 /turf/simulated/floor/plating,
 /area/station/hangar/main)
+"fZr" = (
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/obj/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/cryo_cell{
+	dir = 1
+	},
+/turf/simulated/floor/redwhite{
+	dir = 6
+	},
+/area/station/medical/medbay/surgery)
 "fZG" = (
 /obj/machinery/light/emergency{
 	dir = 4
@@ -54368,6 +53446,27 @@
 /obj/machinery/recharge_station,
 /turf/simulated/floor/bot,
 /area/station/maintenance/east)
+"gay" = (
+/obj/table/reinforced/auto,
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "kitchen";
+	layer = 4;
+	name = "Kitchen Shutter";
+	opacity = 0;
+	p_open = 1
+	},
+/obj/item/plate,
+/obj/item/reagent_containers/food/snacks/cake/chocolate/gateau{
+	pixel_y = 8
+	},
+/obj/machinery/door/firedoor/pyro{
+	dir = 4
+	},
+/turf/simulated/floor/black,
+/area/station/crew_quarters/cafeteria)
 "gaM" = (
 /obj/decal/cleanable/dirt/dirt5,
 /turf/simulated/floor,
@@ -54449,6 +53548,40 @@
 /obj/grille/catwalk,
 /turf/simulated/floor/airless/plating/catwalk,
 /area/space)
+"gfK" = (
+/obj/cable{
+	icon_state = "0-4"
+	},
+/obj/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "ai_core";
+	name = "AI Core Shield";
+	opacity = 0
+	},
+/obj/disposalpipe/segment/morgue{
+	name = "crematorium pipe"
+	},
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/circuit,
+/area/station/turret_protected/ai)
+"gib" = (
+/obj/disposalpipe/segment{
+	dir = 4
+	},
+/obj/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/atmospherics/unary/cryo_cell{
+	dir = 1
+	},
+/turf/simulated/floor/redwhite{
+	dir = 10
+	},
+/area/station/medical/medbay/surgery)
 "gjs" = (
 /obj/cable{
 	icon_state = "0-8"
@@ -54645,6 +53778,31 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/maintenance/solar/south)
+"gwJ" = (
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/obj/machinery/door/airlock/pyro/command{
+	dir = 4;
+	name = "Head of Personnel";
+	req_access = null;
+	req_access_txt = null
+	},
+/obj/disposalpipe/segment/mail{
+	dir = 4
+	},
+/obj/cable{
+	icon_state = "4-8"
+	},
+/obj/access_spawn/head_of_personnel,
+/obj/firedoor_spawn,
+/turf/simulated/floor,
+/area/station/crew_quarters/heads)
 "gxg" = (
 /obj/machinery/door/airlock/pyro/maintenance{
 	name = "Air Hookups"
@@ -54905,32 +54063,39 @@
 	},
 /turf/simulated/floor,
 /area/station/hydroponics/bay)
-"gSi" = (
+"gRM" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "mining"
+	},
+/obj/machinery/door/poddoor/pyro{
+	autoclose = 1;
+	dir = 4;
+	id = "miningshutter";
+	layer = 4;
+	name = "Ore Belt External Door"
+	},
+/obj/machinery/launcher_loader/west,
+/obj/decal/tile_edge/stripe/extra_big,
+/obj/decal/tile_edge/stripe/extra_big{
+	dir = 1
+	},
+/turf/simulated/floor,
+/area/station/mining/staff_room)
+"gUC" = (
+/obj/cable{
+	icon_state = "1-2"
+	},
 /obj/machinery/door/poddoor/pyro{
 	density = 0;
-	dir = 4;
 	icon_state = "pdoor0";
-	id = "test_chamber";
-	name = "Test Chamber Shield";
+	id = "interrogation";
+	name = "Interrogation Room";
 	opacity = 0
 	},
-/obj/machinery/door/airlock/pyro/glass{
-	dir = 4;
-	name = "Test Chamber";
-	req_access_txt = null
-	},
-/obj/disposalpipe/segment/mail{
-	dir = 4
-	},
-/obj/cable{
-	icon_state = "4-8"
-	},
-/obj/access_spawn/tox,
-/obj/firedoor_spawn,
-/turf/simulated/floor/shuttlebay{
-	name = "test chamber plating"
-	},
-/area/station/science/testchamber)
+/obj/machinery/door/firedoor/pyro,
+/turf/simulated/floor/black,
+/area/station/security/main)
 "gVv" = (
 /obj/machinery/atmospherics/valve,
 /obj/machinery/firealarm{
@@ -54962,6 +54127,23 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/medical/head)
+"gXl" = (
+/obj/cable{
+	icon_state = "0-8"
+	},
+/obj/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/plating,
+/area/station/bridge)
 "gYp" = (
 /obj/cable,
 /obj/wingrille_spawn/auto,
@@ -55183,6 +54365,22 @@
 	},
 /turf/simulated/floor/grime,
 /area/station/storage/hydroponics)
+"hsn" = (
+/obj/cable{
+	icon_state = "0-2"
+	},
+/obj/cable,
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/plating,
+/area/station/bridge)
 "huI" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -55207,6 +54405,22 @@
 /obj/item/cloneModule/genepowermodule,
 /turf/simulated/floor/blue/checker,
 /area/station/medical/research)
+"hxa" = (
+/obj/machinery/conveyor{
+	id = "cargo"
+	},
+/obj/plasticflaps,
+/obj/firedoor_spawn,
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "cargosto";
+	layer = 4;
+	name = "Storage Doors";
+	opacity = 0
+	},
+/turf/simulated/floor,
+/area/station/quartermaster/office)
 "hxh" = (
 /obj/table/auto,
 /obj/decal/cleanable/dirt,
@@ -55759,6 +54973,29 @@
 /obj/firedoor_spawn,
 /turf/simulated/floor/sanitary,
 /area/station/crew_quarters/showers)
+"isG" = (
+/obj/table/reinforced/auto,
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "chemistry";
+	name = "Chemistry Privacy Shutters";
+	opacity = 0
+	},
+/obj/item/reagent_containers/glass/beaker/large{
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/obj/item/storage/box/beakerbox{
+	pixel_x = 6;
+	pixel_y = 3
+	},
+/obj/machinery/door/firedoor/pyro{
+	dir = 4
+	},
+/turf/simulated/floor/delivery,
+/area/station/science/chemistry)
 "isP" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
@@ -55768,25 +55005,6 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/engine/core)
-"ivm" = (
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 10;
-	icon_state = "pdoor0";
-	id = "ai_core";
-	name = "AI Core Shield";
-	opacity = 0
-	},
-/obj/cable{
-	icon_state = "0-2"
-	},
-/obj/cable{
-	icon_state = "0-4"
-	},
-/obj/cable,
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/circuit,
-/area/station/turret_protected/ai)
 "iyk" = (
 /obj/cable/yellow{
 	icon_state = "0-2"
@@ -55829,29 +55047,6 @@
 /obj/machinery/atmospherics/pipe/simple/insulated,
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/hangar/engine)
-"iCq" = (
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 4;
-	icon_state = "pdoor0";
-	id = "test_chamber";
-	name = "Test Chamber Shield";
-	opacity = 0
-	},
-/obj/disposalpipe/segment/transport{
-	dir = 4
-	},
-/obj/machinery/door/airlock/pyro/glass{
-	dir = 4;
-	name = "Test Chamber";
-	req_access_txt = null
-	},
-/obj/access_spawn/tox,
-/obj/firedoor_spawn,
-/turf/simulated/floor/shuttlebay{
-	name = "test chamber plating"
-	},
-/area/station/science/testchamber)
 "iCV" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -55891,6 +55086,21 @@
 	dir = 4
 	},
 /area/station/solar/north)
+"iEp" = (
+/obj/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 9;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/plating,
+/area/station/bridge)
 "iFc" = (
 /obj/decal/cleanable/cobweb,
 /obj/cable/yellow{
@@ -55928,6 +55138,15 @@
 	},
 /turf/simulated/floor/red/side,
 /area/station/security/main)
+"iOx" = (
+/obj/grille/steel,
+/obj/machinery/door/poddoor/pyro{
+	id = "tox_mix";
+	layer = 8;
+	name = "Mixing Vent"
+	},
+/turf/simulated/floor/engine/vacuum,
+/area/station/science/lab)
 "iPj" = (
 /obj/machinery/atmospherics/pipe/simple{
 	dir = 6
@@ -56053,6 +55272,15 @@
 	},
 /turf/simulated/floor,
 /area/station/engine/power)
+"jaK" = (
+/obj/grille/steel,
+/obj/machinery/door/poddoor/pyro{
+	id = "tox_vent3";
+	layer = 8;
+	name = "Exhaust Vent"
+	},
+/turf/simulated/floor/plating/airless,
+/area/station/science/lab)
 "jaU" = (
 /obj/machinery/door/airlock/pyro/maintenance{
 	dir = 4
@@ -56153,6 +55381,32 @@
 	dir = 1
 	},
 /area/station/ranch)
+"jkr" = (
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "test_chamber";
+	name = "Test Chamber Shield";
+	opacity = 0
+	},
+/obj/machinery/door/airlock/pyro/glass{
+	dir = 4;
+	name = "Test Chamber";
+	req_access_txt = null
+	},
+/obj/disposalpipe/segment/mail{
+	dir = 4
+	},
+/obj/cable{
+	icon_state = "4-8"
+	},
+/obj/access_spawn/tox,
+/obj/firedoor_spawn,
+/turf/simulated/floor/shuttlebay{
+	name = "test chamber plating"
+	},
+/area/station/science/testchamber)
 "jkD" = (
 /obj/machinery/phone/wall,
 /turf/simulated/wall/auto/supernorn,
@@ -56383,6 +55637,22 @@
 	},
 /turf/simulated/floor/grime,
 /area/station/engine/gas)
+"jCR" = (
+/obj/cable,
+/obj/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/plating,
+/area/station/bridge)
 "jDy" = (
 /obj/machinery/atmospherics/pipe/simple/insulated/cold{
 	can_rupture = 0
@@ -56566,24 +55836,17 @@
 /obj/cable/yellow,
 /turf/simulated/floor/plating,
 /area/station/maintenance/solar/south)
-"jPn" = (
-/obj/cable{
-	icon_state = "1-2"
-	},
+"jPj" = (
 /obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
+	dir = 4;
+	id = "cargosto";
+	name = "Storage Door"
 	},
-/obj/machinery/door/airlock/pyro/command{
-	name = "Radio Room"
+/obj/decal/tile_edge/stripe/extra_big{
+	dir = 5
 	},
-/obj/access_spawn/heads,
-/obj/firedoor_spawn,
-/turf/simulated/floor/black,
-/area/station/bridge)
+/turf/simulated/floor,
+/area/station/quartermaster/office)
 "jPz" = (
 /obj/machinery/conveyor{
 	dir = 1;
@@ -56672,6 +55935,23 @@
 /obj/window/auto,
 /turf/simulated/floor/plating,
 /area/station/crew_quarters/market)
+"jVA" = (
+/obj/cable{
+	icon_state = "0-8"
+	},
+/obj/wingrille_spawn/auto,
+/obj/window_blinds/cog2{
+	dir = 8
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/turf/simulated/floor/plating,
+/area/station/crew_quarters/captain)
 "jWf" = (
 /obj/machinery/conveyor/south{
 	operating = 1
@@ -56753,6 +56033,22 @@
 	dir = 4
 	},
 /area/station/mining/staff_room)
+"kbo" = (
+/obj/machinery/door/poddoor/pyro{
+	dir = 4;
+	id = "scienceteleporter";
+	name = "Teleporter Blast Shield";
+	p_open = 1
+	},
+/obj/machinery/door/airlock/pyro/glass{
+	dir = 4;
+	name = "Teleporter Pad";
+	req_access_txt = null
+	},
+/obj/access_spawn/tox,
+/obj/firedoor_spawn,
+/turf/simulated/floor/engine,
+/area/station/science/teleporter)
 "kbK" = (
 /obj/cable{
 	icon_state = "4-8"
@@ -56867,6 +56163,17 @@
 	},
 /turf/simulated/floor,
 /area/station/science/lobby)
+"kjP" = (
+/obj/machinery/door/poddoor/pyro{
+	dir = 4;
+	id = "dwaine_core";
+	name = "DWAINE Core Access"
+	},
+/obj/decal/tile_edge/stripe/extra_big{
+	dir = 4
+	},
+/turf/simulated/floor,
+/area/station/turret_protected/Zeta)
 "kkk" = (
 /obj/disposalpipe/segment{
 	dir = 4;
@@ -57232,6 +56539,23 @@
 /obj/disposalpipe/segment/mail,
 /turf/simulated/floor,
 /area/station/security/main)
+"lav" = (
+/obj/cable{
+	icon_state = "0-2"
+	},
+/obj/wingrille_spawn/auto,
+/obj/window_blinds/cog2/right{
+	dir = 4
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/turf/simulated/floor/plating,
+/area/station/crew_quarters/captain)
 "lbv" = (
 /obj/machinery/door/airlock/pyro/maintenance{
 	dir = 4
@@ -57368,6 +56692,51 @@
 /obj/decal/tile_edge/stripe/extra_big,
 /turf/simulated/floor,
 /area/station/routing/engine)
+"loq" = (
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "fireshield";
+	name = "Combustion Chamber Heat Shield";
+	opacity = 0
+	},
+/obj/machinery/door/airlock/pyro/external{
+	dir = 4;
+	name = "Combustion Chamber Access";
+	req_access_txt = null
+	},
+/obj/cable{
+	icon_state = "4-8"
+	},
+/obj/firedoor_spawn,
+/obj/access_spawn/engineering_engine,
+/turf/simulated/floor/engine/vacuum,
+/area/station/engine/hotloop)
+"lrD" = (
+/obj/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/obj/machinery/door/airlock/pyro/glass/command{
+	dir = 4;
+	name = "Bridge"
+	},
+/obj/machinery/secscanner{
+	dir = 4;
+	pixel_x = -20
+	},
+/obj/access_spawn/heads,
+/obj/firedoor_spawn,
+/turf/simulated/floor,
+/area/station/bridge)
 "lrI" = (
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 9
@@ -57432,6 +56801,24 @@
 	},
 /turf/simulated/floor,
 /area/station/routing/engine)
+"lvf" = (
+/obj/cable,
+/obj/cable{
+	icon_state = "0-2"
+	},
+/obj/wingrille_spawn/auto,
+/obj/window_blinds/cog2/right{
+	dir = 8
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/turf/simulated/floor/plating,
+/area/station/crew_quarters/captain)
 "lvm" = (
 /obj/item/device/radio/intercom/botany,
 /turf/simulated/floor/green/side{
@@ -57495,6 +56882,21 @@
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/plating,
 /area/station/hallway/primary/south)
+"lyw" = (
+/obj/cable,
+/obj/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "chemistry";
+	name = "Chemistry Privacy Shutters";
+	opacity = 0
+	},
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/plating,
+/area/station/science/chemistry)
 "lAF" = (
 /obj/table/auto,
 /obj/item/dye_bottle,
@@ -57534,6 +56936,34 @@
 	},
 /turf/simulated/floor/delivery,
 /area/station/hallway/secondary/entry)
+"lFe" = (
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/obj/machinery/door/airlock/pyro/glass/command{
+	dir = 4;
+	name = "Bridge"
+	},
+/obj/cable,
+/obj/cable{
+	icon_state = "0-2"
+	},
+/obj/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/secscanner{
+	dir = 4;
+	pixel_x = -20
+	},
+/obj/access_spawn/heads,
+/obj/firedoor_spawn,
+/turf/simulated/floor,
+/area/station/bridge)
 "lGf" = (
 /obj/wingrille_spawn/auto,
 /obj/cable/yellow{
@@ -57544,6 +56974,24 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/maintenance/solar/south)
+"lHn" = (
+/obj/cable,
+/obj/cable{
+	icon_state = "0-8"
+	},
+/obj/wingrille_spawn/auto,
+/obj/window_blinds/cog2/right{
+	dir = 8
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/turf/simulated/floor/plating,
+/area/station/crew_quarters/captain)
 "lIF" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -57596,6 +57044,22 @@
 /obj/cable/brown,
 /turf/simulated/floor/plating,
 /area/station/engine/core)
+"lNf" = (
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "chemistry";
+	name = "Chemistry Privacy Shutters";
+	opacity = 0
+	},
+/obj/cable{
+	icon_state = "0-2"
+	},
+/obj/disposalpipe/segment/transport,
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/plating,
+/area/station/science/chemistry)
 "lQc" = (
 /obj/machinery/atmospherics/pipe/simple/insulated/cold{
 	dir = 10
@@ -57722,6 +57186,25 @@
 	},
 /turf/simulated/floor/yellow/side,
 /area/station/engine/elect)
+"lYM" = (
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 6;
+	icon_state = "pdoor0";
+	id = "ai_core";
+	name = "AI Core Shield";
+	opacity = 0
+	},
+/obj/cable{
+	icon_state = "0-2"
+	},
+/obj/cable{
+	icon_state = "0-8"
+	},
+/obj/cable,
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/circuit,
+/area/station/turret_protected/ai)
 "lZE" = (
 /obj/machinery/light/emergency{
 	dir = 8
@@ -57748,20 +57231,46 @@
 	name = "astroturf"
 	},
 /area/station/medical/research)
-"mbr" = (
-/obj/disposalpipe/segment,
-/obj/storage/secure/closet/medical{
-	name = "locker"
+"mab" = (
+/obj/table/auto,
+/obj/item/platestack{
+	icon_state = "platestack4";
+	pixel_x = -3;
+	pixel_y = 8;
+	platenum = 5
 	},
-/turf/simulated/floor/bluewhite{
-	dir = 4
+/obj/decal/cleanable/generic,
+/obj/item/storage/box/beer{
+	pixel_x = 14;
+	pixel_y = -3
 	},
-/area/station/medical/medbay/cloner)
+/turf/simulated/floor/grey/whitegrime/other,
+/area/station/maintenance/northeast)
 "mcM" = (
 /obj/machinery/chem_dispenser,
 /obj/machinery/light,
 /turf/simulated/floor/bluewhite,
 /area/station/medical/medbay)
+"mcS" = (
+/obj/cable{
+	icon_state = "0-2"
+	},
+/obj/cable{
+	icon_state = "0-8"
+	},
+/obj/wingrille_spawn/auto,
+/obj/window_blinds/cog2{
+	dir = 8
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/turf/simulated/floor/plating,
+/area/station/crew_quarters/captain)
 "mdk" = (
 /obj/item/rods/steel,
 /obj/item/bat,
@@ -57784,6 +57293,23 @@
 /obj/firedoor_spawn,
 /turf/simulated/floor/plating,
 /area/station/crew_quarters/toilets)
+"mdO" = (
+/obj/cable{
+	icon_state = "0-2"
+	},
+/obj/wingrille_spawn/auto,
+/obj/window_blinds/cog2/left{
+	dir = 8
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/turf/simulated/floor/plating,
+/area/station/crew_quarters/captain)
 "meq" = (
 /obj/machinery/vending/hydroponics,
 /turf/simulated/floor/grass{
@@ -57825,6 +57351,24 @@
 /obj/storage/cart,
 /turf/simulated/floor/grime,
 /area/station/storage/warehouse)
+"mlg" = (
+/obj/cable,
+/obj/cable{
+	icon_state = "0-2"
+	},
+/obj/wingrille_spawn/auto,
+/obj/window_blinds/cog2/left{
+	dir = 4
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/turf/simulated/floor/plating,
+/area/station/crew_quarters/captain)
 "mlq" = (
 /obj/submachine/cargopad{
 	name = "Botany Pad"
@@ -58106,21 +57650,6 @@
 	},
 /turf/simulated/floor,
 /area/station/hangar/main)
-"mLs" = (
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "fireshield";
-	name = "Combustion Chamber Heat Shield";
-	opacity = 0
-	},
-/obj/machinery/atmospherics/pipe/manifold{
-	dir = 4;
-	level = 2
-	},
-/obj/wingrille_spawn/auto/crystal,
-/turf/simulated/floor/engine/vacuum,
-/area/station/engine/hotloop)
 "mLQ" = (
 /obj/machinery/portable_reclaimer,
 /turf/simulated/floor/plating,
@@ -58144,6 +57673,30 @@
 	},
 /turf/simulated/floor,
 /area/station/hydroponics/bay)
+"mPf" = (
+/obj/plasticflaps,
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "enginesupply"
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "cargo_shutter";
+	layer = 5;
+	name = "Safety Shutters";
+	opacity = 0
+	},
+/obj/decal/tile_edge/stripe/extra_big,
+/obj/decal/tile_edge/stripe/extra_big{
+	dir = 1
+	},
+/obj/machinery/door/firedoor/pyro{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/station/quartermaster/office)
 "mPE" = (
 /obj/securearea,
 /turf/simulated/wall/auto/reinforced/supernorn,
@@ -58186,6 +57739,24 @@
 /obj/decal/tile_edge/stripe/extra_big,
 /turf/simulated/floor,
 /area/station/routing/engine)
+"mVj" = (
+/obj/cable{
+	icon_state = "0-2"
+	},
+/obj/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 5;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/plating,
+/area/station/bridge)
 "mVI" = (
 /obj/disposalpipe/segment/mail{
 	dir = 2;
@@ -58269,6 +57840,22 @@
 	},
 /turf/simulated/floor,
 /area/station/engine/elect)
+"neq" = (
+/obj/cable{
+	icon_state = "0-8"
+	},
+/obj/cable,
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 6;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/plating,
+/area/station/bridge)
 "nfH" = (
 /obj/machinery/computer/power_monitor/smes{
 	dir = 8;
@@ -58360,6 +57947,29 @@
 	},
 /turf/simulated/floor/specialroom/cafeteria,
 /area/station/crew_quarters/barber_shop)
+"nln" = (
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "test_chamber";
+	name = "Test Chamber Shield";
+	opacity = 0
+	},
+/obj/disposalpipe/segment/transport{
+	dir = 4
+	},
+/obj/machinery/door/airlock/pyro/glass{
+	dir = 4;
+	name = "Test Chamber";
+	req_access_txt = null
+	},
+/obj/access_spawn/tox,
+/obj/firedoor_spawn,
+/turf/simulated/floor/shuttlebay{
+	name = "test chamber plating"
+	},
+/area/station/science/testchamber)
 "nlN" = (
 /obj/machinery/disposal,
 /obj/disposalpipe/trunk{
@@ -58375,6 +57985,50 @@
 	dir = 10
 	},
 /area/station/mining/staff_room)
+"nmh" = (
+/obj/machinery/door/poddoor/pyro{
+	dir = 4;
+	id = "scienceteleporter";
+	name = "Teleporter Blast Shield";
+	p_open = 1
+	},
+/obj/cable{
+	icon_state = "0-8"
+	},
+/obj/cable{
+	icon_state = "0-4"
+	},
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/engine,
+/area/station/science/teleporter)
+"nor" = (
+/obj/cable{
+	icon_state = "0-2"
+	},
+/obj/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 9;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/plating,
+/area/station/bridge)
+"npe" = (
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "market_2";
+	name = "Public Market";
+	opacity = 0
+	},
+/turf/simulated/floor/delivery,
+/area/station/crew_quarters/market)
 "npU" = (
 /obj/plasticflaps{
 	layer = 3
@@ -58436,6 +58090,14 @@
 	},
 /turf/simulated/floor/black,
 /area/station/engine/hotloop)
+"ntW" = (
+/obj/storage/secure/closet/medical{
+	name = "locker"
+	},
+/turf/simulated/floor/bluewhite{
+	dir = 8
+	},
+/area/station/medical/medbay/cloner)
 "nvq" = (
 /turf/simulated/wall/auto/shuttle{
 	icon_state = "7"
@@ -58479,24 +58141,13 @@
 /obj/machinery/power/solar/west,
 /turf/simulated/floor/airless/solar,
 /area/station/solar/north)
-"nzO" = (
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 4;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
+"nzy" = (
+/obj/disposalpipe/segment/mail{
+	dir = 4
 	},
-/obj/machinery/door/airlock/pyro/security{
-	dir = 4;
-	name = "Head of Security";
-	req_access = null
-	},
-/obj/access_spawn/hos,
-/obj/firedoor_spawn,
-/turf/simulated/floor/delivery,
-/area/station/security/hos)
+/obj/storage/secure/closet/brig/automatic/genpop_s,
+/turf/simulated/floor/grime,
+/area/station/security/brig)
 "nAl" = (
 /obj/disposalpipe/segment,
 /turf/simulated/floor/stairs{
@@ -58515,6 +58166,13 @@
 	dir = 1
 	},
 /area/station/hydroponics/bay)
+"nCO" = (
+/obj/storage/secure/closet/brig/automatic/solitary,
+/obj/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor,
+/area/station/security/brig)
 "nEP" = (
 /obj/item/device/radio/intercom/medical{
 	dir = 1
@@ -58608,6 +58266,25 @@
 /obj/firedoor_spawn,
 /turf/simulated/floor/plating/airless,
 /area/station/routing/depot)
+"nKo" = (
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 10;
+	icon_state = "pdoor0";
+	id = "ai_core";
+	name = "AI Core Shield";
+	opacity = 0
+	},
+/obj/cable{
+	icon_state = "0-2"
+	},
+/obj/cable{
+	icon_state = "0-4"
+	},
+/obj/cable,
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/circuit,
+/area/station/turret_protected/ai)
 "nKw" = (
 /obj/machinery/door/airlock/pyro{
 	dir = 4;
@@ -58645,21 +58322,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/science/gen_storage)
-"nOl" = (
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 4;
-	icon_state = "pdoor0";
-	id = "chemistry";
-	name = "Chemistry Privacy Shutters";
-	opacity = 0
-	},
-/obj/cable{
-	icon_state = "0-4"
-	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/plating,
-/area/station/science/chemistry)
 "nPo" = (
 /obj/machinery/door/airlock/pyro/medical{
 	name = "Chemistry Department Access";
@@ -58751,6 +58413,20 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/hangar/engine)
+"nUm" = (
+/obj/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/plating,
+/area/station/bridge)
 "nUE" = (
 /obj/disposalpipe/segment{
 	dir = 2;
@@ -58809,6 +58485,20 @@
 	},
 /obj/machinery/meter,
 /turf/simulated/floor,
+/area/station/engine/hotloop)
+"nXE" = (
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "fireshield";
+	name = "Combustion Chamber Heat Shield";
+	opacity = 0
+	},
+/obj/machinery/atmospherics/pipe/simple/insulated{
+	dir = 5
+	},
+/obj/wingrille_spawn/auto/crystal,
+/turf/simulated/floor/engine/vacuum,
 /area/station/engine/hotloop)
 "nYv" = (
 /obj/cable{
@@ -59264,6 +58954,18 @@
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/plating,
 /area/station/engine/coldloop)
+"oLK" = (
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "chemistry";
+	name = "Chemistry Privacy Shutters";
+	opacity = 0
+	},
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/plating,
+/area/station/science/chemistry)
 "oLV" = (
 /obj/machinery/light_switch{
 	name = "N light switch";
@@ -59420,6 +59122,24 @@
 /obj/decal/cleanable/cobweb2,
 /turf/simulated/floor/grey/whitegrime/other,
 /area/station/maintenance/northeast)
+"pbg" = (
+/obj/cable{
+	icon_state = "0-2"
+	},
+/obj/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 5;
+	icon_state = "pdoor0";
+	id = "ai_core";
+	name = "AI Core Shield";
+	opacity = 0
+	},
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/circuit,
+/area/station/turret_protected/ai)
 "pgN" = (
 /obj/cable{
 	icon_state = "4-8"
@@ -59538,6 +59258,22 @@
 /obj/access_spawn/kitchen,
 /turf/simulated/floor/black,
 /area/station/crew_quarters/cafeteria)
+"pos" = (
+/obj/machinery/launcher_loader/west{
+	name = "Trash Re-router";
+	trash = 1
+	},
+/obj/machinery/door/poddoor/pyro{
+	dir = 4;
+	id = "cargo_shutter";
+	name = "Bypass Door"
+	},
+/obj/decal/tile_edge/stripe/extra_big{
+	dir = 1
+	},
+/obj/decal/tile_edge/stripe/extra_big,
+/turf/simulated/floor,
+/area/station/quartermaster/office)
 "poA" = (
 /obj/machinery/atmospherics/unary/cold_sink/freezer{
 	dir = 4
@@ -59604,6 +59340,23 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/maintenance/northwest)
+"pvy" = (
+/obj/cable{
+	icon_state = "0-2"
+	},
+/obj/wingrille_spawn/auto,
+/obj/window_blinds/cog2{
+	dir = 4
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/turf/simulated/floor/plating,
+/area/station/crew_quarters/captain)
 "pwv" = (
 /obj/grille/steel,
 /obj/disposalpipe/switch_junction{
@@ -59633,24 +59386,6 @@
 	},
 /turf/simulated/floor,
 /area/station/engine/engineering)
-"pzB" = (
-/obj/cable,
-/obj/cable{
-	icon_state = "0-2"
-	},
-/obj/wingrille_spawn/auto,
-/obj/window_blinds/cog2/right{
-	dir = 8
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/turf/simulated/floor/plating,
-/area/station/crew_quarters/captain)
 "pzD" = (
 /obj/disposalpipe/junction{
 	dir = 4;
@@ -59796,48 +59531,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/engine/inner)
-"pQQ" = (
-/obj/table/reinforced/auto,
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 4;
-	icon_state = "pdoor0";
-	id = "kitchen";
-	layer = 4;
-	name = "Kitchen Shutter";
-	opacity = 0;
-	p_open = 1
-	},
-/obj/item/plate,
-/obj/item/reagent_containers/food/snacks/cake/chocolate/gateau{
-	pixel_y = 8
-	},
-/obj/machinery/door/firedoor/pyro{
-	dir = 4
-	},
-/turf/simulated/floor/black,
-/area/station/crew_quarters/cafeteria)
-"pQX" = (
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 4;
-	icon_state = "pdoor0";
-	id = "fireshield";
-	name = "Combustion Chamber Heat Shield";
-	opacity = 0
-	},
-/obj/machinery/door/airlock/pyro/external{
-	dir = 4;
-	name = "Combustion Chamber Access";
-	req_access_txt = null
-	},
-/obj/cable{
-	icon_state = "4-8"
-	},
-/obj/firedoor_spawn,
-/obj/access_spawn/engineering_engine,
-/turf/simulated/floor/engine/vacuum,
-/area/station/engine/hotloop)
 "pRn" = (
 /obj/machinery/door/airlock/pyro/maintenance,
 /obj/firedoor_spawn,
@@ -59878,6 +59571,26 @@
 /obj/firedoor_spawn,
 /turf/simulated/floor/plating,
 /area/station/maintenance/central)
+"pSW" = (
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "chemistry";
+	name = "Chemistry Privacy Shutters";
+	opacity = 0
+	},
+/obj/cable,
+/obj/cable{
+	icon_state = "0-4"
+	},
+/obj/disposalpipe/segment/transport{
+	dir = 8;
+	icon_state = "pipe-c"
+	},
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/plating,
+/area/station/science/chemistry)
 "pVj" = (
 /obj/cable{
 	icon_state = "4-8"
@@ -60020,21 +59733,6 @@
 /obj/access_spawn/heads,
 /turf/simulated/floor/delivery,
 /area/station/turret_protected/ai_upload_foyer)
-"qdV" = (
-/obj/table/auto,
-/obj/item/platestack{
-	icon_state = "platestack4";
-	pixel_x = -3;
-	pixel_y = 8;
-	platenum = 5
-	},
-/obj/decal/cleanable/generic,
-/obj/item/storage/box/beer{
-	pixel_x = 14;
-	pixel_y = -3
-	},
-/turf/simulated/floor/grey/whitegrime/other,
-/area/station/maintenance/northeast)
 "qfa" = (
 /obj/item/device/radio/intercom/catering{
 	dir = 8
@@ -60094,6 +59792,22 @@
 	},
 /turf/simulated/floor/grime,
 /area/station/security/brig)
+"qjI" = (
+/obj/cable,
+/obj/cable{
+	icon_state = "0-8"
+	},
+/obj/wingrille_spawn/auto,
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 6;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/turf/simulated/floor/plating,
+/area/station/crew_quarters/captain)
 "qjP" = (
 /obj/machinery/door/airlock/pyro/glass,
 /obj/disposalpipe/segment/transport,
@@ -60231,17 +59945,6 @@
 	},
 /turf/simulated/floor/white,
 /area/station/science/lab)
-"qzF" = (
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "test_chamber2";
-	name = "Test Chamber Shield";
-	opacity = 0
-	},
-/obj/wingrille_spawn/auto/crystal,
-/turf/simulated/floor/engine/vacuum,
-/area/station/science/testchamber)
 "qAl" = (
 /obj/grille/catwalk,
 /obj/cable/yellow{
@@ -60475,6 +60178,19 @@
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/plating,
 /area/station/medical/research)
+"qMp" = (
+/obj/cable,
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "eva";
+	name = "E.V.A.";
+	opacity = 0
+	},
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/plating,
+/area/station/ai_monitored/storage/eva)
 "qMw" = (
 /obj/table/reinforced/auto,
 /obj/item/device/multitool{
@@ -60513,6 +60229,10 @@
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/plating,
 /area/station/engine/elect)
+"qNA" = (
+/obj/machinery/manufacturer/general,
+/turf/simulated/floor/delivery,
+/area/station/science/lobby)
 "qPt" = (
 /obj/table/auto,
 /obj/cable{
@@ -60679,6 +60399,38 @@
 	dir = 5
 	},
 /area/station/turret_protected/ai_upload_foyer)
+"rah" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "qmin"
+	},
+/obj/machinery/door/poddoor/pyro{
+	dir = 4;
+	id = "cargodock_in";
+	name = "Cargo Routing Door"
+	},
+/obj/decal/tile_edge/stripe/extra_big,
+/obj/decal/tile_edge/stripe/extra_big{
+	dir = 1
+	},
+/turf/simulated/floor,
+/area/station/hangar/qm)
+"rar" = (
+/obj/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c"
+	},
+/obj/storage/secure/closet/medical{
+	name = "locker"
+	},
+/obj/machinery/light_switch{
+	name = "E light switch";
+	pixel_x = 24
+	},
+/turf/simulated/floor/bluewhite{
+	dir = 6
+	},
+/area/station/medical/medbay/cloner)
 "rbE" = (
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/plating,
@@ -60756,6 +60508,20 @@
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/plating,
 /area/station/routing/security)
+"rkW" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "garbage";
+	move_lag = 30;
+	operating = 1
+	},
+/obj/machinery/door/poddoor/pyro{
+	dir = 4;
+	id = "speedboost_crusher";
+	name = "Disposals Door"
+	},
+/turf/simulated/floor/plating,
+/area/station/maintenance/disposal)
 "rmb" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -60839,6 +60605,21 @@
 /obj/firedoor_spawn,
 /turf/simulated/floor/plating,
 /area/station/crew_quarters/quartersB)
+"rrB" = (
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "fireshield";
+	name = "Combustion Chamber Heat Shield";
+	opacity = 0
+	},
+/obj/machinery/atmospherics/pipe/manifold{
+	dir = 4;
+	level = 2
+	},
+/obj/wingrille_spawn/auto/crystal,
+/turf/simulated/floor/engine/vacuum,
+/area/station/engine/hotloop)
 "rtA" = (
 /obj/disposalpipe/segment,
 /obj/machinery/door/airlock/pyro/maintenance,
@@ -60860,12 +60641,71 @@
 	},
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/engine/core)
+"rxu" = (
+/obj/machinery/conveyor{
+	dir = 1;
+	name = "cargo belt - north";
+	operating = 1
+	},
+/obj/plasticflaps,
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "cargo_shutter";
+	layer = 5;
+	name = "Safety Shutters";
+	opacity = 0
+	},
+/turf/simulated/floor/plating,
+/area/station/quartermaster/office)
+"rxE" = (
+/obj/disposalpipe/segment,
+/obj/storage/secure/closet/medical{
+	name = "locker"
+	},
+/turf/simulated/floor/bluewhite{
+	dir = 4
+	},
+/area/station/medical/medbay/cloner)
+"ryH" = (
+/obj/plasticflaps,
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "enginesupply"
+	},
+/obj/firedoor_spawn,
+/obj/machinery/door/poddoor/pyro{
+	dir = 4;
+	id = "engsupply_shutter";
+	name = "Safety Shutters"
+	},
+/obj/decal/tile_edge/stripe/extra_big,
+/obj/decal/tile_edge/stripe/extra_big{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/station/storage/warehouse)
 "rzC" = (
 /obj/cable{
 	icon_state = "1-4"
 	},
 /turf/simulated/floor,
 /area/station/engine/elect)
+"rzI" = (
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "chemistry";
+	name = "Chemistry Privacy Shutters";
+	opacity = 0
+	},
+/obj/cable{
+	icon_state = "0-4"
+	},
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/plating,
+/area/station/science/chemistry)
 "rzM" = (
 /obj/cable/brown{
 	icon_state = "4-8"
@@ -61062,25 +60902,6 @@
 /obj/firedoor_spawn,
 /turf/simulated/floor,
 /area/station/crew_quarters/locker)
-"rOI" = (
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 6;
-	icon_state = "pdoor0";
-	id = "ai_core";
-	name = "AI Core Shield";
-	opacity = 0
-	},
-/obj/cable{
-	icon_state = "0-2"
-	},
-/obj/cable{
-	icon_state = "0-8"
-	},
-/obj/cable,
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/circuit,
-/area/station/turret_protected/ai)
 "rQC" = (
 /obj/machinery/atmospherics/pipe/simple/insulated/cold{
 	can_rupture = 0
@@ -61120,6 +60941,24 @@
 	},
 /turf/simulated/floor/grime,
 /area/station/engine/gas)
+"rUf" = (
+/obj/cable{
+	icon_state = "0-2"
+	},
+/obj/cable,
+/obj/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "ai_core";
+	name = "AI Core Shield";
+	opacity = 0
+	},
+/turf/simulated/wall/auto/reinforced/supernorn,
+/area/station/turret_protected/ai)
 "rUg" = (
 /obj/machinery/light{
 	dir = 8;
@@ -61574,6 +61413,27 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/engine/hotloop)
+"sAl" = (
+/obj/disposalpipe/segment/morgue{
+	name = "crematorium pipe"
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "ai_core";
+	name = "AI Core Shield";
+	opacity = 0
+	},
+/obj/cable{
+	icon_state = "0-4"
+	},
+/obj/cable{
+	icon_state = "0-8"
+	},
+/obj/cable,
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/circuit,
+/area/station/turret_protected/ai)
 "sAo" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -62041,26 +61901,6 @@
 /obj/firedoor_spawn,
 /turf/simulated/floor/delivery,
 /area/station/routing/airbridge)
-"tev" = (
-/obj/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/obj/machinery/door/airlock/pyro/command{
-	name = "Captain's Quarters";
-	req_access = null;
-	req_access_txt = null
-	},
-/obj/access_spawn/captain,
-/obj/firedoor_spawn,
-/turf/simulated/floor/black,
-/area/station/crew_quarters/captain)
 "tfK" = (
 /obj/machinery/door/airlock/pyro/external{
 	name = "Supply Dock Airlock"
@@ -62087,34 +61927,6 @@
 	dir = 8
 	},
 /area/station/security/main)
-"tkl" = (
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 4;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/obj/machinery/door/airlock/pyro/glass/command{
-	dir = 4;
-	name = "Bridge"
-	},
-/obj/cable,
-/obj/cable{
-	icon_state = "0-2"
-	},
-/obj/cable{
-	icon_state = "0-8"
-	},
-/obj/machinery/secscanner{
-	dir = 4;
-	pixel_x = -20
-	},
-/obj/access_spawn/heads,
-/obj/firedoor_spawn,
-/turf/simulated/floor,
-/area/station/bridge)
 "tlJ" = (
 /obj/machinery/atmospherics/pipe/simple{
 	dir = 9
@@ -62124,6 +61936,22 @@
 	},
 /turf/simulated/floor,
 /area/station/hallway/secondary/exit)
+"tnB" = (
+/obj/machinery/conveyor{
+	name = "cargo belt - south";
+	operating = 1
+	},
+/obj/plasticflaps,
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "cargo_shutter";
+	layer = 5;
+	name = "Safety Shutters";
+	opacity = 0
+	},
+/turf/simulated/floor/plating,
+/area/station/quartermaster/office)
 "toe" = (
 /obj/disposalpipe/segment/food,
 /obj/wingrille_spawn/auto,
@@ -62191,6 +62019,22 @@
 /obj/cable,
 /turf/simulated/floor/plating,
 /area/station/crew_quarters/cafeteria)
+"twn" = (
+/obj/cable,
+/obj/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 10;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/plating,
+/area/station/bridge)
 "txq" = (
 /obj/machinery/atmospherics/valve{
 	desc = "hot reserve tank valve";
@@ -62218,6 +62062,17 @@
 /obj/table/wood/auto,
 /turf/simulated/floor/yellow/side,
 /area/station/engine/engineering)
+"tyv" = (
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "chemistry";
+	name = "Chemistry Privacy Shutters";
+	opacity = 0
+	},
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/plating,
+/area/station/science/chemistry)
 "tyN" = (
 /obj/machinery/light,
 /turf/simulated/floor/green/side,
@@ -62343,35 +62198,6 @@
 	},
 /turf/simulated/floor/delivery,
 /area/station/engine/inner)
-"tKW" = (
-/obj/cable{
-	icon_state = "0-8"
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "chemistry";
-	name = "Chemistry Privacy Shutters";
-	opacity = 0
-	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/plating,
-/area/station/science/chemistry)
-"tLp" = (
-/obj/cable,
-/obj/cable{
-	icon_state = "0-4"
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "chemistry";
-	name = "Chemistry Privacy Shutters";
-	opacity = 0
-	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/plating,
-/area/station/science/chemistry)
 "tLW" = (
 /obj/disposalpipe/segment{
 	dir = 4;
@@ -62440,20 +62266,39 @@
 	},
 /turf/simulated/floor/delivery,
 /area/station/engine/inner)
-"tPv" = (
+"tOh" = (
+/obj/cable{
+	icon_state = "0-2"
+	},
 /obj/machinery/door/poddoor/pyro{
 	density = 0;
+	dir = 4;
 	icon_state = "pdoor0";
-	id = "fireshield";
-	name = "Combustion Chamber Heat Shield";
+	id = "eva";
+	name = "E.V.A.";
 	opacity = 0
 	},
-/obj/machinery/atmospherics/pipe/simple/insulated{
-	dir = 5
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/plating,
+/area/station/ai_monitored/storage/eva)
+"tQt" = (
+/obj/cable{
+	icon_state = "0-2"
 	},
-/obj/wingrille_spawn/auto/crystal,
-/turf/simulated/floor/engine/vacuum,
-/area/station/engine/hotloop)
+/obj/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 9;
+	icon_state = "pdoor0";
+	id = "ai_core";
+	name = "AI Core Shield";
+	opacity = 0
+	},
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/circuit,
+/area/station/turret_protected/ai)
 "tQC" = (
 /obj/decal/tile_edge/stripe/big{
 	dir = 4;
@@ -62473,6 +62318,26 @@
 	},
 /turf/simulated/floor,
 /area/space)
+"tQO" = (
+/obj/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/obj/machinery/door/airlock/pyro/command{
+	name = "Captain's Quarters";
+	req_access = null;
+	req_access_txt = null
+	},
+/obj/access_spawn/captain,
+/obj/firedoor_spawn,
+/turf/simulated/floor/black,
+/area/station/crew_quarters/captain)
 "tSs" = (
 /obj/disposalpipe/trunk/mail{
 	dir = 8
@@ -63028,6 +62893,16 @@
 	},
 /turf/simulated/floor,
 /area/station/hallway/secondary/exit)
+"uAX" = (
+/obj/grille/steel,
+/obj/machinery/door/poddoor/pyro{
+	dir = 4;
+	id = "tox_vent2";
+	layer = 8;
+	name = "Exhaust Vent"
+	},
+/turf/simulated/floor/plating/airless,
+/area/station/science/lab)
 "uCM" = (
 /obj/item/device/radio/beacon,
 /turf/unsimulated/floor{
@@ -63130,6 +63005,27 @@
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/plating,
 /area/station/security/brig)
+"uMg" = (
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "cargo"
+	},
+/obj/plasticflaps,
+/obj/machinery/door/poddoor/pyro{
+	dir = 4;
+	id = "cargosto";
+	layer = 5;
+	name = "Storage Door"
+	},
+/obj/decal/tile_edge/stripe/extra_big{
+	dir = 1
+	},
+/obj/decal/tile_edge/stripe/extra_big,
+/obj/machinery/door/firedoor/pyro{
+	dir = 4
+	},
+/turf/simulated/floor,
+/area/station/quartermaster/office)
 "uMx" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -63439,6 +63335,22 @@
 	},
 /turf/simulated/floor/blue/checker,
 /area/station/medical/research)
+"voQ" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "qmout"
+	},
+/obj/machinery/door/poddoor/pyro{
+	dir = 4;
+	id = "cargodock_out";
+	name = "Cargo Routing Door"
+	},
+/obj/decal/tile_edge/stripe/extra_big,
+/obj/decal/tile_edge/stripe/extra_big{
+	dir = 1
+	},
+/turf/simulated/floor,
+/area/station/hangar/qm)
 "vpM" = (
 /obj/grille/catwalk/cross{
 	dir = 1
@@ -63690,22 +63602,6 @@
 	dir = 8
 	},
 /area/station/medical/medbay)
-"vIQ" = (
-/obj/machinery/door/poddoor/pyro{
-	dir = 4;
-	id = "scienceteleporter2";
-	name = "Teleporter Blast Shield";
-	p_open = 1
-	},
-/obj/machinery/door/airlock/pyro/glass{
-	dir = 4;
-	name = "Teleporter Pad";
-	req_access_txt = null
-	},
-/obj/disposalpipe/segment/transport,
-/obj/firedoor_spawn,
-/turf/simulated/floor/engine,
-/area/station/science/teleporter)
 "vKj" = (
 /obj/cable/yellow,
 /obj/wingrille_spawn/auto,
@@ -63730,6 +63626,18 @@
 	dir = 8
 	},
 /area/station/medical/medbay)
+"vNO" = (
+/obj/table/auto,
+/obj/item/hand_tele,
+/obj/decal/cleanable/cobweb,
+/obj/machinery/camera{
+	c_tag = "autotag";
+	dir = 4;
+	name = "autoname - SS13";
+	tag = ""
+	},
+/turf/simulated/floor/black,
+/area/station/teleporter)
 "vOf" = (
 /obj/machinery/power/data_terminal,
 /obj/cable{
@@ -63890,6 +63798,35 @@
 	},
 /turf/simulated/floor/airless/solar,
 /area/station/solar/south)
+"waC" = (
+/obj/cable{
+	icon_state = "0-4"
+	},
+/obj/cable{
+	icon_state = "0-2"
+	},
+/obj/cable,
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "eva";
+	name = "E.V.A.";
+	opacity = 0
+	},
+/obj/machinery/atmospherics/pipe/simple{
+	dir = 4
+	},
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/plating,
+/area/station/ai_monitored/storage/eva)
+"waG" = (
+/obj/storage/secure/closet/brig/automatic/genpop_n,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/grime,
+/area/station/security/brig)
 "wbs" = (
 /obj/disposalpipe/segment/morgue{
 	name = "crematorium pipe"
@@ -64083,6 +64020,15 @@
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/plating,
 /area/station/maintenance/inner/central)
+"wpE" = (
+/obj/wingrille_spawn/auto,
+/obj/machinery/door/poddoor/pyro{
+	dir = 4;
+	id = "pt_laser";
+	name = "PTL Door"
+	},
+/turf/simulated/floor/plating,
+/area/station/engine/ptl)
 "wpH" = (
 /obj/machinery/camera{
 	c_tag = "autotag";
@@ -64176,6 +64122,32 @@
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/plating,
 /area/station/medical/research)
+"wtG" = (
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "test_chamber2";
+	name = "Test Chamber Shield";
+	opacity = 0
+	},
+/obj/wingrille_spawn/auto/crystal,
+/turf/simulated/floor/engine/vacuum,
+/area/station/science/testchamber)
+"wtR" = (
+/obj/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/plating,
+/area/station/bridge)
 "wul" = (
 /obj/cable/yellow{
 	icon_state = "1-8"
@@ -64302,6 +64274,29 @@
 	icon_state = "floor3"
 	},
 /area/shuttle/arrival/station)
+"wGj" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	name = "cargo belt - east";
+	operating = 1
+	},
+/obj/machinery/mass_driver{
+	dir = 4;
+	drive_range = 5;
+	id = "speedboost_crusher"
+	},
+/obj/machinery/door/poddoor/pyro{
+	dir = 4;
+	id = "speedboost_crusher";
+	name = "Disposals Door"
+	},
+/obj/disposalpipe/segment/mail,
+/obj/decal/tile_edge/stripe/extra_big,
+/obj/decal/tile_edge/stripe/extra_big{
+	dir = 1
+	},
+/turf/simulated/floor/grime,
+/area/station/maintenance/disposal)
 "wGk" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -64326,6 +64321,13 @@
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/plating,
 /area/station/maintenance/solar/west)
+"wIk" = (
+/obj/storage/secure/closet/brig/automatic/minibrig,
+/obj/decal/tile_edge/stripe/extra_big{
+	dir = 8
+	},
+/turf/simulated/floor/grime,
+/area/station/security/checkpoint/cargo)
 "wIz" = (
 /obj/disposalpipe/segment,
 /obj/table/auto,
@@ -64378,6 +64380,17 @@
 	icon_state = "red2"
 	},
 /area/station/crew_quarters/barber_shop)
+"wNI" = (
+/obj/machinery/door/poddoor/pyro{
+	dir = 4;
+	id = "cargosto";
+	name = "Storage Door"
+	},
+/obj/decal/tile_edge/stripe/extra_big{
+	dir = 4
+	},
+/turf/simulated/floor,
+/area/station/quartermaster/office)
 "wQU" = (
 /obj/cable{
 	icon_state = "0-8"
@@ -64424,41 +64437,6 @@
 	},
 /turf/simulated/floor/black,
 /area/station/engine/coldloop)
-"wUX" = (
-/obj/cable,
-/obj/cable{
-	icon_state = "0-2"
-	},
-/obj/wingrille_spawn/auto,
-/obj/window_blinds/cog2/left{
-	dir = 4
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/turf/simulated/floor/plating,
-/area/station/crew_quarters/captain)
-"wVw" = (
-/obj/cable{
-	icon_state = "0-8"
-	},
-/obj/cable{
-	icon_state = "0-4"
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	icon_state = "pdoor0";
-	id = "chemistry";
-	name = "Chemistry Privacy Shutters";
-	opacity = 0
-	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/plating,
-/area/station/science/chemistry)
 "wVz" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -64512,17 +64490,6 @@
 	},
 /turf/simulated/floor,
 /area/station/hallway/secondary/exit)
-"xbi" = (
-/obj/machinery/door/poddoor/pyro{
-	dir = 4;
-	id = "cargosto";
-	name = "Storage Door"
-	},
-/obj/decal/tile_edge/stripe/extra_big{
-	dir = 4
-	},
-/turf/simulated/floor,
-/area/station/quartermaster/office)
 "xbR" = (
 /obj/machinery/sleeper/compact,
 /turf/unsimulated/floor{
@@ -64616,6 +64583,24 @@
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/plating,
 /area/station/hangar/qm)
+"xjT" = (
+/obj/cable,
+/obj/cable{
+	icon_state = "0-4"
+	},
+/obj/wingrille_spawn/auto,
+/obj/window_blinds/cog2/left{
+	dir = 4
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/turf/simulated/floor/plating,
+/area/station/crew_quarters/captain)
 "xkf" = (
 /obj/machinery/door/airlock/pyro/security{
 	name = "Brig Visitation Area";
@@ -64722,20 +64707,24 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/routing/depot)
-"xuC" = (
-/turf/simulated/wall/auto/reinforced/supernorn,
-/area/station/turret_protected/armory_outside)
-"xvu" = (
+"xtO" = (
 /obj/machinery/door/poddoor/pyro{
 	density = 0;
 	icon_state = "pdoor0";
-	id = "chemistry";
-	name = "Chemistry Privacy Shutters";
+	id = "brig_divide";
+	name = "Brig Divider Shutters";
 	opacity = 0
 	},
-/obj/wingrille_spawn/auto,
-/turf/simulated/floor/plating,
-/area/station/science/chemistry)
+/obj/disposalpipe/segment/ejection,
+/obj/decal/tile_edge/stripe/extra_big,
+/obj/decal/tile_edge/stripe/extra_big{
+	dir = 1
+	},
+/turf/simulated/floor/grime,
+/area/station/security/brig)
+"xuC" = (
+/turf/simulated/wall/auto/reinforced/supernorn,
+/area/station/turret_protected/armory_outside)
 "xvA" = (
 /obj/item/clothing/mask/cigarette,
 /obj/decal/tile_edge/stripe/extra_big{
@@ -64757,6 +64746,14 @@
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/plating,
 /area/station/medical/medbay)
+"xxE" = (
+/obj/storage/secure/closet/medical{
+	name = "locker"
+	},
+/turf/simulated/floor/bluewhite{
+	dir = 10
+	},
+/area/station/medical/medbay/cloner)
 "xAi" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -64823,6 +64820,25 @@
 	},
 /turf/simulated/floor,
 /area/station/engine/ptl)
+"xDW" = (
+/obj/cable,
+/obj/cable{
+	icon_state = "0-8"
+	},
+/obj/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	dir = 6;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/obj/wingrille_spawn/auto,
+/turf/simulated/floor/plating,
+/area/station/bridge)
 "xEE" = (
 /obj/machinery/door/airlock/pyro/classic{
 	dir = 4;
@@ -64896,6 +64912,22 @@
 /obj/item/raw_material/cerenkite,
 /turf/simulated/floor/airless/plating/damaged2,
 /area/abandonedship)
+"xJs" = (
+/obj/machinery/door/poddoor/pyro{
+	dir = 4;
+	id = "scienceteleporter2";
+	name = "Teleporter Blast Shield";
+	p_open = 1
+	},
+/obj/machinery/door/airlock/pyro/glass{
+	dir = 4;
+	name = "Teleporter Pad";
+	req_access_txt = null
+	},
+/obj/disposalpipe/segment/transport,
+/obj/firedoor_spawn,
+/turf/simulated/floor/engine,
+/area/station/science/teleporter)
 "xJC" = (
 /obj/machinery/door/airlock/pyro/glass{
 	name = "Mini-Brig";
@@ -65127,30 +65159,6 @@
 /obj/storage/cart,
 /turf/simulated/floor/grime,
 /area/station/storage/hydroponics)
-"yct" = (
-/obj/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 4;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/obj/machinery/door/airlock/pyro/glass/command{
-	dir = 4;
-	name = "Bridge"
-	},
-/obj/machinery/secscanner{
-	dir = 4;
-	pixel_x = -20
-	},
-/obj/access_spawn/heads,
-/obj/firedoor_spawn,
-/turf/simulated/floor,
-/area/station/bridge)
 "yeH" = (
 /obj/cable{
 	icon_state = "0-8"
@@ -65159,6 +65167,24 @@
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/plating,
 /area/station/security/main)
+"yeS" = (
+/obj/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/poddoor/pyro{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "lockdown";
+	name = "Bridge Lockdown Doors";
+	opacity = 0
+	},
+/obj/machinery/door/airlock/pyro/command{
+	name = "Radio Room"
+	},
+/obj/access_spawn/heads,
+/obj/firedoor_spawn,
+/turf/simulated/floor/black,
+/area/station/bridge)
 "yfb" = (
 /obj/cable{
 	icon_state = "0-2"
@@ -65252,31 +65278,6 @@
 	dir = 4
 	},
 /area/station/security/main)
-"ylb" = (
-/obj/machinery/door/poddoor/pyro{
-	density = 0;
-	dir = 4;
-	icon_state = "pdoor0";
-	id = "lockdown";
-	name = "Bridge Lockdown Doors";
-	opacity = 0
-	},
-/obj/machinery/door/airlock/pyro/command{
-	dir = 4;
-	name = "Head of Personnel";
-	req_access = null;
-	req_access_txt = null
-	},
-/obj/disposalpipe/segment/mail{
-	dir = 4
-	},
-/obj/cable{
-	icon_state = "4-8"
-	},
-/obj/access_spawn/head_of_personnel,
-/obj/firedoor_spawn,
-/turf/simulated/floor,
-/area/station/crew_quarters/heads)
 "ylv" = (
 /obj/cable/brown{
 	icon_state = "1-2"
@@ -88977,14 +88978,14 @@ aNE
 aal
 adC
 aaf
-aRP
-aXR
-aXR
-aXR
-aXR
-aXR
-aXR
-aZK
+nor
+hsn
+hsn
+hsn
+hsn
+hsn
+hsn
+twn
 azt
 adC
 aal
@@ -89277,18 +89278,18 @@ aLh
 aMv
 aNE
 aag
-aRP
-baN
-aRQ
+nor
+jCR
+xDW
 aSL
 aTS
 aVi
 aVi
 aXS
 aYX
-aZL
-baN
-aZK
+mVj
+jCR
+twn
 aaG
 adC
 adC
@@ -89579,7 +89580,7 @@ aLh
 aMv
 aLh
 aap
-aPJ
+gXl
 aQK
 aRR
 aSM
@@ -89590,7 +89591,7 @@ aXT
 aSM
 aZM
 baO
-bbO
+nUm
 aaG
 adC
 adC
@@ -89880,8 +89881,8 @@ aKc
 aLh
 aMv
 aLh
-aOJ
-aPK
+iEp
+neq
 aQL
 aQN
 aQN
@@ -90195,10 +90196,10 @@ aYY
 aZN
 baQ
 bbP
-bcQ
-bdP
-wUX
-bfG
+lav
+xjT
+mlg
+czL
 bbP
 aal
 adC
@@ -90239,13 +90240,13 @@ adC
 adC
 adC
 bHW
-bOb
-bOb
-bOb
+uAX
+uAX
+uAX
 bSm
-bTL
-bTL
-bTL
+fXU
+fXU
+fXU
 bHW
 bYP
 caf
@@ -90503,8 +90504,8 @@ beK
 boq
 bbP
 bbP
-biu
-bjy
+pvy
+fqo
 adC
 adC
 adC
@@ -90803,7 +90804,7 @@ bcS
 bdR
 beL
 bfI
-bgH
+aYR
 bhp
 biv
 wQU
@@ -90846,7 +90847,7 @@ bMG
 bIO
 bPw
 bIO
-bSn
+iOx
 bTN
 bVd
 bWo
@@ -91088,7 +91089,7 @@ aKd
 uiz
 mmZ
 aNI
-jPn
+yeS
 aPO
 aZO
 aZO
@@ -91100,7 +91101,7 @@ aXX
 aZa
 aZO
 aZO
-tev
+tQO
 bcT
 bfg
 beM
@@ -91711,8 +91712,8 @@ beO
 bfL
 bbP
 bbP
-biy
-bjC
+mcS
+qjI
 adC
 adC
 adC
@@ -92007,10 +92008,10 @@ aQR
 aQR
 tdf
 bbP
-bcW
-bdV
-pzB
-bfM
+mdO
+lHn
+lvf
+jVA
 bbP
 aah
 adC
@@ -92901,7 +92902,7 @@ awL
 aMD
 aMD
 aOO
-nzO
+dhl
 aQT
 aRU
 aSU
@@ -92911,7 +92912,7 @@ aWG
 aXZ
 aZd
 aZQ
-ylb
+gwJ
 aZQ
 bcX
 bdW
@@ -93282,7 +93283,7 @@ cmX
 cod
 cph
 cqk
-qzF
+wtG
 csl
 csm
 csm
@@ -93556,7 +93557,7 @@ adC
 adC
 adC
 aah
-bHY
+jaK
 bIO
 bIO
 bLi
@@ -93584,7 +93585,7 @@ cmY
 cod
 cph
 cqk
-qzF
+wtG
 csm
 csY
 ctP
@@ -93886,7 +93887,7 @@ cmZ
 coe
 cph
 cqk
-qzF
+wtG
 csn
 csZ
 cCe
@@ -94415,10 +94416,10 @@ nFE
 aME
 aME
 aOM
-aUf
-tkl
-yct
-aYd
+wtR
+lFe
+lrD
+eXt
 aKd
 aZQ
 aZQ
@@ -94704,7 +94705,7 @@ azJ
 aBr
 aCD
 aDT
-aFe
+gUC
 aGA
 aHE
 aJc
@@ -94795,8 +94796,8 @@ cpk
 cro
 crj
 ctb
-iCq
-gSi
+nln
+jkr
 crj
 crj
 aap
@@ -94991,7 +94992,7 @@ ahm
 aho
 ajo
 akm
-alq
+nCO
 qKl
 hjt
 xNA
@@ -95695,8 +95696,8 @@ cje
 sVM
 clV
 cnc
-cok
-cpn
+lNf
+pSW
 cnd
 cnd
 cnd
@@ -96306,7 +96307,7 @@ cpt
 cpt
 cte
 ctW
-tLp
+lyw
 aaG
 adC
 aah
@@ -96608,7 +96609,7 @@ crs
 cpu
 ctf
 crw
-wVw
+eOA
 aaG
 adC
 aah
@@ -96910,7 +96911,7 @@ cwt
 cpu
 ctg
 ctX
-wVw
+eOA
 aaG
 adC
 aah
@@ -97212,7 +97213,7 @@ cwv
 cpu
 ctg
 ctY
-wVw
+eOA
 aaG
 adC
 aah
@@ -97416,7 +97417,7 @@ axY
 ata
 aun
 avv
-awQ
+dEM
 ays
 azO
 aBu
@@ -97514,7 +97515,7 @@ cpu
 cpu
 ctg
 ctZ
-tKW
+fsg
 aaG
 adC
 aah
@@ -97718,7 +97719,7 @@ arK
 aqo
 auo
 avw
-awR
+xtO
 arK
 azP
 aqo
@@ -98101,7 +98102,7 @@ bWC
 bWC
 bZg
 cax
-cbJ
+qNA
 bVj
 bVj
 bVv
@@ -98117,7 +98118,7 @@ cqv
 crv
 cne
 cOQ
-cub
+oLK
 cne
 cvt
 cvt
@@ -98318,7 +98319,7 @@ rjl
 anL
 aoW
 aqp
-arL
+waG
 aho
 aup
 aho
@@ -98719,7 +98720,7 @@ csV
 cpu
 cqx
 crx
-xvu
+tyv
 ctk
 jtV
 pYM
@@ -98928,7 +98929,7 @@ aur
 avz
 aho
 aho
-azT
+nzy
 aho
 aCI
 aEd
@@ -99320,9 +99321,9 @@ ckG
 ckG
 cne
 cne
-nOl
-cqz
-nOl
+rzI
+isG
+rzI
 cne
 krS
 cjk
@@ -99901,8 +99902,8 @@ adC
 aah
 bIP
 bIP
-bLy
-cWc
+nmh
+kbo
 bIP
 bPK
 bRh
@@ -100775,7 +100776,7 @@ aRh
 aQF
 bkt
 bla
-blF
+npe
 bms
 bmY
 bnJ
@@ -101109,9 +101110,9 @@ bCZ
 bFW
 bIc
 bKm
-bLC
-vIQ
-bLC
+eyt
+xJs
+eyt
 bPO
 bRk
 vTy
@@ -101628,7 +101629,7 @@ aca
 acY
 acB
 aet
-aeY
+ftG
 afT
 afU
 ajK
@@ -102349,7 +102350,7 @@ cuh
 cvb
 cvB
 cvY
-cwH
+gib
 cxe
 cxn
 cxv
@@ -102589,9 +102590,9 @@ blf
 kBW
 cYu
 bmv
-bnc
-avs
-boD
+tOh
+waC
+qMp
 bmv
 cYu
 blf
@@ -103178,7 +103179,7 @@ bUk
 aWV
 aYj
 aZo
-baj
+vNO
 bbl
 bcq
 aZo
@@ -103255,7 +103256,7 @@ cuj
 cve
 cvE
 cwb
-cwK
+fZr
 cxf
 cxp
 cxp
@@ -105666,8 +105667,8 @@ cpK
 cqN
 crR
 csG
-csQ
-cwS
+ntW
+xxE
 ctD
 cuo
 cwj
@@ -105936,7 +105937,7 @@ bDe
 bEb
 bEL
 bFu
-bGr
+dec
 bFu
 bCh
 bCh
@@ -106220,9 +106221,9 @@ aVV
 bpJ
 bqi
 bqK
-bro
-brW
-ivm
+tQt
+rUf
+nKo
 brr
 buf
 buT
@@ -106522,9 +106523,9 @@ btu
 bpI
 bqj
 bqM
-brp
+gfK
 wbs
-fIP
+sAl
 bto
 bug
 buU
@@ -106824,9 +106825,9 @@ aVV
 bpJ
 bqi
 bqK
-brq
-brY
-rOI
+pbg
+erB
+lYM
 brr
 buf
 buT
@@ -107144,7 +107145,7 @@ bDi
 bEb
 bEe
 bFy
-eln
+kjP
 bHg
 bCh
 bCh
@@ -107176,8 +107177,8 @@ cpP
 cqS
 coS
 csL
-mbr
-cut
+rxE
+rar
 ctD
 vmP
 cus
@@ -109548,7 +109549,7 @@ buZ
 bva
 bwM
 bwW
-tPv
+nXE
 bzI
 fhr
 byA
@@ -109850,7 +109851,7 @@ buZ
 bvS
 bwL
 bwW
-mLs
+rrB
 bAH
 bCo
 bCo
@@ -110451,7 +110452,7 @@ bqk
 bqk
 bqk
 bqk
-pQX
+loq
 btv
 bxJ
 uKI
@@ -114928,7 +114929,7 @@ uCN
 alg
 apF
 apw
-pQQ
+gay
 apC
 vGu
 asl
@@ -115835,7 +115836,7 @@ aik
 alg
 amg
 alg
-atD
+diW
 auR
 awd
 atQ
@@ -117081,7 +117082,7 @@ bhx
 bhx
 bhx
 bgc
-bkQ
+wGj
 bhj
 bmf
 bhx
@@ -117111,7 +117112,7 @@ bAS
 bAS
 xFL
 bAS
-bNm
+ryH
 bIC
 bJA
 bKJ
@@ -118289,7 +118290,7 @@ bhe
 big
 bjk
 bfs
-boc
+rkW
 bdK
 blr
 aYQ
@@ -118605,7 +118606,7 @@ blE
 aap
 brH
 brH
-bsX
+wpE
 brH
 brH
 brH
@@ -118846,7 +118847,7 @@ ajc
 ajc
 oPG
 lTS
-qdV
+mab
 ajc
 aie
 amj
@@ -120433,14 +120434,14 @@ bAW
 bFl
 jUC
 bAW
-bHI
+mPf
 bzY
 bzY
 bzY
 bzY
 bzY
 bzY
-bQy
+uMg
 bzY
 bzY
 bzY
@@ -120741,7 +120742,7 @@ bJH
 bKT
 bMt
 bNS
-bPj
+hxa
 bQz
 bRZ
 bTw
@@ -121032,7 +121033,7 @@ bzZ
 bAX
 eSu
 bCL
-bDQ
+rxu
 bCL
 bFn
 bGf
@@ -121043,7 +121044,7 @@ bJI
 bKU
 bMu
 bNT
-bPk
+eOY
 bNT
 bSa
 bTx
@@ -121333,7 +121334,7 @@ aak
 bAa
 bzY
 bzY
-bCM
+pos
 jQr
 bEH
 bFo
@@ -121347,8 +121348,8 @@ cjD
 bNU
 bPl
 cNY
-bSb
-xbi
+jPj
+wNI
 hql
 bWg
 bXi
@@ -121636,7 +121637,7 @@ bAb
 bAZ
 bBX
 bCN
-bDS
+tnB
 bAZ
 bFp
 bFo
@@ -122568,7 +122569,7 @@ ccz
 ccz
 cgr
 ccy
-ciP
+wIk
 uHv
 ckd
 ccy
@@ -123149,9 +123150,9 @@ adC
 adC
 aag
 bFr
-bGk
+voQ
 bFr
-bHQ
+rah
 bFr
 bJO
 bKY
@@ -125287,7 +125288,7 @@ bUZ
 siB
 eOS
 bUZ
-ckk
+gRM
 bUZ
 adC
 adC
