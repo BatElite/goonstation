@@ -614,6 +614,8 @@ TRAYS
 				O.setMaterial(copyMaterial(src.material))
 			O.throw_at(get_offset_target_turf(shardturf, rand(-4,4), rand(-4,4)), 7, 1)
 
+		src.shit_goes_everywhere()
+
 		qdel(src)
 
 	throw_impact(atom/A, datum/thrown_thing/thr)
