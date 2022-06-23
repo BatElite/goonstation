@@ -5,6 +5,7 @@
 	icon_state = "comm"
 	machine_registry_idx = MACHINES_ANNOUNCEMENTS
 	var/last_announcement = 0
+	circuit_type = /obj/item/circuitboard/announcement
 	var/announcement_delay = 1200
 	var/obj/item/card/id/ID = null
 	var/unlocked = 0
