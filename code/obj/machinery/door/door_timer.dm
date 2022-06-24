@@ -217,7 +217,7 @@
 		if (FF.id == src.id)
 			if (FF.open != 1)
 				FF.openup()
-
+	/*
 	for_by_tcl(B, /obj/storage/secure/closet/brig_automatic)
 		if (!IN_RANGE(B, src, 30))
 			continue
@@ -226,7 +226,7 @@
 				B.locked = 0
 				B.UpdateIcon()
 				B.visible_message("<span class='notice'>[B.name] unlocks automatically.</span>")
-
+	*/
 	tgui_process.update_uis(src)
 	src.UpdateIcon()
 	return
