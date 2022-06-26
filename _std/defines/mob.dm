@@ -64,3 +64,7 @@
 //skipped_mobs_list flags
 #define SKIPPED_MOBS_LIST (1 << 0)
 #define SKIPPED_AI_MOBS_LIST (1 << 1)
+
+//message type flags for show_message
+#define MESSAGE_VISIBLE 1
+#define MESSAGE_AUDIBLE 2
