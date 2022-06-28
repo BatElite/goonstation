@@ -36,7 +36,7 @@
 		else
 			src.visible_message("<span class='alert'>[victim] is impaled on the spikes, instantly killing [him_or_her(victim)]!")
 		victim.unequip_all()
-		qdel(victim)
+		victim.remove()
 		JOB_XP(user, "Chef", 2)
 		return TRUE
 	else

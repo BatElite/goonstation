@@ -764,6 +764,16 @@
 			namecounts[name] = 1
 		creatures[name] = L
 
+	for_by_tcl(PaP, /obj/machinery/portapuke)
+		var/name = PaP.name
+		if (name in names)
+			namecounts[name]++
+			name = "[name] ([namecounts[name]])"
+		else
+			names.Add(name)
+			namecounts[name] = 1
+		creatures[name] = PaP
+
 	for (var/obj/machinery/bot/B in machine_registry[MACHINES_BOTS])
 		LAGCHECK(LAG_LOW)
 		if (isghostrestrictedz(B.z)) continue

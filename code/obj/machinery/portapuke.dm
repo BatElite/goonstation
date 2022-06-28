@@ -20,10 +20,12 @@
 		for(var/i in 1 to occupant_buckets.len)
 			src.occupant_buckets[i] = list()
 		src.UnsubscribeProcess() // will get subscribed when the first victim enters
+		START_TRACKING //let's track these so observers can follow them
 
 
 	disposing()
 		src.occupant_buckets = null
+		STOP_TRACKING
 		. = ..()
 
 
