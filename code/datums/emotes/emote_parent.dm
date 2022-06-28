@@ -222,5 +222,10 @@ var/static/list/human_emotes = list(
 	"shit" = /datum/emote/poo,
 	"crap" = /datum/emote/poo,
 	"miranda" = /datum/emote/miranda,	//end of emote_complex.dm
-	"monologue" = /datum/emote/monologue
+	"monologue" = /datum/emote/monologue,
+	"suicide" = /datum/emote/suicide,
+	"me" = /datum/emote/me,
+	"customv" = /datum/emote/me/customv,
+	"customh" = /datum/emote/me/customv/customh, //nice inheritance, me
+	"custom" = /datum/emote/custom
 	)

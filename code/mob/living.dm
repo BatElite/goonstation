@@ -623,6 +623,8 @@
 
 	if (!ON_COOLDOWN(src, "point", 1 SECOND))
 		make_point(get_turf(target), pixel_x=target.pixel_x, pixel_y=target.pixel_y, color=src.bioHolder.mobAppearance.customization_first_color, pointer=src)
+	else
+		make_point(get_turf(target), pixel_x=target.pixel_x, pixel_y=target.pixel_y, color=src.bioHolder.mobAppearance.customization_first_color) //point without the animation
 
 
 /mob/living/proc/set_burning(var/new_value)

@@ -68,60 +68,7 @@
 			// These still need datumising/looking at but to my count I datumised 129 emotes already (not counting doubles or the bullshit that the middle finger ones are up to)
 			// you can sort these out probably
 			/*
-			if ("custom")
-				if (src.client)
-					if (IS_TWITCH_CONTROLLED(src)) return
-					var/input = sanitize(html_encode(input("Choose an emote to display.")))
-					var/input2 = input("Is this a visible or audible emote?") in list("Visible","Audible")
-					if (input2 == "Visible") m_type = 1
-					else if (input2 == "Audible") m_type = 2
-					else
-						alert("Unable to use this emote, must be either audible or visible.")
-						return
-					phrase_log.log_phrase("emote", input)
-					message = "<B>[src]</B> [input]"
-					maptext_out = "<I>[regex({"(&#34;.*?&#34;)"}, "g").Replace(input, "</i>$1<i>")]</I>"
-					custom = copytext(input, 1, 10)
-
-			if ("customv")
-				if (IS_TWITCH_CONTROLLED(src)) return
-				if (!param)
-					param = input("Choose an emote to display.")
-					if(!param) return
-
-				param = sanitize(html_encode(param))
-				phrase_log.log_phrase("emote", param)
-				message = "<b>[src]</b> [param]"
-				maptext_out = "<I>[regex({"(&#34;.*?&#34;)"}, "g").Replace(param, "</i>$1<i>")]</I>"
-				m_type = 1
-				custom = copytext(param, 1, 10)
-
-			if ("customh")
-				if (IS_TWITCH_CONTROLLED(src)) return
-				if (!param)
-					param = input("Choose an emote to display.")
-					if(!param) return
-				param = sanitize(html_encode(param))
-				phrase_log.log_phrase("emote", param)
-				message = "<b>[src]</b> [param]"
-				maptext_out = "<I>[regex({"(&#34;.*?&#34;)"}, "g").Replace(param, "</i>$1<i>")]</I>"
-				m_type = 2
-				custom = copytext(param, 1, 10)
-
-			if ("me")
-				if (IS_TWITCH_CONTROLLED(src)) return
-				if (!param)
-					return
-				param = sanitize(html_encode(param))
-				phrase_log.log_phrase("emote", param)
-				message = "<b>[src]</b> [param]"
-				maptext_out = "<I>[regex({"(&#34;.*?&#34;)"}, "g").Replace(param, "</i>$1<i>")]</I>"
-				m_type = 1 // default to visible
-				custom = copytext(param, 1, 10)
-
-
-
-			if ("help")
+			if ("help") //This one has a datum but we need a better solution than these lists
 				src.show_text("To use emotes, simply enter 'me (emote)' in the input bar. Certain emotes can be targeted at other characters - to do this, enter 'me (emote) (name of character)' without the brackets.")
 				src.show_text("For a list of all emotes, use 'me list'. For a list of basic emotes, use 'me listbasic'. For a list of emotes that can be targeted, use 'me listtarget'.")
 
@@ -135,9 +82,6 @@
 
 			if ("listtarget")
 				src.show_text("salute, bow, hug, wave, glare, stare, look, nod, flipoff, doubleflip, shakefist, handshake, daps, slap, boggle, highfive, fingerguns")
-
-			if ("suicide") //just make this one call the verb please
-				src.show_text("Suicide is a command, not an emote.  Please type 'suicide' in the input bar at the bottom of the game window to kill yourself.", "red")
 			*/
 
 
