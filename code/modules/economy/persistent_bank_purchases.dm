@@ -57,6 +57,7 @@ var/global/list/persistent_bank_purchaseables =	list(\
 	new /datum/bank_purchaseable/frog,\
 
 	new /datum/bank_purchaseable/alohamaton,\
+	new /datum/bank_purchaseable/screen_head,\
 	new /datum/bank_purchaseable/ai_hat)
 
 
@@ -800,6 +801,28 @@ var/global/list/persistent_bank_purchaseables =	list(\
 				var/mob/living/silicon/robot/R = M
 				R.alohamaton_skin = 1
 				R.update_appearance()
+				return 1
+			return 0
+
+	screen_head
+		name = "Cyborg Screen Head"
+		cost = 0 //3000
+		icon = 'icons/mob/robots.dmi'
+		icon_state = "head-screen"
+		icon_dir = SOUTH
+
+		Create(var/mob/living/M) //I don't know if this works the game won't let you be roundstart borg as the only person on the server
+			if (isrobot(M))
+				var/mob/living/silicon/robot/R = M
+				var/obj/item/parts/robot_parts/head/newhead = new /obj/item/parts/robot_parts/head/screen()
+				var/obj/item/parts/robot_parts/head/oldhead = R.part_head
+				oldhead.brain.set_loc(newhead) //swapperoony
+				newhead.brain = oldhead.brain
+				oldhead.brain = null
+				newhead.set_loc(R)
+				R.part_head = newhead
+				qdel(oldhead)
+				R.update_bodypart("head")
 				return 1
 			return 0
 
