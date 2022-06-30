@@ -32,7 +32,7 @@
 #define isAI(x) (istype(x, /mob/living/silicon/ai) || istype (x, /mob/living/intangible/aieye))
 #define isAIeye(x) istype (x, /mob/living/intangible/aieye)
 #define isshell(x) istype(x, /mob/living/silicon/hivebot/eyebot)//istype(x, /mob/living/silicon/shell)
-#define isdrone(x) istype(x, /mob/living/silicon/hivebot/drone)
+#define isdrone(x) istype(x, /mob/living/silicon/hivebot/drone) //These are the on-rails drones for mobile AIs
 #define isghostdrone(x) istype(x, /mob/living/silicon/ghostdrone)
 
 #define iscube(x) (istype(x, /mob/living/carbon/cube))
