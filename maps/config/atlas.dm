@@ -2,7 +2,7 @@
 INCLUDE_MAP("../atlas.dmm")
 //INCLUDE_MAP("../atlas_xmas_2020.dmm")
 #else
-INCLUDE_MAP("../atlas.dmm")
+INCLUDE_MAP("../atlas_mobileaitest.dmm")
 #endif
 INCLUDE_MAP("../z2.dmm")
 INCLUDE_MAP("../z3.dmm")

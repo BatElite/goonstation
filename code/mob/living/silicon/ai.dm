@@ -89,6 +89,11 @@ var/list/ai_emotions = list("Happy" = "ai_happy",\
 	var/faceColor = "#66B2F2"
 	var/list/custom_emotions = null
 
+	//I'm sorry it has to be this way but there's stuff that is relevant to static AIs that mobile AIs shouldn't be dealing with
+	var/mobile = FALSE
+	//-AI core skins (though those would be nice for mobile AIs too)
+	//-AI legs
+
 	/// The icon_state for the outside non-screen bit of the core. icon_state is set to this in update_appearance() (which is called by New)
 	var/coreSkin = "default"
 /* To add a new skin:
@@ -227,8 +232,9 @@ var/list/ai_emotions = list("Happy" = "ai_happy",\
 	src.internal_pda = new /obj/item/device/pda2/ai(src)
 
 	src.tracker = new /datum/ai_camera_tracker(src)
-	coreSkin = skinToApply
-	src.UpdateOverlays(get_image("ai_blank"), "backscreen")
+	if (!mobile)
+		coreSkin = skinToApply
+		src.UpdateOverlays(get_image("ai_blank"), "backscreen")
 	update_appearance()
 
 	src.eyecam = new /mob/living/intangible/aieye(src)
@@ -1476,7 +1482,7 @@ var/list/ai_emotions = list("Happy" = "ai_happy",\
 
 	if (keys & changed & (KEY_FORWARD|KEY_BACKWARD|KEY_LEFT|KEY_RIGHT))
 		src.tracker.cease_track()
-		src.eye_view()
+		if (!mobile) src.eye_view()
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 // PROCS AND VERBS ///////////////////////////////////////////////////////////////////////////////////

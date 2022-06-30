@@ -19,6 +19,9 @@
 	var/mob/living/silicon/hivebot/drone/drone = null
 	var/setup_charge_maximum = 1200
 
+	//This might look like nonsense but static AIs do shit mobile AIs shouldn't
+	mobile = TRUE
+
 	New()
 		..()
 
@@ -33,7 +36,6 @@
 			src.underlays = list(U1)
 
 			src.set_face()
-		return
 
 	Login()
 		..()
@@ -42,11 +44,11 @@
 		return
 
 	Logout()
-
+		//why is this like this, what?
 		if(src.drone)
 			src.set_face("idle")
 		else
-			src.overlays.len = 0
+			UpdateOverlays(null, "face")
 
 		..()
 		return
@@ -146,8 +148,11 @@
 
 		src.check_power()
 
+	update_appearance() //this breaks shit like damage overlays but I want to not have to deal with all the static AI overlay shit atm
+		return
+
 	set_face(var/emotion)
-		src.overlays.len = 0
+		UpdateOverlays(null, "face")
 		if(src.stat || src.malf)
 			if(isdead(src))
 				src.icon_state = "ai-crash"
@@ -156,7 +161,7 @@
 		if(!emotion)
 			emotion = "neutral"
 
-		src.overlays += image(src.icon, "aiface-[emotion]")
+		UpdateOverlays(image(src.icon, "aiface-[emotion]"), "face")
 		return
 
 	proc

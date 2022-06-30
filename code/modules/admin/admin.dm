@@ -973,13 +973,27 @@ var/global/noir = 0
 						tgui_alert(usr,"Reviving is currently disabled.")
 			else
 				tgui_alert(usr,"You need to be at least a Primary Adminstrator to revive players.")
-
+		/*	Previous iteration of makeai, in case the mobile AI thing doesn't pan out
 		if ("makeai")
 			if (src.level >= LEVEL_SA)
 				var/mob/M = locate(href_list["target"])
 				if (!M) return
 				if (tgui_alert(usr,"Make [M] an AI?", "Make AI", list("Yes", "No")) == "Yes")
 					var/mob/newM = usr.client.cmd_admin_makeai(M)
+					href_list["target"] = "\ref[newM]"
+			else
+				tgui_alert(usr,"You need to be at least a Secondary Adminstrator to turn players into AI units.")
+		*/
+		if ("makeai")
+			if (src.level >= LEVEL_SA)
+				var/mob/M = locate(href_list["target"])
+				if (!M) return
+				var/AIflavour = tgui_alert(usr,"Make [M] an AI?", "Make AI", list("Regular AI", "Mobile AI", "Cancel"))
+				if (AIflavour == "Regular AI")
+					var/mob/newM = usr.client.cmd_admin_makeai(M)
+					href_list["target"] = "\ref[newM]"
+				else if (AIflavour == "Mobile AI")
+					var/mob/newM = usr.client.cmd_admin_mobileAIize(M)
 					href_list["target"] = "\ref[newM]"
 			else
 				tgui_alert(usr,"You need to be at least a Secondary Adminstrator to turn players into AI units.")

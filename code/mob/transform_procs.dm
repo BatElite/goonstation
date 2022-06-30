@@ -101,7 +101,7 @@
 	O.canmove = 0
 	O.name = src.name
 	O.real_name = src.real_name
-	O.anchored = 1
+	O.anchored = !mobile //mobile AIs shouldn't be anchored? right?
 	O.aiRestorePowerRoutine = 0
 	O.lastKnownIP = src.client.address
 
