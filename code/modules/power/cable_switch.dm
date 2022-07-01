@@ -33,7 +33,7 @@
 ///This is the placed switch
 /obj/machinery/power/breaker
 	name = "breaker" //Not exactly RL breakers but
-	desc = "uhhhhh"
+	desc = "A red light means closed circuit, a yellow one means open circuit."
 	icon_state = "cable_switch-live"
 	level = 1 //for hide()
 	var/live = TRUE //Defaulting to live wiring
