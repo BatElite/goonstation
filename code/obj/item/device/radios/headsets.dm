@@ -140,6 +140,10 @@
 	icon_override = "rh"
 	icon_tooltip = "Radio Show Host"
 
+	setupProperties()
+		..()
+		setProperty("disorient_resist_ear", 20)
+
 /obj/item/device/radio/headset/command/comm_officer
 	name = "Communications Officer's Headset"
 	secure_frequencies = list(
