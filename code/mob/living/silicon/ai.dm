@@ -1467,14 +1467,14 @@ var/list/ai_emotions = list("Happy" = "ai_happy",\
 /////////////////
 
 /mob/living/silicon/ai/process_move(keys)
-	if(has_feet)
+	if(has_feet || mobile)
 		return ..()
 	if (isdead(src) && keys)
 		src.ghostize()
 	return FALSE
 
 /mob/living/silicon/ai/keys_changed(keys, changed)
-	if(has_feet)
+	if(has_feet || mobile)
 		return ..()
 
 	if (changed & (KEY_EXAMINE|KEY_BOLT|KEY_OPEN|KEY_SHOCK))

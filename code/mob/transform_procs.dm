@@ -82,7 +82,7 @@
 		return
 	src.unequip_all()
 	src.transforming = 1
-	src.canmove = 0
+	src.canmove = mobile
 	src.icon = null
 	APPLY_ATOM_PROPERTY(src, PROP_MOB_INVISIBILITY, "transform", INVIS_ALWAYS)
 	for(var/t in src.organs)
@@ -98,7 +98,7 @@
 	else
 		O = new /mob/living/silicon/ai( src.loc )
 
-	O.canmove = 0
+	O.canmove = mobile
 	O.name = src.name
 	O.real_name = src.real_name
 	O.anchored = !mobile //mobile AIs shouldn't be anchored? right?
