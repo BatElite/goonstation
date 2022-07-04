@@ -28,7 +28,6 @@
 		src.cell = new /obj/item/cell(src)
 		src.cell.maxcharge = setup_charge_maximum
 		src.cell.charge = src.cell.maxcharge
-		//RegisterSignal(src, COMSIG_MOVABLE_BLOCK_MOVE, .proc/check_rail_dirs)
 		SPAWN(0.6 SECONDS)
 			var/obj/overlay/U1 = new
 			U1.icon = src.icon
@@ -191,17 +190,11 @@
 		var/obj/rail/onrail = locate(/obj/rail) in src.loc
 		if (!onrail) return FALSE
 		//If I understand input processing code well enough, move_dir should be a valid thing before process_move happens.
-		if (!move_dir) return FALSE
+		//if (!move_dir) return FALSE //This line is for ease of debugging (constant calls with no input)
 		move_dir = (move_dir & onrail.bitdir) //filter directions the rail doesn't allow out
 		if (move_dir in ordinal) //inner corners: both cardinal components are valid but we're about to head diagonally off the rails
 			move_dir &= ~(EAST|WEST) //bias towards N/S movement (no particular reason)
 		return ..() //then carry on
-
-	/*proc/check_rail_dirs(atom/movable/parent, atom/new_loc, direct)
-		if (has_feet) return FALSE
-		var/obj/rail/onrail = locate(/obj/rail) in src.loc
-		if (!onrail) return TRUE
-		if (!(onrail.bitdir & direct)) return TRUE*/
 
 
 //The AI's movement rails
@@ -226,7 +219,7 @@
 		if(dir in cardinal)
 			bitdir = dir | turn(dir, 180)
 		else
-			bitdir = dir// | turn(dir, 90) lad dir is already 2 cardinals this wasn't gonna work
+			bitdir = dir
 		return
 
 	hide(var/i) //rails are sunk into the floor now
@@ -320,9 +313,3 @@
 				src.now_pushing = null
 			return
 		return
-/* deprecated, see _macros.dm - drsingh
-/proc/isdrone(var/mob/M)
-	if (isdrone(M))
-		return 1
-	return 0
-*/
