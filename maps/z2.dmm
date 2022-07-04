@@ -3061,6 +3061,12 @@
 "aiM" = (
 /turf/unsimulated/wall/auto/adventure/meat,
 /area/meat_derelict/main)
+"aiO" = (
+/obj/grassplug,
+/turf/unsimulated/grasstodirt{
+	dir = 8
+	},
+/area/hospital/somewhere)
 "aiQ" = (
 /obj/rail/cap{
 	dir = 8
@@ -3218,6 +3224,25 @@
 "ajB" = (
 /turf/unsimulated/floor/caution/corner/misc,
 /area/hospital/samostrel)
+"ajC" = (
+/obj/map/light/lava,
+/obj/grille/catwalk{
+	dir = 9
+	},
+/turf/unsimulated/iomoon/floor{
+	dir = 8;
+	icon_state = "iocrust_edge";
+	name = "silicate cave floor";
+	temperature = 313.15
+	},
+/turf/unsimulated/floor{
+	carbon_dioxide = 20;
+	dir = 8;
+	icon_state = "catwalk_cross";
+	name = "hot catwalk support";
+	temperature = 372.15
+	},
+/area/iomoon/caves)
 "ajD" = (
 /obj/rail/cap,
 /turf/unsimulated/floor/lunar,
@@ -3538,6 +3563,14 @@
 	icon_state = "red4"
 	},
 /area/diner/cow)
+"aln" = (
+/obj/grassplug{
+	dir = 1
+	},
+/turf/unsimulated/grasstodirt{
+	dir = 8
+	},
+/area/hospital/somewhere)
 "alv" = (
 /obj/decal/cleanable/greenpuke,
 /turf/unsimulated/floor/white/grime,
@@ -6663,11 +6696,6 @@
 	},
 /turf/unsimulated/floor,
 /area/moon/museum)
-"auT" = (
-/turf/unsimulated/floor/purple/side{
-	dir = 5
-	},
-/area/iomoon/base)
 "auX" = (
 /obj/machinery/door/airlock/pyro/glass{
 	name = "Laundry"
@@ -16854,10 +16882,6 @@
 	dir = 4
 	},
 /area/upper_arctic/pod1)
-"bbD" = (
-/obj/item/clothing/under/gimmick/blackstronaut,
-/turf/unsimulated/floor,
-/area/meat_derelict/entry)
 "bbF" = (
 /obj/lattice{
 	dir = 4;
@@ -18505,18 +18529,6 @@
 /obj/decal/icefloor,
 /turf/unsimulated/floor/arctic/snow,
 /area/upper_arctic/exterior/surface)
-"bfA" = (
-/obj/decal/fakeobjects/firelock_broken{
-	density = 1;
-	desc = "Rust has rendered this airlock useless.";
-	dir = 4;
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "generic_closed";
-	name = "rusted airlock";
-	opacity = 1
-	},
-/turf/unsimulated/floor/grime,
-/area/marsoutpost)
 "bfB" = (
 /obj/map/light/cyan,
 /turf/unsimulated/wall/setpieces/bluewall_glowing,
@@ -27080,6 +27092,14 @@
 	icon_state = "iocrust_corner"
 	},
 /area/iomoon)
+"bER" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
+	dir = 4
+	},
+/turf/unsimulated/floor/wood/two,
+/area/centcom/offices/katzen)
 "bES" = (
 /obj/decal/fakeobjects/firelock_broken{
 	dir = 8;
@@ -27317,6 +27337,12 @@
 /obj/critter/magiczombie,
 /turf/unsimulated/dirt,
 /area/catacombs)
+"bFK" = (
+/obj/decal/fakeobjects/pipe{
+	dir = 6
+	},
+/turf/unsimulated/floor,
+/area/iomoon/base/underground)
 "bFN" = (
 /turf/unsimulated/wall/auto/adventure/iomoon/interior,
 /area/iomoon/robot_ruins/boss_chamber)
@@ -27785,14 +27811,6 @@
 	dir = 10
 	},
 /area/crypt/graveyard)
-"bHg" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
-	},
-/turf/unsimulated/floor/wood/two,
-/area/centcom/offices/aloe)
 "bHh" = (
 /obj/shrub{
 	dir = 4
@@ -46664,20 +46682,6 @@
 	},
 /turf/unsimulated/floor/wizard/carpet,
 /area/owlery/office)
-"cJu" = (
-/obj/decal/fakeobjects/firelock_broken{
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "fdoor0"
-	},
-/obj/overlay{
-	desc = "You could probably squeeze through.";
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "generic_open";
-	layer = 6;
-	name = "broken door"
-	},
-/turf/unsimulated/floor,
-/area/crunch)
 "cJv" = (
 /turf/unsimulated/wall/setpieces/fakewindow{
 	dir = 6
@@ -54228,6 +54232,22 @@
 	},
 /turf/unsimulated/grass,
 /area/owlery/Owlmait2)
+"cZM" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
+	dir = 8
+	},
+/turf/unsimulated/floor/wood/two{
+	desc = " It is made of wood.";
+	explosion_protection = 1;
+	explosion_resistance = 1;
+	name = "wood floor";
+	opaque_atom_count = 1
+	},
+/area/centcom/offices{
+	icon_state = "blue"
+	})
 "dab" = (
 /obj/lattice{
 	dir = 6;
@@ -57404,12 +57424,6 @@
 /obj/submachine/laundry_machine,
 /turf/unsimulated/floor/black,
 /area/syndicate_station/battlecruiser)
-"diM" = (
-/obj/storage/closet,
-/turf/unsimulated/floor{
-	icon_state = "floor"
-	},
-/area/iomoon/base)
 "diS" = (
 /turf/unsimulated/floor/stairs/dark/wide{
 	dir = 5
@@ -58451,22 +58465,6 @@
 	opacity = 0
 	},
 /area/centcom)
-"dng" = (
-/obj/grille/catwalk{
-	dir = 5
-	},
-/turf/unsimulated/iomoon/floor{
-	dir = 8;
-	icon_state = "iocrust_edge"
-	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 20;
-	dir = 8;
-	icon_state = "catwalk_cross";
-	name = "hot catwalk support";
-	temperature = 372.15
-	},
-/area/iomoon)
 "dns" = (
 /turf/unsimulated/wall{
 	dir = 4;
@@ -58997,20 +58995,6 @@
 	icon_state = "fpurple2"
 	},
 /area/centcom/lounge)
-"dto" = (
-/obj/table/auto,
-/obj/decal/fakeobjects{
-	anchored = 1;
-	desc = "An old computer that is obviously very broken.  It might actually not even be plugged in.  BROKEN.";
-	icon = 'icons/obj/computer.dmi';
-	icon_state = "old0";
-	name = "broken computer"
-	},
-/obj/cable,
-/turf/unsimulated/floor{
-	icon_state = "floor"
-	},
-/area/iomoon/base)
 "dtv" = (
 /obj/indestructible/shuttle_corner{
 	dir = 10;
@@ -64171,16 +64155,6 @@
 /obj/table/reinforced/bar/auto,
 /turf/unsimulated/floor/black,
 /area/centcom/lounge)
-"dIO" = (
-/obj/decal/fakeobjects{
-	anchored = 1;
-	desc = "This appears to be a control panel for that blast door.  It doesn't seem to work.  Maybe there is an override or something?";
-	icon = 'icons/obj/computer.dmi';
-	icon_state = "wallterm0";
-	name = "broken computer"
-	},
-/turf/unsimulated/floor,
-/area/iomoon/base/underground)
 "dIP" = (
 /obj/machinery/door/unpowered/wood,
 /turf/unsimulated/floor/wood,
@@ -64982,6 +64956,12 @@
 /obj/machinery/door/unpowered/wood,
 /turf/unsimulated/floor/wood/two,
 /area/centcom/lobby)
+"dKN" = (
+/obj/storage/closet,
+/turf/unsimulated/floor{
+	icon_state = "floor"
+	},
+/area/iomoon/base)
 "dKR" = (
 /obj/stool/chair/comfy/purple{
 	dir = 4
@@ -66226,9 +66206,6 @@
 	},
 /turf/unsimulated/floor/darkblue,
 /area/centcom/lobby)
-"dNJ" = (
-/turf/unsimulated/floor/grime,
-/area/iomoon/base)
 "dNL" = (
 /obj/cable,
 /obj/cable{
@@ -67338,6 +67315,13 @@
 /area/centcom/offices{
 	icon_state = "blue"
 	})
+"dQV" = (
+/obj/machinery/door/unpowered/wood/stall{
+	lock_dir = 8;
+	dir = 4
+	},
+/turf/unsimulated/floor/specialroom/freezer,
+/area/centcom/lobby)
 "dRc" = (
 /turf/unsimulated/floor/orangeblack/corner{
 	dir = 8
@@ -67405,16 +67389,6 @@
 	icon_state = "fpurple2"
 	},
 /area/centcom/lounge)
-"dRF" = (
-/obj/storage/closet{
-	desc = "This closet once held some manner of thermal protection gear.";
-	icon_closed = "syndicate";
-	icon_opened = "syndicate-open";
-	icon_state = "syndicate";
-	name = "Thermal Hazard Equipment"
-	},
-/turf/unsimulated/floor,
-/area/iomoon/base/underground)
 "dRH" = (
 /obj/table/wood/round/auto,
 /obj/machinery/light/lamp/black,
@@ -68308,22 +68282,6 @@
 /obj/item/clothing/glasses/regular,
 /turf/unsimulated/floor/carpet/grime,
 /area/crypt/sigma/rd)
-"dUU" = (
-/obj/grille/catwalk{
-	dir = 4
-	},
-/turf/unsimulated/iomoon/floor{
-	dir = 8;
-	icon_state = "iocrust_corner"
-	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 16;
-	dir = 4;
-	icon_state = "catwalk_narrow";
-	name = "heated catwalk support";
-	temperature = 372.15
-	},
-/area/iomoon)
 "dWx" = (
 /obj/decal/fakeobjects/apc_broken,
 /turf/unsimulated/wall/auto/lead/gray,
@@ -68343,14 +68301,6 @@
 /obj/machinery/light/lamp/black,
 /turf/unsimulated/floor/wood/seven,
 /area/centcom/offices/sovexe)
-"dYa" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
-	},
-/turf/unsimulated/floor/black,
-/area/centcom/offices/aibm)
 "dYf" = (
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor/floor3{
 	desc = "It's over Enakai";
@@ -68367,16 +68317,6 @@
 	icon_state = "floor"
 	},
 /area/centcom/lobby)
-"dZC" = (
-/obj/decal/fakeobjects/lightbulb_broken{
-	dir = 4
-	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 16;
-	name = "warm plating";
-	temperature = 313.15
-	},
-/area/iomoon/base)
 "ebC" = (
 /obj/landmark/viscontents_spawn{
 	targetZ = 4
@@ -68455,12 +68395,6 @@
 	},
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/efrem)
-"ejY" = (
-/obj/decal/fakeobjects/pipe{
-	dir = 6
-	},
-/turf/unsimulated/floor,
-/area/iomoon/base/underground)
 "enf" = (
 /turf/unsimulated/wall/auto/lead/white,
 /area/moon/museum/west)
@@ -68486,14 +68420,6 @@
 	},
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/studenterhue)
-"epr" = (
-/obj/decal/fakeobjects/lightbulb_broken,
-/turf/unsimulated/floor{
-	carbon_dioxide = 16;
-	name = "warm plating";
-	temperature = 313.15
-	},
-/area/iomoon/base)
 "epQ" = (
 /obj/stool/chair/comfy/shuttle/red{
 	dir = 4
@@ -68638,6 +68564,14 @@
 "eyM" = (
 /turf/unsimulated/wall/auto/lead/gray,
 /area/crypt/sigma/morgue)
+"ezx" = (
+/obj/storage/crate,
+/obj/item/motherboard,
+/obj/item/peripheral/drive/tape_reader,
+/turf/unsimulated/floor{
+	icon_state = "floor"
+	},
+/area/iomoon/base)
 "ezH" = (
 /obj/table/glass/auto,
 /obj/item/reagent_containers/food/snacks/mushroom/amanita{
@@ -68665,6 +68599,11 @@
 	icon_state = "floor"
 	},
 /area/centcom/offices/pali)
+"eCm" = (
+/turf/unsimulated/floor/purple/side{
+	dir = 4
+	},
+/area/iomoon/base)
 "eFa" = (
 /turf/unsimulated/wall/auto/lead/blue,
 /area/crater/biodome/south)
@@ -68672,23 +68611,50 @@
 /obj/machinery/broadside_gun/artillery_cannon/syndicate,
 /turf/space,
 /area/space)
-"eFt" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 4;
-	dir = 8
+"eGu" = (
+/obj/grille/catwalk{
+	dir = 9
+	},
+/turf/unsimulated/iomoon/floor{
+	dir = 9;
+	icon_state = "iocrust_edge"
 	},
 /turf/unsimulated/floor{
-	icon_state = "floor"
+	carbon_dioxide = 20;
+	dir = 8;
+	icon_state = "catwalk_cross";
+	name = "hot catwalk support";
+	temperature = 372.15
 	},
-/area/centcom/offices/pali)
-"eGE" = (
-/obj/rack,
-/obj/item/weldingtool,
-/turf/unsimulated/floor{
-	icon_state = "floor"
+/area/iomoon)
+"eGO" = (
+/obj/decal/fakeobjects/pipe,
+/obj/decal/fakeobjects{
+	anchored = 1;
+	desc = "Like conventional cables, but more burly.";
+	dir = 4;
+	icon = 'icons/obj/power_cond.dmi';
+	icon_state = "conduit";
+	layer = 2.5;
+	name = "power conduit"
 	},
+/turf/unsimulated/floor,
 /area/iomoon/base/underground)
+"eHy" = (
+/obj/grille/catwalk,
+/obj/map/light/lava,
+/turf/unsimulated/floor/lava{
+	deadly = 0;
+	temperature = 372.15
+	},
+/turf/unsimulated/floor{
+	carbon_dioxide = 20;
+	dir = 4;
+	icon_state = "catwalk_cross";
+	name = "hot catwalk support";
+	temperature = 372.15
+	},
+/area/iomoon)
 "eHC" = (
 /obj/machinery/light{
 	dir = 4
@@ -68711,26 +68677,14 @@
 /area/centcom/offices{
 	icon_state = "blue"
 	})
-"eLQ" = (
-/obj/machinery/door/poddoor/blast{
-	desc = "Looks pretty tough. I wouldn't take this door on in a fight. Wonder if there's a way to open this.";
-	dir = 1;
-	id = "iomoon_genroom"
+"eLm" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
+	dir = 4
 	},
-/obj/decal/cleanable/blood/splatter{
-	icon_state = "floor5"
-	},
-/obj/decal/fakeobjects{
-	anchored = 1;
-	desc = "Like conventional cables, but more burly.";
-	dir = 4;
-	icon = 'icons/obj/power_cond.dmi';
-	icon_state = "conduit";
-	layer = 2.5;
-	name = "power conduit"
-	},
-/turf/unsimulated/floor,
-/area/iomoon/base/underground)
+/turf/unsimulated/floor/black,
+/area/centcom/offices/flourish)
 "eOA" = (
 /obj/cabinet/ammo{
 	pixel_y = 20
@@ -68761,6 +68715,13 @@
 	icon_state = "floor3"
 	},
 /area/hospital/samostrel)
+"eQD" = (
+/turf/unsimulated/wall{
+	icon = 'icons/turf/shuttle.dmi';
+	icon_state = "door1";
+	name = "broken door"
+	},
+/area/meat_derelict/soviet)
 "eQW" = (
 /obj/table/auto,
 /obj/item/shipcomponent/mainweapon/gun,
@@ -68768,16 +68729,6 @@
 /obj/item/storage/toolbox/mechanical,
 /turf/unsimulated/floor/bot/darkpurple,
 /area/syndicate_station/battlecruiser)
-"eRo" = (
-/obj/machinery/atmospherics/pipe/tank/rad_particles{
-	desc = "A large vessel containing an unknown pressurized gas.";
-	name = "Unidentified Gas Tank"
-	},
-/obj/cable{
-	icon_state = "1-4"
-	},
-/turf/unsimulated/floor/plating/scorched,
-/area/crater)
 "eTm" = (
 /obj/item/clothing/under/pride/ace,
 /obj/storage/closet{
@@ -68806,12 +68757,45 @@
 	},
 /turf/unsimulated/wall/auto/lead/gray,
 /area/sim/tdome/tdome1)
+"eXU" = (
+/obj/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/unsimulated/floor{
+	icon_state = "floor"
+	},
+/area/iomoon/base)
 "eYl" = (
 /obj/stool/chair/comfy/red{
 	dir = 8
 	},
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/efrem)
+"eZK" = (
+/obj/grille/catwalk{
+	dir = 9;
+	icon_state = "catwalk_cross"
+	},
+/obj/map/light/lava,
+/turf/unsimulated/floor/lava{
+	deadly = 0;
+	temperature = 372.15
+	},
+/turf/unsimulated/floor{
+	carbon_dioxide = 16;
+	dir = 9;
+	icon_state = "catwalk";
+	name = "warm catwalk support";
+	temperature = 372.15
+	},
+/area/iomoon)
 "eZW" = (
 /obj/decal/fakeobjects/dreambeach/sticks,
 /turf/unsimulated/floor/dream/beach,
@@ -68861,10 +68845,6 @@
 /obj/item/paper/book/from_file/monster_manual,
 /turf/unsimulated/floor/black,
 /area/crypt/sigma/rd)
-"fjt" = (
-/obj/item/cable_coil,
-/turf/unsimulated/floor,
-/area/iomoon/base)
 "fll" = (
 /obj/machinery/light{
 	dir = 1
@@ -68901,10 +68881,6 @@
 	},
 /turf/unsimulated/martian/floor,
 /area/crunch)
-"fnj" = (
-/obj/shrub,
-/turf/unsimulated/floor/grass/leafy,
-/area/hospital/somewhere)
 "fob" = (
 /obj/stool/chair/yellow{
 	dir = 8
@@ -68930,22 +68906,11 @@
 	dir = 5
 	},
 /area/centcom/offices/cogwerks)
-"ftr" = (
-/obj/grille/catwalk{
-	dir = 9
+"fvH" = (
+/turf/unsimulated/grasstodirt{
+	dir = 8
 	},
-/turf/unsimulated/iomoon/floor{
-	dir = 9;
-	icon_state = "iocrust_edge"
-	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 20;
-	dir = 8;
-	icon_state = "catwalk_cross";
-	name = "hot catwalk support";
-	temperature = 372.15
-	},
-/area/iomoon)
+/area/hospital/somewhere)
 "fAc" = (
 /obj/item/clothing/under/gimmick/princess{
 	color = "#8c0b0b"
@@ -68973,6 +68938,31 @@
 	},
 /turf/unsimulated/floor/wood/six,
 /area/centcom/offices/rodney)
+"fBB" = (
+/obj/grille/catwalk{
+	dir = 4
+	},
+/turf/unsimulated/iomoon/floor{
+	dir = 8;
+	icon_state = "iocrust_corner"
+	},
+/turf/unsimulated/floor{
+	carbon_dioxide = 16;
+	dir = 4;
+	icon_state = "catwalk_narrow";
+	name = "heated catwalk support";
+	temperature = 372.15
+	},
+/area/iomoon)
+"fBN" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
+	locked = 1;
+	dir = 4
+	},
+/turf/unsimulated/floor/wood/two,
+/area/centcom/offices/cogwerks)
 "fCo" = (
 /obj/spacevine,
 /turf/unsimulated/wall/auto/lead/blue,
@@ -68990,13 +68980,11 @@
 	name = "wood floor"
 	},
 /area/centcom/offices/sord)
-"fDD" = (
-/obj/table/auto,
-/obj/deskclutter{
-	desc = "It's a picture of a woman and a little girl.  They look to be related.";
-	icon = 'icons/misc/worlds.dmi';
-	icon_state = "pictureframe";
-	pixel_y = 8
+"fDf" = (
+/obj/decal/fakeobjects/firelock_broken{
+	dir = 8;
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "fdoor0"
 	},
 /turf/unsimulated/floor{
 	icon_state = "floor"
@@ -69019,6 +69007,23 @@
 	dir = 8
 	},
 /area/centcom)
+"fGs" = (
+/obj/grille/catwalk{
+	dir = 5
+	},
+/obj/map/light/lava,
+/turf/unsimulated/floor/lava{
+	deadly = 0;
+	temperature = 372.15
+	},
+/turf/unsimulated/floor{
+	carbon_dioxide = 16;
+	dir = 4;
+	icon_state = "catwalk_narrow";
+	name = "heated catwalk support";
+	temperature = 372.15
+	},
+/area/iomoon)
 "fGD" = (
 /obj/storage/cart/hotdog,
 /obj/item/clothing/suit/gimmick/hotdog,
@@ -69097,6 +69102,41 @@
 "fQJ" = (
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/tarmunora)
+"fRc" = (
+/obj/decal/cleanable/blood/splatter,
+/obj/decal/fakeobjects/skeleton{
+	desc = "He hasn't got a leg to stand on.";
+	dir = 4;
+	icon = 'icons/misc/hstation.dmi';
+	icon_state = "body5";
+	name = "half corpse";
+	pixel_x = -10
+	},
+/turf/unsimulated/floor/caution/west,
+/area/iomoon/base/underground)
+"fRv" = (
+/turf/unsimulated/floor/caution/east{
+	dir = 1
+	},
+/area/iomoon/base)
+"fSY" = (
+/obj/decal/fakeobjects/firelock_broken{
+	dir = 8;
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "fdoor0"
+	},
+/obj/overlay{
+	desc = "You could probably squeeze through.";
+	dir = 4;
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "generic_open";
+	layer = 6;
+	name = "broken door"
+	},
+/turf/unsimulated/floor/orangeblack/side{
+	dir = 8
+	},
+/area/crunch)
 "fTb" = (
 /obj/decal/cleanable/dirt,
 /turf/unsimulated/floor/plating,
@@ -69116,14 +69156,6 @@
 	icon_state = "shore-28"
 	},
 /area/titlescreen)
-"fUp" = (
-/obj/decal/fakeobjects/firelock_broken,
-/obj/decal/fakeobjects/firelock_broken{
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "fdoor0"
-	},
-/turf/unsimulated/floor,
-/area/iomoon/base)
 "fUS" = (
 /obj/indestructible/shuttle_corner{
 	dir = 10;
@@ -69139,19 +69171,6 @@
 /area/centcom/offices{
 	icon_state = "blue"
 	})
-"fYw" = (
-/obj/table/wood/auto,
-/obj/item/pen,
-/obj/item/pen{
-	desc = "It's a normal black ink pen. Looks like it has been chewed on."
-	},
-/obj/machinery/computer/security/wooden_tv/small{
-	pixel_y = 8
-	},
-/turf/unsimulated/floor/carpet{
-	icon_state = "fred2"
-	},
-/area/sim/area2)
 "fZr" = (
 /obj/machinery/vending/snack,
 /turf/unsimulated/floor{
@@ -69183,9 +69202,29 @@
 	icon_state = "floor"
 	},
 /area/centcom/lounge)
+"gca" = (
+/obj/machinery/door/unpowered/wood/lily{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
+	dir = 8
+	},
+/obj/trigger/lovefill,
+/turf/unsimulated/floor/wood/six,
+/area/centcom/offices/rodney)
 "gcn" = (
 /turf/unsimulated/wall/auto/lead/blue,
 /area/centcom)
+"gcK" = (
+/obj/table/auto,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/item/device/timer,
+/obj/item/device/radio/signaler,
+/turf/unsimulated/floor/purple/side{
+	dir = 6
+	},
+/area/iomoon/base)
 "geI" = (
 /obj/table/auto,
 /obj/item/remote/syndicate_teleporter,
@@ -69226,6 +69265,14 @@
 	},
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/tarmunora)
+"gif" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
+	dir = 4
+	},
+/turf/unsimulated/floor/black,
+/area/centcom/offices/darkchis)
 "gjq" = (
 /obj/decal/snowbits,
 /turf/unsimulated/floor/arctic/snow,
@@ -69269,12 +69316,6 @@
 	name = "\proper the murderbox"
 	},
 /area/sim/gunsim)
-"gmS" = (
-/obj/grassplug,
-/turf/unsimulated/grasstodirt{
-	dir = 4
-	},
-/area/hospital/somewhere)
 "gmY" = (
 /obj/machinery/lawrack/syndicate,
 /turf/unsimulated/floor/darkblue,
@@ -69300,28 +69341,6 @@
 /obj/item/paper/book/from_file/pharmacopia,
 /turf/unsimulated/floor/blackwhite,
 /area/owlery/office)
-"grV" = (
-/obj/grille/catwalk{
-	dir = 5
-	},
-/obj/map/light/lava,
-/turf/unsimulated/floor/lava{
-	deadly = 0;
-	temperature = 372.15
-	},
-/turf/unsimulated/floor{
-	dir = 4;
-	icon_state = "catwalk_cross";
-	name = "damn warm catwalk support";
-	temperature = 372.15
-	},
-/area/iomoon)
-"gsW" = (
-/obj/stone{
-	dir = 1
-	},
-/turf/unsimulated/floor/grass/leafy,
-/area/hospital/somewhere)
 "gtU" = (
 /obj/machinery/light{
 	dir = 1
@@ -69334,38 +69353,23 @@
 	},
 /turf/unsimulated/floor/white/checker,
 /area/wizard_station)
-"gvw" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
-	},
-/turf/unsimulated/floor/wood/two,
-/area/centcom/offices/tarmunora)
 "gwr" = (
 /obj/disposalpipe/segment/bent/north,
 /turf/unsimulated/wall/auto/adventure/old/reinforced,
 /area/afterlife/bar)
+"gxW" = (
+/obj/decal/fakeobjects/firelock_broken{
+	desc = "This blast door looks rusted over.  Junk.";
+	dir = 8;
+	icon = 'icons/obj/doors/blastdoor.dmi';
+	icon_state = "bdoorbroken";
+	name = "rusty blastdoor"
+	},
+/turf/unsimulated/floor,
+/area/iomoon/base/underground)
 "gyu" = (
 /turf/unsimulated/wall/auto/lead/blue,
 /area/crater/biodome/entry)
-"gyV" = (
-/obj/grille/catwalk{
-	dir = 5
-	},
-/obj/map/light/lava,
-/turf/unsimulated/floor/lava{
-	deadly = 0;
-	temperature = 372.15
-	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 16;
-	dir = 4;
-	icon_state = "catwalk_narrow";
-	name = "heated catwalk support";
-	temperature = 372.15
-	},
-/area/iomoon)
 "gAG" = (
 /obj/machinery/vending/snack,
 /turf/unsimulated/floor/arrival{
@@ -69419,16 +69423,6 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/retentioncenter)
-"gKM" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
-	},
-/turf/unsimulated/floor/wood/two,
-/area/centcom/offices{
-	icon_state = "blue"
-	})
 "gLs" = (
 /turf/unsimulated/floor/dream/beach{
 	icon_state = "shore-19"
@@ -69455,6 +69449,23 @@
 	dir = 5
 	},
 /area/centcom)
+"gPZ" = (
+/obj/table/reinforced/bar/auto,
+/obj/item/reagent_containers/food/drinks/bottle/mead{
+	initial_reagents = list("milk" = 30);
+	name = "mood";
+	pixel_x = -4;
+	pixel_y = 12
+	},
+/obj/item/reagent_containers/food/drinks/milk{
+	pixel_x = 3;
+	pixel_y = 9
+	},
+/turf/unsimulated/floor/carpet{
+	dir = 10;
+	icon_state = "red2"
+	},
+/area/diner/cow)
 "gQl" = (
 /obj/indestructible/shuttle_corner{
 	icon_state = "wall3_trans"
@@ -69474,6 +69485,10 @@
 	},
 /turf/unsimulated/wall/auto/lead/blue,
 /area/crater/biodome/maint)
+"gTm" = (
+/obj/decal/fakeobjects/pipe,
+/turf/unsimulated/floor,
+/area/iomoon/base)
 "gUy" = (
 /obj/lattice{
 	dir = 4;
@@ -69495,41 +69510,17 @@
 /area/centcom/offices{
 	icon_state = "blue"
 	})
-"gYl" = (
-/obj/decal/fakeobjects/firelock_broken{
-	density = 1;
-	desc = "Rust has rendered this airlock useless.";
-	dir = 4;
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "generic_closed";
-	name = "rusted airlock";
-	opacity = 1
-	},
-/obj/decal/fakeobjects/firelock_broken{
-	density = 1;
-	dir = 4;
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "fdoor1";
-	opacity = 1
-	},
-/turf/unsimulated/floor/grime,
-/area/marsoutpost)
 "gYs" = (
 /turf/unsimulated/floor/dream/beach{
 	icon_state = "shore-48"
 	},
 /area/titlescreen)
-"gYR" = (
-/obj/decal/fakeobjects/firelock_broken{
-	desc = "This shuttle door is really jammed.  It might as well not even be a door.  What a lousy door.  Fuck this door, man, just... just...  FUCK YOU, DOOR.";
-	icon = 'icons/turf/shuttle.dmi';
-	name = "rusted hatch"
+"gZF" = (
+/obj/grassplug,
+/turf/unsimulated/grasstodirt{
+	dir = 4
 	},
-/turf/unsimulated/floor{
-	icon = 'icons/turf/shuttle.dmi';
-	icon_state = "floor3"
-	},
-/area/meat_derelict/soviet)
+/area/hospital/somewhere)
 "gZG" = (
 /obj/table/reinforced/auto,
 /turf/unsimulated/floor/shuttle{
@@ -69551,22 +69542,23 @@
 /obj/item/luggable_computer/personal/adhara_laptop,
 /turf/unsimulated/floor/carpet/office/other,
 /area/centcom/offices/adhara)
-"hes" = (
-/obj/decal/fakeobjects/pipe,
-/obj/decal/fakeobjects{
-	anchored = 1;
-	desc = "Like conventional cables, but more burly.";
-	dir = 4;
-	icon = 'icons/obj/power_cond.dmi';
-	icon_state = "conduit";
-	layer = 2.5;
-	name = "power conduit"
-	},
-/turf/unsimulated/floor,
-/area/iomoon/base/underground)
 "hjf" = (
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
 /area/shuttle/merchant_shuttle/diner_centcom)
+"hjg" = (
+/obj/decal/fakeobjects/firelock_broken{
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "fdoor0"
+	},
+/obj/overlay{
+	desc = "You could probably squeeze through.";
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "generic_open";
+	layer = 6;
+	name = "broken door"
+	},
+/turf/unsimulated/floor,
+/area/crunch)
 "hjh" = (
 /obj/disposalpipe/segment{
 	dir = 4
@@ -69604,22 +69596,23 @@
 	icon_state = "bloodfloor_3"
 	},
 /area/meat_derelict/guts)
-"hnt" = (
-/obj/overlay{
-	desc = "It seems to be rusted open.";
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "eng_open";
-	layer = 6;
-	name = "broken door"
+"hmN" = (
+/obj/grille/catwalk{
+	dir = 4
 	},
-/obj/decal/fakeobjects/firelock_broken{
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "fdoor0"
+/obj/map/light/lava,
+/turf/unsimulated/floor/lava{
+	deadly = 0;
+	temperature = 372.15
 	},
 /turf/unsimulated/floor{
-	icon_state = "floor"
+	carbon_dioxide = 16;
+	dir = 4;
+	icon_state = "catwalk_narrow";
+	name = "heated catwalk support";
+	temperature = 372.15
 	},
-/area/iomoon/base/underground)
+/area/iomoon)
 "hnz" = (
 /obj/critter/roach{
 	name = "\"feature\""
@@ -69657,6 +69650,10 @@
 /obj/decal/fakeobjects/dreambeach/mercury,
 /turf/unsimulated/floor/dream/beach,
 /area/titlescreen)
+"hrD" = (
+/obj/item/wrench,
+/turf/unsimulated/floor,
+/area/iomoon/base)
 "hrN" = (
 /obj/machinery/light{
 	dir = 4
@@ -69665,6 +69662,25 @@
 	dir = 4
 	},
 /area/centcom)
+"huk" = (
+/obj/overlay{
+	density = 1;
+	desc = "It wont budge.";
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "generic_closed";
+	layer = 6;
+	name = "broken door";
+	opacity = 1
+	},
+/turf/unsimulated/floor,
+/area/crunch)
+"hur" = (
+/obj/rack,
+/obj/item/weldingtool,
+/turf/unsimulated/floor{
+	icon_state = "floor"
+	},
+/area/iomoon/base/underground)
 "huE" = (
 /obj/cable{
 	d1 = 1;
@@ -69673,12 +69689,6 @@
 	},
 /turf/unsimulated/wall/auto/lead/blue,
 /area/upper_arctic/pod2)
-"hwG" = (
-/obj/decal/fakeobjects/tallsmes,
-/turf/unsimulated/floor{
-	icon_state = "floor"
-	},
-/area/iomoon/base)
 "hxt" = (
 /obj/indestructible/shuttle_corner{
 	dir = 9;
@@ -69692,15 +69702,20 @@
 	dir = 5
 	},
 /area/centcom/offices/aloe)
-"hAB" = (
-/obj/decal/fakeobjects/firelock_broken{
-	desc = "Rust has rendered this airlock useless.";
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "generic_open";
-	name = "rusted airlock"
+"hAl" = (
+/obj/storage/closet{
+	desc = "This closet once held some manner of thermal protection gear.";
+	icon_closed = "syndicate";
+	icon_opened = "syndicate-open";
+	icon_state = "syndicate";
+	name = "Thermal Hazard Equipment"
 	},
-/turf/unsimulated/floor/grime,
-/area/marsoutpost)
+/turf/unsimulated/floor{
+	carbon_dioxide = 16;
+	name = "warm plating";
+	temperature = 313.15
+	},
+/area/iomoon/base)
 "hBd" = (
 /obj/critter/frog{
 	anchored = 1;
@@ -69717,21 +69732,25 @@
 "hCh" = (
 /turf/unsimulated/wall/auto/lead/gray,
 /area/sim/tdome/tdome2)
-"hDD" = (
-/obj/decal/fakeobjects/firelock_broken{
-	desc = "This blast door looks rusted over.  Junk.";
-	dir = 10;
-	icon = 'icons/obj/doors/blastdoor.dmi';
-	icon_state = "bdoorbroken";
-	name = "rusty blastdoor"
-	},
-/turf/unsimulated/floor,
-/area/iomoon/base/underground)
 "hDJ" = (
 /obj/critter/brullbar,
 /obj/decal/cleanable/blood,
 /turf/unsimulated/floor/arctic/snow/ice,
 /area/lower_arctic/lower)
+"hEb" = (
+/obj/grille/catwalk,
+/turf/unsimulated/floor/lava{
+	deadly = 0;
+	temperature = 372.15
+	},
+/turf/unsimulated/floor{
+	carbon_dioxide = 16;
+	dir = 1;
+	icon_state = "catwalk_narrow";
+	name = "warm catwalk support";
+	temperature = 372.15
+	},
+/area/iomoon)
 "hEG" = (
 /obj/item/raw_material/shard/glass{
 	pixel_x = 4;
@@ -69764,19 +69783,6 @@
 /obj/critter/brullbar,
 /turf/unsimulated/floor/arctic/snow/ice,
 /area/lower_arctic/lower)
-"hIi" = (
-/obj/grille/catwalk,
-/turf/unsimulated/iomoon/floor{
-	icon_state = "iocrust_corner"
-	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 16;
-	dir = 1;
-	icon_state = "catwalk_narrow";
-	name = "warm catwalk support";
-	temperature = 372.15
-	},
-/area/iomoon)
 "hIz" = (
 /obj/machinery/light{
 	dir = 8
@@ -69803,16 +69809,6 @@
 "hKE" = (
 /turf/unsimulated/wall/auto/lead/gray,
 /area/sim/tdome/tdome1)
-"hKX" = (
-/obj/racing_boosterstrip{
-	dir = 8
-	},
-/obj/machinery/door/unpowered/wood{
-	autoclose = 0;
-	dir = 4
-	},
-/turf/unsimulated/floor/wood,
-/area/sim/racing_entry)
 "hLe" = (
 /obj/table/reinforced/bar/auto,
 /obj/machinery/light,
@@ -69825,17 +69821,6 @@
 	icon_state = "red2"
 	},
 /area/diner/cow)
-"hMO" = (
-/obj/decal/fakeobjects/firelock_broken{
-	desc = "This shuttle door is really jammed.  What's the point of it then?  WHAT IS THE POINT";
-	icon = 'icons/turf/shuttle.dmi';
-	name = "rusted hatch"
-	},
-/turf/unsimulated/floor{
-	icon = 'icons/turf/shuttle.dmi';
-	icon_state = "floor3"
-	},
-/area/hospital/samostrel)
 "hNS" = (
 /obj/decal/fakeobjects/dreambeach/seashells,
 /turf/unsimulated/floor/dream/beach,
@@ -69848,11 +69833,20 @@
 /obj/wingrille_spawn/auto/crystal,
 /turf/unsimulated/floor/plating/scorched,
 /area/crater/biodome/south)
-"hOB" = (
-/turf/unsimulated/grasstodirt{
-	dir = 4
+"hOu" = (
+/obj/grille/catwalk{
+	dir = 6
 	},
-/area/hospital/somewhere)
+/turf/unsimulated/iomoon/floor{
+	icon_state = "iocrust_edge"
+	},
+/turf/unsimulated/floor{
+	carbon_dioxide = 16;
+	icon_state = "catwalk_cross";
+	name = "hot catwalk support";
+	temperature = 372.15
+	},
+/area/iomoon)
 "hPi" = (
 /obj/landmark/viscontents_spawn{
 	targetZ = 4
@@ -69932,6 +69926,15 @@
 /area/centcom/offices{
 	icon_state = "blue"
 	})
+"hYa" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/shrub/dead,
+/turf/unsimulated/floor/purple/side{
+	dir = 10
+	},
+/area/iomoon/base)
 "hZA" = (
 /turf/unsimulated/floor/carpet/darkcarpet/border{
 	dir = 6
@@ -69957,19 +69960,6 @@
 /obj/burning_barrel,
 /turf/unsimulated/floor/setpieces/rootfloor,
 /area/centcom/offices/marknstein)
-"igN" = (
-/obj/table/wood/auto/desk,
-/obj/item/reagent_containers/food/drinks/cola{
-	initial_reagents = list("cola" = 10, "VHFCS" = 10, "crime" = 10);
-	name = "Bebop Cola";
-	pixel_x = -11;
-	pixel_y = -9
-	},
-/obj/machinery/phone/unlisted{
-	name = "crank prank crime phone"
-	},
-/turf/unsimulated/floor/wood/two,
-/area/centcom/offices/efrem)
 "ihi" = (
 /obj/indestructible/shuttle_corner{
 	dir = 10;
@@ -69982,6 +69972,10 @@
 	icon_state = "diagonalWall"
 	},
 /area/crunch)
+"iky" = (
+/obj/decal/fakeobjects/tallsmes,
+/turf/unsimulated/floor/grime,
+/area/iomoon/base)
 "ikE" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -70003,11 +69997,6 @@
 /obj/submachine/slot_machine,
 /turf/unsimulated/outdoors/grass,
 /area/diner/cow)
-"iqm" = (
-/turf/unsimulated/grasstodirt{
-	dir = 1
-	},
-/area/hospital/somewhere)
 "iqu" = (
 /turf/unsimulated/floor/grass/leafy,
 /area/centcom/offices/azrun)
@@ -70040,6 +70029,10 @@
 	},
 /turf/unsimulated/floor/carpet/office/other,
 /area/centcom/offices/adhara)
+"isy" = (
+/obj/storage/closet,
+/turf/unsimulated/floor/grime,
+/area/iomoon/base)
 "isE" = (
 /turf/unsimulated/floor/dream/beach{
 	icon_state = "shore-29"
@@ -70051,11 +70044,6 @@
 	},
 /turf/unsimulated/wall/auto/lead/blue,
 /area/crater)
-"isO" = (
-/turf/unsimulated/grasstodirt{
-	dir = 8
-	},
-/area/hospital/somewhere)
 "ius" = (
 /obj/machinery/light,
 /obj/item/clothing/suit/armor/vest/macho,
@@ -70087,19 +70075,6 @@
 	},
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/mrfishstick)
-"ivh" = (
-/obj/table/auto,
-/obj/decal/fakeobjects{
-	anchored = 1;
-	desc = "An old computer that is obviously very broken.  It might actually not even be plugged in.  BROKEN.";
-	icon = 'icons/obj/computer.dmi';
-	icon_state = "old0";
-	name = "broken computer"
-	},
-/turf/unsimulated/floor{
-	icon_state = "floor"
-	},
-/area/iomoon/base/underground)
 "iwj" = (
 /obj/item/storage/toilet{
 	dir = 4;
@@ -70149,9 +70124,32 @@
 /obj/decal/stage_edge/dojo,
 /turf/unsimulated/floor/dream/beach,
 /area/titlescreen)
-"iFG" = (
-/turf/unsimulated/floor/caution/west,
-/area/iomoon/base)
+"iED" = (
+/obj/grille/catwalk{
+	dir = 5
+	},
+/turf/unsimulated/iomoon/floor{
+	dir = 8;
+	icon_state = "iocrust_edge"
+	},
+/turf/unsimulated/floor{
+	carbon_dioxide = 20;
+	dir = 8;
+	icon_state = "catwalk_cross";
+	name = "hot catwalk support";
+	temperature = 372.15
+	},
+/area/iomoon)
+"iFQ" = (
+/obj/decal/fakeobjects{
+	anchored = 1;
+	desc = "This appears to be a control panel for that blast door.  It doesn't seem to work.  Maybe there is an override or something?";
+	icon = 'icons/obj/computer.dmi';
+	icon_state = "wallterm0";
+	name = "broken computer"
+	},
+/turf/unsimulated/floor,
+/area/iomoon/base/underground)
 "iGH" = (
 /obj/storage/crate/packing,
 /obj/item/paint_can/random,
@@ -70187,6 +70185,21 @@
 /obj/machinery/light,
 /turf/unsimulated/floor/arrival,
 /area/centcom)
+"iKq" = (
+/obj/decal/fakeobjects/firelock_broken{
+	dir = 4;
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "fdoor0"
+	},
+/obj/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/unsimulated/floor{
+	icon_state = "floor"
+	},
+/area/iomoon/base)
 "iLT" = (
 /obj/machinery/door/poddoor/blast/single{
 	desc = "A security blast door.  Labeling indicates that it was installed 'in case the teleportation experiment starts bringing in Draculas.' There's probably a control for it somewhere.";
@@ -70206,6 +70219,9 @@
 /obj/submachine/chef_oven,
 /turf/unsimulated/floor/void,
 /area/diner/cow)
+"iMI" = (
+/turf/unsimulated/floor/caution/north,
+/area/iomoon/base)
 "iNm" = (
 /obj/item/device/light/magic_lantern{
 	dir = 4;
@@ -70232,14 +70248,6 @@
 	name = "the high ground"
 	},
 /area/centcom/offices/enakai)
-"iQj" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
-	},
-/turf/unsimulated/floor/black,
-/area/centcom/offices/atomicthumbs)
 "iQw" = (
 /obj/table/wood/round,
 /obj/item/paper/book/custom{
@@ -70261,6 +70269,23 @@
 	icon_state = "red2"
 	},
 /area/diner/cow)
+"iSg" = (
+/obj/grille/catwalk{
+	dir = 9
+	},
+/obj/map/light/lava,
+/turf/unsimulated/floor/lava{
+	deadly = 0;
+	temperature = 372.15
+	},
+/turf/unsimulated/floor{
+	carbon_dioxide = 20;
+	dir = 8;
+	icon_state = "catwalk_cross";
+	name = "hot catwalk support";
+	temperature = 372.15
+	},
+/area/iomoon)
 "iSv" = (
 /obj/indestructible/shuttle_corner{
 	dir = 1;
@@ -70280,35 +70305,55 @@
 /obj/decal/cleanable/dirt,
 /turf/unsimulated/outdoors/grass,
 /area/diner/cow)
+"iUN" = (
+/obj/decal/fakeobjects/firelock_broken{
+	desc = "This blast door looks rusted over.  Junk.";
+	dir = 1;
+	icon = 'icons/obj/doors/blastdoor.dmi';
+	icon_state = "bdoorbroken";
+	name = "rusty blastdoor"
+	},
+/turf/unsimulated/floor,
+/area/iomoon/base/underground)
 "iVf" = (
 /obj/critter/brullbar{
 	wanderer = 0
 	},
 /turf/unsimulated/floor/arctic/snow,
 /area/upper_arctic/exterior/surface)
-"iVK" = (
-/obj/table/reinforced/bar/auto,
-/obj/item/reagent_containers/food/drinks/bottle/mead{
-	initial_reagents = list("milk" = 30);
-	name = "mood";
-	pixel_x = -4;
-	pixel_y = 12
+"iXi" = (
+/obj/storage/crate/bin/lostandfound{
+	desc = "Just what it sounds like.";
+	name = "trash bin"
 	},
-/obj/item/reagent_containers/food/drinks/milk{
-	pixel_x = 3;
-	pixel_y = 9
+/obj/item/c_tube,
+/obj/item/bananapeel,
+/turf/unsimulated/floor/purple/side{
+	dir = 8
 	},
-/turf/unsimulated/floor/carpet{
-	dir = 10;
-	icon_state = "red2"
-	},
-/area/diner/cow)
+/area/iomoon/base)
+"iXC" = (
+/obj/item/cable_coil,
+/turf/unsimulated/floor,
+/area/iomoon/base)
 "iXR" = (
 /obj/spacevine{
 	icon_state = "vine-light2"
 	},
 /turf/unsimulated/wall/auto/lead/blue,
 /area/crater/biodome/research)
+"iYB" = (
+/obj/decal/fakeobjects/firelock_broken{
+	density = 1;
+	desc = "Rust has rendered this airlock useless.";
+	dir = 4;
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "generic_closed";
+	name = "rusted airlock";
+	opacity = 1
+	},
+/turf/unsimulated/floor/delivery,
+/area/crypt/sigma/kitchen)
 "iZw" = (
 /obj/ladder{
 	id = "marksoffice";
@@ -70320,29 +70365,6 @@
 /obj/machinery/light,
 /turf/unsimulated/floor/sand,
 /area/centcom/offices/azrun)
-"jbn" = (
-/obj/decal/fakeobjects/firelock_broken{
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "fdoor0"
-	},
-/obj/machinery/door/airlock/pyro/glass,
-/turf/unsimulated/floor{
-	icon_state = "floor"
-	},
-/area/iomoon/base)
-"jbr" = (
-/obj/overlay{
-	density = 1;
-	desc = "It wont budge.";
-	dir = 4;
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "generic_closed";
-	layer = 6;
-	name = "broken door";
-	opacity = 1
-	},
-/turf/unsimulated/floor/blue/checker,
-/area/crunch)
 "jbA" = (
 /obj/storage/secure/closet/civilian/hydro{
 	desc = "The only PDAs you'll find in this locker are Plant Data Analyzers. Heh.";
@@ -70371,29 +70393,26 @@
 	},
 /turf/unsimulated/floor/setpieces/swampgrass,
 /area/centcom/offices/tterc)
-"jjj" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
+"jhi" = (
+/obj/machinery/door/unpowered/wood/stall{
 	lock_dir = 8;
-	dir = 4
+	dir = 8
 	},
-/turf/unsimulated/floor/wood/two,
-/area/centcom/offices/lyra)
+/turf/unsimulated/floor/specialroom/freezer,
+/area/centcom/offices{
+	icon_state = "blue"
+	})
+"jhT" = (
+/obj/item/storage/secure/ssafe/loot{
+	pixel_x = 6;
+	pixel_y = -28
+	},
+/turf/unsimulated/floor/carpet/grime,
+/area/iomoon/base)
 "jjv" = (
 /obj/wingrille_spawn/auto/crystal,
 /turf/unsimulated/floor/black,
 /area/syndicate_station/assault_pod)
-"jkD" = (
-/obj/decal/fakeobjects/firelock_broken{
-	density = 1;
-	desc = "Rust has rendered this airlock useless.";
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "generic_locked";
-	name = "rusted airlock";
-	opacity = 1
-	},
-/turf/unsimulated/floor/delivery,
-/area/crypt/sigma/lab)
 "jkH" = (
 /obj/decal/tile_edge/line/green{
 	dir = 1;
@@ -70407,6 +70426,26 @@
 	icon_state = "floor"
 	},
 /area/centcom/lounge)
+"jla" = (
+/obj/machinery/door/poddoor/blast{
+	desc = "Looks pretty tough. I wouldn't take this door on in a fight. Wonder if there's a way to open this.";
+	dir = 1;
+	id = "iomoon_genroom"
+	},
+/obj/decal/cleanable/blood/splatter{
+	icon_state = "floor5"
+	},
+/obj/decal/fakeobjects{
+	anchored = 1;
+	desc = "Like conventional cables, but more burly.";
+	dir = 4;
+	icon = 'icons/obj/power_cond.dmi';
+	icon_state = "conduit";
+	layer = 2.5;
+	name = "power conduit"
+	},
+/turf/unsimulated/floor,
+/area/iomoon/base/underground)
 "jlk" = (
 /obj/indestructible/shuttle_corner{
 	dir = 8;
@@ -70477,14 +70516,6 @@
 /obj/item/storage/toilet/goldentoilet/azrun,
 /turf/unsimulated/floor/caution/south,
 /area/centcom/offices/azrun)
-"jxN" = (
-/obj/grassplug{
-	dir = 8
-	},
-/turf/unsimulated/grasstodirt{
-	dir = 1
-	},
-/area/hospital/somewhere)
 "jxX" = (
 /turf/unsimulated/wall/auto/sengoku{
 	icon_state = "1";
@@ -70495,23 +70526,19 @@
 "jxZ" = (
 /turf/unsimulated/floor/stairs/wood2,
 /area/afterlife/bar)
-"jyA" = (
-/obj/grille/catwalk{
-	dir = 10;
-	icon_state = "catwalk_cross"
+"jyh" = (
+/obj/grassplug{
+	dir = 1
 	},
-/turf/unsimulated/floor/lava{
-	deadly = 0;
-	temperature = 372.15
+/turf/unsimulated/grasstodirt{
+	dir = 4
 	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 20;
-	dir = 10;
-	icon_state = "catwalk";
-	name = "hot catwalk support";
-	temperature = 372.15
+/area/hospital/somewhere)
+"jzX" = (
+/turf/unsimulated/grasstodirt{
+	dir = 10
 	},
-/area/iomoon)
+/area/hospital/somewhere)
 "jBr" = (
 /turf/unsimulated/floor/dream/beach{
 	icon_state = "shore-32"
@@ -70538,39 +70565,18 @@
 	},
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/mrfishstick)
-"jGF" = (
-/obj/table/auto,
-/obj/machinery/light/small{
+"jHc" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
 	dir = 4
 	},
-/obj/item/device/timer,
-/obj/item/device/radio/signaler,
-/turf/unsimulated/floor/purple/side{
-	dir = 6
-	},
-/area/iomoon/base)
+/turf/unsimulated/floor/black,
+/area/centcom/offices/hydro)
 "jIa" = (
 /obj/decal/fakeobjects/dreambeach/palm_leaf,
 /turf/unsimulated/floor/dream/beach,
 /area/titlescreen)
-"jIk" = (
-/obj/grille/catwalk{
-	dir = 9;
-	icon_state = "catwalk_cross"
-	},
-/obj/map/light/lava,
-/turf/unsimulated/floor/lava{
-	deadly = 0;
-	temperature = 372.15
-	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 16;
-	dir = 1;
-	icon_state = "catwalk_cross";
-	name = "toasty catwalk support";
-	temperature = 372.15
-	},
-/area/iomoon)
 "jJr" = (
 /obj/loudspeaker{
 	desc = "This could probably cause an earthquake.";
@@ -70596,16 +70602,14 @@
 	},
 /turf/unsimulated/floor/void/channel,
 /area/hospital/samostrel)
-"jMe" = (
-/obj/decal/fakeobjects{
-	anchored = 1;
-	desc = "This appears to be a control panel for that big microwave array thing?  It doesn't seem to work.";
-	icon = 'icons/obj/computer.dmi';
-	icon_state = "wallterm0";
-	name = "broken computer"
+"jLc" = (
+/turf/unsimulated/wall/auto/adventure/hospital,
+/area/cordon)
+"jLq" = (
+/turf/unsimulated/grasstodirt{
+	dir = 4
 	},
-/turf/unsimulated/iomoon/plating,
-/area/iomoon)
+/area/hospital/somewhere)
 "jMC" = (
 /obj/storage/crate,
 /turf/unsimulated/floor{
@@ -70628,23 +70632,6 @@
 /obj/item/mutation_orb/cat_orb,
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/tarmunora)
-"jNv" = (
-/obj/machinery/light/small{
-	dir = 1;
-	status = 2
-	},
-/turf/unsimulated/floor{
-	icon_state = "floor"
-	},
-/area/iomoon/base)
-"jNw" = (
-/obj/stool/chair{
-	dir = 1
-	},
-/turf/unsimulated/floor{
-	icon_state = "floor"
-	},
-/area/iomoon/base)
 "jPv" = (
 /turf/unsimulated/floor/dream/beach{
 	icon_state = "shore-2"
@@ -70697,10 +70684,6 @@
 	icon_state = "fpurple2"
 	},
 /area/centcom/lounge)
-"jTQ" = (
-/obj/decal/fakeobjects/pipe,
-/turf/unsimulated/floor/plating/scorched,
-/area/iomoon/base/underground)
 "jWq" = (
 /turf/unsimulated/wall/auto/lead/gray,
 /area/crypt/sigma/crew)
@@ -70710,11 +70693,35 @@
 "jXJ" = (
 /turf/unsimulated/wall/auto/lead/white,
 /area/moon)
-"kay" = (
-/obj/tree1{
-	dir = 1
+"kap" = (
+/obj/table/wood/auto,
+/obj/item/device/audio_log/wall_mounted{
+	desc = "A data logging utility represented as an audio logger.";
+	name = "Audiolog"
 	},
-/turf/unsimulated/floor/grass/leafy,
+/turf/unsimulated/floor/carpet{
+	dir = 1;
+	icon_state = "fred2"
+	},
+/area/sim/area2)
+"kax" = (
+/obj/grille/catwalk,
+/obj/map/light/lava,
+/turf/unsimulated/floor/lava{
+	deadly = 0;
+	temperature = 372.15
+	},
+/turf/unsimulated/floor{
+	icon_state = "catwalk";
+	name = "catwalk support"
+	},
+/area/iomoon)
+"kaU" = (
+/turf/unsimulated/grass{
+	density = 1;
+	name = "grass.";
+	opacity = 1
+	},
 /area/hospital/somewhere)
 "kbk" = (
 /obj/decal/aliencomputer{
@@ -70737,6 +70744,13 @@
 "kew" = (
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
 /area/syndicate_station/assault_pod)
+"keE" = (
+/obj/machinery/door/unpowered/wood{
+	autoclose = 0;
+	dir = 4
+	},
+/turf/unsimulated/floor/carpet/arcade,
+/area/sim/racing_entry)
 "kfa" = (
 /turf/unsimulated/floor/void/channel,
 /area/adventure/channel/flingy)
@@ -70748,18 +70762,23 @@
 "kfN" = (
 /turf/unsimulated/floor/caution/south,
 /area/centcom/offices/azrun)
-"kgU" = (
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/unsimulated/floor/purple/side{
-	dir = 5
-	},
-/area/iomoon/base)
 "khd" = (
 /obj/item/storage/secure/ssafe/icemoon,
 /turf/unsimulated/wall/auto/lead/blue,
 /area/lower_arctic/pod1)
+"khq" = (
+/obj/table/wood/auto/desk,
+/obj/item/reagent_containers/food/drinks/cola{
+	initial_reagents = list("cola" = 10, "VHFCS" = 10, "crime" = 10);
+	name = "Bebop Cola";
+	pixel_x = -11;
+	pixel_y = -9
+	},
+/obj/machinery/phone/unlisted{
+	name = "crank prank crime phone"
+	},
+/turf/unsimulated/floor/wood/two,
+/area/centcom/offices/efrem)
 "kht" = (
 /obj/indestructible/shuttle_corner{
 	icon_state = "wall3_trans"
@@ -70872,12 +70891,6 @@
 /mob/living/critter/small_animal/firefly/ai_controlled,
 /turf/unsimulated/grasstodirt,
 /area/crypt/graveyard)
-"knH" = (
-/obj/item/cable_coil,
-/turf/unsimulated/floor{
-	icon_state = "floor"
-	},
-/area/iomoon/base)
 "knY" = (
 /obj/lattice,
 /obj/machinery/vending/cola/red,
@@ -70902,11 +70915,6 @@
 /obj/submachine/chef_sink,
 /turf/unsimulated/floor/void,
 /area/diner/cow)
-"kpl" = (
-/obj/decal/fakeobjects/pipe,
-/obj/storage/closet/iomoon,
-/turf/unsimulated/floor,
-/area/iomoon/base/underground)
 "kpw" = (
 /obj/admin_plaque{
 	name = "HydroFloric's Office"
@@ -70928,14 +70936,6 @@
 	},
 /turf/unsimulated/wall/auto/lead/blue,
 /area/centcom/lobby)
-"ktb" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
-	},
-/turf/unsimulated/floor/black,
-/area/centcom/offices/burntcornmuffin)
 "ktR" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -70952,24 +70952,17 @@
 	icon_state = "beach-0"
 	},
 /area/titlescreen)
-"kwV" = (
-/obj/machinery/power/data_terminal,
-/obj/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/obj/table/auto,
-/obj/machinery/networked/printer{
-	jam = 1;
-	print_id = "Office0"
-	},
-/turf/unsimulated/floor/carpet{
-	icon_state = "fred1"
-	},
-/area/iomoon/base)
 "kxa" = (
 /turf/unsimulated/wall/auto/lead/gray,
 /area/crypt/sigma/storage)
+"kxc" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
+	dir = 4
+	},
+/turf/unsimulated/floor/black,
+/area/centcom/offices/edad)
 "kxS" = (
 /obj/stool/chair/comfy/shuttle/red{
 	dir = 1
@@ -70988,16 +70981,6 @@
 	icon_state = "floor2"
 	},
 /area/shuttle/merchant_shuttle/diner_centcom)
-"kzU" = (
-/obj/decal/fakeobjects/pipe{
-	desc = "It is not working.";
-	dir = 4;
-	icon = 'icons/obj/atmospherics/pump.dmi';
-	icon_state = "intact_off";
-	name = "pump"
-	},
-/turf/unsimulated/floor,
-/area/iomoon/base)
 "kAr" = (
 /turf/unsimulated/floor/grey/side{
 	dir = 4
@@ -71011,12 +70994,6 @@
 	icon_state = "shore-22"
 	},
 /area/titlescreen)
-"kCI" = (
-/obj/grassplug,
-/turf/unsimulated/grasstodirt{
-	dir = 8
-	},
-/area/hospital/somewhere)
 "kEC" = (
 /obj/stool/chair/comfy/blue{
 	dir = 8
@@ -71025,80 +71002,32 @@
 /area/centcom/offices{
 	icon_state = "blue"
 	})
-"kFk" = (
-/obj/grille/catwalk{
-	dir = 9;
-	icon_state = "catwalk_cross"
-	},
-/obj/map/light/lava,
-/turf/unsimulated/floor/lava{
-	deadly = 0;
-	temperature = 372.15
-	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 16;
-	dir = 9;
-	icon_state = "catwalk";
-	name = "warm catwalk support";
-	temperature = 372.15
-	},
-/area/iomoon)
-"kIG" = (
-/obj/item/device/light/glowstick/green_on{
-	pixel_y = -6
-	},
-/obj/storage/secure/closet/fridge{
-	name = "incredible closetfridge"
-	},
-/obj/item/storage/ntso_pouch{
-	desc = "A dump pouch for various security accessories. This one has definitely seen better days.";
-	name = "stained tacticool pouch";
-	pixel_x = 5;
-	pixel_y = -5;
-	spawn_contents = list(/obj/item/handcuffs = 1, /obj/item/old_grenade/energy_concussion = 1, /obj/item/ammo/power_cell/self_charging/potato = 1, /obj/item/reagent_containers/food/snacks/donut/custom/robust = 1, /obj/item/reagent_containers/food/snacks/candy/candyheart)
-	},
-/obj/item/reagent_containers/food/snacks/ingredient/meat/mysterymeat{
-	desc = "Incredibly stinky.";
-	name = "foul-smelling mystery meat";
-	pixel_x = 5;
-	pixel_y = 6
-	},
-/obj/item/reagent_containers/food/snacks/mushroom/psilocybin{
-	desc = "If you were a mycologist, weird fridge mushrooms might seem like a bad idea. But you're not, so chow down!";
-	initial_reagents = list("psilocybin" = 20, "lsd_bee" = 20, "space_drugs" = 20);
-	name = "mystical fun guy";
-	pixel_x = -4;
-	pixel_y = -3
-	},
-/obj/item/clothing/mask/mime{
-	desc = "A mangled mime mask. SUBROSA is written in purple crayon on the reverse side.";
-	name = "chewed-up mime mask";
-	pixel_x = -2;
-	pixel_y = 4
-	},
-/obj/item/clothing/under/scrub/purple{
-	name = "old medical scrubs";
-	pixel_y = 3
-	},
-/obj/item/clothing/suit/security_badge{
-	badge_owner_job = "Head of Security";
-	badge_owner_name = "Elika Zamani";
-	desc = "A damaged Nanotrasen security  badge. It has tiny teeth marks all over it.";
-	name = "scratched security badge";
-	pixel_x = 9;
-	pixel_y = -12
-	},
-/turf/unsimulated/floor/carpet/purple/fancy/innercorner/se,
-/area/centcom/offices/virvatuli)
-"kJr" = (
-/obj/machinery/door/unpowered/wood/lily{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
+"kEQ" = (
+/obj/machinery/door/unpowered/wood{
+	autoclose = 0;
 	dir = 8
 	},
-/obj/trigger/lovefill,
-/turf/unsimulated/floor/wood/six,
-/area/centcom/offices/rodney)
+/turf/unsimulated/floor/wood,
+/area/sim/racing_entry)
+"kHJ" = (
+/obj/tree1{
+	dir = 8
+	},
+/turf/unsimulated/floor/grass/leafy,
+/area/hospital/somewhere)
+"kHV" = (
+/obj/table/auto,
+/obj/decal/fakeobjects{
+	anchored = 1;
+	desc = "An old computer that is obviously very broken.  It might actually not even be plugged in.  BROKEN.";
+	icon = 'icons/obj/computer.dmi';
+	icon_state = "old0";
+	name = "broken computer"
+	},
+/turf/unsimulated/floor{
+	icon_state = "floor"
+	},
+/area/iomoon/base/underground)
 "kJE" = (
 /obj/machinery/bot/medbot/no_camera,
 /turf/unsimulated/floor/red,
@@ -71108,26 +71037,36 @@
 	dir = 4
 	},
 /area/centcom/offices/varshie)
+"kJQ" = (
+/obj/decal/fakeobjects/firelock_broken{
+	desc = "This blast door looks rusted over.  Junk.";
+	dir = 10;
+	icon = 'icons/obj/doors/blastdoor.dmi';
+	icon_state = "bdoorbroken";
+	name = "rusty blastdoor"
+	},
+/turf/unsimulated/floor,
+/area/iomoon/base/underground)
 "kJR" = (
 /turf/unsimulated/floor/carpet/green/fancy/edge/north,
 /area/centcom/offices{
 	icon_state = "blue"
 	})
+"kLv" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 4;
+	dir = 8
+	},
+/turf/unsimulated/floor{
+	icon_state = "floor"
+	},
+/area/centcom/offices/pali)
 "kMt" = (
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/blood,
 /turf/unsimulated/floor/plating,
 /area/diner/cow)
-"kML" = (
-/obj/table/auto,
-/obj/machinery/light/small{
-	dir = 8
-	},
-/obj/item/reagent_containers/food/snacks/candy/negativeonebar,
-/turf/unsimulated/floor/purple/side{
-	dir = 9
-	},
-/area/iomoon/base)
 "kNR" = (
 /obj/decal/tile_edge/stripe{
 	dir = 6;
@@ -71139,6 +71078,32 @@
 /obj/item/clothing/glasses/nightvision,
 /turf/unsimulated/floor/darkblue,
 /area/syndicate_station/battlecruiser)
+"kNW" = (
+/obj/decal/fakeobjects/pipe{
+	dir = 1
+	},
+/obj/decal/cleanable/blood/splatter{
+	icon_state = "floor4"
+	},
+/obj/decal/fakeobjects/skeleton{
+	desc = "50% of a rotten corpse.";
+	dir = 8;
+	icon = 'icons/misc/hstation.dmi';
+	icon_state = "body5";
+	name = "pair of legs";
+	pixel_x = 14
+	},
+/obj/decal/fakeobjects{
+	anchored = 1;
+	desc = "Like conventional cables, but more burly.";
+	dir = 4;
+	icon = 'icons/obj/power_cond.dmi';
+	icon_state = "conduit";
+	layer = 2.5;
+	name = "power conduit"
+	},
+/turf/unsimulated/floor,
+/area/iomoon/base/underground)
 "kOu" = (
 /obj/indestructible/shuttle_corner{
 	dir = 1;
@@ -71174,30 +71139,28 @@
 	},
 /turf/unsimulated/floor/darkblue,
 /area/syndicate_station/battlecruiser)
-"kTf" = (
-/obj/grille/catwalk{
-	dir = 1;
-	icon_state = "catwalk_cross"
-	},
-/obj/map/light/lava,
-/turf/unsimulated/floor/lava{
-	deadly = 0;
-	temperature = 372.15
-	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 16;
-	icon_state = "catwalk_cross";
-	name = "hot catwalk support";
-	temperature = 372.15
-	},
-/area/iomoon)
-"kTQ" = (
-/turf/unsimulated/grass{
+"kRe" = (
+/turf/unsimulated/floor/caution/corner/nw,
+/area/iomoon/base/underground)
+"kSd" = (
+/obj/decal/fakeobjects/firelock_broken{
 	density = 1;
-	name = "grass.";
+	desc = "Rust has rendered this airlock useless.";
+	dir = 4;
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "generic_closed";
+	name = "rusted airlock";
 	opacity = 1
 	},
-/area/hospital/somewhere)
+/obj/decal/fakeobjects/firelock_broken{
+	density = 1;
+	dir = 4;
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "fdoor1";
+	opacity = 1
+	},
+/turf/unsimulated/floor/grime,
+/area/marsoutpost)
 "kUZ" = (
 /obj/indestructible/shuttle_corner{
 	dir = 8;
@@ -71205,40 +71168,20 @@
 	},
 /turf/unsimulated/outdoors/grass,
 /area/shuttle/merchant_shuttle/diner_centcom)
-"kWj" = (
-/obj/overlay{
-	density = 1;
-	desc = "It wont budge.";
-	dir = 4;
+"kYP" = (
+/obj/decal/fakeobjects/firelock_broken{
+	desc = "Rust has rendered this airlock useless.";
 	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "generic_closed";
-	layer = 6;
-	name = "broken door";
-	opacity = 1
+	icon_state = "generic_open";
+	name = "broken airlock"
 	},
-/turf/unsimulated/floor,
-/area/iomoon/base/underground)
-"kWZ" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
-	},
-/turf/unsimulated/floor/black,
-/area/centcom/offices/hufflaw)
+/turf/unsimulated/floor/grime,
+/area/marsoutpost)
 "lav" = (
 /turf/unsimulated/floor/dream/beach{
 	icon_state = "shore-41"
 	},
 /area/titlescreen)
-"lbp" = (
-/obj/grassplug{
-	dir = 4
-	},
-/turf/unsimulated/grasstodirt{
-	dir = 1
-	},
-/area/hospital/somewhere)
 "lcu" = (
 /obj/indestructible/shuttle_corner{
 	dir = 9;
@@ -71274,6 +71217,14 @@
 	icon_state = "wall3"
 	},
 /area/diner/tug)
+"lgv" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
+	dir = 4
+	},
+/turf/unsimulated/floor/wood/two,
+/area/centcom/offices/lyra)
 "lgD" = (
 /obj/item/paper/book/from_file/the_trial{
 	pixel_x = -8;
@@ -71317,15 +71268,6 @@
 /obj/effects/precipitation/rain/dense/tile,
 /turf/unsimulated/floor/wood/six,
 /area/centcom/offices/aloe)
-"lpC" = (
-/obj/decal/fakeobjects/firelock_broken{
-	desc = "Rust has rendered this airlock useless.";
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "generic_open";
-	name = "broken airlock"
-	},
-/turf/unsimulated/floor/grime,
-/area/marsoutpost)
 "lqh" = (
 /turf/unsimulated/wall/auto/adventure/shuttle{
 	opacity = 0
@@ -71338,26 +71280,19 @@
 	dir = 8
 	},
 /area/centcom)
-"lsi" = (
-/obj/machinery/door/airlock/pyro/external{
-	dir = 4;
-	name = "Cavern Airlock"
+"lrt" = (
+/obj/landmark{
+	name = "telesci"
 	},
-/turf/unsimulated/floor,
-/area/iomoon/base/underground)
+/obj/machinery/light/runway_light{
+	name = "landing light"
+	},
+/turf/unsimulated/iomoon/plating,
+/area/iomoon)
 "ltz" = (
 /obj/magicmirror,
 /turf/unsimulated/wall/auto/supernorn/wood,
 /area/wizard_station)
-"ltO" = (
-/obj/stool/bed,
-/obj/item/clothing/suit/bedsheet,
-/obj/item/clothing/under/gimmick/snazza,
-/turf/unsimulated/floor/carpet{
-	dir = 10;
-	icon_state = "fred2"
-	},
-/area/solarium)
 "luV" = (
 /obj/indestructible/shuttle_corner{
 	dir = 6;
@@ -71454,6 +71389,16 @@
 	icon_state = "floor2"
 	},
 /area/shuttle/merchant_shuttle/diner_centcom)
+"lFO" = (
+/obj/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/unsimulated/floor{
+	icon_state = "floor"
+	},
+/area/iomoon/base)
 "lGN" = (
 /turf/unsimulated/floor/void/channel,
 /area/adventure/channel)
@@ -71465,6 +71410,33 @@
 	},
 /turf/unsimulated/floor/lava,
 /area/iomoon)
+"lKb" = (
+/obj/grille/catwalk{
+	dir = 10;
+	icon_state = "catwalk_cross"
+	},
+/obj/map/light/lava,
+/turf/unsimulated/floor/lava{
+	deadly = 0;
+	temperature = 372.15
+	},
+/turf/unsimulated/floor{
+	carbon_dioxide = 20;
+	dir = 10;
+	icon_state = "catwalk";
+	name = "hot catwalk support";
+	temperature = 372.15
+	},
+/area/iomoon)
+"lLh" = (
+/obj/decal/fakeobjects/pipe{
+	dir = 4
+	},
+/obj/machinery/light/small/iomoon{
+	dir = 1
+	},
+/turf/unsimulated/floor,
+/area/iomoon/base)
 "lLo" = (
 /turf/unsimulated/floor/shuttle{
 	icon_state = "floor2"
@@ -71483,11 +71455,12 @@
 	},
 /turf/unsimulated/floor/carpet/red/fancy/narrow/northsouth,
 /area/centcom/offices/sovexe)
-"lOY" = (
-/turf/unsimulated/grasstodirt{
-	dir = 6
+"lOs" = (
+/obj/decal/fakeobjects/tallsmes,
+/turf/unsimulated/floor{
+	icon_state = "floor"
 	},
-/area/hospital/somewhere)
+/area/iomoon/base)
 "lPg" = (
 /obj/table/auto,
 /obj/item/paper{
@@ -71496,6 +71469,15 @@
 	},
 /turf/unsimulated/floor,
 /area/meat_derelict/guts)
+"lPz" = (
+/obj/machinery/light/small{
+	dir = 1;
+	status = 2
+	},
+/turf/unsimulated/floor{
+	icon_state = "floor"
+	},
+/area/iomoon/base)
 "lPG" = (
 /obj/map/light/lava,
 /obj/indestructible/shuttle_corner{
@@ -71532,34 +71514,12 @@
 /obj/item/reagent_containers/food/drinks/milk/rancid,
 /turf/unsimulated/floor/white/grime,
 /area/crypt/sigma/kitchen)
-"lUr" = (
-/turf/unsimulated/floor/red/side,
-/area/iomoon/base)
 "lUK" = (
 /obj/decal/fakeobjects/dreambeach/seashells,
 /turf/unsimulated/floor/dream/beach{
 	icon_state = "beach-0"
 	},
 /area/titlescreen)
-"lUT" = (
-/obj/storage/closet,
-/turf/unsimulated/floor/grime,
-/area/iomoon/base)
-"lVd" = (
-/obj/grille/catwalk,
-/obj/map/light/lava,
-/turf/unsimulated/floor/lava{
-	deadly = 0;
-	temperature = 372.15
-	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 16;
-	dir = 1;
-	icon_state = "catwalk_narrow";
-	name = "warm catwalk support";
-	temperature = 372.15
-	},
-/area/iomoon)
 "lWe" = (
 /turf/unsimulated/wall/auto/lead/blue,
 /area/centcom/garden)
@@ -71599,18 +71559,6 @@
 	},
 /turf/unsimulated/wall/auto/lead/blue,
 /area/upper_arctic/pod2)
-"mbP" = (
-/obj/decal/fakeobjects/firelock_broken{
-	dir = 8;
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "fdoor0"
-	},
-/obj/machinery/door/airlock/pyro/external{
-	dir = 4;
-	name = "Surface Airlock"
-	},
-/turf/unsimulated/floor,
-/area/iomoon/base)
 "mcq" = (
 /obj/securearea{
 	desc = "";
@@ -71629,35 +71577,40 @@
 /obj/table/wood/auto/desk/lily,
 /turf/unsimulated/floor/carpet/purple/fancy/narrow/ne,
 /area/centcom/offices/rodney)
+"mfh" = (
+/obj/decal/fakeobjects/firelock_broken,
+/obj/decal/fakeobjects/firelock_broken{
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "fdoor0"
+	},
+/turf/unsimulated/floor,
+/area/iomoon/base)
 "mfw" = (
 /obj/machinery/vending/meat/prefab_grill,
 /turf/unsimulated/floor/setpieces/bloodfloor{
 	icon_state = "bloodfloor_3"
 	},
 /area/meat_derelict/guts)
-"mgl" = (
-/obj/decal/cleanable/dirt,
-/obj/item/crowbar,
-/obj/storage/secure/closet/civilian/janitor{
-	locked = 0;
-	spawn_contents = list(/obj/item/clothing/shoes/galoshes, /obj/item/reagent_containers/glass/bottle/cleaner = 2, /obj/item/reagent_containers/glass/bottle/acetone/janitors = 1, /obj/item/reagent_containers/glass/bottle/ammonia/janitors = 1, /obj/item/device/light/flashlight, /obj/item/caution = 4)
+"mgt" = (
+/obj/grassplug{
+	dir = 8
 	},
-/obj/item/mop/old,
-/obj/item/sponge,
-/obj/item/chem_grenade/cleaner,
-/obj/item/spraybottle/cleaner/tsunami,
-/obj/machinery/shower{
-	dir = 1;
-	pixel_y = 20
+/turf/unsimulated/grasstodirt{
+	dir = 1
 	},
-/obj/decal/cleanable/writing{
-	desc = "Someone's scratched something here.";
-	name = "scratchy writing";
-	pixel_y = 26;
-	words = "Sooner or later, i'm getting off Gehenna. Dead or alive. Sooner or later. Dead or alive."
+/area/hospital/somewhere)
+"mgH" = (
+/turf/unsimulated/floor/caution/west,
+/area/iomoon/base/underground)
+"mgP" = (
+/obj/decal/fakeobjects/firelock_broken{
+	desc = "Rust has rendered this airlock useless.";
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "generic_open";
+	name = "rusted airlock"
 	},
-/turf/unsimulated/floor/plating,
-/area/afterlife/bar)
+/turf/unsimulated/floor/grime,
+/area/marsoutpost)
 "mhv" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -71676,6 +71629,23 @@
 /obj/storage/closet/office,
 /turf/unsimulated/floor/wood/two,
 /area/afterlife/bar)
+"mjK" = (
+/obj/decal/fakeobjects{
+	anchored = 1;
+	density = 1;
+	desc = "It's some sort of power plant control doodad of some sort.  Probably.";
+	icon = 'icons/obj/networked.dmi';
+	icon_state = "pathmanip-p";
+	name = "strange machine"
+	},
+/obj/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/turf/unsimulated/floor/purple/side{
+	dir = 9
+	},
+/area/iomoon/base)
 "mkm" = (
 /obj/machinery/chem_dispenser/soda,
 /turf/unsimulated/outdoors/grass,
@@ -71691,38 +71661,24 @@
 	name = "sand"
 	},
 /area/centcom/offices/enakai)
-"mmK" = (
-/obj/grille/catwalk,
-/turf/unsimulated/floor/lava{
-	deadly = 0;
-	temperature = 372.15
+"mnl" = (
+/obj/securearea{
+	desc = "A warning sign which reads 'Fire Hazard'";
+	icon_state = "fire";
+	layer = 2.5;
+	name = "FIRE HAZARD"
 	},
-/turf/unsimulated/floor{
-	dir = 1;
-	icon_state = "catwalk";
-	name = "catwalk support"
-	},
-/area/iomoon)
+/turf/unsimulated/wall/auto/lead/gray,
+/area/iomoon/base)
 "moj" = (
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/eggsplat,
 /turf/unsimulated/outdoors/grass,
 /area/diner/cow)
-"moq" = (
-/obj/decal/fakeobjects/skeleton{
-	desc = "The partially decomposed corpse of some poor chump.";
-	icon = 'icons/misc/hstation.dmi';
-	icon_state = "body3";
-	name = "corpse"
-	},
-/obj/decal/cleanable/vomit{
-	desc = "Someone lost their lunch.  A long time ago.";
-	name = "dried vomit"
-	},
-/turf/unsimulated/floor/purple/side{
-	dir = 4
-	},
-/area/iomoon/base)
+"mpB" = (
+/obj/item/clothing/under/gimmick/blackstronaut,
+/turf/unsimulated/floor,
+/area/meat_derelict/entry)
 "mpC" = (
 /turf/unsimulated/floor/carpet/purple/fancy/edge/east,
 /area/centcom/offices/virvatuli)
@@ -71742,32 +71698,6 @@
 	icon_state = "floor"
 	},
 /area/centcom/lounge)
-"mvO" = (
-/obj/decal/fakeobjects/pipe{
-	dir = 1
-	},
-/obj/decal/cleanable/blood/splatter{
-	icon_state = "floor4"
-	},
-/obj/decal/fakeobjects/skeleton{
-	desc = "50% of a rotten corpse.";
-	dir = 8;
-	icon = 'icons/misc/hstation.dmi';
-	icon_state = "body5";
-	name = "pair of legs";
-	pixel_x = 14
-	},
-/obj/decal/fakeobjects{
-	anchored = 1;
-	desc = "Like conventional cables, but more burly.";
-	dir = 4;
-	icon = 'icons/obj/power_cond.dmi';
-	icon_state = "conduit";
-	layer = 2.5;
-	name = "power conduit"
-	},
-/turf/unsimulated/floor,
-/area/iomoon/base/underground)
 "mvU" = (
 /obj/admin_plaque{
 	desc = "a nameplate signifying who this office belongs to.";
@@ -71791,6 +71721,14 @@
 /area/centcom/offices{
 	icon_state = "blue"
 	})
+"mxv" = (
+/obj/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/unsimulated/wall/auto/lead/gray,
+/area/iomoon/base)
 "mzt" = (
 /obj/stove,
 /obj/item/soup_pot,
@@ -71800,6 +71738,22 @@
 "mAM" = (
 /turf/unsimulated/floor/carpet/red/standard,
 /area/centcom/offices/questx)
+"mCb" = (
+/obj/overlay{
+	desc = "It seems to be rusted open.";
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "eng_open";
+	layer = 6;
+	name = "broken door"
+	},
+/obj/decal/fakeobjects/firelock_broken{
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "fdoor0"
+	},
+/turf/unsimulated/floor{
+	icon_state = "floor"
+	},
+/area/iomoon/base/underground)
 "mDg" = (
 /obj/stool/bar,
 /turf/unsimulated/floor/carpet{
@@ -71826,13 +71780,6 @@
 	icon_state = "floor"
 	},
 /area/centcom)
-"mIc" = (
-/obj/machinery/door/unpowered/wood{
-	autoclose = 0;
-	dir = 8
-	},
-/turf/unsimulated/floor/carpet/arcade,
-/area/sim/racing_entry)
 "mIm" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -71881,19 +71828,6 @@
 /obj/decal/fakeobjects/dreambeach/stones,
 /turf/unsimulated/floor/dream/beach,
 /area/titlescreen)
-"mPz" = (
-/obj/decal/fakeobjects/pipe{
-	dir = 4
-	},
-/obj/decal/fakeobjects/pipe{
-	desc = "It seems to be broken.";
-	dir = 4;
-	icon = 'icons/obj/pipe-item.dmi';
-	icon_state = "meter";
-	name = "meter"
-	},
-/turf/unsimulated/floor,
-/area/iomoon/base)
 "mPW" = (
 /obj/loudspeaker{
 	desc = "This could probably cause an earthquake.";
@@ -71916,21 +71850,10 @@
 /area/centcom/offices{
 	icon_state = "blue"
 	})
-"mUR" = (
-/turf/unsimulated/floor/purple/side{
-	dir = 4
-	},
-/area/iomoon/base)
 "mVb" = (
 /obj/wingrille_spawn/auto,
 /turf/unsimulated/floor/plating,
 /area/shuttle/merchant_shuttle/diner_centcom)
-"mVl" = (
-/obj/rack,
-/obj/item/storage/toolbox/emergency,
-/obj/item/crowbar,
-/turf/unsimulated/floor,
-/area/iomoon/base)
 "mWP" = (
 /obj/machinery/light/emergency{
 	dir = 8
@@ -71960,24 +71883,6 @@
 /obj/map/light/green,
 /turf/unsimulated/floor/setpieces/swampgrass,
 /area/centcom/offices/tterc)
-"mZu" = (
-/obj/decal/fakeobjects/firelock_broken{
-	dir = 8;
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "fdoor0"
-	},
-/obj/overlay{
-	desc = "You could probably squeeze through.";
-	dir = 4;
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "generic_open";
-	layer = 6;
-	name = "broken door"
-	},
-/turf/unsimulated/floor/orangeblack/side{
-	dir = 8
-	},
-/area/crunch)
 "mZx" = (
 /turf/unsimulated/floor/arrival{
 	dir = 4
@@ -71994,12 +71899,6 @@
 	},
 /turf/unsimulated/floor/void/channel,
 /area/adventure/channel/teleport)
-"mZP" = (
-/obj/machinery/light/runway_light{
-	name = "landing light"
-	},
-/turf/unsimulated/iomoon/plating,
-/area/iomoon)
 "mZZ" = (
 /turf/unsimulated/floor/wood/eight{
 	dir = 4
@@ -72014,29 +71913,23 @@
 	icon_state = "floor2"
 	},
 /area/shuttle/merchant_shuttle/right_centcom/donut2)
+"naX" = (
+/obj/machinery/door/airlock/pyro{
+	desc = "What kind of HORRIBLE THINGS could LURK in here???";
+	frequency = 1499;
+	icon_state = "generic_locked";
+	locked = 1;
+	name = "Meat Locker";
+	radiorange = 25;
+	tag = "hospital_freezer"
+	},
+/turf/unsimulated/floor/specialroom/freezer,
+/area/hospital)
 "nbb" = (
 /turf/unsimulated/floor/dream/beach{
 	icon_state = "shore-4"
 	},
 /area/titlescreen)
-"nbu" = (
-/obj/grille/catwalk{
-	dir = 5;
-	icon_state = "catwalk_cross"
-	},
-/obj/map/light/lava,
-/turf/unsimulated/floor/lava{
-	deadly = 0;
-	temperature = 372.15
-	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 16;
-	dir = 1;
-	icon_state = "catwalk_cross";
-	name = "toasty catwalk support";
-	temperature = 372.15
-	},
-/area/iomoon)
 "nbB" = (
 /obj/securearea{
 	desc = "A warning sign which reads 'Fire Hazard'";
@@ -72046,26 +71939,22 @@
 	},
 /turf/unsimulated/wall/auto/lead/gray,
 /area/iomoon/base/underground)
+"ndG" = (
+/obj/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/item/pen{
+	desc = "It's a normal black ink pen. Looks like it has been chewed on."
+	},
+/turf/unsimulated/floor{
+	icon_state = "floor"
+	},
+/area/iomoon/base)
 "ney" = (
 /turf/unsimulated/floor/arrival/corner,
 /area/centcom)
-"nfh" = (
-/obj/grille/catwalk{
-	dir = 9
-	},
-/obj/map/light/lava,
-/turf/unsimulated/floor/lava{
-	deadly = 0;
-	temperature = 372.15
-	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 20;
-	dir = 8;
-	icon_state = "catwalk_cross";
-	name = "hot catwalk support";
-	temperature = 372.15
-	},
-/area/iomoon)
 "ngk" = (
 /obj/map/light/graveyard,
 /obj/tombstone/memorial{
@@ -72091,6 +71980,16 @@
 	dir = 4
 	},
 /area/centcom/offices/adhara)
+"nhC" = (
+/obj/decal/fakeobjects/firelock_broken{
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "fdoor0"
+	},
+/obj/machinery/door/airlock/pyro/glass,
+/turf/unsimulated/floor{
+	icon_state = "floor"
+	},
+/area/iomoon/base)
 "njo" = (
 /turf/unsimulated/floor/stairs/dark,
 /area/centcom/offices/enakai)
@@ -72105,15 +72004,6 @@
 	},
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/mrfishstick)
-"nmV" = (
-/obj/machinery/door/unpowered/wood/stall{
-	lock_dir = 8;
-	dir = 4
-	},
-/turf/unsimulated/floor/specialroom/freezer,
-/area/centcom/offices{
-	icon_state = "blue"
-	})
 "nnS" = (
 /obj/decal/fakeobjects/teleport_pad,
 /obj/marker/supplymarker,
@@ -72189,6 +72079,13 @@
 "nuo" = (
 /turf/unsimulated/wall/auto/lead/gray,
 /area/crypt/sigma)
+"nuu" = (
+/obj/table/auto,
+/obj/item/instrument/harmonica,
+/turf/unsimulated/floor{
+	icon_state = "floor"
+	},
+/area/iomoon/base/underground)
 "nvp" = (
 /obj/storage/crate/bin{
 	desc = "She'll get around to these. Eventually...";
@@ -72264,14 +72161,6 @@
 	},
 /turf/unsimulated/outdoors/grass,
 /area/shuttle/merchant_shuttle/right_centcom/destiny)
-"nwP" = (
-/obj/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/unsimulated/wall/auto/lead/gray,
-/area/iomoon/base)
 "nxw" = (
 /obj/table/reinforced/bar/auto,
 /obj/deskclutter{
@@ -72285,6 +72174,25 @@
 	},
 /turf/unsimulated/outdoors/grass,
 /area/diner/cow)
+"nya" = (
+/obj/decal/fakeobjects/pipe{
+	desc = "It is not working.";
+	dir = 1;
+	icon = 'icons/obj/atmospherics/pump.dmi';
+	icon_state = "intact_off";
+	name = "pump"
+	},
+/obj/decal/fakeobjects{
+	anchored = 1;
+	desc = "Like conventional cables, but more burly.";
+	dir = 4;
+	icon = 'icons/obj/power_cond.dmi';
+	icon_state = "conduit";
+	layer = 2.5;
+	name = "power conduit"
+	},
+/turf/unsimulated/floor,
+/area/iomoon/base/underground)
 "nyz" = (
 /obj/decal/fakeobjects/dreambeach/big/palm1,
 /turf/unsimulated/floor/dream/beach,
@@ -72325,10 +72233,6 @@
 	},
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/efrem)
-"nHn" = (
-/obj/decal/fakeobjects/pipe,
-/turf/unsimulated/floor,
-/area/iomoon/base)
 "nIe" = (
 /obj/stool/chair,
 /turf/unsimulated/floor/carpet{
@@ -72494,11 +72398,35 @@
 "nTj" = (
 /turf/unsimulated/floor/carpet/red/fancy/narrow/se,
 /area/centcom/offices/sovexe)
+"nTC" = (
+/obj/overlay{
+	density = 1;
+	desc = "It wont budge.";
+	dir = 4;
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "generic_closed";
+	layer = 6;
+	name = "broken door";
+	opacity = 1
+	},
+/turf/unsimulated/floor{
+	carbon_dioxide = 16;
+	name = "warm plating";
+	temperature = 313.15
+	},
+/area/iomoon)
 "nUK" = (
 /turf/unsimulated/floor/dream/beach{
 	icon_state = "shore-3"
 	},
 /area/titlescreen)
+"nVj" = (
+/turf/unsimulated/wall{
+	icon = 'icons/turf/shuttle.dmi';
+	icon_state = "door1";
+	name = "broken door"
+	},
+/area/hospital/samostrel)
 "nWE" = (
 /obj/item/storage/photo_album{
 	desc = "Wow! A lot of these are permanent! Like, a lot!";
@@ -72525,19 +72453,6 @@
 /area/centcom/offices{
 	icon_state = "blue"
 	})
-"nYr" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
-	},
-/turf/unsimulated/floor/setpieces/swampgrass,
-/area/centcom/offices/tterc)
-"nYO" = (
-/turf/unsimulated/grasstodirt{
-	dir = 9
-	},
-/area/hospital/somewhere)
 "nYR" = (
 /obj/map/light/graveyard,
 /obj/tombstone/memorial{
@@ -72549,13 +72464,6 @@
 	dir = 1
 	},
 /area/crypt/graveyard)
-"nZG" = (
-/obj/item/storage/secure/ssafe/loot{
-	pixel_x = 6;
-	pixel_y = -28
-	},
-/turf/unsimulated/floor/carpet/grime,
-/area/iomoon/base)
 "oad" = (
 /obj/map/light/graveyard,
 /obj/tombstone/memorial{
@@ -72566,15 +72474,6 @@
 	dir = 1
 	},
 /area/crypt/graveyard)
-"oaQ" = (
-/obj/decal/fakeobjects/skeleton{
-	desc = "The burnt remains of some poor sod.";
-	icon = 'icons/misc/hstation.dmi';
-	icon_state = "body4";
-	name = "crispy corpse"
-	},
-/turf/unsimulated/floor/plating/scorched,
-/area/iomoon/base/underground)
 "oaR" = (
 /obj/rack,
 /obj/item/clothing/head/frog_hat{
@@ -72586,14 +72485,21 @@
 	},
 /turf/unsimulated/floor/wood/five,
 /area/centcom/offices/tterc)
-"odj" = (
-/obj/storage/closet/iomoon,
+"obq" = (
+/obj/grille/catwalk{
+	dir = 6
+	},
+/turf/unsimulated/iomoon/floor{
+	dir = 6;
+	icon_state = "iocrust_edge"
+	},
 /turf/unsimulated/floor{
 	carbon_dioxide = 16;
-	name = "warm plating";
-	temperature = 313.15
+	icon_state = "catwalk_cross";
+	name = "hot catwalk support";
+	temperature = 372.15
 	},
-/area/iomoon/base)
+/area/iomoon)
 "ogV" = (
 /obj/landmark/spawner{
 	name = "monkeyspawn_syndicate"
@@ -72634,6 +72540,14 @@
 "okJ" = (
 /turf/unsimulated/floor/plating/random,
 /area/syndicate_station/battlecruiser)
+"omv" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
+	dir = 4
+	},
+/turf/unsimulated/floor/black,
+/area/centcom/offices/hufflaw)
 "onw" = (
 /obj/indestructible/shuttle_corner{
 	dir = 8;
@@ -72643,23 +72557,12 @@
 	icon_state = "floor2"
 	},
 /area/shuttle/merchant_shuttle/left_centcom/cogmap2)
-"ooI" = (
-/obj/grille/catwalk{
-	dir = 6;
-	icon_state = "catwalk_cross"
-	},
-/turf/unsimulated/floor/lava{
-	deadly = 0;
-	temperature = 372.15
-	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 16;
-	dir = 6;
-	icon_state = "catwalk";
-	name = "warm catwalk support";
-	temperature = 372.15
-	},
-/area/iomoon)
+"onT" = (
+/obj/rack,
+/obj/item/storage/toolbox/emergency,
+/obj/item/crowbar,
+/turf/unsimulated/floor,
+/area/iomoon/base)
 "ooX" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -72677,13 +72580,11 @@
 	icon_state = "floor2"
 	},
 /area/shuttle/merchant_shuttle/right_centcom/donut2)
-"opj" = (
-/obj/cable{
-	icon_state = "4-8"
+"orl" = (
+/obj/ladder{
+	id = "iomoon"
 	},
-/turf/unsimulated/floor/carpet{
-	icon_state = "fred1"
-	},
+/turf/unsimulated/floor,
 /area/iomoon/base)
 "orM" = (
 /obj/decal/fakeobjects/pipe{
@@ -72699,20 +72600,6 @@
 "osO" = (
 /turf/unsimulated/floor/carpet/office/other,
 /area/centcom/offices/adhara)
-"otA" = (
-/obj/stone{
-	dir = 4
-	},
-/turf/unsimulated/floor/grass/leafy,
-/area/hospital/somewhere)
-"otB" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 8
-	},
-/turf/unsimulated/floor/wood/two,
-/area/centcom/offices/mrfishstick)
 "otN" = (
 /obj/machinery/light/small/floor{
 	layer = null
@@ -72754,24 +72641,27 @@
 /obj/item/reagent_containers/food/snacks/condiment/chocchips,
 /turf/unsimulated/floor/void,
 /area/diner/cow)
-"oxh" = (
-/obj/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
-/obj/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/unsimulated/floor{
-	icon_state = "floor"
-	},
-/area/iomoon/base)
 "ozw" = (
 /turf/unsimulated/floor/dream/beach,
 /area/titlescreen)
+"ozN" = (
+/obj/grille/catwalk{
+	dir = 6;
+	icon_state = "catwalk_cross"
+	},
+/obj/map/light/lava,
+/turf/unsimulated/floor/lava{
+	deadly = 0;
+	temperature = 372.15
+	},
+/turf/unsimulated/floor{
+	carbon_dioxide = 16;
+	dir = 6;
+	icon_state = "catwalk";
+	name = "warm catwalk support";
+	temperature = 372.15
+	},
+/area/iomoon)
 "ozT" = (
 /obj/machinery/computer3/terminal{
 	desc = "A computer for controlling the laser-designated artillery cannon aboard the Cairngorm.";
@@ -72786,16 +72676,6 @@
 	},
 /turf/unsimulated/outdoors/grass,
 /area/diner/cow)
-"oCd" = (
-/obj/table/auto,
-/obj/item/paper_bin,
-/turf/unsimulated/floor{
-	icon_state = "floor"
-	},
-/area/iomoon/base)
-"oEt" = (
-/turf/unsimulated/floor/caution/corner/nw,
-/area/iomoon/base)
 "oGk" = (
 /obj/decal/cleanable/sakura{
 	real_name = "sakura petals"
@@ -72836,6 +72716,9 @@
 	dir = 5
 	},
 /area/centcom/offices/varshie)
+"oIN" = (
+/turf/unsimulated/floor/caution/corner/nw,
+/area/iomoon/base)
 "oKo" = (
 /obj/machinery/shuttle/engine/propulsion{
 	dir = 4;
@@ -72843,17 +72726,6 @@
 	},
 /turf/unsimulated/outdoors/grass,
 /area/shuttle/merchant_shuttle/diner_centcom)
-"oLu" = (
-/obj/machinery/door/unpowered/wood{
-	desc = "This heavy door has a more ornate lock than the rest.";
-	locked = 1;
-	name = "old wooden door";
-	dir = 8
-	},
-/turf/unsimulated/floor/setpieces/rootfloor{
-	icon_state = "rootfloor_3"
-	},
-/area/catacombs)
 "oLy" = (
 /obj/indestructible/shuttle_corner{
 	dir = 5;
@@ -72862,26 +72734,6 @@
 	},
 /turf/unsimulated/martian/floor,
 /area/crunch)
-"oNw" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
-	},
-/turf/unsimulated/floor/wood/two,
-/area/centcom/offices/katzen)
-"oNQ" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
-	},
-/turf/unsimulated/floor{
-	icon = 'icons/turf/adventure_gannets.dmi';
-	icon_state = "sand";
-	name = "sand"
-	},
-/area/centcom/offices/enakai)
 "oOy" = (
 /obj/indestructible/shuttle_corner{
 	dir = 4;
@@ -72925,26 +72777,6 @@
 	name = "wood floor"
 	},
 /area/centcom/offices/sord)
-"oRE" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
-	},
-/obj/decal/fakeobjects{
-	anchored = 1;
-	desc = "Exclusively for transporting questions like \"how i pee\".";
-	dir = 4;
-	icon = 'icons/obj/power_cond.dmi';
-	icon_state = "conduit";
-	layer = 2.5;
-	name = "mhelp conduit";
-	tag = "icon-conduit (EAST)"
-	},
-/turf/unsimulated/floor/wood/eight{
-	dir = 4
-	},
-/area/centcom/offices/adhara)
 "oSg" = (
 /obj/indestructible/shuttle_corner{
 	dir = 5;
@@ -73014,25 +72846,9 @@
 /obj/machinery/light,
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/studenterhue)
-"oXQ" = (
-/obj/decal/fakeobjects/pipe{
-	desc = "It is not working.";
-	dir = 1;
-	icon = 'icons/obj/atmospherics/pump.dmi';
-	icon_state = "intact_off";
-	name = "pump"
-	},
-/obj/decal/fakeobjects{
-	anchored = 1;
-	desc = "Like conventional cables, but more burly.";
-	dir = 4;
-	icon = 'icons/obj/power_cond.dmi';
-	icon_state = "conduit";
-	layer = 2.5;
-	name = "power conduit"
-	},
-/turf/unsimulated/floor,
-/area/iomoon/base/underground)
+"oXM" = (
+/turf/unsimulated/dirt,
+/area/hospital/somewhere)
 "oYg" = (
 /obj/stool/bed,
 /obj/item/clothing/suit/bedsheet/blue,
@@ -73052,27 +72868,25 @@
 	dir = 1
 	},
 /area/centcom)
+"oZc" = (
+/turf/unsimulated/grasstodirt{
+	dir = 1
+	},
+/area/hospital/somewhere)
 "oZS" = (
 /obj/machinery/light,
 /obj/table/wood/auto/desk,
 /obj/item/paper/postcard/mushroom,
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/efrem)
-"paF" = (
-/obj/table/auto,
-/obj/item/instrument/harmonica,
-/turf/unsimulated/floor{
-	icon_state = "floor"
-	},
-/area/iomoon/base/underground)
-"pcm" = (
+"paE" = (
 /obj/machinery/door/unpowered/wood{
 	icon = 'icons/obj/doors/door_office.dmi';
 	lock_dir = 8;
 	dir = 4
 	},
 /turf/unsimulated/floor/black,
-/area/centcom/offices/kyle)
+/area/centcom/offices/grayshift)
 "pfF" = (
 /obj/table/reinforced/industrial/auto,
 /obj/machinery/computer3/generic/personal,
@@ -73093,7 +72907,7 @@
 	},
 /turf/unsimulated/floor/minitiles/black,
 /area/centcom/offices/virvatuli)
-"pig" = (
+"php" = (
 /obj/grille/catwalk{
 	dir = 4
 	},
@@ -73103,11 +72917,9 @@
 	temperature = 372.15
 	},
 /turf/unsimulated/floor{
-	carbon_dioxide = 16;
 	dir = 4;
-	icon_state = "catwalk_narrow";
-	name = "heated catwalk support";
-	temperature = 372.15
+	icon_state = "catwalk";
+	name = "catwalk support"
 	},
 /area/iomoon)
 "pkE" = (
@@ -73147,6 +72959,34 @@
 	},
 /turf/unsimulated/floor/carpet/red/decal,
 /area/centcom/offices/grifflez)
+"pls" = (
+/obj/map/light/lava,
+/obj/grille/catwalk{
+	dir = 5
+	},
+/turf/unsimulated/iomoon/floor{
+	dir = 4;
+	icon_state = "iocrust_edge"
+	},
+/turf/unsimulated/floor{
+	dir = 4;
+	icon_state = "catwalk_cross";
+	name = "burning catwalk support";
+	temperature = 372.15
+	},
+/area/iomoon/caves)
+"pmz" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
+	dir = 4
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/adventure_gannets.dmi';
+	icon_state = "sand";
+	name = "sand"
+	},
+/area/centcom/offices/enakai)
 "pmV" = (
 /obj/table/regal/auto,
 /obj/item/reagent_containers/food/drinks/bottle/beer{
@@ -73240,31 +73080,19 @@
 	},
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/studenterhue)
-"pqk" = (
-/obj/decal/fakeobjects/firelock_broken{
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "fdoor0"
-	},
-/obj/overlay{
-	desc = "It seems to be rusted open.";
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "eng_open";
-	layer = 6;
-	name = "broken door"
+"pqF" = (
+/obj/rack,
+/turf/unsimulated/floor/caution/north,
+/area/iomoon/base/underground)
+"prd" = (
+/obj/decal/fakeobjects/pipe{
+	desc = "It is not working.";
+	dir = 4;
+	icon = 'icons/obj/atmospherics/pump.dmi';
+	icon_state = "intact_off";
+	name = "pump"
 	},
 /turf/unsimulated/floor,
-/area/iomoon/base/underground)
-"pqI" = (
-/obj/decal/fakeobjects{
-	anchored = 1;
-	desc = "A vent.  A rather decrepit one, at that.";
-	icon = 'icons/obj/atmospherics/pipe_vent.dmi';
-	icon_state = "hvent";
-	name = "defunct vent"
-	},
-/turf/unsimulated/floor/purple/side{
-	dir = 6
-	},
 /area/iomoon/base)
 "psc" = (
 /obj/stool/chair/comfy/shuttle/red,
@@ -73296,14 +73124,6 @@
 /area/centcom/offices{
 	icon_state = "blue"
 	})
-"ptA" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
-	},
-/turf/unsimulated/floor/wood/two,
-/area/centcom/offices/varshie)
 "ptJ" = (
 /obj/admin_plaque{
 	name = "Mordent's Office"
@@ -73320,22 +73140,23 @@
 	icon_state = "bloodfloor_3"
 	},
 /area/meat_derelict/guts)
-"pyO" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 8
+"pxx" = (
+/obj/map/light/lava,
+/obj/grille/catwalk{
+	dir = 4
 	},
-/turf/unsimulated/floor/wood/two{
-	desc = " It is made of wood.";
-	explosion_protection = 1;
-	explosion_resistance = 1;
-	name = "wood floor";
-	opaque_atom_count = 1
+/turf/unsimulated/floor/lava{
+	deadly = 0;
+	temperature = 372.15
 	},
-/area/centcom/offices{
-	icon_state = "blue"
-	})
+/turf/unsimulated/floor{
+	carbon_dioxide = 16;
+	dir = 4;
+	icon_state = "catwalk_narrow";
+	name = "heated catwalk support";
+	temperature = 372.15
+	},
+/area/iomoon/caves)
 "pyP" = (
 /obj/table/reinforced/auto,
 /obj/item/storage/box/glassbox,
@@ -73347,39 +73168,6 @@
 	},
 /turf/unsimulated/outdoors/grass,
 /area/diner/cow)
-"pzk" = (
-/obj/decal/fakeobjects/pipe{
-	desc = "It won't budge.";
-	icon = 'icons/obj/pipe-item.dmi';
-	icon_state = "valve";
-	name = "rusted valve"
-	},
-/obj/decal/fakeobjects{
-	anchored = 1;
-	desc = "Like conventional cables, but more burly.";
-	dir = 10;
-	icon = 'icons/obj/power_cond.dmi';
-	icon_state = "conduit";
-	layer = 2.5;
-	name = "power conduit"
-	},
-/turf/unsimulated/floor,
-/area/iomoon/base/underground)
-"pAq" = (
-/obj/decal/fakeobjects/firelock_broken{
-	dir = 4;
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "fdoor0"
-	},
-/obj/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/unsimulated/floor{
-	icon_state = "floor"
-	},
-/area/iomoon/base)
 "pAL" = (
 /obj/decal/aliencomputer{
 	desc = "This appears to be some sort of martian computer. A broken one, at that.";
@@ -73490,6 +73278,14 @@
 	},
 /turf/unsimulated/wall/auto/lead/gray,
 /area/sim/bball)
+"pMx" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
+	dir = 8
+	},
+/turf/unsimulated/floor/wood/two,
+/area/centcom/offices/mrfishstick)
 "pNh" = (
 /obj/item/reagent_containers/food/snacks/plant/glowfruit/spawnable{
 	pixel_x = -11;
@@ -73539,12 +73335,34 @@
 /obj/item/reagent_containers/food/drinks/drinkingglass/cocktail,
 /turf/unsimulated/floor/caution/north,
 /area/centcom/offices/azrun)
+"pOm" = (
+/obj/overlay{
+	density = 1;
+	desc = "It wont budge.";
+	dir = 4;
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "generic_closed";
+	layer = 6;
+	name = "broken door";
+	opacity = 1
+	},
+/turf/unsimulated/floor/blue/checker,
+/area/crunch)
 "pPI" = (
 /obj/table/reinforced/auto,
 /turf/unsimulated/floor/shuttle{
 	icon_state = "floor2"
 	},
 /area/shuttle/battle)
+"pPJ" = (
+/obj/stool/bed,
+/obj/item/clothing/suit/bedsheet,
+/obj/item/clothing/under/gimmick/snazza,
+/turf/unsimulated/floor/carpet{
+	dir = 10;
+	icon_state = "fred2"
+	},
+/area/solarium)
 "pPX" = (
 /turf/unsimulated/floor/wood/six,
 /area/centcom/offices/rodney)
@@ -73578,11 +73396,6 @@
 	icon_state = "shore-16"
 	},
 /area/titlescreen)
-"pTM" = (
-/turf/unsimulated/grasstodirt{
-	dir = 10
-	},
-/area/hospital/somewhere)
 "pVL" = (
 /turf/unsimulated/floor/dream/beach{
 	icon_state = "shore-9"
@@ -73614,40 +73427,11 @@
 	},
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/studenterhue)
-"pWk" = (
-/obj/grille/catwalk,
-/turf/unsimulated/floor/lava{
-	deadly = 0;
-	temperature = 372.15
-	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 16;
-	dir = 1;
-	icon_state = "catwalk_narrow";
-	name = "warm catwalk support";
-	temperature = 372.15
-	},
-/area/iomoon)
 "pWB" = (
 /turf/unsimulated/floor/arrival{
 	dir = 1
 	},
 /area/centcom)
-"pWC" = (
-/obj/grille/catwalk{
-	dir = 5
-	},
-/turf/unsimulated/iomoon/floor{
-	dir = 4;
-	icon_state = "iocrust_edge"
-	},
-/turf/unsimulated/floor{
-	dir = 4;
-	icon_state = "catwalk_cross";
-	name = "burning catwalk support";
-	temperature = 372.15
-	},
-/area/iomoon)
 "pXI" = (
 /turf/simulated/shuttle/wall{
 	dir = 8;
@@ -73670,22 +73454,6 @@
 	},
 /turf/unsimulated/floor/carpet/purple/fancy/edge/east,
 /area/centcom/offices/virvatuli)
-"pZH" = (
-/obj/grille/catwalk{
-	dir = 4
-	},
-/turf/unsimulated/floor/lava{
-	deadly = 0;
-	temperature = 372.15
-	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 16;
-	dir = 4;
-	icon_state = "catwalk_narrow";
-	name = "heated catwalk support";
-	temperature = 372.15
-	},
-/area/iomoon)
 "qan" = (
 /obj/indestructible/shuttle_corner{
 	icon_state = "wall3_trans"
@@ -73700,6 +73468,26 @@
 	icon_state = "floor"
 	},
 /area/centcom/lounge)
+"qbg" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
+	dir = 4
+	},
+/obj/decal/fakeobjects{
+	anchored = 1;
+	desc = "Exclusively for transporting questions like \"how i pee\".";
+	dir = 4;
+	icon = 'icons/obj/power_cond.dmi';
+	icon_state = "conduit";
+	layer = 2.5;
+	name = "mhelp conduit";
+	tag = "icon-conduit (EAST)"
+	},
+/turf/unsimulated/floor/wood/eight{
+	dir = 4
+	},
+/area/centcom/offices/adhara)
 "qbO" = (
 /obj/disposalpipe/segment,
 /turf/unsimulated/wall/auto/lead/gray,
@@ -73739,26 +73527,10 @@
 	opacity = 0
 	},
 /area/titlescreen)
-"qhc" = (
-/obj/grille/catwalk,
-/obj/map/light/lava,
-/turf/unsimulated/floor/lava{
-	deadly = 0;
-	temperature = 372.15
-	},
-/turf/unsimulated/floor{
-	icon_state = "catwalk";
-	name = "catwalk support"
-	},
-/area/iomoon)
 "qhR" = (
 /obj/wingrille_spawn/auto,
 /turf/unsimulated/floor/engine,
 /area/shuttle/merchant_shuttle/left_centcom/cogmap2)
-"qiM" = (
-/obj/rack,
-/turf/unsimulated/floor/caution/north,
-/area/iomoon/base/underground)
 "qjb" = (
 /obj/item/clothing/under/misc/flame_purple,
 /turf/unsimulated/floor{
@@ -73781,6 +73553,23 @@
 	dir = 1
 	},
 /area/crypt/sigma/morgue)
+"qnn" = (
+/obj/grille/catwalk{
+	dir = 1;
+	icon_state = "catwalk_cross"
+	},
+/obj/map/light/lava,
+/turf/unsimulated/floor/lava{
+	deadly = 0;
+	temperature = 372.15
+	},
+/turf/unsimulated/floor{
+	carbon_dioxide = 16;
+	icon_state = "catwalk_cross";
+	name = "hot catwalk support";
+	temperature = 372.15
+	},
+/area/iomoon)
 "qoB" = (
 /obj/storage/closet/dresser,
 /obj/item/clothing/under/suit/hos/dress{
@@ -73803,20 +73592,20 @@
 /obj/wingrille_spawn/auto,
 /turf/unsimulated/floor/engine,
 /area/shuttle/merchant_shuttle/diner_centcom)
-"qsS" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
-	},
-/turf/unsimulated/floor/black,
-/area/centcom/offices/shotgunbill)
 "qtB" = (
 /obj/lattice,
 /obj/table/reinforced/auto,
 /obj/machinery/microwave,
 /turf/unsimulated/floor/void,
 /area/diner/cow)
+"qvB" = (
+/obj/decal/fakeobjects/lightbulb_broken,
+/turf/unsimulated/floor{
+	carbon_dioxide = 16;
+	name = "warm plating";
+	temperature = 313.15
+	},
+/area/iomoon/base)
 "qvY" = (
 /obj/decal/poster/wallsign/space{
 	pixel_y = -7
@@ -73825,15 +73614,6 @@
 /area/centcom/offices{
 	icon_state = "blue"
 	})
-"qwI" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	locked = 1;
-	dir = 4
-	},
-/turf/unsimulated/floor/wood/two,
-/area/centcom/offices/cogwerks)
 "qwW" = (
 /obj/table/reinforced/auto,
 /obj/item/reagent_containers/food/snacks/burger/plague/fishstick{
@@ -73842,6 +73622,29 @@
 	},
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/mrfishstick)
+"qxj" = (
+/obj/decal/fakeobjects/firelock_broken{
+	dir = 4;
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "fdoor0"
+	},
+/obj/machinery/door/airlock/pyro/external{
+	dir = 4;
+	name = "Surface Airlock"
+	},
+/turf/unsimulated/floor,
+/area/iomoon/base)
+"qAF" = (
+/obj/cable{
+	icon_state = "1-2"
+	},
+/obj/cable{
+	icon_state = "1-4"
+	},
+/turf/unsimulated/floor/carpet{
+	icon_state = "fred1"
+	},
+/area/iomoon/base)
 "qBZ" = (
 /obj/table/wood/round/auto,
 /turf/unsimulated/floor{
@@ -73859,6 +73662,19 @@
 	},
 /turf/unsimulated/wall/auto/lead/gray,
 /area/iomoon/base/underground)
+"qCN" = (
+/obj/table/wood/auto,
+/obj/item/pen,
+/obj/item/pen{
+	desc = "It's a normal black ink pen. Looks like it has been chewed on."
+	},
+/obj/machinery/computer/security/wooden_tv/small{
+	pixel_y = 8
+	},
+/turf/unsimulated/floor/carpet{
+	icon_state = "fred2"
+	},
+/area/sim/area2)
 "qCU" = (
 /obj/wingrille_spawn/auto,
 /turf/unsimulated/floor/shuttle{
@@ -73868,38 +73684,11 @@
 "qDa" = (
 /turf/unsimulated/floor/carpet/red/fancy/narrow/west,
 /area/titlescreen)
-"qEv" = (
-/obj/table/wood/auto,
-/obj/item/device/audio_log/wall_mounted{
-	desc = "A data logging utility represented as an audio logger.";
-	name = "Audiolog"
-	},
-/turf/unsimulated/floor/carpet{
-	dir = 1;
-	icon_state = "fred2"
-	},
-/area/sim/area2)
-"qFi" = (
-/obj/table/auto,
-/obj/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/deskclutter,
-/turf/unsimulated/floor{
-	icon_state = "floor"
-	},
-/area/iomoon/base)
 "qGH" = (
 /obj/table/wood/auto/desk,
 /obj/machinery/computer3/generic/personal/meatland,
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/mrfishstick)
-"qHb" = (
-/obj/tree1,
-/turf/unsimulated/floor/grass/leafy,
-/area/hospital/somewhere)
 "qHA" = (
 /obj/landmark/viscontents_spawn{
 	targetZ = 4
@@ -73954,17 +73743,13 @@
 "qJS" = (
 /turf/unsimulated/wall/auto/lead/blue,
 /area/upper_arctic/comms)
-"qKh" = (
-/turf/unsimulated/grasstodirt{
-	dir = 5
-	},
-/area/hospital/somewhere)
-"qLo" = (
-/obj/machinery/door/unpowered/wood/stall{
+"qKe" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
 	lock_dir = 8;
-	dir = 8
+	dir = 4
 	},
-/turf/unsimulated/floor/specialroom/freezer,
+/turf/unsimulated/floor/wood/two,
 /area/centcom/offices{
 	icon_state = "blue"
 	})
@@ -73988,6 +73773,16 @@
 	dir = 1
 	},
 /area/centcom/offices/cogwerks)
+"qOD" = (
+/obj/decal/fakeobjects/lightbulb_broken{
+	dir = 4
+	},
+/turf/unsimulated/floor{
+	carbon_dioxide = 16;
+	name = "warm plating";
+	temperature = 313.15
+	},
+/area/iomoon/base)
 "qOO" = (
 /obj/decal/fakeobjects/dreambeach/mars,
 /turf/unsimulated/floor/dream/beach,
@@ -74021,14 +73816,53 @@
 	icon_state = "floor2"
 	},
 /area/shuttle/merchant_shuttle/left_centcom/cogmap2)
-"qQZ" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+"qRo" = (
+/obj/item/device/light/glowstick/green_on{
+	pixel_y = -6
 	},
-/turf/unsimulated/floor/black,
-/area/centcom/offices/flourish)
+/obj/storage/secure/closet/fridge{
+	name = "incredible closetfridge"
+	},
+/obj/item/storage/ntso_pouch{
+	desc = "A dump pouch for various security accessories. This one has definitely seen better days.";
+	name = "stained tacticool pouch";
+	pixel_x = 5;
+	pixel_y = -5;
+	spawn_contents = list(/obj/item/handcuffs = 1, /obj/item/old_grenade/energy_concussion = 1, /obj/item/ammo/power_cell/self_charging/potato = 1, /obj/item/reagent_containers/food/snacks/donut/custom/robust = 1, /obj/item/reagent_containers/food/snacks/candy/candyheart)
+	},
+/obj/item/reagent_containers/food/snacks/ingredient/meat/mysterymeat{
+	desc = "Incredibly stinky.";
+	name = "foul-smelling mystery meat";
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/food/snacks/mushroom/psilocybin{
+	desc = "If you were a mycologist, weird fridge mushrooms might seem like a bad idea. But you're not, so chow down!";
+	initial_reagents = list("psilocybin" = 20, "lsd_bee" = 20, "space_drugs" = 20);
+	name = "mystical fun guy";
+	pixel_x = -4;
+	pixel_y = -3
+	},
+/obj/item/clothing/mask/mime{
+	desc = "A mangled mime mask. SUBROSA is written in purple crayon on the reverse side.";
+	name = "chewed-up mime mask";
+	pixel_x = -2;
+	pixel_y = 4
+	},
+/obj/item/clothing/under/scrub/purple{
+	name = "old medical scrubs";
+	pixel_y = 3
+	},
+/obj/item/clothing/suit/security_badge{
+	badge_owner_job = "Head of Security";
+	badge_owner_name = "Elika Zamani";
+	desc = "A damaged Nanotrasen security  badge. It has tiny teeth marks all over it.";
+	name = "scratched security badge";
+	pixel_x = 9;
+	pixel_y = -12
+	},
+/turf/unsimulated/floor/carpet/purple/fancy/innercorner/se,
+/area/centcom/offices/virvatuli)
 "qRA" = (
 /turf/unsimulated/floor/dream/beach{
 	icon_state = "shore-14"
@@ -74049,6 +73883,14 @@
 	},
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
 /area/drone)
+"qVM" = (
+/obj/stool/chair{
+	dir = 1
+	},
+/turf/unsimulated/floor{
+	icon_state = "floor"
+	},
+/area/iomoon/base)
 "qWW" = (
 /obj/table/reinforced/bar/auto{
 	name = "table"
@@ -74065,6 +73907,20 @@
 "qXt" = (
 /turf/unsimulated/floor/arrival,
 /area/centcom)
+"qXw" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
+	dir = 4
+	},
+/turf/unsimulated/floor/black,
+/area/centcom/offices/kyle)
+"qYu" = (
+/obj/cable{
+	icon_state = "1-2"
+	},
+/turf/unsimulated/floor/red/side,
+/area/iomoon/base)
 "qZh" = (
 /obj/table/reinforced/bar/auto,
 /obj/item/plate{
@@ -74076,6 +73932,16 @@
 /obj/item/plant/herb/grass,
 /turf/unsimulated/outdoors/grass,
 /area/diner/cow)
+"qZA" = (
+/turf/unsimulated/grasstodirt{
+	dir = 6
+	},
+/area/hospital/somewhere)
+"qZR" = (
+/obj/decal/fakeobjects/pipe,
+/obj/storage/closet/iomoon,
+/turf/unsimulated/floor,
+/area/iomoon/base/underground)
 "rae" = (
 /obj/decal/fakeobjects{
 	icon = 'icons/turf/walls_iomoon.dmi';
@@ -74084,6 +73950,11 @@
 	},
 /turf/unsimulated/wall/auto/adventure/iomoon/interior,
 /area/iomoon/robot_ruins)
+"rbU" = (
+/turf/unsimulated/grasstodirt{
+	dir = 9
+	},
+/area/hospital/somewhere)
 "rcr" = (
 /obj/machinery/light,
 /obj/rack,
@@ -74102,14 +73973,6 @@
 "rcQ" = (
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/efrem)
-"rdJ" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
-	},
-/turf/unsimulated/floor/caution,
-/area/centcom/offices/studenterhue)
 "rei" = (
 /turf/unsimulated/floor/carpet/purple/fancy/edge/se,
 /area/centcom/offices{
@@ -74119,13 +73982,10 @@
 /obj/grille/steel,
 /turf/unsimulated/floor/plating,
 /area/diner/cow)
-"rfB" = (
-/obj/machinery/light/small/iomoon,
-/obj/rack,
-/obj/item/storage/toolbox/emergency,
-/obj/item/crowbar,
-/turf/unsimulated/floor,
-/area/iomoon/base)
+"rfy" = (
+/obj/tree1,
+/turf/unsimulated/floor/grass/leafy,
+/area/hospital/somewhere)
 "rgr" = (
 /turf/unsimulated/wall/auto/sengoku{
 	icon_state = "12";
@@ -74133,14 +73993,11 @@
 	opacity = 0
 	},
 /area/titlescreen)
-"rgI" = (
-/obj/shrub/dead{
-	dir = 4
+"rib" = (
+/turf/unsimulated/grasstodirt{
+	dir = 5
 	},
-/turf/unsimulated/floor/carpet{
-	icon_state = "fred1"
-	},
-/area/iomoon/base)
+/area/hospital/somewhere)
 "rih" = (
 /obj/tombstone{
 	dir = 10
@@ -74183,21 +74040,6 @@
 	},
 /turf/unsimulated/outdoors/grass,
 /area/diner/cow)
-"rjn" = (
-/turf/unsimulated/wall{
-	icon = 'icons/turf/shuttle.dmi';
-	icon_state = "door1";
-	name = "broken door"
-	},
-/area/hospital/samostrel)
-"rjO" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
-	},
-/turf/unsimulated/floor/black,
-/area/centcom/offices/darkchis)
 "rlN" = (
 /obj/submachine/claw_machine,
 /turf/unsimulated/floor/wood/two,
@@ -74212,23 +74054,14 @@
 	icon_state = "floor3"
 	},
 /area/hospital/samostrel)
-"rnI" = (
-/obj/decal/fakeobjects{
-	anchored = 1;
-	density = 1;
-	desc = "It's some sort of power plant control doodad of some sort.  Probably.";
-	icon = 'icons/obj/networked.dmi';
-	icon_state = "pathmanip-p";
-	name = "strange machine"
+"ros" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
+	dir = 4
 	},
-/obj/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/turf/unsimulated/floor/purple/side{
-	dir = 9
-	},
-/area/iomoon/base)
+/turf/unsimulated/floor/black,
+/area/centcom/offices/aibm)
 "rou" = (
 /obj/rack,
 /obj/item/clothing/under/gimmick/princess,
@@ -74241,12 +74074,6 @@
 	name = "wood floor"
 	},
 /area/centcom/offices/sord)
-"roI" = (
-/obj/cable{
-	icon_state = "1-2"
-	},
-/turf/unsimulated/floor/red/side,
-/area/iomoon/base)
 "rpG" = (
 /turf/unsimulated/floor/setpieces/rootfloor{
 	icon_state = "rootfloor_2"
@@ -74307,36 +74134,38 @@
 	dir = 4
 	},
 /area/centcom)
+"rvc" = (
+/obj/decal/fakeobjects/firelock_broken{
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "fdoor0"
+	},
+/obj/overlay{
+	desc = "It seems to be rusted open.";
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "eng_open";
+	layer = 6;
+	name = "broken door"
+	},
+/turf/unsimulated/floor,
+/area/iomoon/base/underground)
 "rvM" = (
 /obj/machinery/light/small/floor/warm/very,
 /turf/unsimulated/floor/carpet/darkcarpet/border{
 	dir = 10
 	},
 /area/centcom/offices/aloe)
-"rvN" = (
-/obj/decal/fakeobjects/firelock_broken{
-	desc = "Rust has rendered this airlock useless.";
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "generic_open";
-	name = "broken airlock"
-	},
-/turf/unsimulated/floor/arctic/plating,
-/area/upper_arctic/comms)
-"rww" = (
-/obj/machinery/door/poddoor/blast{
-	desc = "Looks pretty tough. I wouldn't take this door on in a fight.  Wonder if there's a way to open this.";
-	dir = 1;
-	icon_state = "bdoorleft1";
-	id = "iomoon_genroom"
-	},
-/turf/unsimulated/floor,
-/area/iomoon/base/underground)
 "rwD" = (
 /obj/machinery/door/airlock/pyro/classic{
 	dir = 4
 	},
 /turf/unsimulated/floor/grime,
 /area/marsoutpost)
+"rxy" = (
+/obj/stone{
+	dir = 1
+	},
+/turf/unsimulated/floor/grass/leafy,
+/area/hospital/somewhere)
 "rxZ" = (
 /obj/stool/chair/comfy/blue{
 	dir = 4;
@@ -74397,13 +74226,29 @@
 /area/centcom/offices{
 	icon_state = "blue"
 	})
-"rDF" = (
-/obj/machinery/door/unpowered/wood{
-	autoclose = 0;
-	dir = 8
+"rDm" = (
+/obj/grille/catwalk{
+	dir = 5
 	},
-/turf/unsimulated/floor/wood,
-/area/sim/racing_entry)
+/turf/unsimulated/iomoon/floor{
+	dir = 4;
+	icon_state = "iocrust_edge"
+	},
+/turf/unsimulated/floor{
+	dir = 4;
+	icon_state = "catwalk_cross";
+	name = "burning catwalk support";
+	temperature = 372.15
+	},
+/area/iomoon)
+"rDK" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
+	dir = 4
+	},
+/turf/unsimulated/floor/black,
+/area/centcom/offices/shotgunbill)
 "rFc" = (
 /obj/indestructible/shuttle_corner{
 	dir = 6;
@@ -74424,13 +74269,6 @@
 	},
 /turf/unsimulated/floor/void/channel,
 /area/adventure/channel)
-"rFE" = (
-/obj/table/auto,
-/obj/item/storage/pill_bottle/silver_sulfadiazine,
-/turf/unsimulated/floor/purple/side{
-	dir = 10
-	},
-/area/iomoon/base)
 "rHo" = (
 /obj/storage/crate/wooden{
 	icon_state = "woodencrate6";
@@ -74472,11 +74310,12 @@
 /obj/decal/cleanable/paper,
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/tarmunora)
-"rJj" = (
-/obj/machinery/door/airlock/pyro{
-	dir = 4
+"rJq" = (
+/obj/table/auto,
+/obj/item/paper_bin,
+/turf/unsimulated/floor{
+	icon_state = "floor"
 	},
-/turf/unsimulated/floor/purple,
 /area/iomoon/base)
 "rJF" = (
 /obj/overlay{
@@ -74492,6 +74331,29 @@
 	icon_state = "floor"
 	},
 /area/moon/museum)
+"rJP" = (
+/obj/decal/cleanable/dirt,
+/obj/item/crowbar,
+/obj/storage/secure/closet/civilian/janitor{
+	locked = 0;
+	spawn_contents = list(/obj/item/clothing/shoes/galoshes, /obj/item/reagent_containers/glass/bottle/cleaner = 2, /obj/item/reagent_containers/glass/bottle/acetone/janitors = 1, /obj/item/reagent_containers/glass/bottle/ammonia/janitors = 1, /obj/item/device/light/flashlight, /obj/item/caution = 4)
+	},
+/obj/item/mop/old,
+/obj/item/sponge,
+/obj/item/chem_grenade/cleaner,
+/obj/item/spraybottle/cleaner/tsunami,
+/obj/machinery/shower{
+	dir = 1;
+	pixel_y = 20
+	},
+/obj/decal/cleanable/writing{
+	desc = "Someone's scratched something here.";
+	name = "scratchy writing";
+	pixel_y = 26;
+	words = "Sooner or later, i'm getting off Gehenna. Dead or alive. Sooner or later. Dead or alive."
+	},
+/turf/unsimulated/floor/plating,
+/area/afterlife/bar)
 "rJY" = (
 /obj/decal/poster/wallsign/bookcase{
 	pixel_y = 28
@@ -74519,18 +74381,6 @@
 	},
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/studenterhue)
-"rKe" = (
-/obj/decal/cleanable/blood/splatter,
-/obj/decal/fakeobjects/skeleton{
-	desc = "He hasn't got a leg to stand on.";
-	dir = 4;
-	icon = 'icons/misc/hstation.dmi';
-	icon_state = "body5";
-	name = "half corpse";
-	pixel_x = -10
-	},
-/turf/unsimulated/floor/caution/west,
-/area/iomoon/base/underground)
 "rKt" = (
 /obj/machinery/computer3/generic/personal{
 	pixel_x = 2;
@@ -74541,6 +74391,19 @@
 	icon_state = "rootfloor_2"
 	},
 /area/centcom/offices/marknstein)
+"rKZ" = (
+/obj/overlay{
+	density = 1;
+	desc = "It wont budge.";
+	dir = 4;
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "generic_closed";
+	layer = 6;
+	name = "broken door";
+	opacity = 1
+	},
+/turf/unsimulated/floor,
+/area/iomoon/base/underground)
 "rMc" = (
 /obj/indestructible/shuttle_corner{
 	dir = 5;
@@ -74548,14 +74411,23 @@
 	},
 /turf/unsimulated/outdoors/grass,
 /area/shuttle/merchant_shuttle/right_centcom/destiny)
-"rMJ" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+"rMw" = (
+/obj/decal/fakeobjects{
+	anchored = 1;
+	desc = "This appears to be a control panel for that big microwave array thing?  It doesn't seem to work.";
+	icon = 'icons/obj/computer.dmi';
+	icon_state = "wallterm0";
+	name = "broken computer"
 	},
-/turf/unsimulated/floor/black,
-/area/centcom/offices/hydro)
+/turf/unsimulated/iomoon/plating,
+/area/iomoon)
+"rNO" = (
+/obj/rack,
+/obj/item/crowbar,
+/turf/unsimulated/floor{
+	icon_state = "floor"
+	},
+/area/iomoon/base/underground)
 "rOb" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4
@@ -74576,19 +74448,23 @@
 	},
 /turf/unsimulated/outdoors/grass,
 /area/diner/cow)
-"rPD" = (
-/obj/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+"rOZ" = (
+/obj/grille/catwalk{
+	dir = 9;
+	icon_state = "catwalk_cross"
 	},
-/obj/item/pen{
-	desc = "It's a normal black ink pen. Looks like it has been chewed on."
+/turf/unsimulated/floor/lava{
+	deadly = 0;
+	temperature = 372.15
 	},
 /turf/unsimulated/floor{
-	icon_state = "floor"
+	carbon_dioxide = 16;
+	dir = 9;
+	icon_state = "catwalk";
+	name = "warm catwalk support";
+	temperature = 372.15
 	},
-/area/iomoon/base)
+/area/iomoon)
 "rQp" = (
 /obj/admin_plaque{
 	name = "Sov's Office"
@@ -74618,26 +74494,17 @@
 	},
 /turf/unsimulated/floor/void/channel,
 /area/adventure/channel/flingy)
-"rSl" = (
-/obj/decal/fakeobjects/pipe{
-	dir = 5
+"rSm" = (
+/obj/decal/fakeobjects/firelock_broken{
+	density = 1;
+	desc = "Rust has rendered this airlock useless.";
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "generic_locked";
+	name = "rusted airlock";
+	opacity = 1
 	},
-/obj/decal/fakeobjects/lightbulb_broken{
-	dir = 1
-	},
-/turf/unsimulated/floor,
-/area/iomoon/base/underground)
-"rTj" = (
-/obj/cable{
-	icon_state = "1-2"
-	},
-/obj/cable{
-	icon_state = "1-4"
-	},
-/turf/unsimulated/floor/carpet{
-	icon_state = "fred1"
-	},
-/area/iomoon/base)
+/turf/unsimulated/floor/delivery,
+/area/crypt/sigma/lab)
 "rUQ" = (
 /obj/admin_plaque{
 	pixel_x = -32
@@ -74667,16 +74534,16 @@
 "rZe" = (
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
 /area/drone/office)
-"sbb" = (
-/obj/decal/fakeobjects/firelock_broken{
-	dir = 8;
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "fdoor0"
+"saY" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
+	dir = 4
 	},
-/turf/unsimulated/floor{
-	icon_state = "floor"
+/turf/unsimulated/floor/caution/misc{
+	dir = 4
 	},
-/area/iomoon/base)
+/area/centcom/offices/azrun)
 "sbi" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -74721,6 +74588,21 @@
 	name = "plating"
 	},
 /area/hospital/underground)
+"sct" = (
+/obj/grille/catwalk,
+/obj/map/light/lava,
+/turf/unsimulated/floor/lava{
+	deadly = 0;
+	temperature = 372.15
+	},
+/turf/unsimulated/floor{
+	carbon_dioxide = 16;
+	dir = 1;
+	icon_state = "catwalk_narrow";
+	name = "warm catwalk support";
+	temperature = 372.15
+	},
+/area/iomoon)
 "scU" = (
 /obj/admin_plaque{
 	name = "Pali's Office"
@@ -74729,16 +74611,6 @@
 /area/centcom/offices{
 	icon_state = "blue"
 	})
-"sdR" = (
-/obj/decal/fakeobjects/firelock_broken{
-	desc = "This blast door looks rusted over.  Junk.";
-	dir = 8;
-	icon = 'icons/obj/doors/blastdoor.dmi';
-	icon_state = "bdoorbroken";
-	name = "rusty blastdoor"
-	},
-/turf/unsimulated/floor,
-/area/iomoon/base/underground)
 "seK" = (
 /obj/machinery/vending/kitchen,
 /turf/unsimulated/outdoors/grass,
@@ -74769,25 +74641,6 @@
 /area/centcom/offices{
 	icon_state = "blue"
 	})
-"sgk" = (
-/obj/map/light/lava,
-/obj/grille/catwalk{
-	dir = 9
-	},
-/turf/unsimulated/iomoon/floor{
-	dir = 8;
-	icon_state = "iocrust_edge";
-	name = "silicate cave floor";
-	temperature = 313.15
-	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 20;
-	dir = 8;
-	icon_state = "catwalk_cross";
-	name = "hot catwalk support";
-	temperature = 372.15
-	},
-/area/iomoon/caves)
 "sgB" = (
 /obj/decal/tile_edge/stripe/extra_big{
 	icon_state = "delivery2"
@@ -74806,6 +74659,16 @@
 	},
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
 /area/shuttle/merchant_shuttle/diner_centcom)
+"shD" = (
+/obj/racing_boosterstrip{
+	dir = 8
+	},
+/obj/machinery/door/unpowered/wood{
+	autoclose = 0;
+	dir = 4
+	},
+/turf/unsimulated/floor/wood,
+/area/sim/racing_entry)
 "siD" = (
 /obj/item/reagent_containers/food/drinks/bottle/champagne{
 	pixel_x = -11;
@@ -74861,6 +74724,23 @@
 "smg" = (
 /turf/unsimulated/floor/dream/space,
 /area/titlescreen)
+"smV" = (
+/obj/decal/fakeobjects/skeleton{
+	desc = "The burnt remains of some poor sod.";
+	icon = 'icons/misc/hstation.dmi';
+	icon_state = "body4";
+	name = "crispy corpse"
+	},
+/turf/unsimulated/floor/plating/scorched,
+/area/iomoon/base/underground)
+"soz" = (
+/obj/securearea{
+	desc = "Someone has drawn a burning skull and crossbones in the lower corner of the sign.";
+	name = "MAGMA CHAMBER ACCESS";
+	pixel_x = 32
+	},
+/turf/unsimulated/floor,
+/area/iomoon/base/underground)
 "soS" = (
 /obj/securearea{
 	desc = "It looks pretty dangerous in there.";
@@ -74870,10 +74750,6 @@
 /area/sim/tdome/tdomea{
 	name = "Thunderdome Lounge"
 	})
-"spl" = (
-/obj/item/wrench,
-/turf/unsimulated/floor,
-/area/iomoon/base)
 "spy" = (
 /turf/unsimulated/floor/stairs/wide/other{
 	dir = 8
@@ -74885,9 +74761,6 @@
 	icon_state = "floor5"
 	},
 /area/wizard_station)
-"srF" = (
-/turf/unsimulated/floor/caution/north,
-/area/iomoon/base)
 "ssh" = (
 /obj/table/reinforced/auto,
 /turf/unsimulated/floor/setpieces/gauntlet{
@@ -74895,9 +74768,18 @@
 	name = "\proper the murderbox"
 	},
 /area/sim/gunsim)
-"stq" = (
-/obj/decal/fakeobjects/tallsmes,
-/turf/unsimulated/floor/grime,
+"std" = (
+/obj/decal/fakeobjects/pipe{
+	dir = 4
+	},
+/obj/decal/fakeobjects/pipe{
+	desc = "It seems to be broken.";
+	dir = 4;
+	icon = 'icons/obj/pipe-item.dmi';
+	icon_state = "meter";
+	name = "meter"
+	},
+/turf/unsimulated/floor,
 /area/iomoon/base)
 "suO" = (
 /obj/machinery/shuttle/engine/heater{
@@ -74912,6 +74794,18 @@
 	},
 /turf/unsimulated/wall/auto/lead/blue,
 /area/centcom/lobby)
+"svb" = (
+/obj/decal/fakeobjects/firelock_broken{
+	dir = 8;
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "fdoor0"
+	},
+/obj/machinery/door/airlock/pyro/external{
+	dir = 4;
+	name = "Surface Airlock"
+	},
+/turf/unsimulated/floor,
+/area/iomoon/base)
 "sxM" = (
 /obj/indestructible/shuttle_corner{
 	dir = 8;
@@ -74925,33 +74819,11 @@
 	dir = 6
 	},
 /area/centcom/offices/katzen)
-"sAx" = (
-/obj/storage/crate,
-/obj/item/shipcomponent/engine/helios,
-/obj/item/clothing/under/gimmick/blackstronaut,
-/turf/unsimulated/floor,
-/area/solarium)
-"sBU" = (
-/obj/securearea{
-	desc = "Someone has drawn a burning skull and crossbones in the lower corner of the sign.";
-	name = "MAGMA CHAMBER ACCESS";
-	pixel_x = 32
-	},
-/turf/unsimulated/floor,
-/area/iomoon/base/underground)
 "sBX" = (
 /obj/lattice,
 /obj/machinery/door/airlock/pyro/external,
 /turf/unsimulated/floor/void,
 /area/diner/cow)
-"sDV" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
-	},
-/turf/unsimulated/floor/black,
-/area/centcom/offices/edad)
 "sEV" = (
 /obj/shrub{
 	dir = 4;
@@ -74963,6 +74835,14 @@
 /area/centcom/offices{
 	icon_state = "blue"
 	})
+"sFJ" = (
+/obj/noticeboard{
+	pixel_y = 28
+	},
+/turf/unsimulated/floor{
+	icon_state = "floor"
+	},
+/area/iomoon/base)
 "sFY" = (
 /obj/machinery/light/small/floor,
 /turf/unsimulated/floor/darkblue,
@@ -75055,18 +74935,25 @@
 /obj/decal/fakeobjects/dreambeach/biggest/big_palm,
 /turf/unsimulated/floor/dream/beach,
 /area/titlescreen)
-"sRH" = (
-/turf/unsimulated/wall{
-	icon = 'icons/turf/shuttle.dmi';
-	icon_state = "door1";
-	name = "broken door"
+"sQZ" = (
+/obj/grille/catwalk{
+	dir = 6;
+	icon_state = "catwalk_cross"
 	},
-/area/meat_derelict/soviet)
-"sTH" = (
-/obj/ladder{
-	id = "iomoon"
+/turf/unsimulated/floor/lava{
+	deadly = 0;
+	temperature = 372.15
 	},
-/turf/unsimulated/floor,
+/turf/unsimulated/floor{
+	carbon_dioxide = 16;
+	dir = 6;
+	icon_state = "catwalk";
+	name = "warm catwalk support";
+	temperature = 372.15
+	},
+/area/iomoon)
+"sRZ" = (
+/turf/unsimulated/floor/red/side,
 /area/iomoon/base)
 "sUn" = (
 /turf/unsimulated/wall/setpieces/fakewindow{
@@ -75076,16 +74963,31 @@
 "sWb" = (
 /turf/unsimulated/wall/auto/lead/blue,
 /area/centcom/lobby)
-"sWL" = (
-/obj/decal/fakeobjects/firelock_broken{
-	desc = "This blast door looks rusted over.  Junk.";
-	dir = 1;
-	icon = 'icons/obj/doors/blastdoor.dmi';
-	icon_state = "bdoorbroken";
-	name = "rusty blastdoor"
-	},
+"sWq" = (
+/obj/storage/crate,
+/obj/item/shipcomponent/engine/helios,
+/obj/item/clothing/under/gimmick/blackstronaut,
 /turf/unsimulated/floor,
+/area/solarium)
+"sYS" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
+	dir = 4
+	},
+/turf/unsimulated/floor/black,
+/area/centcom/offices/atomicthumbs)
+"sZR" = (
+/turf/unsimulated/floor/plating/scorched,
 /area/iomoon/base/underground)
+"taG" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/unsimulated/floor/purple/side{
+	dir = 5
+	},
+/area/iomoon/base)
 "tbw" = (
 /obj/reagent_dispensers/watertank/fountain,
 /turf/unsimulated/floor/white/checker,
@@ -75115,18 +75017,37 @@
 /obj/machinery/vending/alcohol,
 /turf/unsimulated/outdoors/grass,
 /area/diner/cow)
+"tei" = (
+/obj/grille/catwalk{
+	dir = 10;
+	icon_state = "catwalk_cross"
+	},
+/turf/unsimulated/floor/lava{
+	deadly = 0;
+	temperature = 372.15
+	},
+/turf/unsimulated/floor{
+	carbon_dioxide = 20;
+	dir = 10;
+	icon_state = "catwalk";
+	name = "hot catwalk support";
+	temperature = 372.15
+	},
+/area/iomoon)
 "teq" = (
 /turf/unsimulated/wall/auto/reinforced/supernorn,
 /area/owlery/gangzone)
-"tfI" = (
-/obj/machinery/light/small{
+"tih" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
 	dir = 8
 	},
-/obj/shrub/dead,
-/turf/unsimulated/floor/purple/side{
-	dir = 10
+/obj/adventurepuzzle/triggerer/trigger{
+	id = "virva_trigger"
 	},
-/area/iomoon/base)
+/turf/unsimulated/floor/carpet/purple/fancy/edge/west,
+/area/centcom/offices/virvatuli)
 "tiD" = (
 /obj/decal/fakeobjects/skeleton{
 	desc = "The remains of a human. How'd they get out there?";
@@ -75169,6 +75090,14 @@
 	},
 /turf/unsimulated/floor/carpet/red/decal,
 /area/centcom/offices/grifflez)
+"tmN" = (
+/obj/storage/closet/iomoon,
+/turf/unsimulated/floor{
+	carbon_dioxide = 16;
+	name = "warm plating";
+	temperature = 313.15
+	},
+/area/iomoon/base)
 "tnB" = (
 /turf/unsimulated/floor/dream/beach{
 	icon_state = "shore-24"
@@ -75179,6 +75108,28 @@
 	icon_state = "shore-30"
 	},
 /area/titlescreen)
+"tnX" = (
+/obj/tree1{
+	dir = 1
+	},
+/turf/unsimulated/floor/grass/leafy,
+/area/hospital/somewhere)
+"toG" = (
+/obj/decal/fakeobjects{
+	desc = "It's like that one movie, uh, what was it called....Jaws?";
+	icon = 'icons/misc/halloween.dmi';
+	icon_state = "well";
+	name = "stone well"
+	},
+/obj/machinery/camera{
+	c_tag = "Channel 3";
+	desc = "";
+	invisibility = 100;
+	network = "spooky"
+	},
+/obj/map/light/cyan,
+/turf/unsimulated/dirt,
+/area/hospital/somewhere)
 "toK" = (
 /turf/simulated/shuttle/wall{
 	dir = 1;
@@ -75230,18 +75181,27 @@
 	icon_state = "floor2"
 	},
 /area/shuttle/merchant_shuttle/right_centcom/donut2)
+"twj" = (
+/turf/unsimulated/floor/purple/side{
+	dir = 5
+	},
+/area/iomoon/base)
 "two" = (
 /obj/lattice,
 /turf/space,
 /area/diner/cow)
+"twZ" = (
+/obj/machinery/door/poddoor/blast{
+	desc = "Looks pretty tough. I wouldn't take this door on in a fight. Wonder if there's a way to open this.";
+	dir = 1;
+	icon_state = "bdoorright1";
+	id = "iomoon_genroom"
+	},
+/turf/unsimulated/floor,
+/area/iomoon/base/underground)
 "txy" = (
 /turf/unsimulated/wall/auto/lead/gray,
 /area/iomoon/caves)
-"txV" = (
-/turf/unsimulated/floor/caution/east{
-	dir = 1
-	},
-/area/iomoon/base)
 "tzl" = (
 /obj/table/wood/auto/desk/aloe,
 /obj/item/luggable_computer/personal{
@@ -75254,11 +75214,37 @@
 "tAi" = (
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
 /area/shuttle/merchant_shuttle/left_centcom/cogmap)
+"tBw" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
+	dir = 4
+	},
+/turf/unsimulated/floor/setpieces/swampgrass,
+/area/centcom/offices/tterc)
+"tDE" = (
+/obj/stone{
+	dir = 4
+	},
+/turf/unsimulated/floor/grass/leafy,
+/area/hospital/somewhere)
 "tED" = (
 /obj/stool/bee_bed,
 /obj/dialogueobj/dreambee,
 /turf/unsimulated/floor/carpet/red/fancy/narrow/eastwest,
 /area/titlescreen)
+"tFY" = (
+/obj/decal/fakeobjects{
+	anchored = 1;
+	desc = "A vent.  A rather decrepit one, at that.";
+	icon = 'icons/obj/atmospherics/pipe_vent.dmi';
+	icon_state = "hvent";
+	name = "defunct vent"
+	},
+/turf/unsimulated/floor/purple/side{
+	dir = 6
+	},
+/area/iomoon/base)
 "tGB" = (
 /turf/unsimulated/floor/grey/side,
 /area/centcom/offices/cogwerks)
@@ -75291,13 +75277,6 @@
 "tKt" = (
 /turf/unsimulated/outdoors/grass,
 /area/diner/cow)
-"tNf" = (
-/obj/machinery/door/airlock/pyro/external{
-	dir = 4;
-	name = "Cavern Airlock"
-	},
-/turf/unsimulated/floor/plating/scorched,
-/area/iomoon/base/underground)
 "tNs" = (
 /obj/table/auto,
 /obj/item/clothing/gloves/yellow,
@@ -75308,26 +75287,14 @@
 /obj/item/clothing/gloves/yellow,
 /turf/unsimulated/floor/darkblue,
 /area/syndicate_station/battlecruiser)
-"tNR" = (
-/turf/unsimulated/floor/plating/scorched,
-/area/iomoon/base/underground)
-"tOp" = (
-/obj/overlay{
-	density = 1;
-	desc = "It wont budge.";
-	dir = 4;
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "generic_closed";
-	layer = 6;
-	name = "broken door";
-	opacity = 1
+"tPe" = (
+/obj/cable{
+	icon_state = "4-8"
 	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 16;
-	name = "warm plating";
-	temperature = 313.15
+/turf/unsimulated/floor/carpet{
+	icon_state = "fred1"
 	},
-/area/iomoon)
+/area/iomoon/base)
 "tPE" = (
 /obj/machinery/teleport/portal_ring,
 /turf/unsimulated/floor/void,
@@ -75336,37 +75303,23 @@
 /obj/decal/cleanable/cobweb2,
 /turf/unsimulated/floor/plating,
 /area/retentioncenter)
-"tRV" = (
-/obj/decal/fakeobjects{
-	desc = "It's like that one movie, uh, what was it called....Jaws?";
-	icon = 'icons/misc/halloween.dmi';
-	icon_state = "well";
-	name = "stone well"
-	},
-/obj/machinery/camera{
-	c_tag = "Channel 3";
-	desc = "";
-	invisibility = 100;
-	network = "spooky"
-	},
-/obj/map/light/cyan,
-/turf/unsimulated/dirt,
-/area/hospital/somewhere)
 "tUJ" = (
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
 /area/shuttle/merchant_shuttle/right_centcom/cogmap)
-"tWj" = (
-/obj/machinery/door/airlock/pyro{
-	desc = "What kind of HORRIBLE THINGS could LURK in here???";
-	frequency = 1499;
-	icon_state = "generic_locked";
-	locked = 1;
-	name = "Meat Locker";
-	radiorange = 25;
-	tag = "hospital_freezer"
+"tVp" = (
+/obj/table/auto,
+/obj/decal/fakeobjects{
+	anchored = 1;
+	desc = "An old computer that is obviously very broken.  It might actually not even be plugged in.  BROKEN.";
+	icon = 'icons/obj/computer.dmi';
+	icon_state = "old0";
+	name = "broken computer"
 	},
-/turf/unsimulated/floor/specialroom/freezer,
-/area/hospital)
+/obj/cable,
+/turf/unsimulated/floor{
+	icon_state = "floor"
+	},
+/area/iomoon/base)
 "tXu" = (
 /obj/stool/chair/comfy/purple{
 	dir = 4
@@ -75410,6 +75363,17 @@
 	name = "plating"
 	},
 /area/centcom)
+"ubk" = (
+/obj/machinery/door/unpowered/wood{
+	desc = "This heavy door has a more ornate lock than the rest.";
+	locked = 1;
+	name = "old wooden door";
+	dir = 8
+	},
+/turf/unsimulated/floor/setpieces/rootfloor{
+	icon_state = "rootfloor_3"
+	},
+/area/catacombs)
 "ubB" = (
 /obj/rack,
 /obj/item/tank/jetpack/syndicate,
@@ -75433,12 +75397,36 @@
 /area/centcom/offices{
 	icon_state = "blue"
 	})
+"udz" = (
+/obj/grassplug{
+	dir = 4
+	},
+/turf/unsimulated/grasstodirt{
+	dir = 1
+	},
+/area/hospital/somewhere)
 "uex" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/unsimulated/floor/void,
 /area/diner/cow)
+"uid" = (
+/obj/grille/catwalk{
+	dir = 5
+	},
+/obj/map/light/lava,
+/turf/unsimulated/floor/lava{
+	deadly = 0;
+	temperature = 372.15
+	},
+/turf/unsimulated/floor{
+	dir = 4;
+	icon_state = "catwalk_cross";
+	name = "damn warm catwalk support";
+	temperature = 372.15
+	},
+/area/iomoon)
 "uiu" = (
 /obj/securearea{
 	desc = "A warning sign which reads 'Biohazard'";
@@ -75494,23 +75482,6 @@
 	},
 /turf/unsimulated/wall/auto/supernorn/wood,
 /area/wizard_station)
-"uqq" = (
-/obj/decal/fakeobjects/pipe{
-	dir = 4
-	},
-/obj/decal/fakeobjects/lightbulb_broken{
-	dir = 1
-	},
-/turf/unsimulated/floor,
-/area/iomoon/base/underground)
-"usb" = (
-/obj/grassplug{
-	dir = 1
-	},
-/turf/unsimulated/grasstodirt{
-	dir = 4
-	},
-/area/hospital/somewhere)
 "usD" = (
 /obj/item/paper/book/from_file/space_law,
 /turf/unsimulated/floor/redblack{
@@ -75522,18 +75493,20 @@
 	icon_state = "shore-38"
 	},
 /area/titlescreen)
-"uuv" = (
-/obj/decal/fakeobjects/firelock_broken{
-	density = 1;
-	desc = "Rust has rendered this airlock useless.";
-	dir = 4;
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "generic_closed";
-	name = "rusted airlock";
-	opacity = 1
-	},
-/turf/unsimulated/floor/delivery,
-/area/crypt/sigma/kitchen)
+"utq" = (
+/obj/rack,
+/obj/item/clothing/mask/gas/swat/syndicate,
+/obj/item/clothing/mask/gas/swat/syndicate,
+/obj/item/clothing/mask/gas/swat/syndicate,
+/obj/item/clothing/mask/gas/swat/syndicate,
+/obj/item/clothing/mask/gas/swat/syndicate,
+/obj/item/clothing/mask/gas/swat/syndicate,
+/obj/item/clothing/mask/gas/swat/syndicate,
+/obj/item/clothing/mask/gas/swat/syndicate,
+/obj/item/clothing/mask/gas/swat/syndicate,
+/obj/item/clothing/mask/gas/swat/syndicate,
+/turf/unsimulated/floor/darkpurple,
+/area/syndicate_station/battlecruiser)
 "uvs" = (
 /turf/unsimulated/floor/carpet/red/decal,
 /area/centcom/offices/grifflez)
@@ -75576,21 +75549,17 @@
 	icon_state = "shore-39"
 	},
 /area/titlescreen)
-"uyd" = (
-/obj/grille/catwalk,
-/obj/map/light/lava,
-/turf/unsimulated/floor/lava{
-	deadly = 0;
-	temperature = 372.15
+"uyV" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
+	dir = 4
 	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 20;
-	dir = 4;
-	icon_state = "catwalk_cross";
-	name = "hot catwalk support";
-	temperature = 372.15
+/obj/adventurepuzzle/triggerer/trigger{
+	id = "emily_office_trigger"
 	},
-/area/iomoon)
+/turf/unsimulated/floor/wood,
+/area/centcom/offices/urs)
 "uzz" = (
 /obj/table/wood/auto/desk,
 /obj/item/gun/kinetic/meowitzer/inert{
@@ -75633,12 +75602,30 @@
 	},
 /turf/unsimulated/floor/void,
 /area/centcom/offices/tterc)
+"uFQ" = (
+/obj/machinery/door/poddoor/blast{
+	desc = "Looks pretty tough. I wouldn't take this door on in a fight.  Wonder if there's a way to open this.";
+	dir = 1;
+	icon_state = "bdoorleft1";
+	id = "iomoon_genroom"
+	},
+/turf/unsimulated/floor,
+/area/iomoon/base/underground)
 "uId" = (
 /obj/machinery/light/emergency{
 	dir = 4
 	},
 /turf/unsimulated/floor/stairs/quilty,
 /area/owlery/Owlopen)
+"uJm" = (
+/obj/decal/fakeobjects/pipe{
+	dir = 5
+	},
+/obj/decal/fakeobjects/lightbulb_broken{
+	dir = 1
+	},
+/turf/unsimulated/floor,
+/area/iomoon/base/underground)
 "uJX" = (
 /turf/unsimulated/wall/auto/lead/blue,
 /area/upper_arctic/hall)
@@ -75682,29 +75669,21 @@
 	icon_state = "space-1"
 	},
 /area/titlescreen)
-"uPc" = (
-/obj/machinery/door/unpowered/wood{
-	autoclose = 0;
-	dir = 4
-	},
-/turf/unsimulated/floor/carpet/arcade,
-/area/sim/racing_entry)
 "uQX" = (
 /turf/unsimulated/wall/auto/lead/gray,
 /area/sim/bball)
-"uSI" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
-	},
-/turf/unsimulated/floor/wood/two,
-/area/centcom/offices/efrem)
 "uTj" = (
 /obj/table/wood/auto/desk,
 /obj/machinery/computer3/generic/personal,
 /turf/unsimulated/floor/wood/seven,
 /area/centcom/offices/sovexe)
+"uTu" = (
+/obj/table/auto,
+/obj/item/storage/pill_bottle/silver_sulfadiazine,
+/turf/unsimulated/floor/purple/side{
+	dir = 10
+	},
+/area/iomoon/base)
 "uUa" = (
 /obj/critter/domestic_bee/creepy{
 	name = "Virvatulbee"
@@ -75714,6 +75693,28 @@
 	},
 /turf/unsimulated/floor/minitiles/black,
 /area/centcom/offices/virvatuli)
+"uUl" = (
+/obj/decal/fakeobjects/firelock_broken{
+	desc = "This shuttle door is really jammed.  What's the point of it then?  WHAT IS THE POINT";
+	icon = 'icons/turf/shuttle.dmi';
+	name = "rusted hatch"
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/shuttle.dmi';
+	icon_state = "floor3"
+	},
+/area/hospital/samostrel)
+"uUB" = (
+/obj/decal/fakeobjects{
+	anchored = 1;
+	density = 1;
+	desc = "An antenna to boost a distress signal.";
+	icon = 'icons/obj/ship.dmi';
+	icon_state = "beacon";
+	name = "boost transmitter"
+	},
+/turf/unsimulated/iomoon/plating,
+/area/iomoon)
 "uVv" = (
 /turf/simulated/wall/auto/reinforced/old,
 /area/diner/cow)
@@ -75723,21 +75724,23 @@
 	dir = 6
 	},
 /area/centcom)
-"vaa" = (
-/obj/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/turf/unsimulated/floor{
-	icon_state = "floor"
-	},
-/area/iomoon/base)
 "vab" = (
 /turf/unsimulated/floor/dream/beach{
 	icon_state = "shore-45"
 	},
 /area/titlescreen)
+"vaU" = (
+/obj/decal/fakeobjects/firelock_broken{
+	density = 1;
+	desc = "Rust has rendered this airlock useless.";
+	dir = 4;
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "generic_closed";
+	name = "rusted airlock";
+	opacity = 1
+	},
+/turf/unsimulated/floor/grime,
+/area/marsoutpost)
 "vaZ" = (
 /obj/machinery/shuttle/engine/propulsion{
 	icon_state = "alt_propulsion"
@@ -75751,6 +75754,24 @@
 	name = "sand"
 	},
 /area/centcom/offices/enakai)
+"vdg" = (
+/obj/grille/catwalk{
+	dir = 5;
+	icon_state = "catwalk_cross"
+	},
+/obj/map/light/lava,
+/turf/unsimulated/floor/lava{
+	deadly = 0;
+	temperature = 372.15
+	},
+/turf/unsimulated/floor{
+	carbon_dioxide = 16;
+	dir = 1;
+	icon_state = "catwalk_cross";
+	name = "toasty catwalk support";
+	temperature = 372.15
+	},
+/area/iomoon)
 "veg" = (
 /obj/table/wood/auto/desk,
 /obj/machinery/computer3/generic/personal/meatland{
@@ -75760,20 +75781,6 @@
 	dir = 1
 	},
 /area/centcom/offices/katzen)
-"vew" = (
-/obj/grille/catwalk{
-	dir = 6
-	},
-/turf/unsimulated/iomoon/floor{
-	icon_state = "iocrust_edge"
-	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 16;
-	icon_state = "catwalk_cross";
-	name = "hot catwalk support";
-	temperature = 372.15
-	},
-/area/iomoon)
 "vgD" = (
 /obj/landmark{
 	name = "pit_meatland"
@@ -75783,6 +75790,14 @@
 	name = "Fleshy Floor"
 	},
 /area/meat_derelict/guts)
+"vgK" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
+	dir = 4
+	},
+/turf/unsimulated/floor/wood/two,
+/area/centcom/offices/varshie)
 "vhA" = (
 /obj/stool/chair/office/green{
 	desc = "This is a very cool gamer chair, and definitely not just a green office chair.";
@@ -75803,6 +75818,18 @@
 /obj/item/paper/book/from_file/guardbot_guide,
 /turf/unsimulated/floor/yellow,
 /area/owlery/gangzone)
+"viP" = (
+/obj/table/auto,
+/obj/deskclutter{
+	desc = "It's a picture of a woman and a little girl.  They look to be related.";
+	icon = 'icons/misc/worlds.dmi';
+	icon_state = "pictureframe";
+	pixel_y = 8
+	},
+/turf/unsimulated/floor{
+	icon_state = "floor"
+	},
+/area/iomoon/base)
 "vji" = (
 /turf/unsimulated/floor/carpet/purple/fancy/edge/sw,
 /area/centcom/offices{
@@ -75863,24 +75890,6 @@
 /obj/random_item_spawner/cola,
 /turf/unsimulated/floor/carpet/red/decal,
 /area/centcom/offices/grifflez)
-"vnF" = (
-/obj/grille/catwalk{
-	dir = 6;
-	icon_state = "catwalk_cross"
-	},
-/obj/map/light/lava,
-/turf/unsimulated/floor/lava{
-	deadly = 0;
-	temperature = 372.15
-	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 16;
-	dir = 6;
-	icon_state = "catwalk";
-	name = "warm catwalk support";
-	temperature = 372.15
-	},
-/area/iomoon)
 "vnW" = (
 /obj/decal/fakeobjects/shuttleengine{
 	icon_state = "alt_heater-L"
@@ -75899,6 +75908,14 @@
 	},
 /turf/unsimulated/wall/auto/lead/blue,
 /area/centcom/lobby)
+"vpD" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
+	dir = 4
+	},
+/turf/unsimulated/floor/wood/two,
+/area/centcom/offices/tarmunora)
 "vrR" = (
 /obj/tombstone{
 	dir = 1
@@ -75922,23 +75939,6 @@
 	icon_state = "floor"
 	},
 /area/meat_derelict/guts)
-"vsX" = (
-/obj/grille/catwalk{
-	dir = 9;
-	icon_state = "catwalk_cross"
-	},
-/turf/unsimulated/floor/lava{
-	deadly = 0;
-	temperature = 372.15
-	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 16;
-	dir = 9;
-	icon_state = "catwalk";
-	name = "warm catwalk support";
-	temperature = 372.15
-	},
-/area/iomoon)
 "vtG" = (
 /obj/map/light/graveyard,
 /mob/living/critter/small_animal/firefly/ai_controlled,
@@ -75966,6 +75966,10 @@
 	icon_state = "floor"
 	},
 /area/centcom/lounge)
+"vuY" = (
+/obj/shrub,
+/turf/unsimulated/floor/grass/leafy,
+/area/hospital/somewhere)
 "vvb" = (
 /obj/cable{
 	d1 = 1;
@@ -75983,23 +75987,6 @@
 	},
 /turf/unsimulated/wall/auto/lead/blue,
 /area/upper_arctic/pod1)
-"vvK" = (
-/obj/map/light/lava,
-/obj/grille/catwalk{
-	dir = 4
-	},
-/turf/unsimulated/floor/lava{
-	deadly = 0;
-	temperature = 372.15
-	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 16;
-	dir = 4;
-	icon_state = "catwalk_narrow";
-	name = "heated catwalk support";
-	temperature = 372.15
-	},
-/area/iomoon/caves)
 "vvS" = (
 /turf/unsimulated/floor/dream/beach{
 	icon_state = "shore-8"
@@ -76016,28 +76003,16 @@
 	icon_state = "floor"
 	},
 /area/centcom/lounge)
-"vxr" = (
-/obj/machinery/door/poddoor/blast{
-	desc = "Looks pretty tough. I wouldn't take this door on in a fight. Wonder if there's a way to open this.";
-	dir = 1;
-	icon_state = "bdoorright1";
-	id = "iomoon_genroom"
-	},
-/turf/unsimulated/floor,
-/area/iomoon/base/underground)
-"vzm" = (
-/obj/machinery/door/unpowered/wood/stall{
-	lock_dir = 8;
-	dir = 4
-	},
-/turf/unsimulated/floor/specialroom/freezer,
-/area/centcom/lobby)
 "vBq" = (
 /obj/indestructible/shuttle_corner{
 	icon_state = "wall3_trans"
 	},
 /turf/unsimulated/outdoors/grass,
 /area/shuttle/merchant_shuttle/diner_centcom)
+"vCn" = (
+/obj/decal/fakeobjects/pipe,
+/turf/unsimulated/floor/plating/scorched,
+/area/iomoon/base/underground)
 "vCF" = (
 /turf/unsimulated/floor/dream/beach{
 	icon_state = "shore-0"
@@ -76071,28 +76046,24 @@
 /area/centcom/offices{
 	icon_state = "blue"
 	})
-"vGr" = (
-/obj/rack,
-/obj/item/clothing/mask/gas/swat/syndicate,
-/obj/item/clothing/mask/gas/swat/syndicate,
-/obj/item/clothing/mask/gas/swat/syndicate,
-/obj/item/clothing/mask/gas/swat/syndicate,
-/obj/item/clothing/mask/gas/swat/syndicate,
-/obj/item/clothing/mask/gas/swat/syndicate,
-/obj/item/clothing/mask/gas/swat/syndicate,
-/obj/item/clothing/mask/gas/swat/syndicate,
-/obj/item/clothing/mask/gas/swat/syndicate,
-/obj/item/clothing/mask/gas/swat/syndicate,
-/turf/unsimulated/floor/darkpurple,
-/area/syndicate_station/battlecruiser)
-"vHr" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 4;
-	dir = 8
+"vGT" = (
+/obj/decal/fakeobjects/pipe{
+	desc = "It won't budge.";
+	icon = 'icons/obj/pipe-item.dmi';
+	icon_state = "valve";
+	name = "rusted valve"
 	},
-/turf/unsimulated/floor/wood/two,
-/area/centcom/offices/sovexe)
+/obj/decal/fakeobjects{
+	anchored = 1;
+	desc = "Like conventional cables, but more burly.";
+	dir = 10;
+	icon = 'icons/obj/power_cond.dmi';
+	icon_state = "conduit";
+	layer = 2.5;
+	name = "power conduit"
+	},
+/turf/unsimulated/floor,
+/area/iomoon/base/underground)
 "vIT" = (
 /obj/table/reinforced/bar/auto,
 /obj/item/plate,
@@ -76101,9 +76072,14 @@
 	icon_state = "red2"
 	},
 /area/diner/cow)
-"vJC" = (
-/turf/unsimulated/floor/caution/corner/nw,
-/area/iomoon/base/underground)
+"vMD" = (
+/obj/shrub/dead{
+	dir = 4
+	},
+/turf/unsimulated/floor/carpet{
+	icon_state = "fred1"
+	},
+/area/iomoon/base)
 "vNH" = (
 /obj/indestructible/shuttle_corner{
 	dir = 8;
@@ -76126,6 +76102,21 @@
 	dir = 8
 	},
 /area/diner/cow)
+"vQR" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 4;
+	dir = 8
+	},
+/turf/unsimulated/floor/wood/two,
+/area/centcom/offices/sovexe)
+"vSC" = (
+/obj/machinery/light/small/iomoon,
+/obj/rack,
+/obj/item/storage/toolbox/emergency,
+/obj/item/crowbar,
+/turf/unsimulated/floor,
+/area/iomoon/base)
 "vTG" = (
 /obj/machinery/light{
 	dir = 8
@@ -76141,14 +76132,21 @@
 	},
 /turf/space,
 /area/syndicate_station/assault_pod)
-"vUB" = (
-/obj/grassplug{
-	dir = 1
+"vUA" = (
+/obj/machinery/power/data_terminal,
+/obj/cable{
+	d2 = 8;
+	icon_state = "0-8"
 	},
-/turf/unsimulated/grasstodirt{
-	dir = 8
+/obj/table/auto,
+/obj/machinery/networked/printer{
+	jam = 1;
+	print_id = "Office0"
 	},
-/area/hospital/somewhere)
+/turf/unsimulated/floor/carpet{
+	icon_state = "fred1"
+	},
+/area/iomoon/base)
 "vWb" = (
 /obj/stool/chair/office/purple{
 	dir = 1
@@ -76174,13 +76172,6 @@
 /area/centcom/offices{
 	icon_state = "blue"
 	})
-"weo" = (
-/obj/rack,
-/obj/item/crowbar,
-/turf/unsimulated/floor{
-	icon_state = "floor"
-	},
-/area/iomoon/base/underground)
 "wgP" = (
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 1
@@ -76201,23 +76192,11 @@
 	},
 /turf/unsimulated/floor/darkpurple,
 /area/syndicate_station/battlecruiser)
-"whN" = (
-/turf/unsimulated/dirt,
-/area/hospital/somewhere)
 "wiy" = (
 /obj/table/auto,
 /obj/item/ammo/ammobox/shootingrange,
 /turf/unsimulated/floor/darkblue,
 /area/syndicate_station/firing_range)
-"wjk" = (
-/obj/landmark{
-	name = "telesci"
-	},
-/obj/machinery/light/runway_light{
-	name = "landing light"
-	},
-/turf/unsimulated/iomoon/plating,
-/area/iomoon)
 "wky" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -76249,15 +76228,6 @@
 /obj/map/light/graveyard,
 /turf/unsimulated/wall/auto/lead/gray,
 /area/crypt/sigma/crew)
-"wmh" = (
-/obj/securearea{
-	desc = "A warning sign which reads 'Fire Hazard'";
-	icon_state = "fire";
-	layer = 2.5;
-	name = "FIRE HAZARD"
-	},
-/turf/unsimulated/wall/auto/lead/gray,
-/area/iomoon/base)
 "wmm" = (
 /obj/machinery/door/airlock/pyro/classic{
 	dir = 4
@@ -76292,6 +76262,42 @@
 /obj/item/clothing/gloves/sailormoon,
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/katzen)
+"wte" = (
+/obj/grille/catwalk{
+	dir = 9;
+	icon_state = "catwalk_cross"
+	},
+/obj/map/light/lava,
+/turf/unsimulated/floor/lava{
+	deadly = 0;
+	temperature = 372.15
+	},
+/turf/unsimulated/floor{
+	carbon_dioxide = 16;
+	dir = 1;
+	icon_state = "catwalk_cross";
+	name = "toasty catwalk support";
+	temperature = 372.15
+	},
+/area/iomoon)
+"wtQ" = (
+/obj/table/auto,
+/obj/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/deskclutter,
+/turf/unsimulated/floor{
+	icon_state = "floor"
+	},
+/area/iomoon/base)
+"wuu" = (
+/obj/decal/fakeobjects/pipe{
+	dir = 5
+	},
+/turf/unsimulated/floor,
+/area/iomoon/base)
 "wvy" = (
 /turf/unsimulated/floor/carpet/red/fancy/narrow/nw,
 /area/centcom/offices/sovexe)
@@ -76302,18 +76308,6 @@
 /obj/access_spawn/admin_override,
 /turf/unsimulated/floor/black,
 /area/centcom/lobby)
-"wvF" = (
-/obj/decal/fakeobjects/firelock_broken{
-	dir = 4;
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "fdoor0"
-	},
-/obj/machinery/door/airlock/pyro/external{
-	dir = 4;
-	name = "Surface Airlock"
-	},
-/turf/unsimulated/floor,
-/area/iomoon/base)
 "wwz" = (
 /obj/indestructible/shuttle_corner{
 	dir = 4;
@@ -76344,6 +76338,36 @@
 	icon_state = "floor2"
 	},
 /area/shuttle/merchant_shuttle/left_centcom/destiny)
+"wyg" = (
+/obj/storage/closet{
+	desc = "This closet once held some manner of thermal protection gear.";
+	icon_closed = "syndicate";
+	icon_opened = "syndicate-open";
+	icon_state = "syndicate";
+	name = "Thermal Hazard Equipment"
+	},
+/turf/unsimulated/floor,
+/area/iomoon/base/underground)
+"wyA" = (
+/obj/grille/catwalk,
+/turf/unsimulated/floor/lava{
+	deadly = 0;
+	temperature = 372.15
+	},
+/turf/unsimulated/floor{
+	dir = 1;
+	icon_state = "catwalk";
+	name = "catwalk support"
+	},
+/area/iomoon)
+"wzJ" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
+	dir = 4
+	},
+/turf/unsimulated/floor/wood/two,
+/area/centcom/offices/efrem)
 "wAT" = (
 /obj/critter/cat{
 	generic = 0;
@@ -76361,6 +76385,17 @@
 	name = "sand"
 	},
 /area/centcom/offices/enakai)
+"wBu" = (
+/obj/decal/fakeobjects/firelock_broken{
+	desc = "This shuttle door is really jammed.  It might as well not even be a door.  What a lousy door.  Fuck this door, man, just... just...  FUCK YOU, DOOR.";
+	icon = 'icons/turf/shuttle.dmi';
+	name = "rusted hatch"
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/shuttle.dmi';
+	icon_state = "floor3"
+	},
+/area/meat_derelict/soviet)
 "wCN" = (
 /turf/unsimulated/wall/auto/sengoku{
 	icon_state = "6";
@@ -76368,21 +76403,6 @@
 	opacity = 0
 	},
 /area/titlescreen)
-"wDV" = (
-/obj/grille/catwalk{
-	dir = 4
-	},
-/obj/map/light/lava,
-/turf/unsimulated/floor/lava{
-	deadly = 0;
-	temperature = 372.15
-	},
-/turf/unsimulated/floor{
-	dir = 4;
-	icon_state = "catwalk";
-	name = "catwalk support"
-	},
-/area/iomoon)
 "wEA" = (
 /obj/indestructible/shuttle_corner{
 	dir = 4;
@@ -76392,6 +76412,22 @@
 	icon_state = "floor2"
 	},
 /area/shuttle/merchant_shuttle/left_centcom/cogmap2)
+"wFG" = (
+/obj/decal/fakeobjects/firelock_broken{
+	dir = 4;
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "fdoor0"
+	},
+/obj/machinery/door/airlock/pyro/external{
+	dir = 4;
+	name = "Surface Airlock"
+	},
+/turf/unsimulated/floor{
+	carbon_dioxide = 16;
+	name = "warm plating";
+	temperature = 313.15
+	},
+/area/iomoon/base)
 "wFO" = (
 /obj/npc/trader/random{
 	trader_area = "/area/shuttle/merchant_shuttle/left_station"
@@ -76459,17 +76495,6 @@
 "wLo" = (
 /turf/unsimulated/wall/auto/lead/blue,
 /area/centcom/lounge)
-"wLw" = (
-/obj/storage/crate/bin/lostandfound{
-	desc = "Just what it sounds like.";
-	name = "trash bin"
-	},
-/obj/item/c_tube,
-/obj/item/bananapeel,
-/turf/unsimulated/floor/purple/side{
-	dir = 8
-	},
-/area/iomoon/base)
 "wLD" = (
 /turf/unsimulated/floor/dream/beach{
 	icon_state = "shore-43"
@@ -76490,28 +76515,11 @@
 	},
 /turf/unsimulated/floor/setpieces/swampgrass,
 /area/centcom/offices/tterc)
-"wMW" = (
-/turf/unsimulated/floor/grass/leafy,
-/area/hospital/somewhere)
 "wNz" = (
 /obj/item/reagent_containers/food/drinks/coffee,
 /obj/table/syndicate/auto,
 /turf/unsimulated/floor/carpet/red/decal/outercross,
 /area/syndicate_station/battlecruiser)
-"wOq" = (
-/obj/storage/closet{
-	desc = "This closet once held some manner of thermal protection gear.";
-	icon_closed = "syndicate";
-	icon_opened = "syndicate-open";
-	icon_state = "syndicate";
-	name = "Thermal Hazard Equipment"
-	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 16;
-	name = "warm plating";
-	temperature = 313.15
-	},
-/area/iomoon/base)
 "wOC" = (
 /obj/indestructible/shuttle_corner{
 	icon_state = "wall3_trans"
@@ -76527,14 +76535,15 @@
 	},
 /turf/unsimulated/floor/carpet/red/decal,
 /area/centcom/offices/grifflez)
-"wQP" = (
-/obj/storage/crate,
-/obj/item/motherboard,
-/obj/item/peripheral/drive/tape_reader,
-/turf/unsimulated/floor{
-	icon_state = "floor"
+"wPE" = (
+/obj/machinery/door/unpowered/wood/stall{
+	lock_dir = 8;
+	dir = 4
 	},
-/area/iomoon/base)
+/turf/unsimulated/floor/specialroom/freezer,
+/area/centcom/offices{
+	icon_state = "blue"
+	})
 "wRR" = (
 /obj/decal/fakeobjects/dreambeach/earth,
 /turf/unsimulated/floor/dream/beach,
@@ -76551,28 +76560,43 @@
 	},
 /turf/unsimulated/floor/delivery,
 /area/crypt/sigma/lab)
+"wUk" = (
+/obj/grille/catwalk,
+/turf/unsimulated/iomoon/floor{
+	icon_state = "iocrust_corner"
+	},
+/turf/unsimulated/floor{
+	carbon_dioxide = 16;
+	dir = 1;
+	icon_state = "catwalk_narrow";
+	name = "warm catwalk support";
+	temperature = 372.15
+	},
+/area/iomoon)
 "wWb" = (
 /obj/decal/poster/wallsign/hazard_caution,
 /turf/unsimulated/wall/auto/lead/blue,
 /area/retentioncenter)
-"wXC" = (
-/obj/overlay{
-	density = 1;
-	desc = "It wont budge.";
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "generic_closed";
-	layer = 6;
-	name = "broken door";
-	opacity = 1
-	},
-/turf/unsimulated/floor,
-/area/crunch)
 "wXY" = (
 /turf/unsimulated/wall/auto/lead/gray,
 /area/iomoon)
-"wXZ" = (
-/turf/unsimulated/floor/caution/west,
-/area/iomoon/base/underground)
+"wYi" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
+	dir = 4
+	},
+/turf/unsimulated/floor/caution,
+/area/centcom/offices/studenterhue)
+"xbd" = (
+/obj/decal/fakeobjects/firelock_broken{
+	desc = "Rust has rendered this airlock useless.";
+	icon = 'icons/obj/doors/SL_doors.dmi';
+	icon_state = "generic_open";
+	name = "broken airlock"
+	},
+/turf/unsimulated/floor/arctic/plating,
+/area/upper_arctic/comms)
 "xbB" = (
 /obj/decal/cleanable/dirt,
 /obj/reagent_dispensers/still,
@@ -76590,9 +76614,29 @@
 	},
 /turf/unsimulated/floor/void/channel,
 /area/adventure/channel/flingy)
+"xcz" = (
+/obj/machinery/door/unpowered/wood{
+	autoclose = 0;
+	dir = 8
+	},
+/turf/unsimulated/floor/carpet/arcade,
+/area/sim/racing_entry)
 "xdm" = (
 /turf/unsimulated/wall/auto/reinforced/supernorn,
 /area/meat_derelict/main)
+"xeE" = (
+/obj/machinery/door/airlock/pyro/external{
+	dir = 4;
+	name = "Cavern Airlock"
+	},
+/turf/unsimulated/floor/plating/scorched,
+/area/iomoon/base/underground)
+"xfB" = (
+/obj/item/cable_coil,
+/turf/unsimulated/floor{
+	icon_state = "floor"
+	},
+/area/iomoon/base)
 "xgE" = (
 /turf/unsimulated/floor/carpet/red/fancy/narrow/east,
 /area/titlescreen)
@@ -76603,6 +76647,9 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/retentioncenter)
+"xig" = (
+/turf/unsimulated/floor/grass/leafy,
+/area/hospital/somewhere)
 "xjT" = (
 /obj/securearea{
 	desc = "";
@@ -76618,6 +76665,21 @@
 	},
 /turf/unsimulated/floor/void/channel,
 /area/adventure/channel)
+"xkZ" = (
+/obj/decal/fakeobjects/skeleton{
+	desc = "The partially decomposed corpse of some poor chump.";
+	icon = 'icons/misc/hstation.dmi';
+	icon_state = "body3";
+	name = "corpse"
+	},
+/obj/decal/cleanable/vomit{
+	desc = "Someone lost their lunch.  A long time ago.";
+	name = "dried vomit"
+	},
+/turf/unsimulated/floor/purple/side{
+	dir = 4
+	},
+/area/iomoon/base)
 "xls" = (
 /obj/stool/chair/comfy/shuttle/red{
 	dir = 1
@@ -76672,6 +76734,16 @@
 	icon_state = "beach-1"
 	},
 /area/titlescreen)
+"xpn" = (
+/obj/machinery/atmospherics/pipe/tank/rad_particles{
+	desc = "A large vessel containing an unknown pressurized gas.";
+	name = "Unidentified Gas Tank"
+	},
+/obj/cable{
+	icon_state = "1-4"
+	},
+/turf/unsimulated/floor/plating/scorched,
+/area/crater)
 "xqB" = (
 /obj/item/reagent_containers/food/snacks/mushroom/psilocybin,
 /turf/unsimulated/floor/grey/side{
@@ -76682,23 +76754,6 @@
 /obj/map/light/brightwhite,
 /turf/unsimulated/floor/grass/random,
 /area/afterlife/heaven)
-"xrG" = (
-/turf/unsimulated/wall/auto/adventure/hospital,
-/area/cordon)
-"xto" = (
-/obj/noticeboard{
-	pixel_y = 28
-	},
-/turf/unsimulated/floor{
-	icon_state = "floor"
-	},
-/area/iomoon/base)
-"xug" = (
-/obj/decal/fakeobjects/pipe{
-	dir = 5
-	},
-/turf/unsimulated/floor,
-/area/iomoon/base)
 "xxK" = (
 /obj/indestructible/shuttle_corner{
 	dir = 9;
@@ -76711,14 +76766,6 @@
 	icon_state = "diagonalWall"
 	},
 /area/crunch)
-"xzz" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
-	},
-/turf/unsimulated/floor/black,
-/area/centcom/offices/grayshift)
 "xAH" = (
 /obj/item/device/light/magic_lantern{
 	dir = 4;
@@ -76726,29 +76773,14 @@
 	},
 /turf/unsimulated/floor/shuttlebay,
 /area/wizard_station)
-"xAK" = (
-/obj/grille/catwalk{
-	dir = 10;
-	icon_state = "catwalk_cross"
-	},
-/obj/map/light/lava,
-/turf/unsimulated/floor/lava{
-	deadly = 0;
-	temperature = 372.15
-	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 20;
-	dir = 10;
-	icon_state = "catwalk";
-	name = "hot catwalk support";
-	temperature = 372.15
-	},
-/area/iomoon)
 "xAQ" = (
 /obj/random_item_spawner/tools,
 /obj/table/auto,
 /turf/unsimulated/floor/setpieces/rootfloor,
 /area/centcom/offices/marknstein)
+"xBs" = (
+/turf/unsimulated/floor/grime,
+/area/iomoon/base)
 "xBu" = (
 /obj/indestructible/shuttle_corner{
 	icon_state = "wall3_trans"
@@ -76771,12 +76803,9 @@
 	},
 /turf/unsimulated/outdoors/grass,
 /area/diner/cow)
-"xFe" = (
-/obj/tree1{
-	dir = 8
-	},
-/turf/unsimulated/floor/grass/leafy,
-/area/hospital/somewhere)
+"xEK" = (
+/turf/unsimulated/floor/caution/west,
+/area/iomoon/base)
 "xGt" = (
 /obj/item/sticker/gold_star{
 	pixel_x = -3
@@ -76822,6 +76851,22 @@
 	icon_state = "shore-25"
 	},
 /area/titlescreen)
+"xLT" = (
+/obj/machinery/door/airlock/pyro{
+	dir = 4
+	},
+/turf/unsimulated/floor/purple,
+/area/iomoon/base)
+"xMM" = (
+/obj/table/auto,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/item/reagent_containers/food/snacks/candy/negativeonebar,
+/turf/unsimulated/floor/purple/side{
+	dir = 9
+	},
+/area/iomoon/base)
 "xMP" = (
 /obj/machinery/light/small,
 /turf/unsimulated/outdoors/grass,
@@ -76857,6 +76902,15 @@
 /obj/decal/tile_edge/stripe/extra_big,
 /turf/unsimulated/floor/shuttlebay,
 /area/syndicate_station/battlecruiser)
+"xRJ" = (
+/obj/decal/fakeobjects/pipe{
+	dir = 4
+	},
+/obj/decal/fakeobjects/lightbulb_broken{
+	dir = 1
+	},
+/turf/unsimulated/floor,
+/area/iomoon/base/underground)
 "xSW" = (
 /obj/stool/bar,
 /mob/living/carbon/human/don_glab/cow,
@@ -76872,6 +76926,14 @@
 	},
 /turf/unsimulated/martian/floor,
 /area/crunch)
+"xTP" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
+	dir = 4
+	},
+/turf/unsimulated/floor/wood/two,
+/area/centcom/offices/aloe)
 "xUe" = (
 /turf/unsimulated/floor/dream/beach{
 	icon_state = "shore-21"
@@ -76883,31 +76945,14 @@
 	icon_state = "floor2"
 	},
 /area/shuttle/merchant_shuttle/diner_centcom)
-"xVK" = (
-/obj/decal/fakeobjects/pipe{
+"xVf" = (
+/obj/machinery/door/unpowered/wood{
+	icon = 'icons/obj/doors/door_office.dmi';
+	lock_dir = 8;
 	dir = 4
 	},
-/obj/machinery/light/small/iomoon{
-	dir = 1
-	},
-/turf/unsimulated/floor,
-/area/iomoon/base)
-"xVM" = (
-/obj/map/light/lava,
-/obj/grille/catwalk{
-	dir = 5
-	},
-/turf/unsimulated/iomoon/floor{
-	dir = 4;
-	icon_state = "iocrust_edge"
-	},
-/turf/unsimulated/floor{
-	dir = 4;
-	icon_state = "catwalk_cross";
-	name = "burning catwalk support";
-	temperature = 372.15
-	},
-/area/iomoon/caves)
+/turf/unsimulated/floor/black,
+/area/centcom/offices/burntcornmuffin)
 "xWi" = (
 /turf/space/shuttle_transit/safe,
 /area/shuttle_transit_space/west)
@@ -76927,6 +76972,12 @@
 	},
 /turf/space/no_replace,
 /area/adventure/channel)
+"xXr" = (
+/obj/machinery/light/runway_light{
+	name = "landing light"
+	},
+/turf/unsimulated/iomoon/plating,
+/area/iomoon)
 "xXy" = (
 /obj/crevice{
 	pixel_y = -28
@@ -76934,22 +76985,6 @@
 /obj/map/light/dimred,
 /turf/unsimulated/martian/floor,
 /area/crunch)
-"xXB" = (
-/obj/decal/fakeobjects/firelock_broken{
-	dir = 4;
-	icon = 'icons/obj/doors/SL_doors.dmi';
-	icon_state = "fdoor0"
-	},
-/obj/machinery/door/airlock/pyro/external{
-	dir = 4;
-	name = "Surface Airlock"
-	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 16;
-	name = "warm plating";
-	temperature = 313.15
-	},
-/area/iomoon/base)
 "xXL" = (
 /obj/lattice{
 	icon_state = "lattice-dir"
@@ -76970,17 +77005,6 @@
 	icon_state = "rootfloor_2"
 	},
 /area/centcom/offices/marknstein)
-"xYz" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
-	},
-/obj/adventurepuzzle/triggerer/trigger{
-	id = "emily_office_trigger"
-	},
-/turf/unsimulated/floor/wood,
-/area/centcom/offices/urs)
 "xYJ" = (
 /turf/unsimulated/floor/dream/beach{
 	icon_state = "beach-3"
@@ -77018,27 +77042,28 @@
 	dir = 9
 	},
 /area/centcom)
+"yaT" = (
+/obj/grille/catwalk{
+	dir = 4
+	},
+/turf/unsimulated/floor/lava{
+	deadly = 0;
+	temperature = 372.15
+	},
+/turf/unsimulated/floor{
+	carbon_dioxide = 16;
+	dir = 4;
+	icon_state = "catwalk_narrow";
+	name = "heated catwalk support";
+	temperature = 372.15
+	},
+/area/iomoon)
 "ybt" = (
 /turf/unsimulated/wall/auto/lead/blue,
 /area/crater)
 "ybJ" = (
 /turf/unsimulated/floor/dojo/stone,
 /area/titlescreen)
-"ycI" = (
-/obj/grille/catwalk{
-	dir = 6
-	},
-/turf/unsimulated/iomoon/floor{
-	dir = 6;
-	icon_state = "iocrust_edge"
-	},
-/turf/unsimulated/floor{
-	carbon_dioxide = 16;
-	icon_state = "catwalk_cross";
-	name = "hot catwalk support";
-	temperature = 372.15
-	},
-/area/iomoon)
 "ycX" = (
 /obj/item/toy/plush{
 	desc = "Ew, it's soggy.";
@@ -77050,17 +77075,6 @@
 	},
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/katzen)
-"ydF" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 8
-	},
-/obj/adventurepuzzle/triggerer/trigger{
-	id = "virva_trigger"
-	},
-/turf/unsimulated/floor/carpet/purple/fancy/edge/west,
-/area/centcom/offices/virvatuli)
 "yeV" = (
 /obj/indestructible/shuttle_corner{
 	dir = 5;
@@ -77070,21 +77084,17 @@
 	icon_state = "floor2"
 	},
 /area/shuttle/merchant_shuttle/left_centcom/cogmap)
+"yfK" = (
+/obj/machinery/door/airlock/pyro/external{
+	dir = 4;
+	name = "Cavern Airlock"
+	},
+/turf/unsimulated/floor,
+/area/iomoon/base/underground)
 "yfT" = (
 /obj/submachine/ice_cream_dispenser,
 /turf/unsimulated/outdoors/grass,
 /area/diner/cow)
-"yhj" = (
-/obj/decal/fakeobjects{
-	anchored = 1;
-	density = 1;
-	desc = "An antenna to boost a distress signal.";
-	icon = 'icons/obj/ship.dmi';
-	icon_state = "beacon";
-	name = "boost transmitter"
-	},
-/turf/unsimulated/iomoon/plating,
-/area/iomoon)
 "yiB" = (
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 5
@@ -77098,16 +77108,6 @@
 	icon_state = "shore-20"
 	},
 /area/titlescreen)
-"yjn" = (
-/obj/machinery/door/unpowered/wood{
-	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
-	},
-/turf/unsimulated/floor/caution/misc{
-	dir = 4
-	},
-/area/centcom/offices/azrun)
 "ykp" = (
 /turf/unsimulated/floor/minitiles/black,
 /area/centcom/offices/virvatuli)
@@ -80925,8 +80925,8 @@ boW
 boW
 boW
 boW
-kFk
-xAK
+eZK
+lKb
 bwr
 bue
 bue
@@ -81227,12 +81227,12 @@ boW
 boW
 boW
 boW
-jIk
-uyd
-lVd
-lVd
-lVd
-vew
+wte
+eHy
+sct
+sct
+sct
+hOu
 byg
 byg
 byg
@@ -81521,15 +81521,15 @@ tuw
 tuw
 tuw
 tuw
-pWk
-xAK
+hEb
+lKb
 bue
 bue
 bvg
 bue
 bvg
 bvg
-wDV
+php
 byF
 boW
 boW
@@ -81825,13 +81825,13 @@ tuw
 tuw
 tuw
 aat
-lVd
-lVd
-nfh
-lVd
-qhc
-qhc
-kTf
+sct
+sct
+iSg
+sct
+kax
+kax
+qnn
 byF
 boW
 boW
@@ -81839,7 +81839,7 @@ boW
 bqw
 bCc
 dca
-ftr
+eGu
 bDW
 boW
 boW
@@ -82126,14 +82126,14 @@ tuw
 tuw
 tuw
 aaq
-vnF
+ozN
 bue
 bue
-grV
+uid
 bue
 bwr
 bwr
-wDV
+php
 byF
 boW
 boW
@@ -82141,7 +82141,7 @@ boW
 bpU
 bpT
 bCJ
-dUU
+fBB
 boV
 boW
 boW
@@ -82426,8 +82426,8 @@ boV
 tuw
 tuw
 tuw
-jMe
-ooI
+rMw
+sQZ
 btG
 boW
 boW
@@ -82435,7 +82435,7 @@ bvj
 boW
 boW
 boW
-wDV
+php
 byF
 boW
 boW
@@ -82443,7 +82443,7 @@ boW
 boW
 bCd
 dcb
-pig
+hmN
 boW
 boW
 boW
@@ -82737,7 +82737,7 @@ boW
 bpa
 bvg
 bvg
-wDV
+php
 brB
 btH
 boW
@@ -82745,7 +82745,7 @@ boW
 boW
 boW
 bpb
-pig
+hmN
 boW
 boW
 boW
@@ -83037,21 +83037,21 @@ boW
 boW
 boW
 dav
-vsX
-mmK
+rOZ
+wyA
 aaO
-jyA
+tei
 bvM
 bue
 bue
 bue
 bue
 brB
-nbu
-lVd
-lVd
-hIi
-ycI
+vdg
+sct
+sct
+wUk
+obq
 byg
 bpD
 byg
@@ -83349,7 +83349,7 @@ boW
 boW
 boW
 bpb
-gyV
+fGs
 bpa
 bue
 bEQ
@@ -83642,7 +83642,7 @@ boW
 boW
 bql
 izT
-wOq
+hAl
 bsn
 izT
 bvM
@@ -83945,7 +83945,7 @@ boW
 bql
 izT
 bsn
-epr
+qvB
 izT
 bql
 boV
@@ -84246,7 +84246,7 @@ boW
 boW
 bql
 izT
-odj
+tmN
 bsn
 izT
 bql
@@ -84548,8 +84548,8 @@ boW
 bvk
 bvM
 izT
-wmh
-wvF
+mnl
+qxj
 izT
 bzk
 boV
@@ -84850,8 +84850,8 @@ boW
 bvl
 btR
 izT
-iFG
-iFG
+xEK
+xEK
 izT
 bql
 boV
@@ -85172,7 +85172,7 @@ bpD
 wXY
 bGC
 wXY
-tOp
+nTC
 wXY
 aaa
 aaa
@@ -85201,7 +85201,7 @@ bPL
 aDC
 aDC
 aDC
-jbr
+pOm
 aDC
 aDC
 aDC
@@ -85757,7 +85757,7 @@ bug
 bvN
 izT
 buK
-dNJ
+xBs
 izT
 bsX
 bpD
@@ -86353,12 +86353,12 @@ brv
 izT
 izT
 izT
-xug
+wuu
 btM
 btM
 btM
-spl
-mPz
+hrD
+std
 izT
 buK
 buK
@@ -86655,18 +86655,18 @@ brt
 izT
 izT
 izT
-kzU
-sTH
+prd
+orl
 btM
-oEt
-iFG
+oIN
+xEK
 gUJ
 izT
 buK
 buK
-hwG
+lOs
 buK
-stq
+iky
 izT
 izT
 izT
@@ -86957,10 +86957,10 @@ brw
 bsg
 bsG
 izT
-xVK
+lLh
 btM
 btM
-srF
+iMI
 buK
 buK
 buK
@@ -86969,7 +86969,7 @@ buK
 buK
 buK
 buK
-dNJ
+xBs
 izT
 izT
 izT
@@ -87261,20 +87261,20 @@ bpD
 izT
 bvO
 btK
-nHn
-srF
+gTm
+iMI
 buK
 buK
 buK
-dNJ
+xBs
 buK
 buK
 buK
 buK
 buK
 izT
-mVl
-rfB
+onT
+vSC
 izT
 izT
 izT
@@ -87563,8 +87563,8 @@ bpD
 izT
 bvO
 bvO
-fjt
-srF
+iXC
+iMI
 buK
 buK
 buK
@@ -87574,7 +87574,7 @@ buK
 buK
 buK
 buK
-fUp
+mfh
 btM
 btM
 btM
@@ -87872,10 +87872,10 @@ bvR
 izT
 buK
 buK
-dNJ
-diM
-dNJ
-lUT
+xBs
+dKN
+xBs
+isy
 izT
 btM
 btM
@@ -87924,7 +87924,7 @@ bQy
 bQy
 bQy
 bLn
-wXC
+huk
 bLn
 bLy
 bSC
@@ -88172,9 +88172,9 @@ buj
 btM
 btM
 izT
-moq
-mUR
-mUR
+xkZ
+eCm
+eCm
 izT
 izT
 izT
@@ -88475,7 +88475,7 @@ btM
 izT
 izT
 bwC
-rJj
+xLT
 izT
 izT
 bzM
@@ -88775,13 +88775,13 @@ btM
 btM
 izT
 izT
-rnI
+mjK
 bxj
 bxj
-tfI
+hYa
 izT
-wQP
-knH
+ezx
+xfB
 izT
 bxs
 bwv
@@ -89087,7 +89087,7 @@ izT
 izT
 byL
 bCP
-mUR
+eCm
 izT
 bEq
 btM
@@ -89377,14 +89377,14 @@ izT
 btO
 btM
 izT
-kML
+xMM
 bvT
 bwv
-oCd
-fDD
+rJq
+viP
 buK
 byJ
-rFE
+uTu
 izT
 bBq
 bCf
@@ -89414,7 +89414,7 @@ bKB
 bKU
 bLd
 bLn
-cJu
+hjg
 bLn
 bLn
 bLn
@@ -89682,8 +89682,8 @@ izT
 bvp
 buK
 bww
-rPD
-qFi
+ndG
+wtQ
 byK
 byK
 bzP
@@ -89917,7 +89917,7 @@ aNo
 qJS
 aQh
 aQT
-rvN
+xbd
 aSO
 aTH
 aSO
@@ -89982,14 +89982,14 @@ izT
 btM
 izT
 bvq
-jNw
+qVM
 bwv
 bxm
 byb
 buK
 bxm
 bzQ
-nwP
+mxv
 bBr
 bCf
 bCS
@@ -90019,7 +90019,7 @@ bKw
 bKB
 aDC
 aDC
-mZu
+fSY
 bLl
 bLl
 bNe
@@ -90285,11 +90285,11 @@ buk
 izT
 bvr
 bvV
-oxh
-dto
+eXU
+tVp
 byb
 buK
-dNJ
+xBs
 bzR
 izT
 buK
@@ -90586,13 +90586,13 @@ izT
 izT
 izT
 izT
-auT
+twj
 bwy
-dNJ
+xBs
 buK
 byL
-mUR
-jGF
+eCm
+gcK
 izT
 bBq
 bCf
@@ -90889,10 +90889,10 @@ bPe
 buI
 izT
 izT
-kgU
-mUR
-mUR
-pqI
+taG
+eCm
+eCm
+tFY
 izT
 izT
 izT
@@ -91192,7 +91192,7 @@ bum
 bum
 izT
 izT
-rJj
+xLT
 bwC
 izT
 izT
@@ -91496,7 +91496,7 @@ izT
 bwA
 bxj
 bxj
-wLw
+iXi
 izT
 bwv
 buK
@@ -91800,7 +91800,7 @@ buK
 buK
 buK
 izT
-pAq
+iKq
 bwC
 izT
 btM
@@ -92396,7 +92396,7 @@ bqw
 bpD
 izT
 izT
-dNJ
+xBs
 buK
 buK
 buK
@@ -92700,7 +92700,7 @@ izT
 izT
 izT
 izT
-sbb
+fDf
 bwC
 izT
 buK
@@ -93006,9 +93006,9 @@ buM
 mIO
 izT
 buK
-vaa
-roI
-rTj
+lFO
+qYu
+qAF
 bAD
 bBt
 bCi
@@ -93309,8 +93309,8 @@ bwE
 izT
 buK
 buK
-lUr
-opj
+sRZ
+tPe
 bAE
 bBu
 bAa
@@ -93609,10 +93609,10 @@ izT
 izT
 izT
 izT
-xto
+sFJ
 buK
-lUr
-opj
+sRZ
+tPe
 bAa
 bAa
 bAa
@@ -93911,10 +93911,10 @@ bvt
 bvt
 buN
 izT
-jNv
+lPz
 buK
-lUr
-opj
+sRZ
+tPe
 bAF
 bBv
 bAa
@@ -94214,9 +94214,9 @@ bvY
 buN
 bxq
 buK
-dNJ
-lUr
-kwV
+xBs
+sRZ
+vUA
 bAG
 bBw
 bAa
@@ -94514,11 +94514,11 @@ buP
 bvv
 bvZ
 buN
-jbn
+nhC
 buK
 buK
-lUr
-rgI
+sRZ
+vMD
 bAH
 bBx
 bAa
@@ -94819,7 +94819,7 @@ buN
 izT
 buK
 buK
-lUr
+sRZ
 bAa
 bAI
 bDa
@@ -95119,9 +95119,9 @@ bvx
 bvx
 buN
 izT
-jNv
+lPz
 buK
-lUr
+sRZ
 bAa
 bAa
 bAa
@@ -95419,11 +95419,11 @@ izT
 izT
 buN
 buN
-nZG
+jhT
 izT
 buK
 buK
-lUr
+sRZ
 bAa
 bAJ
 bAa
@@ -96327,8 +96327,8 @@ bpD
 izT
 izT
 izT
-txV
-txV
+fRv
+fRv
 izT
 btM
 btM
@@ -96629,8 +96629,8 @@ bpD
 izT
 bwG
 izT
-wmh
-mbP
+mnl
+svb
 izT
 izT
 izT
@@ -96931,7 +96931,7 @@ bpD
 bpD
 bpD
 izT
-odj
+tmN
 bsn
 izT
 izT
@@ -97233,7 +97233,7 @@ bpD
 bpD
 bpD
 izT
-dZC
+qOD
 bsn
 izT
 bwG
@@ -97536,7 +97536,7 @@ bpD
 bpD
 izT
 izT
-xXB
+wFG
 izT
 bpD
 bpD
@@ -97824,7 +97824,7 @@ bDL
 boV
 bpU
 bpE
-dng
+iED
 bVO
 bsk
 bqq
@@ -98126,7 +98126,7 @@ boV
 boV
 boW
 boW
-pig
+hmN
 brB
 bsl
 bqP
@@ -98428,7 +98428,7 @@ boV
 boV
 boW
 boW
-pig
+hmN
 bpb
 bpU
 brx
@@ -98730,7 +98730,7 @@ boV
 boV
 boW
 boW
-pig
+hmN
 bpb
 boW
 boW
@@ -99032,7 +99032,7 @@ boV
 boV
 boW
 boW
-pig
+hmN
 bpb
 boW
 boW
@@ -99334,7 +99334,7 @@ boV
 boV
 boW
 boV
-pZH
+yaT
 brC
 bpR
 bpR
@@ -99636,7 +99636,7 @@ boV
 boV
 boW
 bqn
-pWC
+rDm
 cjF
 bpD
 bpD
@@ -102375,7 +102375,7 @@ bpT
 byg
 byg
 byg
-mZP
+xXr
 abo
 boH
 boH
@@ -102674,7 +102674,7 @@ boW
 boW
 boV
 bqw
-mZP
+xXr
 byg
 byg
 dbt
@@ -103114,7 +103114,7 @@ vkk
 dfo
 dfQ
 dfQ
-vGr
+utq
 lzl
 bqW
 btp
@@ -103580,9 +103580,9 @@ boW
 bqn
 bqZ
 bpD
-wjk
+lrt
 dbD
-wjk
+lrt
 dbt
 bpD
 aaR
@@ -103883,7 +103883,7 @@ bqZ
 bpD
 bpD
 byg
-yhj
+uUB
 dbt
 byg
 bpD
@@ -103964,7 +103964,7 @@ dbi
 dSi
 cwC
 ddz
-mgl
+rJP
 dTB
 dcZ
 ddk
@@ -105713,7 +105713,7 @@ bHV
 jnw
 bJa
 bJn
-sAx
+sWq
 jnw
 bKx
 aab
@@ -106314,7 +106314,7 @@ aab
 aab
 jnw
 cnv
-ltO
+pPJ
 jnw
 bJo
 jnw
@@ -108707,12 +108707,12 @@ cLf
 cLP
 dau
 cLP
-pzk
+vGT
 rHr
-rSl
-qiM
-weo
-eGE
+uJm
+pqF
+rNO
+hur
 rHr
 bBA
 bCn
@@ -109010,12 +109010,12 @@ bqB
 bqB
 bqB
 bwI
-pqk
+rvc
 bvB
 bwe
 bwO
 bwO
-hnt
+mCb
 bBA
 bCo
 bDi
@@ -109305,7 +109305,7 @@ rHr
 rHr
 rHr
 rHr
-kWj
+rKZ
 rHr
 rHr
 rHr
@@ -109313,7 +109313,7 @@ rHr
 bqB
 bwI
 rHr
-uqq
+xRJ
 bwe
 bzu
 bwO
@@ -109613,12 +109613,12 @@ btb
 btb
 rHr
 btT
-hes
+eGO
 rHr
 rHr
 rHr
-ivh
-paF
+kHV
+nuu
 rHr
 bBA
 cks
@@ -109914,8 +109914,8 @@ btb
 btb
 btb
 rHr
-ejY
-oXQ
+bFK
+nya
 rHr
 rHr
 rHr
@@ -110520,7 +110520,7 @@ btb
 rHr
 bqB
 bwI
-dIO
+iFQ
 rHr
 dWx
 bzy
@@ -110821,7 +110821,7 @@ btb
 btb
 rHr
 btV
-mvO
+kNW
 btV
 rHr
 rHr
@@ -111122,9 +111122,9 @@ btb
 rHr
 rHr
 rHr
-rww
-eLQ
-vxr
+uFQ
+jla
+twZ
 rHr
 rHr
 rHr
@@ -111424,10 +111424,10 @@ rHr
 rHr
 buR
 bvz
-vJC
-rKe
-wXZ
-wXZ
+kRe
+fRc
+mgH
+mgH
 byV
 rHr
 rHr
@@ -112940,9 +112940,9 @@ bwQ
 bwQ
 bwQ
 rHr
-sdR
-sWL
-hDD
+gxW
+iUN
+kJQ
 rHr
 rHr
 btb
@@ -113243,7 +113243,7 @@ byo
 byW
 rHr
 bqB
-ejY
+bFK
 bBG
 rHr
 btb
@@ -114249,11 +114249,11 @@ bOB
 bPy
 ciu
 ciu
-rDF
+kEQ
 ciu
 civ
 ciu
-mIc
+xcz
 ciu
 ciu
 civ
@@ -115055,7 +115055,7 @@ rHr
 rHr
 rHr
 bqB
-sBU
+soz
 rHr
 btb
 aaa
@@ -115356,7 +115356,7 @@ rHr
 rHr
 rHr
 rHr
-lsi
+yfK
 rHr
 rHr
 btb
@@ -115657,9 +115657,9 @@ aaa
 aaa
 bva
 rHr
-kpl
+qZR
 btT
-jTQ
+vCn
 rHr
 btb
 aaa
@@ -115959,9 +115959,9 @@ bva
 bva
 bva
 rHr
-dRF
-tNR
-oaQ
+wyg
+sZR
+smV
 fGW
 bva
 bva
@@ -116262,7 +116262,7 @@ bva
 bva
 rHr
 rHr
-tNf
+xeE
 rHr
 rHr
 txy
@@ -117571,11 +117571,11 @@ cgw
 cho
 ciu
 ciu
-hKX
+shD
 ciu
 civ
 ciu
-uPc
+keE
 ciu
 ciu
 civ
@@ -117676,7 +117676,7 @@ xSW
 tKt
 tKt
 nIe
-iVK
+gPZ
 iBf
 iBf
 iBf
@@ -118077,7 +118077,7 @@ dbG
 bwX
 bwX
 dbK
-sgk
+ajC
 dfO
 bwX
 bEi
@@ -118379,7 +118379,7 @@ dbk
 bvF
 bvF
 dbu
-vvK
+pxx
 dbu
 bza
 bzE
@@ -118681,7 +118681,7 @@ bvF
 bAn
 bAX
 dbu
-vvK
+pxx
 dbu
 bzb
 bza
@@ -118909,7 +118909,7 @@ aJk
 aJk
 bPJ
 isG
-eRo
+xpn
 bQU
 ybt
 bRR
@@ -118983,7 +118983,7 @@ bvF
 bwl
 bAY
 dbL
-vvK
+pxx
 dbB
 txy
 txy
@@ -119285,7 +119285,7 @@ bzD
 bwl
 bwU
 dbM
-xVM
+pls
 dfR
 txy
 txy
@@ -119645,7 +119645,7 @@ afW
 afW
 wMp
 wMp
-uuv
+iYB
 wMp
 wMp
 wMp
@@ -121438,7 +121438,7 @@ bPc
 bNq
 bNq
 dFY
-jkD
+rSm
 aaa
 bQX
 bOB
@@ -122414,18 +122414,18 @@ ciz
 "}
 (151,1,1) = {"
 aaa
-kTQ
-kTQ
-kTQ
-kTQ
-kTQ
-kTQ
-kTQ
-kTQ
-kTQ
-kTQ
-kTQ
-kTQ
+kaU
+kaU
+kaU
+kaU
+kaU
+kaU
+kaU
+kaU
+kaU
+kaU
+kaU
+kaU
 aaa
 aaa
 abp
@@ -122702,8 +122702,8 @@ ciO
 cjh
 cjH
 cjh
-qEv
-fYw
+kap
+qCN
 cjh
 cjh
 cjh
@@ -122716,18 +122716,18 @@ ciz
 "}
 (152,1,1) = {"
 aaa
-kTQ
-wMW
-wMW
-wMW
-wMW
-wMW
-wMW
-wMW
-wMW
-wMW
-wMW
-kTQ
+kaU
+xig
+xig
+xig
+xig
+xig
+xig
+xig
+xig
+xig
+xig
+kaU
 aaa
 aaa
 aaa
@@ -123018,18 +123018,18 @@ ciz
 "}
 (153,1,1) = {"
 aaa
-kTQ
-wMW
-wMW
-qHb
-wMW
-wMW
-xFe
-wMW
-qHb
-wMW
-wMW
-kTQ
+kaU
+xig
+xig
+rfy
+xig
+xig
+kHJ
+xig
+rfy
+xig
+xig
+kaU
 aaa
 aaa
 aaa
@@ -123320,18 +123320,18 @@ ciz
 "}
 (154,1,1) = {"
 aaa
-kTQ
-wMW
-wMW
-wMW
-wMW
-wMW
-wMW
-wMW
-wMW
-wMW
-wMW
-kTQ
+kaU
+xig
+xig
+xig
+xig
+xig
+xig
+xig
+xig
+xig
+xig
+kaU
 aaa
 aaa
 aaa
@@ -123622,18 +123622,18 @@ ciz
 "}
 (155,1,1) = {"
 aaa
-kTQ
-wMW
-wMW
-gsW
-wMW
-vUB
-isO
-isO
-kCI
-fnj
-wMW
-kTQ
+kaU
+xig
+xig
+rxy
+xig
+aln
+fvH
+fvH
+aiO
+vuY
+xig
+kaU
 aaa
 aaa
 aaa
@@ -123924,19 +123924,19 @@ ciz
 "}
 (156,1,1) = {"
 aaa
-kTQ
-wMW
-qHb
-wMW
-jxN
-nYO
-whN
-whN
-pTM
-wMW
-wMW
-kTQ
-xrG
+kaU
+xig
+rfy
+xig
+mgt
+rbU
+oXM
+oXM
+jzX
+xig
+xig
+kaU
+jLc
 abp
 abp
 abp
@@ -124226,19 +124226,19 @@ ciz
 "}
 (157,1,1) = {"
 aaa
-kTQ
-wMW
-wMW
-wMW
-iqm
-whN
-tRV
-whN
-whN
-whN
-whN
-kTQ
-xrG
+kaU
+xig
+xig
+xig
+oZc
+oXM
+toG
+oXM
+oXM
+oXM
+oXM
+kaU
+jLc
 aeX
 aeX
 aeX
@@ -124528,19 +124528,19 @@ ciz
 "}
 (158,1,1) = {"
 aaa
-kTQ
-wMW
-wMW
-kay
-lbp
-qKh
-whN
-whN
-lOY
-wMW
-wMW
-kTQ
-xrG
+kaU
+xig
+xig
+tnX
+udz
+rib
+oXM
+oXM
+qZA
+xig
+xig
+kaU
+jLc
 aeX
 aeK
 aeK
@@ -124830,19 +124830,19 @@ ciz
 "}
 (159,1,1) = {"
 aaa
-kTQ
-wMW
-wMW
-wMW
-wMW
-usb
-hOB
-hOB
-gmS
-wMW
-wMW
-kTQ
-xrG
+kaU
+xig
+xig
+xig
+xig
+jyh
+jLq
+jLq
+gZF
+xig
+xig
+kaU
+jLc
 aeX
 aeL
 afh
@@ -125132,19 +125132,19 @@ ciz
 "}
 (160,1,1) = {"
 aaa
-kTQ
-wMW
-wMW
-wMW
-otA
-wMW
-wMW
-wMW
-kay
-wMW
-wMW
-kTQ
-xrG
+kaU
+xig
+xig
+xig
+tDE
+xig
+xig
+xig
+tnX
+xig
+xig
+kaU
+jLc
 aeX
 aeX
 aeX
@@ -125434,19 +125434,19 @@ cbw
 "}
 (161,1,1) = {"
 aaa
-kTQ
-wMW
-wMW
-wMW
-wMW
-wMW
-qHb
-wMW
-wMW
-wMW
-qHb
-kTQ
-xrG
+kaU
+xig
+xig
+xig
+xig
+xig
+rfy
+xig
+xig
+xig
+rfy
+kaU
+jLc
 abp
 abp
 abp
@@ -125736,18 +125736,18 @@ cbw
 "}
 (162,1,1) = {"
 aaa
-kTQ
-wMW
-wMW
-wMW
-wMW
-wMW
-wMW
-wMW
-wMW
-wMW
-wMW
-kTQ
+kaU
+xig
+xig
+xig
+xig
+xig
+xig
+xig
+xig
+xig
+xig
+kaU
 aaa
 aaa
 aaa
@@ -126038,18 +126038,18 @@ cbw
 "}
 (163,1,1) = {"
 aaa
-kTQ
-kTQ
-kTQ
-kTQ
-kTQ
-kTQ
-kTQ
-kTQ
-kTQ
-kTQ
-kTQ
-kTQ
+kaU
+kaU
+kaU
+kaU
+kaU
+kaU
+kaU
+kaU
+kaU
+kaU
+kaU
+kaU
 aaa
 aaa
 aaa
@@ -126077,7 +126077,7 @@ aeL
 aeL
 aeL
 aeL
-tWj
+naX
 aeL
 aeL
 aeL
@@ -129820,9 +129820,9 @@ bke
 bkA
 aTs
 aTs
-bfA
+vaU
 aMm
-bfA
+vaU
 aTs
 aTs
 bnb
@@ -130377,7 +130377,7 @@ cgt
 aTs
 cgt
 aTs
-bfA
+vaU
 aTs
 aTs
 aQJ
@@ -132827,7 +132827,7 @@ bft
 aKS
 aKS
 aKS
-lpC
+kYP
 aNx
 aNx
 aPm
@@ -133097,7 +133097,7 @@ aMS
 aNy
 aNy
 aPo
-hAB
+mgP
 aKS
 aRz
 aKS
@@ -133443,7 +133443,7 @@ aNy
 bhn
 aNy
 aNy
-hAB
+mgP
 aKS
 aKS
 aKS
@@ -134105,7 +134105,7 @@ bCb
 bJU
 bJU
 bJU
-oLu
+ubk
 bJU
 bJU
 aaa
@@ -136464,8 +136464,8 @@ cgt
 aTs
 aTs
 aTs
-gYl
-gYl
+kSd
+kSd
 bmm
 aTs
 aTs
@@ -136722,9 +136722,9 @@ aMr
 aLm
 aLg
 aTs
-bfA
+vaU
 aMm
-bfA
+vaU
 aTs
 aUj
 aVc
@@ -140522,7 +140522,7 @@ cjL
 cba
 ckB
 cli
-sRH
+eQD
 cli
 cli
 ckB
@@ -141102,7 +141102,7 @@ cba
 cba
 cba
 aqL
-bbD
+mpB
 cbB
 caX
 aqL
@@ -141733,7 +141733,7 @@ cli
 cli
 cly
 cli
-sRH
+eQD
 cli
 cli
 ckB
@@ -142637,9 +142637,9 @@ cba
 ckB
 cli
 cli
-sRH
+eQD
 clY
-gYR
+wBu
 cli
 cli
 ckB
@@ -146361,9 +146361,9 @@ sWb
 dPt
 dPt
 sWb
-vzm
+dQV
 sWb
-vzm
+dQV
 sWb
 sWb
 wel
@@ -146661,7 +146661,7 @@ aES
 aES
 sWb
 sWb
-vzm
+dQV
 sWb
 dMu
 dQd
@@ -148512,7 +148512,7 @@ dEx
 dED
 wel
 nFF
-igN
+khq
 oZS
 wel
 nte
@@ -149700,35 +149700,35 @@ dQs
 dQs
 wel
 wel
-oRE
+qbg
 wel
 wel
 kpw
-rMJ
+jHc
 ePc
 wel
 hVs
-ptA
+vgK
 wel
 wel
 mUi
-rdJ
+wYi
 wel
 wel
 nMS
-xYz
+uyV
 wel
 wel
 gaE
-uSI
+wzJ
 wel
 wel
 nrk
-oNQ
+pmz
 wel
 wel
 wel
-nYr
+tBw
 wel
 wel
 aES
@@ -150614,7 +150614,7 @@ dyk
 wel
 wel
 vGl
-otB
+pMx
 wel
 wel
 wel
@@ -150622,15 +150622,15 @@ dDp
 wel
 wel
 scU
-eFt
+kLv
 wel
 wel
 rQp
-vHr
+vQR
 wel
 wel
 pom
-kJr
+gca
 wel
 wel
 dvy
@@ -151242,7 +151242,7 @@ dER
 dvy
 wel
 dEY
-nmV
+wPE
 wel
 wel
 aES
@@ -153630,27 +153630,27 @@ dqa
 wel
 wel
 wel
-gKM
+qKe
 wel
 wel
 wel
-qwI
+fBN
 wel
 wel
 wel
-oNw
+bER
 wel
 wel
 wel
-yjn
+saY
 wel
 wel
 wel
-gKM
+qKe
 wel
 wel
 wel
-bHg
+xTP
 wel
 wel
 dvy
@@ -156980,7 +156980,7 @@ dEQ
 dvy
 wel
 dEY
-qLo
+jhi
 wel
 wel
 aES
@@ -157552,31 +157552,31 @@ dvC
 dvy
 wel
 wel
-gKM
+qKe
 wel
 wel
 fXc
-rjO
+gif
 wel
 wel
 wel
-kWZ
+omv
 wel
 wel
 wel
-qsS
+rDK
 wel
 wel
 wel
-qQZ
+eLm
 wel
 wel
 wpJ
-gvw
+vpD
 wel
 wel
 wel
-pcm
+qXw
 wel
 wel
 dvy
@@ -158482,11 +158482,11 @@ dEJ
 wel
 wel
 wel
-ydF
+tih
 wel
 wel
 esO
-pyO
+cZM
 wel
 wel
 aES
@@ -158783,7 +158783,7 @@ dCI
 dDt
 dDt
 wel
-kIG
+qRo
 mpC
 pYp
 wel
@@ -158882,7 +158882,7 @@ abr
 abB
 abB
 aeN
-rjn
+nVj
 abB
 abB
 adZ
@@ -158909,7 +158909,7 @@ ask
 ask
 ask
 ayy
-rjn
+nVj
 abr
 abr
 abr
@@ -159489,7 +159489,7 @@ aeO
 adZ
 abB
 abB
-hMO
+uUl
 abB
 abB
 abr
@@ -161478,27 +161478,27 @@ dvy
 dvy
 wel
 wel
-xzz
+paE
 wel
 wel
 wel
-sDV
+kxc
 wel
 wel
 wel
-dYa
+ros
 wel
 wel
 wel
-jjj
+lgv
 wel
 wel
 wel
-ktb
+xVf
 wel
 wel
 wel
-iQj
+sYS
 wel
 wel
 aaa
@@ -161599,7 +161599,7 @@ adJ
 abB
 abB
 abB
-rjn
+nVj
 abB
 abB
 agm
@@ -164025,7 +164025,7 @@ abB
 abB
 abB
 abr
-hMO
+uUl
 abr
 abr
 adZ
