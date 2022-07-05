@@ -20447,10 +20447,7 @@
 /area/station/crew_quarters/heads)
 "bbX" = (
 /obj/table/reinforced/bar/auto,
-/obj/item/device/radio/intercom{
-	dir = 1;
-	pixel_y = 4
-	},
+/obj/item/device/radio/intercom/table/black,
 /turf/simulated/floor/carpet{
 	icon_state = "fred2"
 	},
@@ -27502,10 +27499,7 @@
 /area/space)
 "btK" = (
 /obj/table/reinforced/auto,
-/obj/item/device/radio/intercom{
-	dir = 1;
-	pixel_y = 5
-	},
+/obj/item/device/radio/intercom/table/white,
 /turf/simulated/floor,
 /area/station/crew_quarters/market)
 "btL" = (
@@ -28783,9 +28777,7 @@
 /area/space)
 "bxG" = (
 /obj/table/reinforced/auto,
-/obj/item/device/radio/intercom{
-	pixel_y = -2
-	},
+/obj/item/device/radio/intercom/table/white,
 /turf/simulated/floor/delivery,
 /area/station/crew_quarters/market)
 "bxI" = (

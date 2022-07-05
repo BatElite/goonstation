@@ -14,6 +14,7 @@
 	rand_pos = 0
 	desc = "A wall-mounted radio intercom, used to communicate with the specified frequency. Usually turned off except during emergencies."
 	hardened = 0
+	var/screen_icon_state = "intercom-screen"
 
 /obj/item/device/radio/intercom/proc/update_pixel_offset_dir(obj/item/AM, old_dir, new_dir)
 	src.pixel_x = 0
@@ -31,8 +32,8 @@
 /obj/item/device/radio/intercom/New()
 	. = ..()
 	RegisterSignal(src, COMSIG_ATOM_DIR_CHANGED, .proc/update_pixel_offset_dir)
-	if(src.icon_state == "intercom") // if something overrides the icon we don't want this
-		var/image/screen_image = image(src.icon, "intercom-screen")
+	if(src.screen_icon_state) // instead of checking icon state, null screen_icon_state now
+		var/image/screen_image = image(src.icon, screen_icon_state)
 		screen_image.color = src.device_color
 		if(src.device_color == RADIOC_INTERCOM || isnull(src.device_color)) // unboringify the colour if default
 			var/new_color = default_frequency_color(src.frequency)
@@ -42,6 +43,9 @@
 		src.UpdateOverlays(screen_image, "screen")
 		if(src.pixel_x == 0 && src.pixel_y == 0)
 			update_pixel_offset_dir(src,null,src.dir)
+
+/obj/item/device/radio/intercom/initialize() //this override was on pretty much every child what the fuck
+	set_frequency(frequency)
 
 /obj/item/device/radio/intercom/ui_state(mob/user)
 	return tgui_default_state
@@ -74,9 +78,6 @@
 	device_color = "#aa5c00"
 	protected_radio = 1
 
-	initialize()
-		set_frequency(frequency)
-
 // -------------------- VR --------------------
 /obj/item/device/radio/intercom/virtual
 	desc = "Virtual radio for all your beeps and bops."
@@ -84,97 +85,70 @@
 	protected_radio = 1
 // --------------------------------------------
 
+//Table flavours
+ABSTRACT_TYPE(/obj/item/device/radio/intercom/table)
+/obj/item/device/radio/intercom/table
+	screen_icon_state = "intercom_table-screen"
+	update_pixel_offset_dir(obj/item/AM, old_dir, new_dir)
+		return
+/obj/item/device/radio/intercom/table/white
+	icon_state = "intercom_table-w"
+/obj/item/device/radio/intercom/table/black
+	icon_state = "intercom_table-b"
+
 // ** preset intercoms to make mapping suck less augh **
 
-/obj/item/device/radio/intercom/medical
-	name = "Medical Intercom"
-	frequency = R_FREQ_INTERCOM_MEDICAL
-	broadcasting = 0
-	device_color = "#0093FF"
+//Hey I made most of this one of these defines because why not I'm not making a big list for all the table intercoms
+//also lowercased them names
+#define ENUMERATE_INTERCOMS(_supertype)\
+/obj/item/device/radio/_supertype/medical;\
+/obj/item/device/radio/_supertype/medical/name = "medical intercom";\
+/obj/item/device/radio/_supertype/medical/frequency = R_FREQ_INTERCOM_MEDICAL;\
+/obj/item/device/radio/_supertype/medical/device_color = "#0093FF";\
+/obj/item/device/radio/_supertype/security;\
+/obj/item/device/radio/_supertype/security/name = "security intercom";\
+/obj/item/device/radio/_supertype/security/frequency = R_FREQ_INTERCOM_SECURITY;\
+/obj/item/device/radio/_supertype/security/device_color = "#FF2000";\
+/obj/item/device/radio/_supertype/brig;\
+/obj/item/device/radio/_supertype/brig/name = "brig intercom";\
+/obj/item/device/radio/_supertype/brig/frequency = R_FREQ_INTERCOM_BRIG;\
+/obj/item/device/radio/_supertype/brig/device_color = "#FF5000";\
+/obj/item/device/radio/_supertype/science;\
+/obj/item/device/radio/_supertype/science/name = "research intercom";\
+/obj/item/device/radio/_supertype/science/frequency = R_FREQ_INTERCOM_RESEARCH;\
+/obj/item/device/radio/_supertype/science/device_color = "#C652CE";\
+/obj/item/device/radio/_supertype/engineering;\
+/obj/item/device/radio/_supertype/engineering/name = "engineering intercom";\
+/obj/item/device/radio/_supertype/engineering/frequency = R_FREQ_INTERCOM_ENGINEERING;\
+/obj/item/device/radio/_supertype/engineering/device_color = "#BBBB00";\
+/obj/item/device/radio/_supertype/cargo;\
+/obj/item/device/radio/_supertype/cargo/name = "cargo intercom";\
+/obj/item/device/radio/_supertype/cargo/frequency = R_FREQ_INTERCOM_CARGO;\
+/obj/item/device/radio/_supertype/cargo/device_color = "#9A8B0D";\
+/obj/item/device/radio/_supertype/catering;\
+/obj/item/device/radio/_supertype/catering/name = "catering intercom";\
+/obj/item/device/radio/_supertype/catering/frequency = R_FREQ_INTERCOM_CATERING;\
+/obj/item/device/radio/_supertype/catering/device_color = "#C16082";\
+/obj/item/device/radio/_supertype/botany;\
+/obj/item/device/radio/_supertype/botany/name = "botany intercom";\
+/obj/item/device/radio/_supertype/botany/frequency = R_FREQ_INTERCOM_BOTANY;\
+/obj/item/device/radio/_supertype/botany/device_color = "#78ee48";\
+/obj/item/device/radio/_supertype/AI;\
+/obj/item/device/radio/_supertype/AI/name = "\improper AI intercom";\
+/obj/item/device/radio/_supertype/AI/frequency = R_FREQ_INTERCOM_AI;\
+/obj/item/device/radio/_supertype/AI/device_color = "#7F7FE2";\
+/obj/item/device/radio/_supertype/AI/broadcasting = TRUE;\
+/obj/item/device/radio/_supertype/bridge;\
+/obj/item/device/radio/_supertype/bridge/name = "bridge intercom";\
+/obj/item/device/radio/_supertype/bridge/frequency = R_FREQ_INTERCOM_BRIDGE;\
+/obj/item/device/radio/_supertype/bridge/device_color = "#339933";\
+/obj/item/device/radio/_supertype/bridge/broadcasting = TRUE;\
 
-	initialize()
-		set_frequency(frequency)
+ENUMERATE_INTERCOMS(intercom) //wall intercoms
+ENUMERATE_INTERCOMS(intercom/table/black)
+ENUMERATE_INTERCOMS(intercom/table/white)
 
-/obj/item/device/radio/intercom/security
-	name = "Security Intercom"
-	frequency = R_FREQ_INTERCOM_SECURITY
-	broadcasting = 0
-	device_color = "#FF2000"
-
-	initialize()
-		set_frequency(frequency)
-
-/obj/item/device/radio/intercom/brig
-	name = "Brig Intercom"
-	frequency = R_FREQ_INTERCOM_BRIG
-	broadcasting = 0
-	device_color = "#FF5000"
-
-	initialize()
-		set_frequency(frequency)
-
-/obj/item/device/radio/intercom/science
-	name = "Research Intercom"
-	frequency = R_FREQ_INTERCOM_RESEARCH
-	broadcasting = 0
-	device_color = "#C652CE"
-
-	initialize()
-		set_frequency(frequency)
-
-/obj/item/device/radio/intercom/engineering
-	name = "Engineering Intercom"
-	frequency = R_FREQ_INTERCOM_ENGINEERING
-	broadcasting = 0
-	device_color = "#BBBB00"
-
-	initialize()
-		set_frequency(frequency)
-
-/obj/item/device/radio/intercom/cargo
-	name = "Cargo Intercom"
-	frequency = R_FREQ_INTERCOM_CARGO
-	broadcasting = 0
-	device_color = "#9A8B0D"
-
-	initialize()
-		set_frequency(frequency)
-
-/obj/item/device/radio/intercom/catering
-	name = "Catering Intercom"
-	frequency = R_FREQ_INTERCOM_CATERING
-	broadcasting = 0
-	device_color = "#C16082"
-
-	initialize()
-		set_frequency(frequency)
-
-/obj/item/device/radio/intercom/botany
-	name = "Botany Intercom"
-	frequency = R_FREQ_INTERCOM_BOTANY
-	broadcasting = 0
-	device_color = "#78ee48"
-
-	initialize()
-		set_frequency(frequency)
-
-/obj/item/device/radio/intercom/AI
-	name = "AI Intercom"
-	frequency = R_FREQ_INTERCOM_AI
-	broadcasting = 1
-	device_color = "#7F7FE2"
-
-	initialize()
-		set_frequency(frequency)
-
-/obj/item/device/radio/intercom/bridge
-	name = "Bridge Intercom"
-	frequency = R_FREQ_INTERCOM_BRIDGE
-	broadcasting = 1
-	device_color = "#339933"
-
-	initialize()
-		set_frequency(frequency)
+#undef ENUMERATE_INTERCOMS
 
 /obj/item/device/radio/intercom/syndicate
 	name = "Syndicate Intercom"
