@@ -1284,20 +1284,6 @@
 			return 1
 		boutput(holder.owner, scan_health(target, disease_detection=FALSE, visible=TRUE))
 
-/obj/item/aiModule/ability_expansion/security_vision
-	name = "Security Expansion Module"
-	desc = "A security record expansion module.  This module allows for remote access to security records."
-	lawText = "Security EXPANSION MODULE"
-	highlight_color = rgb(172, 0, 0, 255)
-	ai_abilities = list(/datum/targetable/ai/module/sec_huds)
-	var/obj/machinery/computer/secure_data/sec_comp
-
-	New()
-		..()
-		sec_comp = new(src)
-		sec_comp.ai_access = TRUE
-		sec_comp.authenticated = TRUE
-		sec_comp.rank = "AI"
 
 /datum/targetable/ai/module/sec_huds
 	name = "Security Lookup Scan"
