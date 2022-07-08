@@ -235,6 +235,9 @@
 				filename = "html/ghostcritter_mentor.html"
 
 			// misc
+			if ("syndieborg")
+				window_title = "Syndicate Robot Tips!"
+				filename = "html/traitorTips/syndicaterobotTips.html"
 			if ("rogueborgremoved")
 				filename = "html/traitorTips/roguerobotRemoved.html"
 			if ("antagremoved")
