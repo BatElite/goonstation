@@ -185,12 +185,12 @@ var/global/list/bible_contents = list()
 	proc/smite(mob/M)
 		M.visible_message("<span class='alert'>[M] farts on the bible.<br><b>A mysterious force smites [M]!</b></span>")
 		logTheThing("combat", M, null, "farted on [src] at [log_loc(src)] last touched by <b>[src.fingerprintslast ? src.fingerprintslast : "unknown"]</b>.")
-		var/turf/T = get_turf(M)
-		showlightning_bolt(T)
-		playsound(T, 'sound/effects/lightning_strike.ogg', 50, 1)
+		if (isturf(M.loc))
+			showlightning_bolt(M.loc)
+			playsound(M.loc, 'sound/effects/lightning_strike.ogg', 50, 1)
 		M.unequip_all()
 		M.emote("scream")
-		M.elecgib()
+		M.gib() //elecgib is cool but what if we kept it messy? :3
 
 /obj/item/storage/bible/evil
 	name = "frayed bible"
