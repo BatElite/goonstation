@@ -70,3 +70,7 @@ var/global/datum/ui_state/tgui_default_state/tgui_default_state = new /datum/ui_
 	if(. > UI_CLOSE)
 		. = min(., shared_living_ui_distance(src_object)) //critters can only use things they're near.
 
+/mob/living/silicon/ghostdrone/default_can_use_topic(src_object)
+	. = shared_ui_interaction(src_object)
+	if(. > UI_CLOSE && loc)
+		. = min(., loc.contents_ui_distance(src_object, src)) // Check the distance...
