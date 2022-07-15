@@ -124,7 +124,8 @@
 				filename = "html/traitorTips/omniTips.html"
 			if ("traitorgeneric")
 				filename ="html/traitorTips/traitorGenericTips.html"
-			if ("sleeper")
+			if (ROLE_SLEEPER_AGENT)
+				window_title = "Sleeper Agent Tips"
 				filename = "html/traitorTips/traitorsleeperTips.html"
 
 			// mindslave
