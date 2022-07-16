@@ -1074,15 +1074,21 @@ proc/muzzle_flash_any(var/atom/movable/A, var/firing_angle, var/muzzle_anim, var
 
 	animate(A, pixel_x = px, pixel_y = py, time = T, easing = ease, flags=ANIMATION_PARALLEL)
 
-/proc/animate_rest(var/atom/A, var/stand)
+/proc/animate_rest(var/atom/A, var/stand, var/lay_direction = null)
 	if(!istype(A))
 		return
 	if(stand)
 		animate(A, pixel_x = 0, pixel_y = 0, transform = A.transform.Turn(A.rest_mult * -90), time = 3, easing = LINEAR_EASING, flags=ANIMATION_PARALLEL)
 		A.rest_mult = 0
-	else if(!A.rest_mult)
-		var/fall_left_or_right = pick(1, -1) //A multiplier of one makes the atom rotate to the right, negative makes them fall to the left.
-		animate(A, pixel_x = 0, pixel_y = -4, transform = A.transform.Turn(fall_left_or_right * 90), time = 2, easing = LINEAR_EASING, flags=ANIMATION_PARALLEL)
+	else
+		var/fall_left_or_right
+		//Gonna make this bit optional so that outside code can set rest_mult and it'll flop in that direction
+		//force_laydown_standup is used a bunch but it only messes with lifeprocesses so I don't think it's easy to access animate_rest via that route
+		if(!A.rest_mult)
+			fall_left_or_right = lay_direction ? lay_direction : pick(1, -1) //A multiplier of one makes the atom rotate to the right, negative makes them fall to the left.
+		else fall_left_or_right = A.rest_mult
+		//pixel_y from -4 to -3 so resprite humans look better on beds
+		animate(A, pixel_x = 0, pixel_y = -3, transform = A.transform.Turn(fall_left_or_right * 90), time = 2, easing = LINEAR_EASING, flags=ANIMATION_PARALLEL)
 		A.rest_mult = fall_left_or_right
 
 /proc/animate_flip(var/atom/A, var/T)

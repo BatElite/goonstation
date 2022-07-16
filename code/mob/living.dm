@@ -1458,21 +1458,23 @@ var/global/icon/human_static_base_idiocy_bullshit_crap = icon('icons/mob/human.d
 	. = 0
 
 /mob/living/proc/update_lying()
+	var/lay_dir = null
 	if (src.buckled)
-		if (src.buckled == src.loc)
+		if (src.buckled == src.loc) //I think this means sleepers
 			src.lying = 1
 		else if (istype(src.buckled, /obj/stool/bed))
 			src.lying = 1
+			lay_dir = LAY_RIGHT
 		else
 			src.lying = 0
 
 	if (src.lying != src.lying_old)
 		src.lying_old = src.lying
-		src.animate_lying(src.lying)
+		src.animate_lying(src.lying, lay_dir)
 		src.p_class = initial(src.p_class) + src.lying // 2 while standing, 3 while lying
 
-/mob/living/proc/animate_lying(lying)
-	animate_rest(src, !lying)
+/mob/living/proc/animate_lying(lying, lay_dir = null)
+	animate_rest(src, !lying, lay_dir)
 
 
 /mob/living/attack_hand(mob/living/M, params, location, control)

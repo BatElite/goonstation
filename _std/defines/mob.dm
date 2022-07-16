@@ -68,3 +68,7 @@
 //message type flags for show_message
 #define MESSAGE_VISIBLE 1
 #define MESSAGE_AUDIBLE 2
+
+//For making laydowns force a specific direction
+#define LAY_LEFT -1
+#define LAY_RIGHT 1

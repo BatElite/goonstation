@@ -76,6 +76,8 @@
 	if (istype(W, /obj/item/grab))
 		if(ismob(W:affecting))
 			var/mob/M = W:affecting
+			if (!M.lying)
+				M.rest_mult = LAY_RIGHT //At least put them the right way onto the table
 			M.setStatus("resting", INFINITE_STATUS)
 			M.force_laydown_standup()
 			if (ishuman(M))
@@ -118,6 +120,7 @@
 	var/mob/living/carbon/C = O
 	if (user == C)
 		src.visible_message("<span class='alert'><b>[user.name]</b> lies down on [src].</span>")
+		user.rest_mult = LAY_RIGHT
 		user.setStatus("resting", INFINITE_STATUS)
 		user.force_laydown_standup()
 		if (ishuman(user))
@@ -128,6 +131,7 @@
 	else
 		src.visible_message("<span class='alert'><b>[user.name]</b> starts to move [C.name] onto the operating table.</span>")
 		if (do_mob(user,C,30))
+			C.rest_mult = LAY_RIGHT
 			C.setStatus("resting", INFINITE_STATUS)
 			C.force_laydown_standup()
 			if (ishuman(C))
