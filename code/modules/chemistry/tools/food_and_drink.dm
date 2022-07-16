@@ -1660,10 +1660,61 @@ ABSTRACT_TYPE(/obj/item/reagent_containers/food/snacks)
 
 /obj/item/reagent_containers/food/drinks/skull_chalice
 	name = "skull chalice"
-	desc = "A thing which you can drink fluids out of. Um. It's made from a skull. Considering how many holes are in skulls, this is perhaps a questionable design."
+	desc = "Crush your enemies! Drink their blood from their skulls!!"
 	icon_state = "skullchalice"
 	item_state = "skullchalice"
 	can_recycle = FALSE
+	//Hey what if we made these *really* gothic?
+	var/fluid_style = "fluid-skull"
+	var/image/trickle
+
+	New()
+		..()
+		trickle = image(src.icon)
+
+	disposing()
+		trickle = null
+		..()
+
+	on_reagent_change()
+		..()
+		update_icon()
+
+	update_icon()
+		if (!fluid_style) return
+
+		if (reagents.total_volume)
+			var/fluid_state = round(clamp((src.reagents.total_volume / src.reagents.maximum_volume * 3 + 1), 1, 3))
+			trickle.icon_state = "[src.fluid_style]-[fluid_state]"
+			var/datum/color/average = reagents.get_average_color()
+			trickle.color = average.to_rgba()
+			UpdateOverlays(trickle, "trickle")
+		else
+			UpdateOverlays(null, "trickle")
+
+/obj/item/reagent_containers/food/drinks/skull_chalice/xeno
+	icon_state = "skullchalice-xeno"
+	initial_volume = 100 //xenomorph skulls are long boys
+	fluid_style = null
+
+/obj/item/reagent_containers/food/drinks/skull_chalice/xeno/crystal
+	icon_state = "skullchalice-crystal"
+
+/obj/item/reagent_containers/food/drinks/skull_chalice/gold
+	icon_state = "skullchalice-gold"
+
+/obj/item/reagent_containers/food/drinks/skull_chalice/pred
+	icon_state = "skullchalice-pred"
+	fluid_style = "fluid-pred"
+
+/obj/item/reagent_containers/food/drinks/skull_chalice/faceless
+	desc = "You know, I don't think this one's gonna work out."
+	icon_state = "skullchalice-no_face"
+	fluid_style = null
+
+	on_reagent_change()
+		..() //Fine you whiny linter
+		reagents.clear_reagents() //lmao it just drains out the front
 
 /obj/item/reagent_containers/food/drinks/mug
 	name = "mug"

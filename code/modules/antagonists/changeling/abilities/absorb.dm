@@ -176,6 +176,12 @@
 			target.real_name = "Unknown"
 			target.bioHolder.AddEffect("husk")
 			target.bioHolder.mobAppearance.flavor_text = "A desiccated husk."
+			var/obj/item/skull/skellington = target.organHolder?.get_organ("skull")
+			if (skellington) //Give that bean a skull with a huge hole in it
+				skellington.name = "faceless skull"
+				skellington.desc = "Fuck that's creepy."
+				skellington.icon_state = "skull_noface"
+				skellington.value = -1
 
 	onInterrupt()
 		..()

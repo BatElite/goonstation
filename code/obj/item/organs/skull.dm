@@ -99,7 +99,27 @@
 			W.change_stack_amount(-1)
 			user.visible_message("<b>[user]</b> jams a rod into the bottom of [src]. Welp.",\
 			"You jam a rod into the bottom of [src]. Welp.")
-			var/obj/item/reagent_containers/food/drinks/skull_chalice/C = new /obj/item/reagent_containers/food/drinks/skull_chalice(src.loc)
+			var/obj/item/reagent_containers/food/drinks/skull_chalice/C
+			//I copied this from the skullbot crafting, dang it's ugly
+			if (src.icon_state == "skull_crystal" || istype(src, /obj/item/skull/crystal))
+				C = new /obj/item/reagent_containers/food/drinks/skull_chalice/xeno/crystal(get_turf(user))
+
+			else if (src.icon_state == "skullP" || istype(src, /obj/item/skull/strange))
+				C = new /obj/item/reagent_containers/food/drinks/skull_chalice/pred(get_turf(user))
+
+			//wiz skulls are close enough to human no special chalice for them
+
+			else if (src.icon_state == "skullA" || istype(src, /obj/item/skull/odd))
+				C = new /obj/item/reagent_containers/food/drinks/skull_chalice/xeno(get_turf(user))
+
+			else if (src.icon_state == "skull_noface" || istype(src, /obj/item/skull/noface))
+				C = new /obj/item/reagent_containers/food/drinks/skull_chalice/faceless(get_turf(user))
+
+			else if (src.icon_state == "skull_gold" || istype(src, /obj/item/skull/gold))
+				C = new /obj/item/reagent_containers/food/drinks/skull_chalice/gold(get_turf(user))
+
+			else
+				C = new /obj/item/reagent_containers/food/drinks/skull_chalice(get_turf(user))
 			user.put_in_hand_or_drop(C)
 			qdel(src)
 			return
