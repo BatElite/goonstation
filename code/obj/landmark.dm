@@ -8,8 +8,8 @@ proc/pick_landmark(name, default=null)
 
 /obj/landmark
 	name = "landmark"
-	icon = 'icons/mob/screen1.dmi'
-	icon_state = "x2"
+	icon = 'icons/map-editing/landmarks.dmi'
+	icon_state = "x2" //these x,x2,x3 icon_states I copied from icons/mob/screen1.dmi but I think I'd like to phase them out eventually
 	anchored = 1
 	invisibility = INVIS_ALWAYS
 	var/deleted_on_start = TRUE
@@ -48,7 +48,7 @@ var/global/list/job_start_locations = list()
 
 /obj/landmark/start
 	name = "start"
-	icon_state = "x"
+	icon_state = "player-start"
 	add_to_landmarks = FALSE
 
 	New()
@@ -63,6 +63,7 @@ var/global/list/job_start_locations = list()
 // most of these are here just for backwards compatibility
 
 /obj/landmark/start/latejoin
+	icon_state = "latejoin"
 	name = LANDMARK_LATEJOIN
 	add_to_landmarks = TRUE
 
@@ -115,7 +116,7 @@ var/global/list/job_start_locations = list()
 /obj/landmark/latejoin_missile
 	name = "missile latejoin spawn marker"
 	name_override = LANDMARK_LATEJOIN_MISSILE
-	icon_state = "x"
+	icon_state = "latejoin"
 	dir = NORTH
 
 	New()
@@ -143,7 +144,7 @@ var/global/list/job_start_locations = list()
 
 /obj/landmark/artifact
 	name = LANDMARK_ARTIFACT_SPAWN
-	icon_state = "x3"
+	icon_state = "artifact-spawn"
 	var/spawnchance = 100 // prob chance out of 100 to spawn artifact at game start
 	New()
 		src.data = src.spawnchance
@@ -159,6 +160,7 @@ var/global/list/job_start_locations = list()
 
 /obj/landmark/spawner
 	name = "spawner"
+	icon_state = "generic-spawn"
 	add_to_landmarks = FALSE
 	deleted_on_start = FALSE
 	var/type_to_spawn = null

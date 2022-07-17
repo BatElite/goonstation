@@ -48584,6 +48584,11 @@
 /area/station/medical/medbay)
 "cwE" = (
 /obj/storage/cart/medcart,
+/obj/machinery/embedded_controller/radio/access_controller{
+	exterior_door_tag = "patho_ext";
+	id_tag = "patho_airlock";
+	interior_door_tag = "patho_int"
+	},
 /turf/simulated/floor/bluewhite{
 	dir = 10
 	},
@@ -56576,8 +56581,9 @@
 "lbR" = (
 /obj/disposalpipe/segment,
 /obj/machinery/door/airlock/pyro/glass{
-	name = "Pathology Lab";
-	req_access_txt = null
+	frequency = 1449;
+	id_tag = "patho_ext";
+	name = "Pathology Lab"
 	},
 /obj/firedoor_spawn,
 /obj/access_spawn/pathology,
@@ -58211,8 +58217,9 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/door/airlock/pyro/glass{
-	name = "Pathology Lab";
-	req_access_txt = null
+	frequency = 1449;
+	id_tag = "patho_int";
+	name = "Pathology Lab"
 	},
 /obj/firedoor_spawn,
 /obj/access_spawn/pathology,
