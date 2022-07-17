@@ -1143,7 +1143,7 @@ var/zapLimiter = 0
 	else
 		return 0
 
-/obj/machinery/power/apc/process()
+/obj/machinery/power/apc/process(mult)
 	if(debug) boutput(world, "PROCESS [world.timeofday / 10]")
 
 	if(status & BROKEN)
@@ -1170,8 +1170,8 @@ var/zapLimiter = 0
 	lastused_equip = area.usage(EQUIP)
 	lastused_environ = area.usage(ENVIRON)
 	area.clear_usage()
-
-	lastused_total = lastused_light + lastused_equip + lastused_environ
+	//this is baby's first mult correction happening I might get this wrong
+	lastused_total = (lastused_light + lastused_equip + lastused_environ) * mult
 
 	if (src.setup_networkapc && host_id && terminal)
 		if(src.timeout == 0)
@@ -1223,14 +1223,15 @@ var/zapLimiter = 0
 														// by the same amount just used
 
 			cell.give(cellused)
-			add_load(cellused/CELLRATE)		// add the load used to recharge the cell
+			//I'm not entirely sure if mult is appropriate here but I presume so to compensate lastused_total being multed now
+			add_load(cellused/(CELLRATE*mult))		// add the load used to recharge the cell
 
 
 		else		// no excess, and not enough per-apc
 
-			if( (cell.charge/CELLRATE+perapc) >= lastused_total)		// can we draw enough from cell+grid to cover last usage?
+			if( ((cell.charge/CELLRATE)+(perapc*mult)) >= lastused_total)		// can we draw enough from cell+grid to cover last usage?
 
-				cell.charge = min(cell.maxcharge, cell.charge + CELLRATE * perapc)	//recharge with what we can
+				cell.charge = min(cell.maxcharge, cell.charge + (CELLRATE * perapc * mult))	//recharge with what we can
 				add_load(perapc)		// so draw what we can from the grid
 				charging = 0
 
@@ -1250,7 +1251,7 @@ var/zapLimiter = 0
 		if(chargemode && charging == 1 && operating)
 			if(excess > 0)		// check to make sure we have enough to charge
 				// Max charge is perapc share, capped to cell capacity, or % per second constant (Whichever is smallest)
-				var/ch = min(perapc, (cell.maxcharge - cell.charge), (cell.maxcharge*CHARGELEVEL))
+				var/ch = min(perapc, (cell.maxcharge - cell.charge), (cell.maxcharge*CHARGELEVEL*mult))
 				add_load(ch) // Removes the power we're taking from the grid
 				cell.give(ch) // actually recharge the cell
 

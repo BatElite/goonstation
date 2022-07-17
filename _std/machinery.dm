@@ -29,7 +29,7 @@
 
 //recharger stuff
 #define CELLRATE 0.002  // multiplier for watts per tick <> cell storage (eg: .002 means if there is a load of 1000 watts, 20 units will be taken from a cell per second)
-#define CHARGELEVEL 0.001 // Cap for how fast cells charge, as a percentage-per-tick (.001 means cellcharge is capped to 1% per second)
+#define CHARGELEVEL 0.01 // Cap for how fast APCs trickle charge cells, as a percentage-per-loop (.001 means cellcharge is capped to 1% per process)
 
 //red smashy button stuff
 #define SHIP_ALERT_GOOD 0
