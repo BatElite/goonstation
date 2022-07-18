@@ -342,11 +342,12 @@
 	icon = 'icons/ui/actions.dmi'
 	icon_state = "working"
 	var/obj/item/electronics/frame/F
+	var/turf/T
 	var/density_check = FALSE
 
 	New(Frame)
 		F = Frame
-
+		T = get_turf(F)
 		if(F.deconstructed_thing)
 			density_check = F.deconstructed_thing.density
 		else
