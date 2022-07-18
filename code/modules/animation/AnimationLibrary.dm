@@ -982,7 +982,7 @@ proc/muzzle_flash_any(var/atom/movable/A, var/firing_angle, var/muzzle_anim, var
 	if(isliving(A))
 		var/mob/living/L = A
 		if(!A.hasStatus("weakened"))
-			L.force_laydown_standup() //I swapped these two around because directional laying screwed this up, and now it seems fine
+			L.force_laydown_standup() //I swapped these two around because preferential lying screwed this up, and now it seems fine
 			L.changeStatus("weakened", stun_duration)
 		if(!L.lying) // oh no, they didn't fall down actually, time to unflip them 😰
 			animate_rest(L, TRUE)
