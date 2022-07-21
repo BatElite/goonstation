@@ -34,19 +34,26 @@ datum/computer/file/embedded_program/access_controller
 			if(signal.data["door_status"] == "closed")
 				if(signal.data["lock_status"] == "locked")
 					memory["exterior_status"] = "locked"
+					//Copying these checks from below, which should prevent the program from wasting a process cycle on updating the state
+					if (state == ACCESS_STATE_EXTERNAL) state = ACCESS_STATE_LOCKED
 				else
 					memory["exterior_status"] = "closed"
+					if (state == ACCESS_STATE_LOCKED) state = ACCESS_STATE_EXTERNAL
 			else
 				memory["exterior_status"] = "open"
+				if (state == ACCESS_STATE_LOCKED) state = ACCESS_STATE_EXTERNAL
 
 		else if(receive_tag==interior_door_tag)
 			if(signal.data["door_status"] == "closed")
 				if(signal.data["lock_status"] == "locked")
 					memory["interior_status"] = "locked"
+					if (state == ACCESS_STATE_INTERNAL) state = ACCESS_STATE_LOCKED
 				else
 					memory["interior_status"] = "closed"
+					if (state == ACCESS_STATE_LOCKED) state = ACCESS_STATE_INTERNAL
 			else
 				memory["interior_status"] = "open"
+				if (state == ACCESS_STATE_LOCKED) state = ACCESS_STATE_INTERNAL
 
 		else if(receive_tag==id_tag)
 			switch(signal.data["command"])
@@ -60,7 +67,14 @@ datum/computer/file/embedded_program/access_controller
 					else
 						target_state = ACCESS_STATE_INTERNAL
 
+		//Shut off the controller if we're done (but not before sending/receiving enough packets to init memory)
+		if (state == target_state && memory["interior_status"] && memory["exterior_status"])
+			memory["processing"] = FALSE
+			master.UnsubscribeProcess()
+
 	receive_user_command(command)
+		memory["processing"] = TRUE
+		master.SubscribeToProcess()
 		switch(command)
 			if("cycle_closed")
 				target_state = ACCESS_STATE_LOCKED
@@ -324,7 +338,7 @@ datum/computer/file/embedded_program/airlock_controller
 
 
 datum/computer/file/embedded_program/department_controller
-	var/id_tag
+	//var/id_tag - probably intended for receiving control packets? but that's not coded
 	var/door_tag
 
 	state = ACCESS_STATE_LOCKED
@@ -338,12 +352,22 @@ datum/computer/file/embedded_program/department_controller
 			if(signal.data["door_status"] == "closed")
 				if(signal.data["lock_status"] == "locked")
 					memory["door_status"] = "locked"
+					if (state == ACCESS_STATE_EXTERNAL) state = ACCESS_STATE_LOCKED
 				else
 					memory["door_status"] = "closed"
+					if (state == ACCESS_STATE_LOCKED) state = ACCESS_STATE_EXTERNAL
 			else
 				memory["door_status"] = "open"
+				if (state == ACCESS_STATE_LOCKED) state = ACCESS_STATE_EXTERNAL
+
+		if (state == target_state)
+			master.UnsubscribeProcess()
+			memory["processing"] = FALSE
+
 
 	receive_user_command(command)
+		master.SubscribeToProcess()
+		memory["processing"] = TRUE
 		switch(command)
 			if("lock")
 				target_state = ACCESS_STATE_LOCKED
@@ -399,10 +423,14 @@ obj/machinery/embedded_controller
 	density = 0
 	anchored = 1
 
+	processing_tier = PROCESSING_HALF //bump up the speed a bit but have the programs control process subscribing
+
 	var/on = 1
 
 	attack_hand(mob/user)
-		user.Browse(return_text(), "window=computer")
+		if (status & NOPOWER)
+			return
+		user.Browse(return_text(user), "window=computer")
 		src.add_dialog(user)
 		onclose(user, "computer")
 
@@ -415,7 +443,7 @@ obj/machinery/embedded_controller
 
 		..()
 
-	proc/return_text()
+	proc/return_text(mob/user)
 
 	proc/post_signal(datum/signal/signal, comm_line)
 		return 0
@@ -424,7 +452,9 @@ obj/machinery/embedded_controller
 		if(!signal || signal.encryption) return
 
 		if(program)
-			return program.receive_signal(signal, receive_method, receive_param)
+			var/program_output = program.receive_signal(signal, receive_method, receive_param)
+			UpdateIcon()
+			return program_output
 
 	Topic(href, href_list)
 		if(..())
@@ -434,7 +464,7 @@ obj/machinery/embedded_controller
 
 		src.add_dialog(usr)
 
-	process()
+	process(mult) //none of these use mult but to be safe
 		program?.process()
 
 		UpdateIcon()
@@ -442,11 +472,11 @@ obj/machinery/embedded_controller
 		..()
 
 	radio
-		var/frequency
+		var/frequency = FREQ_AIRLOCK_CONTROL
 
 		New()
 			..()
-			MAKE_SENDER_RADIO_PACKET_COMPONENT(null, frequency)
+			MAKE_DEFAULT_RADIO_PACKET_COMPONENT(null, frequency)
 
 		post_signal(datum/signal/signal)
 			return SEND_SIGNAL(src, COMSIG_MOVABLE_POST_RADIO_PACKET, signal)
@@ -456,10 +486,8 @@ obj/machinery/embedded_controller/radio/access_controller
 	icon = 'icons/obj/airlock_machines.dmi'
 	icon_state = "access_control_standby"
 
-	name = "Access Console"
+	name = "access console"
 	density = 0
-
-	frequency = FREQ_AIRLOCK_CONTROL
 
 	// Setup parameters only
 	var/id_tag
@@ -477,6 +505,10 @@ obj/machinery/embedded_controller/radio/access_controller
 
 		new_prog.master = src
 		program = new_prog
+
+	receive_signal(datum/signal/signal, receive_method, receive_param)
+		..()
+
 
 	update_icon()
 		if(on && program)
@@ -522,10 +554,8 @@ obj/machinery/embedded_controller/radio/airlock_controller
 	icon = 'icons/obj/airlock_machines.dmi'
 	icon_state = "airlock_control_standby"
 
-	name = "Airlock Console"
+	name = "airlock console"
 	density = 0
-
-	frequency = FREQ_AIRLOCK_CONTROL
 
 	// Setup parameters only
 	var/id_tag
@@ -599,27 +629,25 @@ obj/machinery/embedded_controller/radio/airlock_controller
 
 		return output
 
-
+///bolts/unbolts a single door (well, tag), locks and unlocks when slapped with appropriate access
 obj/machinery/embedded_controller/radio/department_controller
 	icon = 'icons/obj/airlock_machines.dmi'
 	icon_state = "access_control_standby"
 
-	name = "Access Console"
+	name = "department controller"
 	density = 0
 
-	frequency = FREQ_AIRLOCK_CONTROL
-
 	// Setup parameters only
-	var/id_tag
+	//var/id_tag
 	var/door_tag
-	var/locked = 1
+	var/locked = TRUE
 
 	initialize()
 		..()
 
 		var/datum/computer/file/embedded_program/department_controller/new_prog = new
 
-		new_prog.id_tag = id_tag
+		//new_prog.id_tag = id_tag - seems unused
 		new_prog.door_tag = door_tag
 
 		new_prog.master = src
@@ -640,7 +668,8 @@ obj/machinery/embedded_controller/radio/department_controller
 
 		program?.receive_user_command(href_list["command"])
 
-		src.add_dialog(usr)
+		src.updateDialog()
+		//src.add_dialog(usr) - how are
 
 	process()
 		if(status & NOPOWER)
@@ -669,12 +698,13 @@ obj/machinery/embedded_controller/radio/department_controller
 	attack_ai(mob/user)
 		return attack_hand(user)
 
-	attack_hand(mob/user)
+	/*attack_hand(mob/user)
 		if (src.status & NOPOWER)
 			return
 
-		src.add_dialog(user)
+		src.add_dialog(user)*/
 
+	return_text(mob/user)
 		var/state_options = null
 
 		var/state = 0
@@ -683,18 +713,23 @@ obj/machinery/embedded_controller/radio/department_controller
 			state = program.state
 			door_status = program.memory["door_status"]
 
-		switch(state)
-			if(ACCESS_STATE_LOCKED)
-				state_options = "<A href='?src=\ref[src];command=unlock'>Unseal Airlocks</A>"
-			if(ACCESS_STATE_EXTERNAL)
-				state_options = "<A href='?src=\ref[src];command=lock'>Seal Airlocks</A>"
+		if(program.memory["processing"])
+			state_options = "Cycle in progress..."
+		else
+			switch(state)
+				if(ACCESS_STATE_LOCKED)
+					state_options = "<A href='?src=\ref[src];command=unlock'>Unseal Airlocks</A>"
+				if(ACCESS_STATE_EXTERNAL)
+					state_options = "<A href='?src=\ref[src];command=lock'>Seal Airlocks</A>"
+
 
 		var/output = "<B>Department Airlock Control Console</B><HR>"
 		if (src.locked && !issilicon(user))
 			output += "<center><b>Console Locked</b><br><i>Please swipe ID</i></center>"
 		else
 			output += "[state_options]<hr><b>Airlock Status: </b> [door_status]"
-
+		return output
+		/*
 		user.Browse(output, "window=dcontroller;size=245x302")
-		onclose(user, "dcontroller")
+		onclose(user, "dcontroller")*/
 

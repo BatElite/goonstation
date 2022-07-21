@@ -195,8 +195,6 @@ Airlock index -> wire color are { 9, 4, 6, 7, 5, 8, 1, 2, 3 }.
 	var/has_panel = 1
 	var/hackMessage = ""
 	var/net_access_code = null
-        /// Set nameOverride to FALSE to stop New() from overwriting door name with Area name
-	var/nameOverride = TRUE
 
 	var/no_access = 0
 
@@ -207,7 +205,7 @@ Airlock index -> wire color are { 9, 4, 6, 7, 5, 8, 1, 2, 3 }.
 
 	New()
 		..()
-		if(!isrestrictedz(src.z) && nameOverride)
+		if(!isrestrictedz(src.z) && src.name == initial(src.name)) //The latter half prevents varedited names being overwritten
 			var/area/station/A = get_area(src)
 			src.name = A.name
 		src.net_access_code = rand(1, NET_ACCESS_OPTIONS)
@@ -1787,21 +1785,23 @@ obj/machinery/door/airlock
 			SEND_SIGNAL(src, COMSIG_MOVABLE_POST_RADIO_PACKET, reply, radiorange)
 			return
 
-		var/sent_code = text2num_safe(signal.data["access_code"])
-		if (aiControlDisabled > 0 || cant_emag || sent_code != src.net_access_code)
-			if(prob(20))
-				src.play_deny()
-			if(signal.data["command"] && signal.data["command"] == "nack")
-				return
-			var/datum/signal/rejectsignal = get_free_signal()
-			rejectsignal.source = src
-			rejectsignal.data["address_1"] = signal.data["sender"]
-			rejectsignal.data["command"] = "nack"
-			rejectsignal.data["data"] = "badpass"
-			rejectsignal.data["sender"] = src.net_id
+		//todo figure out a better auth thing for this instead of just bypassing the antinerding thing
+		if (src.frequency != FREQ_AIRLOCK_CONTROL)
+			var/sent_code = text2num_safe(signal.data["access_code"])
+			if (aiControlDisabled > 0 || cant_emag || (sent_code != src.net_access_code))
+				if(prob(20))
+					src.play_deny()
+				if(signal.data["command"] && signal.data["command"] == "nack")
+					return
+				var/datum/signal/rejectsignal = get_free_signal()
+				rejectsignal.source = src
+				rejectsignal.data["address_1"] = signal.data["sender"]
+				rejectsignal.data["command"] = "nack"
+				rejectsignal.data["data"] = "badpass"
+				rejectsignal.data["sender"] = src.net_id
 
-			SEND_SIGNAL(src, COMSIG_MOVABLE_POST_RADIO_PACKET, rejectsignal, radiorange)
-			return
+				SEND_SIGNAL(src, COMSIG_MOVABLE_POST_RADIO_PACKET, rejectsignal, radiorange)
+				return
 
 		if (!signal.data["command"])
 			return
@@ -1826,14 +1826,14 @@ obj/machinery/door/airlock
 			if("lock")
 				locked = 1
 				UpdateIcon()
-				send_status()
+				send_status(,senderid)
 
 			if("secure_open")
 				SPAWN(0)
 					locked = 0
-					UpdateIcon()
+					//UpdateIcon()
 
-					sleep(0.5 SECONDS)
+					//sleep(0.5 SECONDS)
 					open(1)
 
 					locked = 1
@@ -1847,7 +1847,7 @@ obj/machinery/door/airlock
 					close(1)
 
 					locked = 1
-					sleep(0.5 SECONDS)
+					//sleep(0.5 SECONDS)
 					UpdateIcon()
 					sleep(src.operation_time)
 					send_status(,senderid)
