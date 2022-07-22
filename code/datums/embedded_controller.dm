@@ -366,13 +366,18 @@ datum/computer/file/embedded_program/department_controller
 
 
 	receive_user_command(command)
-		master.SubscribeToProcess()
-		memory["processing"] = TRUE
+		//The controller would just lock up if this got the same command twice
 		switch(command)
 			if("lock")
+				if (target_state == ACCES_STATE_LOCKED)
+					return
 				target_state = ACCESS_STATE_LOCKED
 			if("unlock")
+				if (target_state == ACCESS_STATE_EXTERNAL)
+					return
 				target_state = ACCESS_STATE_EXTERNAL
+		master.SubscribeToProcess()
+		memory["processing"] = TRUE
 
 	process()
 		switch(state)
