@@ -1,7 +1,7 @@
 var/list/bad_name_characters = list("_", "'", "\"", "<", ">", ";", "\[", "\]", "{", "}", "|", "\\", "/")
 var/list/removed_jobs = list(
 	// jobs that have been removed or replaced (replaced -> new name, removed -> null)
-	"Barman" = "Bartender",
+	//"Barman" = "Bartender", - this change predates harmony considerably, we should be fine without it right?
 )
 
 datum/preferences
@@ -12,6 +12,9 @@ datum/preferences
 	var/name_first
 	var/name_middle
 	var/name_last
+	var/borg_preferred_name
+	var/AI_preferred_name
+	//var/clown_preferred_name //unimplemented but would be good
 	var/gender = MALE
 	var/age = 30
 	var/pin = null
@@ -161,6 +164,8 @@ datum/preferences
 			"nameFirst" = src.name_first,
 			"nameMiddle" = src.name_middle,
 			"nameLast" = src.name_last,
+			"borgPreferredName" = src.borg_preferred_name,
+			"AIPreferredName" = src.AI_preferred_name,
 			"randomName" = src.be_random_name,
 			"gender" = src.gender == MALE ? "Male" : "Female",
 			"pronouns" = isnull(AH.pronouns) ? "Default" : AH.pronouns.name,
@@ -421,6 +426,44 @@ datum/preferences
 				if (new_name)
 					src.name_last = new_name
 					src.real_name = src.name_first + " " + src.name_last
+					src.profile_modified = TRUE
+					return TRUE
+
+			if ("update-borgname")
+				var/new_name = input(usr, "Your preferred cyborg name, leave empty for random.", "Character Generation", src.borg_preferred_name) as null|text
+				if (isnull(new_name))
+					return
+				if (is_blank_string(new_name))
+					src.borg_preferred_name = ""
+					src.profile_modified = TRUE
+					return TRUE
+
+				new_name = strip_html(new_name, MOB_NAME_MAX_LENGTH, 1)
+				if (!length(new_name))
+					tgui_alert(usr, "That name was too short after removing bad characters from it. Please choose a different name.", "Name too short")
+					return
+
+				if (new_name)
+					src.borg_preferred_name = new_name
+					src.profile_modified = TRUE
+					return TRUE
+
+			if ("update-AIname")
+				var/new_name = input(usr, "Your preferred AI name, leave empty for random.", "Character Generation", src.AI_preferred_name) as null|text
+				if (isnull(new_name))
+					return
+				if (is_blank_string(new_name))
+					src.AI_preferred_name = ""
+					src.profile_modified = TRUE
+					return TRUE
+
+				new_name = strip_html(new_name, MOB_NAME_MAX_LENGTH, 1)
+				if (!length(new_name))
+					tgui_alert(usr, "That name was too short after removing bad characters from it. Please choose a different name.", "Name too short")
+					return
+
+				if (new_name)
+					src.AI_preferred_name = new_name
 					src.profile_modified = TRUE
 					return TRUE
 

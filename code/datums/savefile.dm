@@ -46,6 +46,8 @@
 		F["[profileNum]_name_first"] << src.name_first
 		F["[profileNum]_name_middle"] << src.name_middle
 		F["[profileNum]_name_last"] << src.name_last
+		F["[profileNum]_borg_preferred_name"] << src.borg_preferred_name
+		F["[profileNum]_AI_preferred_name"] << src.AI_preferred_name
 		F["[profileNum]_gender"] << src.gender
 		F["[profileNum]_age"] << src.age
 		F["[profileNum]_fartsound"] << AH.fartsound
@@ -209,6 +211,8 @@
 		F["[profileNum]_name_first"] >> src.name_first
 		F["[profileNum]_name_middle"] >> src.name_middle
 		F["[profileNum]_name_last"] >> src.name_last
+		F["[profileNum]_borg_preferred_name"] >> src.borg_preferred_name
+		F["[profileNum]_AI_preferred_name"] >> src.AI_preferred_name
 		F["[profileNum]_gender"] >> src.gender
 		F["[profileNum]_age"] >> src.age
 		F["[profileNum]_fartsound"] >> AH.fartsound

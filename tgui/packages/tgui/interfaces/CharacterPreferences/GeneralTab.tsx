@@ -96,6 +96,20 @@ export const GeneralTab = (_props, context) => {
           </LabeledList.Item>
         </LabeledList>
       </Section>
+      <Section title="Other names">
+        <LabeledList>
+          <LabeledList.Item label="Preferred Cyborg Name">
+            <Button onClick={() => act('update-borgname')} color={data.borgPreferredName ? 'default' : 'grey'}>
+              {data.borgPreferredName ? data.borgPreferredName : <Box italic>None</Box>}
+            </Button>
+          </LabeledList.Item>
+          <LabeledList.Item label="Preferred AI Name">
+            <Button onClick={() => act('update-AIname')} color={data.AIPreferredName ? 'default' : 'grey'}>
+              {data.AIPreferredName ? data.AIPreferredName : <Box italic>None</Box>}
+            </Button>
+          </LabeledList.Item>
+        </LabeledList>
+      </Section>
       <Section title="PDA">
         <LabeledList>
           <LabeledList.Item label="Ringtone">

@@ -20,6 +20,8 @@ export interface CharacterPreferencesData {
   nameFirst: string;
   nameMiddle: string;
   nameLast: string;
+  borgPreferredName: string;
+  AIPreferredName: string;
   randomName: number;
   gender: string;
   pronouns: string;
