@@ -927,7 +927,7 @@ obj/decoration/ceilingfan
 				UpdateIcon()
 
 			if (istype(W, /obj/item/clothing/head/cakehat) && W:on)
-				boutput(user, "<span class='alert'>Did [user] just light \his [src] with [W]? Holy Shit.</span>")
+				boutput(user, "<span class='alert'>Did [user] just light [his_or_her(user)] [src] with [W]? Holy Shit.</span>")
 				src.lit = 1
 				UpdateIcon()
 
@@ -1310,7 +1310,7 @@ obj/decoration/gibberBroken
 				UpdateIcon()
 
 			if (istype(W, /obj/item/clothing/head/cakehat) && W:on)
-				boutput(user, "<span class='alert'>Did [user] just light \his [src] with [W]? Holy Shit.</span>")
+				boutput(user, "<span class='alert'>Did [user] just light [his_or_her(user)] [src] with [W]? Holy Shit.</span>")
 				src.lit = 1
 				UpdateIcon()
 
