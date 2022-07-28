@@ -46,7 +46,14 @@
 		qdel(src)
 		flock_speak(null, "ERROR: Build area is blocked by an obstruction.", flock)
 
+	if (src.flock)
+		if(building == /obj/flock_structure/relay)
+			src.flock.relay_in_progress_or_finished = TRUE
+
 /obj/flock_structure/ghost/disposing()
+	if (src.flock)
+		if (src.flock.relay_in_progress_or_finished && src.building == /obj/flock_structure/relay && !(locate(/obj/flock_structure/relay) in src.flock.structures))
+			src.flock.relay_in_progress_or_finished = FALSE
 	STOP_TRACKING
 	. = ..()
 
