@@ -879,6 +879,7 @@ datum
 			bladder_value = -0.1
 			hunger_value = -0.3
 			thirst_value = -0.2
+			var/list/flushed_reagents = list("mannitol","synaptizine")
 
 			on_remove()
 				if(ismob(holder?.my_atom))
@@ -918,9 +919,13 @@ datum
 				..()
 				return
 
-			do_overdose(var/severity, var/mob/M, var/mult = 1)
-				var/effect = ..(severity, M)
-				if(holder.has_reagent("methamphetamine")) return ..() //Since is created by a meth overdose, dont react while meth is in their system.
+			do_overdose(var/severity, var/mob/overdoser, var/mult = 1)
+				var/effect = ..(severity, overdoser)
+				var/mob/living/M = overdoser
+				if(!istype(M))
+					return
+				if(holder.has_reagent("methamphetamine"))
+					return //Since is created by a meth overdose, dont react while meth is in their system.
 				if (severity == 1)
 					if (effect <= 2)
 						M.visible_message("<span class='alert'><b>[M.name]</b> can't seem to control their legs!</span>")
@@ -928,19 +933,13 @@ datum
 						M.setStatusMin("weakened", 5 SECONDS * mult)
 					else if (effect <= 4)
 						M.visible_message("<span class='alert'><b>[M.name]'s</b> hands flip out and flail everywhere!</span>")
-						M.drop_item()
-						M.hand = !M.hand
-						M.drop_item()
-						M.hand = !M.hand
+						M.empty_hands()
 					else if (effect <= 7)
 						M.emote("laugh")
 				else if (severity == 2)
 					if (effect <= 2)
 						M.visible_message("<span class='alert'><b>[M.name]'s</b> hands flip out and flail everywhere!</span>")
-						M.drop_item()
-						M.hand = !M.hand
-						M.drop_item()
-						M.hand = !M.hand
+						M.empty_hands()
 					else if (effect <= 4)
 						M.visible_message("<span class='alert'><b>[M.name]</b> falls to the floor and flails uncontrollably!</span>")
 						M.make_jittery(10)
@@ -1014,8 +1013,11 @@ datum
 				..()
 				return
 
-			do_overdose(var/severity, var/mob/M, var/mult = 1)
-				var/effect = ..(severity, M)
+			do_overdose(var/severity, var/mob/overdoser, var/mult = 1)
+				var/effect = ..(severity, overdoser)
+				var/mob/living/M = overdoser
+				if(!istype(M))
+					return
 				if (severity == 1)
 					if (effect <= 2)
 						M.visible_message("<span class='alert'><b>[M.name]</b> can't seem to control their legs!</span>")
@@ -1023,10 +1025,7 @@ datum
 						M.setStatusMin("weakened", 5 SECONDS * mult)
 					else if (effect <= 4)
 						M.visible_message("<span class='alert'><b>[M.name]'s</b> hands flip out and flail everywhere!</span>")
-						M.drop_item()
-						M.hand = !M.hand
-						M.drop_item()
-						M.hand = !M.hand
+						M.empty_hands()
 					else if (effect <= 7)
 						M.emote("laugh")
 				else if (severity == 2)
@@ -1037,10 +1036,7 @@ datum
 
 					if (effect <= 2)
 						M.visible_message("<span class='alert'><b>[M.name]'s</b> hands flip out and flail everywhere!</span>")
-						M.drop_item()
-						M.hand = !M.hand
-						M.drop_item()
-						M.hand = !M.hand
+						M.empty_hands()
 					else if (effect <= 4)
 						M.visible_message("<span class='alert'><b>[M.name]</b> falls to the floor and flails uncontrollably!</span>")
 						M.make_jittery(10)
