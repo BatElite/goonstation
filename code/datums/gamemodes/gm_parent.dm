@@ -251,7 +251,7 @@
 						stuff_to_output += "<B>[traitor_name] was a [string]!</B>"
 		catch(var/exception/e)
 			logTheThing("debug", null, null, "kyle|former-antag-runtime: [e.file]:[e.line] - [e.name] - [e.desc]")
-	
+
 	// Display all antagonist datums. We arrange them like this so that each antagonist is bundled together by type
 	for (var/V in concrete_typesof(/datum/antagonist))
 		var/datum/antagonist/dummy = V
@@ -314,6 +314,9 @@
 /// Set up an antag with default equipment, objectives etc as they would be in mixed
 /datum/game_mode/proc/equip_antag(var/datum/mind/antag)
 	var/objective_set_path = null
+	// This is temporary for the new antagonist system, to prevent creating objectives for roles that have an associated datum.
+	// It should be removed when all antagonists are on the new system.
+	var/do_objectives = TRUE
 
 	if (antag.assigned_role == "Chaplain" && antag.special_role == ROLE_VAMPIRE)
 		// vamp will burn in the chapel before he can react
@@ -324,12 +327,8 @@
 
 	switch (antag.special_role)
 		if (ROLE_TRAITOR)
-		#ifdef RP_MODE
-			objective_set_path = pick(typesof(/datum/objective_set/traitor/rp_friendly))
-		#else
-			objective_set_path = pick(typesof(/datum/objective_set/traitor))
-		#endif
-			equip_traitor(antag.current)
+			antag.add_antagonist(ROLE_TRAITOR)
+			do_objectives = FALSE
 
 		if (ROLE_CHANGELING)
 			objective_set_path = /datum/objective_set/changeling
@@ -410,15 +409,16 @@
 			antag.current.make_werewolf()
 
 		if (ROLE_ARCFIEND)
-			objective_set_path = /datum/objective_set/arcfiend
-			antag.current.make_arcfiend()
+			antag.add_antagonist(ROLE_ARCFIEND)
+			do_objectives = FALSE
 
-	if (!isnull(objective_set_path)) // Cannot create objects of type null. [wraiths use a special proc]
-		new objective_set_path(antag)
-	var/obj_count = 1
-	for (var/datum/objective/objective in antag.objectives)
-		boutput(antag.current, "<B>Objective #[obj_count]</B>: [objective.explanation_text]")
-		obj_count++
+	if (do_objectives)
+		if (!isnull(objective_set_path)) // Cannot create objects of type null. [wraiths use a special proc]
+			new objective_set_path(antag)
+		var/obj_count = 1
+		for (var/datum/objective/objective in antag.objectives)
+			boutput(antag.current, "<B>Objective #[obj_count]</B>: [objective.explanation_text]")
+			obj_count++
 
 /datum/game_mode/proc/check_win()
 
