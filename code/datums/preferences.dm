@@ -121,6 +121,27 @@ datum/preferences
 			qdel(src.preview)
 			src.preview = null
 
+	ui_static_data(mob/user)
+		var/list/traits = list()
+		for (var/obj/trait/trait as anything in src.traitPreferences.getTraits(user))
+			var/list/categories
+			if (islist(trait.category))
+				categories = trait.category.Copy()
+				categories.Remove(src.traitPreferences.hidden_categories)
+
+			traits[trait.id] = list(
+				"id" = trait.id,
+				"name" = trait.name,
+				"desc" = trait.desc,
+				"category" = categories,
+				"img" = icon2base64(icon(trait.icon, trait.icon_state)),
+				"points" = trait.points,
+			)
+
+		. = list(
+			"traitsData" = traits
+		)
+
 	ui_data(mob/user)
 		if (isnull(src.preview))
 			src.preview = new(user.client, "preferences", "preferences_character_preview")
