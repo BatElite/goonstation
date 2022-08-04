@@ -961,6 +961,8 @@
 			if(!src.stuttering && prob(8))
 				message = stutter(message)
 
+	show_speech_bubble(speech_bubble)
+
 	//Blobchat handling
 	if (src.mob_flags & SPEECH_BLOB)
 		message = html_encode(src.say_quote(message))
