@@ -120,6 +120,7 @@
 					user.drop_juggle()
 				else
 					user.add_juggle(thing)
+	return list(,,)
 
 /datum/emote/twirl //also spin
 	cooldown = 2.5 SECONDS
@@ -154,6 +155,7 @@
 			user.add_karma(-10)
 			logTheThing("combat", user, null, "was gibbed by emoting fedora tipping at [log_loc(user)].")
 			user.gib()
+	return list(,,)
 
 /datum/emote/hatstomp // also stomphat
 /datum/emote/hatstomp/enact(mob/living/carbon/human/user, voluntary = 0, param)
