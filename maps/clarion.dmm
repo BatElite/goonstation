@@ -21932,6 +21932,10 @@
 	dir = 8
 	},
 /obj/disposalpipe/segment,
+/obj/item_dispenser/latex_gloves{
+	pixel_x = 19;
+	pixel_y = 0
+	},
 /turf/simulated/floor/greenwhite{
 	dir = 4
 	},
