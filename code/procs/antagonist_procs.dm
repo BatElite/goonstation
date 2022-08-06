@@ -290,6 +290,8 @@
 	synd_mob.equip_if_possible(U, synd_mob.slot_r_store)
 */
 
+	synd_mob.equip_sensory_items()
+
 	var/obj/item/card/id/syndicate/I = new /obj/item/card/id/syndicate(synd_mob) // for whatever reason, this is neccessary
 	if(leader)
 		I = new /obj/item/card/id/syndicate/commander(synd_mob)
