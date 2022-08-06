@@ -643,7 +643,7 @@
 	var/attacker = P.shooter
 	if(!(ismob(attacker) || iscritter(attacker) || isvehicle(attacker)))
 		attacker = P.mob_shooter //shooter is updated on reflection, so we fall back to mob_shooter if it turns out to be a wall or something
-	src.harmedBy(attacker)
+/*	src.harmedBy(attacker)
 
 /mob/living/critter/flock/drone/hitby(atom/movable/AM, datum/thrown_thing/thr)
 	. = ..()
@@ -671,7 +671,7 @@
 /mob/living/critter/flock/drone/attack_hand(var/mob/living/M)
 	..()
 	if(M.a_intent in list(INTENT_HARM,INTENT_DISARM,INTENT_GRAB))
-		src.harmedBy(M)
+		src.harmedBy(M)*/
 
 /mob/living/critter/flock/drone/TakeDamage(zone, brute, burn, tox, damage_type, disallow_limb_loss)
 	..()
