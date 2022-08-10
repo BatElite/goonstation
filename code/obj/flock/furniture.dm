@@ -358,13 +358,17 @@
 	src.AddComponent(/datum/component/flock_protection)
 
 // flockdrones can always move through
-/obj/grille/flock/Cross(atom/movable/mover)
+/obj/grille/flock/Crossed(atom/movable/mover)
 	. = ..()
 	var/mob/living/critter/flock/drone/drone = mover
 	if(istype(drone) && !drone.floorrunning)
 		animate_flock_passthrough(mover)
 		. = TRUE
+	else if(istype(mover,/mob/living/critter/flock))
+		. = TRUE
 
+/obj/grille/flock/Cross(atom/movable/mover)
+	return !src.density || istype(mover,/mob/living/critter/flock)
 
 /obj/grille/flock/special_desc(dist, mob/user)
 	if (!isflockmob(user))
