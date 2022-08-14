@@ -1983,8 +1983,8 @@ var/list/ai_emotions = list("Happy" = "ai_happy",\
 	if (!message_mob.client || isdead(src))
 		return
 
-	if (!ON_COOLDOWN(src, "ai_self_rename", src.rename_cooldown))
-		choose_name(retries = 3, default_name = src.real_name, renaming_mob = message_mob)
+	if (!GET_COOLDOWN(src, "ai_self_rename"))
+		choose_name(retries = 3, renaming_mob = message_mob)
 	else
 		src.show_text("This ability is still on cooldown for [round(GET_COOLDOWN(src, "ai_self_rename") / 10)] seconds!", "red")
 
@@ -2443,6 +2443,7 @@ proc/get_mobs_trackable_by_AI()
 					src.real_name = newname
 					if (src.deployed_to_eyecam)
 						src.eyecam.real_name = newname
+					ON_COOLDOWN(src, "ai_self_rename", src.rename_cooldown)
 					break
 				else
 					continue
