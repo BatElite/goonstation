@@ -606,7 +606,7 @@
 			qdel(W)
 			return
 
-		else if(istype(W, /obj/item/screwdriver) && cloneslave == 1) // Wait nevermind the clone wars were a terrible idea
+		else if(isscrewingtool(W) && cloneslave) // Wait nevermind the clone wars were a terrible idea
 			if (src.occupant && src.attempting)
 				boutput(user, "<space class='alert'>You must wait for the current cloning cycle to finish before you can remove the mindslave module.</span>")
 				return
