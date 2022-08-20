@@ -2323,11 +2323,12 @@
 /turf/simulated/floor/stairs/wide/other,
 /area/station/hallway/primary/southeast)
 "aup" = (
-/obj/decal/tile_edge/line/blue{
-	icon_state = "line1"
-	},
 /obj/disposalpipe/segment/mail{
 	dir = 4
+	},
+/obj/decal/tile_edge/line/blue{
+	dir = 1;
+	icon_state = "line1"
 	},
 /turf/simulated/floor/white,
 /area/station/medical/medbay)
@@ -16617,11 +16618,12 @@
 /turf/simulated/floor/plating/jen,
 /area/station/maintenance/inner/se)
 "eDW" = (
-/obj/decal/tile_edge/line/blue{
-	icon_state = "line1"
-	},
 /obj/disposalpipe/switch_junction/left/east{
 	mail_tag = "chemistry"
+	},
+/obj/decal/tile_edge/line/blue{
+	dir = 1;
+	icon_state = "line1"
 	},
 /turf/simulated/floor/white,
 /area/station/medical/medbay)
@@ -18033,9 +18035,6 @@
 /turf/simulated/floor/caution/northsouth,
 /area/station/quartermaster/office)
 "eXw" = (
-/obj/decal/tile_edge/line/blue{
-	icon_state = "line1"
-	},
 /obj/cable{
 	d1 = 1;
 	d2 = 2;
@@ -18043,6 +18042,10 @@
 	},
 /obj/machinery/light/incandescent/netural{
 	dir = 8
+	},
+/obj/decal/tile_edge/line/blue{
+	dir = 1;
+	icon_state = "line1"
 	},
 /turf/simulated/floor,
 /area/station/crew_quarters/courtroom)
@@ -20722,6 +20725,16 @@
 	dir = 1
 	},
 /area/station/science/lobby)
+"fHI" = (
+/obj/decal/tile_edge/line/blue{
+	dir = 1;
+	icon_state = "line1"
+	},
+/obj/disposalpipe/segment/mail{
+	dir = 4
+	},
+/turf/simulated/floor/white,
+/area/station/medical/medbay)
 "fHK" = (
 /obj/table/auto,
 /obj/item/aiModule/hologram_expansion/syndicate{
@@ -21178,11 +21191,12 @@
 /turf/simulated/floor/plating/jen,
 /area/station/science/storage)
 "fOt" = (
-/obj/decal/tile_edge/line/blue{
-	icon_state = "line1"
-	},
 /obj/disposalpipe/switch_junction/left/east{
 	mail_tag = "medbay"
+	},
+/obj/decal/tile_edge/line/blue{
+	dir = 1;
+	icon_state = "line1"
 	},
 /turf/simulated/floor/white,
 /area/station/medical/medbay)
@@ -25039,9 +25053,6 @@
 	},
 /area/station/hallway/primary/west)
 "gXU" = (
-/obj/decal/tile_edge/line/blue{
-	icon_state = "line1"
-	},
 /obj/decal/tile_edge/line/purple{
 	dir = 6;
 	icon_state = "line1"
@@ -25049,6 +25060,10 @@
 /obj/machinery/light/emergency{
 	dir = 4;
 	pixel_x = 12
+	},
+/obj/decal/tile_edge/line/blue{
+	dir = 1;
+	icon_state = "line1"
 	},
 /turf/simulated/floor/white,
 /area/station/medical/medbay)
@@ -42185,15 +42200,16 @@
 /turf/space/asteroid,
 /area/station/turret_protected/armory_outside)
 "mdw" = (
-/obj/decal/tile_edge/line/blue{
-	icon_state = "line1"
-	},
 /obj/machinery/light/incandescent/netural{
 	dir = 4
 	},
 /obj/disposalpipe/segment/transport{
 	dir = 8;
 	icon_state = "pipe-c"
+	},
+/obj/decal/tile_edge/line/blue{
+	dir = 1;
+	icon_state = "line1"
 	},
 /turf/simulated/floor/white/checker{
 	dir = 6
@@ -49135,6 +49151,7 @@
 /area/station/science/storage)
 "oiv" = (
 /obj/decal/tile_edge/line/blue{
+	dir = 1;
 	icon_state = "line1"
 	},
 /turf/simulated/floor/specialroom/medbay,
@@ -61464,10 +61481,11 @@
 /turf/simulated/floor/plating,
 /area/station/crew_quarters/arcade)
 "rBc" = (
+/obj/disposalpipe/segment/mail,
 /obj/decal/tile_edge/line/blue{
+	dir = 1;
 	icon_state = "line1"
 	},
-/obj/disposalpipe/segment/mail,
 /turf/simulated/floor/white,
 /area/station/medical/medbay)
 "rBr" = (
@@ -66243,11 +66261,12 @@
 /turf/simulated/floor/black,
 /area/station/security/main)
 "sWF" = (
-/obj/decal/tile_edge/line/blue{
-	icon_state = "line1"
-	},
 /obj/disposalpipe/switch_junction/left/east{
 	mail_tag = "research"
+	},
+/obj/decal/tile_edge/line/blue{
+	dir = 1;
+	icon_state = "line1"
 	},
 /turf/simulated/floor/white,
 /area/station/medical/medbay)
@@ -67877,14 +67896,15 @@
 	},
 /area/station/hallway/primary/south)
 "tuY" = (
-/obj/decal/tile_edge/line/blue{
-	icon_state = "line1"
-	},
 /obj/cable{
 	icon_state = "2-4"
 	},
 /obj/disposalpipe/segment{
 	dir = 4
+	},
+/obj/decal/tile_edge/line/blue{
+	dir = 1;
+	icon_state = "line1"
 	},
 /turf/simulated/floor/white,
 /area/station/medical/medbay)
@@ -76338,12 +76358,13 @@
 /turf/simulated/floor/black,
 /area/station/chapel/sanctuary)
 "vQN" = (
-/obj/decal/tile_edge/line/blue{
-	icon_state = "line1"
-	},
 /obj/disposalpipe/segment{
 	dir = 4;
 	icon_state = "pipe-c"
+	},
+/obj/decal/tile_edge/line/blue{
+	dir = 1;
+	icon_state = "line1"
 	},
 /turf/simulated/floor/white,
 /area/station/medical/medbay)
@@ -79363,11 +79384,12 @@
 	},
 /area/station/hallway/secondary/exit)
 "wJW" = (
-/obj/decal/tile_edge/line/blue{
-	icon_state = "line1"
-	},
 /obj/disposalpipe/switch_junction/left/east{
 	mail_tag = "medical booth"
+	},
+/obj/decal/tile_edge/line/blue{
+	dir = 1;
+	icon_state = "line1"
 	},
 /turf/simulated/floor/white,
 /area/station/medical/medbay)
@@ -129601,7 +129623,7 @@ ieI
 xDU
 gxZ
 awX
-aup
+fHI
 aqP
 aTA
 sjV
