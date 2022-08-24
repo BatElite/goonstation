@@ -463,6 +463,38 @@
 			..()
 		return
 
+	proc/assembly_handler(var/mob/user,var/obj/item/W)
+		if(isscrewingtool(W))
+			if(state >= 1)
+				state = 3 - state //cargo culting this a bit
+				user.show_text("You have [state == 1 ? "unfastened the window from" : "fastened the window to"] the frame.", "blue")
+			else
+				src.anchored = !(src.anchored)
+				src.stops_space_move = !(src.stops_space_move)
+				user.show_text("You have [src.anchored ? "fastened the frame to" : "unfastened the frame from"] the floor.", "blue")
+				logTheThing(LOG_STATION, user, "[src.anchored ? " anchored" : " unanchored"] [src] at [log_loc(src)].")
+				src.align_window()
+		else if(ispryingtool(W) && src.anchored)
+			state = 1 - state
+			user.show_text("You have [src.state ? "pried the window into" : "pried the window out of"] the frame.", "blue")
+			playsound(src.loc, "sound/items/Crowbar.ogg", 75, 1)
+
+	proc/align_window()
+		update_nearby_tiles(need_rebuild=1)
+		src.ini_dir = src.dir
+		src.set_layer_from_settings()
+		if(istype(src,/obj/window/auto))
+			var/obj/window/auto/AWI = src
+			AWI.UpdateIcon()
+			AWI.update_neighbors()
+
+	proc/turn_window()
+		update_nearby_tiles(need_rebuild=1) //Compel updates before
+		src.set_dir(turn(src.dir, -90))
+		update_nearby_tiles(need_rebuild=1)
+		src.ini_dir = src.dir
+		src.set_layer_from_settings()
+
 	proc/smash()
 		logTheThing("station", usr, null, "smashes a [src] in [src.loc?.loc] ([log_loc(src)])")
 		if (src.health < (src.health_max * -0.75))
