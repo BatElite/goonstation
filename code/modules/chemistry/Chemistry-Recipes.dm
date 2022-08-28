@@ -9,17 +9,21 @@ datum
 		var/list/inhibitors = list()
 		var/instant = 1
 #ifdef CHEM_REACTION_PRIORITIES
-		//lower priorities happen last
-		//higher priorities happen first
+		/// lower priorities happen last
+		/// higher priorities happen first
 		var/priority = 10
 #endif
 
-		var/min_temperature = -INFINITY		//Will not react if below this
-		var/required_temperature = -1 //Not used by default. -1 = not used. //Positive values for reaction to take place when hotter than value, negative to take place when cooler than abs(value)
-		var/max_temperature = INFINITY //Will not react if above this
+		/// Will not react if below this
+		var/min_temperature = -INFINITY
+		/// Not used by default. -1 = not used.
+		/// Positive values for reaction to take place when hotter than value, negative to take place when cooler than abs(value)
+		var/required_temperature = -1
+		/// Will not react if above this
+		var/max_temperature = INFINITY
 
-
-		var/reaction_speed = 5 // units produced per second
+		/// units produced per second
+		var/reaction_speed = 5
 		var/base_reaction_temp = T20C
 		var/reaction_temp_divider = 10
 
@@ -35,11 +39,6 @@ datum
 
 		///should this reaction show up in anything player-facing that lists reactions. For secret repo chems, misc precursors, and for 'non-standard' reactions (stuff like voltagen arc, foam reacting with water, etc)
 		var/hidden = FALSE
-
-#ifdef CHEM_REACTION_PRIORITIES
-		proc/operator<(var/datum/chemical_reaction/reaction)
-			return priority > reaction.priority
-#endif
 
 		proc/on_reaction(var/datum/reagents/holder, var/created_volume)
 			return

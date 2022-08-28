@@ -45,9 +45,9 @@
 				areaindex[tmpname] = 1
 			L[tmpname] = I
 
-	var/desc = input("Area to jump to","Teleportation") in L
+	var/desc = tgui_input_list(user, "Area to jump to","Teleportation", sortList(L, /proc/cmp_text_asc))
 
-	if (!user || !src || src.loc != user || !issilicon(user))
+	if (!user || !src || src.loc != user || !isrobot(user))
 		if (user)
 			user.show_text("Teleportation failed.", "red")
 		return

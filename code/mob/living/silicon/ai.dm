@@ -1724,7 +1724,7 @@ var/list/ai_emotions = list("Happy" = "ai_happy",\
 		if (R.shell && !R.dependent && !isdead(R))
 			bodies += R
 
-	var/mob/living/silicon/target_shell = tgui_input_list(usr, "Which body to control?", "Deploy", sortList(bodies))
+	var/mob/living/silicon/target_shell = tgui_input_list(usr, "Which body to control?", "Deploy", sortList(bodies, /proc/cmp_text_asc))
 
 	if (!target_shell || isdead(target_shell) || !(isshell(target_shell) || isrobot(target_shell)))
 		return
@@ -1791,7 +1791,7 @@ var/list/ai_emotions = list("Happy" = "ai_happy",\
 		return
 	var/list/L = custom_emotions ? custom_emotions : ai_emotions	//In case an AI uses the reward, use a local list instead
 
-	var/newEmotion = tgui_input_list(src.get_message_mob(), "Select a status!", "AI Status", sortList(L))
+	var/newEmotion = tgui_input_list(src.get_message_mob(), "Select a status!", "AI Status", sortList(L, /proc/cmp_text_asc))
 	var/newMessage = scrubbed_input(usr, "Enter a message for your status displays!", "AI Message", src.status_message)
 	if (!newEmotion && !newMessage)
 		return
@@ -2265,7 +2265,6 @@ var/list/ai_emotions = list("Happy" = "ai_happy",\
 	src.open_nearest_door_silicon()
 	return
 
-
 //just use this proc to make click-track checking easier (I would use this in the below proc that builds a list, but i think the proc call overhead is not worth it)
 proc/is_mob_trackable_by_AI(var/mob/M)
 	if (HAS_ATOM_PROPERTY(M, PROP_MOB_AI_UNTRACKABLE))
@@ -2296,7 +2295,6 @@ proc/is_mob_trackable_by_AI(var/mob/M)
 proc/get_mobs_trackable_by_AI()
 	var/list/names = list()
 	var/list/namecounts = list()
-	var/list/creatures = list()
 
 	for (var/mob/M in mobs)
 		if (istype(M, /mob/new_player))
@@ -2328,9 +2326,7 @@ proc/get_mobs_trackable_by_AI()
 			names.Add(name)
 			namecounts[name] = 1
 
-		creatures[name] = M
-
-	return creatures
+		.[name] = M
 
 /mob/living/silicon/ai/proc/ai_vox_announcement()
 	set name = "AI Intercom Announcement"

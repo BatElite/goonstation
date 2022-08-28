@@ -910,7 +910,7 @@
 			return
 
 		medals = params2list(medals)
-		medals = sortList(medals)
+		sortList(medals, /proc/cmp_text_asc)
 
 		output += "<b>Medals:</b>"
 		for (var/medal in medals)
@@ -2246,7 +2246,8 @@
 
 	var/list/L = src.get_all_items_on_mob()
 	if (length(L))
-		var/list/OL = list() // Sorted output list. Could definitely be improved, but is functional enough.
+		/// Sorted output list. Could definitely be improved, but is functional enough.
+		var/list/OL = list()
 		var/list/O_names = list()
 		var/list/O_namecount = list()
 
@@ -2271,7 +2272,7 @@
 				var/N3 = "[N2]: [N]"
 				OL[N3] = O
 
-		OL = sortList(OL)
+		sortList(OL, /proc/cmp_text_asc)
 
 		selection:
 		var/IP = input(output_target, "Select item to view fingerprints, cancel to close window.", "[src]'s inventory") as null|anything in OL
