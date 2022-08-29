@@ -82,12 +82,12 @@
 	/// Boolean field describing if the tgui_modal was closed by the user.
 	var/closed
 
-/datum/tgui_modal/New(mob/user, message, title, list/items, timeout, copyButtons = TRUE, autofocus)
+/datum/tgui_modal/New(mob/user, message, title, list/items, default, timeout, autofocus)
+	src.user = user
+	src.autofocus = autofocus
+	src.items = items.Copy()
 	src.title = title
 	src.message = message
-	if (copyButtons)
-		src.items = items.Copy()
-	src.autofocus = autofocus
 	if (timeout)
 		src.timeout = timeout
 		src.start_time = TIME
@@ -100,6 +100,14 @@
 	qdel(items)
 	items = null
 	. = ..()
+
+/**
+ * Waits for a user's response to the tgui_alert's prompt before returning. Returns early if
+ * the window was closed by the user.
+ */
+/datum/tgui_modal/proc/wait()
+	while (user.client && !choice && !closed && !QDELETED(src))
+		LAGCHECK(LAG_HIGH)
 
 /datum/tgui_modal/ui_interact(mob/user, datum/tgui/ui)
 	ui = tgui_process.try_update_ui(user, src, ui)
@@ -115,8 +123,8 @@
 	. = tgui_always_state
 
 /datum/tgui_modal/ui_data(mob/user)
+	. = list()
 	if(timeout)
-		. = list()
 		.["timeout"] = clamp(((timeout - (TIME - start_time) - 1 SECONDS) / (timeout - 1 SECONDS)), 0, 1)
 
 /datum/tgui_modal/ui_static_data(mob/user)
@@ -134,7 +142,14 @@
 	switch(action)
 		if("choose")
 			if (!(params["choice"] in items))
+				log_tgui(usr, "<b>TGUI/ZeWaka</b>: [usr] entered a non-existent button choice: [params["choice"]]")
 				return
+			set_choice(params["choice"])
+			closed = TRUE
+			tgui_process.close_uis(src)
+			return TRUE
+		if("cancel")
+			closed = TRUE
 			choice = params["choice"]
 			tgui_process.close_uis(src)
 			. = TRUE
