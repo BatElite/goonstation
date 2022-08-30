@@ -65,6 +65,8 @@
  * a message and has items for responses.
  */
 /datum/tgui_modal
+	/// The user of the TGUI window
+	var/mob/user
 	/// The title of the TGUI window
 	var/title
 	/// The textual body of the TGUI window
@@ -153,6 +155,9 @@
 			choice = params["choice"]
 			tgui_process.close_uis(src)
 			. = TRUE
+
+/datum/tgui_modal/proc/set_choice(choice)
+	src.choice = choice
 
 /**
  * # async tgui_modal

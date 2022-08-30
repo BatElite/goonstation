@@ -33,6 +33,8 @@ datum
 		var/drinkrecipe = 0
 		var/consume_all = 0 //If set to 1, the recipe will consume ALL of its components instead of just proportional parts.
 
+		///should this reaction show up in anything player-facing that lists reactions. For secret repo chems, misc precursors, and for 'non-standard' reactions (stuff like voltagen arc, foam reacting with water, etc)
+		var/hidden = FALSE
 
 #ifdef CHEM_REACTION_PRIORITIES
 		proc/operator<(var/datum/chemical_reaction/reaction)

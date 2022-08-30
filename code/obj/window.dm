@@ -472,7 +472,7 @@
 				src.anchored = !(src.anchored)
 				src.stops_space_move = !(src.stops_space_move)
 				user.show_text("You have [src.anchored ? "fastened the frame to" : "unfastened the frame from"] the floor.", "blue")
-				logTheThing(LOG_STATION, user, "[src.anchored ? " anchored" : " unanchored"] [src] at [log_loc(src)].")
+				logTheThing("station", user, "[src.anchored ? " anchored" : " unanchored"] [src] at [log_loc(src)].")
 				src.align_window()
 		else if(ispryingtool(W) && src.anchored)
 			state = 1 - state
