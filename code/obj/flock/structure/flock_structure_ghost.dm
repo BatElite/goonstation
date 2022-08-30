@@ -49,7 +49,7 @@
 	if (src.flock)
 		if(building == /obj/flock_structure/relay)
 			src.flock.relay_in_progress_or_finished = TRUE
-			src.uses_health_icon = FALSE
+			//src.uses_health_icon = FALSE //I dunno what the fuck this is but it seems orphaned from the 200 flock PRs I cherry picked blindly
 			src.flock.removeAnnotation(src, FLOCK_ANNOTATION_HEALTH)
 
 /obj/flock_structure/ghost/disposing()

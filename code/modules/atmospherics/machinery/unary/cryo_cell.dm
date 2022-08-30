@@ -225,7 +225,7 @@
 				playsound(src.loc, "sound/items/Deconstruct.ogg", 80, 0)
 				user.u_equip(I)
 				I.set_loc(src)
-				build_icon()
+				UpdateIcon()
 				src.UpdateIcon()
 		else if (iswrenchingtool(I))
 			if (!src.defib)
