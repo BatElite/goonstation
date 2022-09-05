@@ -218,6 +218,47 @@ for(var/atom/thing as anything in bag_of_atoms)
 	highest_alpha = thing.alpha
 ```
 
+## The `usr` keyword
+`usr`, in a general sense, is "the mob that caused this proc to be invoked". It persists through an arbitrary number of nested proc calls. If something wasn't caused by a mob, `usr` is null. 
+
+`usr` is required by verbs, which are commands specifically invoked by a mob, and is needed to apply things to the calling mob. 
+
+Outside of verbs (every other proc), `usr` is ***extremely unreliable***. An excellent example of this is that if someone hooks a pressure sensor to a gun, and then you step on the pressure plate, *you are the `usr` for that gunshot*.
+
+Instead of using `usr`, pass the user mob into your proc as an argument.
+
+<span style="color: red">Bad:</span>
+```csharp
+proc/explode_user()
+    usr.explode()
+```
+
+<span style="color: green">Good:</span>
+```csharp
+proc/explode_user(mob/user)
+    user.explode()
+    
+/mob/verb/explode_yourself()
+    set name = "Explode Yourself"
+    usr.explode()
+```
+
+## `as mob`, `as obj`, etc
+In verbs, when invoked from the command bar these allow the user to autofill results.
+
+Outside of verbs, they do nothing and should be removed.
+
+<span style="color: red">Bad:</span>
+```csharp
+proc/give_mob_item(mob/person as mob, obj/item/gift as obj)
+```
+
+<span style="color: green">Good:</span>
+```csharp
+proc/give_mob_item(mob/person, obj/item/gift)
+mob/verb/get_mob_to_yourself(mob/target as mob)
+```
+
 # Useful Things
 
 ## VSCode Debugger
@@ -238,6 +279,17 @@ Guide to the categories:
 * Overtime: How much was spent past 100 tick_usage. This results in what we know as 'lag'.
 
 If total cpu and real time are the same the proc never sleeps, otherwise real time will be higher as it counts the time while the proc is waiting.
+
+## Even Better Profiler
+There exists a project to provide an incredibly more advanced real-time profiler for DM, named [byond-tracy](https://github.com/mafemergency/byond-tracy), capable of providing incredible resolution.
+
+![](https://i.imgur.com/1CEwo0g.png)
+
+To operate this, you will need to do two things: download [the tracy 'viewer' application](https://github.com/wolfpld/tracy), and either compile or download the byond-tracy library.
+* The first can be downloaded here: https://github.com/wolfpld/tracy/releases (download the .7z and unzip it, it's portable)
+* The second can be trivially compiled from the C source above (and will be more performant), or you could download a version ZeWaka has compiled themselves [here](https://bit.ly/goontracy). The .dll just goes in the root folder of the game.
+
+If you're on Linux you need to compile both yourself manually, obviously.
 
 ## Target Dummy
 You can spawn in a target dummy (`/mob/living/carbon/human/tdummy`) to more easily test things that do damage - they have the ass day health percent and damage popups visible even if your build isn't set to ass day.
