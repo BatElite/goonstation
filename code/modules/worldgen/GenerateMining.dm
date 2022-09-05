@@ -226,7 +226,8 @@ var/list/miningModifiers = list()
 
 			var/sizeMod = rand(-AST_SIZERANGE,AST_SIZERANGE)
 
-			while(edgeTiles.len)
+			logTheThing(LOG_DEBUG, null, "Setting up tile lists for asteroid.")
+			while(length(edgeTiles))
 				var/turf/curr = edgeTiles[1]
 				edgeTiles.Remove(curr)
 
@@ -266,9 +267,10 @@ var/list/miningModifiers = list()
 
 			Turfspawn_Asteroid_SeedEvents(placed)
 
-			if(placed.len)
+			logTheThing(LOG_DEBUG, null, "Making holes or something idk.")
+			if(length(placed))
 				generated.Add(placed)
-				if(placed.len > 9)
+				if(length(placed) > 9)
 					seeds.Add(X)
 					seeds[X] = placed
 					var/list/holeList = list()
@@ -344,7 +346,9 @@ var/list/miningModifiers = list()
 
 	boutput(world, "<span class='alert'>Generated Mining Level in [((world.timeofday - startTime)/10)] seconds!")
 
-	hotspot_controller.generate_map()
+	if (map_settings.has_hotspots)
+		hotspot_controller.generate_map()
+		logTheThing(LOG_DEBUG, null, "Generated hotspot map or something.")
 
 var/global/datum/bioluminescent_algae/bioluminescent_algae
 /datum/bioluminescent_algae

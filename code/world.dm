@@ -131,8 +131,8 @@ var/f_color_selector_handler/F_Color_Selector
 		renderSourceHolder.render_target = "*renderSourceHolder"
 
 /proc/buildMaterialCache()
-	//material_cache
-	var/materialList = childrentypesof(/datum/material)
+	material_cache = list()
+	var/materialList = concrete_typesof(/datum/material)
 	for(var/mat in materialList)
 		var/datum/material/M = new mat()
 		material_cache.Add(M.mat_id)
@@ -567,10 +567,11 @@ var/f_color_selector_handler/F_Color_Selector
 	Z_LOG_DEBUG("World/Init", "Setting up process scheduler...")
 	processScheduler.setup()
 
-	UPDATE_TITLE_STATUS("Reticulating splines")
+	UPDATE_TITLE_STATUS("Initializing worldgen setup")
 	Z_LOG_DEBUG("World/Init", "Initializing worldgen...")
 	initialize_worldgen()
 
+	UPDATE_TITLE_STATUS("Reticulating splines")
 	Z_LOG_DEBUG("World/Init", "Running map-specific initialization...")
 	map_settings.init()
 
@@ -746,9 +747,16 @@ var/f_color_selector_handler/F_Color_Selector
 	if (config?.server_name)
 		s += "<b><a href=\"https://goonhub.com\">[config.server_name]</a></b> &#8212; "
 	else
-		s += "<b>SERVER NAME HERE</b> &#8212; "
+		statsus += "<b>SERVER NAME HERE</b> &#8212; "
 
-	s += "The classic SS13 experience. &#8212; (<a href=\"http://bit.ly/gndscd\">Discord</a>)<br>"
+	statsus += "The classic SS13 experience. &#8212; (<a href=\"http://bit.ly/gndscd\">Discord</a>)<br>"
+
+	if(ticker?.round_elapsed_ticks > 0 && current_state == GAME_STATE_PLAYING)
+		statsus += "Time: <b>[round(ticker.round_elapsed_ticks / 36000)]:[add_zero(num2text(ticker.round_elapsed_ticks / 600 % 60), 2)]</b><br>"
+	else if (current_state == GAME_STATE_FINISHED)
+		statsus += "Time: <b>RESTARTING</b><br>"
+	else if(!ticker)
+		statsus += "Time: <b>STARTING</b><br>"
 
 	if (map_settings)
 		var/map_name = istext(map_settings.display_name) ? "[map_settings.display_name]" : "[map_settings.name]"

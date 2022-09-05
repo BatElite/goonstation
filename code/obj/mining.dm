@@ -947,6 +947,18 @@
 	return 2
 
 // Turf Defines
+
+TYPEINFO(/turf/simulated/wall/auto/asteroid)
+TYPEINFO_NEW(/turf/simulated/wall/auto/asteroid)
+	. = ..()
+	connect_overlay = 0
+	connect_diagonal = 1
+	connects_to = typecacheof(list(
+		/turf/simulated/wall/auto/asteroid,
+		/turf/simulated/wall/false_wall,
+		/obj/structure/woodwall,
+		/obj/machinery/door/poddoor/blast/asteroid
+	))
 /turf/simulated/wall/auto/asteroid
 	icon = 'icons/turf/walls_asteroid.dmi'
 	mod = "asteroid-"
@@ -954,9 +966,7 @@
 	plane = PLANE_WALL-1
 	layer = ASTEROID_LAYER
 	flags = ALWAYS_SOLID_FLUID | IS_PERSPECTIVE_FLUID
-	connect_overlay = 0
-	connect_diagonal = 1
-	connects_to = list(/turf/simulated/wall/auto/asteroid, /turf/simulated/wall/false_wall, /obj/structure/woodwall, /obj/machinery/door/poddoor/blast/asteroid)
+	default_material = "rock"
 
 #ifdef UNDERWATER_MAP
 	name = "cavern wall"
@@ -1246,15 +1256,7 @@
 			setTexture("damage3", BLEND_MULTIPLY, "damage")
 		return
 
-	proc/build_icon(var/wipe_overlays = 0)
-		/*
-		if (wipe_overlays)
-			src.overlays = list()
-		var/image/coloration = image(src.icon,"color_overlay")
-		coloration.blend_mode = 4
-		coloration.color = src.stone_color
-		src.overlays += coloration
-		*/
+	proc/build_icon()
 		src.color = src.stone_color
 
 	proc/top_overlays() // replaced what was here with cool stuff for autowalls

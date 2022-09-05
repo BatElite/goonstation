@@ -1,12 +1,6 @@
-/proc/testMat()
-	boutput(world, "[materialProps.len]")
-	sleep(1 SECOND)
-	usr.client.debug_variables(material_cache["cerenkite"])
-	sleep(1 SECOND)
-	usr.client.debug_variables(new/datum/material/metal/cerenkite())
-	return
 
-var/global/list/material_cache = list()
+var/global/list/material_cache = buildMaterialCache()
+
 /atom/var/datum/material/material = null
 /atom/var/material_amt = 1
 
@@ -18,12 +12,10 @@ var/global/list/material_cache = list()
 var/global/list/triggerVars = list("triggersOnBullet", "triggersOnEat", "triggersTemp", "triggersChem", "triggersPickup", "triggersDrop", "triggersExp", "triggersOnAdd", "triggersOnLife", "triggersOnAttack", "triggersOnAttacked", "triggersOnEntered")
 
 /// Returns one of the base materials by id.
-/proc/getMaterial(var/mat)
-	if(!istext(mat) || !length(mat)) return null
-	if(!material_cache.len) buildMaterialCache()
-	if(mat in material_cache)
-		return material_cache[mat]
-	return null
+/proc/getMaterial(mat)
+	if(!istext(mat))
+		return null
+	return material_cache?[mat]
 
 /proc/mergeProperties(var/list/l1, var/list/l2, var/bias=0.5)
 	var/oBias = 1 - bias
@@ -50,8 +42,8 @@ var/global/list/triggerVars = list("triggersOnBullet", "triggersOnEat", "trigger
 		var/datum/material/M = new/datum/material()
 		return M
 	else
-		var/datum/material/M = new base.type ()
-		M.properties = mergeProperties(base.properties)
+		var/datum/material/M = new base.type()
+		M.properties = mergeProperties(base.properties, rightBias = 0)
 		for(var/X in base.vars)
 			if(X == "type" || X == "parent_type" || X == "tag" || X == "vars" || X == "properties" || X == "datum_components" || X == "comp_lookup" || X == "signal_procs" || X == "signal_enabled") continue
 

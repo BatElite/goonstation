@@ -762,21 +762,15 @@
 		var/turf/T = get_turf(src)
 		// Originally worked only on this type specifically.
 		// Which meant it didn't work with the fancy new auto-walls
-		if (istype(T, /turf/simulated/wall))
-			// Only update if the wall should have a different type
-			if (src.icon_state != "* AUTO *")
-				T.icon = src.icon
-				T.icon_state = src.icon_state
-				T.set_dir(src.dir)
-				T:allows_vehicles = src.allows_vehicles
-			else if (istype(T, /turf/simulated/wall/auto))
-				var/turf/simulated/wall/auto/AT = T
-				AT.icon = initial(AT.icon)
-				AT.icon_state = initial(AT.icon_state)
-				AT.set_dir(initial(AT.dir))
-				AT:allows_vehicles = initial(AT.allows_vehicles)
-				AT.UpdateIcon()
-				AT.update_neighbors()
+
+		// this has been reworked to use auto walls that i resprited a while back.
+		if (istype(T, /turf/simulated/wall/auto))
+			var/typeinfo/turf/simulated/wall/auto/typinfo = get_type_typeinfo(T.type)
+			var/connectdir = get_connected_directions_bitflag(typinfo.connects_to, typinfo.connects_to_exceptions, TRUE, typinfo.connect_diagonal)
+			var/turf/simulated/wall/auto/AT = T
+			AT.icon = src.icon
+			AT.icon_state = "[selectedmod][connectdir]"
+
 			qdel(src)
 
 /obj/plan_marker/floor
