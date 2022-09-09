@@ -204,19 +204,21 @@ proc/make_cleanable(var/type,var/loc,var/list/viral_list)
 					C.add_stain(src.stain)
 					return
 			else
-				for (var/mob/living/carbon/human/H in src.loc)
-					if (H.lying)
-						if (H.wear_suit)
-							H.wear_suit?.add_stain(src.stain)
-						else if (H.w_uniform)
-							H.w_uniform?.add_stain(src.stain)
-					//else
-						//if (H.shoes)
-							//H.shoes.add_stain(src.stain)
-					LAGCHECK(LAG_REALTIME)
-				for (var/obj/item/clothing/C in src.loc)
-					C.add_stain(src.stain)
-					LAGCHECK(LAG_REALTIME)
+				SPAWN(0) //sorry. i want to lagcheck this. DO SOMETHING BETTER LATER ARUUGh // zewaka hundreds of spawns
+					for (var/mob/living/carbon/human/H in src.loc)
+						if (H.lying)
+							if (H.wear_suit)
+								H.wear_suit.add_stain(src.stain)
+							else if (H.w_uniform)
+								H.w_uniform.add_stain(src.stain)
+						//else
+							//if (H.shoes)
+								//H.shoes.add_stain(src.stain)
+						LAGCHECK(LAG_REALTIME)
+					LAGCHECK(LAG_HIGH)
+					for (var/obj/item/clothing/C in src.loc)
+						C.add_stain(src.stain)
+						LAGCHECK(LAG_REALTIME)
 
 	proc/create_overlay(var/list/icons_to_choose, var/add_color, var/direction, var/overlay_icon)
 		var/overlay_icon_state
