@@ -319,6 +319,8 @@ Airlock index -> wire color are { 9, 4, 6, 7, 5, 8, 1, 2, 3 }.
 
 /obj/machinery/door/airlock/pyro
 	name = "airlock"
+	icon_state = "generic_closed"
+	icon_base = "generic"
 	icon = 'icons/obj/doors/SL_doors.dmi'
 	flags = FPRINT | IS_PERSPECTIVE_FLUID | ALWAYS_SOLID_FLUID
 
