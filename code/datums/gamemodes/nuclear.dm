@@ -1,5 +1,5 @@
 ///This amount of potential target locations are picked, up to every defined plant spot for the map
-#define AMOUNT_OF_VALID_NUKE_PLANT_LOCATIONS 2
+#define AMOUNT_OF_VALID_NUKE_PLANT_LOCATIONS 1
 
 /datum/game_mode/nuclear
 	name = "nuclear emergency"
