@@ -3580,7 +3580,7 @@ var/global/noir = 0
 
 								dat += "<tr><td>Target area:"
 								if (!isnull(NN.target_location_type))
-									dat += " [NN.target_location_name]</tr></td>"
+									dat += " [NN.concatenated_location_names]</tr></td>"
 								else
 									dat += " Unknown or not assigned</tr></td>"
 
