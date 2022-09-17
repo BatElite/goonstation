@@ -966,7 +966,7 @@ TYPEINFO_NEW(/turf/simulated/wall/auto/asteroid)
 	plane = PLANE_WALL-1
 	layer = ASTEROID_LAYER
 	flags = ALWAYS_SOLID_FLUID | IS_PERSPECTIVE_FLUID
-	default_material = "rock"
+	//default_material = "rock"
 
 #ifdef UNDERWATER_MAP
 	name = "cavern wall"

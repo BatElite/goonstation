@@ -742,10 +742,11 @@ var/f_color_selector_handler/F_Color_Selector
 	Z_LOG_DEBUG("World/Status", "Updating status")
 
 	//we start off with an animated bee gif because, well, this is who we are.
-	var/s = "<img src=\"http://goonhub.com/bee.gif\"/>"
+	//var/s = "<img src=\"http://goonhub.com/bee.gif\"/>"
+	var/list/statsus = list()
 
 	if (config?.server_name)
-		s += "<b><a href=\"https://goonhub.com\">[config.server_name]</a></b> &#8212; "
+		statsus += "<b><a href=\"https://goonhub.com\">[config.server_name]</a></b> &#8212; "
 	else
 		statsus += "<b>SERVER NAME HERE</b> &#8212; "
 
@@ -761,7 +762,7 @@ var/f_color_selector_handler/F_Color_Selector
 	if (map_settings)
 		var/map_name = istext(map_settings.display_name) ? "[map_settings.display_name]" : "[map_settings.name]"
 		//var/map_link_str = map_settings.goonhub_map ? "<a href=\"[map_settings.goonhub_map]\">[map_name]</a>" : "[map_name]"
-		s += "Map: <b>[map_name]</b><br>"
+		statsus += "Map: <b>[map_name]</b><br>"
 
 	var/list/features = list()
 
@@ -784,11 +785,11 @@ var/f_color_selector_handler/F_Color_Selector
 #endif
 
 	if(features)
-		s += "[jointext(features, ", ")]"
+		statsus += "[jointext(features, ", ")]"
 
 	/* does this help? I do not know */
-	if (src.status != s)
-		src.status = s
+	if (src.status != statsus)
+		src.status = statsus
 
 	Z_LOG_DEBUG("World/Status", "Status update complete")
 

@@ -758,7 +758,7 @@
 	name = "\improper Wall Plan Marker"
 	desc = "Build a wall here to complete the plan."
 
-	proc/check()
+	proc/check(var/selectedmod)
 		var/turf/T = get_turf(src)
 		// Originally worked only on this type specifically.
 		// Which meant it didn't work with the fancy new auto-walls

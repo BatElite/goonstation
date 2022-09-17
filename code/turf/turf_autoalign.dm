@@ -477,7 +477,7 @@ TYPEINFO_NEW(/turf/simulated/wall/auto/reinforced/paper)
 	connects_with_overlay = typecacheof(list(/obj/table/reinforced/bar/auto))
 /turf/simulated/wall/auto/reinforced/paper
 	icon = 'icons/turf/walls_paper.dmi'
-	default_material = "bamboo"
+	//default_material = "bamboo"
 
 	update_neighbors()
 		..()
@@ -502,7 +502,7 @@ TYPEINFO_NEW(/turf/simulated/wall/auto/supernorn/wood)
 /turf/simulated/wall/auto/supernorn/wood
 	icon = 'icons/turf/walls_wood.dmi'
 	mod = ""
-	default_material = "wood"
+	//default_material = "wood"
 
 
 TYPEINFO(/turf/simulated/wall/auto/gannets)
@@ -620,8 +620,8 @@ TYPEINFO_NEW(/turf/simulated/wall/auto/hedge)
 	mod = "hedge-"
 	light_mod = "wall-"
 	flags = ALWAYS_SOLID_FLUID | IS_PERSPECTIVE_FLUID
-	default_material = "wood"
-
+	//default_material = "wood"
+/*
 /turf/simulated/wall/auto/myotis
 	icon = 'icons/turf/walls_myotis.dmi'
 	mod = "myotis-"
@@ -659,7 +659,7 @@ TYPEINFO_NEW(/turf/simulated/wall/auto/hedge)
 
 	connects_with_overlay = list(/turf/simulated/wall/auto/shuttle,
 	/turf/simulated/wall/auto/shuttle, /obj/machinery/door, /obj/window, /obj/wingrille_spawn,
-	/turf/simulated/wall/auto/jen, /turf/simulated/wall/auto/reinforced/jen)
+	/turf/simulated/wall/auto/jen, /turf/simulated/wall/auto/reinforced/jen)*/
 
 /* ===================================================== */
 /* -------------------- UNSIMULATED -------------------- */
