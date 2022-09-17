@@ -44,7 +44,8 @@ var/global/icon/station_map = null
 	layer = HUD_LAYER
 	screen_loc = "CENTER-3, CENTER-3"
 
-	MouseUp(var/location,var/control,var/params)
+	//MouseUp(var/location,var/control,var/params)
+	Click(var/location,var/control,var/params)
 		var/list/paramList = params2list(params)
 		if (paramList.Find("left"))
 			var/turf/clicked = locate(text2num(paramList["icon-x"]),text2num(paramList["icon-y"]),1)
