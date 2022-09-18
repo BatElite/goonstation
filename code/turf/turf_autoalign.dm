@@ -621,45 +621,59 @@ TYPEINFO_NEW(/turf/simulated/wall/auto/hedge)
 	light_mod = "wall-"
 	flags = ALWAYS_SOLID_FLUID | IS_PERSPECTIVE_FLUID
 	//default_material = "wood"
-/*
+
+TYPEINFO(/turf/simulated/wall/auto/myotis)
+	//connect_overlay = 1
+	connect_diagonal = 1
+TYPEINFO_NEW(/turf/simulated/wall/auto/myotis)
+	. = ..()
+	connects_to = typecacheof(list(
+		/turf/simulated/wall/auto/supernorn, /turf/simulated/wall/auto/reinforced/supernorn,
+		/turf/simulated/wall/auto/jen, /turf/simulated/wall/auto/reinforced/jen,
+		/turf/simulated/wall/false_wall, /turf/simulated/wall/auto/shuttle, /obj/machinery/door,
+		/obj/window, /obj/wingrille_spawn, /turf/simulated/wall/auto/reinforced/supernorn/yellow,
+		/turf/simulated/wall/auto/reinforced/supernorn/blackred, /turf/simulated/wall/auto/reinforced/supernorn/orange,
+		/turf/simulated/wall/auto/old, /turf/simulated/wall/auto/reinforced/old, /turf/simulated/wall/auto/myotis,
+		/turf/simulated/wall/auto/reinforced/myotis
+	))
+	connects_with_overlay = typecacheof(list(
+		/turf/simulated/wall/auto/shuttle,
+		/turf/simulated/wall/auto/shuttle, /obj/machinery/door, /obj/window, /obj/wingrille_spawn,
+		/turf/simulated/wall/auto/jen, /turf/simulated/wall/auto/reinforced/jen
+	))
+
 /turf/simulated/wall/auto/myotis
 	icon = 'icons/turf/walls_myotis.dmi'
 	mod = "myotis-"
 	//icon_state = "oldr"
 	light_mod = "wall-"
 	flags = ALWAYS_SOLID_FLUID | IS_PERSPECTIVE_FLUID
-	connect_overlay = 1
-	connect_diagonal = 1
-	connects_to = list(/turf/simulated/wall/auto/supernorn, /turf/simulated/wall/auto/reinforced/supernorn,
-	/turf/simulated/wall/auto/jen, /turf/simulated/wall/auto/reinforced/jen,
-	/turf/simulated/wall/false_wall, /turf/simulated/wall/auto/shuttle, /obj/machinery/door,
-	/obj/window, /obj/wingrille_spawn, /turf/simulated/wall/auto/reinforced/supernorn/yellow,
-	/turf/simulated/wall/auto/reinforced/supernorn/blackred, /turf/simulated/wall/auto/reinforced/supernorn/orange,
-	/turf/simulated/wall/auto/old, /turf/simulated/wall/auto/reinforced/old, /turf/simulated/wall/auto/myotis,
-	/turf/simulated/wall/auto/reinforced/myotis)
 
-	connects_with_overlay = list(/turf/simulated/wall/auto/shuttle,
-	/turf/simulated/wall/auto/shuttle, /obj/machinery/door, /obj/window, /obj/wingrille_spawn,
-	/turf/simulated/wall/auto/jen, /turf/simulated/wall/auto/reinforced/jen)
+TYPEINFO(/turf/simulated/wall/auto/reinforced/myotis)
+	//connect_overlay = 1
+	connect_diagonal = 1
+TYPEINFO_NEW(/turf/simulated/wall/auto/reinforced/myotis)
+	. = ..()
+	connects_to = typecacheof(list(
+		/turf/simulated/wall/auto/supernorn, /turf/simulated/wall/auto/reinforced/supernorn,
+		/turf/simulated/wall/auto/jen, /turf/simulated/wall/auto/reinforced/jen,
+		/turf/simulated/wall/false_wall, /turf/simulated/wall/auto/shuttle, /obj/machinery/door,
+		/obj/window, /obj/wingrille_spawn, /turf/simulated/wall/auto/reinforced/supernorn/yellow,
+		/turf/simulated/wall/auto/reinforced/supernorn/blackred, /turf/simulated/wall/auto/reinforced/supernorn/orange,
+		/turf/simulated/wall/auto/old, /turf/simulated/wall/auto/reinforced/old, /turf/simulated/wall/auto/myotis,
+		/turf/simulated/wall/auto/reinforced/myotis
+	))
+	connects_with_overlay = typecacheof(list(
+		/turf/simulated/wall/auto/shuttle,
+		/turf/simulated/wall/auto/shuttle, /obj/machinery/door, /obj/window, /obj/wingrille_spawn,
+		/turf/simulated/wall/auto/jen, /turf/simulated/wall/auto/reinforced/jen
+	))
 
 /turf/simulated/wall/auto/reinforced/myotis
 	icon = 'icons/turf/walls_myotis.dmi'
 	mod = "myotis-R-"
 	light_mod = "wall-"
 	flags = ALWAYS_SOLID_FLUID | IS_PERSPECTIVE_FLUID
-	connect_overlay = 1
-	connect_diagonal = 1
-	connects_to = list(/turf/simulated/wall/auto/supernorn, /turf/simulated/wall/auto/reinforced/supernorn,
-	/turf/simulated/wall/auto/jen, /turf/simulated/wall/auto/reinforced/jen,
-	/turf/simulated/wall/false_wall, /turf/simulated/wall/auto/shuttle, /obj/machinery/door,
-	/obj/window, /obj/wingrille_spawn, /turf/simulated/wall/auto/reinforced/supernorn/yellow,
-	/turf/simulated/wall/auto/reinforced/supernorn/blackred, /turf/simulated/wall/auto/reinforced/supernorn/orange,
-	/turf/simulated/wall/auto/old, /turf/simulated/wall/auto/reinforced/old, /turf/simulated/wall/auto/myotis,
-	/turf/simulated/wall/auto/reinforced/myotis)
-
-	connects_with_overlay = list(/turf/simulated/wall/auto/shuttle,
-	/turf/simulated/wall/auto/shuttle, /obj/machinery/door, /obj/window, /obj/wingrille_spawn,
-	/turf/simulated/wall/auto/jen, /turf/simulated/wall/auto/reinforced/jen)*/
 
 /* ===================================================== */
 /* -------------------- UNSIMULATED -------------------- */
