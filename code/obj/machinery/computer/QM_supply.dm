@@ -113,7 +113,7 @@ var/global/datum/rockbox_globals/rockbox_globals = new /datum/rockbox_globals
 var/global/datum/cdc_contact_controller/QM_CDC = new()
 
 /obj/machinery/computer/supplycomp
-	name = "Quartermaster's Console"
+	name = "quartermaster's console"
 	icon = 'icons/obj/computer.dmi'
 	icon_state = "QMcom"
 	req_access = list(access_supply_console)
