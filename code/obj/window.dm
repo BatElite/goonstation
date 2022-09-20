@@ -783,6 +783,9 @@
 		/turf/unsimulated/wall/auto/adventure/shuttle,
 		/turf/simulated/wall/auto/marsoutpost,
 		/turf/simulated/wall/false_wall,
+
+		/turf/simulated/wall/auto/myotis
+		/turf/simulated/wall/auto/reinforced/myotis
 	))
 
 	/// Gotta be a typecache list
