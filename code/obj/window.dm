@@ -784,7 +784,7 @@
 		/turf/simulated/wall/auto/marsoutpost,
 		/turf/simulated/wall/false_wall,
 
-		/turf/simulated/wall/auto/myotis
+		/turf/simulated/wall/auto/myotis,
 		/turf/simulated/wall/auto/reinforced/myotis
 	))
 
