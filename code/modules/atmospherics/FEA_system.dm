@@ -137,7 +137,7 @@ datum/controller/air_system
 	proc/rebuild_group(datum/air_group)
 		//Used by process_rebuild_select_groups()
 		//Warning: Do not call this, add the group to air_master.groups_to_rebuild instead
-//fart
+//fart fort
 	proc/update_space_sample()
 		if (!space_sample || !(space_sample.turf_flags & CAN_BE_SPACE_SAMPLE))
 			space_sample = locate(/turf/space)
