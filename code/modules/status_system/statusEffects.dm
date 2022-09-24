@@ -2231,3 +2231,32 @@
 	maxDuration = 3 MINUTES
 	unique = TRUE
 	movement_modifier = /datum/movement_modifier/spry
+
+///When a mob is currently swimming
+/datum/statusEffect/swimming
+	id = "swimming"
+	name = "Swimming"
+	desc = "You are swimming"
+	/// has an on-move effect
+	//var/move_triggered = 0
+	/// Put a label here to track anyone with this effect into this category
+	//var/track_cat
+	onAdd()
+		animate_swim(owner)
+		APPLY_ATOM_PROPERTY(owner, PROP_ATOM_FLOATING, src) //footsteps and glass shards and conveyors
+		APPLY_ATOM_PROPERTY(owner, PROP_MOB_NO_MOVEMENT_PUFFS, src)
+		..()
+
+	onRemove()
+		animate(owner, pixel_y = 0)
+		REMOVE_ATOM_PROPERTY(owner, PROP_ATOM_FLOATING, src)
+		REMOVE_ATOM_PROPERTY(owner, PROP_MOB_NO_MOVEMENT_PUFFS, src)
+		var/turf/space/fluid/warp_z5/trenchhole = owner.loc
+		ON_COOLDOWN(owner,"re-swim", 0.5 SECONDS) //Small cooldown so the trench hole doesn't immediately put the mob on swimming again (they plummet instead :D)
+		if (istype(trenchhole)) //Probably don't need to give a shit if they're in a closet or sub or something
+			trenchhole.Entered(owner)
+		..()
+
+	clicked(list/params)
+		owner.delStatus("swimming")
+		..()

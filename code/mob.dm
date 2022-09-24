@@ -3094,6 +3094,76 @@
 	SEND_SIGNAL(A, COMSIG_ATOM_EXAMINE, src, result)
 	boutput(src, result.Join("\n"))
 
+//--- Swimming
+
+///Attempts to initiate a swim on the mob, return values indicate success or whatever
+/mob/living/verb/swim()
+	set name = "Swim"
+	set hidden = 1
+
+	if (!can_act(src, TRUE))
+		return FALSE
+	if (src.lying)
+		return FALSE
+	src.setStatus("swimming", null)
+	return TRUE
+
+#ifdef UNDERWATER_MAP //Z-traversing swimming isn't a thing in space, I've decided
+///Traverse from mining to station Z
+/mob/living/verb/swim_up()
+	set name = "Swim Up"
+	set hidden = 1
+
+	if (!hasStatus("swimming"))
+		boutput(src, "<span class='alert'>You're not currently swimming.</span>", group = "swimtime:)")
+		return
+	if (!isturf(src.loc))
+		return
+	if (src.z == Z_LEVEL_STATION)
+		boutput(src, "<span class='alert'>You're already at the surface.</span>", group = "swimtime:)")
+		return
+	var/turf/space/fluid/trenchfloor = src.loc
+	if (!istype(trenchfloor))
+		boutput(src, "<span class='alert'>There's a ceiling below you, go try again outside.</span>", group = "swimtime:)") //don't give me smartassery about walls
+		return
+	for(var/turf/space/fluid/T in range(5,trenchfloor))
+		if(T.linked_hole)
+			src.set_loc(T.linked_hole)
+			return
+		else if (istype(get_area(T), /area/trench_landing)) //the trench landing is weird, this is seems to be what sea ladders do?
+			src.set_loc(pick(by_type[/turf/space/fluid/warp_z5/edge]))
+			return
+	//if (!trenchfloor.linked_hole)
+	boutput(src, "<span class='alert'>There's no nearby way up, shit.</span>", group = "swimtime:)") //RIP
+	return
+
+///Traverse from station to mining Z
+/mob/living/verb/swim_down()
+	set name = "Swim Down"
+	set hidden = 1
+
+	if (!hasStatus("swimming"))
+		boutput(src, "<span class='alert'>You're not currently swimming.</span>", group = "swimtime:)")
+		return
+	if (!isturf(src.loc))
+		return
+	var/turf/space/fluid/warp_z5/trenchhole = src.loc
+	if (!istype(trenchhole))
+		boutput(src, "<span class='alert'>There's a floor below you.</span>", group = "swimtime:)") //don't give me smartassery about walls
+		return
+	trenchhole.try_build_turf_list()
+	src.set_loc(pick(trenchhole.L))
+#endif
+
+//Move this out to a human file later
+/mob/living/carbon/human/swim()
+	if (!limbs.r_arm && !limbs.l_arm) //can't swim without at least one arm
+		return FALSE
+	//var/list/in_hands = src.equipped_list(FALSE)
+	for(var/obj/item/thing in src.equipped_list(FALSE))
+		if (thing.w_class > SWIMMING_UPPER_W_CLASS_BOUND || thing.two_handed) //You need your hands fairly free to swim
+			return FALSE
+	. = ..()
 
 /mob/living/verb/interact_verb(atom/A as mob|obj|turf in oview(1, usr))
 	set name = "Pick Up / Left Click"

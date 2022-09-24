@@ -187,6 +187,9 @@
 #define W_CLASS_GIGANTIC 6
 #define W_CLASS_BUBSIAN 10
 
+///Anything above this prevents you from swimming
+#define SWIMMING_UPPER_W_CLASS_BOUND W_CLASS_SMALL
+
 // for firesource logging
 /// Firesource is capable of starting fires on its own when dropped
 #define FIRESOURCE_OPEN_FLAME 1

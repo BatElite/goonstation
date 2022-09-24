@@ -603,6 +603,8 @@
 				return
 			if(isabomination(H))
 				return
+			if(H.throwing || HAS_ATOM_PROPERTY(H, PROP_ATOM_FLOATING))
+				return
 			if(H.lying)
 				boutput(H, "<span class='alert'><B>You crawl on [src]! Ouch!</B></span>")
 				step_on(H)
