@@ -12,4 +12,5 @@ Swimming:
 	-error defines for specific things preventing someone from swimming
 	-is it possible to have the verbs unhyphenated?
 	-let jetpack users go up/down
+	-you can actually swim in the air atm
 */
