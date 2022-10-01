@@ -2237,10 +2237,7 @@
 	id = "swimming"
 	name = "Swimming"
 	desc = "You are swimming"
-	/// has an on-move effect
-	//var/move_triggered = 0
-	/// Put a label here to track anyone with this effect into this category
-	//var/track_cat
+
 	onAdd()
 		animate_swim(owner)
 		APPLY_ATOM_PROPERTY(owner, PROP_ATOM_FLOATING, src) //footsteps and glass shards and conveyors
