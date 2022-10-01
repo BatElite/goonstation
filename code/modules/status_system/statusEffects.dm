@@ -2253,6 +2253,16 @@
 		REMOVE_ATOM_PROPERTY(owner, PROP_MOB_NO_MOVEMENT_PUFFS, src)
 		var/turf/space/fluid/warp_z5/trenchhole = owner.loc
 		ON_COOLDOWN(owner,"re-swim", 0.5 SECONDS) //Small cooldown so the trench hole doesn't immediately put the mob on swimming again (they plummet instead :D)
+		var/end_z_cross = TRUE
+		if (ishuman(src)) //let jetpack fans go up and down
+			var/mob/living/carbon/human/H = src
+			if (H.back && H.back.c_flags & IS_JETPACK)
+				if (istype(H.back, /obj/item/tank/jetpack))
+					var/obj/item/tank/jetpack/J = H.back
+					if(J.allow_thrust(0.01, H))
+						end_z_cross = FALSE //jetpack can "take over"
+		if (end_z_cross) //Yes non humans always stop the z cross
+			actions.stopId("swimming", owner)
 		if (istype(trenchhole)) //Probably don't need to give a shit if they're in a closet or sub or something
 			trenchhole.Entered(owner)
 		..()

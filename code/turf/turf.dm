@@ -403,6 +403,10 @@ proc/generate_space_color()
 			if (isitem(M))
 				if (!(locate(/obj/table) in src) && !(locate(/obj/rack) in src))
 					Ar.sims_score = max(Ar.sims_score - 4, 0)
+	//optionally cancel swims
+	if (isliving(M) && M.hasStatus("swimming") && !istype(src, /turf/space/fluid))
+		if (src.active_liquid?.last_depth_level < 3) //Trying to swim into the air
+			M.delStatus("swimming")
 
 	var/i = 0
 	i = 0

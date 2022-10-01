@@ -1990,3 +1990,20 @@ Also there'd be constant calls to its onUpdate so long as the magtractor held an
 			target.anchored = FALSE
 		else
 			target.anchored = TRUE
+#ifdef UNDERWATER_MAP
+/datum/action/bar/private/swim_cross_z
+	duration = 2 SECONDS
+	interrupt_flags = INTERRUPT_MOVE | INTERRUPT_STUNNED | INTERRUPT_ATTACKED | INTERRUPT_ACTION
+	var/turf/target_turf
+	id = "swimming"
+
+	New(var/turf/target)
+		..()
+		src.target_turf = target
+
+	onEnd()
+		..()
+		var/atom/movable/thing_that_should_set_loc = owner // :V
+		thing_that_should_set_loc.set_loc(target_turf)
+
+#endif

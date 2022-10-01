@@ -3095,26 +3095,55 @@
 	boutput(src, result.Join("\n"))
 
 //--- Swimming
+#define CAN_SWIM 0
+#define CANT_SWIM_INCAPACITATED 1
+#define CANT_SWIM_LYING 2
+#define CANT_SWIM_NO_GODDAMN_WATER 3
+#define CANT_SWIM_LACK_OF_LIMBS 4
+#define CANT_SWIM_HOLDING_HEAVY_OBJECT 5
 
-///Attempts to initiate a swim on the mob, return values indicate success or whatever
+///Wrapper around attempt_swim that does failure messages, so other things can go directly to attempt_swim and not worry about spamming up the player's chat
 /mob/living/verb/swim()
+	switch(attempt_swim())
+		if(CANT_SWIM_INCAPACITATED)
+			boutput(src, "<span class='alert'>Not while you're incapacitated.</span>", "swimtime:)")
+		if(CANT_SWIM_LYING)
+			boutput(src, "<span class='alert'>Not while you're lying down.</span>", "swimtime:)")
+		if(CANT_SWIM_NO_GODDAMN_WATER)
+			boutput(src, "<span class='alert'>Swim in what exactly? Air?</span>", "swimtime:)")
+		if(CANT_SWIM_LACK_OF_LIMBS)
+			boutput(src, "<span class='alert'>You lack the limbs to swim.</span>", "swimtime:)")
+		if(CANT_SWIM_HOLDING_HEAVY_OBJECT)
+			boutput(src, "<span class='alert'>You're holding something too large to swim with.</span>", "swimtime:)")
+///Attempts to initiate a swim on the mob, return values indicate success or whatever
+/mob/living/proc/attempt_swim()
 	set name = "Swim"
 	set hidden = 1
 
 	if (!can_act(src, TRUE))
-		return FALSE
+		return CANT_SWIM_INCAPACITATED
 	if (src.lying)
-		return FALSE
+		return CANT_SWIM_LYING
+	var/turf/T = get_turf(src)
+	if (!istype(T, /turf/space/fluid) && T.active_liquid?.last_depth_level < 3)
+		return CANT_SWIM_NO_GODDAMN_WATER
 	src.setStatus("swimming", null)
-	return TRUE
+	return CAN_SWIM
 
 #ifdef UNDERWATER_MAP //Z-traversing swimming isn't a thing in space, I've decided
 ///Traverse from mining to station Z
 /mob/living/verb/swim_up()
 	set name = "Swim Up"
 	set hidden = 1
-
-	if (!hasStatus("swimming"))
+	var/can_go = hasStatus("swimming")
+	if (ishuman(src)) //let jetpack fans go up and down
+		var/mob/living/carbon/human/H = src
+		if (H.back && H.back.c_flags & IS_JETPACK)
+			if (istype(H.back, /obj/item/tank/jetpack))
+				var/obj/item/tank/jetpack/J = H.back
+				if(J.allow_thrust(0.01, H))
+					can_go = TRUE
+	if (!can_go)
 		boutput(src, "<span class='alert'>You're not currently swimming.</span>", group = "swimtime:)")
 		return
 	if (!isturf(src.loc))
@@ -3128,10 +3157,12 @@
 		return
 	for(var/turf/space/fluid/T in range(5,trenchfloor))
 		if(T.linked_hole)
-			src.set_loc(T.linked_hole)
+			actions.start(new/datum/action/bar/private/swim_cross_z(T.linked_hole), src)
+			//src.set_loc(T.linked_hole)
 			return
 		else if (istype(get_area(T), /area/trench_landing)) //the trench landing is weird, this is seems to be what sea ladders do?
-			src.set_loc(pick(by_type[/turf/space/fluid/warp_z5/edge]))
+			actions.start(new/datum/action/bar/private/swim_cross_z(pick(by_type[/turf/space/fluid/warp_z5/edge])), src)
+			//src.set_loc(pick(by_type[/turf/space/fluid/warp_z5/edge]))
 			return
 	//if (!trenchfloor.linked_hole)
 	boutput(src, "<span class='alert'>There's no nearby way up, shit.</span>", group = "swimtime:)") //RIP
@@ -3141,8 +3172,15 @@
 /mob/living/verb/swim_down()
 	set name = "Swim Down"
 	set hidden = 1
-
-	if (!hasStatus("swimming"))
+	var/can_go = hasStatus("swimming")
+	if (ishuman(src)) //let jetpack fans go up and down
+		var/mob/living/carbon/human/H = src
+		if (H.back && H.back.c_flags & IS_JETPACK)
+			if (istype(H.back, /obj/item/tank/jetpack))
+				var/obj/item/tank/jetpack/J = H.back
+				if(J.allow_thrust(0.01, H))
+					can_go = TRUE
+	if (!can_go)
 		boutput(src, "<span class='alert'>You're not currently swimming.</span>", group = "swimtime:)")
 		return
 	if (!isturf(src.loc))
@@ -3152,18 +3190,26 @@
 		boutput(src, "<span class='alert'>There's a floor below you.</span>", group = "swimtime:)") //don't give me smartassery about walls
 		return
 	trenchhole.try_build_turf_list()
-	src.set_loc(pick(trenchhole.L))
+	actions.start(new/datum/action/bar/private/swim_cross_z(pick(trenchhole.L)), src)
+	//src.set_loc(pick(trenchhole.L))
 #endif
 
 //Move this out to a human file later
-/mob/living/carbon/human/swim()
+/mob/living/carbon/human/attempt_swim()
 	if (!limbs.r_arm && !limbs.l_arm) //can't swim without at least one arm
-		return FALSE
+		return CANT_SWIM_LACK_OF_LIMBS
 	//var/list/in_hands = src.equipped_list(FALSE)
 	for(var/obj/item/thing in src.equipped_list(FALSE))
 		if (thing.w_class > SWIMMING_UPPER_W_CLASS_BOUND || thing.two_handed) //You need your hands fairly free to swim
-			return FALSE
+			return CANT_SWIM_HOLDING_HEAVY_OBJECT
 	. = ..()
+
+#undef CAN_SWIM
+#undef CANT_SWIM_INCAPACITATED
+#undef CANT_SWIM_LYING
+#undef CANT_SWIM_NO_GODDAMN_WATER
+#undef CANT_SWIM_LACK_OF_LIMBS
+#undef CANT_SWIM_HOLDING_HEAVY_OBJECT
 
 /mob/living/verb/interact_verb(atom/A as mob|obj|turf in oview(1, usr))
 	set name = "Pick Up / Left Click"

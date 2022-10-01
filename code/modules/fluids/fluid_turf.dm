@@ -330,7 +330,7 @@
 						return
 		if (isliving(AM) && !ON_COOLDOWN(AM, "re-swim", 0.5 SECONDS)) //Try swimming, but not if they've just stopped (for a stun or whatever)
 			var/mob/living/peep = AM
-			peep.swim() //should do nothing if they're already swimming I think?
+			peep.attempt_swim() //should do nothing if they're already swimming I think?
 		if (HAS_ATOM_PROPERTY(AM,PROP_ATOM_FLOATING))
 			return
 		return_if_overlay_or_effect(AM)
