@@ -1990,7 +1990,26 @@ Also there'd be constant calls to its onUpdate so long as the magtractor held an
 			target.anchored = FALSE
 		else
 			target.anchored = TRUE
+
+///This allows some coyote time for moving between flooded rooms, since closed doors between won't have fluid on their turfs
+/datum/action/swim_coyote_time
+	duration = 1 SECOND
+	interrupt_flags = INTERRUPT_STUNNED | INTERRUPT_ATTACKED | INTERRUPT_ACTION
+
+	onInterrupt()
+		..()
+		var/turf/T = owner.loc //I know T isn't a turf guaranteed but I think non-turfs won't pass the depth level check
+		if (!istype(T, /turf/space/fluid) && T.active_liquid?.last_depth_level < 3)
+			owner.delStatus("swimming")
+
+	onEnd()
+		..()
+		var/turf/T = owner.loc
+		if (!istype(T, /turf/space/fluid) && T.active_liquid?.last_depth_level < 3)
+			owner.delStatus("swimming")
+
 #ifdef UNDERWATER_MAP
+///A bit of delay when going into/out of the trench voluntarily
 /datum/action/bar/private/swim_cross_z
 	duration = 2 SECONDS
 	interrupt_flags = INTERRUPT_MOVE | INTERRUPT_STUNNED | INTERRUPT_ATTACKED | INTERRUPT_ACTION
