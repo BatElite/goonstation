@@ -1252,12 +1252,12 @@ proc/info_overlay_choices()
 	if(!isnull(cached))
 		return cached
 	var/list/available_overlays = list()
+	available_overlays["REMOVE"] = null
 	for (var/datum/infooverlay/dummy as anything in childrentypesof(/datum/infooverlay))
 		var/name = initial(dummy.name)
 		if(isnull(name))
 			name = replacetext("[dummy]", "/datum/infooverlay/", "")
 		available_overlays[name] = dummy
-	available_overlays["REMOVE"] = null
 	cached = available_overlays
 	return cached
 
