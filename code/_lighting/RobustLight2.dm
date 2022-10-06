@@ -782,9 +782,18 @@ turf
 					src.RL_MulOverlay.icon_state = src.RL_OverlayState
 				if (RL_Started) RL_UPDATE_LIGHT(src)
 			else
+				#ifdef SIMPLELIGHT_STAR_LIGHT
 				if(src.RL_MulOverlay)
 					qdel(src.RL_MulOverlay)
 					src.RL_MulOverlay = null
+				#else
+				if(!src.RL_MulOverlay)
+					src.RL_MulOverlay = new /obj/overlay/tile_effect/lighting/mul
+					src.RL_MulOverlay.set_loc(src)
+					src.RL_MulOverlay.icon_state = "space"
+				else
+					src.RL_MulOverlay.icon_state = "space"
+				#endif
 				if(src.RL_AddOverlay)
 					qdel(src.RL_AddOverlay)
 					src.RL_AddOverlay = null
