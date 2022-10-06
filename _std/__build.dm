@@ -164,3 +164,7 @@ var/global/vcs_author = "bob"
 
 // Uncomment and set to a URL with a zip of the RSC to offload RSC sending to an external webserver/CDN.
 //#define PRELOAD_RSC_URL ""
+
+//If defined, starlight is done by a simplelight on all space turfs. If not, starlight is done by precolouring space tiles' robustlight values
+//(which would be taken into the RL setup anyway, but only colour up and right)
+//#define SIMPLELIGHT_STAR_LIGHT 1

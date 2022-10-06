@@ -184,7 +184,15 @@
 	special_volume_override = 0
 	text = ""
 	var/static/list/space_color = generate_space_color()
+
+	#ifdef SIMPLELIGHT_STAR_LIGHT
 	var/static/image/starlight
+	#else
+	///Hey what if instead we had robust light try and sort out startlight?
+	RL_LumB = 0.6
+	RL_LumG = 0.4
+	RL_LumR = 0.5
+	#endif
 
 	flags = ALWAYS_SOLID_FLUID
 	turf_flags = CAN_BE_SPACE_SAMPLE
@@ -228,16 +236,25 @@
 		src.desc = "There appears to be a spatial disturbance in this area of space."
 		new/obj/item/device/key/random(src)
 
+	#ifdef SIMPLELIGHT_STAR_LIGHT
 	UpdateIcon() // for starlight
+	#else
+	if(!isnull(space_color) && !istype(src, /turf/space/fluid))
+		src.color = space_color
+	#endif
 
-proc/repaint_space(regenerate=TRUE, starlight_alpha)
+proc/repaint_space(regenerate=TRUE, starlight_alpha) //starlight_alpha only applies to simplelight based starlight
 	for(var/turf/space/T)
 		if(regenerate)
 			T.space_color = generate_space_color()
 			regenerate = FALSE
 		if(istype(T, /turf/space/fluid))
 			continue
+		#ifdef SIMPLELIGHT_STAR_LIGHT
 		T.UpdateIcon(starlight_alpha)
+		#else
+		T.color = T.space_color
+		#endif
 
 proc/generate_space_color()
 #ifndef HALLOWEEN
@@ -284,6 +301,7 @@ proc/generate_space_color()
 	)
 #endif
 
+#ifdef SIMPLELIGHT_STAR_LIGHT
 /turf/space/update_icon(starlight_alpha=255)
 	..()
 	if(!isnull(space_color) && !istype(src, /turf/space/fluid))
@@ -303,6 +321,7 @@ proc/generate_space_color()
 		UpdateOverlays(starlight, "starlight")
 	else
 		UpdateOverlays(null, "starlight")
+#endif
 
 // override for space turfs, since they should never hide anything
 /turf/space/levelupdate()
