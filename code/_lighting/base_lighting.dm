@@ -56,6 +56,10 @@
 		if (z == AST_ZLEVEL) return
 		#endif
 
-		// space handles its own lighting via simple lights which already cover the turf itself too
-		if (!istype(src, /turf/space) && !A.force_fullbright && fullbright) // if the area's fullbright we'll use a single overlay on the area instead
+		// if the area's fullbright we'll use a single overlay on the area instead
+		#ifdef SIMPLELIGHT_STAR_LIGHT
+		if (!istype(src, /turf/space) && !A.force_fullbright && fullbright) // space handles its own lighting via simple lights which already cover the turf itself too
+		#else
+		if (!A.force_fullbright && fullbright) // except if we don't use the simplelights :) (I'm still pissed)
+		#endif
 			src.UpdateOverlays(new /image/fullbright, "fullbright")

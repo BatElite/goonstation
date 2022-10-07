@@ -236,12 +236,7 @@
 		src.desc = "There appears to be a spatial disturbance in this area of space."
 		new/obj/item/device/key/random(src)
 
-	#ifdef SIMPLELIGHT_STAR_LIGHT
-	UpdateIcon() // for starlight
-	#else
-	if(!isnull(space_color) && !istype(src, /turf/space/fluid))
-		src.color = space_color
-	#endif
+	UpdateIcon() // for starlight/space colouring
 
 proc/repaint_space(regenerate=TRUE, starlight_alpha) //starlight_alpha only applies to simplelight based starlight
 	for(var/turf/space/T)
@@ -250,11 +245,7 @@ proc/repaint_space(regenerate=TRUE, starlight_alpha) //starlight_alpha only appl
 			regenerate = FALSE
 		if(istype(T, /turf/space/fluid))
 			continue
-		#ifdef SIMPLELIGHT_STAR_LIGHT
 		T.UpdateIcon(starlight_alpha)
-		#else
-		T.color = T.space_color
-		#endif
 
 proc/generate_space_color()
 #ifndef HALLOWEEN
@@ -301,12 +292,12 @@ proc/generate_space_color()
 	)
 #endif
 
-#ifdef SIMPLELIGHT_STAR_LIGHT
-/turf/space/update_icon(starlight_alpha=255)
+
+/turf/space/update_icon(starlight_alpha=255) //starlight_alpha only applies to simplelight based starlight
 	..()
 	if(!isnull(space_color) && !istype(src, /turf/space/fluid))
 		src.color = space_color
-
+	#ifdef SIMPLELIGHT_STAR_LIGHT
 	if(fullbright)
 		if(!starlight)
 			starlight = image('icons/effects/overlays/simplelight.dmi', "3x3", pixel_x = -32, pixel_y = -32)
@@ -321,7 +312,8 @@ proc/generate_space_color()
 		UpdateOverlays(starlight, "starlight")
 	else
 		UpdateOverlays(null, "starlight")
-#endif
+	#endif
+
 
 // override for space turfs, since they should never hide anything
 /turf/space/levelupdate()

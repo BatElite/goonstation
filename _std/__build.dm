@@ -166,5 +166,6 @@ var/global/vcs_author = "bob"
 //#define PRELOAD_RSC_URL ""
 
 //If defined, starlight is done by a simplelight on all space turfs. If not, starlight is done by precolouring space tiles' robustlight values
-//(which would be taken into the RL setup anyway, but only colour up and right)
+//(which would be taken into the RL setup anyway, but only colours up and right)
+//The benefit of robustlighting is spacelight is colouring + it respects turf RL mul overlays, but simplelight illuminates evenly (either way every space tile ends up with an overlay, be it a simplelight or a /image/fullbright so there's no winner on that front)
 //#define SIMPLELIGHT_STAR_LIGHT 1
