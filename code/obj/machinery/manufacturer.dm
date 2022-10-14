@@ -989,8 +989,7 @@
 			playsound(src.loc, "sound/items/Wirecutter.ogg", 50, 1)
 			src.dismantle_stage = 3
 			src.status |= NOPOWER
-			var/obj/item/cable_coil/cut/C = new /obj/item/cable_coil/cut(src.loc)
-			C.amount = 1
+			new /obj/item/cable_coil/cut(src.loc,4)
 			src.build_icon()
 
 		else if (istype(W,/obj/item/sheet/steel/reinforced) && src.dismantle_stage == 2)
@@ -998,14 +997,13 @@
 			src.dismantle_stage = 1
 			qdel(W)
 			src.build_icon()
-
 		else if (istype(W,/obj/item/cable_coil) && src.dismantle_stage == 3)
-			user.visible_message("<b>[user]</b> adds cabling to [src].")
-			src.dismantle_stage = 2
-			qdel(W)
-			src.status &= ~NOPOWER
-			src.shock(user,100)
-			src.build_icon()
+			if (W.change_stack_amount(-4))
+				user.visible_message("<b>[user]</b> adds cabling to [src].")
+				src.dismantle_stage = 2
+				src.status &= ~NOPOWER
+				src.shock(user,100)
+				src.build_icon()
 
 		else if (istype(W,/obj/item/reagent_containers/glass))
 			if (W.cant_drop)
