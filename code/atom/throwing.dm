@@ -43,13 +43,14 @@
 	var/area/AR = get_area(hit_atom)
 	if(AR?.sanctuary)
 		return
+	if(!hit_atom) //moving this here shouldn't break shit right?
+		return
 	src.material?.triggerOnAttack(src, src, hit_atom)
 	hit_atom.material?.triggerOnHit(hit_atom, src, null, 2)
 	for(var/atom/A in hit_atom)
 		A.material?.triggerOnAttacked(A, src, hit_atom, src)
 
-	if(!hit_atom)
-		return
+
 
 	reagents?.physical_shock(20)
 	if(SEND_SIGNAL(src, COMSIG_MOVABLE_HIT_THROWN, hit_atom, thr))
