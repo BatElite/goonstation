@@ -508,14 +508,14 @@ var/global/datum/arena/colosseumController/colosseum_controller = new()
 			if (i == 1)
 				S.icon_state = "health_bar_left"
 				var/sl = barLength - i
-				S.screen_loc = "NORTH+1,[edge]-[sl]"
+				S.screen_loc = "NORTH,[edge]-[sl]"
 			else if (i == barLength)
 				S.icon_state = "health_bar_right"
-				S.screen_loc = "NORTH+1,[edge]"
+				S.screen_loc = "NORTH,[edge]"
 			else
 				S.icon_state = "health_bar_center"
 				var/sl = barLength - i
-				S.screen_loc = "NORTH+1,[edge]-[sl]"
+				S.screen_loc = "NORTH,[edge]-[sl]"
 			barBits += S
 		health_overlay = image('icons/obj/colosseum.dmi', "health")
 
