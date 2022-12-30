@@ -228,6 +228,8 @@
 	return
 
 /obj/item/shipcomponent/secondary_system/cargo/Clickdrag_ObjectToPod(var/mob/living/user,var/atom/A)
+	if (isturf(A)) //"The pod's cargo autoloader rejects the steel reinforced floor." is something I'm sick of seeing or getting the error noise for
+		return  //(but it didn't break anything, so this check is technically unnecessary if you care about really optimising the pod cargo bay loading code)
 	if (length(src.load) > src.maxcap)
 		boutput(user, "<span class='alert'>[src] has no available cargo space.</span>")
 		return
