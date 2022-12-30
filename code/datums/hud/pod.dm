@@ -22,7 +22,7 @@
 	var/image/missing
 	var/datum/healthBar/health_bar
 	var/obj/machinery/vehicle/master
-	human_hud_Y_offset = 1
+	//human_hud_Y_offset = 1
 
 	New(P)
 		..()
