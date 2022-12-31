@@ -2218,7 +2218,7 @@
 /turf/simulated/floor/white,
 /area/station/crew_quarters/hor)
 "afl" = (
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/reagent_containers/food/drinks/rum_spaced,
 /obj/table/auto,
 /turf/simulated/floor/white,
@@ -21787,7 +21787,7 @@
 /obj/table/wood/auto{
 	dir = 10
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/machinery/light/lamp/green,
 /turf/simulated/floor/carpet{
 	icon_state = "fred2";

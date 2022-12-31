@@ -2716,7 +2716,7 @@
 	icon_state = "tabledir";
 	dir = 8
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/reagent_containers/food/drinks/rum_spaced,
 /turf/simulated/floor/white,
 /area/station/crew_quarters/hor)
@@ -17901,7 +17901,7 @@
 /obj/table/woodentable{
 	dir = 10
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/machinery/light/lamp/green,
 /turf/simulated/floor{
 	icon_state = "carpetS"
@@ -24795,7 +24795,7 @@
 /obj/table/woodentable{
 	dir = 5
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/paper_bin,
 /obj/item/pen,
 /obj/item/paper/engine,
@@ -25632,7 +25632,7 @@
 /obj/table/woodentable{
 	dir = 5
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /turf/simulated/floor/yellow/side,
 /area/station/engine/engineering)
 "aYN" = (
@@ -42914,7 +42914,7 @@
 	dir = 5;
 	icon_state = "tabledir"
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/scalpel,
 /obj/item/circular_saw{
 	pixel_y = 7
@@ -43355,7 +43355,7 @@
 	dir = 8
 	},
 /obj/table/woodentable,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/machinery/light/lamp,
 /turf/unsimulated/floor/carpet/grime,
 /area/crater/biodome/research)
@@ -44451,7 +44451,7 @@
 	icon_state = "woodentable";
 	dir = 8
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/machinery/light/lamp,
 /obj/window/cubicle{
 	tag = "icon-cubicle";
@@ -46048,7 +46048,7 @@
 	icon_state = "tabledir";
 	dir = 1
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/paper_bin,
 /obj/item/pen,
 /turf/unsimulated/floor/white/grime,
@@ -47055,7 +47055,7 @@
 	dir = 4
 	},
 /obj/table,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/paper_bin,
 /obj/item/pen,
 /obj/item/paper/printout/group3,
@@ -47947,7 +47947,7 @@
 	icon_state = "tabledir";
 	dir = 10
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /turf/unsimulated/floor/plating/scorched,
 /area/lower_arctic/pod1)
 "bVd" = (
@@ -51956,7 +51956,7 @@
 	icon_state = "woodentable";
 	dir = 8
 	},
-/obj/deskclutter{
+/obj/decal/cleanable/desk_clutter{
 	desc = "It's a picture of a woman and a little girl.  They look to be related.";
 	icon = 'icons/misc/worlds.dmi';
 	icon_state = "pictureframe";
@@ -52262,7 +52262,7 @@
 	icon_state = "woodentable";
 	dir = 8
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/ammo/bullets/autocannon,
 /turf/unsimulated/floor/carpet/grime,
 /area/drone/office)
@@ -53706,7 +53706,7 @@
 	dir = 9
 	},
 /obj/item/stamp,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /turf/unsimulated/floor/white/grime,
 /area/marsoutpost)
 "cha" = (
@@ -57739,7 +57739,7 @@
 	icon_state = "tabledir";
 	dir = 10
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /turf/unsimulated/floor/carpet/grime,
 /area/iomoon/base)
 "coY" = (
@@ -58821,7 +58821,7 @@
 	icon_state = "tabledir";
 	dir = 10
 	},
-/obj/deskclutter{
+/obj/decal/cleanable/desk_clutter{
 	desc = "It's a picture of a woman and a little girl.  They look to be related.";
 	icon = 'icons/misc/worlds.dmi';
 	icon_state = "pictureframe";
@@ -58841,7 +58841,7 @@
 	d1 = 1;
 	d2 = 2
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
@@ -65557,7 +65557,7 @@
 	icon_state = "reinf_tabledir";
 	dir = 1
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/paper_bin,
 /obj/item/pen/odd,
 /turf/unsimulated/floor/setpieces/oldfloor,
@@ -66445,7 +66445,7 @@
 	icon_state = "woodentable";
 	dir = 6
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /turf/unsimulated/floor/setpieces/rootfloor{
 	icon_state = "rootfloor_3"
 	},
@@ -66901,7 +66901,7 @@
 /obj/table/reinforced/bar{
 	name = "old oak table"
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/decal/glow{
 	brightness = 2;
 	invisibility = 101;
@@ -67738,7 +67738,7 @@
 	icon_state = "tabledir";
 	dir = 6
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /turf/simulated/floor/carpet,
 /area/crunch)
 "cIK" = (
@@ -67799,7 +67799,7 @@
 	icon_state = "reinf_tabledir";
 	dir = 10
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/storage/stma_kit,
 /turf/unsimulated/floor/white/grime,
 /area/crypt/sigma/lab)
@@ -70723,7 +70723,7 @@
 	icon_state = "bar";
 	dir = 8
 	},
-/obj/deskclutter{
+/obj/decal/cleanable/desk_clutter{
 	desc = "It's a picture of a young man. He looks kinda familiar to you.";
 	icon = 'icons/misc/worlds.dmi';
 	icon_state = "pictureframe";

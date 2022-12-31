@@ -445,6 +445,9 @@
 	if (!isAI(user) && !issilicon(user))
 		return
 
+	if (emagged) //No controlling via hotkeys thanx
+		return
+
 	if(user.client.check_key(KEY_OPEN))
 		. = 1
 		src.enabled = !src.enabled

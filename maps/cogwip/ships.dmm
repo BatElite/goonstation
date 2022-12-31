@@ -3261,7 +3261,7 @@
 /area/space)
 "jc" = (
 /obj/table/reinforced/auto,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/paper_bin,
 /obj/item/pen/odd,
 /turf/unsimulated/floor/setpieces/oldfloor,
@@ -6443,7 +6443,7 @@
 /area/space)
 "rf" = (
 /obj/table/reinforced/auto,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /turf/simulated/floor/airless/plating/scorched,
 /area/space)
 "rg" = (
@@ -10529,7 +10529,7 @@
 /area/space)
 "AJ" = (
 /obj/table/reinforced/auto,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /turf/simulated/floor/yellowblack,
 /area/space)
 "AK" = (

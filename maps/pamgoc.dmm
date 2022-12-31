@@ -13570,7 +13570,7 @@
 	icon_state = "4-8"
 	},
 /obj/table/wood/auto,
-/obj/deskclutter{
+/obj/decal/cleanable/desk_clutter{
 	pixel_y = 1
 	},
 /obj/machinery/light/lamp/green{
@@ -48983,7 +48983,7 @@
 	can_rupture = 0
 	},
 /obj/table/wood/auto,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/item_box/medical_patches/mini_silver_sulf,
 /obj/machinery/power/apc/autoname_south,
 /turf/simulated/floor/yellow/side,
@@ -57757,7 +57757,7 @@
 	name = "W light switch";
 	pixel_x = 24
 	},
-/obj/deskclutter{
+/obj/decal/cleanable/desk_clutter{
 	pixel_y = -1
 	},
 /obj/item/stamp/clown{
@@ -57776,7 +57776,7 @@
 /area/station/crew_quarters/clown)
 "chb" = (
 /obj/table/auto,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/machinery/computer/security/wooden_tv/small{
 	pixel_y = 8
 	},
@@ -61255,7 +61255,7 @@
 /area/station/crew_quarters/market)
 "ckW" = (
 /obj/table/glass/auto,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/storage/box/stma_kit,
 /turf/simulated/floor/wood,
 /area/station/medical/medbay/lobby)
@@ -62560,7 +62560,7 @@
 /area/ghostdrone_factory)
 "cnf" = (
 /obj/table/wood/auto,
-/obj/deskclutter{
+/obj/decal/cleanable/desk_clutter{
 	pixel_x = -1
 	},
 /obj/item/paper_bin{
@@ -62590,7 +62590,7 @@
 /area/station/engine/engineering)
 "cng" = (
 /obj/table/wood/auto,
-/obj/deskclutter{
+/obj/decal/cleanable/desk_clutter{
 	pixel_x = -1
 	},
 /obj/machinery/firealarm{
@@ -63250,7 +63250,7 @@
 "coe" = (
 /obj/table/wood/auto,
 /obj/machinery/light/lamp/green,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /turf/simulated/floor/black,
 /area/station/crew_quarters/hor)
 "cof" = (
@@ -63263,7 +63263,7 @@
 /obj/machinery/light/lamp/green{
 	switchon = 1
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /turf/simulated/floor/carpet/grime,
 /area/station/security/detectives_office)
 "coh" = (

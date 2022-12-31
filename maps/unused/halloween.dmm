@@ -21816,7 +21816,7 @@
 /obj/table/woodentable{
 	dir = 6
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/machinery/light/lamp/green,
 /turf/simulated/floor{
 	icon_state = "carpetS"

@@ -8774,7 +8774,7 @@
 "auK" = (
 /obj/decal/cleanable/dirt,
 /obj/table/wood/auto,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/reagent_containers/food/snacks/donut,
 /turf/simulated/floor/airless/carpet{
 	dir = 4;
@@ -8966,7 +8966,7 @@
 /area/station/medical/medbay/treatment1)
 "avg" = (
 /obj/table/wood/auto,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /turf/simulated/floor/plating/airless{
 	icon_state = "panelscorched"
 	},

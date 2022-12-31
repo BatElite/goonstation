@@ -20694,7 +20694,7 @@
 /area/station/turret_protected/Zeta)
 "aSE" = (
 /obj/table/auto,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/decal/cleanable/dirt,
 /obj/item/instrument/bikehorn,
 /obj/item/reagent_containers/food/snacks/pie/cream,
@@ -21146,7 +21146,7 @@
 /area/station/maintenance/southwest)
 "aTt" = (
 /obj/table/reinforced/auto,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/storage/toolbox/emergency,
 /obj/machinery/phone/wall{
 	pixel_x = -24
@@ -27695,7 +27695,7 @@
 /area/research_outpost/indigo_rye)
 "vhs" = (
 /obj/table/wood/auto,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/paper{
 	info = "delta oblique seneca toreador neptune"
 	},

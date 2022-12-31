@@ -1215,7 +1215,7 @@
 	dir = 8
 	},
 /obj/spawner/newbomb/timer,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/reagent_containers/food/drinks/rum_spaced,
 /turf/simulated/floor/white,
 /area/station/crew_quarters/hor)
@@ -15447,7 +15447,7 @@
 /obj/table/woodentable{
 	dir = 10
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/machinery/light/lamp/green,
 /turf/simulated/floor{
 	icon_state = "carpetS"
@@ -55535,7 +55535,7 @@
 	icon_state = "tabledir";
 	dir = 6
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /turf/simulated/floor/carpet,
 /area/crunch)
 "cnu" = (

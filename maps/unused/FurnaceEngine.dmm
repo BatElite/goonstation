@@ -1446,7 +1446,7 @@
 /obj/table/woodentable{
 	dir = 6
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /turf/simulated/floor/yellow/side{
 	dir = 1
 	},
@@ -2203,7 +2203,7 @@
 /obj/table/woodentable{
 	dir = 9
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /turf/simulated/floor/yellow/side{
 	dir = 10
 	},

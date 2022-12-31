@@ -477,18 +477,12 @@
 	name = "Projection"
 	anchored = 1.0
 
-/obj/deskclutter
-	name = "desk clutter"
-	icon = 'icons/obj/stationobjs.dmi'
-	icon_state = "deskclutter"
-	desc = "What a mess..."
-	anchored = 1
-
 /obj/item/mouse_drag_pointer = MOUSE_ACTIVE_POINTER
 
 /obj/proc/alter_health()
 	return 1
 
+///Gets called by floor->plating or plating->floor if the object's var/level is 1, used for when something's meant be (partially) below the floor. The argument is true for flooring and false for plating.
 /obj/proc/hide(h)
 	return
 

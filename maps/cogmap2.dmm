@@ -1682,7 +1682,7 @@
 /area/station/maintenance/north)
 "aeq" = (
 /obj/table/auto,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/decal/cleanable/dirt,
 /obj/item/instrument/bikehorn,
 /obj/machinery/light_switch{
@@ -4829,7 +4829,7 @@
 "amA" = (
 /obj/machinery/light/lamp/green,
 /obj/table/wood/auto,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/disposalpipe/segment{
 	dir = 2;
 	icon_state = "pipe-c"
@@ -6227,7 +6227,7 @@
 /area/station/chapel/sanctuary)
 "aqq" = (
 /obj/table/wood/auto,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/card_box/tarot,
 /obj/machinery/camera{
 	c_tag = "autotag";
@@ -7030,7 +7030,7 @@
 /area/station/security/detectives_office)
 "ask" = (
 /obj/table/reinforced/bar/auto,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/paper_bin{
 	pixel_y = 7
 	},
@@ -17225,7 +17225,7 @@
 "aSK" = (
 /obj/disposalpipe/segment/mail/bent/south,
 /obj/table/auto,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/storage/wall/random,
 /turf/simulated/floor/plating/scorched,
 /area/station/garden/owlery)
@@ -21983,7 +21983,7 @@
 	})
 "beE" = (
 /obj/table/auto,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/pen/fancy{
 	color = "purple";
 	desc = "You feel vaguely uncomfortable while studying this pen. Huh.";
@@ -46125,7 +46125,7 @@
 /area/station/crew_quarters/hor)
 "cmD" = (
 /obj/table/wood/auto,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/reagent_containers/food/snacks/cookie/chocolate_chip,
 /obj/machinery/light/lamp/green,
 /obj/machinery/firealarm{
@@ -60660,7 +60660,7 @@
 /area/station/science/artifact)
 "cXA" = (
 /obj/table/reinforced/auto,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/storage/toolbox/emergency,
 /obj/machinery/light_switch/north,
 /turf/simulated/floor/purplewhite{
@@ -80214,7 +80214,7 @@
 /area/station/turret_protected/ai)
 "xGk" = (
 /obj/table/wood/auto,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/machinery/light{
 	dir = 8;
 	layer = 9.1;

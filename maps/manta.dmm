@@ -27437,7 +27437,7 @@
 	pixel_y = 4;
 	switchon = 1
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /turf/simulated/floor/carpet/purple/fancy,
 /area/station/crew_quarters/hor)
 "bxI" = (
@@ -31661,7 +31661,7 @@
 /obj/machinery/light/lamp/green{
 	switchon = 1
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /turf/simulated/floor/carpet,
 /area/station/security/detectives_office_manta)
 "bKy" = (
@@ -33105,7 +33105,7 @@
 "bSu" = (
 /obj/table/auto,
 /obj/item/screwdriver,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/disposalpipe/segment{
 	dir = 1;
 	icon_state = "pipe-c"

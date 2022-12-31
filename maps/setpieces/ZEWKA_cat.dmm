@@ -2013,7 +2013,7 @@
 "eM" = (
 /obj/table/wood/auto,
 /obj/random_item_spawner/desk_stuff,
-/obj/deskclutter{
+/obj/decal/cleanable/desk_clutter{
 	desc = "It's a picture of a young man. He looks kinda familiar to you.";
 	icon = 'icons/misc/worlds.dmi';
 	icon_state = "pictureframe";
@@ -2242,7 +2242,7 @@
 /obj/table/wood/auto,
 /obj/random_item_spawner/desk_stuff,
 /obj/random_item_spawner/desk_stuff,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /turf/simulated/floor/carpet{
 	desc = "It's all scratched up!";
 	dir = 2;

@@ -3459,7 +3459,7 @@
 	pixel_x = -6;
 	pixel_y = 10
 	},
-/obj/deskclutter{
+/obj/decal/cleanable/desk_clutter{
 	pixel_x = 6
 	},
 /turf/simulated/floor/carpet/grime,
@@ -9831,7 +9831,7 @@
 /area/station/security/detectives_office)
 "aBH" = (
 /obj/table/wood/auto,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/decoration/ashtray{
 	pixel_x = 6;
 	pixel_y = 4
@@ -11516,7 +11516,7 @@
 	pixel_y = 1
 	},
 /obj/machinery/light/lamp/green,
-/obj/deskclutter{
+/obj/decal/cleanable/desk_clutter{
 	pixel_y = -8
 	},
 /obj/noticeboard/persistent{
@@ -36925,7 +36925,7 @@
 /area/research_outpost/indigo_rye)
 "clK" = (
 /obj/table/wood/auto,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/paper{
 	info = "delta oblique seneca toreador neptune"
 	},
@@ -49787,7 +49787,7 @@
 /area/station/crew_quarters/cafeteria)
 "nju" = (
 /obj/table/auto,
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/instrument/bikehorn,
 /obj/decal/cleanable/dirt,
 /obj/machinery/light/small{
@@ -53681,7 +53681,7 @@
 /obj/item/paper_bin{
 	pixel_y = 6
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/hand_labeler{
 	pixel_x = 5
 	},

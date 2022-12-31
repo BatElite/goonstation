@@ -3627,7 +3627,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/deskclutter,
+/obj/decal/cleanable/desk_clutter,
 /obj/item/reagent_containers/food/drinks/bowl,
 /turf/simulated/floor/delivery,
 /area/diner/dining)
