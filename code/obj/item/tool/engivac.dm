@@ -6,7 +6,8 @@
  *Also somewhat distant from the janitor vacuum functionally, as this one doesn't do smoke and that one doesn't auto-pickup,
  *but they could maybe be merged somehow.
  */
-#define ENGIVAC_MISC_ITEM_LIMIT 2 //How much non-listed crap a toolbox can have before the engivac rejects it.
+///How much non-listed crap a toolbox can have before the engivac rejects it.
+#define ENGIVAC_MISC_ITEM_LIMIT 7 //(I wasn't personally on board with this limitation, so now it's just the entire toolbox inventory)
 
 obj/item/engivac
 	name = "engineering materiel vacuum"
