@@ -125,7 +125,7 @@
 	icon_state = "class-a"
 	muzzle_flash = "muzzle_flash_phaser"
 
-/obj/item/shipcomponent/mainweapon/phaser/short
+/obj/item/shipcomponent/mainweapon/phaser/short //Pod wars variant
 	name = "Mk 1.45 Light Phaser"
 	desc = "A basic, light weight phaser designed for close quarters space fights..."
 	weapon_score = 0.2
@@ -144,7 +144,7 @@
 	icon_state = "mk-2-scout"
 	muzzle_flash = "muzzle_flash_laser"
 
-/obj/item/shipcomponent/mainweapon/laser/short
+/obj/item/shipcomponent/mainweapon/laser/short //Pod wars variant
 	name = "Mk.2 CQ Laser"
 	desc = "A downgraded variant of the upgraded MK 2.0 laser. Doesn't shoot quite as far, but doesn't use quite as much energy either."
 	weapon_score = 0.35
