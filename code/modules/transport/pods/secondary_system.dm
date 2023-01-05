@@ -463,6 +463,7 @@
 		onclose(user, "ship_sec_system")
 		return
 
+///Obsolete, sensors function as GPS
 /obj/item/shipcomponent/secondary_system/gps
 	name = "Ship's Navigation GPS"
 	desc = "A useful navigation device for those lost in space."

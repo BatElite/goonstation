@@ -1,15 +1,22 @@
+///Aside from being the base type main weapon, the Class A is also the default shitty gun on some pods.
 /obj/item/shipcomponent/mainweapon
 	name = "Class-A Light Phaser"
 	desc = "A simple phaser designed for scout vehicles."
 	var/r_gunner = 0
 	var/mob/gunner = null
 	var/datum/projectile/current_projectile = new/datum/projectile/laser/light/pod
-	var/firerate = 8
+	///Cooldown between volleys
+	var/firerate = 8 DECI SECONDS
+	///Additional value added by the weapon when scoring a pod in the construction gamemode (AKA practically unused)
 	var/weapon_score = 0.1
+	///The icon state that gets layered onto the pod
 	var/appearanceString
 
+	///Kinetics only
 	var/uses_ammunition = 0
+	///Kinetics only
 	var/remaining_ammunition = 0
+
 	var/muzzle_flash = null
 
 	icon = 'icons/obj/podweapons.dmi'		//remove this line.  or leave it. Could put these sprites in ship.dmi like how the original is
@@ -79,6 +86,7 @@
 	if(!gunner)
 		gunner = M
 
+///Default guns (left + right) on cruisers, doesn't show up elsewhere
 /obj/item/shipcomponent/mainweapon/light_longrange
 	name = "Class-AX Light Long-range Phaser"
 	desc = "A phaser designed for scout vehicles. Features a more focused energy discharge, leading to an increased range."
@@ -105,6 +113,7 @@
 	firerate = 7
 	icon_state = "mining-phaser"
 
+///Starts on sec subs and the gimmicky policecars, not on sec pods but their podbay tends to have some
 /obj/item/shipcomponent/mainweapon/taser
 	name = "Mk.1 Combat Taser"
 	desc = "A projectile-based weapon used to non-lethally disable people."
@@ -116,6 +125,7 @@
 	icon_state = "combat-taser"
 	muzzle_flash = "muzzle_flash_elec"
 
+///Not on any pod by default, but can be found on maps. This and the class A are basically identical though.
 /obj/item/shipcomponent/mainweapon/phaser
 	name = "Mk 1.5 Light Phaser"
 	desc = "A basic, light weight phaser designed for scout vehicles."
@@ -134,6 +144,7 @@
 	icon_state = "class-a"
 	muzzle_flash = "muzzle_flash_phaser"
 
+///Armory crate and diner vendor gear
 /obj/item/shipcomponent/mainweapon/laser
 	name = "Mk.2 Scout Laser"
 	desc = "An upgraded variant of the stock MK 1.5 phaser. Due to the concentration of energy, a higher quality engine might be neccesary."
@@ -154,7 +165,7 @@
 	icon_state = "mk-2-scout"
 	muzzle_flash = "muzzle_flash_laser"
 
-
+///Strelka, if that wasn't obvious
 /obj/item/shipcomponent/mainweapon/russian
 	name = "Svet-Oruzhiye Mk.4"
 	weapon_score = 0.6
@@ -163,6 +174,7 @@
 	icon_state = "strelka"
 	muzzle_flash = "muzzle_flash_laser"
 
+///Armory gear and martian derelict I think
 /obj/item/shipcomponent/mainweapon/disruptor_light
 	name = "Mk.3 Disruptor"
 	desc = "A projectile-based weapon used to disable vehicles."
@@ -171,6 +183,7 @@
 	icon_state = "disruptor-l"
 	muzzle_flash = "muzzle_flash_plaser"
 
+///Unused outside of lucky-ass random pod spawns, notably jank but capable of punching through rwalls
 /obj/item/shipcomponent/mainweapon/precursor
 	name = "IRIDIUM Spheroid Projector"
 	desc = "****CLASSIFIED: THANOTECH APPLIED RESEARCH DIVISION, Y-LEVEL CLEARANCE REQUIRED****."
@@ -179,6 +192,7 @@
 	appearanceString = "pod_weapon_precursor"
 	firerate = 25
 
+///Listening post gear
 /obj/item/shipcomponent/mainweapon/gun
 	name = "SPE-12 Ballistic System"
 	desc = "A one of it's kind kinetic podweapon, designed to fire shotgun rounds similar to those in a SPES-12."
@@ -189,6 +203,7 @@
 	icon_state = "spes"
 	muzzle_flash = "muzzle_flash"
 
+///Diner vendor gear, spicy!
 /obj/item/shipcomponent/mainweapon/laser_ass // hehhh
 	name = "Mk.4 Assault Laser"
 	weapon_score = 1.25
@@ -209,6 +224,7 @@
 	firerate = 10
 	icon_state = "rock-drill"
 
+///Some on Z2 apparently, so basically unused
 /obj/item/shipcomponent/mainweapon/disruptor
 	name = "Heavy Disruptor Array"
 	desc = "Huh."
@@ -219,6 +235,7 @@
 	firerate = 25
 	icon_state = "disruptor-h"
 
+///Listening post or lucky-ass spawns.
 /obj/item/shipcomponent/mainweapon/artillery
 	name = "40mm Grenade Launcher Platform"
 	desc = "A slow but extremely destructive weapon that fires explosive 40mm shells."
@@ -233,6 +250,7 @@
 	icon_state = "grenade-launcher"
 	muzzle_flash = "muzzle_flash_launch"
 
+///The UFO is an admin gimmick
 /obj/item/shipcomponent/mainweapon/UFO
 	name = "UFO Blaster"
 	desc = "An extraterrestrial weapons system."
@@ -283,7 +301,7 @@
 		return
 
 // engineer miniputt constructor utility
-
+///If engineering has an Indyputt, this'll be on it. Also in engineering's hangar when applicable.
 /obj/item/shipcomponent/mainweapon/foamer
 	name = "Industrial Utility Arms"
 	desc = "A pair of robotic arms equipped with metalfoam nozzles and cutter blades."
@@ -369,6 +387,7 @@
 		opencomputer(usr)
 		return
 
+///Related to the SWORD malarkey, so practically nonexistent. Does a 4-tile cardinal attack that just kinda deletes shit.
 /obj/item/shipcomponent/mainweapon/syndicate_purge_system
 	name = "Syndicate Purge System"
 	desc = "An unfinished pod weapon, the blueprints for which have been plundered from a raid on a now-destroyed Syndicate base. Requires a unique power source to function."

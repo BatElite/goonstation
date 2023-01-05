@@ -5,7 +5,8 @@
 	desc = "A standard engine"
 	var/powergenerated = 200 //how much power for components the engine generates
 	var/currentgen = 200 //handles engine power debuffs
-	var/warprecharge = 300 //Interval it takes for warp to be ready again
+	///Interval it takes for warp to be ready again
+	var/warprecharge = 30 SECONDS
 	//delay between dropping wormhole and being able to enter it
 	var/portaldelay = 3 SECONDS
 	var/status = "Normal"
@@ -165,24 +166,26 @@
 		if(SOUTHWEST)
 			A.pixel_y = dist*32
 			A.pixel_x = dist*32
+
 /obj/item/shipcomponent/engine/helios
 	name = "Helios Mark-II Engine"
 	desc = "A really fast engine"
 	powergenerated = 300 //how much power for components the engine generates
 	currentgen = 300 //handles engine power debuffs
-	warprecharge = 150 //Interval it takes for warp to be ready again
+	warprecharge = 15 SECONDS //Interval it takes for warp to be ready again
 	speedmod = 1
 	icon_state = "engine-2"
 
-/obj/item/shipcomponent/engine/hermes
+/obj/item/shipcomponent/engine/hermes //Practically outclassed by the warp-1/helios unless component power draw gets re-evaluated
 	name = "Hermes 3.0 Engine"
 	desc = "An incredibly powerful but slow engine"
-	powergenerated = 500
+	powergenerated = 500 //2,5x that of a warp-1
 	currentgen = 500
-	warprecharge = 300
-	speedmod = 3
+	warprecharge = 30 SECONDS //Same as a warp-1
+	speedmod = 3 //Worse than a warp-1
 	icon_state = "engine-3"
 
+///Pilot trait related
 /obj/item/shipcomponent/engine/zero
 	name = "Warp-0 Engine"
 	desc = "An old prototype engine"
@@ -192,6 +195,7 @@
 	speedmod = 2
 	icon_state = "engine-4"
 
+///Escape pods/subs, if you wanted to grab a shitty ass engine.
 /obj/item/shipcomponent/engine/escape
 	name = "Rickety Old Engine"
 	desc = "This engine can probably make a warp jump. Once."
