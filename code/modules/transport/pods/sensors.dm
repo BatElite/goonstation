@@ -412,6 +412,7 @@ proc/build_html_gps_form(var/atom/A, var/show_Z=0, var/atom/target)
 		[dat]
 		"}
 
+///Azone stuff I think, sees ghosties
 /obj/item/shipcomponent/sensor/ecto
 	name = "Ecto-Sensor 900"
 	desc = "The number one choice for reasearchers of the supernatural."
@@ -419,6 +420,7 @@ proc/build_html_gps_form(var/atom/A, var/show_Z=0, var/atom/target)
 	power_used = 40
 	icon_state = "sensor-g"
 
+///Mesons analogue for pods
 /obj/item/shipcomponent/sensor/mining
 	name = "Conclave A-1984 Sensor System"
 	desc = "Advanced geological meson scanners for ships."
@@ -433,6 +435,7 @@ proc/build_html_gps_form(var/atom/A, var/show_Z=0, var/atom/target)
 		..()
 		mining_scan(get_turf(user), user, 6)
 
+///High range, but unused?
 /obj/item/shipcomponent/sensor/combat
 	name = "Long-Range Sensor 2143"
 	desc = "The number one choice for reasearchers of the supernatural."

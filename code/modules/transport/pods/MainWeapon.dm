@@ -94,6 +94,7 @@
 	icon_state = "class-a"
 	muzzle_flash = "muzzle_flash_phaser"
 
+///Melts asteroids, delicious
 /obj/item/shipcomponent/mainweapon/mining
 	name = "Plasma Cutter System"
 	desc = "A high-temperature rock cutter for pods. Use with extreme caution."
@@ -104,6 +105,7 @@
 	firerate = 12
 	icon_state = "plasma-cutter"
 
+///Weakens asteroid turfs. Can't actually mine on its own I'm pretty sure
 /obj/item/shipcomponent/mainweapon/bad_mining
 	name = "Mining Phaser System"
 	desc = "A weak, short-range phaser that can cut through solid rock. Weak damage, but more effective against critters."
@@ -214,6 +216,7 @@
 	icon_state = "assult-laser"
 	muzzle_flash = "muzzle_flash_laser"
 
+///Melee range mining, obnoxious sound, weirdly expensive to make but some maps have them lying around
 /obj/item/shipcomponent/mainweapon/rockdrills
 	name = "Rock Drilling Rig"
 	desc = "A strudy drill designed for chewing up asteroids like nobodies business."
@@ -250,7 +253,7 @@
 	icon_state = "grenade-launcher"
 	muzzle_flash = "muzzle_flash_launch"
 
-///The UFO is an admin gimmick
+///The UFO is an admin gimmick, has 2 firing modes.
 /obj/item/shipcomponent/mainweapon/UFO
 	name = "UFO Blaster"
 	desc = "An extraterrestrial weapons system."
