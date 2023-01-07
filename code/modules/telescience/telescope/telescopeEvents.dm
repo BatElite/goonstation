@@ -141,7 +141,7 @@
 		D.encounterName = "Mauxite asteroid"
 		D.start.nodeImage = "asteroidred.png"
 		D.start.linkText = "..."
-		D.start.nodeText = "It's a large Mauxite asteroid."
+		D.start.nodeText = "It's a large mauxite asteroid."
 
 
 /datum/telescope_event/ore_valuable
@@ -233,7 +233,7 @@
 		D.encounterName = "Erebite asteroid"
 		D.start.nodeImage = "asteroidgoldred.png"
 		D.start.linkText = "..."
-		D.start.nodeText = "It's a large Erebite asteroid."
+		D.start.nodeText = "It's a large erebite asteroid."
 
 /datum/telescope_event/ore_phar
 	name = "Pharosium asteroid"
@@ -251,7 +251,7 @@
 		D.encounterName = "Pharosium asteroid"
 		D.start.nodeImage = "asteroidcopper.png"
 		D.start.linkText = "..."
-		D.start.nodeText = "It's a large Pharosium asteroid."
+		D.start.nodeText = "It's a large pharosium asteroid."
 
 /datum/telescope_event/ore_star
 	name = "Starstone asteroid"
@@ -269,7 +269,7 @@
 		D.encounterName = "Starstone asteroid"
 		D.start.nodeImage = "asteroidcrystal.png"
 		D.start.linkText = "..."
-		D.start.nodeText = "It's a Starstone asteroid; incredible!"
+		D.start.nodeText = "It's a starstone asteroid; incredible!"
 
 /datum/telescope_event/ore_nanite
 	name = "Nanite asteroid"
