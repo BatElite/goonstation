@@ -8,18 +8,31 @@
 
 /obj/npc/trader
 	name="Trader"
-	layer = 4  //Same layer as most mobs, should stop them from sometimes being drawn under their shuttle chairs out of sight
+	layer = MOB_LAYER_BASE  //Same layer as most mobs, should stop them from sometimes being drawn under their shuttle chairs out of sight
+	///Referenced in haggling but unused.
 	var/bullshit = 0
-	var/hiketolerance = 20 //How much they will tolerate price hike
-	var/list/droplist = null //What the merchant will drop upon their death
-	var/list/goods_sell = new/list() //What products the trader sells
+	///How much they will tolerate price hike
+	var/hiketolerance = 20
+	///What the merchant will drop upon their death
+	var/list/droplist = null
+	///What products the trader sells
+	var/list/goods_sell = new/list()
+
 	var/illegal = 0 // maybe trading with illegal bots could flag the user's criminal record for smuggling
-	var/goods_illegal = list() // Illegal goods
-	var/list/goods_buy = new/list() //what products the merchant buys
-	var/list/shopping_cart = new/list() //What has been bought
-	var/obj/item/sell = null //Item to sell
-	var/portrait_setup = null
+	///Illegal goods (accessible only to antag types connected to the syndicate, if var/illegal is true)
+	var/goods_illegal = list()
+	///What has been bought from this trader (but not picked up)
+	var/list/shopping_cart = new/list()
+
+	///what products the merchant buys
+	var/list/goods_buy = new/list()
+
+	///Holds items that players try to sell (both individual and crates)
 	var/obj/item/sellitem = null
+
+	///Holds the HTML guff related to the trader icon. The picture variable is where you'd want to specify the image to use.
+	var/portrait_setup = null
+
 	var/item_name = "--------"
 	var/obj/item/card/id/scan = null
 	//Trader dialogue
