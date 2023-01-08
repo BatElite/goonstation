@@ -358,6 +358,15 @@ ABSTRACT_TYPE(/datum/syndicate_buylist/traitor)
 	desc = "This miniaturized explosive packs a decent punch and will detonate upon the unintentional death of the host. Do not swallow and keep out of reach of children."
 	br_allowed = TRUE
 
+/* Might as well copy this thing over to harmony, but I'm undecided as to whether I want it in play
+/datum/syndicate_buylist/traitor/autohacker
+	name = "Autohacker Laptop"
+	item = /obj/item/device/hacking_laptop
+	cost = 2
+	desc = "A laptop configured to hack into and manipulate airlocks, for the operative without skill or tools to do so by hand. Just hold it near the airlock for a few moments, then open it up and get with messing! Folds up into an unsuspecting briefcase, but note that the gamer branding on the inside might attract unwanted attention."
+	blockedmode = list(/datum/game_mode/spy_theft) //Not really suited to the random rewards of spies, but crate fans can still get them IMO
+*/
+
 /datum/syndicate_buylist/traitor/lightbreaker
 	name = "Light Breaker"
 	item = /obj/item/lightbreaker
