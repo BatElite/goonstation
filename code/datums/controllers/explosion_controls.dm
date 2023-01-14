@@ -1,5 +1,6 @@
 var/datum/explosion_controller/explosions
-#define RSS_SCALE 2
+#define RSS_SCALE 2 //Root sum square scaling, apparently. Is it so fucking hard to leave a comment for this shit
+//With this active, turfs don't get damaged by explosions but instead print the explosion power they experienced as maptext. Non-turf things still break as normal
 //#define EXPLOSION_MAPTEXT_DEBUGGING
 /datum/explosion_controller
 	var/list/queued_explosions = list()
