@@ -517,7 +517,7 @@ var/datum/artifact_controller/artifact_controls
 	instrument_sounds = list("sound/musical_instruments/artifact/Artifact_Precursor_1.ogg",
 		"sound/musical_instruments/artifact/Artifact_Precursor_2.ogg",
 		"sound/musical_instruments/artifact/Artifact_Precursor_3.ogg",
-		"sound/musical_instruments/artifact/Artifact_Precursor_4.ogg",
+		//"sound/musical_instruments/artifact/Artifact_Precursor_4.ogg",
 		"sound/musical_instruments/artifact/Artifact_Precursor_5.ogg",
 		"sound/musical_instruments/artifact/Artifact_Precursor_6.ogg")
 	fault_types = list(
