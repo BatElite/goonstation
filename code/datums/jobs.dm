@@ -162,16 +162,23 @@ ABSTRACT_TYPE(/datum/job/command)
 	allow_spy_theft = 0
 
 	slot_card = /obj/item/card/id/gold
-	slot_belt = list(/obj/item/device/pda2/captain)
 	slot_back = list(/obj/item/storage/backpack/captain)
 	slot_jump = list(/obj/item/clothing/under/rank/captain)
 	slot_suit = list(/obj/item/clothing/suit/armor/captain)
-	slot_foot = list(/obj/item/clothing/shoes/swat)
 	slot_head = list(/obj/item/clothing/head/caphat)
 	slot_eyes = list(/obj/item/clothing/glasses/sunglasses)
 	slot_ears = list(/obj/item/device/radio/headset/command/captain)
 	slot_poc1 = list(/obj/item/disk/data/floppy/read_only/authentication)
+	#ifdef TESTING_STAFFIE_BENEFITS //Captains are basically staffies (I don't wanna be slow when testing)
+	slot_belt = list(/obj/item/storage/belt/utility/prepared/ceshielded)
+	slot_foot = list(/obj/item/clothing/shoes/industrial)
+	items_in_backpack = list(/obj/item/storage/box/id_kit,/obj/item/device/flash, /obj/item/device/pda2/captain) //PDA doesn't auto register fsr
+	#else
+	slot_belt = list(/obj/item/device/pda2/captain)
+	slot_foot = list(/obj/item/clothing/shoes/swat)
 	items_in_backpack = list(/obj/item/storage/box/id_kit,/obj/item/device/flash)
+	#endif
+
 #ifdef RP_MODE
 	rounds_needed_to_play = 20
 #endif
