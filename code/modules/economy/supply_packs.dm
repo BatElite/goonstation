@@ -1464,8 +1464,10 @@ ABSTRACT_TYPE(/datum/supply_packs/complex)
 
 /datum/supply_packs/complex/ai_kit
 	name = "Artificial Intelligence Kit"
-	desc = "Frames: 1x Asimov 5 AI, 2x Turret, 1x Turret Control Console, 2x Security Camera"
-	frames = list(/obj/ai_frame,
+	desc = "Frames: 1x AI core frame, 3x Station Bounced Radio, 2x Turret, 1x Turret Control Console, 2x Security Camera"
+	contains = list(/obj/ai_core_frame,
+					/obj/item/device/radio = 3) //for shoving into the AI
+	frames = list(///obj/ai_frame,
 					/obj/machinery/turret/construction = 2,
 					/obj/machinery/turretid/computer,
 					/obj/machinery/camera = 2)

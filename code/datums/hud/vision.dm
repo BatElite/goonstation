@@ -1,15 +1,26 @@
 /datum/hud/vision // generic overlays for modifying the mobs vision
 	var/atom/movable/screen/hud
+		///VISOR/meson scanlines
 		scan
+		///View tint & the colour shifting of some drugs, but not colorblindness
 		color_mod
+		///Eye blur
 		dither
+		///Screenwide flashes (awful)
 		flash
+		///Construction visualizer ruler
+		ruler
 
 	New()
 		..()
 		scan = create_screen("", "", 'icons/mob/hud_common.dmi', "scan", "WEST, SOUTH to EAST, NORTH", HUD_LAYER_UNDER_1)
 		scan.mouse_opacity = 0
 		scan.alpha = 0
+
+		ruler = create_screen("", "", 'icons/mob/hud_common.dmi', "ruler", "WEST, SOUTH to EAST, NORTH", HUD_LAYER_UNDER_1)
+		ruler.mouse_opacity = 0
+		ruler.alpha = 0
+		//ruler.color = "#BB9900" (did nothing)
 
 		color_mod = create_screen("", "", 'icons/effects/white.dmi', "", "WEST, SOUTH to EAST, NORTH", HUD_LAYER_UNDER_2)
 		color_mod.mouse_opacity = 0
@@ -28,6 +39,7 @@
 		remove_screen(color_mod)
 		remove_screen(dither)
 		remove_screen(flash)
+		remove_screen(ruler)
 
 	proc
 		flash(duration)
@@ -51,6 +63,13 @@
 			else
 				remove_screen(scan)
 			scan.alpha = scanline ? 50 : 0
+
+		set_ruler(on = FALSE)
+			if (on)
+				add_screen(ruler)
+			else
+				remove_screen(ruler)
+			ruler.alpha = on ? 60 : 0
 
 		set_color_mod(color)
 			color_mod.color = color

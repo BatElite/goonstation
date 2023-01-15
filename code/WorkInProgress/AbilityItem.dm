@@ -440,6 +440,19 @@
 
 ////////////////////////////////////////////////////////////
 
+/obj/ability_button/ruler_toggle
+	name = "Toggle Construction Ruler"
+	icon_state = "meson1" //Probably doesn't need separate icons, mesons and convis are basically the same model of glasses
+
+	execute_ability()
+		var/obj/item/clothing/glasses/construction/J = the_item
+		J.AttackSelf(the_mob)
+		if(J.ruler_on) icon_state = "meson1"
+		else  icon_state = "meson0"
+		..()
+
+////////////////////////////////////////////////////////////
+
 /obj/ability_button/jetpack2_toggle
 	name = "Toggle jetpack MKII"
 	icon_state = "jet2on"

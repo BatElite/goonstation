@@ -12,7 +12,7 @@
 			term.set_dir(get_dir(get_turf(term), src))
 			new /obj/machinery/power/smes(get_turf(src))
 			qdel(src)
-
+/* Rest in piss, I didn't know you existed and you're thoroughly obsolete now
 /obj/ai_frame
 	name = "\improper Asimov 5 Artifical Intelligence"
 	desc = "An artificial intelligence unit which requires the brain of a living organism to function as a neural processor."
@@ -54,7 +54,7 @@
 			qdel(src)
 		else
 			..()
-
+*/
 /obj/machinery/turret/construction
 	power_usage = 250
 	var/obj/machinery/turretid/computer/control = null
@@ -169,7 +169,7 @@
 			aTurret.setState(enabled, lethal)
 
 /obj/item/room_marker
-	name = "\improper Room Designator"
+	name = "room designator"
 	icon = 'icons/obj/construction.dmi'
 	icon_state = "room"
 	item_state = "gun"
@@ -225,11 +225,47 @@
 			using = 0
 
 /obj/item/clothing/glasses/construction
-	name = "\improper Construction Visualizer"
+	name = "construction visualizer"
 	icon_state = "construction"
 	item_state = "construction"
 	mats = 6
 	desc = "The latest technology in viewing live blueprints."
+	color_r = 1 //some sort of yellow
+	color_g = 0.95
+	color_b = 0.9
+	var/ruler_on = FALSE
+
+	abilities = list(/obj/ability_button/ruler_toggle)
+
+	attack_self(mob/user)
+		src.toggle_ruler(user)
+
+	proc/toggle_ruler(var/mob/toggler)
+		src.ruler_on = !src.ruler_on
+		//src.item_state = "[src.base_state][src.on ? null : "-off"]"
+		//toggler.set_clothing_icon_dirty()
+		//set_icon_state("[src.base_state][src.on ? null : "-off"]")
+		//playsound(src, "sound/items/mesonactivate.ogg", 30, 1)
+		if (ishuman(toggler))
+			var/mob/living/carbon/human/H = toggler
+			if (istype(H.glasses, /obj/item/clothing/glasses/construction)) //hamdling of the rest is done in life.dm
+				H.vision.set_ruler(src.ruler_on)
+
+	equipped(var/mob/living/user, var/slot)
+		..()
+		if(!isliving(user))
+			return
+		if (slot == SLOT_GLASSES && src.ruler_on)
+			user.vision.set_ruler(TRUE)
+		return
+
+	unequipped(var/mob/living/user)
+		..()
+		if(!isliving(user))
+			return
+		if (src.ruler_on)
+			user.vision.set_ruler(FALSE)
+		return
 
 /obj/item/lamp_manufacturer/organic
 	icon = 'icons/obj/items/tools/lampman.dmi'
@@ -246,7 +282,7 @@
 		inventory_counter.update_number(metal_ammo)
 
 /obj/item/material_shaper
-	name = "\improper Window Planner"
+	name = "window planner"
 	icon = 'icons/obj/construction.dmi'
 	icon_state = "shaper"
 	item_state = "gun"
@@ -440,7 +476,7 @@
 			user.visible_message("<span class='notice'>[user] finishes stuffing materials into [src].</span>")
 
 /obj/item/room_planner
-	name = "\improper Floor and Wall Designer"
+	name = "floor and wall designer"
 	icon = 'icons/obj/construction.dmi'
 	icon_state = "plan"
 	item_state = "gun"
@@ -449,6 +485,7 @@
 	w_class = W_CLASS_SMALL
 	click_delay = 1
 
+	///Planner has a selection dialogue open with someone
 	var/selecting = 0
 	var/mode = "floors"
 	var/icons = list("floors" = 'icons/turf/construction_floors.dmi', "walls" = 'icons/turf/construction_walls.dmi', "restore original")
@@ -531,7 +568,7 @@
 		return 1
 
 /obj/plan_marker
-	name = "\improper Plan Marker"
+	name = "plan marker"
 	icon = 'icons/turf/construction_walls.dmi'
 	icon_state = null
 	anchored = 1
@@ -558,7 +595,7 @@
 			W.AfterAttack(T, user)
 
 /obj/plan_marker/glass_shaper
-	name = "\improper Window Plan Marker"
+	name = "window plan marker"
 	icon = 'icons/obj/grille.dmi'
 	icon_state = "grille-0"
 	anchored = 1
@@ -755,7 +792,7 @@
 			..()
 
 /obj/plan_marker/wall
-	name = "\improper Wall Plan Marker"
+	name = "wall plan marker"
 	desc = "Build a wall here to complete the plan."
 
 	proc/check(var/selectedmod)
@@ -774,7 +811,7 @@
 			qdel(src)
 
 /obj/plan_marker/floor
-	name = "\improper Floor Plan Marker"
+	name = "floor plan marker"
 	desc = "Build a floor here to complete the plan."
 	icon = 'icons/turf/construction_floors.dmi'
 
