@@ -24,12 +24,12 @@
 			occupant = null
 		..()
 
-	process()
+	process(mult)
 		if(!(status & BROKEN))
 			if (occupant)
-				power_usage = 500
+				power_usage = 500 * mult
 			else
-				power_usage = 50
+				power_usage = 50 *mult
 			..()
 		if(status & (NOPOWER|BROKEN) || !anchored)
 			if (src.occupant)
@@ -47,9 +47,9 @@
 				src.turnOff("fullcharge")
 				return
 			else if (occupant.cell.charge < occupant.cell.maxcharge)
-				occupant.cell.charge += src.chargerate
+				occupant.cell.charge += src.chargerate * mult
 				occupant.cell.charge = min(occupant.cell.maxcharge, occupant.cell.charge)
-				use_power(50)
+				use_power(50 * mult)
 				return
 		return 1
 
