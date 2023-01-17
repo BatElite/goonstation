@@ -20,7 +20,6 @@
 		ruler = create_screen("", "", 'icons/mob/hud_common.dmi', "ruler", "WEST, SOUTH to EAST, NORTH", HUD_LAYER_UNDER_1)
 		ruler.mouse_opacity = 0
 		ruler.alpha = 0
-		//ruler.color = "#BB9900" (did nothing)
 
 		color_mod = create_screen("", "", 'icons/effects/white.dmi', "", "WEST, SOUTH to EAST, NORTH", HUD_LAYER_UNDER_2)
 		color_mod.mouse_opacity = 0
