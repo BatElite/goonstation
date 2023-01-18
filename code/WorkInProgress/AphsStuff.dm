@@ -318,17 +318,17 @@
 	icon_state = "brad_punchcard"
 	item_state = "sheet"
 
-/area/derelict_ai_sat
+/area/debris/derelict_ai_sat
 	name = "Satellite 29A"
 	icon_state = "AIt"
 	sound_environment = 12
 
-/area/derelict_ai_sat/core
+/area/debris/derelict_ai_sat/core
 	name = "AI Satellite Core"
 	icon_state = "ai_chamber"
 	sound_environment = 0
 
-/area/derelict_ai_sat/solar
+/area/debris/derelict_ai_sat/solar
 	name = "Satelllite 29A Solar Array"
 	icon_state = "yellow"
 	requires_power = 0

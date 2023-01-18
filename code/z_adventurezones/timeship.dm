@@ -9,7 +9,7 @@ Decals that float, including clocks
 Turfs and decal for the space rift
 */
 
-/area/timewarp
+/area/debris/timewarp
 	requires_power = 0
 	luminosity = 1
 	force_fullbright = 1
@@ -19,21 +19,21 @@ Turfs and decal for the space rift
 	sound_loop = 'sound/ambience/industrial/Timeship_Atmospheric.ogg'
 	sound_loop_vol = 60
 
-/area/timewarp/ship
+/area/debris/timewarp/ship
 	name = "Strange Craft"
 	icon_state = "shuttle"
 	force_fullbright = 0
 	sound_loop = 'sound/ambience/industrial/Timeship_Tones.ogg'
 
-/area/timewarp/ship/New()
+/area/debris/timewarp/ship/New()
 	. = ..()
 	START_TRACKING_CAT(TR_CAT_AREA_PROCESS)
 
-/area/timewarp/ship/disposing()
+/area/debris/timewarp/ship/disposing()
 	STOP_TRACKING_CAT(TR_CAT_AREA_PROCESS)
 	. = ..()
 
-/area/timewarp/ship/area_process()
+/area/debris/timewarp/ship/area_process()
 	if(prob(20))
 		src.sound_fx_2 = pick('sound/ambience/industrial/Timeship_Gong.ogg',\
 		'sound/ambience/industrial/Timeship_Glitchy1.ogg',\

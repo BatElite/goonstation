@@ -753,7 +753,7 @@ Contents:
 						sleep(5 SECOND)
 						if (src.master)
 							var/area/masterArea = get_area(src.master)
-							if (istype(masterArea, /area/russian) || istype(masterArea, /area/salyut) || istype(masterArea, /area/hospital/samostrel))
+							if (istype(masterArea, /area/russian) || istype(masterArea, /area/debris/salyut) || istype(masterArea, /area/hospital/samostrel))
 								src.master.speak("I hope they don't ask for a travel visa...")
 							else if (istype(masterArea, /area/moon))
 								src.master.speak("You um, don't have to visit the security annex.  That's for humans.  Oh, also fruit.  If you have any fruit or seeds you need to check that in.")

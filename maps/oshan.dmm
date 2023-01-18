@@ -19641,7 +19641,7 @@
 /area/evilreaver/genetics)
 "aXx" = (
 /turf/unsimulated/wall/auto/adventure/martian,
-/area/debris/martian_trader)
+/area/traders/martian_trader)
 "aXy" = (
 /turf/unsimulated/wall/auto/adventure/martian,
 /area/evilreaver/storage/tools)
@@ -19692,7 +19692,7 @@
 /area/evilreaver/genetics)
 "aXI" = (
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "aXJ" = (
 /obj/lattice,
 /obj/decal/fakeobjects/pipe{
@@ -19704,7 +19704,7 @@
 /area/evilreaver/storage/tools)
 "aXK" = (
 /turf/simulated/shuttle/wall/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "aXL" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4
@@ -19730,13 +19730,13 @@
 	icon = 'icons/misc/evilreaverstation.dmi';
 	icon_state = "old_rwall"
 	},
-/area/debris/martian_trader)
+/area/traders/martian_trader)
 "aXO" = (
 /obj/machinery/door/airlock/classic{
 	name = "rusty airlock"
 	},
 /turf/simulated/floor/plating/damaged3,
-/area/debris/martian_trader)
+/area/traders/martian_trader)
 "aXP" = (
 /obj/machinery/door/airlock/classic{
 	name = "rusty airlock"
@@ -19834,7 +19834,7 @@
 "aYi" = (
 /obj/wingrille_spawn/flock,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "aYj" = (
 /obj/crevice{
 	pixel_x = -28
@@ -19986,7 +19986,7 @@
 	},
 /obj/wingrille_spawn/flock,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "aYM" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4
@@ -20496,7 +20496,7 @@
 "baB" = (
 /obj/flock_screen,
 /turf/simulated/shuttle/wall/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "baC" = (
 /turf/simulated/martian/wall{
 	dir = 8;
@@ -20510,7 +20510,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "baE" = (
 /turf/simulated/martian/wall{
 	dir = 1;
@@ -20536,7 +20536,7 @@
 	dormant = 1
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "baH" = (
 /obj/table/flock/auto,
 /obj/machinery/light/flock{
@@ -20544,7 +20544,7 @@
 	pixel_y = 9
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "baI" = (
 /obj/item/furniture_parts/flock_chair,
 /obj/table/flock/auto,
@@ -20553,7 +20553,7 @@
 	pixel_y = 9
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "baJ" = (
 /obj/table/flock/auto,
 /obj/machinery/light/flock{
@@ -20562,7 +20562,7 @@
 	},
 /obj/item/device/flockblocker,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "baK" = (
 /obj/decal/fakeobjects/flock/antenna{
 	dir = 8
@@ -20579,7 +20579,7 @@
 /obj/table/flock/auto,
 /obj/map/light/cyan,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "baN" = (
 /obj/stool/chair/comfy/flock,
 /obj/machinery/light/flock{
@@ -20590,28 +20590,28 @@
 	dormant = 1
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "baO" = (
 /obj/machinery/light/flock{
 	dir = 4
 	},
 /obj/table/flock/auto,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "baP" = (
 /obj/map/light/cyan,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "baQ" = (
 /mob/living/critter/flock/drone{
 	dormant = 1
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "baR" = (
 /obj/npc/trader/flock,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "baS" = (
 /obj/decal/fakeobjects/flock/antenna/broken{
 	dir = 4;
@@ -20624,7 +20624,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "baU" = (
 /obj/flock_reclaimer,
 /obj/map/light/cyan,
@@ -20632,11 +20632,11 @@
 	dir = 8
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "baV" = (
 /obj/decal/cleanable/flockdrone_debris,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "baW" = (
 /obj/machinery/atmospherics/pipe/tank{
 	dir = 8
@@ -20691,7 +20691,7 @@
 "bbe" = (
 /obj/decal/cleanable/flockdrone_debris/fluid,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "bbf" = (
 /obj/machinery/atmospherics/valve{
 	dir = 4
@@ -20826,7 +20826,7 @@
 /turf/simulated/floor/shuttlebay/flock{
 	dir = 9
 	},
-/area/flock_trader)
+/area/traders/flock_trader)
 "bbx" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
 	icon_state = "on";
@@ -20917,7 +20917,7 @@
 /turf/simulated/floor/shuttlebay/flock{
 	dir = 5
 	},
-/area/flock_trader)
+/area/traders/flock_trader)
 "bbK" = (
 /obj/table/round/auto,
 /obj/item/device/analyzer/healthanalyzer,
@@ -21135,7 +21135,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "bcL" = (
 /turf/simulated/floor,
 /area/research_outpost)
@@ -21148,7 +21148,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "bcS" = (
 /obj/machinery/light/incandescent/netural,
 /turf/simulated/floor/engine,
@@ -21176,7 +21176,7 @@
 /turf/simulated/floor/shuttlebay/flock{
 	dir = 8
 	},
-/area/flock_trader)
+/area/traders/flock_trader)
 "bcZ" = (
 /obj/disposalpipe/segment/mail{
 	dir = 2;
@@ -21186,7 +21186,7 @@
 /area/station/medical/medbay/lobby)
 "bda" = (
 /turf/simulated/floor/shuttlebay/flock/middle,
-/area/flock_trader)
+/area/traders/flock_trader)
 "bdb" = (
 /turf/simulated/floor/red,
 /area/station/security/checkpoint/medical)
@@ -21195,7 +21195,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/shuttlebay/flock/middle,
-/area/flock_trader)
+/area/traders/flock_trader)
 "bdd" = (
 /obj/cable/reinforced{
 	icon_state = "2-4-thick"
@@ -21250,7 +21250,7 @@
 /obj/map/light/cyan,
 /obj/marker/supplymarker,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "bdv" = (
 /obj/machinery/atmospherics/pipe/simple/insulated{
 	can_rupture = 0;
@@ -21281,13 +21281,13 @@
 	},
 /obj/decal/cleanable/flockdrone_debris/fluid,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "bdz" = (
 /obj/machinery/light/flock{
 	dir = 8
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "bdA" = (
 /obj/wingrille_spawn/auto/crystal,
 /obj/cable/reinforced{
@@ -21320,7 +21320,7 @@
 /turf/simulated/floor/shuttlebay/flock{
 	dir = 10
 	},
-/area/flock_trader)
+/area/traders/flock_trader)
 "bdF" = (
 /obj/machinery/door_control{
 	id = "research_outpost";
@@ -21334,7 +21334,7 @@
 /turf/simulated/floor/shuttlebay/flock{
 	dir = 6
 	},
-/area/flock_trader)
+/area/traders/flock_trader)
 "bdI" = (
 /obj/machinery/optable,
 /obj/machinery/drainage,
@@ -21354,7 +21354,7 @@
 /obj/table/flock/auto,
 /obj/machinery/light/flock,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "bdO" = (
 /obj/item/device/radio/beacon,
 /obj/cable{
@@ -21386,7 +21386,7 @@
 /obj/table/flock/auto,
 /obj/machinery/light/flock,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "bdS" = (
 /obj/machinery/drainage/big,
 /turf/simulated/floor/caution/east,
@@ -21406,7 +21406,7 @@
 /obj/table/flock/auto,
 /obj/machinery/light/flock,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "bdX" = (
 /obj/machinery/power/terminal{
 	dir = 1
@@ -21447,7 +21447,7 @@
 /obj/machinery/light/flock,
 /obj/table/flock/auto,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "beb" = (
 /obj/machinery/door/poddoor/blast/pyro/podbay_autoclose{
 	id = "research_outpost"
@@ -21513,7 +21513,7 @@
 "bek" = (
 /obj/machinery/light/flock,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "bel" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
@@ -21548,7 +21548,7 @@
 "bep" = (
 /obj/machinery/door/feather/friendly,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "beq" = (
 /obj/stool/chair/comfy/flock{
 	dir = 4
@@ -21561,7 +21561,7 @@
 	dormant = 1
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "ber" = (
 /obj/machinery/light/flock{
 	dir = 4
@@ -21570,7 +21570,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "bes" = (
 /obj/table/glass/reinforced/auto,
 /obj/machinery/computer3/generic/personal{
@@ -21699,7 +21699,7 @@
 	dormant = 1
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "beE" = (
 /obj/table/glass/reinforced/auto,
 /obj/item/screwdriver,
@@ -37808,7 +37808,7 @@
 	icon = 'icons/misc/evilreaverstation.dmi';
 	icon_state = "old_rwall"
 	},
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "bTT" = (
 /obj/machinery/light/incandescent/warm,
 /obj/cable{
@@ -37875,13 +37875,13 @@
 	},
 /obj/decal/fakeobjects/teleport_pad,
 /turf/simulated/floor/grime,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "bTZ" = (
 /obj/stool/chair/comfy,
 /obj/npc/trader/skeleton,
 /obj/map/light/green,
 /turf/simulated/floor/grime,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "bUa" = (
 /obj/machinery/door/airlock/pyro/security/alt{
 	dir = 4;
@@ -37907,13 +37907,13 @@
 /area/station/security/interrogation)
 "bUc" = (
 /turf/simulated/floor/grime,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "bUd" = (
 /turf/simulated/floor/black,
 /area/station/security/interrogation)
 "bUe" = (
 /turf/simulated/floor/scorched,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "bUf" = (
 /turf/space/fluid,
 /area/station/hallway/secondary/oshan_arrivals)
@@ -37939,7 +37939,7 @@
 	tag = "icon-old_closed (EAST)"
 	},
 /turf/simulated/floor/grime,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "bUj" = (
 /obj/stool/chair{
 	dir = 8
@@ -38005,7 +38005,7 @@
 /obj/item/c_tube,
 /obj/item/clothing/head/bandana/red,
 /turf/simulated/floor/grime,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "bUt" = (
 /obj/machinery/light/incandescent/warm,
 /obj/cable{
@@ -38061,7 +38061,7 @@
 /obj/item/disk/data/floppy,
 /obj/item/electronics/capacitor,
 /turf/simulated/floor/grime,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "bUA" = (
 /obj/item/clothing/suit/cardboard_box,
 /turf/simulated/floor/damaged4,
@@ -38233,7 +38233,7 @@
 "bUV" = (
 /obj/storage/crate/loot,
 /turf/simulated/floor/grime,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "bUW" = (
 /obj/machinery/door/airlock/pyro/glass{
 	name = "Cell #2";
@@ -38283,7 +38283,7 @@
 "bVd" = (
 /obj/storage/crate/loot,
 /turf/simulated/floor/damaged2,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "bVe" = (
 /obj/machinery/door/airlock/pyro/security/alt{
 	dir = 1;

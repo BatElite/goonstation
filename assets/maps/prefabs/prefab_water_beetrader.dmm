@@ -1,7 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/unsimulated/wall/setpieces/hive,
-/area/bee_trader)
+/area/traders/bee_trader)
 "b" = (
 /turf/variableTurf/clear,
 /area/space)
@@ -18,7 +18,7 @@
 	icon_state = "tube1"
 	},
 /turf/simulated/floor/specialroom/cafeteria,
-/area/bee_trader)
+/area/traders/bee_trader)
 "d" = (
 /obj/table/wood/auto,
 /obj/item/reagent_containers/food/snacks/breadloaf/corn/sweet/honey,
@@ -30,7 +30,7 @@
 	pixel_y = 4
 	},
 /turf/simulated/floor/specialroom/cafeteria,
-/area/bee_trader)
+/area/traders/bee_trader)
 "e" = (
 /obj/storage/crate/freezer,
 /obj/item/reagent_containers/food/snacks/beefood{
@@ -53,10 +53,10 @@
 	},
 /obj/item/reagent_containers/food/snacks/ingredient/honey,
 /turf/simulated/floor/specialroom/cafeteria,
-/area/bee_trader)
+/area/traders/bee_trader)
 "f" = (
 /turf/simulated/floor/specialroom/cafeteria,
-/area/bee_trader)
+/area/traders/bee_trader)
 "g" = (
 /obj/table/wood/auto,
 /obj/item/reagent_containers/food/snacks/goldfish_cracker{
@@ -69,7 +69,7 @@
 	pixel_y = 4
 	},
 /turf/simulated/floor/specialroom/cafeteria,
-/area/bee_trader)
+/area/traders/bee_trader)
 "h" = (
 /obj/table/wood/auto,
 /obj/machinery/computer/security/wooden_tv{
@@ -80,11 +80,11 @@
 	pixel_y = 4
 	},
 /turf/simulated/floor/specialroom/cafeteria,
-/area/bee_trader)
+/area/traders/bee_trader)
 "i" = (
 /obj/reagent_dispensers/beerkeg,
 /turf/simulated/floor/specialroom/cafeteria,
-/area/bee_trader)
+/area/traders/bee_trader)
 "j" = (
 /obj/item/cigbutt,
 /obj/item/cigbutt{
@@ -99,17 +99,17 @@
 	icon_state = "chair_couch-brown"
 	},
 /turf/simulated/floor/specialroom/cafeteria,
-/area/bee_trader)
+/area/traders/bee_trader)
 "k" = (
 /obj/stool/chair/couch{
 	dir = 5;
 	icon_state = "chair_couch-brown"
 	},
 /turf/simulated/floor/specialroom/cafeteria,
-/area/bee_trader)
+/area/traders/bee_trader)
 "l" = (
 /turf/simulated/wall/false_wall/hive,
-/area/bee_trader)
+/area/traders/bee_trader)
 "m" = (
 /obj/stool/chair/couch{
 	dir = 8;
@@ -122,7 +122,7 @@
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "n" = (
 /obj/stool/chair/couch{
 	dir = 4;
@@ -131,15 +131,15 @@
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "o" = (
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/white,
-/area/bee_trader)
+/area/traders/bee_trader)
 "p" = (
 /obj/shrub,
 /turf/simulated/floor/white,
-/area/bee_trader)
+/area/traders/bee_trader)
 "q" = (
 /obj/submachine/ATM{
 	pixel_x = -32;
@@ -148,22 +148,22 @@
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "r" = (
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "s" = (
 /turf/simulated/floor/white,
-/area/bee_trader)
+/area/traders/bee_trader)
 "t" = (
 /obj/machinery/light/incandescent/warm{
 	dir = 1;
 	icon_state = "tube1"
 	},
 /turf/simulated/floor/white,
-/area/bee_trader)
+/area/traders/bee_trader)
 "u" = (
 /obj/npc/trader/bee{
 	dir = 4
@@ -171,55 +171,55 @@
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "v" = (
 /turf/simulated/floor/stairs/medical/wide{
 	dir = 4;
 	icon_state = "medstairs_wide"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "w" = (
 /turf/variableTurf/clear,
 /area/noGenerate)
 "x" = (
 /obj/critter/domestic_bee,
 /turf/simulated/floor/white,
-/area/bee_trader)
+/area/traders/bee_trader)
 "y" = (
 /obj/machinery/drainage/big,
 /turf/simulated/floor/white,
-/area/bee_trader)
+/area/traders/bee_trader)
 "z" = (
 /obj/machinery/door/unpowered/shuttle,
 /turf/simulated/floor/white,
-/area/bee_trader)
+/area/traders/bee_trader)
 "A" = (
 /obj/decal/fakeobjects/cargopad,
 /obj/marker/supplymarker,
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "B" = (
 /turf/simulated/floor/stairs/medical/wide/other{
 	dir = 4;
 	icon_state = "medstairs2_wide"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "C" = (
 /obj/machinery/light/incandescent/warm,
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "D" = (
 /obj/machinery/light/incandescent/warm,
 /turf/simulated/floor/white,
-/area/bee_trader)
+/area/traders/bee_trader)
 "E" = (
 /obj/critter/domestic_bee/buddy,
 /turf/simulated/floor/white,
-/area/bee_trader)
+/area/traders/bee_trader)
 "F" = (
 /obj/stool/chair/comfy{
 	dir = 4;
@@ -229,7 +229,7 @@
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "G" = (
 /obj/table/wood/auto,
 /obj/shrub{
@@ -242,7 +242,7 @@
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "H" = (
 /obj/table/auto,
 /obj/item/reagent_containers/food/snacks/ingredient/egg/bee/moon{
@@ -251,14 +251,14 @@
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "I" = (
 /obj/table/auto,
 /obj/item/device/camera_viewer,
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "J" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -271,7 +271,7 @@
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "K" = (
 /obj/stool/chair/office{
 	dir = 1;
@@ -280,7 +280,7 @@
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "L" = (
 /obj/table/auto,
 /obj/item/record/honey,
@@ -288,7 +288,7 @@
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "M" = (
 /obj/item/device/gps{
 	identifier = "BEE1"
@@ -296,7 +296,7 @@
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 
 (1,1,1) = {"
 b

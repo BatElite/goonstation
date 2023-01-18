@@ -12,31 +12,31 @@
 	icon_state = "grass";
 	name = "tall grass"
 	},
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "d" = (
 /obj/machinery/portableowl/attached{
 	name = "A Pretty Owl"
 	},
 /turf/simulated/floor/grass/leafy,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "f" = (
 /obj/shrub{
 	dir = 8
 	},
 /turf/simulated/floor/grass/leafy,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "g" = (
 /obj/shrub{
 	dir = 6
 	},
 /turf/simulated/floor/grass/leafy,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "h" = (
 /obj/shrub{
 	dir = 4
 	},
 /turf/simulated/floor/grass/leafy,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "i" = (
 /turf/variableTurf/clear,
 /area/noGenerate)
@@ -45,40 +45,40 @@
 	name = "The Sexiest Owl"
 	},
 /turf/simulated/floor/grass/leafy,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "k" = (
 /obj/item/device/radio/beacon,
 /turf/simulated/floor/grass/leafy,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "l" = (
 /turf/simulated/floor/grass/leafy,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "m" = (
 /obj/shrub,
 /turf/simulated/floor/grass/leafy,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "n" = (
 /turf/simulated/wall/auto/reinforced/supernorn,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "o" = (
 /obj/shrub{
 	dir = 1
 	},
 /turf/simulated/floor/grass/leafy,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "p" = (
 /obj/tree1{
 	desc = "It's a tree. You see the phrase 'Haine <3 SpyGuy' carved into it."
 	},
 /turf/simulated/floor/grass/leafy,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "q" = (
 /obj/machinery/light/small{
 	dir = 4;
 	pixel_x = 12
 	},
 /turf/simulated/floor/grass/leafy,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "r" = (
 /turf/simulated/wall{
 	desc = "Upon closer inspection, you see that this is a cleverly painted wall.";
@@ -86,7 +86,7 @@
 	icon_state = "grass";
 	name = "tall grass"
 	},
-/area/spacehabitat/beach)
+/area/prefab/spacehabitat/beach)
 "s" = (
 /obj/machinery/light{
 	dir = 4;
@@ -94,24 +94,24 @@
 	pixel_x = 10
 	},
 /turf/simulated/floor/grass/leafy,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "t" = (
 /obj/machinery/light/small{
 	dir = 8;
 	pixel_x = -12
 	},
 /turf/simulated/floor/shuttlebay,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "u" = (
 /turf/simulated/floor/shuttlebay,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "v" = (
 /obj/machinery/light/small{
 	dir = 1;
 	pixel_y = 21
 	},
 /turf/simulated/floor/shuttlebay,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "w" = (
 /obj/table/auto,
 /obj/item/clothing/under/gimmick/owl,
@@ -122,13 +122,13 @@
 /obj/item/clothing/under/gimmick/owl,
 /obj/item/clothing/mask/owl_mask,
 /turf/simulated/floor/grass/leafy,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "x" = (
 /obj/machinery/portableowl/attached{
 	name = "an Owl with a chip out of his beak"
 	},
 /turf/simulated/floor/grass/leafy,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "y" = (
 /obj/shrub{
 	dir = 8
@@ -138,7 +138,7 @@
 	icon_state = "sand";
 	name = "sand"
 	},
-/area/spacehabitat/beach)
+/area/prefab/spacehabitat/beach)
 "A" = (
 /obj/shrub,
 /turf/simulated/floor/engine{
@@ -146,7 +146,7 @@
 	icon_state = "sand";
 	name = "sand"
 	},
-/area/spacehabitat/beach)
+/area/prefab/spacehabitat/beach)
 "B" = (
 /obj/critter/parrot/random,
 /turf/simulated/floor/engine{
@@ -154,7 +154,7 @@
 	icon_state = "sand";
 	name = "sand"
 	},
-/area/spacehabitat/beach)
+/area/prefab/spacehabitat/beach)
 "C" = (
 /obj/overlay{
 	anchored = 1;
@@ -168,7 +168,7 @@
 	icon_state = "sand";
 	name = "sand"
 	},
-/area/spacehabitat/beach)
+/area/prefab/spacehabitat/beach)
 "D" = (
 /obj/machinery/firealarm{
 	dir = 4;
@@ -180,7 +180,7 @@
 	icon_state = "sand";
 	name = "sand"
 	},
-/area/spacehabitat/beach)
+/area/prefab/spacehabitat/beach)
 "E" = (
 /obj/machinery/portable_atmospherics/canister/air/large,
 /obj/machinery/light/small{
@@ -188,21 +188,21 @@
 	pixel_x = -12
 	},
 /turf/simulated/floor,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "F" = (
 /obj/machinery/door_control/podbay{
 	id = "habitat_bay";
 	pixel_x = -24
 	},
 /turf/simulated/floor/shuttlebay,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "G" = (
 /obj/machinery/light/small{
 	dir = 4;
 	pixel_x = 12
 	},
 /turf/simulated/floor/shuttlebay,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "H" = (
 /obj/machinery/door/firedoor/pyro{
 	dir = 4
@@ -216,22 +216,22 @@
 	icon_state = "sand";
 	name = "sand"
 	},
-/area/spacehabitat/beach)
+/area/prefab/spacehabitat/beach)
 "I" = (
 /obj/item/device/radio/beacon,
 /turf/simulated/floor,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "J" = (
 /obj/machinery/door/airlock/pyro/external{
 	dir = 4
 	},
 /turf/simulated/floor,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "K" = (
 /turf/simulated/floor/caution/corner/ne{
 	dir = 1
 	},
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "L" = (
 /obj/overlay{
 	anchored = 1;
@@ -245,7 +245,7 @@
 	icon_state = "sand";
 	name = "sand"
 	},
-/area/spacehabitat/beach)
+/area/prefab/spacehabitat/beach)
 "M" = (
 /obj/rack,
 /obj/item/clothing/suit/space/emerg,
@@ -260,48 +260,48 @@
 	pixel_x = -12
 	},
 /turf/simulated/floor,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "N" = (
 /obj/machinery/light/small{
 	dir = 8;
 	pixel_x = -12
 	},
 /turf/simulated/floor/caution/east,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "O" = (
 /turf/simulated/floor/engine{
 	icon = 'icons/misc/beach.dmi';
 	icon_state = "sand";
 	name = "sand"
 	},
-/area/spacehabitat/beach)
+/area/prefab/spacehabitat/beach)
 "P" = (
 /obj/machinery/door/airlock/pyro/external,
 /turf/simulated/floor,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "Q" = (
 /obj/machinery/door/poddoor/blast/pyro/podbay_autoclose{
 	id = "habitat_bay";
 	name = "pod bay (habitat)"
 	},
 /turf/simulated/floor/shuttlebay,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "R" = (
 /obj/machinery/r_door_control/podbay{
 	id = "habitat_bay"
 	},
 /turf/simulated/wall/auto/reinforced/supernorn,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "S" = (
 /turf/variableTurf/floor,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "T" = (
 /obj/machinery/light/small{
 	dir = 1;
 	pixel_y = 21
 	},
 /turf/variableTurf/floor,
-/area/spacehabitat)
+/area/prefab/spacehabitat)
 "U" = (
 /turf/simulated/floor/engine{
 	density = 1;
@@ -309,14 +309,14 @@
 	icon_state = "sandwater";
 	name = "water simulation tile"
 	},
-/area/spacehabitat/beach)
+/area/prefab/spacehabitat/beach)
 "V" = (
 /turf/simulated/wall/r_wall{
 	icon = 'icons/misc/beach.dmi';
 	icon_state = "water";
 	name = "holo-projection wall"
 	},
-/area/spacehabitat/beach)
+/area/prefab/spacehabitat/beach)
 "W" = (
 /turf/simulated/floor/engine{
 	density = 1;
@@ -324,7 +324,7 @@
 	icon_state = "water";
 	name = "water simulation tile"
 	},
-/area/spacehabitat/beach)
+/area/prefab/spacehabitat/beach)
 
 (1,1,1) = {"
 a

@@ -1077,7 +1077,7 @@ ABSTRACT_TYPE(/area/debris)
 
 //zewaka note: moved these from near adventure zone areas
 
-/area/debris/martian_trader
+/area/traders/martian_trader
 	name ="Martian Trade Outpost"
 	sound_environment = 8
 #ifdef MAP_OVERRIDE_OSHAN
@@ -1100,7 +1100,7 @@ ABSTRACT_TYPE(/area/debris)
 	requires_power = FALSE
 #endif
 
-/area/bee_trader
+/area/traders/bee_trader
 	name ="Bombini's Ship"
 	icon_state ="green"
 	sound_environment = 2
@@ -1108,7 +1108,7 @@ ABSTRACT_TYPE(/area/debris)
 	requires_power = FALSE
 #endif
 
-/area/flock_trader
+/area/traders/flock_trader
 	name = "Flocktrader Ship"
 	icon_state = "green"
 	sound_environment = 2
@@ -1116,7 +1116,7 @@ ABSTRACT_TYPE(/area/debris)
 	requires_power = FALSE
 #endif
 
-/area/skeleton_trader
+/area/traders/skeleton_trader
 	name = "Skeleton Trade Outpost"
 	icon_state = "green"
 	sound_environment = 2
@@ -1139,7 +1139,7 @@ ABSTRACT_TYPE(/area/debris)
 	requires_power = FALSE
 #endif
 
-/area/spacehabitat/pool
+/area/prefab/spacehabitat/pool
 	name = "Pool Room"
 	icon_state = "yellow"
 	requires_power = FALSE
@@ -1149,21 +1149,21 @@ ABSTRACT_TYPE(/area/debris)
 	icon_state = "yellow"
 	requires_power = FALSE
 
-/area/spacehabitat
+/area/prefab/spacehabitat
 	name = "Habitat Dome"
 	icon_state = "green"
 
-/area/spacehabitat/beach
+/area/prefab/spacehabitat/beach
 	name = "Habitat Dome Beach"
 	icon_state = "yellow"
 	force_fullbright = 1
 
-/area/salyut
+/area/debris/salyut
 	name = "Soviet derelict"
 	icon_state = "yellow"
 	requires_power = FALSE
 
-/area/hollowasteroid/ //evilderelict.dm
+/area/debris/hollowasteroid/ //evilderelict.dm
 	name = "Forgotten Subterranean Wreckage"
 	icon_state = "derelict"
 	sound_loop = 'sound/ambience/spooky/Evilreaver_Ambience.ogg'
@@ -3641,7 +3641,7 @@ ABSTRACT_TYPE(/area/mining)
 		SetName(name) //because the jerk built an APC first, because WHY NOT JERKO?!
 
 /// adhara setpiece
-/area/janitor_setpiece
+/area/prefab/janitor_setpiece
 	name = "Rental Office"
 	icon_state = "purple"
 

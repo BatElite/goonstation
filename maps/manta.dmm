@@ -894,7 +894,7 @@
 /area/diner/backroom)
 "acG" = (
 /turf/simulated/wall/auto/reinforced/supernorn,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "acH" = (
 /obj/machinery/camera{
 	c_tag = "autotag";
@@ -917,7 +917,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/grime,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "acL" = (
 /obj/cable{
 	icon_state = "1-8"
@@ -933,7 +933,7 @@
 "acQ" = (
 /obj/npc/trader/skeleton,
 /turf/simulated/floor/grime,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "acR" = (
 /obj/machinery/junctionbox/variantb{
 	pixel_y = 32
@@ -962,7 +962,7 @@
 "acX" = (
 /obj/marker/supplymarker,
 /turf/simulated/floor/grime,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "acY" = (
 /obj/submachine/slot_machine,
 /turf/simulated/floor/specialroom/bar,
@@ -997,15 +997,15 @@
 /area/diner/bathroom)
 "adf" = (
 /turf/simulated/floor/grime,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "adg" = (
 /obj/decal/cleanable/dirt/dirt4,
 /turf/simulated/floor/grime,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "adh" = (
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/grime,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "adi" = (
 /obj/decal/cleanable/dirt/dirt4,
 /turf/simulated/floor/specialroom/bar,
@@ -1040,7 +1040,7 @@
 "ado" = (
 /obj/machinery/door/airlock/pyro/glass,
 /turf/simulated/floor/specialroom/bar,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "adp" = (
 /obj/decal/cleanable/dirt/dirt5,
 /turf/simulated/floor/specialroom/bar,
@@ -1103,11 +1103,11 @@
 /area/diner/bathroom)
 "adA" = (
 /turf/simulated/wall/auto/reinforced/supernorn,
-/area/bee_trader)
+/area/traders/bee_trader)
 "adB" = (
 /obj/machinery/door/airlock/pyro/glass,
 /turf/simulated/floor/specialroom/bar,
-/area/bee_trader)
+/area/traders/bee_trader)
 "adC" = (
 /obj/item/instrument/large/jukebox,
 /turf/simulated/floor/specialroom/bar,
@@ -1139,12 +1139,12 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor2"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "adI" = (
 /turf/simulated/floor/shuttle{
 	icon_state = "floor2"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "adJ" = (
 /obj/stool/chair/couch{
 	dir = 8
@@ -1152,7 +1152,7 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor2"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "adK" = (
 /obj/stool/chair/couch{
 	dir = 4
@@ -1160,7 +1160,7 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor2"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "adL" = (
 /obj/cable{
 	icon_state = "4-8"
@@ -1181,7 +1181,7 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor2"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "adO" = (
 /obj/npc/trader/bee{
 	name = "Bambini"
@@ -1189,7 +1189,7 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor2"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "adP" = (
 /obj/item/rubberduck,
 /obj/machinery/drainage,
@@ -34365,7 +34365,7 @@
 	pixel_x = 10
 	},
 /turf/simulated/floor/grime,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "eLx" = (
 /obj/vehicle/forklift,
 /obj/machinery/light/incandescent/netural{
@@ -34700,7 +34700,7 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor2"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "fmk" = (
 /obj/machinery/light/incandescent/blueish{
 	dir = 1;

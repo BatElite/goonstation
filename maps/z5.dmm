@@ -598,13 +598,13 @@
 	icon_state = "1";
 	name = "space"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "ck" = (
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
-/area/bee_trader)
+/area/traders/bee_trader)
 "cl" = (
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
-/area/bee_trader{
+/area/traders/bee_trader{
 	dir = 6;
 	icon_state = "diagonalWall3"
 	})
@@ -614,7 +614,7 @@
 	icon_state = "wall3_trans"
 	},
 /turf/space,
-/area/bee_trader)
+/area/traders/bee_trader)
 "cn" = (
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/carpet/blue/fancy/edge/west,
@@ -654,7 +654,7 @@
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "cu" = (
 /obj/stool/chair/couch/yellow{
 	dir = 8;
@@ -668,7 +668,7 @@
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "cv" = (
 /obj/stool/chair/couch/yellow{
 	dir = 4;
@@ -682,7 +682,7 @@
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "cw" = (
 /obj/table/wood/auto,
 /obj/item/paper/bombininote/postgame,
@@ -693,14 +693,14 @@
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "cy" = (
 /obj/decal/fakeobjects/shuttleengine{
 	dir = 4;
 	icon_state = "alt_heater"
 	},
 /turf/space,
-/area/bee_trader)
+/area/traders/bee_trader)
 "cz" = (
 /obj/decal/fakeobjects/shuttlethruster{
 	dir = 4;
@@ -711,7 +711,7 @@
 	icon_state = "lattice-dir"
 	},
 /turf/space,
-/area/bee_trader)
+/area/traders/bee_trader)
 "cA" = (
 /obj/lattice{
 	dir = 10;
@@ -837,7 +837,7 @@
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "cQ" = (
 /obj/decal/tile_edge/stripe/extra_big,
 /obj/npc/trader/bee,
@@ -847,20 +847,20 @@
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "cR" = (
 /obj/decal/tile_edge/stripe/extra_big,
 /obj/marker/supplymarker,
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "cS" = (
 /obj/decal/tile_edge/stripe/extra_big,
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "cT" = (
 /obj/decal/tile_edge/stripe/extra_big,
 /obj/machinery/computer/security/wooden_tv{
@@ -871,28 +871,28 @@
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "cU" = (
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/shuttlebay,
-/area/bee_trader)
+/area/traders/bee_trader)
 "cV" = (
 /obj/reagent_dispensers/beerkeg,
 /turf/simulated/floor/shuttlebay,
-/area/bee_trader)
+/area/traders/bee_trader)
 "cW" = (
 /obj/submachine/ATM{
 	pixel_y = 30
 	},
 /obj/map/light/screen,
 /turf/simulated/floor/shuttlebay,
-/area/bee_trader)
+/area/traders/bee_trader)
 "cX" = (
 /obj/indestructible/shuttle_corner{
 	icon_state = "wall3_trans"
 	},
 /turf/simulated/floor/shuttlebay,
-/area/bee_trader)
+/area/traders/bee_trader)
 "cY" = (
 /obj/grille/catwalk{
 	dir = 4
@@ -902,27 +902,27 @@
 	icon_state = "wall3_trans"
 	},
 /turf/space,
-/area/bee_trader)
+/area/traders/bee_trader)
 "cZ" = (
 /obj/grille/catwalk{
 	dir = 4
 	},
 /turf/space,
-/area/bee_trader)
+/area/traders/bee_trader)
 "da" = (
 /obj/grille/catwalk{
 	dir = 4
 	},
 /obj/decal/cleanable/dirt,
 /turf/space,
-/area/bee_trader)
+/area/traders/bee_trader)
 "db" = (
 /obj/decal/fakeobjects/shuttleengine{
 	dir = 4;
 	icon_state = "alt_heater-R"
 	},
 /turf/space,
-/area/bee_trader)
+/area/traders/bee_trader)
 "dc" = (
 /obj/decal/fakeobjects/shuttlethruster{
 	dir = 4;
@@ -984,7 +984,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/shuttlebay,
-/area/bee_trader)
+/area/traders/bee_trader)
 "dn" = (
 /obj/decal/tile_edge/stripe/extra_big{
 	icon_state = "delivery2"
@@ -993,10 +993,10 @@
 	dir = 8
 	},
 /turf/simulated/floor/shuttlebay,
-/area/bee_trader)
+/area/traders/bee_trader)
 "do" = (
 /turf/simulated/floor/shuttlebay,
-/area/bee_trader)
+/area/traders/bee_trader)
 "dp" = (
 /obj/decal/tile_edge/stripe/extra_big{
 	icon_state = "delivery2"
@@ -1005,18 +1005,18 @@
 	dir = 4
 	},
 /turf/simulated/floor/shuttlebay,
-/area/bee_trader)
+/area/traders/bee_trader)
 "dq" = (
 /obj/machinery/door/airlock/pyro/external{
 	dir = 4;
 	name = "Compartment Hatch"
 	},
 /turf/simulated/floor/shuttlebay,
-/area/bee_trader)
+/area/traders/bee_trader)
 "dr" = (
 /obj/decal/fakeobjects/cargopad,
 /turf/simulated/floor/shuttlebay,
-/area/bee_trader)
+/area/traders/bee_trader)
 "ds" = (
 /obj/grille/catwalk{
 	dir = 4
@@ -1025,7 +1025,7 @@
 	dir = 4
 	},
 /turf/space,
-/area/bee_trader)
+/area/traders/bee_trader)
 "dt" = (
 /obj/grille/catwalk{
 	dir = 4
@@ -1033,14 +1033,14 @@
 /obj/map/light/screen,
 /obj/decal/cleanable/dirt,
 /turf/space,
-/area/bee_trader)
+/area/traders/bee_trader)
 "du" = (
 /obj/decal/fakeobjects/shuttleengine{
 	dir = 4;
 	icon_state = "alt_heater-M"
 	},
 /turf/space,
-/area/bee_trader)
+/area/traders/bee_trader)
 "dv" = (
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/generic{
@@ -1112,28 +1112,28 @@
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "dK" = (
 /obj/decal/cleanable/blood,
 /obj/item/c_tube,
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/shuttlebay,
-/area/bee_trader)
+/area/traders/bee_trader)
 "dL" = (
 /obj/machinery/light/small,
 /turf/simulated/floor/shuttlebay,
-/area/bee_trader)
+/area/traders/bee_trader)
 "dN" = (
 /obj/critter/roach,
 /turf/simulated/floor/shuttlebay,
-/area/bee_trader)
+/area/traders/bee_trader)
 "dO" = (
 /obj/indestructible/shuttle_corner{
 	dir = 8;
 	icon_state = "wall3_trans"
 	},
 /turf/simulated/floor/shuttlebay,
-/area/bee_trader)
+/area/traders/bee_trader)
 "dP" = (
 /obj/grille/catwalk{
 	dir = 4
@@ -1143,14 +1143,14 @@
 	icon_state = "wall3_trans"
 	},
 /turf/space,
-/area/bee_trader)
+/area/traders/bee_trader)
 "dQ" = (
 /obj/decal/fakeobjects/shuttleengine{
 	dir = 4;
 	icon_state = "alt_heater-L"
 	},
 /turf/space,
-/area/bee_trader)
+/area/traders/bee_trader)
 "dR" = (
 /obj/machinery/light/incandescent/netural{
 	dir = 4;
@@ -1179,7 +1179,7 @@
 	icon_state = "1";
 	name = "space"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "dV" = (
 /obj/table/wood/auto,
 /obj/indestructible/shuttle_corner{
@@ -1189,7 +1189,7 @@
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "dW" = (
 /obj/table/wood/auto,
 /obj/machinery/light/small,
@@ -1197,14 +1197,14 @@
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "dX" = (
 /obj/table/wood/auto,
 /obj/item/reagent_containers/food/snacks/chips,
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "dY" = (
 /obj/table/wood/auto,
 /obj/item/paper/postcard/owlery,
@@ -1215,7 +1215,7 @@
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "dZ" = (
 /obj/decal/fakeobjects/shuttlethruster{
 	dir = 4;
@@ -1226,7 +1226,7 @@
 	icon_state = "lattice-dir"
 	},
 /turf/space,
-/area/bee_trader)
+/area/traders/bee_trader)
 "ea" = (
 /obj/lattice{
 	dir = 5;
@@ -1303,7 +1303,7 @@
 	icon_state = "1";
 	name = "space"
 	},
-/area/bee_trader)
+/area/traders/bee_trader)
 "ek" = (
 /obj/lattice{
 	icon_state = "lattice-dir-b"
@@ -5368,7 +5368,7 @@
 /area/noGenerate)
 "tS" = (
 /turf/unsimulated/wall/auto/adventure/martian,
-/area/debris/martian_trader)
+/area/traders/martian_trader)
 "tT" = (
 /obj/indestructible/shuttle_corner{
 	dir = 10;

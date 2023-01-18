@@ -4373,7 +4373,7 @@
 /area/mining/mainasteroid)
 "amR" = (
 /turf/simulated/wall/auto/reinforced/supernorn,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "amS" = (
 /obj/decal/fakeobjects/flock/antenna/end{
 	dir = 1
@@ -4399,16 +4399,16 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/scorched,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "amV" = (
 /turf/simulated/wall/auto/reinforced/supernorn,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "amW" = (
 /obj/cable{
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/engine,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "amX" = (
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 1;
@@ -4444,7 +4444,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "anb" = (
 /obj/grille/catwalk{
 	dir = 10;
@@ -4589,7 +4589,7 @@
 "ant" = (
 /obj/securearea,
 /turf/simulated/wall/auto/reinforced/supernorn,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "anu" = (
 /obj/landmark/artifact,
 /turf/simulated/floor/industrial,
@@ -4610,7 +4610,7 @@
 	dir = 4
 	},
 /turf/simulated/wall/auto/reinforced/supernorn,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "any" = (
 /obj/cable{
 	d1 = 1;
@@ -4690,7 +4690,7 @@
 /turf/simulated/shuttle/wall/flock{
 	dir = 9
 	},
-/area/flock_trader)
+/area/traders/flock_trader)
 "anG" = (
 /obj/grille/catwalk,
 /obj/rail{
@@ -5024,7 +5024,7 @@
 /area/mining/manufacturing)
 "aoz" = (
 /turf/simulated/shuttle/wall/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "aoA" = (
 /obj/machinery/manufacturer/mining,
 /obj/cable,
@@ -5284,7 +5284,7 @@
 "apk" = (
 /obj/wingrille_spawn/flock,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "apl" = (
 /obj/machinery/portable_atmospherics/pump,
 /turf/simulated/floor/caution/north{
@@ -5389,7 +5389,7 @@
 	},
 /obj/wingrille_spawn/flock,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "apB" = (
 /obj/plasticflaps,
 /obj/machinery/conveyor{
@@ -5409,7 +5409,7 @@
 /turf/simulated/shuttle/wall/flock{
 	dir = 5
 	},
-/area/flock_trader)
+/area/traders/flock_trader)
 "apE" = (
 /obj/table/reinforced/auto,
 /obj/cable{
@@ -5444,7 +5444,7 @@
 "apG" = (
 /obj/flock_screen,
 /turf/simulated/shuttle/wall/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "apH" = (
 /obj/table/reinforced/auto,
 /obj/item/storage/firstaid/regular,
@@ -5475,7 +5475,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "apM" = (
 /obj/machinery/conveyor{
 	id = "MINSouth"
@@ -5557,7 +5557,7 @@
 	dormant = 1
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "apX" = (
 /turf/simulated/floor/shuttlebay,
 /area/mining/hangar)
@@ -5618,7 +5618,7 @@
 	pixel_y = 9
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "aqg" = (
 /obj/lattice{
 	dir = 4;
@@ -5634,7 +5634,7 @@
 	pixel_y = 9
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "aqi" = (
 /turf/space,
 /turf/simulated/wall/auto/asteroid{
@@ -6192,7 +6192,7 @@
 	},
 /obj/item/device/flockblocker,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "art" = (
 /turf/simulated/wall/auto/reinforced/old,
 /area/spyshack)
@@ -6329,7 +6329,7 @@
 	icon_state = "alt_heater"
 	},
 /turf/unsimulated/wall/auto/adventure/shuttle,
-/area/salyut)
+/area/debris/salyut)
 "arN" = (
 /turf/simulated/floor/plating,
 /area/spyshack)
@@ -6357,13 +6357,13 @@
 /turf/simulated/floor/shuttlebay{
 	name = "reinforced plating"
 	},
-/area/salyut)
+/area/debris/salyut)
 "arR" = (
 /obj/machinery/vehicle/miniputt/soviputt,
 /turf/simulated/floor/shuttlebay{
 	name = "reinforced plating"
 	},
-/area/salyut)
+/area/debris/salyut)
 "arS" = (
 /obj/storage/crate,
 /obj/item/reagent_containers/pill/stox,
@@ -6380,7 +6380,7 @@
 	},
 /obj/submachine/chem_extractor,
 /turf/simulated/floor/plating/damaged1,
-/area/salyut)
+/area/debris/salyut)
 "arU" = (
 /obj/machinery/power/data_terminal,
 /obj/cable{
@@ -6461,12 +6461,12 @@
 /obj/item/device/reagentscanner,
 /obj/item/storage/pill_bottle/cyberpunk,
 /turf/simulated/floor/plating/damaged1,
-/area/salyut)
+/area/debris/salyut)
 "asb" = (
 /obj/item/raw_material/shard/glass,
 /obj/item/reagent_containers/dropper/mechanical,
 /turf/simulated/floor/plating/damaged1,
-/area/salyut)
+/area/debris/salyut)
 "asc" = (
 /obj/computerframe{
 	desc = "It is highly unlikely that this still works.";
@@ -6476,7 +6476,7 @@
 	},
 /obj/map/light/white,
 /turf/simulated/floor/plating/damaged1,
-/area/salyut)
+/area/debris/salyut)
 "asd" = (
 /obj/rack,
 /obj/item/clothing/suit/space/soviet{
@@ -6489,12 +6489,12 @@
 /turf/simulated/floor/shuttlebay{
 	name = "reinforced plating"
 	},
-/area/salyut)
+/area/debris/salyut)
 "ase" = (
 /obj/table/flock/auto,
 /obj/map/light/cyan,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "asf" = (
 /obj/lattice{
 	dir = 8;
@@ -6508,7 +6508,7 @@
 "asg" = (
 /obj/decal/cleanable/machine_debris,
 /turf/simulated/floor/plating/damaged1,
-/area/salyut)
+/area/debris/salyut)
 "ash" = (
 /turf/simulated/floor/plating/damaged3,
 /area/spyshack)
@@ -6520,7 +6520,7 @@
 "asj" = (
 /obj/item/raw_material/shard/glass,
 /turf/simulated/floor/plating/damaged1,
-/area/salyut)
+/area/debris/salyut)
 "ask" = (
 /obj/cable{
 	d1 = 1;
@@ -6531,7 +6531,7 @@
 /area/spyshack)
 "asl" = (
 /turf/simulated/floor/plating/damaged1,
-/area/salyut)
+/area/debris/salyut)
 "asm" = (
 /obj/cable{
 	d1 = 1;
@@ -6581,7 +6581,7 @@
 "asr" = (
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/plating/damaged1,
-/area/salyut)
+/area/debris/salyut)
 "ass" = (
 /obj/item/cable_coil/cut{
 	color = "#DD0000"
@@ -6590,7 +6590,7 @@
 	icon_state = "gib7"
 	},
 /turf/simulated/floor/plating/damaged1,
-/area/salyut)
+/area/debris/salyut)
 "ast" = (
 /obj/lattice,
 /obj/decal/fakeobjects/pipe{
@@ -6605,11 +6605,11 @@
 	autoclose = 1
 	},
 /turf/simulated/floor/plating/damaged1,
-/area/salyut)
+/area/debris/salyut)
 "asv" = (
 /obj/machinery/launcher_loader/east,
 /turf/simulated/floor/plating,
-/area/salyut)
+/area/debris/salyut)
 "asw" = (
 /obj/lattice{
 	dir = 1;
@@ -6652,12 +6652,12 @@
 /turf/simulated/floor/shuttlebay{
 	name = "reinforced plating"
 	},
-/area/salyut)
+/area/debris/salyut)
 "asC" = (
 /turf/simulated/floor/shuttlebay{
 	name = "reinforced plating"
 	},
-/area/salyut)
+/area/debris/salyut)
 "asD" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -6667,7 +6667,7 @@
 	},
 /obj/storage/secure/closet/research/chemical,
 /turf/simulated/floor/plating/damaged1,
-/area/salyut)
+/area/debris/salyut)
 "asE" = (
 /obj/machinery/power/data_terminal,
 /obj/cable,
@@ -6782,13 +6782,13 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating/damaged1,
-/area/salyut)
+/area/debris/salyut)
 "asR" = (
 /obj/decal/cleanable/machine_debris,
 /obj/decal/cleanable/oil,
 /obj/machinery/chem_master,
 /turf/simulated/floor/plating/damaged1,
-/area/salyut)
+/area/debris/salyut)
 "asS" = (
 /obj/lattice{
 	dir = 4;
@@ -6805,7 +6805,7 @@
 	icon_state = "coil1"
 	},
 /turf/simulated/floor/plating/damaged1,
-/area/salyut)
+/area/debris/salyut)
 "asU" = (
 /obj/decal/cleanable/oil/streak,
 /obj/decal/poster/wallsign/psa_bucket{
@@ -6860,7 +6860,7 @@
 	icon_state = "gib7"
 	},
 /turf/simulated/floor/plating/damaged1,
-/area/salyut)
+/area/debris/salyut)
 "atc" = (
 /turf/simulated/floor/grime,
 /area/debris/buddyfactory)
@@ -6945,11 +6945,11 @@
 "atm" = (
 /obj/structure/girder/displaced,
 /turf/simulated/floor/plating/damaged1,
-/area/salyut)
+/area/debris/salyut)
 "atn" = (
 /obj/decal/cleanable/oil,
 /turf/simulated/floor/plating/damaged1,
-/area/salyut)
+/area/debris/salyut)
 "ato" = (
 /turf/simulated/floor/bot,
 /area/radiostation/serverroom)
@@ -6979,7 +6979,7 @@
 	id = "salyut"
 	},
 /turf/simulated/floor/plating,
-/area/salyut)
+/area/debris/salyut)
 "ats" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -6989,7 +6989,7 @@
 /turf/simulated/floor/shuttlebay{
 	name = "reinforced plating"
 	},
-/area/salyut)
+/area/debris/salyut)
 "att" = (
 /obj/cable{
 	d2 = 4;
@@ -7007,7 +7007,7 @@
 "atu" = (
 /obj/item/skull/strange,
 /turf/simulated/floor/plating,
-/area/salyut)
+/area/debris/salyut)
 "atv" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "It won't budge.";
@@ -7019,14 +7019,14 @@
 /turf/simulated/floor/shuttlebay{
 	name = "reinforced plating"
 	},
-/area/salyut)
+/area/debris/salyut)
 "atw" = (
 /obj/rack,
 /obj/random_item_spawner/tools,
 /turf/simulated/floor/shuttlebay{
 	name = "reinforced plating"
 	},
-/area/salyut)
+/area/debris/salyut)
 "atx" = (
 /obj/cable{
 	d1 = 4;
@@ -7136,7 +7136,7 @@
 	dormant = 1
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "atJ" = (
 /obj/decal/floatingtiles{
 	icon_state = "floattiles2"
@@ -7389,7 +7389,7 @@
 	},
 /obj/table/flock/auto,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "auq" = (
 /obj/rack,
 /obj/item/satchel/mining/large,
@@ -7548,7 +7548,7 @@
 "auN" = (
 /obj/map/light/cyan,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "auO" = (
 /obj/grille/catwalk{
 	dir = 6;
@@ -8067,7 +8067,7 @@
 	icon_state = "1";
 	name = "space"
 	},
-/area/salyut)
+/area/debris/salyut)
 "awr" = (
 /turf/simulated/floor/white,
 /area/debris/buddyfactory)
@@ -8236,7 +8236,7 @@
 	icon_state = "1";
 	name = "space"
 	},
-/area/salyut)
+/area/debris/salyut)
 "awV" = (
 /turf/simulated/floor/yellow/side{
 	dir = 8
@@ -8267,7 +8267,7 @@
 	icon_state = "1";
 	name = "space"
 	},
-/area/salyut)
+/area/debris/salyut)
 "axb" = (
 /obj/table/auto,
 /obj/item/clothing/gloves/yellow,
@@ -8348,7 +8348,7 @@
 	dormant = 1
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "axz" = (
 /obj/indestructible/shuttle_corner{
 	dir = 9;
@@ -8359,7 +8359,7 @@
 	icon_state = "1";
 	name = "space"
 	},
-/area/salyut)
+/area/debris/salyut)
 "axA" = (
 /obj/lattice{
 	dir = 9;
@@ -8385,11 +8385,11 @@
 	icon_state = "1";
 	name = "space"
 	},
-/area/salyut)
+/area/debris/salyut)
 "axD" = (
 /obj/npc/trader/flock,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "axI" = (
 /obj/indestructible/shuttle_corner{
 	dir = 5;
@@ -8398,7 +8398,7 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "axJ" = (
 /turf/simulated/shuttle/wall{
 	dir = 9;
@@ -8427,19 +8427,19 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "axM" = (
 /obj/table/auto,
 /obj/item/reagent_containers/glass/wateringcan,
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "axN" = (
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "axO" = (
 /obj/grille/catwalk{
 	dir = 10
@@ -8469,7 +8469,7 @@
 	dir = 4
 	},
 /turf/space,
-/area/salyut)
+/area/debris/salyut)
 "ayg" = (
 /turf/simulated/shuttle/wall{
 	dir = 4;
@@ -8584,13 +8584,13 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "ayG" = (
 /obj/reagent_dispensers/compostbin,
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "ayT" = (
 /turf/space,
 /turf/space,
@@ -8601,7 +8601,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "ayV" = (
 /obj/flock_reclaimer,
 /obj/map/light/cyan,
@@ -8609,20 +8609,20 @@
 	dir = 8
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "ayW" = (
 /obj/decal/cleanable/flockdrone_debris,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "ayX" = (
 /obj/machinery/door/unpowered/shuttle{
 	autoclose = 1
 	},
 /turf/simulated/floor/plating,
-/area/salyut)
+/area/debris/salyut)
 "ayY" = (
 /turf/simulated/floor/plating,
-/area/salyut)
+/area/debris/salyut)
 "ayZ" = (
 /obj/machinery/door/unpowered/shuttle{
 	autoclose = 1
@@ -8630,10 +8630,10 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "aza" = (
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "azb" = (
 /obj/storage/crate/loot,
 /turf/space,
@@ -8650,7 +8650,7 @@
 	name = "Launcher Door"
 	},
 /turf/simulated/floor/plating/airless,
-/area/salyut)
+/area/debris/salyut)
 "azd" = (
 /obj/decal/cleanable/robot_debris,
 /turf/space,
@@ -8679,7 +8679,7 @@
 "azH" = (
 /obj/machinery/r_door_control/podbay/soviet,
 /turf/unsimulated/wall/auto/adventure/shuttle,
-/area/salyut)
+/area/debris/salyut)
 "azI" = (
 /obj/storage/crate,
 /obj/item/paper/book/numbers_station_hydroguide,
@@ -8733,7 +8733,7 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "azP" = (
 /obj/cable{
 	d1 = 4;
@@ -8756,7 +8756,7 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "azT" = (
 /obj/decal/cleanable/robot_debris{
 	icon_state = "gib7"
@@ -8772,7 +8772,7 @@
 	icon_state = "1";
 	name = "space"
 	},
-/area/salyut)
+/area/debris/salyut)
 "aAi" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -8789,7 +8789,7 @@
 	icon_state = "1";
 	name = "space"
 	},
-/area/salyut)
+/area/debris/salyut)
 "aAk" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -8825,7 +8825,7 @@
 "aAq" = (
 /obj/decal/cleanable/flockdrone_debris/fluid,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "aAs" = (
 /obj/machinery/light/flock{
 	dir = 1;
@@ -8834,7 +8834,7 @@
 /turf/simulated/floor/shuttlebay/flock{
 	dir = 9
 	},
-/area/flock_trader)
+/area/traders/flock_trader)
 "aAy" = (
 /obj/machinery/door/unpowered/shuttle{
 	autoclose = 1
@@ -8843,7 +8843,7 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "delivery"
 	},
-/area/salyut)
+/area/debris/salyut)
 "aAz" = (
 /obj/lattice{
 	icon_state = "lattice-dir"
@@ -8858,7 +8858,7 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "aAB" = (
 /obj/decal/fakeobjects/apc_broken{
 	pixel_y = 24
@@ -8867,7 +8867,7 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "aAT" = (
 /obj/machinery/light/flock{
 	dir = 1;
@@ -8876,7 +8876,7 @@
 /turf/simulated/floor/shuttlebay/flock{
 	dir = 5
 	},
-/area/flock_trader)
+/area/traders/flock_trader)
 "aAU" = (
 /turf/simulated/shuttle/wall{
 	dir = 8;
@@ -8910,7 +8910,7 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "delivery"
 	},
-/area/salyut)
+/area/debris/salyut)
 "aBO" = (
 /obj/item/cable_coil/cut{
 	icon_state = "coil1"
@@ -8941,7 +8941,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "aCs" = (
 /turf/space,
 /turf/simulated/wall/auto/reinforced/old,
@@ -8951,15 +8951,15 @@
 	dir = 4
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "aCI" = (
 /turf/simulated/floor/shuttlebay/flock{
 	dir = 8
 	},
-/area/flock_trader)
+/area/traders/flock_trader)
 "aCJ" = (
 /turf/simulated/floor/shuttlebay/flock/middle,
-/area/flock_trader)
+/area/traders/flock_trader)
 "aCK" = (
 /obj/lattice/flock,
 /turf/space,
@@ -8969,14 +8969,14 @@
 /obj/map/light/cyan,
 /obj/marker/supplymarker,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "aDf" = (
 /obj/machinery/light/flock{
 	dir = 4
 	},
 /obj/decal/cleanable/flockdrone_debris/fluid,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "aDy" = (
 /turf/simulated/wall/auto/reinforced/old,
 /area/debris/abandonedoutpostthing)
@@ -8985,19 +8985,19 @@
 	dir = 8
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "aDS" = (
 /obj/machinery/light/flock,
 /turf/simulated/floor/shuttlebay/flock{
 	dir = 10
 	},
-/area/flock_trader)
+/area/traders/flock_trader)
 "aDT" = (
 /obj/machinery/light/flock,
 /turf/simulated/floor/shuttlebay/flock{
 	dir = 6
 	},
-/area/flock_trader)
+/area/traders/flock_trader)
 "aDU" = (
 /obj/decal/fakeobjects/flock/antenna/broken{
 	dir = 4;
@@ -9010,37 +9010,37 @@
 /turf/simulated/shuttle/wall/flock{
 	dir = 10
 	},
-/area/flock_trader)
+/area/traders/flock_trader)
 "aDW" = (
 /obj/item/organ/brain/flockdrone,
 /obj/table/flock/auto,
 /obj/machinery/light/flock,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "aDX" = (
 /obj/table/flock/auto,
 /obj/machinery/light/flock,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "aEl" = (
 /obj/item/furniture_parts/table/flock,
 /obj/table/flock/auto,
 /obj/machinery/light/flock,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "aEm" = (
 /obj/machinery/light/flock,
 /obj/table/flock/auto,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "aEn" = (
 /obj/machinery/light/flock,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "aEo" = (
 /obj/machinery/door/feather/friendly,
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "aEp" = (
 /obj/decal/fakeobjects/flock/antenna/broken{
 	icon_state = "atenna-broken-1"
@@ -9059,7 +9059,7 @@
 	dormant = 1
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "aEr" = (
 /obj/machinery/light/flock{
 	dir = 4
@@ -9068,7 +9068,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "aEs" = (
 /obj/stool/chair/comfy/flock{
 	dir = 8
@@ -9081,12 +9081,12 @@
 	dormant = 1
 	},
 /turf/simulated/floor/shuttle/flock,
-/area/flock_trader)
+/area/traders/flock_trader)
 "aEt" = (
 /turf/simulated/shuttle/wall/flock{
 	dir = 6
 	},
-/area/flock_trader)
+/area/traders/flock_trader)
 "aEI" = (
 /obj/decal/fakeobjects/flock/wing{
 	dir = 6
@@ -11358,7 +11358,7 @@
 /turf/simulated/floor/specialroom/cafeteria{
 	dir = 1
 	},
-/area/hollowasteroid)
+/area/debris/hollowasteroid)
 "aLF" = (
 /obj/machinery/bot/medbot/mysterious/emagged,
 /turf/simulated/floor/airless/damaged4,
@@ -11694,7 +11694,7 @@
 	icon_state = "2-8"
 	},
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aMx" = (
 /obj/lattice{
 	dir = 4;
@@ -11725,7 +11725,7 @@
 /turf/simulated/floor/specialroom/cafeteria{
 	dir = 1
 	},
-/area/hollowasteroid)
+/area/debris/hollowasteroid)
 "aMA" = (
 /obj/lattice{
 	dir = 4;
@@ -11771,7 +11771,7 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aMF" = (
 /obj/item/raw_material/rock,
 /turf/space,
@@ -11790,7 +11790,7 @@
 /area/debris/abandonedoutpostthing)
 "aMJ" = (
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aMK" = (
 /obj/cable{
 	d2 = 2;
@@ -11809,7 +11809,7 @@
 /turf/simulated/floor/caution/corner/misc{
 	dir = 10
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aML" = (
 /obj/cable{
 	d1 = 1;
@@ -11819,7 +11819,7 @@
 /turf/simulated/floor/caution/corner/misc{
 	dir = 6
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aMM" = (
 /obj/decal/fakeobjects/shuttleengine{
 	desc = "You should probably leave it alone.";
@@ -11843,7 +11843,7 @@
 	dir = 8;
 	tag = "icon-catwalk (WEST)"
 	},
-/area/derelict_ai_sat/solar)
+/area/debris/derelict_ai_sat/solar)
 "aMO" = (
 /obj/cable{
 	d1 = 2;
@@ -11864,7 +11864,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/wall/auto/reinforced/supernorn,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aMQ" = (
 /obj/item/paper{
 	info = "IF YOU LIKE THIS HUNK OF JUNK SO MUCH THEN WHY DON'T YOU MARRY IT? - Signed, an employee at Sickly Sam's Space Scrapyard";
@@ -11893,7 +11893,7 @@
 /obj/machinery/manufacturer/mechanic,
 /obj/decal/cleanable/cobweb,
 /turf/simulated/floor/orangeblack,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aMV" = (
 /obj/decal/fakeobjects/airmonitor_broken{
 	pixel_y = 24
@@ -11902,7 +11902,7 @@
 /turf/simulated/floor/orangeblack/side{
 	dir = 9
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aMW" = (
 /obj/cable{
 	icon_state = "1-4"
@@ -11910,7 +11910,7 @@
 /turf/simulated/floor/orangeblack/side{
 	dir = 8
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aMX" = (
 /obj/cable{
 	d1 = 2;
@@ -11920,7 +11920,7 @@
 /turf/simulated/floor/caution/north{
 	dir = 8
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aMY" = (
 /obj/cable{
 	d1 = 1;
@@ -11930,7 +11930,7 @@
 /turf/simulated/floor/caution/north{
 	dir = 8
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aMZ" = (
 /obj/decal/fakeobjects/shuttleengine{
 	desc = "You should probably leave it alone.";
@@ -11972,12 +11972,12 @@
 	pixel_x = -10
 	},
 /turf/simulated/floor/orangeblack,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aNg" = (
 /turf/simulated/floor/orangeblack/side{
 	dir = 9
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aNj" = (
 /obj/decal/floatingtiles{
 	icon_state = "floattiles3"
@@ -12050,7 +12050,7 @@
 /turf/simulated/floor/orangeblack/side{
 	dir = 9
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aNt" = (
 /obj/table/reinforced/auto,
 /obj/machinery/light/lamp/black{
@@ -12059,7 +12059,7 @@
 /turf/simulated/floor/orangeblack/side{
 	dir = 9
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aNw" = (
 /turf/simulated/floor/airless/circuit,
 /area/space)
@@ -12078,7 +12078,7 @@
 /area/h7/storage)
 "aNB" = (
 /turf/simulated/floor/orangeblack,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aND" = (
 /obj/cable{
 	d1 = 1;
@@ -12086,7 +12086,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aNE" = (
 /obj/storage/crate,
 /obj/item/extinguisher,
@@ -12123,7 +12123,7 @@
 	icon_state = "coil1"
 	},
 /turf/simulated/floor/engine,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aNK" = (
 /obj/cable{
 	d1 = 1;
@@ -12136,7 +12136,7 @@
 /obj/machinery/disposal,
 /obj/disposalpipe/trunk,
 /turf/simulated/floor/orangeblack,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aNM" = (
 /obj/storage/crate,
 /obj/item/aiboss_tape/first{
@@ -12147,11 +12147,11 @@
 /turf/simulated/floor/orangeblack/side{
 	dir = 9
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aNN" = (
 /obj/item/storage/toolbox/mechanical,
 /turf/simulated/floor,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aNO" = (
 /obj/cable{
 	d1 = 1;
@@ -12159,7 +12159,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aNP" = (
 /obj/cable{
 	d1 = 1;
@@ -12167,7 +12167,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aNQ" = (
 /obj/grille/catwalk{
 	icon_state = "catwalk_cross"
@@ -12180,7 +12180,7 @@
 	dir = 8;
 	tag = "icon-catwalk (WEST)"
 	},
-/area/derelict_ai_sat/solar)
+/area/debris/derelict_ai_sat/solar)
 "aNR" = (
 /obj/machinery/portable_reclaimer,
 /obj/cable{
@@ -12189,7 +12189,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/damaged5,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aNS" = (
 /obj/cable{
 	d1 = 2;
@@ -12197,7 +12197,7 @@
 	icon_state = "2-8"
 	},
 /turf/simulated/floor/engine,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aNT" = (
 /obj/lattice{
 	dir = 6;
@@ -12239,7 +12239,7 @@
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/engine,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aOa" = (
 /obj/cable{
 	d1 = 1;
@@ -12267,7 +12267,7 @@
 	dir = 8;
 	tag = "icon-catwalk (WEST)"
 	},
-/area/derelict_ai_sat/solar)
+/area/debris/derelict_ai_sat/solar)
 "aOc" = (
 /obj/machinery/light/worn{
 	dir = 4
@@ -12302,7 +12302,7 @@
 	icon_state = "solarbase";
 	name = "solar paneling"
 	},
-/area/derelict_ai_sat/solar)
+/area/debris/derelict_ai_sat/solar)
 "aOg" = (
 /obj/cable{
 	d1 = 1;
@@ -12325,7 +12325,7 @@
 	icon_state = "solarbase";
 	name = "solar paneling"
 	},
-/area/derelict_ai_sat/solar)
+/area/debris/derelict_ai_sat/solar)
 "aOi" = (
 /obj/ydrone_panel,
 /turf/simulated/floor/airless/circuit,
@@ -12369,23 +12369,23 @@
 /turf/simulated/floor/yellow/side{
 	dir = 1
 	},
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aOp" = (
 /obj/disposalpipe/segment,
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aOq" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	dir = 1;
 	pixel_y = 10
 	},
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aOs" = (
 /turf/simulated/floor/yellow/corner{
 	dir = 1
 	},
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aOu" = (
 /obj/storage/crate,
 /obj/item/caution{
@@ -12426,10 +12426,10 @@
 	icon_state = "solarbase";
 	name = "solar paneling"
 	},
-/area/derelict_ai_sat/solar)
+/area/debris/derelict_ai_sat/solar)
 "aOz" = (
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aOA" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -12445,20 +12445,20 @@
 	},
 /obj/machinery/derelict_aiboss/tower,
 /turf/simulated/floor/bot,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aOC" = (
 /obj/disposalpipe/segment{
 	dir = 4
 	},
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aOD" = (
 /obj/machinery/door/airlock/pyro/classic{
 	dir = 4;
 	tag = "icon-old_closed (EAST)"
 	},
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aOE" = (
 /obj/cable{
 	d2 = 2;
@@ -12474,7 +12474,7 @@
 "aOG" = (
 /obj/decal/cleanable/cobweb2,
 /turf/simulated/floor/damaged2,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aOH" = (
 /obj/lattice{
 	dir = 10;
@@ -12501,7 +12501,7 @@
 /area/h7/computer_core)
 "aOK" = (
 /turf/simulated/floor/caution/south,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aOL" = (
 /obj/cable{
 	d1 = 4;
@@ -12541,10 +12541,10 @@
 /turf/simulated/floor/yellow/corner{
 	dir = 8
 	},
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aOR" = (
 /turf/simulated/floor/circuit/vintage,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aOS" = (
 /obj/decal{
 	anchored = 1;
@@ -12558,7 +12558,7 @@
 	pixel_y = -32
 	},
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aOT" = (
 /obj/cable{
 	d1 = 1;
@@ -12591,7 +12591,7 @@
 	tag = "icon-intact-f (EAST)"
 	},
 /turf/simulated/floor/engine/caution/northsouth,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aOY" = (
 /obj/cable{
 	d1 = 2;
@@ -12613,7 +12613,7 @@
 	pixel_y = -32
 	},
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aPa" = (
 /obj/decal{
 	anchored = 1;
@@ -12626,7 +12626,7 @@
 	pixel_y = -32
 	},
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aPb" = (
 /obj/cable{
 	d2 = 8;
@@ -12672,11 +12672,11 @@
 	},
 /turf/space,
 /turf/simulated/floor/plating/scorched,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aPg" = (
 /obj/securearea,
 /turf/simulated/wall/auto/reinforced/supernorn,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aPh" = (
 /obj/grille/catwalk{
 	dir = 9
@@ -12695,7 +12695,7 @@
 	dir = 8;
 	tag = "icon-catwalk (WEST)"
 	},
-/area/derelict_ai_sat/solar)
+/area/debris/derelict_ai_sat/solar)
 "aPi" = (
 /obj/machinery/firealarm{
 	dir = 8;
@@ -12712,7 +12712,7 @@
 	pixel_x = 14
 	},
 /turf/simulated/floor/yellow/corner,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aPk" = (
 /turf/simulated/floor/grime,
 /area/h7)
@@ -12805,7 +12805,7 @@
 	dir = 8;
 	tag = "icon-catwalk (WEST)"
 	},
-/area/derelict_ai_sat/solar)
+/area/debris/derelict_ai_sat/solar)
 "aPu" = (
 /obj/grille/catwalk{
 	dir = 5
@@ -12821,7 +12821,7 @@
 	dir = 8;
 	tag = "icon-catwalk (WEST)"
 	},
-/area/derelict_ai_sat/solar)
+/area/debris/derelict_ai_sat/solar)
 "aPv" = (
 /obj/cable{
 	icon_state = "4-8"
@@ -12833,7 +12833,7 @@
 	welded = 1
 	},
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aPw" = (
 /obj/cable{
 	icon_state = "1-8"
@@ -12842,7 +12842,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/plating/scorched,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aPx" = (
 /obj/decal/fakeobjects/pipe,
 /obj/cable{
@@ -12851,15 +12851,15 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aPy" = (
 /turf/simulated/floor/yellow/side{
 	dir = 8
 	},
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aPz" = (
 /turf/simulated/floor/caution/northsouth,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aPA" = (
 /turf/simulated/wall/auto/asteroid{
 	dir = 6
@@ -12874,23 +12874,23 @@
 /turf/simulated/floor/caution/corner/misc{
 	dir = 8
 	},
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aPD" = (
 /obj/machinery/derelict_aiboss/tower,
 /turf/simulated/floor/bot,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aPE" = (
 /turf/simulated/floor/yellow/side{
 	dir = 4
 	},
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aPF" = (
 /obj/machinery/door/airlock/pyro/classic{
 	dir = 8;
 	tag = "icon-old_closed (WEST)"
 	},
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aPG" = (
 /turf/simulated/floor/specialroom/bar,
 /area/h7/crew)
@@ -12920,7 +12920,7 @@
 	dir = 8;
 	tag = "icon-catwalk (WEST)"
 	},
-/area/derelict_ai_sat/solar)
+/area/debris/derelict_ai_sat/solar)
 "aPM" = (
 /obj/cable{
 	d1 = 1;
@@ -12959,7 +12959,7 @@
 /turf/simulated/floor/yellow/corner{
 	dir = 4
 	},
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aPR" = (
 /obj/lattice{
 	dir = 4;
@@ -13002,7 +13002,7 @@
 /turf/simulated/floor/caution/westeast{
 	dir = 4
 	},
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aPV" = (
 /obj/cable,
 /obj/cable{
@@ -13055,10 +13055,10 @@
 /turf/simulated/floor/stairs{
 	dir = 0
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aQc" = (
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aQd" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -13066,7 +13066,7 @@
 /turf/simulated/floor/stairs{
 	dir = 0
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aQe" = (
 /obj/decal/floatingtiles{
 	icon_state = "floattiles2"
@@ -13109,12 +13109,12 @@
 /turf/simulated/floor/caution/north{
 	dir = 8
 	},
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aQl" = (
 /turf/simulated/floor/caution/corner/misc{
 	dir = 5
 	},
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aQn" = (
 /obj/cable{
 	icon_state = "4-8"
@@ -13122,7 +13122,7 @@
 /turf/simulated/floor/caution/north{
 	dir = 8
 	},
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aQo" = (
 /obj/cable{
 	icon_state = "1-4"
@@ -13136,14 +13136,14 @@
 /turf/simulated/floor/caution/corner/misc{
 	dir = 1
 	},
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aQp" = (
 /obj/decal/fakeobjects/pipe,
 /obj/cable{
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/engine/caution/westeast,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aQq" = (
 /obj/cable{
 	d1 = 1;
@@ -13168,13 +13168,13 @@
 /area/h7/crew)
 "aQv" = (
 /turf/simulated/floor/damaged2,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aQw" = (
 /obj/item/cable_coil{
 	color = "#DD0000"
 	},
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aQx" = (
 /obj/stool,
 /turf/simulated/floor/specialroom/bar,
@@ -13197,11 +13197,11 @@
 /area/debris/abandonedship)
 "aQA" = (
 /turf/simulated/floor/yellow/side,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aQB" = (
 /obj/decal/fakeobjects/pipe,
 /turf/simulated/floor/engine/caution/westeast,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aQC" = (
 /obj/storage/secure/closet/fridge/kitchen,
 /turf/simulated/floor/sanitary,
@@ -13272,12 +13272,12 @@
 	pixel_y = 7
 	},
 /turf/simulated/floor/grey/blackgrime/other,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aQL" = (
 /obj/table/auto,
 /obj/item/paper_bin,
 /turf/simulated/floor/grey/blackgrime/other,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aQM" = (
 /obj/item/wirecutters,
 /turf/simulated/floor/plating,
@@ -13288,7 +13288,7 @@
 	welded = 1
 	},
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "aQO" = (
 /obj/grille/catwalk,
 /obj/cable{
@@ -13313,11 +13313,11 @@
 /obj/item/device/light/zippo,
 /obj/storage/crate/furnacefuel,
 /turf/simulated/floor/damaged4,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aQS" = (
 /obj/item/clothing/mask/breath,
 /turf/simulated/floor/scorched2,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aQT" = (
 /obj/machinery/light/worn,
 /turf/simulated/floor/sanitary,
@@ -13367,17 +13367,17 @@
 	tag = "icon-office_chair_blue (EAST)"
 	},
 /turf/simulated/floor/grey/blackgrime/other,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aRa" = (
 /turf/simulated/floor/grey/blackgrime/other,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aRb" = (
 /obj/stool/chair/office/blue{
 	dir = 1;
 	tag = "icon-office_chair_blue (NORTH)"
 	},
 /turf/simulated/floor/grey/blackgrime/other,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aRc" = (
 /obj/disposalpipe/segment,
 /obj/decal/fakeobjects{
@@ -13398,7 +13398,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aRd" = (
 /obj/table/auto,
 /obj/item/motherboard{
@@ -13407,10 +13407,10 @@
 	name = "circuitboard"
 	},
 /turf/simulated/floor/circuit/vintage,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aRf" = (
 /turf/simulated/floor/caution/west,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aRh" = (
 /obj/table/auto,
 /obj/item/motherboard{
@@ -13419,7 +13419,7 @@
 	name = "circuitboard"
 	},
 /turf/simulated/floor/circuit/vintage,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aRi" = (
 /obj/submachine/chef_sink,
 /turf/simulated/floor/sanitary,
@@ -13427,11 +13427,11 @@
 "aRj" = (
 /obj/machinery/portable_atmospherics/scrubber,
 /turf/simulated/floor/scorched2,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aRk" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aRl" = (
 /obj/machinery/computer/secure_data/detective_computer,
 /turf/simulated/floor/carpet/grime,
@@ -13448,7 +13448,7 @@
 /area/h7)
 "aRo" = (
 /turf/simulated/floor/white/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aRp" = (
 /obj/window/cubicle{
 	dir = 1
@@ -13458,7 +13458,7 @@
 	pixel_x = -12
 	},
 /turf/simulated/floor/white/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aRq" = (
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor,
@@ -13472,7 +13472,7 @@
 	pixel_x = 32
 	},
 /turf/simulated/floor/white/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aRu" = (
 /obj/machinery/door/airlock/pyro/security{
 	name = "Prisoner Transfer Ship";
@@ -13511,7 +13511,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/wall/auto/reinforced/supernorn,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aRz" = (
 /obj/cable{
 	d1 = 4;
@@ -13522,7 +13522,7 @@
 /area/h7/crew)
 "aRA" = (
 /turf/simulated/floor/circuit/vintage,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aRB" = (
 /obj/cable{
 	d2 = 8;
@@ -13552,12 +13552,12 @@
 /obj/item/reagent_containers/food/drinks/bottle/champagne,
 /obj/item/reagent_containers/food/drinks/bottle/beer,
 /turf/simulated/floor/wood/two,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aRD" = (
 /obj/table/auto,
 /obj/machinery/microwave,
 /turf/simulated/floor/wood/two,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aRE" = (
 /turf/simulated/wall/auto/asteroid{
 	dir = 9
@@ -13640,12 +13640,12 @@
 /turf/simulated/floor/caution/east{
 	dir = 8
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aRS" = (
 /turf/simulated/floor/caution/north{
 	dir = 8
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aRT" = (
 /obj/stool/chair{
 	dir = 1
@@ -13658,12 +13658,12 @@
 /turf/simulated/floor/caution/north{
 	dir = 8
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aRU" = (
 /turf/simulated/floor/caution/corner/misc{
 	dir = 9
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aRV" = (
 /obj/cable{
 	d1 = 4;
@@ -13674,14 +13674,14 @@
 /area/h7)
 "aRW" = (
 /turf/simulated/floor/wood/two,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aRX" = (
 /obj/machinery/light/small{
 	dir = 8;
 	pixel_x = -12
 	},
 /turf/simulated/floor/wood/two,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aRY" = (
 /obj/cable{
 	d1 = 4;
@@ -13702,7 +13702,7 @@
 	icon_state = "red2";
 	tag = "icon-red2 (SOUTHWEST)"
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aSa" = (
 /obj/stool/chair/wooden{
 	dir = 1
@@ -13712,7 +13712,7 @@
 	icon_state = "red2";
 	tag = "icon-red2 (SOUTHEAST)"
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aSb" = (
 /turf/simulated/wall/auto/asteroid,
 /area/debris/fermid_hive)
@@ -13776,7 +13776,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/white/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aSm" = (
 /obj/disposalpipe/segment{
 	dir = 4
@@ -13784,7 +13784,7 @@
 /turf/simulated/floor/caution/east{
 	dir = 8
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aSn" = (
 /obj/cable{
 	d1 = 1;
@@ -13803,13 +13803,13 @@
 	tag = "icon-old_closed (WEST)"
 	},
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aSq" = (
 /obj/disposalpipe/segment{
 	dir = 4
 	},
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aSr" = (
 /obj/disposalpipe/segment{
 	dir = 4
@@ -13827,7 +13827,7 @@
 	},
 /obj/item/paper/abandonedai/A,
 /turf/simulated/floor/wood/two,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aSs" = (
 /obj/disposalpipe/junction{
 	dir = 4;
@@ -13843,7 +13843,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/wood/two,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aSt" = (
 /obj/disposalpipe/segment{
 	dir = 4
@@ -13858,7 +13858,7 @@
 	pixel_y = 8
 	},
 /turf/simulated/floor/wood/two,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aSu" = (
 /obj/item/caution{
 	desc = "Caution! Construction Zone!";
@@ -13868,13 +13868,13 @@
 	dir = 4
 	},
 /turf/simulated/floor/caution/west,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aSv" = (
 /obj/disposalpipe/segment{
 	dir = 4
 	},
 /turf/simulated/floor/wood/two,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aSw" = (
 /obj/disposalpipe/segment{
 	dir = 4
@@ -13885,13 +13885,13 @@
 	tag = "icon-old_closed (WEST)"
 	},
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aSx" = (
 /obj/disposalpipe/junction{
 	dir = 4
 	},
 /turf/simulated/floor/wood/two,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aSy" = (
 /obj/table/auto,
 /obj/item/plate,
@@ -14010,13 +14010,13 @@
 "aSO" = (
 /obj/reagent_dispensers/watertank/fountain,
 /turf/simulated/floor/white/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aSP" = (
 /obj/machinery/plantpot{
 	name = "plant pot"
 	},
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aSQ" = (
 /obj/machinery/light/worn{
 	dir = 1
@@ -14026,7 +14026,7 @@
 "aSR" = (
 /obj/table/wood/auto,
 /turf/simulated/floor/wood/two,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aSS" = (
 /obj/table/wood/auto,
 /obj/item/reagent_containers/food/drinks/mug{
@@ -14034,7 +14034,7 @@
 	pixel_y = 8
 	},
 /turf/simulated/floor/wood/two,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aST" = (
 /obj/cable{
 	d1 = 1;
@@ -14142,11 +14142,11 @@
 	tag = "icon-shrub-dead (SOUTHEAST)"
 	},
 /turf/simulated/floor/white/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aTd" = (
 /obj/machinery/chem_dispenser,
 /turf/simulated/floor/white/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aTf" = (
 /obj/machinery/light/worn{
 	dir = 8
@@ -14156,7 +14156,7 @@
 "aTg" = (
 /obj/machinery/door/unpowered/wood/pyro,
 /turf/simulated/floor/carpet,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aTh" = (
 /obj/item/raw_material/bohrum,
 /obj/item/raw_material/bohrum,
@@ -14226,7 +14226,7 @@
 /obj/item/clothing/suit/bedsheet/red,
 /obj/item/seed/cannabis,
 /turf/simulated/floor/carpet,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aTr" = (
 /obj/machinery/power/solar,
 /obj/cable{
@@ -14246,13 +14246,13 @@
 	pixel_x = -32
 	},
 /turf/simulated/floor/white/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aTt" = (
 /obj/submachine/chef_sink/chem_sink{
 	pixel_y = 15
 	},
 /turf/simulated/floor/white/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aTu" = (
 /obj/machinery/power/solar,
 /obj/cable{
@@ -14337,7 +14337,7 @@
 	tag = "icon-wood1 (NORTH)"
 	},
 /turf/simulated/floor/white/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aTD" = (
 /obj/stool/bed,
 /obj/decal/fakeobjects/skeleton{
@@ -14487,13 +14487,13 @@
 /turf/simulated/floor/caution/east{
 	dir = 8
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aTX" = (
 /obj/cable{
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aTY" = (
 /obj/decal/fakeobjects/skeleton,
 /obj/item/mining_tool/powerhammer,
@@ -14514,7 +14514,7 @@
 /area/space)
 "aUc" = (
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "aUd" = (
 /obj/item/clothing/suit/space/engineer,
 /turf/simulated/floor/plating/airless/asteroid,
@@ -18145,7 +18145,7 @@
 /turf/simulated/floor/specialroom/cafeteria{
 	dir = 1
 	},
-/area/hollowasteroid)
+/area/debris/hollowasteroid)
 "bfG" = (
 /obj/table/wood/auto,
 /obj/item/plate,
@@ -18171,7 +18171,7 @@
 /turf/simulated/floor/specialroom/cafeteria{
 	dir = 1
 	},
-/area/hollowasteroid)
+/area/debris/hollowasteroid)
 "bfJ" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -18187,18 +18187,18 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "delivery"
 	},
-/area/salyut)
+/area/debris/salyut)
 "bfK" = (
 /obj/stool,
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "bfO" = (
 /turf/simulated/floor/specialroom/cafeteria{
 	dir = 1
 	},
-/area/hollowasteroid)
+/area/debris/hollowasteroid)
 "bfP" = (
 /obj/decal/fakeobjects/firelock_broken{
 	density = 1;
@@ -18207,13 +18207,13 @@
 	opacity = 1
 	},
 /turf/simulated/floor,
-/area/hollowasteroid)
+/area/debris/hollowasteroid)
 "bfQ" = (
 /obj/decal/cleanable/blood,
 /turf/simulated/floor/specialroom/cafeteria{
 	dir = 1
 	},
-/area/hollowasteroid)
+/area/debris/hollowasteroid)
 "bfS" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -18227,7 +18227,7 @@
 /turf/simulated/floor/specialroom/cafeteria{
 	dir = 1
 	},
-/area/hollowasteroid)
+/area/debris/hollowasteroid)
 "bfU" = (
 /obj/indestructible/shuttle_corner{
 	dir = 6;
@@ -18253,13 +18253,13 @@
 /turf/simulated/floor/specialroom/cafeteria{
 	dir = 1
 	},
-/area/hollowasteroid)
+/area/debris/hollowasteroid)
 "bgb" = (
 /obj/kitchenspike,
 /turf/simulated/floor/specialroom/cafeteria{
 	dir = 1
 	},
-/area/hollowasteroid)
+/area/debris/hollowasteroid)
 "bgh" = (
 /obj/lattice,
 /obj/decal/floatingtiles{
@@ -18324,10 +18324,10 @@
 /turf/simulated/floor/specialroom/cafeteria{
 	dir = 1
 	},
-/area/hollowasteroid)
+/area/debris/hollowasteroid)
 "bgB" = (
 /turf/simulated/wall/auto/reinforced/old,
-/area/hollowasteroid)
+/area/debris/hollowasteroid)
 "bgC" = (
 /obj/computerframe,
 /turf/simulated/floor/airless/plating/damaged1,
@@ -18455,7 +18455,7 @@
 	icon_state = "0-4"
 	},
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bgS" = (
 /obj/cable{
 	d2 = 8;
@@ -18474,7 +18474,7 @@
 	req_access_txt = ""
 	},
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bgU" = (
 /obj/grille,
 /obj/window/auto/reinforced,
@@ -18484,7 +18484,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bgV" = (
 /obj/cable{
 	d1 = 1;
@@ -18526,7 +18526,7 @@
 	name = "very old robuddy model"
 	},
 /turf/simulated/floor/damaged2,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bgZ" = (
 /obj/decal/fakeobjects{
 	density = 1;
@@ -18536,7 +18536,7 @@
 	name = "very old robuddy model"
 	},
 /turf/simulated/floor/scorched2,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bha" = (
 /obj/cable{
 	d1 = 1;
@@ -18562,11 +18562,11 @@
 /turf/simulated/floor/orangeblack/side{
 	dir = 8
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bhe" = (
 /obj/item/electronics/soldering,
 /turf/simulated/floor/damaged2,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bhf" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	desc = "This light might be broken.  It's probably not wired up, though.";
@@ -18578,7 +18578,7 @@
 	tag = "icon-tube-broken (NORTH)"
 	},
 /turf/simulated/floor/scorched2,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bhg" = (
 /obj/cable{
 	d1 = 1;
@@ -18599,7 +18599,7 @@
 "bhi" = (
 /obj/table/reinforced/auto,
 /turf/simulated/floor,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bhj" = (
 /obj/stool/chair/yellow{
 	dir = 8;
@@ -18611,12 +18611,12 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bhk" = (
 /obj/table/auto,
 /obj/item/clothing/gloves/yellow,
 /turf/simulated/floor,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bhl" = (
 /obj/grille,
 /obj/lattice{
@@ -18635,16 +18635,16 @@
 /area/space)
 "bhn" = (
 /turf/simulated/floor,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bho" = (
 /obj/item/device/igniter,
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bhp" = (
 /obj/table/auto,
 /obj/item/device/multitool,
 /turf/simulated/floor,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bhq" = (
 /obj/grille,
 /obj/grille,
@@ -18657,7 +18657,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/wall/auto/reinforced/supernorn,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bhs" = (
 /obj/cable,
 /obj/cable{
@@ -18672,11 +18672,11 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/engine,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bhu" = (
 /obj/disposalpipe/segment,
 /turf/simulated/wall/auto/reinforced/supernorn,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "bhv" = (
 /obj/machinery/door/airlock/pyro/classic{
 	name = "Development"
@@ -18687,13 +18687,13 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "bhw" = (
 /obj/cable{
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/engine,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bhx" = (
 /obj/cable{
 	d1 = 4;
@@ -18701,7 +18701,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/engine,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bhy" = (
 /obj/grille/catwalk{
 	dir = 10
@@ -18719,7 +18719,7 @@
 	icon_state = "0-2"
 	},
 /turf/space,
-/area/derelict_ai_sat/solar)
+/area/debris/derelict_ai_sat/solar)
 "bhz" = (
 /obj/critter/roach,
 /obj/cable{
@@ -18728,7 +18728,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/engine,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bhA" = (
 /obj/cable{
 	d1 = 1;
@@ -18736,7 +18736,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/engine,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bhB" = (
 /obj/grille/catwalk,
 /obj/cable{
@@ -18753,7 +18753,7 @@
 	},
 /obj/cable,
 /turf/simulated/floor/airless/plating/catwalk,
-/area/derelict_ai_sat/solar)
+/area/debris/derelict_ai_sat/solar)
 "bhC" = (
 /obj/item/cigbutt,
 /turf/space,
@@ -18761,7 +18761,7 @@
 "bhD" = (
 /obj/grille/catwalk,
 /turf/simulated/floor/airless/plating/catwalk,
-/area/derelict_ai_sat/solar)
+/area/debris/derelict_ai_sat/solar)
 "bhE" = (
 /obj/disposalpipe/segment{
 	dir = 2;
@@ -18773,26 +18773,26 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "bhF" = (
 /turf/simulated/floor/scorched2,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "bhG" = (
 /obj/cable{
 	icon_state = "1-4"
 	},
 /obj/item/wirecutters,
 /turf/simulated/floor/engine,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bhH" = (
 /obj/item/crowbar,
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "bhI" = (
 /turf/simulated/floor/caution/corner/misc{
 	dir = 6
 	},
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "bhJ" = (
 /obj/cable{
 	d1 = 1;
@@ -18801,12 +18801,12 @@
 	},
 /obj/disposalpipe/segment,
 /turf/simulated/floor/caution/corner/misc,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "bhK" = (
 /turf/simulated/floor/caution/corner/misc{
 	dir = 10
 	},
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "bhL" = (
 /obj/cable{
 	d1 = 1;
@@ -18816,12 +18816,12 @@
 /turf/simulated/floor/stairs{
 	dir = 1
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bhM" = (
 /turf/simulated/floor/caution/east{
 	dir = 8
 	},
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "bhN" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -18829,7 +18829,7 @@
 /turf/simulated/floor/stairs{
 	dir = 1
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bhO" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 6;
@@ -18841,7 +18841,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bhP" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "It is not working.";
@@ -18851,7 +18851,7 @@
 	name = "pump"
 	},
 /turf/simulated/floor/engine/caution/northsouth,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "bhQ" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 10;
@@ -18861,20 +18861,20 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bhR" = (
 /obj/cable{
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bhS" = (
 /obj/cable{
 	icon_state = "0-2"
 	},
 /obj/machinery/computer/solar_control/derelict_ai_sat,
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bhT" = (
 /obj/cable{
 	d1 = 1;
@@ -18883,7 +18883,7 @@
 	},
 /obj/grille/catwalk,
 /turf/simulated/floor/airless/plating/catwalk,
-/area/derelict_ai_sat/solar)
+/area/debris/derelict_ai_sat/solar)
 "bhU" = (
 /obj/grille/catwalk{
 	dir = 4
@@ -18893,12 +18893,12 @@
 	dir = 8;
 	tag = "icon-catwalk (WEST)"
 	},
-/area/derelict_ai_sat/solar)
+/area/debris/derelict_ai_sat/solar)
 "bhV" = (
 /turf/simulated/floor/caution/corner/misc{
 	dir = 4
 	},
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "bhW" = (
 /obj/cable{
 	d1 = 1;
@@ -18919,7 +18919,7 @@
 /turf/simulated/floor/delivery{
 	dir = 4
 	},
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "bhX" = (
 /obj/decal/fakeobjects/pipe,
 /obj/cable{
@@ -18931,7 +18931,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bhY" = (
 /obj/cable{
 	icon_state = "4-8"
@@ -18944,7 +18944,7 @@
 	},
 /turf/space,
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bhZ" = (
 /obj/grille/catwalk{
 	dir = 4
@@ -18961,7 +18961,7 @@
 	dir = 8;
 	tag = "icon-catwalk (WEST)"
 	},
-/area/derelict_ai_sat/solar)
+/area/debris/derelict_ai_sat/solar)
 "bia" = (
 /obj/cable,
 /obj/cable{
@@ -18985,7 +18985,7 @@
 	dir = 5;
 	icon_state = "catwalk_cross"
 	},
-/area/derelict_ai_sat/solar)
+/area/debris/derelict_ai_sat/solar)
 "bib" = (
 /obj/cable,
 /obj/cable{
@@ -19008,7 +19008,7 @@
 	dir = 5;
 	icon_state = "catwalk_cross"
 	},
-/area/derelict_ai_sat/solar)
+/area/debris/derelict_ai_sat/solar)
 "bic" = (
 /obj/cable{
 	d2 = 8;
@@ -19025,17 +19025,17 @@
 	icon_state = "2-5"
 	},
 /turf/simulated/floor/airless/plating/catwalk,
-/area/derelict_ai_sat/solar)
+/area/debris/derelict_ai_sat/solar)
 "bie" = (
 /turf/simulated/floor/plating/scorched,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bif" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 1;
 	tag = "icon-intact (NORTH)"
 	},
 /turf/simulated/floor/plating/scorched,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "big" = (
 /obj/cable{
 	d1 = 1;
@@ -19046,28 +19046,28 @@
 /turf/simulated/floor/stairs{
 	dir = 0
 	},
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "bih" = (
 /obj/decal/fakeobjects/pipe,
 /obj/cable{
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating/scorched,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bii" = (
 /obj/grille/catwalk,
 /obj/cable{
 	icon_state = "1-10"
 	},
 /turf/simulated/floor/airless/plating/catwalk,
-/area/derelict_ai_sat/solar)
+/area/debris/derelict_ai_sat/solar)
 "bij" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 5;
 	tag = "icon-intact (NORTHEAST)"
 	},
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bik" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 9;
@@ -19077,7 +19077,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bil" = (
 /obj/cable,
 /obj/cable{
@@ -19089,7 +19089,7 @@
 /area/space)
 "bim" = (
 /turf/simulated/floor/scorched,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "bin" = (
 /obj/cable{
 	icon_state = "0-2"
@@ -19103,7 +19103,7 @@
 /area/space)
 "bio" = (
 /turf/simulated/floor/engine,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bip" = (
 /obj/cable{
 	icon_state = "4-8"
@@ -19111,7 +19111,7 @@
 /turf/simulated/floor/caution/corner/misc{
 	dir = 9
 	},
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "biq" = (
 /obj/cable{
 	d2 = 8;
@@ -19132,20 +19132,20 @@
 	tag = "icon-apc-b (EAST)"
 	},
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "bir" = (
 /obj/cable{
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/engine,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bis" = (
 /obj/reagent_dispensers/fueltank,
 /turf/simulated/floor/engine,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bit" = (
 /turf/simulated/floor/damaged5,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "biu" = (
 /obj/disposalpipe/segment,
 /obj/machinery/derelict_aiboss/tower,
@@ -19155,13 +19155,13 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/bot,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "biv" = (
 /obj/cable{
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/engine,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bix" = (
 /obj/cable{
 	d1 = 1;
@@ -19169,7 +19169,7 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/engine,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "biy" = (
 /obj/disposalpipe/segment,
 /obj/machinery/light{
@@ -19185,7 +19185,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/yellow/side,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "biz" = (
 /obj/decal/fakeobjects/firelock_broken{
 	desc = "Rust has rendered this airlock useless.";
@@ -19197,7 +19197,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/bot,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "biA" = (
 /obj/grille/catwalk{
 	dir = 6
@@ -19206,7 +19206,7 @@
 	dir = 5;
 	icon_state = "catwalk_cross"
 	},
-/area/derelict_ai_sat/solar)
+/area/debris/derelict_ai_sat/solar)
 "biB" = (
 /obj/table/auto,
 /obj/window/cubicle{
@@ -19214,7 +19214,7 @@
 	},
 /obj/item/paper_bin,
 /turf/simulated/floor/grey/blackgrime/other,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "biC" = (
 /obj/table/auto,
 /obj/decal/fakeobjects{
@@ -19227,7 +19227,7 @@
 	},
 /obj/decal/cleanable/cobweb2,
 /turf/simulated/floor/grey/blackgrime/other,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "biD" = (
 /obj/disposalpipe/segment,
 /obj/cable{
@@ -19236,7 +19236,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/wall/auto/reinforced/supernorn,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "biE" = (
 /obj/item/storage/secure/ssafe/loot{
 	pixel_x = 6;
@@ -19252,7 +19252,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/scorched2,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "biG" = (
 /obj/machinery/power/furnace,
 /obj/cable{
@@ -19260,7 +19260,7 @@
 	icon_state = "0-8"
 	},
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "biH" = (
 /obj/grille/catwalk{
 	dir = 6
@@ -19278,13 +19278,13 @@
 	dir = 5;
 	icon_state = "catwalk_cross"
 	},
-/area/derelict_ai_sat/solar)
+/area/debris/derelict_ai_sat/solar)
 "biI" = (
 /obj/window/cubicle{
 	dir = 8
 	},
 /turf/simulated/floor/grey/blackgrime/other,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "biJ" = (
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/h7)
@@ -19297,7 +19297,7 @@
 	},
 /obj/decal/cleanable/oil,
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "biL" = (
 /obj/machinery/power/data_terminal,
 /obj/cable{
@@ -19323,7 +19323,7 @@
 /obj/item/screwdriver,
 /obj/item/storage/firstaid/old,
 /turf/simulated/floor/scorched2,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "biN" = (
 /obj/machinery/door/unpowered/shuttle{
 	autoclose = 1;
@@ -19349,7 +19349,7 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "biR" = (
 /obj/machinery/light/small,
 /obj/storage/closet,
@@ -19479,7 +19479,7 @@
 /area/space)
 "bjk" = (
 /turf/simulated/wall/auto/reinforced/old,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "bjl" = (
 /obj/machinery/shuttle/engine/heater{
 	icon_state = "alt_heater-L"
@@ -19491,19 +19491,19 @@
 /obj/npc/trader/skeleton,
 /obj/map/light/green,
 /turf/simulated/floor/grime,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "bjo" = (
 /turf/simulated/floor/scorched,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "bjp" = (
 /obj/machinery/door/airlock/pyro/classic{
 	dir = 4
 	},
 /turf/simulated/floor/grime,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "bjq" = (
 /turf/simulated/floor/grime,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "bjr" = (
 /obj/marker/supplymarker,
 /obj/submachine/ATM{
@@ -19511,7 +19511,7 @@
 	},
 /obj/decal/fakeobjects/teleport_pad,
 /turf/simulated/floor/grime,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "bjs" = (
 /obj/table/auto,
 /obj/item/paper,
@@ -19519,15 +19519,15 @@
 /obj/item/c_tube,
 /obj/item/clothing/head/bandana/red,
 /turf/simulated/floor/grime,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "bjt" = (
 /obj/storage/crate/loot,
 /turf/simulated/floor/grime,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "bju" = (
 /obj/storage/crate/loot,
 /turf/simulated/floor/damaged2,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "bjv" = (
 /obj/table/auto,
 /obj/item/cable_coil/cut{
@@ -19537,7 +19537,7 @@
 /obj/item/disk/data/floppy,
 /obj/item/electronics/capacitor,
 /turf/simulated/floor/grime,
-/area/skeleton_trader)
+/area/traders/skeleton_trader)
 "bjw" = (
 /obj/machinery/shuttle/engine/heater{
 	icon_state = "alt_heater-M"
@@ -19645,7 +19645,7 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "bjO" = (
 /obj/reagent_dispensers/beerkeg,
 /turf/simulated/floor/longtile/black,
@@ -19667,7 +19667,7 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "bjW" = (
 /obj/decal/cleanable/machine_debris,
 /obj/decal/fakeobjects/pipe{
@@ -19681,7 +19681,7 @@
 	name = "defunct vent"
 	},
 /turf/simulated/floor/plating,
-/area/salyut)
+/area/debris/salyut)
 "bjZ" = (
 /obj/decal/cleanable/machine_debris{
 	icon_state = "gib7"
@@ -19690,13 +19690,13 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "bka" = (
 /obj/item/raw_material/shard/plasmacrystal,
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "bkb" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -19708,11 +19708,11 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "bkc" = (
 /obj/storage/crate/loot,
 /turf/simulated/floor/plating/airless,
-/area/salyut)
+/area/debris/salyut)
 "bkg" = (
 /obj/item/cable_coil/cut{
 	icon_state = "coil1"
@@ -19720,13 +19720,13 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "bkh" = (
 /obj/decal/cleanable/blood/splatter,
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "bkj" = (
 /obj/decal/poster/wallsign{
 	desc = "This navigational marker indicates a hazardous zone of space.";
@@ -19742,13 +19742,13 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "bkm" = (
 /obj/item/raw_material/shard/glass,
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "bkn" = (
 /obj/lattice{
 	dir = 1;
@@ -19767,7 +19767,7 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "bkp" = (
 /obj/storage/crate,
 /obj/item/storage/box/record/radio/chronoquest,
@@ -19784,19 +19784,19 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "bkr" = (
 /obj/landmark/artifact,
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "bks" = (
 /obj/storage/crate/bloody,
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "bku" = (
 /obj/decal/cleanable/machine_debris,
 /obj/window{
@@ -19809,7 +19809,7 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "bkv" = (
 /obj/storage/crate/bloody,
 /turf/space,
@@ -19827,7 +19827,7 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor3"
 	},
-/area/salyut)
+/area/debris/salyut)
 "bkx" = (
 /obj/critter/gunbot/drone/buzzdrone{
 	wanderer = 0
@@ -20032,7 +20032,7 @@
 "blh" = (
 /obj/item/storage/firstaid/old,
 /turf/simulated/floor/white/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bli" = (
 /obj/table/auto,
 /obj/item/motherboard{
@@ -20041,7 +20041,7 @@
 	name = "circuitboard"
 	},
 /turf/simulated/floor/circuit/vintage,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "blj" = (
 /obj/item/electronics/fuse,
 /turf/space,
@@ -20054,7 +20054,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "blm" = (
 /obj/table/auto,
 /obj/item/motherboard{
@@ -20063,7 +20063,7 @@
 	name = "circuitboard"
 	},
 /turf/simulated/floor/circuit/vintage,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bln" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "Part of a system for hauling oversized crates.";
@@ -20111,7 +20111,7 @@
 	tag = "icon-satanai_dapedeck1 (SOUTHEAST)"
 	},
 /turf/simulated/floor,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "blt" = (
 /obj/item/raw_material/scrap_metal,
 /turf/space,
@@ -20168,14 +20168,14 @@
 /turf/simulated/floor/caution/east{
 	dir = 8
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "blA" = (
 /obj/item/storage/wall/fire{
 	dir = 8;
 	pixel_x = 32
 	},
 /turf/simulated/floor/white/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "blB" = (
 /obj/stool/chair/wooden{
 	dir = 4
@@ -20185,7 +20185,7 @@
 	icon_state = "red2";
 	tag = "icon-red2 (NORTHWEST)"
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "blC" = (
 /obj/table/wood/round/auto,
 /obj/item/storage/box/nerd_kit{
@@ -20203,7 +20203,7 @@
 	icon_state = "red2";
 	tag = "icon-red2 (NORTHEAST)"
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "blD" = (
 /obj/cable{
 	icon_state = "1-8"
@@ -20212,12 +20212,12 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "blE" = (
 /obj/table/auto,
 /obj/item/staple_gun,
 /turf/simulated/floor/white/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "blF" = (
 /obj/lattice,
 /obj/structure/girder/displaced,
@@ -20361,7 +20361,7 @@
 	pixel_y = 6
 	},
 /turf/simulated/floor/white/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bmt" = (
 /obj/indestructible/shuttle_corner{
 	dir = 8;
@@ -20381,10 +20381,10 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bmv" = (
 /turf/simulated/floor/caution/west,
-/area/derelict_ai_sat/core)
+/area/debris/derelict_ai_sat/core)
 "bmw" = (
 /obj/decal/fakeobjects/shuttleengine{
 	dir = 4;
@@ -20780,7 +20780,7 @@
 	pixel_x = 10
 	},
 /turf/simulated/floor/wood/two,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bAg" = (
 /obj/decal/cleanable/dirt,
 /obj/table/auto,
@@ -20795,7 +20795,7 @@
 	},
 /obj/machinery/disposal,
 /turf/simulated/floor/wood/two,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "bCL" = (
 /obj/map/light/cyan,
 /obj/decal/fakeobjects{
@@ -20808,18 +20808,18 @@
 	name = "broken computer"
 	},
 /turf/unsimulated/floor/black,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "bHM" = (
 /obj/decal/fakeobjects/shuttlethruster{
 	dir = 8
 	},
 /turf/unsimulated/floor/void/timewarp,
-/area/timewarp)
+/area/debris/timewarp)
 "bKs" = (
 /turf/unsimulated/floor/specialroom/chapel{
 	dir = 1
 	},
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "bNu" = (
 /obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
@@ -20829,7 +20829,7 @@
 	dir = 4
 	},
 /turf/unsimulated/floor/specialroom/freezer,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "bPL" = (
 /obj/effects/background_objects/station/ss10{
 	pixel_x = -96;
@@ -20879,7 +20879,7 @@
 	name = "Bathroom"
 	},
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "cCd" = (
 /obj/decal/fakeobjects/firelock_broken{
 	desc = "This shuttle door is really jammed.  It might as well not even be a door.  What a lousy door.  Fuck this door, man, just... just...  FUCK YOU, DOOR.";
@@ -20894,7 +20894,7 @@
 	dir = 4
 	},
 /turf/unsimulated/floor/black,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "cSy" = (
 /obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
@@ -20917,7 +20917,7 @@
 /obj/stool/bed,
 /obj/item/clothing/suit/bedsheet,
 /turf/unsimulated/floor/white/grime,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "cZx" = (
 /turf/space,
 /turf/simulated/wall/auto/reinforced/supernorn,
@@ -20948,7 +20948,7 @@
 	dir = 4
 	},
 /turf/space,
-/area/timewarp)
+/area/debris/timewarp)
 "dfC" = (
 /obj/item/clothing/under/gimmick/blackstronaut,
 /turf/simulated/floor/sanitary,
@@ -20976,7 +20976,7 @@
 /turf/unsimulated/floor/specialroom/chapel{
 	dir = 8
 	},
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "dDa" = (
 /obj/indestructible/shuttle_corner{
 	dir = 4;
@@ -21000,7 +21000,7 @@
 	icon_state = "lattice-dir"
 	},
 /turf/unsimulated/floor/void/timewarp,
-/area/timewarp)
+/area/debris/timewarp)
 "dPE" = (
 /obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
@@ -21010,13 +21010,13 @@
 	dir = 5;
 	icon_state = "fred2"
 	},
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "dYc" = (
 /obj/submachine/chef_sink/chem_sink{
 	dir = 8
 	},
 /turf/unsimulated/floor/specialroom/freezer,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "elM" = (
 /obj/decal/tile_edge/stripe/big,
 /obj/decal/tile_edge/stripe/big{
@@ -21068,7 +21068,7 @@
 	pixel_y = 3
 	},
 /turf/simulated/floor/white/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "fee" = (
 /obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor,
@@ -21109,13 +21109,13 @@
 "fSH" = (
 /obj/machinery/door/airlock/pyro,
 /turf/unsimulated/floor/black,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "fVj" = (
 /obj/stool/chair/office{
 	dir = 1
 	},
 /turf/unsimulated/floor/black,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "fVD" = (
 /obj/decal/floatingtiles{
 	icon_state = "floattiles2"
@@ -21149,7 +21149,7 @@
 "gko" = (
 /obj/item/extinguisher,
 /turf/simulated/floor/scorched2,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "gmE" = (
 /obj/cable{
 	d2 = 8;
@@ -21161,11 +21161,11 @@
 	},
 /obj/machinery/power/data_terminal,
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "gpl" = (
 /obj/machinery/door/airlock/pyro/external,
 /turf/unsimulated/floor,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "gqA" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -21185,7 +21185,7 @@
 	},
 /obj/submachine/chef_sink,
 /turf/unsimulated/floor/black,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "gwR" = (
 /obj/critter/ancient_repairbot/helldrone_guard,
 /turf/simulated/floor/black,
@@ -21223,7 +21223,7 @@
 /area/debris/abandonedmedicalship/robot_trader)
 "gZf" = (
 /turf/unsimulated/floor/specialroom/chapel,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "hkh" = (
 /obj/machinery/camera{
 	c_tag = "autotag";
@@ -21255,7 +21255,7 @@
 	icon = 'icons/obj/atmospherics/pipe_vent.dmi'
 	},
 /turf/unsimulated/floor/black,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "hpt" = (
 /obj/wingrille_spawn/auto/reinforced,
 /turf/space,
@@ -21282,17 +21282,17 @@
 /turf/unsimulated/floor/stairs{
 	dir = 8
 	},
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "hHG" = (
 /obj/storage/secure/closet/fridge/kitchen,
 /turf/unsimulated/floor/black,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "hLK" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4
 	},
 /turf/unsimulated/floor,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "hQa" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -21321,7 +21321,7 @@
 	},
 /obj/map/light/cyan,
 /turf/unsimulated/floor/black,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "ilw" = (
 /obj/overlay{
 	density = 1;
@@ -21332,7 +21332,7 @@
 	},
 /obj/map/light/cyan,
 /turf/unsimulated/floor/black,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "ivG" = (
 /obj/noticeboard{
 	pixel_x = 10
@@ -21344,7 +21344,7 @@
 /obj/table/auto,
 /obj/item/device/audio_log/timewarp_01,
 /turf/unsimulated/floor/black,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "iIc" = (
 /obj/critter/gunbot/drone/heavydrone,
 /turf/simulated/floor/plating/airless/asteroid,
@@ -21355,7 +21355,7 @@
 	welded = 1
 	},
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "iUX" = (
 /obj/cable{
 	d1 = 4;
@@ -21381,7 +21381,7 @@
 /area/mining/hangar)
 "iZM" = (
 /turf/unsimulated/floor/void/timewarp,
-/area/timewarp)
+/area/debris/timewarp)
 "jfw" = (
 /obj/decal/fakeobjects/shuttleengine{
 	icon_state = "alt_heater"
@@ -21397,7 +21397,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/wood/two,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "jmg" = (
 /turf/unsimulated/floor/specialroom/freezer,
 /area/debris/helldrone)
@@ -21441,14 +21441,14 @@
 	dir = 1
 	},
 /turf/space,
-/area/timewarp)
+/area/debris/timewarp)
 "jGA" = (
 /obj/cable{
 	d2 = 8;
 	icon_state = "0-8"
 	},
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "jGV" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 9
@@ -21480,7 +21480,7 @@
 	},
 /obj/critter/roach,
 /turf/simulated/floor/white/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "jRX" = (
 /obj/item/device/radio/intercom/engineering{
 	dir = 4
@@ -21551,7 +21551,7 @@
 	dir = 5
 	},
 /turf/space,
-/area/timewarp)
+/area/debris/timewarp)
 "kyG" = (
 /obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
@@ -21564,10 +21564,10 @@
 /obj/table/auto,
 /obj/item/pen,
 /turf/unsimulated/floor/black,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "kOK" = (
 /turf/unsimulated/floor,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "kRB" = (
 /obj/indestructible/shuttle_corner{
 	dir = 8;
@@ -21621,7 +21621,7 @@
 	dir = 6
 	},
 /turf/space,
-/area/timewarp)
+/area/debris/timewarp)
 "lpI" = (
 /obj/machinery/door/unpowered/shuttle{
 	autoclose = 1;
@@ -21654,7 +21654,7 @@
 /turf/simulated/floor/caution/corner/misc{
 	dir = 5
 	},
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "lCx" = (
 /obj/grille/catwalk{
 	dir = 10;
@@ -21675,13 +21675,13 @@
 	pixel_y = 10
 	},
 /turf/unsimulated/floor/black,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "lIC" = (
 /obj/map/light/cyan,
 /turf/unsimulated/wall/setpieces/leadwindow{
 	icon_state = "leadwindow_2"
 	},
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "lLK" = (
 /obj/cable,
 /obj/cable{
@@ -21703,13 +21703,13 @@
 	dir = 9;
 	icon_state = "fred2"
 	},
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "lOb" = (
 /obj/machinery/door/unpowered/wood/pyro{
 	dir = 4
 	},
 /turf/simulated/floor/carpet,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "lQX" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -21734,7 +21734,7 @@
 /turf/unsimulated/floor/stairs{
 	dir = 4
 	},
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "lZu" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "It won't budge.";
@@ -21744,7 +21744,7 @@
 	name = "rusted valve"
 	},
 /turf/unsimulated/floor/plating/scorched,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "lZW" = (
 /obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
@@ -21773,7 +21773,7 @@
 /area/debris/helldrone)
 "miz" = (
 /turf/unsimulated/wall/auto/lead/blue,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "mtO" = (
 /obj/decal/fakeobjects/shuttleengine{
 	dir = 4;
@@ -21789,7 +21789,7 @@
 	dir = 4
 	},
 /turf/space,
-/area/timewarp)
+/area/debris/timewarp)
 "mvO" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -21808,7 +21808,7 @@
 /obj/map/light/cyan,
 /obj/table/auto,
 /turf/unsimulated/floor/black,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "mxN" = (
 /obj/decal/fakeobjects/lightbulb_broken,
 /turf/simulated/floor/plating,
@@ -21861,14 +21861,14 @@
 /turf/unsimulated/floor/caution/corner/sw{
 	dir = 1
 	},
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "mSk" = (
 /obj/item/storage/wall/random,
 /obj/stool/bed,
 /obj/item/clothing/suit/bedsheet/red,
 /obj/decal/cleanable/cobweb2,
 /turf/simulated/floor/carpet,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "mSx" = (
 /obj/item/storage/toilet{
 	dir = 4
@@ -21881,7 +21881,7 @@
 	dir = 8
 	},
 /turf/unsimulated/floor/white/grime,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "mXB" = (
 /turf/simulated/shuttle/wall{
 	dir = 4;
@@ -21918,7 +21918,7 @@
 /turf/unsimulated/floor/specialroom/chapel{
 	dir = 4
 	},
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "nfg" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -21973,12 +21973,12 @@
 	dir = 1
 	},
 /turf/simulated/floor,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "npr" = (
 /turf/unsimulated/floor/stairs/wide/other{
 	dir = 4
 	},
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "nql" = (
 /obj/effects/background_objects/fatuus,
 /turf/space,
@@ -22034,7 +22034,7 @@
 "nDp" = (
 /obj/decal/float/clock,
 /turf/unsimulated/floor/void/timewarp,
-/area/timewarp)
+/area/debris/timewarp)
 "nLp" = (
 /obj/stool/chair,
 /turf/simulated/floor/airless/scorched,
@@ -22048,7 +22048,7 @@
 	dir = 8
 	},
 /turf/space,
-/area/timewarp)
+/area/debris/timewarp)
 "nQg" = (
 /obj/indestructible/shuttle_corner{
 	dir = 8;
@@ -22067,10 +22067,10 @@
 	dir = 10;
 	icon_state = "fred2"
 	},
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "nYg" = (
 /turf/unsimulated/wall/auto/adventure/shuttle,
-/area/salyut)
+/area/debris/salyut)
 "odf" = (
 /obj/lattice{
 	dir = 4;
@@ -22089,7 +22089,7 @@
 	dir = 4
 	},
 /turf/space,
-/area/timewarp)
+/area/debris/timewarp)
 "oeL" = (
 /obj/decal/cleanable/robot_debris/limb,
 /turf/simulated/floor/plating/airless/asteroid,
@@ -22106,7 +22106,7 @@
 "onD" = (
 /obj/item/sponge,
 /turf/simulated/floor/white/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "oqh" = (
 /turf/simulated/shuttle/wall{
 	dir = 6;
@@ -22154,13 +22154,13 @@
 	name = "broken machine"
 	},
 /turf/unsimulated/floor/caution/corner/ne,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "oIk" = (
 /obj/machinery/door/airlock/pyro/medical{
 	req_access_txt = ""
 	},
 /turf/unsimulated/floor/black,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "oNd" = (
 /obj/table/auto,
 /obj/item/clothing/gloves/yellow,
@@ -22201,7 +22201,7 @@
 /turf/simulated/floor/carpet{
 	icon_state = "fred2"
 	},
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "oXF" = (
 /obj/wingrille_spawn/auto/reinforced,
 /obj/window_blinds/cog2/middle{
@@ -22288,7 +22288,7 @@
 /turf/unsimulated/floor/specialroom/chapel{
 	dir = 1
 	},
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "puV" = (
 /obj/decal/timeplug{
 	dir = 1
@@ -22297,7 +22297,7 @@
 	dir = 8
 	},
 /turf/space,
-/area/timewarp)
+/area/debris/timewarp)
 "pvG" = (
 /turf/unsimulated/wall{
 	icon = 'icons/turf/shuttle.dmi';
@@ -22331,7 +22331,7 @@
 	icon_state = "pipe-c"
 	},
 /turf/simulated/floor,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "pPj" = (
 /obj/grille/catwalk{
 	dir = 4
@@ -22405,7 +22405,7 @@
 "qtC" = (
 /obj/structure/woodwall,
 /turf/simulated/floor/plating/airless,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "qyC" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -22424,7 +22424,7 @@
 /obj/item/clothing/mask/breath,
 /obj/item/clothing/head/helmet/space,
 /turf/unsimulated/floor,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "qBE" = (
 /obj/lattice{
 	dir = 1;
@@ -22439,7 +22439,7 @@
 /turf/unsimulated/floor/specialroom/chapel{
 	dir = 8
 	},
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "qLo" = (
 /obj/decal/timeplug{
 	dir = 4
@@ -22448,14 +22448,14 @@
 	dir = 1
 	},
 /turf/space,
-/area/timewarp)
+/area/debris/timewarp)
 "qMg" = (
 /obj/decal/fakeobjects/pipe{
 	icon = 'icons/obj/atmospherics/pipes/manifold_pipe.dmi';
 	icon_state = "manifold"
 	},
 /turf/unsimulated/floor,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "qWc" = (
 /obj/machinery/door/airlock/pyro/classic{
 	dir = 4
@@ -22471,7 +22471,7 @@
 	dir = 8
 	},
 /turf/unsimulated/floor/white/grime,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "rbG" = (
 /turf/simulated/floor/carpet/office,
 /area/mining/hangar)
@@ -22490,7 +22490,7 @@
 /obj/table/auto,
 /obj/item/device/audio_log/timewarp_00,
 /turf/unsimulated/floor/black,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "rjV" = (
 /obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/black,
@@ -22544,7 +22544,7 @@
 	name = "Crew Quarters"
 	},
 /turf/unsimulated/floor/black,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "rKg" = (
 /obj/machinery/door/airlock/pyro{
 	dir = 4
@@ -22561,13 +22561,13 @@
 "rLE" = (
 /obj/item/gun/energy/phaser_gun,
 /turf/unsimulated/floor/black,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "rNi" = (
 /turf/unsimulated/wall/setpieces/leadwindow{
 	dir = 4;
 	icon_state = "leadwindow_2"
 	},
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "rPb" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 8;
@@ -22575,7 +22575,7 @@
 	icon_state = "manifold"
 	},
 /turf/unsimulated/floor,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "rRX" = (
 /obj/lattice{
 	dir = 4;
@@ -22613,19 +22613,19 @@
 	dir = 10
 	},
 /turf/space,
-/area/timewarp)
+/area/debris/timewarp)
 "spG" = (
 /obj/machinery/light/small,
 /turf/unsimulated/floor/specialroom/chapel{
 	dir = 4
 	},
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "stE" = (
 /obj/decal/timeplug{
 	dir = 9
 	},
 /turf/space,
-/area/timewarp)
+/area/debris/timewarp)
 "suJ" = (
 /obj/grille/catwalk{
 	dir = 5;
@@ -22647,7 +22647,7 @@
 /turf/unsimulated/floor{
 	icon_state = "corner_east"
 	},
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "syh" = (
 /obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
@@ -22658,7 +22658,7 @@
 	dir = 8
 	},
 /turf/unsimulated/wall/auto/lead/blue,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "sFV" = (
 /obj/machinery/computer/pathology{
 	dir = 4
@@ -22682,7 +22682,7 @@
 /turf/unsimulated/floor/stairs/wide{
 	dir = 4
 	},
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "sQW" = (
 /obj/storage/crate/internals,
 /obj/item/clothing/mask/breath,
@@ -22721,18 +22721,18 @@
 	name = "broken computer"
 	},
 /turf/unsimulated/floor/black,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "sWF" = (
 /obj/decal/timeplug{
 	dir = 4
 	},
 /obj/decal/timeplug,
 /turf/space,
-/area/timewarp)
+/area/debris/timewarp)
 "sYg" = (
 /obj/decal/timeplug,
 /turf/space,
-/area/timewarp)
+/area/debris/timewarp)
 "sYT" = (
 /obj/storage/closet/welding_supply,
 /turf/simulated/floor/orangeblack/side{
@@ -22757,7 +22757,7 @@
 	},
 /obj/item/cable_coil,
 /turf/simulated/floor/white/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "tin" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -22775,7 +22775,7 @@
 "tlX" = (
 /obj/storage/cart,
 /turf/simulated/floor/white/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "tob" = (
 /obj/item/caution{
 	desc = "Caution! No trespassing!";
@@ -22795,7 +22795,7 @@
 /obj/item/clothing/suit/bedsheet/red,
 /obj/item/storage/bible/mini,
 /turf/simulated/floor/carpet,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "tJT" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -22807,13 +22807,13 @@
 	dir = 1
 	},
 /turf/unsimulated/floor/white,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "tXj" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 6
 	},
 /turf/unsimulated/floor/plating/scorched,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "ufh" = (
 /obj/item/tank/oxygen,
 /turf/simulated/floor/plating,
@@ -22860,7 +22860,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/scorched2,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "utd" = (
 /obj/decal/cleanable/robot_debris/gib,
 /turf/simulated/floor/plating/airless/asteroid,
@@ -22954,17 +22954,17 @@
 "vkQ" = (
 /obj/storage/secure/closet/medical/medicine,
 /turf/unsimulated/floor/white,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "vnG" = (
 /turf/unsimulated/floor/black,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "vrI" = (
 /obj/stool/chair,
 /turf/simulated/floor/black,
 /area/mining/quarters)
 "vue" = (
 /turf/unsimulated/floor/white/grime,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "vvu" = (
 /obj/cable{
 	d2 = 4;
@@ -22972,11 +22972,11 @@
 	},
 /obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "vws" = (
 /obj/map/light/cyan,
 /turf/unsimulated/floor/black,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "vBz" = (
 /turf/simulated/floor,
 /area/debris/helldrone)
@@ -22992,7 +22992,7 @@
 /turf/unsimulated/floor/specialroom/chapel{
 	dir = 8
 	},
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "vHl" = (
 /obj/machinery/bathtub{
 	anchored = 1;
@@ -23000,7 +23000,7 @@
 	},
 /obj/item/rubberduck,
 /turf/simulated/floor/white/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "vNX" = (
 /obj/machinery/door/airlock/pyro/classic{
 	dir = 4
@@ -23036,18 +23036,18 @@
 	dir = 4
 	},
 /turf/simulated/floor/white/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "vSu" = (
 /turf/unsimulated/floor/specialroom/chapel{
 	dir = 4
 	},
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "vWU" = (
 /turf/simulated/floor/carpet{
 	dir = 1;
 	icon_state = "fred2"
 	},
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "wav" = (
 /obj/machinery/portable_atmospherics/pump,
 /turf/simulated/floor/airless/caution/northsouth,
@@ -23092,7 +23092,7 @@
 	dir = 9
 	},
 /turf/unsimulated/floor,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "wvX" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 8;
@@ -23101,7 +23101,7 @@
 /turf/unsimulated/floor/specialroom/chapel{
 	dir = 1
 	},
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "wwZ" = (
 /obj/indestructible/shuttle_corner{
 	dir = 4;
@@ -23154,10 +23154,10 @@
 /obj/item/screwdriver,
 /obj/decal/fakeobjects/skeleton,
 /turf/unsimulated/floor/black,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "wLE" = (
 /turf/unsimulated/floor/caution/corner/nw,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "wNJ" = (
 /obj/reagent_dispensers/beerkeg,
 /obj/machinery/light/small/cool{
@@ -23219,7 +23219,7 @@
 	dir = 6;
 	icon_state = "fred2"
 	},
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "xiB" = (
 /obj/indestructible/shuttle_corner{
 	icon_state = "wall_trans"
@@ -23238,11 +23238,11 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "xoi" = (
 /obj/item/scissors,
 /turf/simulated/floor/grime,
-/area/derelict_ai_sat)
+/area/debris/derelict_ai_sat)
 "xpu" = (
 /obj/indestructible/shuttle_corner{
 	dir = 5;
@@ -23263,7 +23263,7 @@
 /area/tech_outpost)
 "xpZ" = (
 /turf/unsimulated/floor/white,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "xrp" = (
 /obj/wingrille_spawn/auto/reinforced,
 /obj/window_blinds/cog2/left,
@@ -23285,7 +23285,7 @@
 	dir = 8
 	},
 /turf/space,
-/area/timewarp)
+/area/debris/timewarp)
 "xEm" = (
 /obj/item/clothing/head/helmet/space/blackstronaut,
 /turf/simulated/floor/white/grime,
@@ -23302,7 +23302,7 @@
 	dir = 8
 	},
 /turf/unsimulated/wall/auto/lead/blue,
-/area/timewarp/ship)
+/area/debris/timewarp/ship)
 "xHN" = (
 /obj/machinery/door/airlock/pyro/external,
 /turf/simulated/floor/orangeblack,

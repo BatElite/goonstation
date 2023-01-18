@@ -688,7 +688,7 @@
 /obj/npc/trader/martian
 	icon_state = "martianP"
 	picture = "martian.png"
-	trader_area = "/area/debris/martian_trader"
+	trader_area = "/area/traders/martian_trader"
 	angrynope = "Not now, human."
 	whotext = "I am a simple martian, looking to trade."
 
@@ -986,7 +986,7 @@
 	icon_state = "bee"
 	picture = "bee.png"
 	name = "Bombini" // like the tribe of bumblebees
-	trader_area = "/area/bee_trader"
+	trader_area = "/area/traders/bee_trader"
 
 	New()
 		..()
@@ -1161,7 +1161,7 @@
 	icon_state = "skeleton"
 	picture = "skeleton.png"
 	name = "Clack Hat"
-	trader_area = "/area/skeleton_trader"
+	trader_area = "/area/traders/skeleton_trader"
 	angrynope = "Not now."
 	whotext = "I am a trader."
 

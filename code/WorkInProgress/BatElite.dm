@@ -10,6 +10,8 @@ Swimming:
 	-linked_hole doesn't really ever get updated if the hole being linked is patched up, do you can swim up through floors :V
 	-is it possible to have the verbs unhyphenated?
 
+/area/martian_trader is just 4 turfs between oshan/Z5, what's up with that
+
 Pod weapons:
 
 -Class A phaser (base type)
