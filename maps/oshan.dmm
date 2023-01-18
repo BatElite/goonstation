@@ -18698,14 +18698,14 @@
 	pixel_y = 1
 	},
 /turf/simulated/floor/plating,
-/area/iss)
+/area/debris/iss)
 "aUm" = (
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
-/area/iss)
+/area/debris/iss)
 "aUn" = (
 /obj/machinery/drainage/big,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aUo" = (
 /turf/unsimulated/wall/auto/adventure/martian,
 /area/space)
@@ -18730,7 +18730,7 @@
 /area/space)
 "aUv" = (
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
-/area/abandonedmedicalship/robot_trader)
+/area/debris/abandonedmedicalship/robot_trader)
 "aUw" = (
 /turf/simulated/martian/wall{
 	dir = 4;
@@ -18771,10 +18771,10 @@
 "aUB" = (
 /obj/storage/secure/closet/medical/anesthetic,
 /turf/simulated/floor/white/grime,
-/area/abandonedmedicalship/robot_trader)
+/area/debris/abandonedmedicalship/robot_trader)
 "aUC" = (
 /turf/simulated/floor/white/grime,
-/area/abandonedmedicalship/robot_trader)
+/area/debris/abandonedmedicalship/robot_trader)
 "aUD" = (
 /obj/item/clothing/shoes/gogo,
 /turf/simulated/floor/plating/random,
@@ -18790,7 +18790,7 @@
 	tag = "icon-old_closed (WEST)"
 	},
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aUG" = (
 /turf/simulated/wall/r_wall{
 	icon = 'icons/misc/evilreaverstation.dmi';
@@ -18817,22 +18817,22 @@
 "aUI" = (
 /obj/landmark/artifact,
 /turf/simulated/floor/plating,
-/area/iss)
+/area/debris/iss)
 "aUJ" = (
 /obj/table/auto,
 /obj/item/weldingtool,
 /obj/item/crowbar,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aUK" = (
 /obj/stool/chair{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/iss)
+/area/debris/iss)
 "aUL" = (
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aUM" = (
 /obj/overlay{
 	density = 1;
@@ -18842,7 +18842,7 @@
 	name = "broken databank"
 	},
 /turf/simulated/floor/plating,
-/area/iss)
+/area/debris/iss)
 "aUO" = (
 /obj/disposalpipe/segment/mail,
 /turf/simulated/floor/green,
@@ -18855,25 +18855,25 @@
 	name = "smashed fabricator"
 	},
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aUQ" = (
 /obj/decal/fakeobjects/teleport_pad,
 /obj/marker/supplymarker,
 /turf/simulated/floor/white/grime,
-/area/abandonedmedicalship/robot_trader)
+/area/debris/abandonedmedicalship/robot_trader)
 "aUR" = (
 /obj/wingrille_spawn/auto/crystal,
 /turf/simulated/floor/plating,
-/area/iss)
+/area/debris/iss)
 "aUS" = (
 /obj/table/auto,
 /obj/item/storage/firstaid/old,
 /turf/simulated/floor/white/grime,
-/area/abandonedmedicalship/robot_trader)
+/area/debris/abandonedmedicalship/robot_trader)
 "aUT" = (
 /obj/machinery/bot/firebot,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aUU" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -18885,35 +18885,35 @@
 	name = "broken tape drive"
 	},
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aUV" = (
 /turf/simulated/floor/white/grime,
-/area/iss)
+/area/debris/iss)
 "aUW" = (
 /obj/item/device/infra,
 /obj/item/device/infra,
 /obj/item/device/infra,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aUX" = (
 /obj/machinery/recharge_station{
 	desc = "It looks like some of the safety interlocks are damaged.";
 	name = "Malfunctioning Docking Station"
 	},
 /turf/simulated/floor/white/grime,
-/area/abandonedmedicalship/robot_trader)
+/area/debris/abandonedmedicalship/robot_trader)
 "aUY" = (
 /obj/table/auto,
 /obj/item/clothing/head/emerg,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aUZ" = (
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
 /area/space)
 "aVa" = (
 /obj/machinery/portable_atmospherics/pump,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aVb" = (
 /obj/indestructible/shuttle_corner{
 	dir = 5;
@@ -18946,12 +18946,12 @@
 /obj/storage/crate,
 /obj/item/storage/box/donkpocket_kit,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aVe" = (
 /obj/table/auto,
 /obj/item/storage/toolbox/electrical,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aVf" = (
 /obj/lattice,
 /turf/simulated/martian/floor,
@@ -18970,11 +18970,11 @@
 	dir = 8
 	},
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aVk" = (
 /obj/machinery/atmospherics/valve,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aVl" = (
 /turf/simulated/floor/grass,
 /area/space)
@@ -18986,7 +18986,7 @@
 	pixel_y = -28
 	},
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aVn" = (
 /obj/item/clothing/gloves/fingerless,
 /obj/item/clothing/ears/earmuffs,
@@ -18994,7 +18994,7 @@
 /obj/storage/crate,
 /obj/item/reagent_containers/glass/bottle/eyedrops,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aVo" = (
 /obj/storage/crate/freezer{
 	name = "Freezer - Spare Parts"
@@ -19009,7 +19009,7 @@
 /obj/item/clothing/head/rad_hood,
 /obj/item/clothing/mask/gas/emergency,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aVq" = (
 /obj/machinery/atmospherics/pipe/simple{
 	dir = 6;
@@ -19017,11 +19017,11 @@
 	},
 /obj/machinery/vending/standard,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aVr" = (
 /obj/storage/crate/loot,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aVs" = (
 /obj/item/tile,
 /turf/space/fluid,
@@ -19029,14 +19029,14 @@
 "aVt" = (
 /obj/storage/closet/emergency,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aVu" = (
 /obj/machinery/recharge_station{
 	desc = "It looks like some of the safety interlocks are damaged.";
 	name = "Malfunctioning Docking Station"
 	},
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aVv" = (
 /obj/overlay{
 	density = 1;
@@ -19078,17 +19078,17 @@
 "aVA" = (
 /obj/machinery/door/airlock/pyro/classic,
 /turf/simulated/floor/plating,
-/area/iss)
+/area/debris/iss)
 "aVB" = (
 /turf/simulated/floor/plating,
-/area/iss)
+/area/debris/iss)
 "aVC" = (
 /obj/table/auto,
 /obj/machinery/cell_charger,
 /obj/item/cell/cerenkite,
 /obj/item/cell/cerenkite,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aVD" = (
 /obj/decal/floatingtiles{
 	dir = 8;
@@ -19106,18 +19106,18 @@
 /obj/table/auto,
 /obj/item/staple_gun,
 /turf/simulated/floor/white/grime,
-/area/abandonedmedicalship/robot_trader)
+/area/debris/abandonedmedicalship/robot_trader)
 "aVG" = (
 /obj/machinery/door/airlock/pyro/classic,
 /turf/simulated/floor/white/grime,
-/area/abandonedmedicalship/robot_trader)
+/area/debris/abandonedmedicalship/robot_trader)
 "aVH" = (
 /obj/machinery/door/airlock/pyro/classic{
 	dir = 8;
 	tag = "icon-old_closed (WEST)"
 	},
 /turf/simulated/floor/plating,
-/area/abandonedmedicalship/robot_trader)
+/area/debris/abandonedmedicalship/robot_trader)
 "aVI" = (
 /obj/decal/cleanable/blood/splatter,
 /turf/simulated/wall/r_wall{
@@ -19138,7 +19138,7 @@
 	name = "broken vending machine"
 	},
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aVL" = (
 /obj/decal/fakeobjects{
 	desc = "The goods inside the machine probably expired before you were even born.";
@@ -19147,14 +19147,14 @@
 	name = "broken vending machine"
 	},
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aVM" = (
 /obj/machinery/door/airlock/pyro/classic{
 	dir = 8;
 	tag = "icon-old_closed (WEST)"
 	},
 /turf/simulated/floor/plating,
-/area/iss)
+/area/debris/iss)
 "aVN" = (
 /obj/critter/sealpup,
 /turf/simulated/floor/grass,
@@ -19165,89 +19165,89 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/iss)
+/area/debris/iss)
 "aVP" = (
 /obj/table/auto,
 /obj/item/storage/toolbox/emergency,
 /obj/item/extinguisher,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aVQ" = (
 /obj/table/auto,
 /obj/item/wrench,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aVR" = (
 /obj/storage/closet/fire,
 /obj/item/clothing/suit/fire,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aVS" = (
 /obj/machinery/light/small/floor/cool,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aVT" = (
 /obj/table/auto,
 /obj/item/guardbot_frame,
 /obj/item/guardbot_core,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aVU" = (
 /obj/table/auto,
 /obj/item/device/guardbot_tool/flash,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aVV" = (
 /obj/table/auto,
 /obj/table/auto,
 /obj/item/storage/box/guardbot_kit,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aVW" = (
 /obj/table/auto,
 /obj/item/screwdriver,
 /obj/item/device/multitool,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aVX" = (
 /obj/item/reagent_containers/glass/oilcan,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aVY" = (
 /obj/reagent_dispensers/fueltank,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aVZ" = (
 /obj/item/implant/projectile/staple,
 /turf/simulated/floor/white/grime,
-/area/abandonedmedicalship/robot_trader)
+/area/debris/abandonedmedicalship/robot_trader)
 "aWa" = (
 /obj/table/auto,
 /obj/item/implantcase/health,
 /obj/item/implantcase/health,
 /obj/item/implanter,
 /turf/simulated/floor/white/grime,
-/area/abandonedmedicalship/robot_trader)
+/area/debris/abandonedmedicalship/robot_trader)
 "aWb" = (
 /obj/machinery/dispenser{
 	o2tanks = 5;
 	pltanks = 15
 	},
 /turf/simulated/floor/plating,
-/area/iss)
+/area/debris/iss)
 "aWc" = (
 /obj/machinery/vending/electronics,
 /turf/simulated/floor/plating,
-/area/iss)
+/area/debris/iss)
 "aWd" = (
 /obj/item/sheet/steel/fullstack,
 /turf/simulated/floor/plating,
-/area/iss)
+/area/debris/iss)
 "aWe" = (
 /obj/item/sheet/steel/fullstack,
 /obj/item/rods/steel/fullstack,
 /turf/simulated/floor/plating,
-/area/iss)
+/area/debris/iss)
 "aWf" = (
 /obj/machinery/navbeacon/guardbotsecbot_circularpatrol/beacon18,
 /obj/cable{
@@ -19262,16 +19262,16 @@
 /obj/stool/bed,
 /obj/item/device/radio/electropack,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aWh" = (
 /obj/machinery/drainage/big,
 /turf/simulated/floor/plating,
-/area/iss)
+/area/debris/iss)
 "aWi" = (
 /obj/table/auto,
 /obj/item/wirecutters,
 /turf/simulated/floor/white/grime,
-/area/abandonedmedicalship/robot_trader)
+/area/debris/abandonedmedicalship/robot_trader)
 "aWj" = (
 /obj/decal/cleanable/cobweb2,
 /obj/item/storage/box/mousetraps,
@@ -19280,15 +19280,15 @@
 "aWk" = (
 /obj/landmark/artifact,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aWl" = (
 /obj/machinery/portable_atmospherics/canister/empty,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aWm" = (
 /obj/machinery/portable_atmospherics/canister/sleeping_agent,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "aWn" = (
 /obj/overlay{
 	density = 1;
@@ -19641,7 +19641,7 @@
 /area/evilreaver/genetics)
 "aXx" = (
 /turf/unsimulated/wall/auto/adventure/martian,
-/area/martian_trader)
+/area/debris/martian_trader)
 "aXy" = (
 /turf/unsimulated/wall/auto/adventure/martian,
 /area/evilreaver/storage/tools)
@@ -19730,13 +19730,13 @@
 	icon = 'icons/misc/evilreaverstation.dmi';
 	icon_state = "old_rwall"
 	},
-/area/martian_trader)
+/area/debris/martian_trader)
 "aXO" = (
 /obj/machinery/door/airlock/classic{
 	name = "rusty airlock"
 	},
 /turf/simulated/floor/plating/damaged3,
-/area/martian_trader)
+/area/debris/martian_trader)
 "aXP" = (
 /obj/machinery/door/airlock/classic{
 	name = "rusty airlock"
@@ -24880,11 +24880,11 @@
 /obj/machinery/portable_atmospherics/canister/empty,
 /obj/machinery/light/small/floor/cool,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "bnu" = (
 /obj/machinery/light/small/floor/cool,
 /turf/simulated/floor/plating,
-/area/iss)
+/area/debris/iss)
 "bnv" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -24929,7 +24929,7 @@
 /obj/machinery/fluid_canister,
 /obj/machinery/light/small/floor/cool,
 /turf/simulated/floor/plating,
-/area/iss)
+/area/debris/iss)
 "bnA" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -28900,7 +28900,7 @@
 "bxy" = (
 /obj/machinery/light/small/floor/cool,
 /turf/simulated/floor/white/grime,
-/area/abandonedmedicalship/robot_trader)
+/area/debris/abandonedmedicalship/robot_trader)
 "bxz" = (
 /obj/stool/chair{
 	dir = 4
@@ -28912,12 +28912,12 @@
 	icon_state = "medibot0";
 	name = "D.O.C.";
 	productset = 4;
-	trader_area = "/area/abandonedmedicalship/robot_trader"
+	trader_area = "/area/debris/abandonedmedicalship/robot_trader"
 	},
 /obj/map/light/white,
 /obj/machinery/light/small/floor/cool,
 /turf/simulated/floor/white/grime,
-/area/abandonedmedicalship/robot_trader)
+/area/debris/abandonedmedicalship/robot_trader)
 "bxA" = (
 /obj/table/reinforced/bar/auto,
 /obj/machinery/phone,
@@ -30816,7 +30816,7 @@
 /obj/storage/crate/loot,
 /obj/machinery/light/small/floor/cool,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "bCj" = (
 /obj/machinery/firealarm{
 	dir = 4;
@@ -31819,7 +31819,7 @@
 /obj/machinery/manufacturer/gas,
 /obj/machinery/light/small/floor/cool,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "bEC" = (
 /obj/machinery/light/small/floor/cool,
 /turf/simulated/floor/airless/plating/damaged1,
@@ -47002,7 +47002,7 @@
 /obj/item/clothing/head/helmet/space/blackstronaut,
 /obj/item/clothing/under/gimmick/snazza,
 /turf/simulated/floor/grime,
-/area/iss)
+/area/debris/iss)
 "qZZ" = (
 /obj/machinery/light/incandescent/harsh,
 /obj/storage/crate,

@@ -70,7 +70,7 @@ var/sound/helldrone_wakeup_sound = null
 	if (helldrone_awake == 2)
 		return
 
-	for (var/area/helldrone/drone_zone in world)
+	for (var/area/debris/helldrone/drone_zone in world)
 		LAGCHECK(LAG_LOW)
 		helldrone_awake = 2
 		for (var/mob/M in drone_zone)

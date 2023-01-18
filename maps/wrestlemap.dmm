@@ -473,7 +473,7 @@
 	},
 /obj/item/reagent_containers/food/snacks/chips,
 /turf/simulated/floor/airless/white,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "aeH" = (
@@ -3241,7 +3241,7 @@
 	icon_state = "lattice-dir"
 	},
 /turf/simulated/floor/airless/plating,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "bqv" = (
@@ -4487,7 +4487,7 @@
 /obj/stool/chair/comfy/shuttle,
 /obj/decal/cleanable/dirt/dirt4,
 /turf/simulated/floor/airless/white,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "bSs" = (
@@ -4884,7 +4884,7 @@
 /turf/simulated/floor/airless/blackwhite{
 	dir = 1
 	},
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "caq" = (
@@ -5212,14 +5212,14 @@
 "cfH" = (
 /obj/decal/cleanable/dirt/dirt3,
 /turf/simulated/floor/airless/black,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "cfI" = (
 /obj/item/cable_coil/cut,
 /obj/structure/girder/displaced,
 /turf/simulated/floor/airless/white,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "cfO" = (
@@ -5627,7 +5627,7 @@
 "cpB" = (
 /obj/structure/girder/displaced,
 /turf/simulated/floor/airless/plating,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "cpN" = (
@@ -6402,7 +6402,7 @@
 	icon_state = "alt_heater"
 	},
 /turf/simulated/shuttle/wall,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "cHr" = (
@@ -7071,7 +7071,7 @@
 /area/space)
 "cVC" = (
 /turf/simulated/shuttle/wall,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "cVJ" = (
@@ -7694,7 +7694,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/airless/plating/damaged2,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "djN" = (
@@ -7940,7 +7940,7 @@
 	})
 "dno" = (
 /turf/simulated/shuttle/wall/corner,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "dnZ" = (
@@ -8001,7 +8001,7 @@
 "dpa" = (
 /obj/lattice,
 /turf/space,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "dph" = (
@@ -8042,7 +8042,7 @@
 /obj/item/raw_material/shard/glass,
 /obj/decal/cleanable/dirt/dirt4,
 /turf/simulated/floor/airless/black,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "dpW" = (
@@ -8441,7 +8441,7 @@
 	icon_state = "lattice-dir"
 	},
 /turf/space,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "dyD" = (
@@ -9029,7 +9029,7 @@
 "dJu" = (
 /obj/decal/cleanable/rust,
 /turf/simulated/shuttle/wall,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "dJA" = (
@@ -9494,7 +9494,7 @@
 "dRG" = (
 /obj/item/furniture_parts/table/reinforced/roulette,
 /turf/simulated/floor/airless,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "dRT" = (
@@ -9718,7 +9718,7 @@
 /area/station/crewquarters/cryotron)
 "dVa" = (
 /turf/space,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "dVx" = (
@@ -9981,7 +9981,7 @@
 /area/station/crewquarters/cryotron)
 "eaW" = (
 /turf/simulated/floor/airless/black,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "ebd" = (
@@ -10038,7 +10038,7 @@
 /turf/simulated/shuttle/wall/corner{
 	dir = 4
 	},
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "ecm" = (
@@ -12058,7 +12058,7 @@
 /obj/decal/cleanable/dirt/dirt5,
 /obj/decal/cleanable/rust,
 /turf/simulated/floor/airless,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "eVK" = (
@@ -13635,7 +13635,7 @@
 /turf/simulated/floor/airless/blackwhite{
 	dir = 1
 	},
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "fFY" = (
@@ -14618,7 +14618,7 @@
 /obj/item/raw_material/shard/glass,
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/airless/blackwhite,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "gcn" = (
@@ -15637,7 +15637,7 @@
 	icon_state = "lattice-dir"
 	},
 /turf/simulated/floor/airless/plating,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "gzf" = (
@@ -15790,7 +15790,7 @@
 "gCF" = (
 /obj/item/raw_material/scrap_metal,
 /turf/simulated/floor/airless/damaged2,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "gCH" = (
@@ -15826,7 +15826,7 @@
 /area/station/maintenance/east)
 "gDz" = (
 /turf/simulated/floor/airless/white,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "gDC" = (
@@ -16257,7 +16257,7 @@
 	},
 /obj/decal/cleanable/dirt/dirt4,
 /turf/simulated/floor/airless/white,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "gOi" = (
@@ -16457,7 +16457,7 @@
 /obj/item/raw_material/shard/glass,
 /obj/item/storage/box/glassbox,
 /turf/simulated/floor/airless/blackwhite,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "gSX" = (
@@ -17652,7 +17652,7 @@
 	name = "broken airlock"
 	},
 /turf/simulated/floor/airless/white,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "hte" = (
@@ -18524,7 +18524,7 @@
 "hMA" = (
 /obj/wingrille_spawn/reinforced/full,
 /turf/simulated/floor/airless/plating,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "hMD" = (
@@ -19539,7 +19539,7 @@
 /obj/lattice,
 /obj/structure/girder/displaced,
 /turf/space,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "imP" = (
@@ -20473,7 +20473,7 @@
 /turf/simulated/floor/airless/blackwhite{
 	dir = 1
 	},
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "iEE" = (
@@ -21494,7 +21494,7 @@
 /obj/item/raw_material/scrap_metal,
 /obj/decal/cleanable/dirt/dirt3,
 /turf/simulated/floor/airless/white,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "iWH" = (
@@ -21619,7 +21619,7 @@
 /area/station/turret_protected/ai)
 "iZU" = (
 /turf/simulated/floor/airless/plating,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "iZV" = (
@@ -23525,7 +23525,7 @@
 /area/station/science/lab)
 "jPz" = (
 /turf/simulated/floor/airless/damaged3,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "jQl" = (
@@ -23817,7 +23817,7 @@
 	icon_state = "lattice-dir"
 	},
 /turf/space,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "jWk" = (
@@ -24412,7 +24412,7 @@
 	icon_state = "lattice-dir-b"
 	},
 /turf/simulated/floor/airless/plating,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "kln" = (
@@ -24538,7 +24538,7 @@
 /obj/item/cable_coil/cut,
 /obj/structure/girder/displaced,
 /turf/space,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "koV" = (
@@ -25090,7 +25090,7 @@
 "kBr" = (
 /obj/decal/cleanable/robot_debris,
 /turf/simulated/floor/airless/black,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "kBB" = (
@@ -26257,7 +26257,7 @@
 	icon_state = "lattice-dir-b"
 	},
 /turf/space,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "ldM" = (
@@ -26494,7 +26494,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/airless/black,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "ljM" = (
@@ -26884,7 +26884,7 @@
 	},
 /obj/decal/cleanable/rust,
 /turf/simulated/floor/airless/plating,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "ltu" = (
@@ -27302,7 +27302,7 @@
 "lAk" = (
 /obj/structure/girder/displaced,
 /turf/simulated/floor/airless/white,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "lAo" = (
@@ -31339,7 +31339,7 @@
 	icon_state = "lattice-dir"
 	},
 /turf/space,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "nqk" = (
@@ -31405,7 +31405,7 @@
 /obj/item/mop,
 /obj/item/surgical_spoon,
 /turf/simulated/floor/airless/white,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "nsB" = (
@@ -31425,7 +31425,7 @@
 	},
 /obj/decal/cleanable/dirt/dirt5,
 /turf/simulated/floor/airless/white,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "nsP" = (
@@ -31870,7 +31870,7 @@
 	icon_state = "lattice-dir-b"
 	},
 /turf/simulated/floor/airless/plating,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "nDL" = (
@@ -32933,7 +32933,7 @@
 /obj/decal/cleanable/dirt/dirt4,
 /obj/item/storage/box/fruit_wedges,
 /turf/simulated/floor/airless/black,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "nYO" = (
@@ -33904,7 +33904,7 @@
 /turf/simulated/floor/airless/blackwhite{
 	dir = 1
 	},
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "otW" = (
@@ -35048,7 +35048,7 @@
 /turf/simulated/floor/airless/blackwhite{
 	dir = 1
 	},
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "oWP" = (
@@ -35420,7 +35420,7 @@
 /turf/simulated/floor/airless/blackwhite{
 	dir = 1
 	},
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "pfW" = (
@@ -35987,7 +35987,7 @@
 /obj/decal/cleanable/dirt,
 /obj/item/storage/pill_bottle/methamphetamine,
 /turf/simulated/floor/airless/white,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "pvP" = (
@@ -36957,7 +36957,7 @@
 /obj/table/glass/auto,
 /obj/item/reagent_containers/food/drinks/drinkingglass/cocktail,
 /turf/simulated/floor/airless/black,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "pTT" = (
@@ -37101,7 +37101,7 @@
 "pWo" = (
 /obj/item/raw_material/shard/glass,
 /turf/simulated/floor/airless/damaged2,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "pWs" = (
@@ -37395,7 +37395,7 @@
 "qbM" = (
 /obj/item/reagent_containers/food/snacks/candy/chocolate,
 /turf/simulated/floor/airless/blackwhite,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "qbO" = (
@@ -39071,7 +39071,7 @@
 /obj/item/dice/coin/poker_chip/v250,
 /obj/item/dice/coin/poker_chip/v250,
 /turf/simulated/floor/airless/white,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "qHH" = (
@@ -39212,7 +39212,7 @@
 /obj/table/glass/auto,
 /obj/item/storage/box/costume/roller_disco,
 /turf/simulated/floor/airless/blackwhite,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "qKx" = (
@@ -41559,7 +41559,7 @@
 /obj/structure/girder/displaced,
 /obj/decal/cleanable/rust,
 /turf/simulated/floor/airless/white,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "rLh" = (
@@ -44248,7 +44248,7 @@
 	},
 /obj/decal/cleanable/rust,
 /turf/simulated/shuttle/wall,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "sSo" = (
@@ -45606,7 +45606,7 @@
 /obj/item/reagent_containers/food/drinks/bottle/champagne,
 /obj/item/reagent_containers/food/drinks/bottle/champagne,
 /turf/simulated/floor/airless/blackwhite,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "twO" = (
@@ -46599,7 +46599,7 @@
 /obj/item/raw_material/cerenkite,
 /obj/item/raw_material/shard/glass,
 /turf/simulated/floor/airless,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "tTZ" = (
@@ -46962,7 +46962,7 @@
 /obj/decal/cleanable/rust,
 /obj/decal/fakeobjects/skeleton/decomposed_corpse,
 /turf/simulated/floor/airless/black,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "udN" = (
@@ -47220,7 +47220,7 @@
 "ukg" = (
 /obj/storage/crate/trench_loot/drug,
 /turf/simulated/floor/airless,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "ukp" = (
@@ -47427,7 +47427,7 @@
 /obj/decal/cleanable/machine_debris,
 /obj/item/motherboard,
 /turf/simulated/floor/airless/damaged1,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "uot" = (
@@ -48957,7 +48957,7 @@
 	icon_state = "lattice-dir"
 	},
 /turf/simulated/floor/airless/damaged1,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "uUX" = (
@@ -49851,7 +49851,7 @@
 "vpb" = (
 /obj/item/raw_material/shard/glass,
 /turf/simulated/floor/airless/white,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "vpn" = (
@@ -50994,7 +50994,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/airless/damaged4,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "vQl" = (
@@ -51035,7 +51035,7 @@
 /obj/decal/cleanable/dirt,
 /obj/decal/fakeobjects/skeleton,
 /turf/simulated/floor/airless/plating,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "vRU" = (
@@ -53139,7 +53139,7 @@
 /obj/item/dice/coin/poker_chip/v10,
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/airless/black,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "wKd" = (
@@ -54269,7 +54269,7 @@
 "xhr" = (
 /obj/item/dice/coin/poker_chip/v100,
 /turf/simulated/floor/airless/plating,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "xhs" = (
@@ -54765,7 +54765,7 @@
 /obj/item/furniture_parts/table/reinforced/roulette,
 /obj/decal/cleanable/dirt/dirt3,
 /turf/simulated/floor/airless/white,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "xrR" = (
@@ -55337,7 +55337,7 @@
 	},
 /obj/item/furniture_parts/table/reinforced/roulette,
 /turf/simulated/floor/airless/damaged1,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "xEc" = (
@@ -55430,7 +55430,7 @@
 	icon_state = "lattice-dir"
 	},
 /turf/space,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "xFL" = (
@@ -56652,7 +56652,7 @@
 	},
 /obj/structure/girder/displaced,
 /turf/space,
-/area/abandonedship{
+/area/debris/abandonedship{
 	name = "Crashed Limo"
 	})
 "yjD" = (

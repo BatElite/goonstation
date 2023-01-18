@@ -8158,13 +8158,13 @@
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3"
 	},
-/area/abandonedship)
+/area/debris/abandonedship)
 "xm" = (
 /turf/simulated/shuttle/wall{
 	dir = 1;
 	icon_state = "wall3_space"
 	},
-/area/abandonedship)
+/area/debris/abandonedship)
 "xn" = (
 /obj/machinery/vending/snack,
 /turf/simulated/floor{
@@ -8191,7 +8191,7 @@
 	dir = 4
 	},
 /turf/space,
-/area/abandonedship)
+/area/debris/abandonedship)
 "xr" = (
 /obj/lattice{
 	icon_state = "lattice-dir";
@@ -8203,7 +8203,7 @@
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3"
 	},
-/area/abandonedship)
+/area/debris/abandonedship)
 "xs" = (
 /obj/lattice{
 	icon_state = "lattice-dir";
@@ -8212,7 +8212,7 @@
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3"
 	},
-/area/abandonedship)
+/area/debris/abandonedship)
 "xt" = (
 /obj/lattice{
 	icon_state = "lattice-dir";
@@ -8225,37 +8225,37 @@
 /area/space)
 "xu" = (
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "xv" = (
 /obj/storage/crate,
 /obj/item/clothing/suit/rad,
 /obj/item/clothing/head/rad_hood,
 /turf/simulated/floor/airless/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "xw" = (
 /obj/decal/floatingtiles{
 	icon_state = "floattiles5"
 	},
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "xx" = (
 /obj/decal/floatingtiles{
 	icon_state = "floattiles6";
 	dir = 8
 	},
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "xy" = (
 /obj/decal/cleanable/machine_debris,
 /obj/item/device/guardbot_tool/tesla,
 /obj/item/device/guardbot_tool/tesla,
 /turf/simulated/floor/airless/damaged5,
-/area/abandonedship)
+/area/debris/abandonedship)
 "xz" = (
 /obj/decal/cleanable/machine_debris,
 /obj/item/motherboard,
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "xA" = (
 /obj/decal/cleanable/dirt,
 /obj/storage/crate{
@@ -8268,7 +8268,7 @@
 /obj/item/raw_material/cerenkite,
 /turf/space,
 /turf/simulated/floor/airless/plating/damaged2,
-/area/abandonedship)
+/area/debris/abandonedship)
 "xB" = (
 /obj/cable{
 	icon_state = "0-4";
@@ -8351,7 +8351,7 @@
 	dir = 4
 	},
 /turf/space,
-/area/abandonedship)
+/area/debris/abandonedship)
 "xK" = (
 /obj/lattice,
 /obj/decal/fakeobjects/shuttleengine{
@@ -8360,13 +8360,13 @@
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3"
 	},
-/area/abandonedship)
+/area/debris/abandonedship)
 "xL" = (
 /obj/decal/cleanable/oil,
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3"
 	},
-/area/abandonedship)
+/area/debris/abandonedship)
 "xM" = (
 /obj/decal/fakeobjects{
 	desc = "What was this thing even supposed to do?";
@@ -8376,20 +8376,20 @@
 	},
 /turf/space,
 /turf/simulated/floor/airless/plating/damaged2,
-/area/abandonedship)
+/area/debris/abandonedship)
 "xN" = (
 /obj/decal/cleanable/dirt,
 /obj/item/cable_coil/cut{
 	icon_state = "coil1"
 	},
 /turf/simulated/floor/airless/plating/damaged1,
-/area/abandonedship)
+/area/debris/abandonedship)
 "xO" = (
 /turf/simulated/floor/airless/plating/damaged1,
-/area/abandonedship)
+/area/debris/abandonedship)
 "xP" = (
 /turf/simulated/floor/airless/damaged2,
-/area/abandonedship)
+/area/debris/abandonedship)
 "xQ" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -8400,14 +8400,14 @@
 	name = "busted machine"
 	},
 /turf/simulated/floor/airless/plating/damaged3,
-/area/abandonedship)
+/area/debris/abandonedship)
 "xR" = (
 /obj/item/raw_material/shard/glass{
 	icon_state = "small"
 	},
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/airless/plating/damaged3,
-/area/abandonedship)
+/area/debris/abandonedship)
 "xS" = (
 /obj/lattice,
 /obj/decal/fakeobjects/pipe{
@@ -8439,20 +8439,20 @@
 "xW" = (
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/airless/plating/damaged1,
-/area/abandonedship)
+/area/debris/abandonedship)
 "xX" = (
 /obj/item/cable_coil/cut{
 	icon_state = "coil1"
 	},
 /turf/simulated/floor/airless/plating/damaged1,
-/area/abandonedship)
+/area/debris/abandonedship)
 "xY" = (
 /obj/item/storage/secure/ssafe/loot{
 	pixel_x = 6;
 	pixel_y = -28
 	},
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "xZ" = (
 /obj/lattice{
 	icon_state = "lattice-dir";
@@ -8471,7 +8471,7 @@
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3"
 	},
-/area/abandonedship)
+/area/debris/abandonedship)
 "yb" = (
 /obj/table/wood/auto,
 /obj/machinery/microwave,
@@ -8513,7 +8513,7 @@
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3"
 	},
-/area/abandonedship)
+/area/debris/abandonedship)
 "yg" = (
 /obj/decal/floatingtiles{
 	icon_state = "floattiles2"
@@ -8526,7 +8526,7 @@
 	},
 /turf/space,
 /turf/simulated/floor/airless/plating/damaged2,
-/area/abandonedship)
+/area/debris/abandonedship)
 "yh" = (
 /obj/lattice,
 /obj/decal/floatingtiles{
@@ -8570,7 +8570,7 @@
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3"
 	},
-/area/abandonedship)
+/area/debris/abandonedship)
 "ym" = (
 /obj/lattice{
 	icon_state = "lattice-dir";
@@ -8579,17 +8579,17 @@
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3"
 	},
-/area/abandonedship)
+/area/debris/abandonedship)
 "yn" = (
 /obj/structure/girder/displaced,
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "yo" = (
 /obj/decal/floatingtiles{
 	icon_state = "floattiles2"
 	},
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "yp" = (
 /obj/decal/floatingtiles{
 	icon_state = "floattiles1";
@@ -8597,12 +8597,12 @@
 	},
 /obj/structure/girder,
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "yq" = (
 /obj/decal/cleanable/machine_debris,
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/airless/damaged5,
-/area/abandonedship)
+/area/debris/abandonedship)
 "yr" = (
 /obj/lattice,
 /obj/decal/floatingtiles{
@@ -8614,7 +8614,7 @@
 "ys" = (
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "yt" = (
 /obj/decal/floatingtiles{
 	icon_state = "floattiles3"
@@ -8626,7 +8626,7 @@
 	name = "broken airlock"
 	},
 /turf/simulated/floor/airless/plating/damaged3,
-/area/abandonedship)
+/area/debris/abandonedship)
 "yu" = (
 /turf/space,
 /turf/simulated/wall/auto/asteroid{
@@ -8645,7 +8645,7 @@
 /obj/item/cable_coil/cut,
 /obj/structure/girder/displaced,
 /turf/simulated/floor/airless/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "yx" = (
 /obj/decal/floatingtiles{
 	icon_state = "floattiles1";
@@ -8653,7 +8653,7 @@
 	},
 /obj/structure/girder,
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "yy" = (
 /obj/decal/fakeobjects/firelock_broken{
 	desc = "Rust has rendered this airlock useless.";
@@ -8662,14 +8662,14 @@
 	name = "broken airlock"
 	},
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "yz" = (
 /obj/decal/floatingtiles{
 	icon_state = "floattiles4";
 	dir = 4
 	},
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "yA" = (
 /obj/lattice,
 /obj/item/cable_coil/cut{
@@ -8681,13 +8681,13 @@
 /obj/decal/cleanable/machine_debris,
 /obj/item/device/light/glowstick,
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "yC" = (
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/robot_debris,
 /turf/space,
 /turf/simulated/floor/airless/plating/damaged2,
-/area/abandonedship)
+/area/debris/abandonedship)
 "yD" = (
 /turf/space,
 /turf/simulated/wall/auto/asteroid{
@@ -8699,7 +8699,7 @@
 	dir = 4;
 	icon_state = "wall3_space"
 	},
-/area/abandonedship)
+/area/debris/abandonedship)
 "yF" = (
 /obj/item/space_thing,
 /turf/simulated/floor/plating/airless/asteroid,

@@ -688,7 +688,7 @@
 /obj/npc/trader/martian
 	icon_state = "martianP"
 	picture = "martian.png"
-	trader_area = "/area/martian_trader"
+	trader_area = "/area/debris/martian_trader"
 	angrynope = "Not now, human."
 	whotext = "I am a simple martian, looking to trade."
 

@@ -964,16 +964,19 @@ ABSTRACT_TYPE(/area/adventure)
 
 // zewaka - debris field areas/Spacejunk //
 
-/area/buddyfactory
+ABSTRACT_TYPE(/area/debris)
+/area/debris //Mostly just to declutter the fucking object tree, holy shit
+
+/area/debris/buddyfactory
 	name = "Factory V"
 	icon_state = "yellow"
 	expandable = 0
 
-/area/buddyfactory/mainframe
+/area/debris/buddyfactory/mainframe
 	name = "Old Computer Core"
 	icon_state = "purple"
 
-/area/space_hive
+/area/debris/space_hive
 	name = "Space Bee Hive"
 	icon_state = "yellow"
 	force_fullbright = 0
@@ -982,7 +985,7 @@ ABSTRACT_TYPE(/area/adventure)
 	skip_sims = 1
 	sims_score = 100
 
-/area/helldrone
+/area/debris/helldrone
 	name = "Drone Corpse"
 	icon_state = "red"
 	sound_environment = 3
@@ -1066,7 +1069,7 @@ ABSTRACT_TYPE(/area/adventure)
 						SPAWN(sound_delay)
 							H << S
 
-/area/helldrone/core
+/area/debris/helldrone/core
 	name = "Drone Computer Core"
 	icon_state = "ai"
 	skip_sims = 1
@@ -1074,22 +1077,22 @@ ABSTRACT_TYPE(/area/adventure)
 
 //zewaka note: moved these from near adventure zone areas
 
-/area/martian_trader
+/area/debris/martian_trader
 	name ="Martian Trade Outpost"
 	sound_environment = 8
 #ifdef MAP_OVERRIDE_OSHAN
 	requires_power = FALSE
 #endif
 
-/area/abandonedmedicalship
+/area/debris/abandonedmedicalship
 	name = "Abandoned Medical ship"
 	icon_state = "yellow"
 
-/area/abandonedoutpostthing
+/area/debris/abandonedoutpostthing
 	name = "Abandoned Outpost"
 	icon_state = "yellow"
 
-/area/abandonedmedicalship/robot_trader
+/area/debris/abandonedmedicalship/robot_trader
 	name ="Robot Trade Outpost"
 	icon_state ="green"
 	sound_environment = 3
@@ -1121,12 +1124,12 @@ ABSTRACT_TYPE(/area/adventure)
 	requires_power = FALSE
 #endif
 
-/area/fermid_hive
+/area/debris/fermid_hive
 	name = "Fermid Hive"
 	icon_state = "purple"
 	requires_power = FALSE
 
-/area/iss
+/area/debris/iss
 	name = "Derelict Space Station"
 	icon_state = "derelict"
 #ifdef SUBMARINE_MAP
@@ -1141,7 +1144,7 @@ ABSTRACT_TYPE(/area/adventure)
 	icon_state = "yellow"
 	requires_power = FALSE
 
-/area/abandonedship
+/area/debris/abandonedship //Also some wrecks on some station maps
 	name = "Abandoned ship"
 	icon_state = "yellow"
 	requires_power = FALSE

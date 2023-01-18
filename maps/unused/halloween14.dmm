@@ -77903,10 +77903,10 @@
 /area/space)
 "dfq" = (
 /turf/simulated/wall,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfr" = (
 /turf/simulated/floor/plating,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfs" = (
 /turf/space,
 /area/station/turret_protected/ai_upload_foyer)
@@ -77916,16 +77916,16 @@
 	name = "weird pod part"
 	},
 /turf/simulated/floor/plating,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfu" = (
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfv" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfw" = (
 /obj/grille,
 /turf/simulated/floor/plating/airless,
@@ -77941,7 +77941,7 @@
 "dfz" = (
 /obj/item/wrench,
 /turf/simulated/floor/plating,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfA" = (
 /obj/cable{
 	tag = "icon-0-2";
@@ -77953,17 +77953,17 @@
 	setup_os_string = "FACTORY_MAINFRAME"
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfB" = (
 /obj/stool/chair/syndicate,
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfC" = (
 /obj/machinery/door/airlock/maintenance{
 	req_access_txt = ""
 	},
 /turf/simulated/floor/plating,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfD" = (
 /obj/cable{
 	icon_state = "2-4";
@@ -77971,7 +77971,7 @@
 	d2 = 4
 	},
 /turf/simulated/floor/plating,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfE" = (
 /obj/machinery/power/smes{
 	charge = 5e+006
@@ -77981,7 +77981,7 @@
 	icon_state = "0-8"
 	},
 /turf/simulated/floor/black,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfF" = (
 /obj/machinery/power/terminal{
 	dir = 8
@@ -77991,20 +77991,20 @@
 	d2 = 2
 	},
 /turf/simulated/floor/black,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfG" = (
 /turf/simulated/wall/r_wall,
-/area/buddyfactory/mainframe)
+/area/debris/buddyfactory/mainframe)
 "dfH" = (
 /turf/simulated/wall/r_wall,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfI" = (
 /obj/cable{
 	tag = "icon-2-4";
 	icon_state = "2-4"
 	},
 /turf/simulated/wall,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfJ" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -78020,7 +78020,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfK" = (
 /obj/table{
 	contents = newlist();
@@ -78033,7 +78033,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfL" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -78045,7 +78045,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfM" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -78053,7 +78053,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfN" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -78066,7 +78066,7 @@
 	d2 = 4
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfO" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -78074,7 +78074,7 @@
 	d2 = 8
 	},
 /turf/simulated/wall,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfP" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -78082,7 +78082,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor/plating,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfQ" = (
 /obj/cable{
 	d1 = 1;
@@ -78090,7 +78090,7 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/plating,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfR" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -78098,7 +78098,7 @@
 	d2 = 2
 	},
 /turf/simulated/floor/plating,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfS" = (
 /obj/cable{
 	icon_state = "2-4";
@@ -78106,7 +78106,7 @@
 	d2 = 4
 	},
 /turf/simulated/floor/circuit/green,
-/area/buddyfactory/mainframe)
+/area/debris/buddyfactory/mainframe)
 "dfT" = (
 /obj/machinery/power/data_terminal,
 /obj/cable{
@@ -78126,7 +78126,7 @@
 	name = "broken databank"
 	},
 /turf/simulated/floor/bot,
-/area/buddyfactory/mainframe)
+/area/debris/buddyfactory/mainframe)
 "dfU" = (
 /obj/machinery/power/data_terminal,
 /obj/cable{
@@ -78140,17 +78140,17 @@
 	setup_tape_type = /obj/item/disk/data/tape/tds_journaltape
 	},
 /turf/simulated/floor/bot,
-/area/buddyfactory/mainframe)
+/area/debris/buddyfactory/mainframe)
 "dfV" = (
 /turf/simulated/floor/circuit/green,
-/area/buddyfactory/mainframe)
+/area/debris/buddyfactory/mainframe)
 "dfW" = (
 /obj/cable{
 	tag = "icon-1-2";
 	icon_state = "1-2"
 	},
 /turf/simulated/wall/r_wall,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfX" = (
 /obj/grille/steel,
 /obj/window{
@@ -78164,7 +78164,7 @@
 	dir = 2
 	},
 /turf/simulated/floor/plating,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfY" = (
 /obj/machinery/door/airlock,
 /obj/cable{
@@ -78173,7 +78173,7 @@
 	d2 = 2
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dfZ" = (
 /obj/cable{
 	d1 = 1;
@@ -78181,7 +78181,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/plating,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dga" = (
 /obj/cable{
 	icon_state = "2-8";
@@ -78189,7 +78189,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor/plating,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dgb" = (
 /obj/cable{
 	icon_state = "0-2";
@@ -78222,17 +78222,17 @@
 	d2 = 2
 	},
 /turf/simulated/floor/circuit/green,
-/area/buddyfactory/mainframe)
+/area/debris/buddyfactory/mainframe)
 "dge" = (
 /turf/simulated/floor,
-/area/buddyfactory/mainframe)
+/area/debris/buddyfactory/mainframe)
 "dgf" = (
 /obj/cable{
 	tag = "icon-1-2";
 	icon_state = "1-2"
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dgg" = (
 /obj/cable{
 	d1 = 1;
@@ -78240,7 +78240,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dgh" = (
 /obj/cable{
 	d2 = 8;
@@ -78255,21 +78255,21 @@
 	start_charge = 0
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dgi" = (
 /obj/crate,
 /obj/item/peripheral/videocard,
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dgj" = (
 /obj/crate,
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dgk" = (
 /obj/crate,
 /obj/item/device/guardbot_tool/tesla,
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dgl" = (
 /obj/cable,
 /obj/cable{
@@ -78320,7 +78320,7 @@
 	tag = "FACTORY_MAINFRAME"
 	},
 /turf/simulated/floor/delivery,
-/area/buddyfactory/mainframe)
+/area/debris/buddyfactory/mainframe)
 "dgq" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -78333,7 +78333,7 @@
 	d2 = 4
 	},
 /turf/simulated/floor,
-/area/buddyfactory/mainframe)
+/area/debris/buddyfactory/mainframe)
 "dgr" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -78345,7 +78345,7 @@
 	req_access_txt = ""
 	},
 /turf/simulated/floor,
-/area/buddyfactory/mainframe)
+/area/debris/buddyfactory/mainframe)
 "dgs" = (
 /obj/cable{
 	tag = "icon-1-8";
@@ -78356,7 +78356,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dgt" = (
 /obj/machinery/turret,
 /turf/simulated/floor/plating/airless,
@@ -78368,7 +78368,7 @@
 	d2 = 2
 	},
 /turf/simulated/floor,
-/area/buddyfactory/mainframe)
+/area/debris/buddyfactory/mainframe)
 "dgv" = (
 /obj/cable,
 /obj/machinery/power/apc{
@@ -78382,7 +78382,7 @@
 	start_charge = 13
 	},
 /turf/simulated/floor,
-/area/buddyfactory/mainframe)
+/area/debris/buddyfactory/mainframe)
 "dgw" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -78392,7 +78392,7 @@
 	pixel_y = 2
 	},
 /turf/simulated/floor/caution/corner/nw,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dgx" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -78402,10 +78402,10 @@
 	pixel_y = 2
 	},
 /turf/simulated/floor/caution/northsouth,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dgy" = (
 /turf/simulated/floor/grime,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dgz" = (
 /obj/machinery/turretid,
 /turf/simulated/wall/r_wall,
@@ -78453,7 +78453,7 @@
 	},
 /obj/machinery/light/small,
 /turf/simulated/floor/bot,
-/area/buddyfactory/mainframe)
+/area/debris/buddyfactory/mainframe)
 "dgE" = (
 /obj/machinery/power/data_terminal,
 /obj/cable,
@@ -78466,7 +78466,7 @@
 	name = "broken databank"
 	},
 /turf/simulated/floor/bot,
-/area/buddyfactory/mainframe)
+/area/debris/buddyfactory/mainframe)
 "dgF" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -78481,7 +78481,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dgG" = (
 /obj/machinery/conveyor{
 	dir = 1;
@@ -78490,27 +78490,27 @@
 	pixel_y = 2
 	},
 /turf/simulated/floor/caution/westeast,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dgH" = (
 /obj/rack,
 /obj/item/guardbot_core/old,
 /obj/item/guardbot_core/old,
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dgI" = (
 /obj/machinery/buddyfactory{
 	dir = 1;
 	input_stage = 2
 	},
 /turf/simulated/floor/orangeblack,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dgJ" = (
 /obj/machinery/buddyfactory{
 	dir = 1;
 	input_stage = 3
 	},
 /turf/simulated/floor/orangeblack,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dgK" = (
 /obj/rack,
 /obj/item/parts/robot_parts/arm/left/light{
@@ -78526,7 +78526,7 @@
 	name = "Robuddy Arm"
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dgL" = (
 /obj/overlay{
 	anchored = 1;
@@ -78537,7 +78537,7 @@
 	name = "janky machine"
 	},
 /turf/simulated/floor/orangeblack,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dgM" = (
 /obj/decal{
 	anchored = 1;
@@ -78548,11 +78548,11 @@
 	name = "PCB constructor"
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dgO" = (
 /obj/rack,
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dgP" = (
 /obj/decal{
 	anchored = 1;
@@ -78563,23 +78563,23 @@
 	name = "broken robot arm"
 	},
 /turf/simulated/floor/orangeblack,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dgQ" = (
 /obj/machinery/buddyfactory{
 	dir = 2;
 	input_stage = 2
 	},
 /turf/simulated/floor/orangeblack,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dgR" = (
 /obj/rack,
 /obj/item/device/guardbot_tool/flash,
 /obj/item/device/guardbot_tool/flash,
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dgS" = (
 /turf/simulated/floor/orangeblack,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dgT" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -78644,7 +78644,7 @@
 	setup_os_string = "FACTORY_MAINFRAME"
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dgZ" = (
 /obj/cable{
 	icon_state = "2-8";
@@ -78652,7 +78652,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dha" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -78660,7 +78660,7 @@
 	d2 = 2
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhb" = (
 /obj/machinery/conveyor{
 	dir = 1;
@@ -78669,7 +78669,7 @@
 	pixel_y = 2
 	},
 /turf/simulated/floor/caution/corner/sw,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhc" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -78680,7 +78680,7 @@
 	pixel_y = 2
 	},
 /turf/simulated/floor/caution/northsouth,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhd" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -78691,7 +78691,7 @@
 	pixel_y = 2
 	},
 /turf/simulated/floor/caution/corner/ne,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhe" = (
 /turf/simulated/wall/r_wall,
 /area/station/turret_protected/ai_upload_foyer)
@@ -78716,7 +78716,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhh" = (
 /obj/table/woodentable{
 	tag = "icon-woodentable (NORTHWEST)";
@@ -78724,7 +78724,7 @@
 	dir = 9
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhi" = (
 /obj/stool/chair/office{
 	tag = "icon-office_chair (WEST)";
@@ -78732,7 +78732,7 @@
 	dir = 8
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhj" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -78743,7 +78743,7 @@
 	name = "Office"
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhk" = (
 /obj/cable{
 	d1 = 1;
@@ -78756,7 +78756,7 @@
 	d2 = 2
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhl" = (
 /obj/overlay{
 	anchored = 1;
@@ -78767,7 +78767,7 @@
 	name = "janky machine"
 	},
 /turf/simulated/floor/grime,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhm" = (
 /obj/decal{
 	anchored = 1;
@@ -78779,7 +78779,7 @@
 	name = "broken robot arm"
 	},
 /turf/simulated/floor/orangeblack,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhn" = (
 /obj/machinery/light{
 	tag = "icon-tube1 (EAST)";
@@ -78787,7 +78787,7 @@
 	dir = 4
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dho" = (
 /turf/simulated/floor/engine,
 /area/station/turret_protected/ai_upload_foyer)
@@ -78806,7 +78806,7 @@
 	dir = 10
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhr" = (
 /obj/table/woodentable{
 	tag = "icon-woodentable (SOUTHEAST)";
@@ -78816,17 +78816,17 @@
 /obj/machinery/light/small,
 /obj/item/pen,
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhs" = (
 /obj/rack,
 /obj/item/cell,
 /obj/item/cell,
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dht" = (
 /obj/machinery/buddyfactory,
 /turf/simulated/floor/orangeblack,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhu" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -78838,7 +78838,7 @@
 	},
 /obj/item/storage/toolbox/electrical,
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhv" = (
 /obj/machinery/light{
 	tag = "icon-tube1 (WEST)";
@@ -78846,7 +78846,7 @@
 	dir = 8
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhw" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -78857,7 +78857,7 @@
 	},
 /obj/item/guardbot_frame/old,
 /turf/simulated/floor/caution/northsouth,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhx" = (
 /obj/machinery/conveyor{
 	dir = 1;
@@ -78870,14 +78870,14 @@
 	icon_state = "corner_east";
 	dir = 8
 	},
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhy" = (
 /obj/table{
 	icon_state = "tabledir";
 	dir = 9
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhz" = (
 /obj/machinery/power/data_terminal,
 /obj/cable{
@@ -78889,7 +78889,7 @@
 	state = 1
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhA" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -78900,7 +78900,7 @@
 	dir = 1
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhB" = (
 /obj/cable{
 	icon_state = "0-4";
@@ -78912,7 +78912,7 @@
 	d2 = 2
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhC" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -78920,7 +78920,7 @@
 	},
 /obj/item/guardbot_core/old,
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhD" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -78932,7 +78932,7 @@
 "dhE" = (
 /obj/stool/chair/office,
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhF" = (
 /obj/cable{
 	d1 = 1;
@@ -78940,13 +78940,13 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhG" = (
 /obj/machinery/conveyor_switch{
 	id = "robot_factory"
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhH" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -78960,7 +78960,7 @@
 	pixel_y = 10
 	},
 /turf/simulated/floor/grime,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhI" = (
 /obj/table/woodentable{
 	tag = "icon-woodentable (SOUTHEAST)";
@@ -78969,31 +78969,31 @@
 	},
 /obj/item/pen,
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhJ" = (
 /obj/item/basketball{
 	desc = "It's old as heck. Might even be collectable.";
 	name = "antique basketball"
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhK" = (
 /obj/decal/fakeobjects/lighttube_broken,
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhL" = (
 /obj/cable{
 	tag = "icon-1-2";
 	icon_state = "1-2"
 	},
 /turf/simulated/wall,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhM" = (
 /obj/machinery/door/airlock/external{
 	dir = 8
 	},
 /turf/simulated/floor/orangeblack,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhN" = (
 /obj/machinery/light{
 	dir = 1
@@ -79010,13 +79010,13 @@
 	name = "Factory Floor"
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhQ" = (
 /obj/decal/fakeobjects/lightbulb_broken{
 	dir = 1
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhR" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -79030,7 +79030,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhS" = (
 /turf/simulated/floor/black,
 /area/station/turret_protected/ai_upload_foyer)
@@ -79043,17 +79043,17 @@
 /area/station/turret_protected/ai_upload_foyer)
 "dhU" = (
 /turf/simulated/floor/shuttlebay,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhV" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/simulated/floor/shuttlebay,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhW" = (
 /obj/machinery/door/airlock,
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhX" = (
 /obj/machinery/power/data_terminal,
 /obj/cable,
@@ -79062,21 +79062,21 @@
 	state = 1
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhY" = (
 /obj/secure_closet/fridge{
 	icon_state = "fridge";
 	locked = 0
 	},
 /turf/simulated/floor/specialroom/cafeteria,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dhZ" = (
 /turf/simulated/floor/specialroom/cafeteria,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dia" = (
 /obj/machinery/vending/cola/red,
 /turf/simulated/floor/specialroom/cafeteria,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dib" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -79099,14 +79099,14 @@
 	pixel_y = 10
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "did" = (
 /obj/table{
 	icon_state = "tabledir";
 	dir = 2
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "die" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -79116,7 +79116,7 @@
 	pixel_y = 8
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dif" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -79131,11 +79131,11 @@
 	pixel_y = 10
 	},
 /turf/simulated/floor/specialroom/cafeteria,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dig" = (
 /obj/item/weldingtool,
 /turf/simulated/floor/plating,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dih" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -79232,21 +79232,21 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/shuttlebay,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "diq" = (
 /obj/machinery/door/airlock/external{
 	dir = 8;
 	name = "Pod Bay"
 	},
 /turf/simulated/floor/caution/west,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dir" = (
 /obj/machinery/door/airlock/external{
 	dir = 8;
 	name = "Pod Bay"
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dis" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -79256,7 +79256,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/specialroom/cafeteria,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dit" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -79314,11 +79314,11 @@
 	dir = 8
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "diz" = (
 /obj/stool/chair,
 /turf/simulated/floor/specialroom/cafeteria,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "diA" = (
 /obj/machinery/light{
 	tag = "icon-tube1 (WEST)";
@@ -79348,14 +79348,14 @@
 	tag = "icon-bdoorleft1 (NORTH)"
 	},
 /turf/simulated/floor/shuttlebay,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "diE" = (
 /obj/machinery/door/poddoor/blast{
 	autoclose = 1;
 	id = "robot_factory"
 	},
 /turf/simulated/floor/shuttlebay,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "diF" = (
 /obj/machinery/door/poddoor/blast{
 	autoclose = 1;
@@ -79365,14 +79365,14 @@
 	tag = "icon-bdoorleft1 (NORTH)"
 	},
 /turf/simulated/floor/shuttlebay,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "diG" = (
 /obj/machinery/r_door_control{
 	id = "robot_factory";
 	pixel_x = 0
 	},
 /turf/simulated/wall,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "diH" = (
 /obj/table/woodentable{
 	tag = "icon-woodentable (NORTHEAST)";
@@ -79380,25 +79380,25 @@
 	dir = 5
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "diI" = (
 /obj/stool/chair{
 	dir = 1
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "diJ" = (
 /obj/table/woodentable{
 	dir = 9
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "diK" = (
 /obj/machinery/door/airlock{
 	name = "Restroom"
 	},
 /turf/simulated/floor,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "diL" = (
 /obj/stool/chair{
 	tag = "icon-chair (EAST)";
@@ -79406,12 +79406,12 @@
 	dir = 4
 	},
 /turf/simulated/floor/specialroom/cafeteria,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "diM" = (
 /obj/table,
 /obj/item/reagent_containers/food/snacks/burger/moldy,
 /turf/simulated/floor/specialroom/cafeteria,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "diN" = (
 /obj/cable{
 	icon_state = "0-4";
@@ -79578,7 +79578,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "djb" = (
 /obj/grille/steel,
 /obj/window/reinforced{
@@ -79592,7 +79592,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "djc" = (
 /obj/grille/steel,
 /obj/window/reinforced{
@@ -79611,16 +79611,16 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "djd" = (
 /turf/simulated/floor/white,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "dje" = (
 /obj/chem_sink{
 	dir = 8
 	},
 /turf/simulated/floor/white,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "djf" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -79678,7 +79678,7 @@
 "dji" = (
 /obj/item/storage/toilet,
 /turf/simulated/floor/white,
-/area/buddyfactory)
+/area/debris/buddyfactory)
 "djj" = (
 /obj/machinery/turret,
 /obj/cable{
@@ -84370,7 +84370,7 @@
 	icon = 'evilreaverstation.dmi';
 	icon_state = "old_rwall"
 	},
-/area/iss)
+/area/debris/iss)
 "dux" = (
 /obj/window/reinforced{
 	tag = "icon-rwindow";
@@ -84512,18 +84512,18 @@
 "duL" = (
 /obj/machinery/computer/teleporter,
 /turf/simulated/floor/caution/south,
-/area/iss)
+/area/debris/iss)
 "duM" = (
 /obj/machinery/teleport/portal_generator,
 /turf/simulated/floor/caution/south,
-/area/iss)
+/area/debris/iss)
 "duN" = (
 /obj/machinery/teleport/portal_ring,
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/simulated/floor/delivery,
-/area/iss)
+/area/debris/iss)
 "duO" = (
 /obj/machinery/power/apc{
 	dir = 1;
@@ -84540,12 +84540,12 @@
 /turf/simulated/floor/white/grime{
 	dir = 2
 	},
-/area/iss)
+/area/debris/iss)
 "duP" = (
 /turf/simulated/floor/white/grime{
 	dir = 2
 	},
-/area/iss)
+/area/debris/iss)
 "duQ" = (
 /obj/secure_closet/personal,
 /turf/simulated/floor/red{
@@ -84645,7 +84645,7 @@
 /turf/simulated/floor/white/grime{
 	dir = 2
 	},
-/area/iss)
+/area/debris/iss)
 "dve" = (
 /obj/decal/fakeobjects/firelock_broken{
 	density = 1;
@@ -84711,7 +84711,7 @@
 /turf/simulated/floor/white/grime{
 	dir = 2
 	},
-/area/iss)
+/area/debris/iss)
 "dvn" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -84721,7 +84721,7 @@
 /turf/simulated/floor/white/grime{
 	dir = 2
 	},
-/area/iss)
+/area/debris/iss)
 "dvo" = (
 /obj/cable{
 	d1 = 1;
@@ -84731,7 +84731,7 @@
 /turf/simulated/floor/white/grime{
 	dir = 2
 	},
-/area/iss)
+/area/debris/iss)
 "dvp" = (
 /obj/item/baton,
 /turf/simulated/floor/grime,
@@ -84833,7 +84833,7 @@
 	icon_state = "old_wall";
 	name = "wall"
 	},
-/area/iss)
+/area/debris/iss)
 "dvB" = (
 /obj/window/reinforced{
 	tag = "icon-rwindow (EAST)";
@@ -84865,7 +84865,7 @@
 	d2 = 2
 	},
 /turf/simulated/floor,
-/area/iss)
+/area/debris/iss)
 "dvF" = (
 /obj/item/extinguisher,
 /turf/simulated/floor/grime,
@@ -89340,17 +89340,17 @@
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3"
 	},
-/area/helldrone)
+/area/debris/helldrone)
 "dFG" = (
 /obj/grille/steel,
 /turf/space,
-/area/helldrone)
+/area/debris/helldrone)
 "dFH" = (
 /turf/simulated/shuttle/wall{
 	dir = 8;
 	icon_state = "wall3_space"
 	},
-/area/helldrone)
+/area/debris/helldrone)
 "dFI" = (
 /obj/grille/steel,
 /obj/window/reinforced{
@@ -89369,7 +89369,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dFJ" = (
 /obj/grille/steel,
 /obj/window/reinforced{
@@ -89388,22 +89388,22 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dFK" = (
 /turf/simulated/shuttle/wall{
 	dir = 4;
 	icon_state = "wall3"
 	},
-/area/helldrone)
+/area/debris/helldrone)
 "dFL" = (
 /turf/simulated/shuttle/wall{
 	dir = 1;
 	icon_state = "wall3_space"
 	},
-/area/helldrone)
+/area/debris/helldrone)
 "dFM" = (
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dFN" = (
 /obj/machinery/light/small/iomoon{
 	tag = "icon-bulb1 (NORTH)";
@@ -89411,14 +89411,14 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dFO" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
 	pixel_y = 6
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dFP" = (
 /obj/decal/fakeobjects/pipe{
 	tag = "icon-intact (SOUTHEAST)";
@@ -89430,7 +89430,7 @@
 	pixel_y = 6
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dFQ" = (
 /obj/decal/fakeobjects/pipe{
 	tag = "icon-intact (EAST)";
@@ -89442,7 +89442,7 @@
 	pixel_y = 6
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dFR" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "It won't budge.";
@@ -89456,7 +89456,7 @@
 	pixel_y = 6
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dFS" = (
 /obj/decal/fakeobjects/pipe{
 	tag = "icon-intact (EAST)";
@@ -89469,14 +89469,14 @@
 	},
 /obj/critter/ancient_repairbot/helldrone_guard,
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dFT" = (
 /obj/decal/fakeobjects/pipe{
 	tag = "icon-intact";
 	icon_state = "intact"
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dFU" = (
 /obj/decal/fakeobjects{
 	tag = "icon-conduit (NORTHWEST)";
@@ -89489,7 +89489,7 @@
 	anchored = 1
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dFV" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -89502,7 +89502,7 @@
 	tag = "icon-conduit (EAST)"
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dFW" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -89512,7 +89512,7 @@
 	name = "power conduit"
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dFX" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 6;
@@ -89520,7 +89520,7 @@
 	tag = "icon-intact-f (SOUTHEAST)"
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dFY" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -89528,7 +89528,7 @@
 	tag = "icon-intact-f (EAST)"
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dFZ" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "It seems to have been damaged somehow.";
@@ -89538,7 +89538,7 @@
 	name = "engine filter"
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dGa" = (
 /obj/decal/fakeobjects/pipe{
 	tag = "icon-intact (SOUTHWEST)";
@@ -89546,13 +89546,13 @@
 	dir = 10
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dGb" = (
 /obj/decal/fakeobjects/shuttlethruster{
 	dir = 8
 	},
 /turf/space,
-/area/helldrone)
+/area/debris/helldrone)
 "dGc" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -89563,7 +89563,7 @@
 	name = "mistreated engine part"
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dGd" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -89574,7 +89574,7 @@
 	name = "mistreated engine part"
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dGe" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -89587,14 +89587,14 @@
 	tag = "icon-conduit (NORTH)"
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dGf" = (
 /obj/machinery/door/airlock/engineering{
 	name = "East Engine Compartment";
 	req_access_txt = ""
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dGg" = (
 /obj/decal/fakeobjects/pipe{
 	tag = "icon-intact (NORTHWEST)";
@@ -89602,7 +89602,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dGh" = (
 /obj/decal/fakeobjects{
 	tag = "icon-conduit (NORTHWEST)";
@@ -89616,7 +89616,7 @@
 	},
 /obj/machinery/light/small/iomoon,
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dGi" = (
 /obj/decal/fakeobjects{
 	tag = "icon-conduit (NORTHWEST)";
@@ -89639,7 +89639,7 @@
 	tag = "icon-conduit (EAST)"
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dGj" = (
 /obj/decal/fakeobjects{
 	tag = "icon-conduit (SOUTHEAST)";
@@ -89653,7 +89653,7 @@
 	},
 /obj/critter/ancient_repairbot/helldrone_guard,
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dGk" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -89667,18 +89667,18 @@
 	},
 /obj/item/tank/plasma,
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dGl" = (
 /turf/simulated/floor/black,
-/area/helldrone)
+/area/debris/helldrone)
 "dGm" = (
 /obj/critter/ancient_repairbot/helldrone_guard,
 /turf/simulated/floor/black,
-/area/helldrone)
+/area/debris/helldrone)
 "dGn" = (
 /obj/item/storage/toilet,
 /turf/simulated/floor/scorched2,
-/area/helldrone)
+/area/debris/helldrone)
 "dGo" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -89691,7 +89691,7 @@
 	dir = 8
 	},
 /turf/simulated/floor,
-/area/helldrone)
+/area/debris/helldrone)
 "dGp" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -89702,10 +89702,10 @@
 	name = "Air Scrubber"
 	},
 /turf/simulated/floor/shuttlebay,
-/area/helldrone)
+/area/debris/helldrone)
 "dGq" = (
 /turf/simulated/floor/shuttlebay,
-/area/helldrone)
+/area/debris/helldrone)
 "dGr" = (
 /obj/machinery/door/poddoor/blast{
 	autoclose = 1;
@@ -89716,37 +89716,37 @@
 	tag = "icon-bdoorleft1 (NORTH)"
 	},
 /turf/simulated/floor/shuttlebay,
-/area/helldrone)
+/area/debris/helldrone)
 "dGs" = (
 /turf/simulated/floor/caution/north,
-/area/helldrone)
+/area/debris/helldrone)
 "dGt" = (
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3"
 	},
-/area/helldrone/core)
+/area/debris/helldrone/core)
 "dGu" = (
 /turf/simulated/shuttle/wall{
 	dir = 4;
 	icon_state = "wall3"
 	},
-/area/helldrone/core)
+/area/debris/helldrone/core)
 "dGv" = (
 /obj/machinery/door/airlock{
 	name = "Maint Crew Support"
 	},
 /turf/simulated/floor,
-/area/helldrone)
+/area/debris/helldrone)
 "dGw" = (
 /turf/simulated/floor,
-/area/helldrone)
+/area/debris/helldrone)
 "dGx" = (
 /obj/table,
 /obj/decal/fakeobjects/lightbulb_broken{
 	dir = 4
 	},
 /turf/simulated/floor,
-/area/helldrone)
+/area/debris/helldrone)
 "dGy" = (
 /obj/machinery/door/poddoor/blast{
 	autoclose = 1;
@@ -89757,7 +89757,7 @@
 	tag = "icon-bdoormid1 (NORTH)"
 	},
 /turf/simulated/floor/shuttlebay,
-/area/helldrone)
+/area/debris/helldrone)
 "dGz" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -89769,7 +89769,7 @@
 	name = "drone sensor array"
 	},
 /turf/space,
-/area/helldrone)
+/area/debris/helldrone)
 "dGA" = (
 /obj/computer3frame{
 	anchored = 1;
@@ -89778,10 +89778,10 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor4"
 	},
-/area/helldrone)
+/area/debris/helldrone)
 "dGB" = (
 /turf/simulated/floor/circuit/red,
-/area/helldrone/core)
+/area/debris/helldrone/core)
 "dGC" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -89792,7 +89792,7 @@
 	name = "downed server"
 	},
 /turf/simulated/floor/circuit/red,
-/area/helldrone/core)
+/area/debris/helldrone/core)
 "dGD" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -89802,7 +89802,7 @@
 	name = "defunct vent"
 	},
 /turf/simulated/floor/circuit/red,
-/area/helldrone/core)
+/area/debris/helldrone/core)
 "dGE" = (
 /obj/machinery/door/poddoor/blast{
 	autoclose = 1;
@@ -89813,18 +89813,18 @@
 	tag = "icon-bdoorright1 (NORTH)"
 	},
 /turf/simulated/floor/shuttlebay,
-/area/helldrone)
+/area/debris/helldrone)
 "dGF" = (
 /obj/stool/chair/office,
 /turf/simulated/floor/shuttle{
 	icon_state = "floor4"
 	},
-/area/helldrone)
+/area/debris/helldrone)
 "dGG" = (
 /turf/simulated/floor/shuttle{
 	icon_state = "floor4"
 	},
-/area/helldrone)
+/area/debris/helldrone)
 "dGH" = (
 /obj/decal/fakeobjects/firelock_broken{
 	desc = "Rust has rendered this airlock useless.";
@@ -89834,7 +89834,7 @@
 	tag = "icon-bloodydoor"
 	},
 /turf/simulated/floor/black,
-/area/helldrone)
+/area/debris/helldrone)
 "dGI" = (
 /obj/machinery/door/airlock/command{
 	aiControlDisabled = 1;
@@ -89842,10 +89842,10 @@
 	req_access_txt = ""
 	},
 /turf/simulated/floor/orangeblack,
-/area/helldrone/core)
+/area/debris/helldrone/core)
 "dGJ" = (
 /turf/simulated/floor/black,
-/area/helldrone/core)
+/area/debris/helldrone/core)
 "dGK" = (
 /obj/machinery/r_door_control{
 	id = "zdrone_hangar";
@@ -89854,7 +89854,7 @@
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3"
 	},
-/area/helldrone)
+/area/debris/helldrone)
 "dGL" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -89868,19 +89868,19 @@
 	dir = 4
 	},
 /turf/simulated/floor/circuit/red,
-/area/helldrone/core)
+/area/debris/helldrone/core)
 "dGM" = (
 /obj/machinery/door/airlock{
 	name = "Maint Crew Quarters"
 	},
 /turf/simulated/floor,
-/area/helldrone)
+/area/debris/helldrone)
 "dGN" = (
 /obj/decal/fakeobjects/lightbulb_broken{
 	dir = 4
 	},
 /turf/simulated/floor,
-/area/helldrone)
+/area/debris/helldrone)
 "dGO" = (
 /obj/grille/steel,
 /obj/window/reinforced{
@@ -89894,13 +89894,13 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dGP" = (
 /obj/machinery/door/airlock/external{
 	name = "Pod Bay"
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dGQ" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -89911,20 +89911,20 @@
 	name = "drone sensor array"
 	},
 /turf/space,
-/area/helldrone)
+/area/debris/helldrone)
 "dGR" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/simulated/floor/black,
-/area/helldrone/core)
+/area/debris/helldrone/core)
 "dGS" = (
 /obj/crate,
 /obj/item/gun/energy/laser_gun,
 /obj/item/clothing/under/misc/syndicate,
 /obj/item/clothing/shoes/black,
 /turf/simulated/floor,
-/area/helldrone)
+/area/debris/helldrone)
 "dGT" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -89940,7 +89940,7 @@
 	pixel_y = 16
 	},
 /turf/simulated/floor,
-/area/helldrone)
+/area/debris/helldrone)
 "dGU" = (
 /obj/machinery/light/small/iomoon{
 	tag = "icon-bulb1 (WEST)";
@@ -89951,7 +89951,7 @@
 /obj/item/clothing/suit/space/syndicate,
 /obj/item/clothing/mask/medical,
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dGV" = (
 /obj/machinery/door_control{
 	id = "zdrone_hangar";
@@ -89959,7 +89959,7 @@
 	pixel_y = 24
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dGW" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -89971,7 +89971,7 @@
 	name = "drone sensor array"
 	},
 /turf/space,
-/area/helldrone)
+/area/debris/helldrone)
 "dGX" = (
 /obj/stool/chair/office{
 	tag = "icon-office_chair (EAST)";
@@ -89981,13 +89981,13 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor4"
 	},
-/area/helldrone)
+/area/debris/helldrone)
 "dGY" = (
 /obj/decal/fakeobjects/firelock_broken{
 	tag = "icon-bloodydoor"
 	},
 /turf/simulated/floor/black,
-/area/helldrone)
+/area/debris/helldrone)
 "dGZ" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -89997,15 +89997,15 @@
 	name = "defunct vent"
 	},
 /turf/simulated/floor/black,
-/area/helldrone/core)
+/area/debris/helldrone/core)
 "dHa" = (
 /obj/critter/ancient_repairbot/helldrone_guard,
 /turf/simulated/floor/black,
-/area/helldrone/core)
+/area/debris/helldrone/core)
 "dHb" = (
 /obj/item/tank/oxygen,
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dHc" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -90021,7 +90021,7 @@
 /turf/simulated/floor/shuttle{
 	icon_state = "floor4"
 	},
-/area/helldrone)
+/area/debris/helldrone)
 "dHd" = (
 /obj/machinery/door/airlock/command{
 	aiControlDisabled = 1;
@@ -90029,7 +90029,7 @@
 	req_access_txt = ""
 	},
 /turf/simulated/floor/orangeblack,
-/area/helldrone)
+/area/debris/helldrone)
 "dHe" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -90040,7 +90040,7 @@
 	name = "idle server"
 	},
 /turf/simulated/floor/circuit/red,
-/area/helldrone/core)
+/area/debris/helldrone/core)
 "dHf" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -90055,13 +90055,13 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dHg" = (
 /obj/decal/fakeobjects/lightbulb_broken{
 	dir = 4
 	},
 /turf/simulated/floor/black,
-/area/helldrone)
+/area/debris/helldrone)
 "dHh" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -90081,34 +90081,34 @@
 	name = "power conduit"
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dHi" = (
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3_space"
 	},
-/area/helldrone)
+/area/debris/helldrone)
 "dHj" = (
 /obj/machinery/door/airlock{
 	name = "Toilet Cubicle";
 	req_access_txt = "0"
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dHk" = (
 /obj/machinery/door/airlock/engineering{
 	name = "West Engine Compartment";
 	req_access_txt = ""
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dHl" = (
 /obj/critter/ancient_repairbot/helldrone_guard,
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dHm" = (
 /obj/decal/fakeobjects/tallsmes,
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dHn" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -90118,26 +90118,26 @@
 	name = "air vent"
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dHo" = (
 /obj/item/storage/toilet,
 /turf/unsimulated/floor/specialroom/freezer,
-/area/helldrone)
+/area/debris/helldrone)
 "dHp" = (
 /turf/unsimulated/floor/specialroom/freezer,
-/area/helldrone)
+/area/debris/helldrone)
 "dHq" = (
 /obj/chem_sink{
 	dir = 1
 	},
 /turf/unsimulated/floor/specialroom/freezer,
-/area/helldrone)
+/area/debris/helldrone)
 "dHr" = (
 /turf/simulated/shuttle/wall{
 	dir = 4;
 	icon_state = "wall3_space"
 	},
-/area/helldrone)
+/area/debris/helldrone)
 "dHs" = (
 /obj/decal/fakeobjects{
 	tag = "icon-conduit (WEST)";
@@ -90150,7 +90150,7 @@
 	anchored = 1
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dHt" = (
 /obj/decal/fakeobjects{
 	tag = "icon-conduit (SOUTHEAST)";
@@ -90173,11 +90173,11 @@
 	anchored = 1
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dHu" = (
 /obj/decal/fakeobjects/pipe,
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dHv" = (
 /obj/decal/fakeobjects{
 	tag = "icon-conduit (NORTH)";
@@ -90190,7 +90190,7 @@
 	anchored = 1
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dHw" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -90203,7 +90203,7 @@
 	tag = "icon-conduit (SOUTHWEST)"
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dHx" = (
 /obj/decal/fakeobjects{
 	tag = "icon-conduit (WEST)";
@@ -90226,7 +90226,7 @@
 	anchored = 1
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dHy" = (
 /obj/decal/fakeobjects{
 	tag = "icon-conduit (WEST)";
@@ -90248,7 +90248,7 @@
 	anchored = 1
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dHz" = (
 /obj/decal/fakeobjects{
 	tag = "icon-conduit (WEST)";
@@ -90262,7 +90262,7 @@
 	},
 /obj/decal/fakeobjects/pipe,
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dHA" = (
 /obj/decal/fakeobjects{
 	tag = "icon-conduit (WEST)";
@@ -90280,11 +90280,11 @@
 	dir = 5
 	},
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "dHB" = (
 /obj/decal/fakeobjects/lightbulb_broken,
 /turf/simulated/floor/plating,
-/area/helldrone)
+/area/debris/helldrone)
 "ebH" = (
 /obj/displaycase{
 	displayed = new /obj/item/captaingun

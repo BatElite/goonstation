@@ -32149,7 +32149,7 @@
 	name = "broken machine"
 	},
 /turf/simulated/floor/airless/plating/damaged2,
-/area/abandonedship)
+/area/debris/abandonedship)
 "bIW" = (
 /obj/cable{
 	icon_state = "4-8"
@@ -32275,7 +32275,7 @@
 	},
 /obj/item/mine/radiation/armed,
 /turf/simulated/floor/airless/plating/damaged2,
-/area/abandonedship)
+/area/debris/abandonedship)
 "bJn" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -32583,7 +32583,7 @@
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/robot_debris,
 /turf/simulated/floor/airless/plating/damaged2,
-/area/abandonedship)
+/area/debris/abandonedship)
 "bJR" = (
 /obj/cable{
 	icon_state = "4-8"
@@ -49051,7 +49051,7 @@
 	dir = 1;
 	icon_state = "wall3_space"
 	},
-/area/abandonedship)
+/area/debris/abandonedship)
 "cAy" = (
 /obj/machinery/vending/snack,
 /turf/simulated/floor/carpet{
@@ -49082,7 +49082,7 @@
 	dir = 4
 	},
 /turf/space,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cAE" = (
 /obj/lattice{
 	dir = 4;
@@ -49095,37 +49095,37 @@
 /area/space)
 "cAF" = (
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cAG" = (
 /obj/storage/crate,
 /obj/item/clothing/suit/rad,
 /obj/item/clothing/head/rad_hood,
 /turf/simulated/floor/airless/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cAH" = (
 /obj/decal/floatingtiles{
 	icon_state = "floattiles5"
 	},
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cAI" = (
 /obj/decal/floatingtiles{
 	dir = 8;
 	icon_state = "floattiles6"
 	},
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cAJ" = (
 /obj/decal/cleanable/machine_debris,
 /obj/item/device/guardbot_tool/tesla,
 /obj/item/device/guardbot_tool/tesla,
 /turf/simulated/floor/airless/damaged5,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cAK" = (
 /obj/decal/cleanable/machine_debris,
 /obj/item/motherboard,
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cAL" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -49213,7 +49213,7 @@
 	dir = 4
 	},
 /turf/space,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cAX" = (
 /obj/disposalpipe/segment{
 	dir = 4
@@ -49231,7 +49231,7 @@
 	icon_state = "coil1"
 	},
 /turf/simulated/floor/airless/plating/damaged1,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cAZ" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -49249,7 +49249,7 @@
 	name = "glow - REACTOR"
 	},
 /turf/simulated/floor/airless/plating/damaged1,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cBa" = (
 /obj/decal/glow{
 	brightness = 2;
@@ -49260,10 +49260,10 @@
 	name = "glow - REACTOR"
 	},
 /turf/simulated/floor/airless/plating/damaged1,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cBb" = (
 /turf/simulated/floor/airless/damaged2,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cBc" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -49274,14 +49274,14 @@
 	name = "busted machine"
 	},
 /turf/simulated/floor/airless/plating/damaged3,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cBd" = (
 /obj/item/raw_material/shard/glass{
 	icon_state = "small"
 	},
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/airless/plating/damaged3,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cBe" = (
 /obj/lattice,
 /obj/decal/fakeobjects/pipe{
@@ -49313,24 +49313,24 @@
 /area/listeningpost)
 "cBi" = (
 /turf/simulated/floor/airless/plating/damaged1,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cBj" = (
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/airless/plating/damaged1,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cBk" = (
 /obj/item/cable_coil/cut{
 	icon_state = "coil1"
 	},
 /turf/simulated/floor/airless/plating/damaged1,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cBl" = (
 /obj/item/storage/secure/ssafe/loot{
 	pixel_x = 6;
 	pixel_y = -28
 	},
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cBm" = (
 /obj/lattice{
 	dir = 4;
@@ -49416,25 +49416,25 @@
 "cBA" = (
 /obj/structure/girder/displaced,
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cBB" = (
 /obj/decal/floatingtiles{
 	icon_state = "floattiles2"
 	},
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cBC" = (
 /obj/decal/floatingtiles{
 	dir = 1
 	},
 /obj/structure/girder,
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cBD" = (
 /obj/decal/cleanable/machine_debris,
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/airless/damaged5,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cBE" = (
 /obj/lattice,
 /obj/decal/floatingtiles{
@@ -49446,7 +49446,7 @@
 "cBF" = (
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cBG" = (
 /obj/decal/floatingtiles{
 	icon_state = "floattiles3"
@@ -49458,7 +49458,7 @@
 	name = "broken airlock"
 	},
 /turf/simulated/floor/airless/plating/damaged3,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cBI" = (
 /obj/lattice,
 /obj/decal/floatingtiles{
@@ -49470,14 +49470,14 @@
 /obj/item/cable_coil/cut,
 /obj/structure/girder/displaced,
 /turf/simulated/floor/airless/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cBK" = (
 /obj/decal/floatingtiles{
 	dir = 4
 	},
 /obj/structure/girder,
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cBL" = (
 /obj/decal/fakeobjects/firelock_broken{
 	desc = "Rust has rendered this airlock useless.";
@@ -49486,14 +49486,14 @@
 	name = "broken airlock"
 	},
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cBM" = (
 /obj/decal/floatingtiles{
 	dir = 4;
 	icon_state = "floattiles4"
 	},
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cBN" = (
 /obj/lattice,
 /obj/item/cable_coil/cut{
@@ -49505,7 +49505,7 @@
 /obj/decal/cleanable/machine_debris,
 /obj/item/device/light/glowstick,
 /turf/simulated/floor/airless/plating/scorched,
-/area/abandonedship)
+/area/debris/abandonedship)
 "cBP" = (
 /obj/cable{
 	icon_state = "4-8"
@@ -49526,7 +49526,7 @@
 	dir = 4;
 	icon_state = "wall3_space"
 	},
-/area/abandonedship)
+/area/debris/abandonedship)
 "cBS" = (
 /obj/item/space_thing,
 /turf/simulated/floor/plating/airless/asteroid,
@@ -52051,7 +52051,7 @@
 	dir = 8
 	},
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
-/area/abandonedship)
+/area/debris/abandonedship)
 "fhq" = (
 /obj/effects/background_objects/fortuna,
 /turf/space,
@@ -52896,7 +52896,7 @@
 "gci" = (
 /obj/decal/fakeobjects/airmonitor_broken,
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
-/area/abandonedship)
+/area/debris/abandonedship)
 "geM" = (
 /obj/grille/catwalk{
 	dir = 4
@@ -55703,7 +55703,7 @@
 	icon_state = "lattice-dir"
 	},
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
-/area/abandonedship)
+/area/debris/abandonedship)
 "kiI" = (
 /obj/table/auto,
 /obj/item/satchel/hydro{
@@ -58080,7 +58080,7 @@
 /area/station/crew_quarters/captain)
 "oct" = (
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
-/area/abandonedship)
+/area/debris/abandonedship)
 "odJ" = (
 /obj/storage/secure/closet/research/chemical,
 /obj/item/device/radio/intercom/medical,
@@ -60037,7 +60037,7 @@
 	dir = 8
 	},
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
-/area/abandonedship)
+/area/debris/abandonedship)
 "qYj" = (
 /obj/machinery/power/smes{
 	charge = 1e+006;
@@ -60920,7 +60920,7 @@
 	dir = 8
 	},
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
-/area/abandonedship)
+/area/debris/abandonedship)
 "snq" = (
 /obj/decal/cleanable/dirt,
 /obj/item/tile/steel,
@@ -61180,7 +61180,7 @@
 	icon_state = "lattice-dir"
 	},
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
-/area/abandonedship)
+/area/debris/abandonedship)
 "sFO" = (
 /obj/disposalpipe/trunk/mail{
 	dir = 1
@@ -62046,7 +62046,7 @@
 	icon_state = "lattice-dir"
 	},
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
-/area/abandonedship)
+/area/debris/abandonedship)
 "tSK" = (
 /turf/simulated/wall/false_wall/reinforced,
 /area/station/maintenance/northeast)
@@ -62631,7 +62631,7 @@
 "uwL" = (
 /obj/decal/cleanable/oil,
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
-/area/abandonedship)
+/area/debris/abandonedship)
 "uxY" = (
 /obj/grille/catwalk{
 	dir = 4
@@ -64916,7 +64916,7 @@
 /obj/item/raw_material/cerenkite,
 /obj/item/raw_material/cerenkite,
 /turf/simulated/floor/airless/plating/damaged2,
-/area/abandonedship)
+/area/debris/abandonedship)
 "xJC" = (
 /obj/machinery/door/airlock/pyro/glass{
 	name = "Mini-Brig";

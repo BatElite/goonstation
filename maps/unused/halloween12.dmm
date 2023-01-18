@@ -42689,7 +42689,7 @@
 	icon = 'icons/misc/evilreaverstation.dmi';
 	icon_state = "old_rwall"
 	},
-/area/iss)
+/area/debris/iss)
 "bKN" = (
 /obj/window/reinforced,
 /turf/simulated/floor/grime,
@@ -42808,18 +42808,18 @@
 "bLb" = (
 /obj/machinery/computer/teleporter,
 /turf/simulated/floor/caution/south,
-/area/iss)
+/area/debris/iss)
 "bLc" = (
 /obj/machinery/teleport/portal_generator,
 /turf/simulated/floor/caution/south,
-/area/iss)
+/area/debris/iss)
 "bLd" = (
 /obj/machinery/teleport/portal_ring,
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/simulated/floor/delivery,
-/area/iss)
+/area/debris/iss)
 "bLe" = (
 /obj/machinery/power/apc{
 	dir = 1;
@@ -42836,12 +42836,12 @@
 /turf/simulated/floor/white/grime{
 	dir = 2
 	},
-/area/iss)
+/area/debris/iss)
 "bLf" = (
 /turf/simulated/floor/white/grime{
 	dir = 2
 	},
-/area/iss)
+/area/debris/iss)
 "bLg" = (
 /obj/secure_closet/personal,
 /turf/simulated/floor/red{
@@ -42941,7 +42941,7 @@
 /turf/simulated/floor/white/grime{
 	dir = 2
 	},
-/area/iss)
+/area/debris/iss)
 "bLu" = (
 /obj/decal/fakeobjects/firelock_broken{
 	density = 1;
@@ -43007,7 +43007,7 @@
 /turf/simulated/floor/white/grime{
 	dir = 2
 	},
-/area/iss)
+/area/debris/iss)
 "bLD" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -43017,7 +43017,7 @@
 /turf/simulated/floor/white/grime{
 	dir = 2
 	},
-/area/iss)
+/area/debris/iss)
 "bLE" = (
 /obj/cable{
 	d1 = 1;
@@ -43027,7 +43027,7 @@
 /turf/simulated/floor/white/grime{
 	dir = 2
 	},
-/area/iss)
+/area/debris/iss)
 "bLF" = (
 /obj/item/baton,
 /turf/simulated/floor/grime,
@@ -43116,7 +43116,7 @@
 	icon_state = "old_wall";
 	name = "wall"
 	},
-/area/iss)
+/area/debris/iss)
 "bLR" = (
 /obj/window/reinforced,
 /turf/space,
@@ -43152,7 +43152,7 @@
 	d2 = 2
 	},
 /turf/simulated/floor,
-/area/iss)
+/area/debris/iss)
 "bLW" = (
 /obj/item/extinguisher,
 /turf/simulated/floor/grime,

@@ -639,7 +639,7 @@ Returns:
 
 	var/list/areas = list()
 
-	var/list/ignoreAreas = list(/area/station/solar,/area/station/catwalk,/area/wizard_station,/area/syndicate_station,/area/listeningpost,/area/station/hallway,/area/station/com_dish,/area/shuttle,/area/station/maintenance,/area/ghostdrone_factory,/area/abandonedship,/area/supply,/area/mining/magnet)
+	var/list/ignoreAreas = list(/area/station/solar,/area/station/catwalk,/area/wizard_station,/area/syndicate_station,/area/listeningpost,/area/station/hallway,/area/station/com_dish,/area/shuttle,/area/station/maintenance,/area/ghostdrone_factory,/area/debris/abandonedship,/area/supply,/area/mining/magnet)
 
 	outer:
 		for(var/area/A as area in world) //Might want to do this manually instead.

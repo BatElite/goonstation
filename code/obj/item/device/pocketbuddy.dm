@@ -260,7 +260,7 @@
 //    "radio_shack"=null, // INTEGRATION: PLEASE ADD RADIO SHACK AREAS TO THIS LIST
 //    "maint"=list(/area/station/maintenance,/area/station/storage),
 //    // oh christ, INTEGRATION: ANYTHING ESPECIALLY UNDEAD OR SPOOKY I MISSED
-//    "spooky"=list(/area/abandonedmedicalship, /area/crypt, /area/mausoleum, /area/h7, /area/helldrone, /area/morgue, /area/hospital, /area/crunch, /area/solarium), // solarium. haaaaaa
+//    "spooky"=list(/area/debris/abandonedmedicalship, /area/crypt, /area/mausoleum, /area/h7, /area/debris/helldrone, /area/morgue, /area/hospital, /area/crunch, /area/solarium), // solarium. haaaaaa
 //    "medical"=/area/station/medical, // after spooky so morgue doesn't get swallowed
 //    )
 //  // anything else is treated as area category unknown
