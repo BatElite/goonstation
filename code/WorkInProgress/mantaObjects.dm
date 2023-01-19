@@ -1297,7 +1297,7 @@ var/obj/manta_speed_lever/mantaLever = null
 				mantaPushList.Add(Obj)
 				Obj.temp_flags |= MANTA_PUSHING
 		return
-
+/*
 /area/propellerpower
 	icon_state = "propeller"
 	name = "Propellers"
@@ -1310,7 +1310,7 @@ var/obj/manta_speed_lever/mantaLever = null
 	Exited(atom/movable/Obj, atom/newLoc)
 		removeManta(Obj)
 		return ..(Obj, newLoc)
-
+*/
 
 /area/supply/sell_point/manta
 	ambient_light = OCEAN_LIGHT

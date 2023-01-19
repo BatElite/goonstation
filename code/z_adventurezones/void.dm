@@ -9,7 +9,7 @@ CONTENTS:
 //broken rcd is in rcd.dm
 //ghost gun and goggles are in energy.dm and glasses.dm
 //port-a-medbay in sleeper.dm and remote.dm
-/area/crunch
+/area/adventure/crunch
 	name = "somewhere"
 	icon_state = "purple"
 	filler_turf = "/turf/unsimulated/floor/void"
@@ -20,15 +20,15 @@ CONTENTS:
 	sound_loop = 'sound/ambience/spooky/Void_Song.ogg'
 	ambient_light = rgb(6.9, 4.20, 6.9)
 
-/area/crunch/New()
+/area/adventure/crunch/New()
 	. = ..()
 	START_TRACKING_CAT(TR_CAT_AREA_PROCESS)
 
-/area/crunch/disposing()
+/area/adventure/crunch/disposing()
 	STOP_TRACKING_CAT(TR_CAT_AREA_PROCESS)
 	. = ..()
 
-/area/crunch/area_process()
+/area/adventure/crunch/area_process()
 	if(prob(20))
 		src.sound_fx_2 = pick('sound/ambience/spooky/Void_Hisses.ogg',\
 		'sound/ambience/spooky/Void_Screaming.ogg',\

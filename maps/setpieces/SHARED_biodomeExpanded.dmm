@@ -1394,7 +1394,7 @@
 	desc = "Deep shifting clouds...";
 	name = "clouds"
 	},
-/area/someplace)
+/area/adventure/someplace)
 "bHA" = (
 /turf/unsimulated/floor/cave,
 /area/swampzone/interiors/quarry)
@@ -5963,7 +5963,7 @@
 	desc = "Deep shifting clouds...";
 	name = "clouds"
 	},
-/area/someplace)
+/area/adventure/someplace)
 "hdx" = (
 /obj/decal/poster/wallsign/construction,
 /turf/unsimulated/wall/auto/supernorn,
@@ -6371,7 +6371,7 @@
 /turf/unsimulated/floor/shuttle{
 	icon_state = "floor4"
 	},
-/area/someplace)
+/area/adventure/someplace)
 "hBn" = (
 /obj/tree1{
 	dir = 4
@@ -7116,7 +7116,7 @@
 	desc = "Deep shifting clouds...";
 	name = "clouds"
 	},
-/area/someplace)
+/area/adventure/someplace)
 "ixQ" = (
 /turf/unsimulated/floor/white/side,
 /area/swampzone/interiors/outbuildings)
@@ -7438,7 +7438,7 @@
 /turf/unsimulated/floor/shuttle{
 	icon_state = "floor4"
 	},
-/area/someplace)
+/area/adventure/someplace)
 "iTz" = (
 /obj/decal/cleanable/dirt/jen,
 /turf/unsimulated/floor/auto/dirt,
@@ -8248,7 +8248,7 @@
 /turf/unsimulated/floor/shuttle{
 	icon_state = "floor4"
 	},
-/area/someplace)
+/area/adventure/someplace)
 "jPj" = (
 /obj/table/reinforced/auto,
 /obj/item/seed/alien,
@@ -8578,7 +8578,7 @@
 /area/adventure/crater/cave)
 "kjZ" = (
 /turf/unsimulated/wall/auto/lead/gray,
-/area/someplace)
+/area/adventure/someplace)
 "kkj" = (
 /obj/grille/steel,
 /turf/unsimulated/wall/trench{
@@ -10584,7 +10584,7 @@
 /area/adventure/crater/cave/lower)
 "mEG" = (
 /turf/unsimulated/wall/auto/reinforced/gannets,
-/area/someplace)
+/area/adventure/someplace)
 "mEK" = (
 /obj/grille/steel,
 /obj/fluid_pipe/straight,
@@ -12630,7 +12630,7 @@
 	desc = "Deep shifting clouds...";
 	name = "clouds"
 	},
-/area/someplace)
+/area/adventure/someplace)
 "oZc" = (
 /obj/tree1/elm_random,
 /turf/unsimulated/floor/auto/grass/swamp_grass,
@@ -18914,7 +18914,7 @@
 /turf/unsimulated/floor/shuttle{
 	icon_state = "floor4"
 	},
-/area/someplace)
+/area/adventure/someplace)
 "wtn" = (
 /turf/unsimulated/grasstodirt{
 	dir = 4;
@@ -19294,7 +19294,7 @@
 /area/swampzone/ground)
 "wMY" = (
 /turf/unsimulated/floor/black,
-/area/someplace)
+/area/adventure/someplace)
 "wNe" = (
 /obj/submachine/chef_sink/chem_sink{
 	dir = 8

@@ -126,13 +126,13 @@
 	logTheThing("diary", usr, null, "toggled monetized cloning [wagesystem.clones_for_cash ? "on" : "off"].", "admin")
 	message_admins("[key_name(usr)] toggled monetized cloning [wagesystem.clones_for_cash ? "on" : "off"]")
 	boutput(world, "<b>Cloning now [wagesystem.clones_for_cash ? "requires" : "does not require"] money.</b>")
-
+/*
 /area/haine_party_palace
 	name = "haine's rad hangout place"
 	icon_state = "purple"
 	requires_power = 0
 	sound_environment = 4
-
+*/
 /proc/report_times()
 	DEBUG_MESSAGE("[world.time]")
 	DEBUG_MESSAGE(time2text(world.realtime, "DDD MMM DD hh:mm:ss"))

@@ -9,14 +9,14 @@
 /turf/unsimulated/wall/solidcolor/black{
 	name = "rock wall"
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "ad" = (
 /turf/unsimulated/wall/setpieces/Azarak/cavewall,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "ae" = (
 /obj/map/light/void,
 /turf/unsimulated/wall/setpieces/Azarak/cavewall,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "af" = (
 /turf/space/no_replace,
 /area/space)
@@ -25,19 +25,19 @@
 	desc = "Probably powers some vast archive, if you had to guess. Definitely not related to the computer upstairs, since. Do you see any wires? I sure don't. Maybe they're invisible or something."
 	},
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor/floor3,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "ah" = (
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor/floor3,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "ai" = (
 /obj/decal/fakeobjects/vacuumtape{
 	desc = "This is probably the storage for said archives. Probably. Maybe it's just a bunch of tapes. Shame Bradbury II's data tapes are way too big for this thing."
 	},
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor/floor2,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "aj" = (
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor/floor2,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "ak" = (
 /obj/stone{
 	desc = "There might be something under there.";
@@ -57,7 +57,7 @@
 	pixel_y = 20
 	},
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "al" = (
 /obj/stone{
 	dir = 10;
@@ -83,24 +83,24 @@
 	pixel_x = -2
 	},
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor/floor3,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "am" = (
 /obj/decal/cleanable/writing/infrared{
 	desc = "Something's written here...";
 	words = "It is not too late to put the keys back."
 	},
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor/floor2,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "an" = (
 /obj/decal/cleanable/writing/infrared{
 	desc = "...";
 	words = "Stop. Do not make the same mistake you have made so, so many times before."
 	},
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor/floor2,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "ao" = (
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "ap" = (
 /obj/ladder{
 	icon_state = "ladder_wall";
@@ -109,25 +109,25 @@
 	},
 /obj/map/light/void,
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "aq" = (
 /obj/decal/cleanable/writing/infrared{
 	desc = "Something's written here...";
 	words = "You're making a mistake."
 	},
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor/floor2,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "ar" = (
 /turf/unsimulated/grass,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "as" = (
 /turf/unsimulated/grasstodirt{
 	dir = 8
 	},
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "at" = (
 /turf/unsimulated/dirt,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "au" = (
 /obj/stone{
 	icon_state = "stone";
@@ -136,7 +136,7 @@
 	pixel_y = 15
 	},
 /turf/unsimulated/grass,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "av" = (
 /obj/stone{
 	dir = 10;
@@ -144,27 +144,27 @@
 	pixel_y = 22
 	},
 /turf/unsimulated/grass,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "aw" = (
 /turf/unsimulated/grasstodirt{
 	icon_state = "grasstodirt";
 	dir = 10
 	},
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "ax" = (
 /turf/unsimulated/grasstodirt,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "ay" = (
 /obj/item/shovel,
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "az" = (
 /turf/unsimulated/wall/auto/reinforced/supernorn{
 	desc = "You can see through it for aesthetic reasons. Trust me on this one.";
 	name = "reinforced wall";
 	opacity = 0
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "aA" = (
 /obj/ladder{
 	pixel_x = 4;
@@ -181,17 +181,17 @@
 	pixel_y = -3
 	},
 /turf/unsimulated/grass,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "aB" = (
 /turf/unsimulated/grasstodirt{
 	dir = 8;
 	icon_state = "grasstodirt";
 	name = "mossy dirt"
 	},
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "aC" = (
 /turf/unsimulated/floor/wood,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "aD" = (
 /obj/item/clothing/suit/bedsheet{
 	bcolor = "pink";
@@ -204,7 +204,7 @@
 	words = "There is nothing for you here."
 	},
 /turf/unsimulated/floor/wood,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "aE" = (
 /obj/stone{
 	icon_state = "stone";
@@ -213,7 +213,7 @@
 	pixel_y = 9
 	},
 /turf/unsimulated/grass,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "aF" = (
 /obj/stone{
 	dir = 10;
@@ -221,7 +221,7 @@
 	pixel_y = 5
 	},
 /turf/unsimulated/dirt,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "aG" = (
 /obj/stone{
 	icon_state = "stone";
@@ -230,12 +230,12 @@
 	pixel_y = 23
 	},
 /turf/unsimulated/grass,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "aH" = (
 /turf/unsimulated/floor/stairs{
 	dir = 1
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "aI" = (
 /obj/decal/stage_edge,
 /obj/ladder{
@@ -247,7 +247,7 @@
 	desc = "This one looks somewhat out of place. Less dust on it. A little dinged up. Probably still has goodies in it."
 	},
 /turf/unsimulated/floor/black/grime,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "aJ" = (
 /obj/tree1{
 	dir = 8;
@@ -255,23 +255,23 @@
 	pixel_y = -6
 	},
 /turf/unsimulated/grass,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "aK" = (
 /turf/unsimulated/grasstodirt{
 	icon_state = "grasstodirt";
 	dir = 9
 	},
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "aL" = (
 /obj/table/wood/round/auto,
 /obj/decal/cleanable/desk_clutter,
 /obj/random_item_spawner/tableware,
 /obj/item/storage/pill_bottle/antirad,
 /turf/unsimulated/floor/black,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "aM" = (
 /turf/unsimulated/floor/black,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "aN" = (
 /obj/shrub{
 	desc = "Looks suspiciously just like an Earth ficus.";
@@ -283,17 +283,17 @@
 	pixel_y = 0
 	},
 /turf/unsimulated/floor/black/grime,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "aO" = (
 /obj/storage/secure/closet/fridge/kitchen{
 	pixel_y = 4
 	},
 /turf/unsimulated/floor/black/corner,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "aP" = (
 /obj/submachine/chef_oven,
 /turf/unsimulated/floor/black/side,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "aQ" = (
 /obj/table/wood/auto,
 /obj/submachine/chef_sink/chem_sink{
@@ -301,7 +301,7 @@
 	},
 /obj/item/storage/box/cutlery,
 /turf/unsimulated/floor/black/side,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "aR" = (
 /obj/table/wood/auto,
 /obj/machinery/microwave{
@@ -311,7 +311,7 @@
 	icon_state = "greyblackcorner";
 	dir = 4
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "aS" = (
 /obj/table/wood/round/auto,
 /obj/item/storage/toolbox/mechanical,
@@ -320,29 +320,29 @@
 	},
 /obj/random_item_spawner/tools,
 /turf/unsimulated/floor/black/grime,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "aT" = (
 /obj/stool/chair/office/purple{
 	dir = 8
 	},
 /turf/unsimulated/floor/black,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "aU" = (
 /turf/unsimulated/floor/black/side{
 	dir = 4
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "aV" = (
 /turf/unsimulated/floor/white/grime,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "aW" = (
 /turf/unsimulated/floor/white,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "aX" = (
 /turf/unsimulated/floor/black/side{
 	dir = 8
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "aY" = (
 /obj/shrub{
 	dir = 6;
@@ -350,14 +350,14 @@
 	pixel_y = 10
 	},
 /turf/unsimulated/floor/black/grime,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "aZ" = (
 /obj/decal/cleanable/paper,
 /turf/unsimulated/floor/black,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "ba" = (
 /turf/unsimulated/floor/black/grime,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bb" = (
 /obj/item/tripod{
 	desc = "A teleporter beacon, undeployed and missing some parts.";
@@ -368,26 +368,26 @@
 /turf/unsimulated/floor/black/side{
 	dir = 8
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bc" = (
 /turf/unsimulated/floor/black/corner{
 	icon_state = "greyblackcorner";
 	dir = 8
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bd" = (
 /turf/unsimulated/floor/black/side{
 	icon_state = "greyblack";
 	dir = 1
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "be" = (
 /obj/storage/closet/wardrobe/black,
 /turf/unsimulated/floor/black/side{
 	icon_state = "greyblack";
 	dir = 1
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bf" = (
 /obj/item/tripod{
 	desc = "A teleporter beacon, undeployed and missing some parts.";
@@ -407,7 +407,7 @@
 	icon_state = "greyblackcorner";
 	dir = 1
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bg" = (
 /obj/stone{
 	dir = 10;
@@ -418,7 +418,7 @@
 	dir = 4
 	},
 /turf/unsimulated/dirt,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "bh" = (
 /obj/stone{
 	name = "Rock Pile";
@@ -429,10 +429,10 @@
 	pixel_y = 20
 	},
 /turf/unsimulated/grass,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "bi" = (
 /turf/unsimulated/floor/stairs/dark,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bj" = (
 /obj/decal/stage_edge,
 /obj/machinery/computer3/generic/nomad_computer,
@@ -442,7 +442,7 @@
 	layer = 0
 	},
 /turf/unsimulated/floor/purple,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bk" = (
 /obj/decal/stage_edge{
 	layer = 2.89
@@ -459,33 +459,33 @@
 	},
 /obj/random_item_spawner/desk_stuff,
 /turf/unsimulated/floor/purple,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bl" = (
 /turf/unsimulated/wall/auto/reinforced/supernorn{
 	name = "reinforced window that definitely is not actually a wall";
 	opacity = 0
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bm" = (
 /turf/unsimulated/floor/purple,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bn" = (
 /obj/stool/chair/office/purple{
 	dir = 4
 	},
 /turf/unsimulated/floor/purple,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bo" = (
 /obj/decal/cleanable/paper,
 /turf/unsimulated/floor/purple,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bp" = (
 /obj/decal/cleanable/writing/infrared{
 	desc = "Something's been written here. Some kind of warning?";
 	words = "You shouldn't be here..."
 	},
 /turf/unsimulated/floor/purple,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bq" = (
 /obj/rack{
 	layer = 0
@@ -498,18 +498,18 @@
 	},
 /obj/item/storage/firstaid,
 /turf/unsimulated/floor/purple,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "br" = (
 /obj/dummy_pad,
 /turf/unsimulated/floor/purple,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bs" = (
 /obj/stone{
 	pixel_x = 1;
 	pixel_y = 5
 	},
 /turf/unsimulated/grass,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "bt" = (
 /obj/stone{
 	dir = 10;
@@ -517,7 +517,7 @@
 	pixel_y = 21
 	},
 /turf/unsimulated/dirt,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "bu" = (
 /turf/unsimulated/wall/nothing,
 /area/space)
@@ -529,7 +529,7 @@
 /obj/decal/cleanable/machine_debris,
 /obj/decal/cleanable/blood/drip/high,
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor/floor2,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bw" = (
 /obj/decal/cleanable/machine_debris{
 	icon_state = "gib7";
@@ -537,7 +537,7 @@
 	},
 /obj/decal/cleanable/ash,
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor/floor2,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bx" = (
 /obj/decal/cleanable/dirt/dirt4,
 /obj/item/brick{
@@ -549,7 +549,7 @@
 	},
 /obj/decal/cleanable/blood/splatter,
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor/floor2,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "by" = (
 /obj/decal/cleanable/dirt/dirt3,
 /obj/stone{
@@ -563,7 +563,7 @@
 	dir = 6
 	},
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor/floor2,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bz" = (
 /obj/decal/cleanable/dirt/dirt5,
 /obj/stone{
@@ -583,30 +583,30 @@
 	layer = 0
 	},
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor/floor2,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bA" = (
 /obj/decal/cleanable/dirt/dirt5,
 /obj/decal/cleanable/blood/drip/low,
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor/floor2,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bB" = (
 /obj/decal/cleanable/blood/drip/low,
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor/floor2,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bC" = (
 /obj/decal/fakeobjects/cpucontroller{
 	desc = "It looks to be in pretty bad shape.";
 	icon_state = "gannets_machine10"
 	},
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor/floor3,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bD" = (
 /obj/decal/cleanable/blood/tracks{
 	icon_state = "tracks";
 	dir = 9
 	},
 /turf/unsimulated/floor/wood,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bE" = (
 /obj/decal/cliff{
 	desc = "fdsfgs";
@@ -617,7 +617,7 @@
 /turf/unsimulated/grasstodirt{
 	dir = 8
 	},
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "bF" = (
 /obj/decal/cliff{
 	desc = "It looks like the ground sank a little.";
@@ -626,7 +626,7 @@
 	dir = 1
 	},
 /turf/unsimulated/dirt,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "bG" = (
 /obj/decal/cliff{
 	desc = "It looks like the ground sank a little.";
@@ -635,7 +635,7 @@
 	dir = 1
 	},
 /turf/unsimulated/dirt,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "bH" = (
 /obj/decal/cliff{
 	desc = "It looks like the ground sank a little.";
@@ -646,7 +646,7 @@
 /turf/unsimulated/grasstodirt{
 	dir = 8
 	},
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "bI" = (
 /obj/decal/cliff{
 	desc = "It looks like the ground sank a little.";
@@ -655,7 +655,7 @@
 	dir = 1
 	},
 /turf/unsimulated/dirt,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "bJ" = (
 /obj/decal/cliff{
 	desc = "It looks like the ground sank a little.";
@@ -664,7 +664,7 @@
 	dir = 1
 	},
 /turf/unsimulated/dirt,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "bK" = (
 /obj/decal/cliff{
 	desc = "It looks like the ground sank a little.";
@@ -673,7 +673,7 @@
 	dir = 1
 	},
 /turf/unsimulated/grass,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "bL" = (
 /obj/decal/cliff{
 	desc = "It looks like the ground sank a little.";
@@ -682,7 +682,7 @@
 	dir = 1
 	},
 /turf/unsimulated/dirt,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "bM" = (
 /obj/decal/cliff{
 	desc = "It looks like the ground sank a little.";
@@ -691,7 +691,7 @@
 	dir = 1
 	},
 /turf/unsimulated/dirt,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "bN" = (
 /obj/stool/bed,
 /obj/decal/fakeobjects/skeleton/decomposed_corpse{
@@ -701,7 +701,7 @@
 	name = "body"
 	},
 /turf/unsimulated/floor/wood,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bO" = (
 /obj/decal/stage_edge{
 	layer = 2.89
@@ -710,7 +710,7 @@
 /obj/item/paper_bin,
 /obj/random_item_spawner/desk_stuff,
 /turf/unsimulated/floor/purple,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bP" = (
 /obj/decal/cleanable/blood/tracks{
 	icon_state = "tracks";
@@ -719,7 +719,7 @@
 /turf/unsimulated/floor/stairs{
 	dir = 1
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bQ" = (
 /obj/decoration/clock/frozen{
 	desc = "There are no numbers or markings on this clock. The hands are not moving.";
@@ -730,7 +730,7 @@
 	name = "reinforced wall";
 	opacity = 0
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bR" = (
 /obj/decal/cleanable/ash,
 /obj/decal/cleanable/dirt/dirt3,
@@ -739,7 +739,7 @@
 	dir = 1
 	},
 /turf/unsimulated/floor/black,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bS" = (
 /obj/decal/cleanable/blood/drip/low,
 /obj/decal/cleanable/blood/tracks{
@@ -747,7 +747,7 @@
 	dir = 10
 	},
 /turf/unsimulated/floor/black,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bT" = (
 /obj/shrub{
 	desc = "Looks suspiciously just like an Earth ficus.";
@@ -763,14 +763,14 @@
 	dir = 8
 	},
 /turf/unsimulated/floor/black/grime,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bU" = (
 /obj/stool/chair/office/purple{
 	dir = 8
 	},
 /obj/decal/cleanable/blood/tracks,
 /turf/unsimulated/floor/black,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bV" = (
 /obj/item/paper/empty_bloody{
 	desc = "It has a decent amount of blood on it.";
@@ -781,36 +781,36 @@
 /obj/map/light/dimred,
 /obj/map/light/dimred,
 /turf/unsimulated/floor/black,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bW" = (
 /obj/decal/cleanable/dirt/dirt5,
 /turf/unsimulated/floor/black,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bX" = (
 /obj/decal/cleanable/blood/tracks,
 /turf/unsimulated/floor/black,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bY" = (
 /obj/decal/cleanable/blood/drip/low,
 /turf/unsimulated/floor/black/grime,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "bZ" = (
 /obj/decal/cleanable/dirt/dirt3,
 /turf/unsimulated/floor/black/side{
 	dir = 4
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "ca" = (
 /obj/decal/cleanable/dirt,
 /turf/unsimulated/floor/white,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "cb" = (
 /obj/decal/cleanable/blood/tracks{
 	icon_state = "tracks";
 	dir = 10
 	},
 /turf/unsimulated/floor/black,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "cc" = (
 /obj/decal/cleanable/dirt/dirt5,
 /obj/decal/cleanable/blood/tracks{
@@ -818,7 +818,7 @@
 	dir = 4
 	},
 /turf/unsimulated/floor/black,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "cd" = (
 /obj/decal/cleanable/blood/drip/low,
 /obj/decal/cleanable/blood/tracks{
@@ -826,18 +826,18 @@
 	dir = 5
 	},
 /turf/unsimulated/floor/black/grime,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "ce" = (
 /obj/decal/cleanable/blood/tracks{
 	icon_state = "tracks";
 	dir = 1
 	},
 /turf/unsimulated/floor/stairs/dark,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "cf" = (
 /obj/decal/cleanable/ash,
 /turf/unsimulated/floor/purple,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "cg" = (
 /obj/decal/cleanable/blood/drip/low,
 /obj/decal/cleanable/dirt/dirt2,
@@ -846,42 +846,42 @@
 	dir = 1
 	},
 /turf/unsimulated/floor/purple,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "ch" = (
 /obj/decal/cleanable/blood/drip/low,
 /obj/item/mine/stun/armed,
 /turf/unsimulated/floor/purple,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "ci" = (
 /obj/decal/cleanable/blood/splatter{
 	icon_state = "gibbl2"
 	},
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor/floor3,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "cj" = (
 /obj/decal/cleanable/blood/tracks{
 	icon_state = "u_ketchup"
 	},
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor/floor3,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "ck" = (
 /obj/decal/cleanable/blood/splatter{
 	icon_state = "gibbl2"
 	},
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor/floor2,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "cl" = (
 /obj/decal/cleanable/blood/tracks{
 	icon_state = "u_ketchup"
 	},
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor/floor2,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "cm" = (
 /obj/decal/cleanable/blood/tracks{
 	icon_state = "u_ketchup"
 	},
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "cn" = (
 /obj/decal/fakeobjects{
 	desc = "A key.";
@@ -893,7 +893,7 @@
 	},
 /obj/map/light/dimred,
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "co" = (
 /obj/ladder{
 	icon_state = "ladder_wall";
@@ -901,33 +901,33 @@
 	pixel_y = 20
 	},
 /turf/unsimulated/floor/setpieces/Azarak/cavefloor,
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "cp" = (
 /obj/decal/fakeobjects/carcosa/carcosa_plant/three,
 /turf/unsimulated/floor/setpieces/carcosa/carcosa_dirt_inner,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "cq" = (
 /turf/unsimulated/floor/setpieces/carcosa/carcosa_dirt_inner,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "cr" = (
 /turf/unsimulated/floor/setpieces/carcosa/carcosa_dirt,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "cs" = (
 /obj/decal/fakeobjects/carcosa/carcosa_plant/five,
 /turf/unsimulated/floor/setpieces/carcosa/carcosa_dirt_inner,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "ct" = (
 /obj/decal/fakeobjects/carcosa/carcosa_plant/one,
 /turf/unsimulated/floor/setpieces/carcosa/carcosa_dirt,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "cu" = (
 /obj/decal/fakeobjects/carcosa/tree/five,
 /turf/unsimulated/floor/setpieces/carcosa/carcosa_dirt,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "cv" = (
 /obj/decal/fakeobjects/carcosa/carcosa_plant/six,
 /turf/unsimulated/floor/setpieces/carcosa/carcosa_dirt_inner,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "cw" = (
 /turf/unsimulated/wall/setpieces{
 	desc = "Or at least, it sort of looks like one. Weird.";
@@ -935,21 +935,21 @@
 	icon_state = "wall";
 	opacity = 0
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "cx" = (
 /obj/decal/fakeobjects/carcosa/carcosa_plant/four,
 /turf/unsimulated/floor/setpieces/carcosa/carcosa_dirt_inner,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "cy" = (
 /turf/unsimulated/floor/setpieces{
 	icon = 'icons/obj/adventurezone/3dimension.dmi';
 	icon_state = "floor"
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "cz" = (
 /obj/decal/fakeobjects/carcosa/carcosa_plant/one,
 /turf/unsimulated/floor/setpieces/carcosa/carcosa_dirt_inner,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "cA" = (
 /obj/decal/stage_edge,
 /obj/ladder{
@@ -963,14 +963,14 @@
 	icon = 'icons/obj/adventurezone/3dimension.dmi';
 	icon_state = "floor"
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "cB" = (
 /obj/decal/fakeobjects/carcosa/statue/broken,
 /obj/decal/fakeobjects/carcosa/rubble/one{
 	pixel_x = -12
 	},
 /turf/unsimulated/floor/setpieces/carcosa/carcosa_dirt,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "cC" = (
 /turf/unsimulated/floor/setpieces{
 	color = "#bbbbbb";
@@ -978,7 +978,7 @@
 	icon = 'icons/obj/adventurezone/3dimension.dmi';
 	icon_state = "floor"
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "cD" = (
 /obj/decal/fakeobjects{
 	desc = "It ... how do you even tell if this thing is working or not?";
@@ -993,7 +993,7 @@
 	icon = 'icons/obj/adventurezone/3dimension.dmi';
 	icon_state = "floor"
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "cE" = (
 /obj/table{
 	desc = "Yeeep, this looks normal.";
@@ -1015,7 +1015,7 @@
 	icon = 'icons/obj/adventurezone/3dimension.dmi';
 	icon_state = "floor"
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "cF" = (
 /obj/table{
 	desc = "Yeeep, this looks normal.";
@@ -1037,7 +1037,7 @@
 	icon = 'icons/obj/adventurezone/3dimension.dmi';
 	icon_state = "floor"
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "cG" = (
 /obj/decal/fakeobjects/carcosa/carcosa_plant/two,
 /obj/decal/fakeobjects/carcosa/rubble/two,
@@ -1046,7 +1046,7 @@
 	pixel_y = 14
 	},
 /turf/unsimulated/floor/setpieces/carcosa/carcosa_dirt,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "cH" = (
 /obj/item/paper{
 	desc = "Strangely legible, given the circumstances...<br>";
@@ -1059,7 +1059,7 @@
 	icon = 'icons/obj/adventurezone/3dimension.dmi';
 	icon_state = "floor"
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "cJ" = (
 /obj/table{
 	desc = "Yeeep, this looks normal.";
@@ -1081,7 +1081,7 @@
 	icon = 'icons/obj/adventurezone/3dimension.dmi';
 	icon_state = "floor"
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "cK" = (
 /obj/table{
 	desc = "Yeeep, this looks normal.";
@@ -1103,15 +1103,15 @@
 	icon = 'icons/obj/adventurezone/3dimension.dmi';
 	icon_state = "floor"
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "cL" = (
 /obj/decal/fakeobjects/carcosa/tree/three,
 /turf/unsimulated/floor/setpieces/carcosa/carcosa_dirt,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "cM" = (
 /obj/decal/fakeobjects/carcosa/carcosa_plant/two,
 /turf/unsimulated/floor/setpieces/carcosa/carcosa_dirt,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "cN" = (
 /obj/decal/stage_edge,
 /obj/decal/fakeobjects{
@@ -1126,7 +1126,7 @@
 	icon = 'icons/obj/adventurezone/3dimension.dmi';
 	icon_state = "floor"
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "cO" = (
 /obj/decal/stage_edge,
 /obj/table{
@@ -1141,7 +1141,7 @@
 	icon = 'icons/obj/adventurezone/3dimension.dmi';
 	icon_state = "floor"
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "cP" = (
 /turf/unsimulated/floor/setpieces{
 	color = "#888888";
@@ -1149,7 +1149,7 @@
 	icon = 'icons/obj/adventurezone/3dimension.dmi';
 	icon_state = "floor"
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "cQ" = (
 /obj/stool{
 	desc = "Is it safe to sit on this? It looks a little jagged. Or mabye aliased.";
@@ -1161,19 +1161,19 @@
 	icon = 'icons/obj/adventurezone/3dimension.dmi';
 	icon_state = "floor"
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "cR" = (
 /obj/decal/fakeobjects/carcosa/carcosa_plant/five,
 /turf/unsimulated/floor/setpieces/carcosa/carcosa_dirt,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "cS" = (
 /obj/decal/fakeobjects/carcosa/carcosa_plant/four,
 /turf/unsimulated/floor/setpieces/carcosa/carcosa_dirt,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "cT" = (
 /obj/decal/fakeobjects/carcosa/carcosa_plant/three,
 /turf/unsimulated/floor/setpieces/carcosa/carcosa_dirt,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "cU" = (
 /obj/dummy_pad,
 /turf/unsimulated/floor/setpieces{
@@ -1182,15 +1182,15 @@
 	icon = 'icons/obj/adventurezone/3dimension.dmi';
 	icon_state = "floor"
 	},
-/area/nomad/inside)
+/area/adventure/nomad/inside)
 "cV" = (
 /obj/decal/fakeobjects/carcosa/tree/two,
 /turf/unsimulated/floor/setpieces/carcosa/carcosa_dirt,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 "cW" = (
 /obj/decal/fakeobjects/carcosa/tree/four,
 /turf/unsimulated/floor/setpieces/carcosa/carcosa_dirt,
-/area/nomad/outside)
+/area/adventure/nomad/outside)
 
 (1,1,1) = {"
 aa

@@ -312,60 +312,60 @@ var/global/Z4_ACTIVE = 0 //Used for mob processing purposes
 	name = "NT Reconstitution Center"
 	icon_state = "purple"
 
-/area/retentioncenter
+/area/adventure/retentioncenter
 	name = "NT Retention Center"
 	icon_state = "dk_yellow"
 
-/area/retentioncenter/teleblocked
+/area/adventure/retentioncenter/teleblocked
 	name = "NT Retention Center (teleblocked)"
 	icon_state = "death"
 	teleport_blocked = 2
 
-/area/retentioncenter/depot
+/area/adventure/retentioncenter/depot
 	name = "NT Retention Center (depot)"
 	icon_state = "green"
 
-/area/retentioncenter/blue
+/area/adventure/retentioncenter/blue
 	name = "NT Retention Center (BLU)"
 	icon_state = "blue"
 
-/area/retentioncenter/green
+/area/adventure/retentioncenter/green
 	name = "NT Retention Center (GRN)"
 	icon_state = "green"
 
-/area/retentioncenter/yellow
+/area/adventure/retentioncenter/yellow
 	name = "NT Retention Center (YLW)"
 	icon_state = "yellow"
 
-/area/retentioncenter/orange
+/area/adventure/retentioncenter/orange
 	name = "NT Retention Center (ORG)"
 	icon_state = "orange"
 
-/area/retentioncenter/red
+/area/adventure/retentioncenter/red
 	name = "NT Retention Center (RED)"
 	icon_state = "red"
 
-/area/retentioncenter/black
+/area/adventure/retentioncenter/black
 	name = "NT Retention Center (BLK)"
 	icon_state = "purple"
 
-/area/retentioncenter/restricted
+/area/adventure/retentioncenter/restricted
 	name = "NT Retention Center (Restricted)"
 	icon_state = "death"
 
-/area/retentioncenter/disposals
+/area/adventure/retentioncenter/disposals
 	name = "NT Retention Center (disposals)"
 	icon_state = "red"
 
-/area/retentioncenter/substation
+/area/adventure/retentioncenter/substation
 	name = "NT Retention Center (substation)"
 	icon_state = "pink"
 
-/area/retentioncenter/office
+/area/adventure/retentioncenter/office
 	name = "NT Retention Center (office)"
 	icon_state = "orange"
 
-/area/retentioncenter/recycling
+/area/adventure/retentioncenter/recycling
 	name = "NT Retention Center (Recycling)"
 	icon_state = "pink"
 

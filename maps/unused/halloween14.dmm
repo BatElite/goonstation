@@ -64902,7 +64902,7 @@
 /area/adventure/catacombs)
 "cCb" = (
 /turf/unsimulated/wall/void,
-/area/crunch)
+/area/adventure/crunch)
 "cCc" = (
 /obj/grille/steel,
 /obj/window/reinforced/south,
@@ -65264,7 +65264,7 @@
 /area/adventure/catacombs)
 "cCQ" = (
 /turf/simulated/wall/ancient,
-/area/crunch)
+/area/adventure/crunch)
 "cCR" = (
 /obj/machinery/shuttle/engine/propulsion,
 /turf/space,
@@ -65455,16 +65455,16 @@
 /area/adventure/catacombs)
 "cDn" = (
 /turf/simulated/floor/ancient,
-/area/crunch)
+/area/adventure/crunch)
 "cDo" = (
 /obj/tombstone{
 	desc = "Here lies Tango N. Vectif, killed by dat fukken pig."
 	},
 /turf/simulated/floor/ancient,
-/area/crunch)
+/area/adventure/crunch)
 "cDp" = (
 /turf/simulated/wall/auto/asteroid,
-/area/crunch)
+/area/adventure/crunch)
 "cDq" = (
 /obj/machinery/door/airlock/external,
 /turf/unsimulated/floor{
@@ -65744,14 +65744,14 @@
 "cDQ" = (
 /obj/item/skull,
 /turf/simulated/floor/ancient,
-/area/crunch)
+/area/adventure/crunch)
 "cDR" = (
 /obj/critter/spirit,
 /turf/simulated/floor/ancient,
-/area/crunch)
+/area/adventure/crunch)
 "cDS" = (
 /turf/unsimulated/floor/void,
-/area/crunch)
+/area/adventure/crunch)
 "cDT" = (
 /obj/shrub,
 /turf/unsimulated/floor{
@@ -65805,7 +65805,7 @@
 "cEb" = (
 /obj/lattice,
 /turf/unsimulated/floor/void,
-/area/crunch)
+/area/adventure/crunch)
 "cEc" = (
 /obj/machinery/computer/arcade,
 /turf/unsimulated/floor{
@@ -66045,10 +66045,10 @@
 	sd_ColorRed = 0.4
 	},
 /turf/simulated/floor/ancient,
-/area/crunch)
+/area/adventure/crunch)
 "cED" = (
 /turf/simulated/floor/plating/damaged1,
-/area/crunch)
+/area/adventure/crunch)
 "cEE" = (
 /obj/table/woodentable{
 	dir = 9
@@ -66118,16 +66118,16 @@
 	desc = "Here lies Richie Mcmullin, eaten by ghosts."
 	},
 /turf/simulated/floor/ancient,
-/area/crunch)
+/area/adventure/crunch)
 "cEM" = (
 /turf/simulated/floor/plating/damaged3,
-/area/crunch)
+/area/adventure/crunch)
 "cEN" = (
 /turf/simulated/floor/plating/scorched,
-/area/crunch)
+/area/adventure/crunch)
 "cEO" = (
 /turf/simulated/floor/damaged2,
-/area/crunch)
+/area/adventure/crunch)
 "cEP" = (
 /obj/table/woodentable{
 	dir = 10
@@ -66249,13 +66249,13 @@
 /area/adventure/crypt/mausoleum)
 "cFb" = (
 /turf/simulated/wall,
-/area/crunch)
+/area/adventure/crunch)
 "cFc" = (
 /turf/simulated/floor/scorched,
-/area/crunch)
+/area/adventure/crunch)
 "cFd" = (
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cFe" = (
 /obj/submachine/slot_machine,
 /turf/unsimulated/floor{
@@ -66328,13 +66328,13 @@
 /area/sim/racing_track)
 "cFp" = (
 /turf/simulated/floor/plating,
-/area/crunch)
+/area/adventure/crunch)
 "cFq" = (
 /obj/decal/fakeobjects/apc_broken{
 	pixel_y = 24
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cFr" = (
 /obj/machinery/door/airlock{
 	name = "Toilet Cubicle";
@@ -66343,7 +66343,7 @@
 /turf/simulated/floor/white/corner{
 	dir = 2
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cFs" = (
 /obj/securearea{
 	desc = "A poster that reads 'CLEAN HANDS SAVE CASH: Today's unwashed palm is tomorrow's class action suit!'.";
@@ -66352,11 +66352,11 @@
 	pixel_y = 30
 	},
 /turf/simulated/floor/specialroom/cafeteria,
-/area/crunch)
+/area/adventure/crunch)
 "cFt" = (
 /obj/decal/cleanable/cobweb2,
 /turf/simulated/floor/specialroom/cafeteria,
-/area/crunch)
+/area/adventure/crunch)
 "cFu" = (
 /obj/decal/fakeobjects/firelock_broken,
 /obj/overlay{
@@ -66368,7 +66368,7 @@
 	name = "broken door"
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cFv" = (
 /obj/overlay{
 	anchored = 1;
@@ -66379,11 +66379,11 @@
 	name = "broken databank"
 	},
 /turf/simulated/floor/bot,
-/area/crunch)
+/area/adventure/crunch)
 "cFw" = (
 /obj/stool,
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cFx" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -66398,7 +66398,7 @@
 	pixel_x = 4
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cFy" = (
 /obj/shrub{
 	tag = "icon-shrub (NORTH)";
@@ -66473,29 +66473,29 @@
 	location = "tour7"
 	},
 /turf/simulated/floor/ancient,
-/area/crunch)
+/area/adventure/crunch)
 "cFF" = (
 /turf/simulated/floor/damaged5,
-/area/crunch)
+/area/adventure/crunch)
 "cFG" = (
 /turf/simulated/floor/scorched2,
-/area/crunch)
+/area/adventure/crunch)
 "cFH" = (
 /obj/item/storage/toilet,
 /turf/simulated/floor/specialroom/cafeteria,
-/area/crunch)
+/area/adventure/crunch)
 "cFI" = (
 /turf/simulated/floor/specialroom/cafeteria,
-/area/crunch)
+/area/adventure/crunch)
 "cFJ" = (
 /obj/decal/cleanable/cobweb,
 /turf/simulated/floor/grime,
-/area/crunch)
+/area/adventure/crunch)
 "cFK" = (
 /turf/simulated/floor/orangeblack/side{
 	dir = 4
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cFL" = (
 /obj/decal/fakeobjects/firelock_broken{
 	tag = "icon-door0 (WEST)";
@@ -66513,21 +66513,21 @@
 /turf/simulated/floor/orangeblack/side{
 	dir = 8
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cFM" = (
 /obj/machinery/navbeacon{
 	codes_txt = "tour;next_tour=tour5;desc=This is the control room, where production is monitored.  This is a secure area, so it is VITALLY IMPORTANT that you do not follow me in. Incredibly important.";
 	location = "tour4"
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cFN" = (
 /obj/table{
 	icon_state = "tabledir";
 	dir = 10
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cFO" = (
 /obj/machinery/door/unpowered/wood,
 /turf/unsimulated/floor{
@@ -66614,7 +66614,7 @@
 	reinf = 1
 	},
 /turf/simulated/floor/plating,
-/area/crunch)
+/area/adventure/crunch)
 "cFX" = (
 /obj/grille/steel,
 /obj/window{
@@ -66627,7 +66627,7 @@
 	reinf = 1
 	},
 /turf/simulated/floor/plating,
-/area/crunch)
+/area/adventure/crunch)
 "cFY" = (
 /obj/grille/steel,
 /obj/window{
@@ -66645,7 +66645,7 @@
 	reinf = 1
 	},
 /turf/simulated/floor/plating,
-/area/crunch)
+/area/adventure/crunch)
 "cFZ" = (
 /obj/grille/steel,
 /obj/window/reinforced/east,
@@ -66765,24 +66765,24 @@
 	location = "tour6"
 	},
 /turf/simulated/floor/ancient,
-/area/crunch)
+/area/adventure/crunch)
 "cGo" = (
 /turf/simulated/floor/plating/damaged2,
-/area/crunch)
+/area/adventure/crunch)
 "cGp" = (
 /obj/item/crowbar,
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cGq" = (
 /turf/simulated/floor/orangeblack/side{
 	dir = 9
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cGr" = (
 /turf/simulated/floor/orangeblack/side{
 	dir = 1
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cGs" = (
 /obj/decal/fakeobjects/apc_broken{
 	pixel_y = 24
@@ -66790,7 +66790,7 @@
 /turf/simulated/floor/orangeblack/side{
 	dir = 1
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cGt" = (
 /obj/overlay{
 	anchored = 1;
@@ -66804,7 +66804,7 @@
 	opacity = 0
 	},
 /turf/simulated/wall,
-/area/crunch)
+/area/adventure/crunch)
 "cGu" = (
 /obj/grille/steel,
 /obj/window/reinforced/west,
@@ -67026,23 +67026,23 @@
 /obj/structure/girder,
 /turf/simulated/floor/plating,
 /turf/simulated/floor/plating/damaged2,
-/area/crunch)
+/area/adventure/crunch)
 "cGS" = (
 /obj/item/bananapeel,
 /obj/item/tile/steel,
 /turf/simulated/floor/plating,
-/area/crunch)
+/area/adventure/crunch)
 "cGT" = (
 /obj/machinery/door/airlock{
 	name = "Offices"
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cGU" = (
 /turf/simulated/floor/orangeblack/corner{
 	dir = 4
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cGV" = (
 /obj/machinery/light/worn{
 	tag = "icon-tube1 (NORTH)";
@@ -67052,12 +67052,12 @@
 /turf/simulated/floor/orangeblack/side{
 	dir = 1
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cGW" = (
 /turf/simulated/floor/orangeblack/corner{
 	dir = 1
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cGX" = (
 /turf/space,
 /area/shuttle/escape/centcom)
@@ -67207,11 +67207,11 @@
 	desc = "Here lies Kira Taggart, tragically killed as a result of somebody else's mistakes."
 	},
 /turf/simulated/floor/ancient,
-/area/crunch)
+/area/adventure/crunch)
 "cHt" = (
 /turf/simulated/floor/plating,
 /turf/simulated/floor/plating/damaged2,
-/area/crunch)
+/area/adventure/crunch)
 "cHu" = (
 /obj/machinery/light/worn{
 	tag = "icon-tube1 (EAST)";
@@ -67219,11 +67219,11 @@
 	dir = 4
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cHv" = (
 /obj/critter/spirit,
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cHw" = (
 /obj/overlay{
 	anchored = 1;
@@ -67234,7 +67234,7 @@
 	name = "pastry extruder"
 	},
 /turf/simulated/floor/delivery,
-/area/crunch)
+/area/adventure/crunch)
 "cHx" = (
 /obj/table/reinforced{
 	tag = "icon-reinf_tabledir";
@@ -67359,7 +67359,7 @@
 "cHO" = (
 /obj/critter/ancient_thing,
 /turf/simulated/floor/ancient,
-/area/crunch)
+/area/adventure/crunch)
 "cHP" = (
 /obj/decal/fakeobjects/firealarm_broken{
 	dir = 8;
@@ -67373,7 +67373,7 @@
 	dir = 2
 	},
 /turf/simulated/floor/red/side,
-/area/crunch)
+/area/adventure/crunch)
 "cHQ" = (
 /obj/window/cubicle{
 	tag = "icon-cubicle";
@@ -67381,35 +67381,35 @@
 	dir = 2
 	},
 /turf/simulated/floor/red/side,
-/area/crunch)
+/area/adventure/crunch)
 "cHR" = (
 /turf/simulated/floor/red/side,
-/area/crunch)
+/area/adventure/crunch)
 "cHS" = (
 /obj/machinery/navbeacon{
 	codes_txt = "tour;next_tour=tour6;desc=These offices are where some of the best Discount Dan product ideas are born! Please be quiet, as brilliant minds are at work.";
 	location = "tour5"
 	},
 /turf/simulated/floor/red/side,
-/area/crunch)
+/area/adventure/crunch)
 "cHT" = (
 /obj/noticeboard{
 	pixel_x = 28
 	},
 /turf/simulated/floor/red/side,
-/area/crunch)
+/area/adventure/crunch)
 "cHU" = (
 /turf/simulated/floor/bot,
-/area/crunch)
+/area/adventure/crunch)
 "cHV" = (
 /turf/simulated/floor/delivery,
-/area/crunch)
+/area/adventure/crunch)
 "cHW" = (
 /obj/machinery/conveyor{
 	id = "ddan"
 	},
 /turf/simulated/floor/orangeblack,
-/area/crunch)
+/area/adventure/crunch)
 "cHX" = (
 /turf/simulated/shuttle/wall/cockpit/window{
 	name = "window"
@@ -67523,16 +67523,16 @@
 	},
 /obj/item/reagent_containers/food/snacks/plant/banana,
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cIl" = (
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cIm" = (
 /obj/stool/chair{
 	dir = 4
 	},
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cIn" = (
 /obj/window/cubicle{
 	tag = "icon-cubicle";
@@ -67540,11 +67540,11 @@
 	dir = 2
 	},
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cIo" = (
 /obj/decal/cleanable/cobweb2,
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cIp" = (
 /obj/machinery/light/worn{
 	tag = "icon-tube1 (WEST)";
@@ -67552,17 +67552,17 @@
 	dir = 8
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cIq" = (
 /turf/simulated/floor/grime,
-/area/crunch)
+/area/adventure/crunch)
 "cIr" = (
 /obj/machinery/conveyor{
 	id = "ddan"
 	},
 /obj/item/reagent_containers/food/snacks/snack_cake,
 /turf/simulated/floor/orangeblack,
-/area/crunch)
+/area/adventure/crunch)
 "cIs" = (
 /turf/space,
 /turf/simulated/shuttle/wall/cockpit{
@@ -67664,7 +67664,7 @@
 	dir = 2
 	},
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cIE" = (
 /obj/window/cubicle{
 	tag = "icon-cubicle (EAST)";
@@ -67677,7 +67677,7 @@
 	dir = 2
 	},
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cIF" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -67689,7 +67689,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cIG" = (
 /obj/table{
 	tag = "icon-tabledir (SOUTHEAST)";
@@ -67697,7 +67697,7 @@
 	dir = 6
 	},
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cIH" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -67716,7 +67716,7 @@
 	pixel_y = 4
 	},
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cII" = (
 /obj/table{
 	tag = "icon-tabledir (SOUTHEAST)";
@@ -67731,7 +67731,7 @@
 	name = "broken computer"
 	},
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cIJ" = (
 /obj/table{
 	tag = "icon-tabledir (SOUTHEAST)";
@@ -67740,7 +67740,7 @@
 	},
 /obj/decal/cleanable/desk_clutter,
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cIK" = (
 /obj/decal/cleanable/blood/splatter{
 	tag = "icon-floor2";
@@ -67752,14 +67752,14 @@
 	dir = 8
 	},
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cIL" = (
 /obj/decal/fakeobjects/firealarm_broken{
 	dir = 4;
 	pixel_x = -24
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cIM" = (
 /obj/window/cubicle{
 	tag = "icon-cubicle (NORTH)";
@@ -67899,7 +67899,7 @@
 	name = "Notecard"
 	},
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cJb" = (
 /obj/window/cubicle{
 	tag = "icon-cubicle (EAST)";
@@ -67907,7 +67907,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cJc" = (
 /obj/window/cubicle{
 	tag = "icon-cubicle (WEST)";
@@ -67916,7 +67916,7 @@
 	},
 /obj/stool/chair,
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cJd" = (
 /obj/window/cubicle{
 	tag = "icon-cubicle (WEST)";
@@ -67924,7 +67924,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cJe" = (
 /obj/stool/chair{
 	dir = 8
@@ -67935,7 +67935,7 @@
 	dir = 2
 	},
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cJf" = (
 /obj/window/cubicle{
 	tag = "icon-cubicle (WEST)";
@@ -67948,15 +67948,15 @@
 	dir = 2
 	},
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cJg" = (
 /turf/simulated/floor/orangeblack,
-/area/crunch)
+/area/adventure/crunch)
 "cJh" = (
 /turf/simulated/floor/orangeblack/side{
 	dir = 8
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cJi" = (
 /obj/machinery/conveyor{
 	basedir = 8;
@@ -67964,7 +67964,7 @@
 	id = "ddan"
 	},
 /turf/simulated/floor/orangeblack,
-/area/crunch)
+/area/adventure/crunch)
 "cJj" = (
 /obj/machinery/conveyor{
 	basedir = 8;
@@ -67980,7 +67980,7 @@
 	name = "rusty industrial oven"
 	},
 /turf/simulated/floor/orangeblack,
-/area/crunch)
+/area/adventure/crunch)
 "cJk" = (
 /obj/machinery/conveyor{
 	basedir = 8;
@@ -67989,7 +67989,7 @@
 	},
 /obj/item/reagent_containers/food/snacks/snack_cake,
 /turf/simulated/floor/orangeblack,
-/area/crunch)
+/area/adventure/crunch)
 "cJl" = (
 /turf/simulated/shuttle/wall/cockpit/window{
 	icon_state = "wall_space";
@@ -68105,7 +68105,7 @@
 	dir = 2
 	},
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cJA" = (
 /obj/stool/chair{
 	dir = 8
@@ -68123,21 +68123,21 @@
 	dir = 2
 	},
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cJB" = (
 /obj/table{
 	icon_state = "tabledir";
 	dir = 4
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cJC" = (
 /obj/machinery/navbeacon{
 	codes_txt = "tour;next_tour=tour3;desc=This is the factory floor, where the magic happens! Though you may be tempted, please resist the urge to partake of the delightful products under production. Free food will be available after the tour.";
 	location = "tour2"
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cJD" = (
 /obj/machinery/conveyor{
 	basedir = 1;
@@ -68145,7 +68145,7 @@
 	id = "ddan"
 	},
 /turf/simulated/floor/orangeblack,
-/area/crunch)
+/area/adventure/crunch)
 "cJE" = (
 /turf/simulated/shuttle/wall{
 	dir = 4;
@@ -68201,7 +68201,7 @@
 "cJK" = (
 /obj/closet,
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cJL" = (
 /obj/window/cubicle{
 	tag = "icon-cubicle (NORTH)";
@@ -68209,13 +68209,13 @@
 	dir = 1
 	},
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cJM" = (
 /obj/stool/chair{
 	dir = 8
 	},
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cJN" = (
 /obj/stool/chair/syndicate,
 /obj/window/cubicle{
@@ -68224,7 +68224,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cJO" = (
 /obj/stool/chair{
 	dir = 4
@@ -68240,14 +68240,14 @@
 	dir = 8
 	},
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cJP" = (
 /obj/machinery/navbeacon{
 	codes_txt = "tour;next_tour=tour4;desc=Our patented extrusion baking system is capable of producing over 1400 delicious snack cakes an hour! Alternatively, it could produce 800 slightly larger snack cakes or one really big snack cake.";
 	location = "tour3"
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cJQ" = (
 /obj/decal/glow{
 	brightness = 2;
@@ -68371,11 +68371,11 @@
 "cKf" = (
 /obj/structure/girder,
 /turf/simulated/floor/plating,
-/area/crunch)
+/area/adventure/crunch)
 "cKg" = (
 /obj/machinery/light/small,
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cKh" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -68389,7 +68389,7 @@
 	name = "broken computer"
 	},
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cKi" = (
 /obj/window/cubicle{
 	tag = "icon-cubicle (WEST)";
@@ -68408,7 +68408,7 @@
 	name = "broken computer"
 	},
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cKj" = (
 /obj/window/cubicle{
 	tag = "icon-cubicle (WEST)";
@@ -68420,7 +68420,7 @@
 	dir = 2
 	},
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cKk" = (
 /obj/table{
 	tag = "icon-tabledir (SOUTHEAST)";
@@ -68440,7 +68440,7 @@
 	pixel_y = 4
 	},
 /turf/simulated/floor/carpet,
-/area/crunch)
+/area/adventure/crunch)
 "cKl" = (
 /obj/table{
 	tag = "icon-tabledir (SOUTHEAST)";
@@ -68448,7 +68448,7 @@
 	dir = 6
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cKm" = (
 /obj/crate/trashcart{
 	desc = "This looks strangely familiar.";
@@ -68459,7 +68459,7 @@
 /obj/item/reagent_containers/food/snacks/snack_cake,
 /obj/item/reagent_containers/food/snacks/snack_cake,
 /turf/simulated/floor/bot,
-/area/crunch)
+/area/adventure/crunch)
 "cKn" = (
 /obj/machinery/conveyor{
 	basedir = 1;
@@ -68468,7 +68468,7 @@
 	},
 /obj/item/reagent_containers/food/snacks/snack_cake,
 /turf/simulated/floor/orangeblack,
-/area/crunch)
+/area/adventure/crunch)
 "cKo" = (
 /obj/rack,
 /obj/decal/glow{
@@ -68543,20 +68543,20 @@
 /area/sim/racing_track)
 "cKw" = (
 /turf/simulated/floor/blue/checker,
-/area/crunch)
+/area/adventure/crunch)
 "cKx" = (
 /obj/stool/chair{
 	dir = 8
 	},
 /obj/decal/cleanable/cobweb2,
 /turf/simulated/floor/blue/checker,
-/area/crunch)
+/area/adventure/crunch)
 "cKy" = (
 /obj/machinery/door/airlock{
 	name = "Offices"
 	},
 /turf/simulated/floor/red,
-/area/crunch)
+/area/adventure/crunch)
 "cKz" = (
 /obj/machinery/door/airlock{
 	name = "Factory Floor"
@@ -68564,7 +68564,7 @@
 /turf/simulated/floor/arrival{
 	dir = 2
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cKA" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	dir = 8
@@ -68572,7 +68572,7 @@
 /turf/simulated/floor/orangeblack/corner{
 	dir = 1
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cKB" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -68633,18 +68633,18 @@
 	},
 /obj/machinery/cashreg,
 /turf/simulated/floor/blue/checker,
-/area/crunch)
+/area/adventure/crunch)
 "cKI" = (
 /obj/table{
 	icon_state = "tabledir";
 	dir = 2
 	},
 /turf/simulated/floor/blue/checker,
-/area/crunch)
+/area/adventure/crunch)
 "cKJ" = (
 /obj/decal/cleanable/cobweb,
 /turf/simulated/floor/blue/checker,
-/area/crunch)
+/area/adventure/crunch)
 "cKK" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -68659,11 +68659,11 @@
 	pixel_x = 4
 	},
 /turf/simulated/floor/blue/checker,
-/area/crunch)
+/area/adventure/crunch)
 "cKL" = (
 /obj/stool/chair/syndicate,
 /turf/simulated/floor/blue/checker,
-/area/crunch)
+/area/adventure/crunch)
 "cKM" = (
 /obj/machinery/navbeacon{
 	codes_txt = "tour;next_tour=tour2;desc=Reginald Danforth 'Discount Dan' Kay founded the Discount Dan Foods Corporation over 75 years ago, with no more than $500 to his name. The rest was stored in offshore bank accounts under a pseudonym.";
@@ -68678,7 +68678,7 @@
 	pixel_y = 28
 	},
 /turf/simulated/floor/blue/checker,
-/area/crunch)
+/area/adventure/crunch)
 "cKN" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -68689,11 +68689,11 @@
 	name = "Air Siphon"
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cKO" = (
 /obj/decal/cleanable/machine_debris,
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cKP" = (
 /obj/decal/glow{
 	brightness = 2;
@@ -68764,7 +68764,7 @@
 	sd_ColorRed = 0.3
 	},
 /turf/unsimulated/floor/void,
-/area/crunch)
+/area/adventure/crunch)
 "cKX" = (
 /obj/machinery/door/airlock{
 	name = "Gift Shop Closet"
@@ -68772,14 +68772,14 @@
 /turf/simulated/floor/arrival{
 	dir = 4
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cKY" = (
 /obj/machinery/navbeacon{
 	codes_txt = "tour";
 	location = "tour8"
 	},
 /turf/simulated/floor/blue/checker,
-/area/crunch)
+/area/adventure/crunch)
 "cKZ" = (
 /obj/overlay{
 	anchored = 1;
@@ -68792,7 +68792,7 @@
 	opacity = 1
 	},
 /turf/simulated/floor/blue/checker,
-/area/crunch)
+/area/adventure/crunch)
 "cLa" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -68800,21 +68800,21 @@
 	},
 /obj/machinery/recharger,
 /turf/simulated/floor/blue/checker,
-/area/crunch)
+/area/adventure/crunch)
 "cLb" = (
 /obj/table{
 	icon_state = "tabledir";
 	dir = 6
 	},
 /turf/simulated/floor/blue/checker,
-/area/crunch)
+/area/adventure/crunch)
 "cLc" = (
 /obj/decal/fakeobjects/firealarm_broken{
 	dir = 4;
 	pixel_x = 24
 	},
 /turf/simulated/floor/blue/checker,
-/area/crunch)
+/area/adventure/crunch)
 "cLd" = (
 /obj/overlay{
 	anchored = 1;
@@ -68825,7 +68825,7 @@
 	name = "filling injector"
 	},
 /turf/simulated/floor/delivery,
-/area/crunch)
+/area/adventure/crunch)
 "cLe" = (
 /obj/decal/glow{
 	brightness = 2;
@@ -68907,26 +68907,26 @@
 "cLm" = (
 /obj/critter/floateye,
 /turf/unsimulated/floor/void,
-/area/crunch)
+/area/adventure/crunch)
 "cLo" = (
 /obj/crate,
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cLp" = (
 /obj/machinery/navbeacon{
 	codes_txt = "tour;next_tour=tour1;desc=Hello! Welcome to to the Discount Dan factory tour! I will be your tourguide today on this adventure! Let's get started!";
 	location = "tour0"
 	},
 /turf/simulated/floor/blue/checker,
-/area/crunch)
+/area/adventure/crunch)
 "cLq" = (
 /obj/structure/girder/displaced,
 /turf/simulated/floor/plating/scorched,
-/area/crunch)
+/area/adventure/crunch)
 "cLr" = (
 /obj/item/tile/steel,
 /turf/simulated/floor/plating,
-/area/crunch)
+/area/adventure/crunch)
 "cLs" = (
 /obj/decal/fakeobjects/firealarm_broken{
 	dir = 1;
@@ -68936,11 +68936,11 @@
 	tag = "icon-firex (NORTH)"
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cLt" = (
 /obj/decal/cleanable/greenpuke,
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cLu" = (
 /obj/stool/bed,
 /obj/item/clothing/suit/bedsheet{
@@ -68975,14 +68975,14 @@
 	},
 /obj/item/instrument/bikehorn,
 /turf/simulated/floor/blue/checker,
-/area/crunch)
+/area/adventure/crunch)
 "cLA" = (
 /obj/table{
 	icon_state = "tabledir";
 	dir = 1
 	},
 /turf/simulated/floor/blue/checker,
-/area/crunch)
+/area/adventure/crunch)
 "cLB" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -68990,7 +68990,7 @@
 	},
 /obj/machinery/light/worn,
 /turf/simulated/floor/blue/checker,
-/area/crunch)
+/area/adventure/crunch)
 "cLC" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -69011,28 +69011,28 @@
 	name = "Discount Dan-Branded Steak Knife"
 	},
 /turf/simulated/floor/blue/checker,
-/area/crunch)
+/area/adventure/crunch)
 "cLD" = (
 /obj/table{
 	dir = 5;
 	icon_state = "tabledir"
 	},
 /turf/simulated/floor/plating,
-/area/crunch)
+/area/adventure/crunch)
 "cLE" = (
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/blue/checker,
-/area/crunch)
+/area/adventure/crunch)
 "cLF" = (
 /obj/table,
 /turf/simulated/floor/blue/checker,
-/area/crunch)
+/area/adventure/crunch)
 "cLG" = (
 /obj/stool/chair{
 	dir = 8
 	},
 /turf/simulated/floor/blue/checker,
-/area/crunch)
+/area/adventure/crunch)
 "cLH" = (
 /turf/unsimulated/wall/setpieces/leadwall/gray{
 	tag = "icon-leadwall_gray (NORTHWEST)";
@@ -69133,7 +69133,7 @@
 	dir = 4
 	},
 /turf/unsimulated/floor/void,
-/area/crunch)
+/area/adventure/crunch)
 "cLU" = (
 /obj/machinery/guardbot_dock{
 	autoeject = 2;
@@ -69142,21 +69142,21 @@
 	},
 /obj/machinery/bot/guardbot/old/tourguide,
 /turf/simulated/floor/blue/checker,
-/area/crunch)
+/area/adventure/crunch)
 "cLV" = (
 /obj/machinery/light/small,
 /turf/simulated/floor/blue/checker,
-/area/crunch)
+/area/adventure/crunch)
 "cLW" = (
 /obj/decal/fakeobjects/lightbulb_broken,
 /turf/simulated/floor/blue/checker,
-/area/crunch)
+/area/adventure/crunch)
 "cLX" = (
 /obj/stool/chair{
 	dir = 1
 	},
 /turf/simulated/floor/blue/checker,
-/area/crunch)
+/area/adventure/crunch)
 "cLY" = (
 /obj/decal/glow{
 	brightness = 2;
@@ -69377,13 +69377,13 @@
 	name = "Factory Lobby"
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cMy" = (
 /obj/machinery/vending/cola/blue{
 	credit = 12
 	},
 /turf/simulated/floor/airless,
-/area/crunch)
+/area/adventure/crunch)
 "cMz" = (
 /obj/overlay{
 	anchored = 1;
@@ -69396,7 +69396,7 @@
 	opacity = 1
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cMB" = (
 /turf/unsimulated/wall/setpieces/leadwall/gray{
 	tag = "icon-leadjunction_gray (EAST)";
@@ -69461,7 +69461,7 @@
 "cMK" = (
 /turf/space,
 /turf/simulated/floor/airless/plating/damaged2,
-/area/crunch)
+/area/adventure/crunch)
 "cML" = (
 /obj/decal/glow{
 	brightness = 2;
@@ -69953,14 +69953,14 @@
 	icon_state = "diagonalWall";
 	dir = 8
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cNN" = (
 /turf/simulated/martian/wall,
-/area/crunch)
+/area/adventure/crunch)
 "cNO" = (
 /obj/machinery/door/unpowered/martian,
 /turf/simulated/martian/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cNP" = (
 /turf/unsimulated/floor/void,
 /turf/simulated/martian/wall{
@@ -69968,7 +69968,7 @@
 	icon_state = "diagonalWall";
 	dir = 6
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cNQ" = (
 /turf/unsimulated/wall{
 	icon = 'icons/obj/singularity.dmi';
@@ -70131,10 +70131,10 @@
 	icon_state = "diagonalWall";
 	dir = 4
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cOh" = (
 /turf/simulated/martian/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cOi" = (
 /turf/simulated/martian/floor,
 /turf/simulated/martian/wall{
@@ -70142,11 +70142,11 @@
 	icon_state = "diagonalWall";
 	dir = 5
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cOj" = (
 /obj/structure/girder,
 /turf/simulated/floor/airless/plating/damaged3,
-/area/crunch)
+/area/adventure/crunch)
 "cOk" = (
 /turf/unsimulated/bombvr,
 /area/sim/test_area)
@@ -70211,14 +70211,14 @@
 	anchored = 1
 	},
 /turf/simulated/martian/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cOt" = (
 /turf/simulated/floor/white,
-/area/crunch)
+/area/adventure/crunch)
 "cOu" = (
 /obj/crate,
 /turf/simulated/floor/white,
-/area/crunch)
+/area/adventure/crunch)
 "cOv" = (
 /obj/table/reinforced/bar{
 	dir = 5;
@@ -70256,7 +70256,7 @@
 "cOy" = (
 /obj/decal/floatingtiles,
 /turf/unsimulated/floor/void,
-/area/crunch)
+/area/adventure/crunch)
 "cOz" = (
 /obj/table/reinforced/bar{
 	dir = 6;
@@ -70310,15 +70310,15 @@
 	icon_state = "diagonalWall";
 	dir = 1
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cOE" = (
 /obj/decal/cleanable/ash,
 /turf/simulated/martian/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cOF" = (
 /obj/critter/crunched,
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cOG" = (
 /obj/decal/floatingtiles{
 	tag = "icon-floattiles4 (WEST)";
@@ -70326,7 +70326,7 @@
 	dir = 8
 	},
 /turf/unsimulated/floor/void,
-/area/crunch)
+/area/adventure/crunch)
 "cOH" = (
 /obj/decal/fakeobjects/firelock_broken{
 	tag = "icon-door0 (NORTH)";
@@ -70374,7 +70374,7 @@
 	anchored = 1
 	},
 /turf/simulated/martian/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cON" = (
 /obj/decal/aliencomputer{
 	desc = "This appears to be some sort of martian computer. Or maybe a television.  Or an arcade machine.  Who the hell knows?";
@@ -70392,13 +70392,13 @@
 	anchored = 1
 	},
 /turf/simulated/martian/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cOO" = (
 /obj/crevice{
 	pixel_y = 30
 	},
 /turf/simulated/martian/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cOP" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -70418,14 +70418,14 @@
 	anchored = 1
 	},
 /turf/simulated/martian/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cOQ" = (
 /obj/decal/floatingtiles{
 	tag = "icon-floattiles6";
 	icon_state = "floattiles6"
 	},
 /turf/unsimulated/floor/void,
-/area/crunch)
+/area/adventure/crunch)
 "cOR" = (
 /turf/unsimulated/wall/setpieces/leadwall/gray,
 /area/adventure/crypt/sigma/rd)
@@ -70510,13 +70510,13 @@
 	anchored = 1
 	},
 /turf/simulated/martian/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cPe" = (
 /obj/table,
 /obj/item/gun/energy/ghost,
 /obj/item/clothing/glasses/regular/ecto/goggles,
 /turf/simulated/floor/white,
-/area/crunch)
+/area/adventure/crunch)
 "cPf" = (
 /turf/unsimulated/wall/setpieces/leadwall/gray{
 	tag = "icon-leadcap_gray (WEST)";
@@ -70579,7 +70579,7 @@
 	pixel_y = 30
 	},
 /turf/simulated/martian/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cPo" = (
 /turf/simulated/martian/floor,
 /turf/simulated/martian/wall{
@@ -70587,7 +70587,7 @@
 	icon_state = "diagonalWall";
 	dir = 8
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cPp" = (
 /obj/decal/glow{
 	brightness = 2;
@@ -70667,7 +70667,7 @@
 	sd_ColorRed = 0.42
 	},
 /turf/simulated/martian/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cPw" = (
 /obj/table/reinforced/bar{
 	tag = "icon-bar (WEST)";
@@ -70703,20 +70703,20 @@
 	name = "martian machine"
 	},
 /turf/simulated/martian/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cPB" = (
 /obj/crevice{
 	pixel_x = -28
 	},
 /turf/simulated/martian/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cPC" = (
 /obj/computer3frame/terminal{
 	anchored = 1;
 	state = 1
 	},
 /turf/simulated/floor/white,
-/area/crunch)
+/area/adventure/crunch)
 "cPD" = (
 /obj/table/reinforced/bar{
 	tag = "icon-bar (WEST)";
@@ -70782,7 +70782,7 @@
 "cPK" = (
 /turf/simulated/floor/airless/white,
 /turf/simulated/floor/plating/damaged2,
-/area/crunch)
+/area/adventure/crunch)
 "cPL" = (
 /obj/landmark{
 	name = "bombtest-bomb"
@@ -70870,7 +70870,7 @@
 	name = "dessicated alien"
 	},
 /turf/simulated/martian/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cPX" = (
 /obj/item/instrument/saxophone,
 /obj/decal/fakeobjects{
@@ -70882,7 +70882,7 @@
 	name = "martian machine"
 	},
 /turf/simulated/martian/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cPY" = (
 /obj/decal/aliencomputer{
 	desc = "This appears to be some sort of martian computer. Or maybe a television.  Or an arcade machine.  Who the hell knows?";
@@ -70891,7 +70891,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/martian/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cPZ" = (
 /turf/unsimulated/wall/setpieces/leadwall/gray{
 	icon_state = "leadjunction_gray"
@@ -71111,7 +71111,7 @@
 	name = "martian machine"
 	},
 /turf/simulated/martian/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cQD" = (
 /obj/decal/aliencomputer{
 	desc = "This appears to be some sort of martian computer. Or maybe a television.  Or an arcade machine.  Who the hell knows?";
@@ -71120,7 +71120,7 @@
 	pixel_y = -30
 	},
 /turf/simulated/martian/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cQE" = (
 /obj/graveyard/lightning_trigger,
 /obj/decal/glow{
@@ -71269,7 +71269,7 @@
 "cQV" = (
 /obj/structure/girder,
 /turf/simulated/floor/plating/scorched,
-/area/crunch)
+/area/adventure/crunch)
 "cQW" = (
 /obj/decal/floatingtiles{
 	tag = "icon-floattiles3 (WEST)";
@@ -71277,7 +71277,7 @@
 	dir = 8
 	},
 /turf/unsimulated/floor/void,
-/area/crunch)
+/area/adventure/crunch)
 "cQX" = (
 /obj/landmark{
 	name = "bombtest"
@@ -71368,18 +71368,18 @@
 	d2 = 2
 	},
 /turf/simulated/floor/plating,
-/area/crunch)
+/area/adventure/crunch)
 "cRk" = (
 /obj/cable{
 	icon_state = "0-2";
 	d2 = 2
 	},
 /turf/simulated/floor/plating,
-/area/crunch)
+/area/adventure/crunch)
 "cRl" = (
 /obj/critter/aberration,
 /turf/simulated/floor/plating/damaged3,
-/area/crunch)
+/area/adventure/crunch)
 "cRm" = (
 /obj/decal/floatingtiles{
 	tag = "icon-floattiles1 (NORTH)";
@@ -71387,7 +71387,7 @@
 	dir = 1
 	},
 /turf/unsimulated/floor/void,
-/area/crunch)
+/area/adventure/crunch)
 "cRn" = (
 /obj/decal/glow{
 	brightness = 2;
@@ -71503,7 +71503,7 @@
 	anchored = 1
 	},
 /turf/simulated/martian/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cRx" = (
 /turf/simulated/martian/floor,
 /turf/simulated/martian/wall{
@@ -71511,7 +71511,7 @@
 	icon_state = "diagonalWall";
 	dir = 6
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cRy" = (
 /obj/crevice{
 	pixel_y = -28
@@ -71525,7 +71525,7 @@
 	sd_ColorRed = 0.42
 	},
 /turf/simulated/martian/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cRz" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -71533,11 +71533,11 @@
 	d2 = 2
 	},
 /turf/simulated/floor/plating,
-/area/crunch)
+/area/adventure/crunch)
 "cRA" = (
 /obj/cable,
 /turf/simulated/floor/plating,
-/area/crunch)
+/area/adventure/crunch)
 "cRB" = (
 /turf/unsimulated/wall/setpieces/leadwall/gray{
 	tag = "icon-leadwall_gray (NORTHWEST)";
@@ -71618,7 +71618,7 @@
 	d2 = 4
 	},
 /turf/simulated/floor/plating,
-/area/crunch)
+/area/adventure/crunch)
 "cRL" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -71626,7 +71626,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor/plating,
-/area/crunch)
+/area/adventure/crunch)
 "cRM" = (
 /obj/cable{
 	d1 = 1;
@@ -71639,7 +71639,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor/plating,
-/area/crunch)
+/area/adventure/crunch)
 "cRN" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/cable{
@@ -71648,14 +71648,14 @@
 	d2 = 8
 	},
 /turf/simulated/floor/plating,
-/area/crunch)
+/area/adventure/crunch)
 "cRO" = (
 /obj/cable{
 	d2 = 8;
 	icon_state = "0-8"
 	},
 /turf/simulated/floor/plating,
-/area/crunch)
+/area/adventure/crunch)
 "cRP" = (
 /turf/unsimulated/floor{
 	icon_state = "grass1";
@@ -71880,7 +71880,7 @@
 	anchored = 1
 	},
 /turf/simulated/martian/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cSn" = (
 /obj/decal/aliencomputer{
 	desc = "This appears to be some sort of martian computer. A broken one, at that.";
@@ -71898,7 +71898,7 @@
 	anchored = 1
 	},
 /turf/simulated/martian/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cSo" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -71909,7 +71909,7 @@
 	maxcharge = 15000
 	},
 /turf/simulated/floor/white,
-/area/crunch)
+/area/adventure/crunch)
 "cSp" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -71917,7 +71917,7 @@
 	},
 /obj/item/cable_coil,
 /turf/simulated/floor/white,
-/area/crunch)
+/area/adventure/crunch)
 "cSq" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -71932,14 +71932,14 @@
 	dir = 1
 	},
 /turf/simulated/floor/white,
-/area/crunch)
+/area/adventure/crunch)
 "cSr" = (
 /obj/table{
 	icon_state = "tabledir";
 	dir = 2
 	},
 /turf/simulated/floor/white,
-/area/crunch)
+/area/adventure/crunch)
 "cSs" = (
 /obj/table{
 	tag = "icon-tabledir (SOUTHEAST)";
@@ -71948,18 +71948,18 @@
 	},
 /obj/item/electronics/soldering,
 /turf/simulated/floor/white,
-/area/crunch)
+/area/adventure/crunch)
 "cSt" = (
 /obj/spook,
 /obj/decal/fakeobjects/apc_broken{
 	pixel_y = 24
 	},
 /turf/simulated/floor/white,
-/area/crunch)
+/area/adventure/crunch)
 "cSu" = (
 /obj/critter/crunched,
 /turf/simulated/floor/white,
-/area/crunch)
+/area/adventure/crunch)
 "cSv" = (
 /obj/machinery/light/worn{
 	tag = "icon-tube1 (NORTH)";
@@ -71967,11 +71967,11 @@
 	dir = 1
 	},
 /turf/simulated/floor/white,
-/area/crunch)
+/area/adventure/crunch)
 "cSw" = (
 /obj/item/electronics/capacitor,
 /turf/simulated/floor/white,
-/area/crunch)
+/area/adventure/crunch)
 "cSx" = (
 /turf/unsimulated/floor/caution/west,
 /area/sim/racing_track)
@@ -72147,7 +72147,7 @@
 "cSO" = (
 /obj/stool/chair,
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cSP" = (
 /obj/machinery/light{
 	tag = "icon-tube1 (NORTH)";
@@ -72155,7 +72155,7 @@
 	dir = 1
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cSQ" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	tag = "icon-tube-broken (NORTH)";
@@ -72163,7 +72163,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/crunch)
+/area/adventure/crunch)
 "cSR" = (
 /obj/decal/fakeobjects/firealarm_broken{
 	dir = 1;
@@ -72171,20 +72171,20 @@
 	pixel_y = 24
 	},
 /turf/simulated/floor/plating,
-/area/crunch)
+/area/adventure/crunch)
 "cSS" = (
 /turf/simulated/floor/orangeblack/corner/white{
 	dir = 2
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cST" = (
 /turf/simulated/floor/orangeblack/side/white,
-/area/crunch)
+/area/adventure/crunch)
 "cSU" = (
 /turf/simulated/floor/orangeblack/corner/white{
 	dir = 8
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cSV" = (
 /obj/overlay{
 	anchored = 1;
@@ -72331,7 +72331,7 @@
 	dir = 9
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cTj" = (
 /obj/table{
 	contents = newlist();
@@ -72339,7 +72339,7 @@
 	icon_state = "tabledir"
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cTk" = (
 /obj/table{
 	dir = 5;
@@ -72347,7 +72347,7 @@
 	},
 /obj/machinery/recharger,
 /turf/simulated/floor/grime,
-/area/crunch)
+/area/adventure/crunch)
 "cTl" = (
 /turf/simulated/floor/plating,
 /turf/simulated/martian/wall{
@@ -72355,7 +72355,7 @@
 	icon_state = "diagonalWall";
 	dir = 5
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cTm" = (
 /turf/simulated/floor/plating,
 /turf/simulated/martian/wall{
@@ -72363,35 +72363,35 @@
 	icon_state = "diagonalWall";
 	dir = 4
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cTn" = (
 /obj/item/tile/steel,
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cTo" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Lab Maintenance Access";
 	req_access_txt = ""
 	},
 /turf/simulated/floor/white,
-/area/crunch)
+/area/adventure/crunch)
 "cTp" = (
 /turf/simulated/floor/orangeblack/side/white{
 	dir = 4
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cTq" = (
 /obj/rack,
 /obj/item/broken_rcd{
 	desc = "The prototype for a device used to rapidly build walls/floors. A plate on the side is labeled 'ANAXIMANDER II Prototype -- Property of Hemera Astral Research Corporation.'"
 	},
 /turf/simulated/floor/orangeblack,
-/area/crunch)
+/area/adventure/crunch)
 "cTr" = (
 /turf/simulated/floor/orangeblack/side/white{
 	dir = 8
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cTs" = (
 /obj/machinery/door/airlock/medical{
 	name = "RCD Development Lab"
@@ -72399,7 +72399,7 @@
 /turf/simulated/floor/white/side{
 	dir = 8
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cTt" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	tag = "icon-tube-broken (EAST)";
@@ -72407,7 +72407,7 @@
 	dir = 4
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cTu" = (
 /turf/unsimulated/wall{
 	icon = 'icons/obj/singularity.dmi';
@@ -72539,29 +72539,29 @@
 /obj/item/clothing/under/gimmick/dolan,
 /obj/item/clothing/head/dolan,
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cTI" = (
 /obj/table{
 	icon_state = "tabledir";
 	dir = 6
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cTJ" = (
 /turf/simulated/floor/orangeblack/corner/white{
 	dir = 4
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cTK" = (
 /turf/simulated/floor/orangeblack/side/white{
 	dir = 1
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cTL" = (
 /turf/simulated/floor/orangeblack/corner/white{
 	dir = 1
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cTM" = (
 /turf/unsimulated/wall/setpieces/leadwall/gray{
 	tag = "icon-leadcap_gray (NORTH)";
@@ -72772,28 +72772,28 @@
 	name = "wounded alien warrior"
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cUl" = (
 /obj/computer3frame/terminal{
 	anchored = 1;
 	state = 1
 	},
 /turf/simulated/floor/bot/white,
-/area/crunch)
+/area/adventure/crunch)
 "cUm" = (
 /obj/stool/chair{
 	dir = 8
 	},
 /turf/simulated/floor/white,
-/area/crunch)
+/area/adventure/crunch)
 "cUn" = (
 /obj/item/electronics/switc,
 /turf/simulated/floor/white,
-/area/crunch)
+/area/adventure/crunch)
 "cUo" = (
 /obj/machinery/light/worn,
 /turf/simulated/floor/white,
-/area/crunch)
+/area/adventure/crunch)
 "cUp" = (
 /turf/unsimulated/wall/setpieces/leadwall/gray{
 	tag = "icon-leadwall_gray (SOUTHWEST)";
@@ -73042,7 +73042,7 @@
 /area/adventure/meat_derelict/guts)
 "cUY" = (
 /turf/simulated/floor/red,
-/area/crunch)
+/area/adventure/crunch)
 "cUZ" = (
 /obj/machinery/door_control{
 	id = "thunderdome";
@@ -73144,14 +73144,14 @@
 "cVm" = (
 /obj/critter/crunched,
 /turf/simulated/floor/plating,
-/area/crunch)
+/area/adventure/crunch)
 "cVn" = (
 /obj/table{
 	icon_state = "tabledir";
 	dir = 10
 	},
 /turf/simulated/floor/white,
-/area/crunch)
+/area/adventure/crunch)
 "cVo" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -73166,7 +73166,7 @@
 	offset = 0
 	},
 /turf/simulated/floor/white,
-/area/crunch)
+/area/adventure/crunch)
 "cVp" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -73181,22 +73181,22 @@
 	dir = 1
 	},
 /turf/simulated/floor/white,
-/area/crunch)
+/area/adventure/crunch)
 "cVq" = (
 /obj/stool/chair{
 	dir = 4
 	},
 /turf/simulated/floor/white,
-/area/crunch)
+/area/adventure/crunch)
 "cVr" = (
 /obj/computer3frame/terminal,
 /turf/simulated/floor/bot/white,
-/area/crunch)
+/area/adventure/crunch)
 "cVs" = (
 /turf/simulated/floor/red/side{
 	dir = 1
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cVt" = (
 /turf/unsimulated/floor{
 	icon_state = "2,5"
@@ -73320,7 +73320,7 @@
 	pixel_x = -24
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cVI" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -73328,7 +73328,7 @@
 	},
 /obj/item/kitchen/utensil/fork,
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cVJ" = (
 /obj/table{
 	contents = newlist();
@@ -73336,24 +73336,24 @@
 	icon_state = "tabledir"
 	},
 /turf/simulated/floor/plating,
-/area/crunch)
+/area/adventure/crunch)
 "cVK" = (
 /obj/table{
 	dir = 5;
 	icon_state = "tabledir"
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cVL" = (
 /obj/item/tile/steel,
 /turf/simulated/floor/plating/scorched,
-/area/crunch)
+/area/adventure/crunch)
 "cVM" = (
 /obj/decal/cleanable/blood/splatter,
 /obj/decal/fakeobjects/skeleton,
 /obj/spook,
 /turf/simulated/floor/white,
-/area/crunch)
+/area/adventure/crunch)
 "cVN" = (
 /turf/simulated/shuttle/wall{
 	dir = 8;
@@ -73553,7 +73553,7 @@
 	dir = 2
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cWm" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -73850,24 +73850,24 @@
 	dir = 1
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cWU" = (
 /obj/stool/chair,
 /obj/machinery/light,
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cWV" = (
 /obj/item/storage/secure/ssafe/loot{
 	pixel_x = 6;
 	pixel_y = -28
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cWW" = (
 /obj/decal/fakeobjects/lighttube_broken,
 /turf/simulated/floor/plating,
 /turf/simulated/floor/plating/damaged2,
-/area/crunch)
+/area/adventure/crunch)
 "cWX" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -74074,24 +74074,24 @@
 /area/adventure/meat_derelict/guts)
 "cXw" = (
 /turf/simulated/wall/r_wall,
-/area/crunch)
+/area/adventure/crunch)
 "cXx" = (
 /obj/decal/fakeobjects/firelock_broken,
 /obj/machinery/door/airlock,
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cXy" = (
 /obj/cable,
 /turf/simulated/floor/plating/damaged2,
-/area/crunch)
+/area/adventure/crunch)
 "cXz" = (
 /obj/decal/fakeobjects/lighttube_broken,
 /turf/simulated/floor/plating/scorched,
-/area/crunch)
+/area/adventure/crunch)
 "cXA" = (
 /obj/item/scrap,
 /turf/simulated/floor/white,
-/area/crunch)
+/area/adventure/crunch)
 "cXB" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -74210,21 +74210,21 @@
 "cXN" = (
 /obj/critter/gunbot,
 /turf/simulated/floor/delivery,
-/area/crunch)
+/area/adventure/crunch)
 "cXO" = (
 /obj/machinery/light{
 	dir = 1;
 	name = "light fixture"
 	},
 /turf/simulated/floor/delivery,
-/area/crunch)
+/area/adventure/crunch)
 "cXQ" = (
 /obj/crate{
 	name = "Dented Crate";
 	welded = 1
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cXR" = (
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3_space"
@@ -74413,7 +74413,7 @@
 	secondsElectrified = -1
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "cYr" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -74631,7 +74631,7 @@
 /turf/simulated/floor/caution/corner/nw{
 	dir = 1
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cYN" = (
 /obj/rack,
 /obj/item/clothing/suit/rad,
@@ -74639,7 +74639,7 @@
 /turf/simulated/floor/caution/north{
 	dir = 8
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cYO" = (
 /obj/crate{
 	name = "Dented Crate";
@@ -74651,7 +74651,7 @@
 /turf/simulated/floor/caution/corner/ne{
 	dir = 1
 	},
-/area/crunch)
+/area/adventure/crunch)
 "cYP" = (
 /obj/decal/floatingtiles{
 	tag = "icon-floattiles1 (WEST)";
@@ -74659,7 +74659,7 @@
 	dir = 8
 	},
 /turf/unsimulated/floor/void,
-/area/crunch)
+/area/adventure/crunch)
 "cYQ" = (
 /obj/machinery/door_control{
 	id = "hangar_syndicate";
@@ -75306,11 +75306,11 @@
 	dir = 4
 	},
 /turf/unsimulated/floor/void,
-/area/crunch)
+/area/adventure/crunch)
 "dai" = (
 /obj/item/tile/steel,
 /turf/unsimulated/floor/void,
-/area/crunch)
+/area/adventure/crunch)
 "daj" = (
 /obj/machinery/vehicle/miniputt/syndiputt,
 /turf/simulated/floor/shuttlebay,
@@ -75683,7 +75683,7 @@
 "daX" = (
 /obj/table,
 /turf/simulated/floor/plating,
-/area/crunch)
+/area/adventure/crunch)
 "daY" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -75852,7 +75852,7 @@
 	level = 2
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "dbu" = (
 /obj/machinery/atmospherics/pipe/simple{
 	dir = 4;
@@ -75860,13 +75860,13 @@
 	level = 2
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "dbv" = (
 /obj/machinery/atmospherics/pipe/vent{
 	dir = 8
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "dbw" = (
 /turf/unsimulated/wall{
 	icon = 'icons/obj/singularity.dmi';
@@ -75915,7 +75915,7 @@
 	d2 = 8
 	},
 /turf/simulated/wall/r_wall,
-/area/crunch)
+/area/adventure/crunch)
 "dbD" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -75928,7 +75928,7 @@
 	d2 = 4
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "dbE" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -75946,7 +75946,7 @@
 	dir = 4
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "dbG" = (
 /obj/machinery/sleeper,
 /turf/simulated/floor/shuttle{
@@ -76313,22 +76313,22 @@
 	pixel_y = -24
 	},
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "dco" = (
 /obj/cable,
 /obj/machinery/computer/teleporter,
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "dcp" = (
 /obj/cable,
 /obj/machinery/teleport/portal_generator,
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "dcq" = (
 /obj/cable,
 /obj/machinery/teleport/portal_ring,
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "dcr" = (
 /obj/landmark{
 	name = "SR Syndicate-Spawn"
@@ -76539,7 +76539,7 @@
 	dir = 4
 	},
 /turf/unsimulated/floor/void,
-/area/crunch)
+/area/adventure/crunch)
 "dcM" = (
 /obj/machinery/door/window{
 	base_state = "right";
@@ -77414,20 +77414,20 @@
 "deu" = (
 /obj/decal/cleanable/generic,
 /turf/simulated/floor,
-/area/crunch)
+/area/adventure/crunch)
 "dev" = (
 /turf/simulated/floor/orangeblack/corner{
 	dir = 2
 	},
-/area/crunch)
+/area/adventure/crunch)
 "dew" = (
 /turf/simulated/floor/orangeblack/side,
-/area/crunch)
+/area/adventure/crunch)
 "dex" = (
 /turf/simulated/floor/orangeblack/corner{
 	dir = 8
 	},
-/area/crunch)
+/area/adventure/crunch)
 "dey" = (
 /obj/tree1,
 /turf/unsimulated/floor{
@@ -77569,7 +77569,7 @@
 	invisibility = 101
 	},
 /turf/simulated/floor/delivery,
-/area/crunch)
+/area/adventure/crunch)
 "deL" = (
 /obj/decal/cleanable/oil,
 /turf/unsimulated/floor{

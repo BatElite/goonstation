@@ -2,14 +2,14 @@
 "aa" = (
 /obj/sea_plant/seaweed,
 /turf/space/fluid/noexplosion/nospawn,
-/area/dank_trench)
+/area/debris/dank_trench)
 "ab" = (
 /turf/cordon,
 /area/cordon)
 "ac" = (
 /obj/item/raw_material/rock,
 /turf/space/fluid/noexplosion,
-/area/dank_trench)
+/area/debris/dank_trench)
 "ad" = (
 /turf/simulated/martian/wall,
 /area/debris/evilreaver/security)
@@ -113,7 +113,7 @@
 /area/debris/evilreaver/security)
 "ax" = (
 /turf/unsimulated/wall/auto/supernorn,
-/area/dank_trench)
+/area/debris/dank_trench)
 "ay" = (
 /turf/simulated/martian/floor,
 /turf/simulated/martian/wall{
@@ -2446,18 +2446,18 @@
 "gx" = (
 /obj/random_item_spawner/junk/one_or_zero,
 /turf/space/fluid/noexplosion,
-/area/dank_trench)
+/area/debris/dank_trench)
 "gy" = (
 /turf/unsimulated/wall/trench/side,
-/area/dank_trench)
+/area/debris/dank_trench)
 "gz" = (
 /obj/wingrille_spawn/auto,
 /turf/unsimulated/floor/plating,
-/area/dank_trench)
+/area/debris/dank_trench)
 "gA" = (
 /obj/item/scrap,
 /turf/space/fluid/noexplosion,
-/area/dank_trench)
+/area/debris/dank_trench)
 "gB" = (
 /obj/machinery/plantpot,
 /obj/decal/cleanable/dirt/jen,
@@ -2466,7 +2466,7 @@
 	pixel_x = -12
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "gC" = (
 /obj/decal/cleanable/dirt/jen,
 /obj/item/plant/herb/cannabis/spawnable,
@@ -2474,15 +2474,15 @@
 	pixel_x = 6
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "gD" = (
 /obj/item/satchel/hydro,
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "gE" = (
 /obj/item/seed/cannabis,
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "gF" = (
 /obj/machinery/plantpot,
 /obj/decal/cleanable/dirt/jen,
@@ -2491,69 +2491,69 @@
 	pixel_x = 12
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "gG" = (
 /obj/sea_plant/seaweed,
 /obj/item/crowbar/red,
 /turf/space/fluid/noexplosion/nospawn,
-/area/dank_trench)
+/area/debris/dank_trench)
 "gH" = (
 /obj/landmark{
 	name = "marjfall"
 	},
 /obj/sea_plant/seaweed,
 /turf/space/fluid/noexplosion/nospawn,
-/area/dank_trench)
+/area/debris/dank_trench)
 "gI" = (
 /obj/storage/crate/trench_loot/drug,
 /turf/space/fluid/noexplosion/nospawn,
-/area/dank_trench)
+/area/debris/dank_trench)
 "gJ" = (
 /obj/reagent_dispensers/watertank,
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "gK" = (
 /obj/decal/cleanable/dirt/jen,
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "gL" = (
 /obj/item/plant/herb/cannabis/spawnable,
 /obj/decal/cleanable/dirt/jen,
 /obj/item/reagent_containers/glass/wateringcan,
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "gN" = (
 /obj/machinery/plantpot,
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "gP" = (
 /turf/space/fluid/noexplosion,
-/area/dank_trench)
+/area/debris/dank_trench)
 "gQ" = (
 /obj/reagent_dispensers/still,
 /obj/decal/cleanable/dirt/jen,
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "gR" = (
 /obj/stool/chair{
 	dir = 8
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "gS" = (
 /obj/decal/cleanable/rust,
 /turf/unsimulated/wall/auto/supernorn,
-/area/dank_trench)
+/area/debris/dank_trench)
 "gT" = (
 /obj/random_item_spawner/junk/one_or_zero,
 /turf/space/fluid/noexplosion/nospawn,
-/area/dank_trench)
+/area/debris/dank_trench)
 "gU" = (
 /obj/decal/cleanable/machine_debris{
 	icon_state = "gib7"
 	},
 /turf/space/fluid/noexplosion,
-/area/dank_trench)
+/area/debris/dank_trench)
 "gV" = (
 /obj/item/storage/toilet{
 	dir = 4
@@ -2564,7 +2564,7 @@
 	pixel_x = -12
 	},
 /turf/unsimulated/floor/sanitary/blue,
-/area/dank_trench)
+/area/debris/dank_trench)
 "gW" = (
 /turf/space,
 /area/space)
@@ -2586,11 +2586,11 @@
 	pixel_y = -9
 	},
 /turf/unsimulated/floor/sanitary/blue,
-/area/dank_trench)
+/area/debris/dank_trench)
 "gY" = (
 /obj/machinery/door/airlock/pyro/classic,
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "gZ" = (
 /obj/machinery/chem_master,
 /obj/machinery/light/small{
@@ -2598,7 +2598,7 @@
 	pixel_y = 21
 	},
 /turf/unsimulated/floor/black/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "ha" = (
 /obj/submachine/seed_manipulator{
 	desc = "A seed manipulation machine. It's seen a lot of use.";
@@ -2609,7 +2609,7 @@
 	},
 /obj/decal/cleanable/dirt/dirt3,
 /turf/unsimulated/floor/black/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hb" = (
 /obj/table/auto,
 /obj/item/reagent_containers/glass/bottle/ammonia{
@@ -2627,7 +2627,7 @@
 	pixel_y = -10
 	},
 /turf/unsimulated/floor/black/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hc" = (
 /obj/decal/cleanable/vomit,
 /obj/item/storage/pill_bottle/cyberpunk{
@@ -2635,41 +2635,41 @@
 	pixel_y = 6
 	},
 /turf/unsimulated/floor/sanitary/blue,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hd" = (
 /obj/decal/cleanable/dirt,
 /obj/machinery/drainage,
 /turf/unsimulated/floor/sanitary/blue,
-/area/dank_trench)
+/area/debris/dank_trench)
 "he" = (
 /obj/machinery/door/airlock/pyro/classic{
 	dir = 4
 	},
 /obj/decal/cleanable/dirt/jen,
 /turf/unsimulated/floor/sanitary/blue,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hf" = (
 /obj/machinery/light/small{
 	dir = 1;
 	pixel_y = 21
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hg" = (
 /obj/decal/cleanable/dirt,
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hh" = (
 /obj/machinery/door/airlock/pyro/classic{
 	dir = 4
 	},
 /obj/decal/cleanable/dirt/jen,
 /turf/unsimulated/floor/black/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hi" = (
 /obj/decal/cleanable/dirt,
 /turf/unsimulated/floor/black/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hj" = (
 /obj/stool/chair/office/green{
 	dir = 8
@@ -2679,7 +2679,7 @@
 	name = "weird flakes"
 	},
 /turf/unsimulated/floor/black/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hk" = (
 /obj/table/auto,
 /obj/item/device/reagentscanner{
@@ -2706,7 +2706,7 @@
 	pixel_y = 3
 	},
 /turf/unsimulated/floor/black/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hl" = (
 /obj/decal/cleanable/dirt,
 /obj/item/reagent_containers/glass/bucket,
@@ -2715,14 +2715,14 @@
 	pixel_x = -10
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hm" = (
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hn" = (
 /obj/stool/chair/comfy,
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "ho" = (
 /obj/decal/cleanable/dirt/jen,
 /obj/item/item_box/swedish_bag{
@@ -2732,12 +2732,12 @@
 	open = 1
 	},
 /turf/unsimulated/floor/black/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hp" = (
 /obj/decal/cleanable/dirt,
 /obj/random_item_spawner/junk/one_or_zero,
 /turf/unsimulated/floor/black/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hq" = (
 /obj/submachine/chem_extractor{
 	dir = 8
@@ -2748,14 +2748,14 @@
 	},
 /obj/decal/cleanable/dirt/dirt5,
 /turf/unsimulated/floor/black/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hr" = (
 /obj/decal/fakeobjects/creepytv{
 	desc = "There's a gummy layer of dust over the controls."
 	},
 /obj/map/light/screen,
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hs" = (
 /obj/decal/cleanable/dirt,
 /obj/shrub/dead,
@@ -2763,7 +2763,7 @@
 	pixel_x = 5
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "ht" = (
 /obj/decal/cleanable/dirt/jen,
 /obj/item/reagent_containers/food/snacks/cookie{
@@ -2781,7 +2781,7 @@
 	pixel_y = 0
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hu" = (
 /obj/decal/cleanable/dirt,
 /obj/table/wood/auto,
@@ -2796,16 +2796,16 @@
 	pixel_x = 12
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hv" = (
 /obj/decal/cleanable/fungus,
 /turf/unsimulated/wall/auto/supernorn,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hw" = (
 /obj/storage/crate/furnacefuel,
 /obj/decal/cleanable/dirt/jen,
 /turf/unsimulated/floor/plating,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hx" = (
 /obj/item/reagent_containers/food/snacks/chips,
 /obj/machinery/light/small{
@@ -2813,7 +2813,7 @@
 	pixel_x = -12
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hy" = (
 /obj/item/device/light/glowstick{
 	pixel_x = -13;
@@ -2826,14 +2826,14 @@
 	},
 /obj/decal/cleanable/dirt/jen,
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hz" = (
 /obj/decal/cleanable/dirt/jen,
 /obj/machinery/door/airlock/pyro/glass{
 	dir = 4
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hA" = (
 /obj/stool/chair/comfy{
 	dir = 1;
@@ -2841,7 +2841,7 @@
 	},
 /obj/decal/cleanable/dirt/jen,
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hB" = (
 /obj/decal/cleanable/dirt,
 /obj/machinery/manufacturer/general{
@@ -2858,7 +2858,7 @@
 	pixel_x = -12
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hC" = (
 /obj/table/reinforced/auto,
 /obj/item/paper_bin,
@@ -2882,7 +2882,7 @@
 	icon_state = "0-2"
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hD" = (
 /obj/table/reinforced/auto,
 /obj/item/storage/toolbox/mechanical,
@@ -2891,12 +2891,12 @@
 	pixel_y = 7
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hE" = (
 /obj/decal/cleanable/dirt/jen,
 /obj/mopbucket,
 /turf/unsimulated/floor/plating,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hF" = (
 /obj/decal/cleanable/dirt,
 /obj/stool/chair/comfy{
@@ -2904,14 +2904,14 @@
 	icon_state = "chair_comfy"
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hG" = (
 /obj/storage/crate/bin,
 /obj/item/reagent_containers/food/snacks/pickle/trash{
 	pixel_y = 3
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hH" = (
 /obj/random_item_spawner/junk/one_or_zero,
 /obj/decal/cleanable/dirt/jen,
@@ -2919,21 +2919,21 @@
 /obj/item/clothing/suit/bedsheet/black,
 /obj/machinery/light_switch/west,
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hI" = (
 /obj/machinery/door/airlock/pyro/classic{
 	dir = 4
 	},
 /obj/decal/cleanable/dirt/jen,
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hJ" = (
 /obj/random_item_spawner/junk/one_or_zero,
 /obj/cable{
 	icon_state = "1-2"
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hK" = (
 /obj/decal/cleanable/dirt,
 /obj/stool/chair/office{
@@ -2944,7 +2944,7 @@
 	pixel_x = 10
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hL" = (
 /obj/machinery/light/small{
 	dir = 8;
@@ -2953,11 +2953,11 @@
 /obj/decal/cleanable/dirt/jen,
 /obj/item/furniture_parts/office_chair/green,
 /turf/unsimulated/floor/plating,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hM" = (
 /obj/machinery/hydro_growlamp,
 /turf/unsimulated/floor/plating,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hN" = (
 /obj/stool/bed,
 /obj/item/clothing/suit/bedsheet/black,
@@ -2967,7 +2967,7 @@
 	pixel_x = -12
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hO" = (
 /obj/machinery/vending/snack{
 	credit = 43
@@ -2977,7 +2977,7 @@
 	pixel_x = 10
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hP" = (
 /obj/decal/cleanable/dirt/jen,
 /obj/item/pen,
@@ -2985,7 +2985,7 @@
 	icon_state = "1-2"
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hQ" = (
 /obj/item/cable_coil,
 /obj/machinery/light/small{
@@ -2993,26 +2993,26 @@
 	pixel_x = 12
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hR" = (
 /obj/item/clothing/mask/breath,
 /turf/unsimulated/floor/plating,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hS" = (
 /obj/decal/cleanable/machine_debris{
 	icon_state = "gib7"
 	},
 /turf/space/fluid/noexplosion/nospawn,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hT" = (
 /obj/item/scrap,
 /obj/sea_plant/seaweed,
 /turf/space/fluid/noexplosion/nospawn,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hU" = (
 /obj/machinery/door/airlock/pyro/external,
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hV" = (
 /obj/storage/crate{
 	name = "furnace fuel crate"
@@ -3022,7 +3022,7 @@
 /obj/item/plant/herb/cannabis/omega/spawnable,
 /obj/item/plant/herb/cannabis/omega/spawnable,
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hW" = (
 /obj/decal/cleanable/dirt,
 /obj/cable{
@@ -3032,7 +3032,7 @@
 	icon_state = "2-4"
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hX" = (
 /obj/decal/cleanable/dirt,
 /obj/random_item_spawner/junk/one_or_zero,
@@ -3040,7 +3040,7 @@
 	icon_state = "4-8"
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hY" = (
 /obj/machinery/door/airlock/pyro/classic{
 	dir = 4
@@ -3050,30 +3050,30 @@
 	icon_state = "4-8"
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "hZ" = (
 /obj/decal/cleanable/dirt/jen,
 /obj/cable{
 	icon_state = "2-8"
 	},
 /turf/unsimulated/floor/plating,
-/area/dank_trench)
+/area/debris/dank_trench)
 "ia" = (
 /obj/landmark{
 	name = "marjfall"
 	},
 /turf/space/fluid/noexplosion,
-/area/dank_trench)
+/area/debris/dank_trench)
 "ib" = (
 /obj/rack,
 /obj/item/clothing/head/emerg,
 /obj/decal/cleanable/dirt/jen,
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "ic" = (
 /obj/machinery/drainage,
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "id" = (
 /obj/item/device/light/flashlight{
 	pixel_x = 4;
@@ -3082,7 +3082,7 @@
 /obj/random_item_spawner/junk/one_or_zero,
 /obj/decal/cleanable/dirt/jen,
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "ie" = (
 /obj/table/reinforced/auto,
 /obj/machinery/cell_charger,
@@ -3091,7 +3091,7 @@
 	pixel_x = -12
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "if" = (
 /obj/machinery/power/furnace,
 /obj/cable{
@@ -3099,28 +3099,28 @@
 	},
 /obj/cable,
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "ig" = (
 /obj/machinery/power/furnace,
 /obj/cable{
 	icon_state = "0-8"
 	},
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "ih" = (
 /obj/cable{
 	icon_state = "1-2"
 	},
 /obj/decal/cleanable/dirt/jen,
 /turf/unsimulated/floor/plating,
-/area/dank_trench)
+/area/debris/dank_trench)
 "ii" = (
 /obj/decal/cleanable/dirt,
 /obj/rack,
 /obj/item/tank/air,
 /obj/item/clothing/suit/space/emerg,
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "ij" = (
 /obj/item/scissors,
 /obj/item/rubberduck{
@@ -3132,7 +3132,7 @@
 	pixel_x = 12
 	},
 /turf/unsimulated/floor/damaged3,
-/area/dank_trench)
+/area/debris/dank_trench)
 "ik" = (
 /obj/decal/cleanable/dirt/jen,
 /obj/item/reagent_containers/food/snacks/chips,
@@ -3140,12 +3140,12 @@
 	icon_state = "1-2"
 	},
 /turf/unsimulated/floor/plating,
-/area/dank_trench)
+/area/debris/dank_trench)
 "il" = (
 /obj/machinery/door/airlock/pyro/external,
 /obj/decal/cleanable/dirt/jen,
 /turf/unsimulated/floor/grime,
-/area/dank_trench)
+/area/debris/dank_trench)
 "im" = (
 /obj/decal/cleanable/dirt,
 /obj/machinery/vending/standard,
@@ -3153,7 +3153,7 @@
 	icon_state = "0-4"
 	},
 /turf/unsimulated/floor/plating,
-/area/dank_trench)
+/area/debris/dank_trench)
 "in" = (
 /obj/machinery/light/small{
 	dir = 1;
@@ -3165,14 +3165,14 @@
 /obj/decal/cleanable/dirt/jen,
 /obj/decal/cleanable/paper,
 /turf/unsimulated/floor/plating,
-/area/dank_trench)
+/area/debris/dank_trench)
 "io" = (
 /obj/decal/cleanable/dirt/jen,
 /obj/cable{
 	icon_state = "2-4"
 	},
 /turf/unsimulated/floor/plating,
-/area/dank_trench)
+/area/debris/dank_trench)
 "ip" = (
 /obj/item/paper{
 	info = "rico you remember the marijuana trench back on earth this is just like that. marijuana trench 2. carl";
@@ -3182,7 +3182,7 @@
 	icon_state = "1-8"
 	},
 /turf/unsimulated/floor/plating,
-/area/dank_trench)
+/area/debris/dank_trench)
 "iq" = (
 /obj/item/raw_material/rock,
 /obj/random_item_spawner/junk/one_or_zero,
@@ -3191,27 +3191,27 @@
 	pixel_y = 16
 	},
 /turf/space/fluid/noexplosion,
-/area/dank_trench)
+/area/debris/dank_trench)
 "ir" = (
 /obj/machinery/light/small{
 	dir = 1;
 	pixel_y = 21
 	},
 /turf/space/fluid/noexplosion,
-/area/dank_trench)
+/area/debris/dank_trench)
 "is" = (
 /turf/space/fluid/noexplosion/nospawn,
-/area/dank_trench)
+/area/debris/dank_trench)
 "it" = (
 /obj/machinery/portable_reclaimer,
 /obj/decal/cleanable/dirt/jen,
 /turf/unsimulated/floor/plating,
-/area/dank_trench)
+/area/debris/dank_trench)
 "iu" = (
 /obj/decal/cleanable/dirt,
 /obj/item/mop,
 /turf/unsimulated/floor/plating,
-/area/dank_trench)
+/area/debris/dank_trench)
 "iv" = (
 /obj/cable{
 	d1 = 2;
@@ -3226,21 +3226,21 @@
 	pixel_y = -3
 	},
 /turf/unsimulated/floor/plating,
-/area/dank_trench)
+/area/debris/dank_trench)
 "iw" = (
 /obj/decal/cleanable/dirt/jen,
 /obj/stool/chair{
 	dir = 8
 	},
 /turf/unsimulated/floor/plating,
-/area/dank_trench)
+/area/debris/dank_trench)
 "ix" = (
 /obj/decal/cleanable/dirt,
 /obj/storage/crate,
 /obj/item/bee_egg_carton,
 /obj/item/hand_labeler,
 /turf/unsimulated/floor/plating,
-/area/dank_trench)
+/area/debris/dank_trench)
 "iy" = (
 /obj/rack,
 /obj/item/sheet/steel{
@@ -3250,7 +3250,7 @@
 	amount = 10
 	},
 /turf/unsimulated/floor/plating,
-/area/dank_trench)
+/area/debris/dank_trench)
 "iz" = (
 /obj/storage/crate,
 /obj/item/reagent_containers/glass/bottle/ammonia/janitors{
@@ -3264,7 +3264,7 @@
 	pixel_y = -4
 	},
 /turf/unsimulated/floor/plating,
-/area/dank_trench)
+/area/debris/dank_trench)
 "iA" = (
 /obj/ladder{
 	icon_state = "ladder_wall";
@@ -3272,11 +3272,11 @@
 	pixel_y = 24
 	},
 /turf/space/fluid/noexplosion,
-/area/dank_trench)
+/area/debris/dank_trench)
 "iB" = (
 /obj/decal/cleanable/machine_debris,
 /turf/space/fluid/noexplosion,
-/area/dank_trench)
+/area/debris/dank_trench)
 "iC" = (
 /turf/space,
 /turf/unsimulated/wall/auto/reinforced/supernorn,
@@ -3333,7 +3333,7 @@
 "AE" = (
 /turf/space,
 /turf/unsimulated/wall/trench,
-/area/dank_trench)
+/area/debris/dank_trench)
 "AH" = (
 /turf/space,
 /turf/cordon,
@@ -3369,7 +3369,7 @@
 /area/space)
 "Ip" = (
 /turf/unsimulated/wall/trench,
-/area/dank_trench)
+/area/debris/dank_trench)
 
 (1,1,1) = {"
 ab

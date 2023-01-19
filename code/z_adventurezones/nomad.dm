@@ -3,9 +3,9 @@
 //
 // So... yep.
 
-/area/nomad
+/area/adventure/nomad
 
-/area/nomad/outside
+/area/adventure/nomad/outside
 	name = "Distant Place"
 	icon_state = "purple"
 	ambient_light = rgb(42, 40, 45)
@@ -24,7 +24,7 @@
 		overlays += image(icon = 'icons/turf/areas.dmi', icon_state = "rain_overlay", layer = EFFECTS_LAYER_BASE)
 
 
-/area/nomad/inside
+/area/adventure/nomad/inside
 	name = "Nomad's Abode"
 	icon_state = "green"
 	ambient_light = rgb(0, 0, 0)
@@ -34,15 +34,15 @@
 	sound_loop_vol = 70
 	sound_environment = 15
 
-/area/nomad/inside/New()
+/area/adventure/nomad/inside/New()
 	. = ..()
 	START_TRACKING_CAT(TR_CAT_AREA_PROCESS)
 
-/area/nomad/inside/disposing()
+/area/adventure/nomad/inside/disposing()
 	STOP_TRACKING_CAT(TR_CAT_AREA_PROCESS)
 	. = ..()
 
-/area/nomad/inside/area_process()
+/area/adventure/nomad/inside/area_process()
 	if(prob(20))
 		src.sound_fx_2 = pick('sound/ambience/nature/Rain_ThunderDistant.ogg',\
 			'sound/ambience/nature/Wind_Cold1.ogg',\

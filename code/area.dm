@@ -859,15 +859,15 @@ ABSTRACT_TYPE(/area/shuttle_particle_spawn)
 	icon_state = "donutbridge"
 	sound_environment = 14
 	do_not_irradiate = 1
-
+/*
 /area/otherdimesion //moved from actuallyKeelinsStuff.dm
 	requires_power = 0
 	luminosity = 1
 	force_fullbright = 1
 	name = "Somewhere"
 	icon_state = "shuttle2"
-
-/area/someplace
+*/
+/area/adventure/someplace
 	name = "some place"
 	icon_state = "purple"
 	filler_turf = "/turf/unsimulated/floor/void"
@@ -879,8 +879,8 @@ ABSTRACT_TYPE(/area/shuttle_particle_spawn)
 	expandable = 0
 	sound_group = "some place"
 	sound_loop = 'sound/ambience/spooky/Somewhere_Tone.ogg'
-
-/area/someplacehot
+/*
+/area/adventure/someplacehot
 	name = "some place"
 	icon_state = "atmos"
 	filler_turf = "/turf/unsimulated/floor/void"
@@ -904,8 +904,8 @@ ABSTRACT_TYPE(/area/shuttle_particle_spawn)
 		if(ismob(Obj))
 			Obj:removeOverlayComposition(/datum/overlayComposition/heat)
 		return
-
-/area/crunch/wtc
+*/
+/area/adventure/crunch/wtc
 	name = "Mysterious Facility"
 	icon_state = "purple"
 	requires_power = 0
@@ -1366,7 +1366,7 @@ ABSTRACT_TYPE(/area/prefab)
 	icon_state = "shuttle"
 	filler_turf = "/turf/simulated/floor/specialroom/sea_elevator_shaft"
 
-/area/dank_trench
+/area/debris/dank_trench
 	name = "marijuana trench 2" //this is lowercase on purpose
 	icon_state = "green"
 
