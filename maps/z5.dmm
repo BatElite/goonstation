@@ -94,7 +94,7 @@
 /obj/lattice,
 /obj/item/device/infra_sensor,
 /turf/simulated/martian/floor,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "ax" = (
 /obj/stool/chair/comfy{
 	dir = 8;
@@ -3581,7 +3581,7 @@
 	icon_state = "diagonal"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/bar)
+/area/debris/evilreaver/bar)
 "jU" = (
 /turf/simulated/floor/plating/damaged1,
 /area/diner/hangar)
@@ -4146,7 +4146,7 @@
 "lx" = (
 /obj/lattice,
 /turf/simulated/martian/floor,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "ly" = (
 /obj/cable{
 	icon_state = "4-8"
@@ -4237,7 +4237,7 @@
 /area/diner/hallway)
 "lM" = (
 /turf/simulated/floor/carpet/grime,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "lN" = (
 /obj/decal/poster/wallsign/space,
 /turf/simulated/wall/auto/reinforced/old,
@@ -4900,7 +4900,7 @@
 /obj/lattice,
 /obj/item/c_tube,
 /turf/simulated/martian/floor,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "nP" = (
 /obj/table/reinforced/bar/auto,
 /obj/item/plate,
@@ -4917,7 +4917,7 @@
 	icon_state = "diagonal"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "nV" = (
 /obj/lattice,
 /obj/decal/cleanable/machine_debris,
@@ -4945,7 +4945,7 @@
 /obj/lattice,
 /obj/item/cigbutt,
 /turf/simulated/martian/floor,
-/area/evilreaver/bar)
+/area/debris/evilreaver/bar)
 "om" = (
 /obj/decal/cleanable/robot_debris{
 	icon_state = "gibdown"
@@ -4972,7 +4972,7 @@
 	name = "rusty airlock"
 	},
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "oF" = (
 /obj/table/reinforced/bar/auto,
 /obj/machinery/light,
@@ -4990,16 +4990,16 @@
 /area/diner/dining)
 "oL" = (
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "oM" = (
 /obj/structure/girder/reinforced,
 /turf/simulated/floor/plating/damaged1,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "oN" = (
 /obj/lattice,
 /obj/decal/fakeobjects/pipe,
 /turf/simulated/floor/plating/damaged2,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "oR" = (
 /obj/cable{
 	d1 = 2;
@@ -5019,7 +5019,7 @@
 "oS" = (
 /obj/critter/martian/soldier/dead,
 /turf/simulated/martian/floor,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "oY" = (
 /obj/table/reinforced/bar/auto,
 /obj/item/reagent_containers/food/drinks/chickensoup,
@@ -5033,7 +5033,7 @@
 	icon_state = "gibbl2"
 	},
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "pi" = (
 /obj/decal/cleanable/dirt,
 /obj/computerframe{
@@ -5045,7 +5045,7 @@
 	},
 /obj/map/light/screen,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "pn" = (
 /obj/cable{
 	icon_state = "0-2"
@@ -5095,18 +5095,18 @@
 "pM" = (
 /obj/critter/martian/soldier/dead,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "pN" = (
 /obj/decal/fakeobjects/lighttube_broken,
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/red/side,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "pO" = (
 /obj/decal/cleanable/blood/gibs{
 	icon_state = "gibmid1"
 	},
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "pR" = (
 /obj/decal/floatingtiles{
 	icon_state = "floattiles6"
@@ -5127,17 +5127,17 @@
 	icon_state = "coil1"
 	},
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "qg" = (
 /obj/decal/cleanable/blood/gibs{
 	icon_state = "gibup1"
 	},
 /obj/critter/martian/soldier/dead,
 /turf/simulated/floor/plating/damaged2,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "qj" = (
 /turf/simulated/wall/auto/reinforced/old,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "qk" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -5148,15 +5148,15 @@
 	name = "martian machine"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/bar)
+/area/debris/evilreaver/bar)
 "qs" = (
 /obj/critter/martian/soldier/dead,
 /turf/simulated/floor/plating/scorched,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "qv" = (
 /obj/item/storage/toolbox/mechanical,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "qy" = (
 /obj/machinery/light/incandescent/warm{
 	dir = 8
@@ -5184,7 +5184,7 @@
 /area/noGenerate)
 "qE" = (
 /turf/simulated/floor/plating/damaged1,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "qT" = (
 /obj/overlay{
 	density = 1;
@@ -5196,7 +5196,7 @@
 	name = "blood"
 	},
 /turf/simulated/wall/auto/reinforced/old,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "qU" = (
 /turf/simulated/floor/carpet/green/standard/edge/se,
 /area/diner/jucer_trader)
@@ -5204,7 +5204,7 @@
 /obj/lattice,
 /obj/decal/fakeobjects/pipe,
 /turf/simulated/martian/floor,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "rx" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -5215,32 +5215,32 @@
 	name = "martian machine"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "rG" = (
 /obj/critter/martian/warrior/dead,
 /turf/simulated/floor/plating/damaged1,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "rN" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	dir = 4
 	},
 /obj/decal/cleanable/molten_item,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "rQ" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4
 	},
 /obj/critter/martian/warrior,
 /turf/simulated/martian/floor,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "rS" = (
 /obj/lattice,
 /obj/decal/fakeobjects/pipe{
 	dir = 4
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "rW" = (
 /obj/decal/cleanable/cobweb2,
 /obj/item/scrap,
@@ -5258,18 +5258,18 @@
 "sk" = (
 /obj/decal/fakeobjects/firealarm_broken,
 /turf/simulated/wall/auto/reinforced/old,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "sq" = (
 /obj/item/cable_coil/cut{
 	icon_state = "coil1"
 	},
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "su" = (
 /obj/decal/fakeobjects/skeleton,
 /obj/decal/cleanable/blood,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "sy" = (
 /obj/machinery/door/poddoor/blast{
 	dir = 1;
@@ -5286,7 +5286,7 @@
 "sH" = (
 /obj/critter/martian/psychic/dead,
 /turf/simulated/floor/plating/scorched,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "sK" = (
 /obj/decal/floatingtiles{
 	dir = 8;
@@ -5296,7 +5296,7 @@
 /area/noGenerate)
 "sO" = (
 /turf/unsimulated/wall/auto/adventure/martian,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "sT" = (
 /obj/decal/aliencomputer{
 	pixel_x = 32
@@ -5308,7 +5308,7 @@
 /obj/item/rods/steel,
 /obj/decal/fakeobjects/lighttube_broken,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "tk" = (
 /obj/item/cable_coil/cut,
 /turf/simulated/floor/plating/damaged3,
@@ -5324,15 +5324,15 @@
 	icon_state = "diagonal"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "ts" = (
 /obj/lattice,
 /obj/critter/martian/warrior,
 /turf/simulated/martian/floor,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "tt" = (
 /turf/unsimulated/wall/auto/adventure/martian,
-/area/evilreaver/bar)
+/area/debris/evilreaver/bar)
 "ty" = (
 /obj/decal/cleanable/dirt,
 /obj/item/cigbutt,
@@ -5340,7 +5340,7 @@
 /area/diner/hangar)
 "tA" = (
 /turf/unsimulated/wall/auto/adventure/martian/exterior,
-/area/evilreaver/bar)
+/area/debris/evilreaver/bar)
 "tJ" = (
 /obj/item/old_grenade/spawner/banana,
 /obj/item/bananapeel,
@@ -5386,10 +5386,10 @@
 	dir = 4
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "tY" = (
 /turf/unsimulated/wall/auto/adventure/martian,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "uf" = (
 /obj/cable{
 	d2 = 4;
@@ -5413,11 +5413,11 @@
 	icon_state = "floor2";
 	name = "organic floor"
 	},
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "um" = (
 /obj/decal/cleanable/blood/splatter,
 /turf/simulated/wall/auto/reinforced/old,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "un" = (
 /obj/cable{
 	d2 = 8;
@@ -5444,7 +5444,7 @@
 /obj/lattice,
 /obj/critter/martian/warrior/dead,
 /turf/simulated/martian/floor,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "uF" = (
 /obj/indestructible/shuttle_corner{
 	dir = 4;
@@ -5459,12 +5459,12 @@
 	desc = "You can see a securitron on the photo.  Looks kinda familiar. It appears to be holding a \"#1 Son\" mug.  Is...is that a young Officer Beepsky?"
 	},
 /turf/simulated/bar,
-/area/evilreaver/bar)
+/area/debris/evilreaver/bar)
 "uX" = (
 /obj/table/auto,
 /obj/item/storage/box/donkpocket_kit,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/bar)
+/area/debris/evilreaver/bar)
 "uZ" = (
 /obj/decal/cleanable/blood/splatter{
 	icon_state = "gibbl2"
@@ -5481,7 +5481,7 @@
 "vf" = (
 /obj/decal/cleanable/machine_debris,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "vr" = (
 /obj/indestructible/shuttle_corner{
 	dir = 2;
@@ -5506,7 +5506,7 @@
 /obj/item/furniture_parts/rack,
 /obj/item/wirecutters,
 /turf/simulated/martian/floor,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "vC" = (
 /obj/lattice,
 /obj/decal/fakeobjects/pipe,
@@ -5517,7 +5517,7 @@
 	icon_state = "gibarm"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "vF" = (
 /turf/unsimulated/wall/auto/adventure/shuttle,
 /area/noGenerate)
@@ -5528,20 +5528,20 @@
 /obj/lattice,
 /obj/critter/martian/warrior/dead,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "wf" = (
 /obj/decal/aliencomputer,
 /obj/map/light/dimred,
 /turf/unsimulated/wall/auto/adventure/martian,
-/area/evilreaver/bar)
+/area/debris/evilreaver/bar)
 "wn" = (
 /obj/decal/cleanable/machine_debris,
 /turf/simulated/floor/white,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "wG" = (
 /obj/decal/cleanable/blood/tracks,
 /turf/simulated/floor/plating/scorched,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "wH" = (
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/grime,
@@ -5558,7 +5558,7 @@
 "wR" = (
 /obj/critter/martian/psychic/dead,
 /turf/simulated/martian/floor,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "wV" = (
 /obj/decal/fakeobjects/shuttleengine{
 	dir = 2;
@@ -5583,10 +5583,10 @@
 	dir = 5
 	},
 /turf/simulated/floor/plating/damaged1,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "xc" = (
 /turf/simulated/wall/auto/reinforced/old,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "xf" = (
 /turf/simulated/floor/shuttle{
 	icon_state = "floor6"
@@ -5604,7 +5604,7 @@
 	icon_state = "floor2";
 	name = "organic floor"
 	},
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "xt" = (
 /obj/decal/cleanable/robot_debris{
 	icon_state = "gib7"
@@ -5619,7 +5619,7 @@
 /area/diner/jucer_trader)
 "xx" = (
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "xy" = (
 /obj/indestructible/shuttle_corner{
 	dir = 5;
@@ -5627,10 +5627,10 @@
 	icon_state = "diagonal"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "xE" = (
 /turf/unsimulated/wall/auto/adventure/martian,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "xG" = (
 /obj/indestructible/shuttle_corner{
 	dir = 8;
@@ -5643,31 +5643,31 @@
 "xO" = (
 /obj/joeq/spooky,
 /turf/simulated/wall/auto/reinforced/old,
-/area/evilreaver/bar)
+/area/debris/evilreaver/bar)
 "xX" = (
 /obj/lattice,
 /obj/crevice{
 	pixel_y = 30
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "ye" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4
 	},
 /obj/critter/martian/warrior/dead,
 /turf/simulated/martian/floor,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "yk" = (
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/red/side{
 	dir = 10
 	},
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "yn" = (
 /obj/lattice,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "yq" = (
 /obj/decal/fakeobjects/shuttleengine{
 	dir = 2;
@@ -5691,7 +5691,7 @@
 /turf/simulated/floor/red/side{
 	dir = 9
 	},
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "yA" = (
 /obj/storage/crate,
 /obj/item/stamp,
@@ -5704,10 +5704,10 @@
 "yC" = (
 /obj/critter/martian/soldier,
 /turf/simulated/martian/floor,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "yH" = (
 /turf/simulated/floor/plating/scorched,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "yN" = (
 /obj/machinery/door/airlock/pyro/external,
 /turf/simulated/floor/grime,
@@ -5740,11 +5740,11 @@
 /obj/lattice,
 /obj/critter/martian/warrior/dead,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "zw" = (
 /obj/critter/martian/warrior,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "zA" = (
 /obj/grille/catwalk/dubious,
 /obj/machinery/power/terminal{
@@ -5766,7 +5766,7 @@
 	icon_state = "diagonal"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "zC" = (
 /obj/cable,
 /obj/machinery/power/smes{
@@ -5783,12 +5783,12 @@
 	icon_state = "coil1"
 	},
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "zR" = (
 /obj/decal/aliencomputer,
 /obj/map/light/dimred,
 /turf/unsimulated/wall/auto/adventure/martian,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "zS" = (
 /obj/decal/cleanable/blood/gibs{
 	icon_state = "gibtorso"
@@ -5798,11 +5798,11 @@
 	},
 /obj/critter/martian/soldier/dead,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "zT" = (
 /obj/table/auto,
 /turf/simulated/bar,
-/area/evilreaver/bar)
+/area/debris/evilreaver/bar)
 "zX" = (
 /obj/machinery/door/airlock/pyro/external{
 	dir = 4
@@ -5820,12 +5820,12 @@
 "Ab" = (
 /obj/decal/cleanable/dirt,
 /turf/simulated/bar,
-/area/evilreaver/bar)
+/area/debris/evilreaver/bar)
 "Ac" = (
 /obj/item/cigbutt,
 /obj/landmark/artifact,
 /turf/simulated/floor/plating/scorched,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "An" = (
 /turf/simulated/floor/shuttle{
 	icon_state = "floor2"
@@ -5856,20 +5856,20 @@
 	icon_state = "diagonal"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "Aw" = (
 /obj/map/light/white,
 /turf/unsimulated/wall/auto/adventure/martian,
 /area/noGenerate)
 "Ax" = (
 /turf/simulated/wall/auto/reinforced/old,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "AM" = (
 /obj/decal/cleanable/blood/gibs{
 	icon_state = "gib4"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "AO" = (
 /obj/storage/crate,
 /obj/item/clothing/head/genki,
@@ -5878,7 +5878,7 @@
 /obj/item/raw_material/miracle,
 /obj/item/clothing/suit/space/suv,
 /turf/simulated/martian/floor,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "AP" = (
 /obj/npc/trader/martian,
 /obj/map/light/dimred,
@@ -5894,7 +5894,7 @@
 /obj/lattice,
 /obj/critter/martian/warrior/dead,
 /turf/simulated/martian/floor,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "AV" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -5906,7 +5906,7 @@
 	},
 /obj/lattice,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "Ba" = (
 /obj/indestructible/shuttle_corner{
 	dir = 9;
@@ -5917,7 +5917,7 @@
 /area/noGenerate)
 "Bb" = (
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/bar)
+/area/debris/evilreaver/bar)
 "Bf" = (
 /obj/decal/fakeobjects/shuttlethruster{
 	dir = 2;
@@ -5935,7 +5935,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/white,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "BA" = (
 /obj/decal/floatingtiles{
 	icon_state = "floattiles4"
@@ -5956,7 +5956,7 @@
 	name = "broken clown car"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "BV" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -5967,7 +5967,7 @@
 	name = "martian machine"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "Cc" = (
 /obj/decal/fakeobjects/shuttleengine{
 	dir = 2;
@@ -5980,7 +5980,7 @@
 "Ci" = (
 /obj/decal/fakeobjects/lighttube_broken,
 /turf/simulated/floor/white,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "Cm" = (
 /obj/random_item_spawner/junk/one_or_zero,
 /obj/decal/cleanable/dirt,
@@ -6015,7 +6015,7 @@
 "CW" = (
 /obj/lattice,
 /turf/simulated/martian/floor,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "Dh" = (
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/airless/plating/damaged2,
@@ -6028,12 +6028,12 @@
 	icon_state = "gibup1"
 	},
 /turf/simulated/floor/plating/scorched,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "Dw" = (
 /obj/lattice,
 /obj/decal/fakeobjects/pipe,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "DD" = (
 /obj/machinery/vending/snack,
 /obj/machinery/light/small{
@@ -6055,7 +6055,7 @@
 "DO" = (
 /obj/item/clothing/under/misc/atmospheric_technician,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "DW" = (
 /turf/simulated/wall/auto/asteroid{
 	dir = 9
@@ -6066,18 +6066,18 @@
 	dir = 9
 	},
 /turf/simulated/floor/white,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "Eu" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	dir = 8
 	},
 /obj/decal/cleanable/blood/splatter,
 /turf/simulated/floor/white,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "Ey" = (
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/red/side,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "EB" = (
 /obj/lattice{
 	dir = 6;
@@ -6099,7 +6099,7 @@
 	icon_state = "gibmid2"
 	},
 /turf/simulated/floor/plating/scorched,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "EO" = (
 /obj/item/spacecash/thousand,
 /obj/item/spacecash/thousand,
@@ -6123,21 +6123,21 @@
 /obj/item/spacecash/thousand,
 /obj/item/clothing/suit/cardboard_box/captain,
 /turf/simulated/floor/plating/scorched,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "EQ" = (
 /obj/table/auto,
 /obj/item/storage/box/vialbox,
 /obj/item/reagent_containers/dropper,
 /turf/simulated/floor/white,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "ES" = (
 /obj/decal/cleanable/cobweb2,
 /obj/storage/crate/loot,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "Fa" = (
 /turf/simulated/floor/plating/damaged2,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "Fe" = (
 /obj/indestructible/shuttle_corner{
 	dir = 5;
@@ -6166,14 +6166,14 @@
 "Fm" = (
 /obj/portrait_sneaky,
 /turf/simulated/wall/auto/reinforced/old,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "Fn" = (
 /obj/crevice{
 	pixel_y = 30
 	},
 /obj/decal/fakeobjects/pipe,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "Fw" = (
 /obj/overlay{
 	desc = "The corpse of a long dead space thing.";
@@ -6183,7 +6183,7 @@
 	},
 /obj/item/cigbutt,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/bar)
+/area/debris/evilreaver/bar)
 "FG" = (
 /obj/crevice{
 	pixel_y = 30
@@ -6204,23 +6204,23 @@
 	rand_pos = 1
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "FX" = (
 /obj/decal/fakeobjects/oven{
 	name = "broken oven"
 	},
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/bar)
+/area/debris/evilreaver/bar)
 "FY" = (
 /obj/storage/closet/coffin,
 /turf/simulated/floor/carpet/grime,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "Ga" = (
 /obj/decal/cleanable/blood/gibs{
 	icon_state = "gibdown1"
 	},
 /turf/simulated/floor/plating/damaged1,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "Gb" = (
 /obj/stool/chair/comfy/shuttle/brown,
 /turf/simulated/floor/shuttle{
@@ -6243,7 +6243,7 @@
 "Gm" = (
 /obj/decal/fakeobjects/airmonitor_broken,
 /turf/simulated/wall/auto/reinforced/old,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "Gp" = (
 /obj/table/reinforced/auto,
 /turf/simulated/floor/shuttlebay{
@@ -6252,24 +6252,24 @@
 /area/diner/motel/chemstorage)
 "Gr" = (
 /turf/simulated/wall/auto/reinforced/old,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "Gv" = (
 /obj/lattice,
 /obj/critter/martian/soldier/dead,
 /turf/simulated/martian/floor,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "GG" = (
 /obj/rack,
 /obj/item/storage/firstaid/regular,
 /turf/simulated/floor/white,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "GJ" = (
 /obj/lattice,
 /turf/space/asteroid,
 /area/noGenerate)
 "GO" = (
 /turf/unsimulated/wall/auto/adventure/martian,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "GS" = (
 /obj/machinery/vehicle/escape_pod,
 /obj/decal/cleanable/oil,
@@ -6296,13 +6296,13 @@
 	registered = "#1900494"
 	},
 /turf/simulated/floor/plating/damaged2,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "Hf" = (
 /obj/machinery/door/airlock/pyro/classic{
 	name = "rusty airlock"
 	},
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "Hl" = (
 /obj/indestructible/shuttle_corner{
 	dir = 1;
@@ -6317,7 +6317,7 @@
 /obj/decal/fakeobjects/skeleton,
 /obj/decal/cleanable/blood/splatter,
 /turf/simulated/floor/plating,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "HE" = (
 /obj/decal/cleanable/robot_debris{
 	icon_state = "gib4"
@@ -6335,7 +6335,7 @@
 /obj/machinery/door/unpowered/martian,
 /obj/lattice,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "HU" = (
 /turf/simulated/wall/auto/asteroid{
 	dir = 6
@@ -6343,24 +6343,24 @@
 /area/noGenerate)
 "HX" = (
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "HY" = (
 /obj/machinery/r_door_control/podbay/diner2,
 /turf/simulated/wall/auto/reinforced/old,
 /area/diner/hangar)
 "Ig" = (
 /turf/simulated/wall/auto/reinforced/old,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "Is" = (
 /obj/storage/crate/loot,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "Iy" = (
 /obj/lattice,
 /obj/decal/fakeobjects/pipe,
 /obj/critter/martian/soldier/dead,
 /turf/simulated/floor/plating/damaged2,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "IB" = (
 /obj/indestructible/shuttle_corner{
 	dir = 6;
@@ -6368,11 +6368,11 @@
 	icon_state = "diagonal"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "IM" = (
 /obj/decal/cleanable/oil,
 /turf/simulated/floor/white,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "IS" = (
 /turf/simulated/floor/plating/airless/shuttlebay{
 	icon = 'icons/turf/martian.dmi';
@@ -6395,25 +6395,25 @@
 "Jl" = (
 /obj/storage/closet/coffin,
 /turf/simulated/martian/floor,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "Jm" = (
 /obj/decal/fakeobjects/pipe,
 /obj/critter/martian/psychic,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "Jn" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4
 	},
 /turf/simulated/floor/plating/damaged2,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "Jo" = (
 /obj/item/tile/steel,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "Jt" = (
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "JH" = (
 /obj/indestructible/shuttle_corner{
 	dir = 6;
@@ -6450,7 +6450,7 @@
 "JV" = (
 /obj/critter/martian/psychic,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "Kc" = (
 /turf/simulated/wall/auto/asteroid,
 /area/noGenerate)
@@ -6474,17 +6474,17 @@
 "Kt" = (
 /obj/item/raw_material/shard/glass,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "Kw" = (
 /obj/critter/martian/psychic/dead,
 /turf/simulated/floor/plating/damaged1,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "Kx" = (
 /obj/decal/cleanable/cobweb,
 /obj/decal/cleanable/blood/splatter,
 /obj/storage/crate/loot,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "KW" = (
 /obj/decal/cleanable/oil,
 /obj/item/clothing/suit/space/old,
@@ -6508,12 +6508,12 @@
 	name = "Sgt. Pepper"
 	},
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/bar)
+/area/debris/evilreaver/bar)
 "Ld" = (
 /obj/lattice,
 /obj/critter/martian/soldier/dead,
 /turf/simulated/martian/floor,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "Lh" = (
 /obj/table/auto,
 /obj/item/decoration/ashtray,
@@ -6551,15 +6551,15 @@
 /obj/item/clothing/head/mario,
 /obj/item/clothing/under/gimmick/mario,
 /turf/simulated/floor/carpet/grime,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "LA" = (
 /obj/critter/martian/soldier,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "LC" = (
 /obj/decal/cleanable/machine_debris,
 /turf/simulated/martian/floor,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "Ma" = (
 /obj/machinery/door/poddoor/blast/pyro,
 /turf/simulated/floor/shuttlebay{
@@ -6568,7 +6568,7 @@
 /area/diner/motel/chemstorage)
 "Mh" = (
 /turf/simulated/floor/white,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "Ml" = (
 /obj/indestructible/shuttle_corner{
 	dir = 2;
@@ -6587,13 +6587,13 @@
 /turf/simulated/floor/red/side{
 	dir = 10
 	},
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "Mu" = (
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/red/corner{
 	dir = 8
 	},
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "MA" = (
 /obj/indestructible/shuttle_corner{
 	dir = 6;
@@ -6605,13 +6605,13 @@
 	icon_state = "floor2";
 	name = "organic floor"
 	},
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "MI" = (
 /obj/lattice,
 /obj/decal/cleanable/machine_debris,
 /obj/critter/martian/warrior,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "ML" = (
 /obj/grille/catwalk,
 /obj/machinery/door/airlock/pyro/external{
@@ -6627,7 +6627,7 @@
 	icon_state = "gibmid3"
 	},
 /turf/simulated/floor/plating/scorched,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "MQ" = (
 /obj/indestructible/shuttle_corner{
 	dir = 4;
@@ -6647,7 +6647,7 @@
 "MT" = (
 /obj/critter/martian/psychic/dead,
 /turf/simulated/martian/floor,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "MW" = (
 /obj/map/light/dimred,
 /obj/machinery/computer/shuttle_bus,
@@ -6655,7 +6655,7 @@
 /area/diner/hangar)
 "Nf" = (
 /turf/unsimulated/wall/auto/adventure/martian,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "Nr" = (
 /obj/crevice{
 	pixel_y = 30
@@ -6663,7 +6663,7 @@
 /obj/table/auto,
 /obj/item/reagent_containers/glass/bottle/holywater,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "Nw" = (
 /obj/indestructible/shuttle_corner{
 	dir = 9;
@@ -6671,7 +6671,7 @@
 	icon_state = "diagonal"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "NB" = (
 /obj/cable{
 	d2 = 2;
@@ -6705,7 +6705,7 @@
 	icon_state = "floor2";
 	name = "organic floor"
 	},
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "NP" = (
 /obj/item/sheet/glass/reinforced,
 /turf/simulated/floor/plating/damaged3,
@@ -6719,7 +6719,7 @@
 /area/shuttle/mining/space)
 "NV" = (
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "Ok" = (
 /obj/table/auto,
 /obj/item/device/gps,
@@ -6736,11 +6736,11 @@
 	},
 /obj/lattice,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "Oo" = (
 /obj/critter/martian/warrior,
 /turf/simulated/martian/floor,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "Op" = (
 /turf/simulated/shuttle/wall{
 	icon_state = "wall_space"
@@ -6753,7 +6753,7 @@
 "Ou" = (
 /obj/critter/martian/soldier,
 /turf/simulated/floor/carpet/grime,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "Oz" = (
 /obj/stool/chair/comfy/shuttle/brown,
 /obj/machinery/computer/mining_shuttle/embedded/south,
@@ -6780,7 +6780,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating/damaged1,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "OF" = (
 /obj/securearea{
 	desc = "A warning sign which reads 'Biohazard'";
@@ -6789,7 +6789,7 @@
 	name = "BIOHAZARD"
 	},
 /turf/simulated/wall/auto/reinforced/old,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "OI" = (
 /obj/lattice,
 /obj/decal/fakeobjects/pipe,
@@ -6797,7 +6797,7 @@
 	icon_state = "gibmid3"
 	},
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "OJ" = (
 /obj/indestructible/shuttle_corner{
 	dir = 4;
@@ -6808,7 +6808,7 @@
 "OR" = (
 /obj/critter/martian/soldier,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "OS" = (
 /obj/decal/floatingtiles{
 	dir = 4
@@ -6820,13 +6820,13 @@
 /area/noGenerate)
 "OW" = (
 /turf/simulated/martian/floor,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "Pb" = (
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "Pd" = (
 /turf/simulated/wall/auto/reinforced/old,
-/area/evilreaver/bar)
+/area/debris/evilreaver/bar)
 "Pm" = (
 /obj/overlay{
 	desc = "The corpse of a long dead space thing.";
@@ -6835,7 +6835,7 @@
 	name = "dead martian"
 	},
 /turf/simulated/bar,
-/area/evilreaver/bar)
+/area/debris/evilreaver/bar)
 "Po" = (
 /obj/ai_core_frame{
 	build_step = 2;
@@ -6844,7 +6844,7 @@
 	skinToApply = "kingsway"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "Pt" = (
 /obj/overlay{
 	desc = "Oh.  So THAT'S where he went off to.";
@@ -6854,7 +6854,7 @@
 	name = "skeleton"
 	},
 /turf/simulated/floor/plating/scorched,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "PF" = (
 /obj/grille/catwalk,
 /obj/railing/green/reinforced{
@@ -6867,28 +6867,28 @@
 "PT" = (
 /obj/critter/martian/soldier,
 /turf/simulated/martian/floor,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "PX" = (
 /obj/decal/cleanable/blood/splatter,
 /obj/rack,
 /obj/item/storage/firstaid/fire,
 /turf/simulated/floor/white,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "Qc" = (
 /obj/decal/cleanable/molten_item,
 /obj/decal/cleanable/generic,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "Qe" = (
 /obj/decal/cleanable/dirt,
 /obj/critter/martian/soldier/dead,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "Qi" = (
 /obj/storage/closet/coffin,
 /obj/item/aiboss_tape/martian,
 /turf/simulated/floor/carpet/grime,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "Qk" = (
 /obj/grille/catwalk,
 /turf/space,
@@ -6907,10 +6907,10 @@
 	dir = 4
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "Qz" = (
 /turf/unsimulated/wall/auto/adventure/martian,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "QH" = (
 /obj/decal/cleanable/dirt,
 /obj/decal/cleanable/generic,
@@ -6920,7 +6920,7 @@
 /obj/decal/cleanable/machine_debris,
 /obj/critter/martian/warrior/dead,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "QQ" = (
 /obj/grille/catwalk{
 	dir = 9
@@ -6953,7 +6953,7 @@
 /obj/machinery/door/unpowered/martian,
 /obj/lattice,
 /turf/simulated/martian/floor,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "Re" = (
 /obj/indestructible/shuttle_corner{
 	dir = 9;
@@ -6961,11 +6961,11 @@
 	icon_state = "diagonal"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "Rk" = (
 /obj/critter/martian/warrior,
 /turf/simulated/martian/floor,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "Rl" = (
 /obj/machinery/door/airlock/pyro/classic{
 	name = "rusty airlock"
@@ -6975,16 +6975,16 @@
 "Rm" = (
 /obj/decal/cleanable/fungus,
 /turf/simulated/wall/auto/reinforced/old,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "Rp" = (
 /turf/simulated/bar,
-/area/evilreaver/bar)
+/area/debris/evilreaver/bar)
 "RE" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4
 	},
 /turf/unsimulated/wall/auto/adventure/martian,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "RK" = (
 /turf/simulated/wall/auto/asteroid{
 	dir = 1
@@ -6996,7 +6996,7 @@
 	},
 /obj/lattice,
 /turf/simulated/martian/floor,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "Sh" = (
 /obj/grille/catwalk{
 	dir = 4
@@ -7040,11 +7040,11 @@
 	icon_state = "diagonal"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "SJ" = (
 /obj/landmark/artifact,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "SM" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4
@@ -7055,14 +7055,14 @@
 	icon_state = "diagonal"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "SX" = (
 /obj/lattice,
 /obj/decal/fakeobjects/pipe,
 /obj/item/raw_material/shard/glass,
 /obj/critter/martian/soldier/dead,
 /turf/simulated/floor/plating/damaged2,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "SY" = (
 /obj/indestructible/shuttle_corner{
 	dir = 9;
@@ -7073,7 +7073,7 @@
 	dir = 4
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "SZ" = (
 /turf/simulated/floor/plating/damaged3,
 /area/noGenerate)
@@ -7083,14 +7083,14 @@
 	name = "rusty airlock"
 	},
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "Td" = (
 /obj/machinery/door/airlock/pyro/classic{
 	dir = 4;
 	name = "rusty airlock"
 	},
 /turf/simulated/bar,
-/area/evilreaver/bar)
+/area/debris/evilreaver/bar)
 "Te" = (
 /obj/grille/catwalk{
 	dir = 4
@@ -7119,12 +7119,12 @@
 	},
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "To" = (
 /obj/lattice,
 /obj/critter/martian/soldier,
 /turf/simulated/martian/floor,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "Tp" = (
 /obj/item/cable_coil/cut{
 	color = "#DD0000";
@@ -7170,7 +7170,7 @@
 	},
 /obj/lattice,
 /turf/simulated/martian/floor,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "TF" = (
 /obj/lattice,
 /obj/cable{
@@ -7183,10 +7183,10 @@
 "TI" = (
 /obj/decal/fakeobjects/apc_broken,
 /turf/simulated/wall/auto/reinforced/old,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "TK" = (
 /turf/simulated/wall/auto/reinforced/old,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "TV" = (
 /obj/lattice{
 	dir = 1;
@@ -7203,7 +7203,7 @@
 /obj/decal/fakeobjects/oldcanister,
 /obj/lattice,
 /turf/simulated/martian/floor,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "TZ" = (
 /obj/indestructible/shuttle_corner{
 	icon_state = "wall3_trans"
@@ -7214,7 +7214,7 @@
 /obj/decal/cleanable/cobweb2,
 /obj/item/storage/box/mousetraps,
 /turf/simulated/floor/white,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "Uc" = (
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3"
@@ -7223,7 +7223,7 @@
 "Ug" = (
 /obj/critter/martian/soldier/dead,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "Uj" = (
 /obj/decal/cleanable/blood/tracks{
 	dir = 4
@@ -7231,13 +7231,13 @@
 /obj/machinery/checkpointbot,
 /obj/map/light/screen,
 /turf/simulated/floor/white,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "Up" = (
 /obj/decal/cleanable/blood/gibs{
 	icon_state = "gib1"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "Ur" = (
 /obj/item/furniture_parts/table,
 /obj/item/furniture_parts/table,
@@ -7256,7 +7256,7 @@
 	dir = 6
 	},
 /turf/simulated/floor/white,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "UA" = (
 /obj/lattice{
 	dir = 6;
@@ -7305,12 +7305,12 @@
 	},
 /obj/decal/fakeobjects/oldcanister/plasma,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "UM" = (
 /obj/item/paper/sop,
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/plating/scorched,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "UR" = (
 /turf/space,
 /area/shuttle/mining/space)
@@ -7327,7 +7327,7 @@
 /turf/simulated/floor/red/side{
 	dir = 8
 	},
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "Vb" = (
 /turf/simulated/shuttle/wall/cockpit{
 	icon_state = "shuttlecock_mining"
@@ -7347,7 +7347,7 @@
 /turf/simulated/floor/red/side{
 	dir = 1
 	},
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "Vg" = (
 /obj/computerframe{
 	anchored = 1;
@@ -7359,7 +7359,7 @@
 /obj/decal/cleanable/dirt,
 /obj/map/light/screen,
 /turf/simulated/floor/plating/scorched,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "Vj" = (
 /obj/grille/catwalk,
 /obj/railing/green/reinforced{
@@ -7390,7 +7390,7 @@
 	pixel_x = -28
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "Vr" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -7401,7 +7401,7 @@
 	name = "martian machine"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "Vs" = (
 /obj/decal/fakeobjects/shuttleengine{
 	dir = 2;
@@ -7423,14 +7423,14 @@
 /area/noGenerate)
 "VA" = (
 /turf/unsimulated/wall/auto/adventure/martian/exterior,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "VG" = (
 /obj/decal/cleanable/molten_item,
 /obj/item/tile/steel,
 /obj/item/cigbutt,
 /obj/item/device/light/zippo,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/bar)
+/area/debris/evilreaver/bar)
 "VI" = (
 /obj/item/basketball,
 /obj/item/kitchen/food_box/donut_box,
@@ -7484,12 +7484,12 @@
 "Wo" = (
 /obj/critter/martian/warrior/dead,
 /turf/simulated/floor/plating/scorched,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "WJ" = (
 /obj/decal/aliencomputer,
 /obj/map/light/dimred,
 /turf/unsimulated/wall/auto/adventure/martian,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "WR" = (
 /obj/lattice{
 	icon_state = "lattice-dir"
@@ -7505,14 +7505,14 @@
 /obj/machinery/door/unpowered/martian,
 /obj/lattice,
 /turf/simulated/martian/floor,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "WZ" = (
 /turf/space,
 /area/shuttle/john/diner)
 "Xa" = (
 /obj/decal/fakeobjects/apc_broken,
 /turf/simulated/wall/auto/reinforced/old,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "Xd" = (
 /obj/machinery/bot/secbot{
 	control_freq = 1441;
@@ -7521,7 +7521,7 @@
 	name = "Mr. Beepsky"
 	},
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/bar)
+/area/debris/evilreaver/bar)
 "Xr" = (
 /obj/decal/cleanable/robot_debris{
 	icon_state = "gib2"
@@ -7546,7 +7546,7 @@
 	},
 /obj/map/light/screen,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "XE" = (
 /obj/indestructible/shuttle_corner{
 	dir = 9;
@@ -7562,13 +7562,13 @@
 "XJ" = (
 /obj/decal/cleanable/blood,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "XN" = (
 /obj/lattice,
 /obj/decal/fakeobjects/pipe,
 /obj/critter/martian/psychic,
 /turf/simulated/martian/floor,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "XV" = (
 /obj/overlay{
 	density = 1;
@@ -7582,12 +7582,12 @@
 "XY" = (
 /obj/lattice,
 /turf/simulated/martian/floor,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "Yf" = (
 /obj/decal/cleanable/cobweb,
 /obj/decal/cleanable/machine_debris,
 /turf/simulated/floor/white,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "Yh" = (
 /obj/indestructible/shuttle_corner{
 	dir = 10;
@@ -7595,11 +7595,11 @@
 	icon_state = "diagonal"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "Yi" = (
 /obj/decal/cleanable/oil,
 /turf/simulated/floor/red/side,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "Yk" = (
 /obj/lattice{
 	icon_state = "lattice-dir"
@@ -7610,16 +7610,16 @@
 "Yl" = (
 /obj/lattice,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "Yn" = (
 /obj/item/clothing/suit/space/old,
 /obj/item/clothing/head/helmet/space/old,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "Yr" = (
 /obj/decal/cleanable/oil,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/bar)
+/area/debris/evilreaver/bar)
 "Ys" = (
 /obj/indestructible/shuttle_corner{
 	dir = 6;
@@ -7633,7 +7633,7 @@
 /area/noGenerate)
 "Yt" = (
 /turf/simulated/martian/floor,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "Yx" = (
 /obj/lattice{
 	icon_state = "lattice-dir"
@@ -7663,14 +7663,14 @@
 /obj/item/cigpacket,
 /obj/item/cigpacket,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/bar)
+/area/debris/evilreaver/bar)
 "YN" = (
 /turf/simulated/martian/floor,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "YW" = (
 /obj/machinery/door/unpowered/martian,
 /turf/simulated/martian/floor,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "Za" = (
 /obj/lattice{
 	icon_state = "lattice-dir"
@@ -7683,7 +7683,7 @@
 	dir = 6
 	},
 /turf/simulated/floor/white,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "Ze" = (
 /obj/machinery/power/tracker/diner,
 /obj/cable,
@@ -7697,7 +7697,7 @@
 	dir = 4
 	},
 /turf/unsimulated/wall/auto/adventure/martian,
-/area/evilreaver/atmospherics)
+/area/debris/evilreaver/atmospherics)
 "Zk" = (
 /obj/lattice{
 	icon_state = "lattice-dir"
@@ -7707,12 +7707,12 @@
 /area/noGenerate)
 "Zo" = (
 /turf/simulated/floor/plating/scorched,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "Zu" = (
 /obj/lattice,
 /obj/decal/cleanable/machine_debris,
 /turf/simulated/martian/floor,
-/area/evilreaver/chapel)
+/area/debris/evilreaver/chapel)
 "Zw" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4
@@ -7726,22 +7726,22 @@
 	},
 /obj/map/light/screen,
 /turf/simulated/floor/plating/damaged3,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "ZG" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4
 	},
 /obj/lattice,
 /turf/simulated/martian/floor,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "ZH" = (
 /obj/critter/martian/soldier/dead,
 /turf/simulated/martian/floor,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "ZI" = (
 /obj/decal/cleanable/blood/splatter,
 /turf/simulated/floor/white,
-/area/evilreaver/genetics)
+/area/debris/evilreaver/genetics)
 "ZK" = (
 /obj/lattice{
 	dir = 8;
@@ -7756,7 +7756,7 @@
 	},
 /obj/landmark/artifact,
 /turf/simulated/floor/plating/scorched,
-/area/evilreaver/bridge)
+/area/debris/evilreaver/bridge)
 "ZQ" = (
 /obj/effects/background_objects/x4{
 	name = "Regina"
@@ -7778,7 +7778,7 @@
 	dir = 4
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/storage/tools)
+/area/debris/evilreaver/storage/tools)
 "ZY" = (
 /obj/decal/cleanable/robot_debris{
 	icon_state = "gibbl1"

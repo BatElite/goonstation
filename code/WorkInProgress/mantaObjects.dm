@@ -1398,25 +1398,21 @@ var/obj/manta_speed_lever/mantaLever = null
 
 //******************************************** NSS POLARIS STUFF ********************************************
 
-/area/crashsite
-	name = "Crash site"
-	icon_state = "green"
-
-/area/wrecknsspolaris
+/area/debris/wrecknsspolaris
 	name = "Wreck of NSS Polaris"
 	icon_state = "green"
 	sound_group = "polaris"
 	teleport_blocked = 1
 	sound_loop = 'sound/ambience/loop/Polarisloop.ogg'
 
-/area/wrecknsspolaris/vault
+/area/debris/wrecknsspolaris/vault
 	requires_power = 0
 
-/area/wrecknsspolaris/outside
+/area/debris/wrecknsspolaris/outside
 	icon_state = "blue"
 	ambient_light = OCEAN_LIGHT
-/area/wrecknsspolaris/outside/teleport
-/area/wrecknsspolaris/outside/back
+/area/debris/wrecknsspolaris/outside/teleport
+/area/debris/wrecknsspolaris/outside/back
 
 /obj/item/parts/human_parts/arm/right/polaris
 	name = "misplaced right arm"
@@ -1567,7 +1563,7 @@ var/obj/manta_speed_lever/mantaLever = null
 	desc = "Yeah, nice try."
 	icon_state = "void_gray"
 
-/area/mantavault
+/area/debris/mantavault //Reasoning being that its on trench Z3 (but realistically this is never gonna go anywhere again so)
 	name = "NSS Manta Secret Vault"
 	icon_state = "red"
 	teleport_blocked = 1

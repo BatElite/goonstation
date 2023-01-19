@@ -1,22 +1,22 @@
 
 #define SAMOSTREL_LIVE 1	//On broadway!!
 
-/area/hospital
+/area/adventure/hospital
 	name = "Ainley Staff Retreat Center"
 	icon_state = "purple"
 	ambient_light = rgb(0.5 * 255, 0.5 * 255, 0.5 * 255)
 	sound_group = "ainley"
 	sound_loop = 'sound/ambience/spooky/Hospital_Drone1.ogg'
 
-/area/hospital/New()
+/area/adventure/hospital/New()
 	. = ..()
 	START_TRACKING_CAT(TR_CAT_AREA_PROCESS)
 
-/area/hospital/disposing()
+/area/adventure/hospital/disposing()
 	STOP_TRACKING_CAT(TR_CAT_AREA_PROCESS)
 	. = ..()
 
-/area/hospital/area_process()
+/area/adventure/hospital/area_process()
 	if(prob(20))
 		src.sound_fx_2 = pick('sound/ambience/spooky/Hospital_Chords.ogg',\
 		'sound/ambience/spooky/Hospital_Haunted1.ogg',\
@@ -30,15 +30,15 @@
 		for(var/mob/living/carbon/human/H in src)
 			H.client?.playAmbience(src, AMBIENCE_FX_2, 50)
 
-/area/hospital/underground
+/area/adventure/hospital/underground
 	name = "utility tunnels"
 	icon_state = "green"
 	sound_group = "hospital_basement"
 
-/area/hospital/somewhere
+/area/adventure/hospital/somewhere
 	name = "forest"
 
-/area/hospital/samostrel
+/area/adventure/hospital/samostrel
 	name = "Akademik Igor Novikov"
 	icon_state = "green"
 	requires_power = 0
@@ -46,7 +46,7 @@
 	force_fullbright = 0
 	sound_group = "samostrel"
 
-/area/adventure/channel
+/area/adventure/virtual/channel
 	name = "The Channel"
 	desc = "Better not try and change it!"
 	icon_state = "purple"
@@ -554,7 +554,7 @@
 				last_idle_dialog = world.time
 				return
 
-			if (istype(get_area(src.master), /area/solarium) && !(dialogChecklist & SB_SOLARIUM))
+			if (istype(get_area(src.master), /area/adventure/solarium) && !(dialogChecklist & SB_SOLARIUM))
 				dialogChecklist |= SB_SOLARIUM
 
 				src.master.speak( "Pochemu ty vernul menya k etomu mestu?")

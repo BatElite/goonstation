@@ -4637,7 +4637,7 @@
 /obj/npc/trader/robot{
 	name = "Thrifty B.O.B.";
 	picture = "loungebuddy.png";
-	trader_area = "/area/evilreaver/storage/engineering"
+	trader_area = "/area/debris/evilreaver/storage/engineering"
 	},
 /obj/map/light/white,
 /turf/simulated/floor/plating/scorched,

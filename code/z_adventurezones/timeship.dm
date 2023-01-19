@@ -210,7 +210,7 @@ Turfs and decal for the space rift
 			else if (prob(2))
 				src.master.speak( pick(idle_dialog_strings) )
 
-		if (istype(get_area(src.master), /area/solarium) && !(dialogChecklist & WD_SOLARIUM))
+		if (istype(get_area(src.master), /area/adventure/solarium) && !(dialogChecklist & WD_SOLARIUM))
 			dialogChecklist |= WD_SOLARIUM
 
 			src.master.speak( "Oh, this place is familiar!  It looks like a ship, a model...um...")

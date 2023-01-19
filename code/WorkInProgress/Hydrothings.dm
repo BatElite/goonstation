@@ -1501,7 +1501,7 @@ var/list/owlery_sounds = list('sound/voice/animal/hoot.ogg','sound/ambience/owlz
 				playsound(src.loc, "sound/misc/automaton_ratchet.ogg", 50, 1)
 				user.visible_message("<span class='notice'>[user] pull the string located at the back of Greg Jr.")
 				sleep(3 SECONDS)
-				if (istype(get_area(src), /area/solarium) && seensol == 0)
+				if (istype(get_area(src), /area/adventure/solarium) && seensol == 0)
 					user.visible_message("<span class='game say'><span class='name'>[src]</span> says, \"Woah, so thats what the sun looks like. It's kind of smaller then I expected though?\"")
 					sleep(1 SECOND)
 					user.visible_message("<B>[src]</b> says, \"Hm, looks like my internal camera is out of storage. Mind holding this tape real quick while I add some film?\"")

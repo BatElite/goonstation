@@ -11,45 +11,45 @@
 	icon_state = "under-wall";
 	dir = 5
 	},
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "ad" = (
 /turf/unsimulated/wall/greek/underwall{
 	tag = "icon-under-wall (NORTH)";
 	icon_state = "under-wall";
 	dir = 1
 	},
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "ae" = (
 /turf/unsimulated/greek/underworld{
 	tag = "icon-bodge (NORTHWEST)";
 	icon_state = "bodge";
 	dir = 9
 	},
-/area/greek/underworld/pit)
+/area/adventure/greek/underworld/pit)
 "af" = (
 /turf/unsimulated/greek/pit,
-/area/greek/underworld/pit)
+/area/adventure/greek/underworld/pit)
 "ag" = (
 /obj/the_sun,
 /turf/unsimulated/greek/pit,
-/area/greek/underworld/pit)
+/area/adventure/greek/underworld/pit)
 "ah" = (
 /obj/map/light/dimred,
 /turf/unsimulated/greek/pit,
-/area/greek/underworld/pit)
+/area/adventure/greek/underworld/pit)
 "ai" = (
 /turf/unsimulated/greek/underworld,
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "aj" = (
 /turf/unsimulated/greek/underworld/half,
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "ak" = (
 /turf/unsimulated/floor/setpieces/oldfloor,
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "al" = (
 /obj/computer3frame,
 /turf/unsimulated/greek/underworld/half,
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "am" = (
 /turf/unsimulated/greek/pit{
 	desc = "Old cracked and weathered bricks, with a bit of dust for good measure. You probably don't want to step on these.";
@@ -58,30 +58,30 @@
 	name = "Bricks";
 	tag = "icon-pit (NORTH)"
 	},
-/area/greek/underworld/pit)
+/area/adventure/greek/underworld/pit)
 "an" = (
 /obj/signpost,
 /turf/unsimulated/greek/underworld,
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "ao" = (
 /obj/computer3frame,
 /turf/unsimulated/greek/underworld,
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "ap" = (
 /turf/unsimulated/wall/setpieces/bloodwall,
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "aq" = (
 /turf/unsimulated/iomoon/ancient_floor,
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "ar" = (
 /turf/unsimulated/floor/lunar,
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "as" = (
 /turf/unsimulated/wall/greek/cave,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "at" = (
 /turf/unsimulated/wall/greek/cave,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "au" = (
 /obj/greek/rockwall/alt{
 	tag = "icon-cave-wall-2 (NORTH)";
@@ -89,11 +89,11 @@
 	dir = 1
 	},
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "av" = (
 /obj/greek/rockwall,
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "aw" = (
 /obj/greek/rockwall/alt{
 	tag = "icon-cave-wall-2 (EAST)";
@@ -101,7 +101,7 @@
 	dir = 4
 	},
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "ax" = (
 /obj/greek/rockwall/alt{
 	tag = "icon-cave-wall-2 (NORTH)";
@@ -109,11 +109,11 @@
 	dir = 1
 	},
 /turf/unsimulated/greek/grass,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "ay" = (
 /obj/greek/rockwall,
 /turf/unsimulated/greek/grass,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "az" = (
 /obj/greek/rockwall/alt{
 	tag = "icon-cave-wall-2 (EAST)";
@@ -121,7 +121,7 @@
 	dir = 4
 	},
 /turf/unsimulated/greek/grass,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "aA" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (SOUTHEAST)";
@@ -129,10 +129,10 @@
 	dir = 6
 	},
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "aB" = (
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "aC" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (WEST)";
@@ -140,7 +140,7 @@
 	dir = 8
 	},
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "aD" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (SOUTHEAST)";
@@ -148,10 +148,10 @@
 	dir = 6
 	},
 /turf/unsimulated/greek/grass,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "aE" = (
 /turf/unsimulated/greek/grass,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "aF" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (WEST)";
@@ -159,7 +159,7 @@
 	dir = 8
 	},
 /turf/unsimulated/greek/grass,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "aG" = (
 /obj/greek/rockwall/alt{
 	tag = "icon-cave-wall-2 (NORTH)";
@@ -171,11 +171,11 @@
 	icon_state = "cave-floor";
 	dir = 10
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "aH" = (
 /obj/greek/rockwall,
 /turf/unsimulated/greek/cave/floor,
-/area/greek/caves)
+/area/adventure/greek/caves)
 "aI" = (
 /obj/greek/rockwall/alt{
 	tag = "icon-cave-wall-2 (EAST)";
@@ -187,10 +187,10 @@
 	icon_state = "cave-floor";
 	dir = 6
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "aJ" = (
 /turf/unsimulated/wall/greek/cave,
-/area/greek/caves)
+/area/adventure/greek/caves)
 "aK" = (
 /obj/greek/rockwall/alt{
 	tag = "icon-cave-wall-2 (NORTH)";
@@ -198,7 +198,7 @@
 	dir = 1
 	},
 /turf/unsimulated/greek/grass,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "aL" = (
 /obj/greek/rockwall,
 /turf/unsimulated/floor/setpieces/martian{
@@ -207,11 +207,11 @@
 	name = "barren desert";
 	opacity = 1
 	},
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "aM" = (
 /obj/greek/rockwall,
 /turf/unsimulated/greek/grass,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "aN" = (
 /obj/greek/rockwall/alt{
 	tag = "icon-cave-wall-2 (EAST)";
@@ -219,7 +219,7 @@
 	dir = 4
 	},
 /turf/unsimulated/greek/grass,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "aO" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (EAST)";
@@ -227,11 +227,11 @@
 	dir = 4
 	},
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "aP" = (
 /obj/decal/fakeobjects/rockpile,
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "aQ" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (SOUTHWEST)";
@@ -239,7 +239,7 @@
 	dir = 10
 	},
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "aR" = (
 /obj/decal/fakeobjects/greekgrass/diag{
 	tag = "icon-grass-diag (WEST)";
@@ -252,11 +252,11 @@
 	dir = 6
 	},
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "aS" = (
 /obj/decal/fakeobjects/rockpile,
 /turf/unsimulated/greek/grass,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "aT" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (SOUTHWEST)";
@@ -264,7 +264,7 @@
 	dir = 10
 	},
 /turf/unsimulated/greek/grass,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "aU" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (EAST)";
@@ -276,28 +276,28 @@
 	icon_state = "cave-floor";
 	dir = 4
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "aV" = (
 /turf/unsimulated/greek/cave/floor{
 	tag = "icon-cave-floor (NORTHWEST)";
 	icon_state = "cave-floor";
 	dir = 9
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "aW" = (
 /turf/unsimulated/greek/cave/floor{
 	tag = "icon-cave-floor (NORTH)";
 	icon_state = "cave-floor";
 	dir = 1
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "aX" = (
 /turf/unsimulated/greek/cave/floor{
 	tag = "icon-cave-floor (NORTHEAST)";
 	icon_state = "cave-floor";
 	dir = 5
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "aY" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (WEST)";
@@ -309,7 +309,7 @@
 	icon_state = "cave-floor";
 	dir = 8
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "aZ" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (EAST)";
@@ -317,7 +317,7 @@
 	dir = 4
 	},
 /turf/unsimulated/greek/grass,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "ba" = (
 /turf/unsimulated/floor/setpieces/martian{
 	density = 1;
@@ -325,10 +325,10 @@
 	name = "barren desert";
 	opacity = 1
 	},
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "bb" = (
 /turf/unsimulated/greek/grass,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "bc" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (SOUTHWEST)";
@@ -336,7 +336,7 @@
 	dir = 10
 	},
 /turf/unsimulated/greek/grass,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "bd" = (
 /obj/decal/fakeobjects/greekgrass/curve{
 	tag = "icon-grass-curve (NORTHWEST)";
@@ -344,7 +344,7 @@
 	dir = 9
 	},
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "be" = (
 /obj/decal/fakeobjects/greekgrass/curve{
 	tag = "icon-grass-curve (NORTH)";
@@ -352,7 +352,7 @@
 	dir = 1
 	},
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "bf" = (
 /obj/decal/fakeobjects/greekgrass/curve{
 	tag = "icon-grass-curve (SOUTHWEST)";
@@ -365,7 +365,7 @@
 	dir = 5
 	},
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "bg" = (
 /obj/decal/fakeobjects/greekgrass/diag{
 	tag = "icon-grass-diag (WEST)";
@@ -373,28 +373,28 @@
 	dir = 8
 	},
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "bh" = (
 /turf/unsimulated/greek/cave/floor{
 	tag = "icon-cave-floor (WEST)";
 	icon_state = "cave-floor";
 	dir = 8
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "bi" = (
 /turf/unsimulated/greek/cave,
-/area/greek/caves)
+/area/adventure/greek/caves)
 "bj" = (
 /turf/unsimulated/greek/cave/floor{
 	tag = "icon-cave-floor (EAST)";
 	icon_state = "cave-floor";
 	dir = 4
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "bk" = (
 /obj/greek/rockwall/alt,
 /turf/unsimulated/greek/grass,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "bl" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (NORTH)";
@@ -402,7 +402,7 @@
 	dir = 1
 	},
 /turf/unsimulated/greek/grass,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "bm" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (NORTHEAST)";
@@ -410,7 +410,7 @@
 	dir = 5
 	},
 /turf/unsimulated/greek/grass,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "bn" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (WEST)";
@@ -418,7 +418,7 @@
 	dir = 8
 	},
 /turf/unsimulated/greek/grass,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "bo" = (
 /obj/decal/fakeobjects/greekgrass/curve{
 	tag = "icon-grass-curve (WEST)";
@@ -426,7 +426,7 @@
 	dir = 8
 	},
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "bp" = (
 /obj/decal/fakeobjects/greekgrass/curve{
 	tag = "icon-grass-curve (EAST)";
@@ -434,7 +434,7 @@
 	dir = 4
 	},
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "bq" = (
 /obj/decal/fakeobjects/greekgrass/curve{
 	tag = "icon-grass-curve (SOUTHWEST)";
@@ -442,7 +442,7 @@
 	dir = 10
 	},
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "br" = (
 /obj/decal/fakeobjects/greekgrass/curve,
 /obj/decal/fakeobjects/greekgrass/curve{
@@ -451,7 +451,7 @@
 	dir = 9
 	},
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "bs" = (
 /obj/decal/fakeobjects/greekgrass/curve,
 /obj/decal/fakeobjects/greekgrass/curve{
@@ -460,11 +460,11 @@
 	dir = 5
 	},
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "bt" = (
 /obj/decal/fakeobjects/greekgrass/curve,
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "bu" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (SOUTHWEST)";
@@ -476,7 +476,7 @@
 	icon_state = "cave-floor";
 	dir = 10
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "bv" = (
 /obj/greek/rockwall/alt{
 	tag = "icon-cave-wall-2 (EAST)";
@@ -488,7 +488,7 @@
 	icon_state = "cave-floor";
 	dir = 10
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "bw" = (
 /obj/decal/fakeobjects/greekgrass/curve{
 	tag = "icon-grass-curve (SOUTHEAST)";
@@ -496,7 +496,7 @@
 	dir = 6
 	},
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "bx" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (EAST)";
@@ -508,7 +508,7 @@
 	icon_state = "cave-floor";
 	dir = 6
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "by" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (SOUTHEAST)";
@@ -516,7 +516,7 @@
 	dir = 6
 	},
 /turf/unsimulated/greek/grass,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "bz" = (
 /obj/decal/fakeobjects/greekgrass/curve{
 	tag = "icon-grass-curve (NORTHEAST)";
@@ -524,12 +524,12 @@
 	dir = 5
 	},
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "bA" = (
 /obj/greek/rockwall,
 /obj/map/light/brightwhite,
 /turf/unsimulated/greek/grass,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "bB" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (SOUTHEAST)";
@@ -547,21 +547,21 @@
 	icon_state = "cave-floor";
 	dir = 9
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "bC" = (
 /turf/unsimulated/greek/cave/floor,
-/area/greek/caves)
+/area/adventure/greek/caves)
 "bD" = (
 /turf/unsimulated/greek/cave/floor{
 	tag = "icon-bodge (SOUTHEAST)";
 	icon_state = "bodge";
 	dir = 6
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "bE" = (
 /obj/decal/fakeobjects/rockpile,
 /turf/unsimulated/greek/grass,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "bF" = (
 /obj/decal/fakeobjects/greekgrass{
 	tag = "icon-bodge";
@@ -572,7 +572,7 @@
 	icon_state = "cave-floor";
 	dir = 10
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "bG" = (
 /obj/decal/fakeobjects/greekgrass/curve{
 	tag = "icon-grass-curve (NORTHEAST)";
@@ -584,7 +584,7 @@
 	icon_state = "cave-floor";
 	dir = 6
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "bH" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (NORTHWEST)";
@@ -596,7 +596,7 @@
 	icon_state = "cave-floor";
 	dir = 9
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "bI" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (NORTHEAST)";
@@ -608,17 +608,17 @@
 	icon_state = "cave-floor";
 	dir = 5
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "bJ" = (
 /turf/unsimulated/greek/cave/floor{
 	tag = "icon-bodge (SOUTHWEST)";
 	icon_state = "bodge";
 	dir = 10
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "bK" = (
 /turf/unsimulated/floor/setpieces/hospital/cavern,
-/area/greek/caves)
+/area/adventure/greek/caves)
 "bL" = (
 /obj/computer3frame{
 	anchored = 1;
@@ -629,7 +629,7 @@
 	icon_state = "bodge";
 	dir = 10
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "bM" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (NORTH)";
@@ -641,7 +641,7 @@
 	icon_state = "cave-floor";
 	dir = 1
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "bN" = (
 /obj/greek/rockwall/alt{
 	tag = "icon-cave-wall-2 (WEST)";
@@ -653,7 +653,7 @@
 	icon_state = "cave-floor";
 	dir = 9
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "bO" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (NORTHWEST)";
@@ -661,7 +661,7 @@
 	dir = 9
 	},
 /turf/unsimulated/greek/grass,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "bP" = (
 /obj/greek/rockwall/alt{
 	tag = "icon-cave-wall-2 (WEST)";
@@ -669,11 +669,11 @@
 	dir = 8
 	},
 /turf/unsimulated/greek/grass,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "bQ" = (
 /obj/map/light/brightwhite,
 /turf/unsimulated/greek/grass,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "bR" = (
 /obj/decal/fakeobjects/greekgrass/diag{
 	tag = "icon-grass-diag (NORTH)";
@@ -691,7 +691,7 @@
 	icon_state = "cave-floor";
 	dir = 9
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "bS" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (EAST)";
@@ -699,17 +699,17 @@
 	dir = 4
 	},
 /turf/unsimulated/greek/beach/curve,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "bT" = (
 /turf/unsimulated/greek/beach/curve,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "bU" = (
 /turf/unsimulated/greek/beach/bodge{
 	tag = "icon-beach (NORTH)";
 	icon_state = "beach";
 	dir = 1
 	},
-/area/greek/beach)
+/area/adventure/greek/beach)
 "bV" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (SOUTHWEST)";
@@ -718,11 +718,11 @@
 	},
 /obj/map/light/brightwhite,
 /turf/unsimulated/greek/grass,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "bW" = (
 /obj/greek/rockwall/alt,
 /turf/unsimulated/wall/cave,
-/area/greek/caves)
+/area/adventure/greek/caves)
 "bX" = (
 /obj/computer3frame{
 	tag = "icon-0 (EAST)";
@@ -731,7 +731,7 @@
 	anchored = 1
 	},
 /turf/unsimulated/greek/underworld/half,
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "bY" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (EAST)";
@@ -739,31 +739,31 @@
 	dir = 4
 	},
 /turf/unsimulated/greek/water,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "bZ" = (
 /turf/unsimulated/greek/water,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "ca" = (
 /turf/unsimulated/greek/beach/bodge{
 	tag = "icon-beach (EAST)";
 	icon_state = "beach";
 	dir = 4
 	},
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cb" = (
 /turf/unsimulated/greek/beach/bodge{
 	tag = "icon-beach (SOUTHEAST)";
 	icon_state = "beach";
 	dir = 6
 	},
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cc" = (
 /turf/unsimulated/greek/beach/bodge{
 	tag = "icon-beach";
 	icon_state = "beach";
 	dir = 2
 	},
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cd" = (
 /obj/greek/rockwall/alt,
 /turf/unsimulated/greek/cave/floor{
@@ -771,14 +771,14 @@
 	icon_state = "cave-floor";
 	dir = 5
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "ce" = (
 /turf/unsimulated/greek/beach/bodge{
 	tag = "icon-beach (SOUTHWEST)";
 	icon_state = "beach";
 	dir = 10
 	},
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cf" = (
 /obj/greek/rockwall/alt{
 	tag = "icon-cave-wall-2 (NORTH)";
@@ -790,7 +790,7 @@
 	icon_state = "cave-floor";
 	dir = 6
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "cg" = (
 /obj/decal/fakeobjects/greekgrass/diag{
 	tag = "icon-grass-diag (WEST)";
@@ -800,7 +800,7 @@
 /obj/greek/rockwall,
 /obj/map/light/brightwhite,
 /turf/unsimulated/greek/cave/floor,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "ch" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (SOUTHEAST)";
@@ -809,7 +809,7 @@
 	},
 /obj/map/light/brightwhite,
 /turf/unsimulated/greek/grass,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "ci" = (
 /obj/decal/fakeobjects/greekgrass/curve{
 	tag = "icon-grass-curve (SOUTHWEST)";
@@ -821,7 +821,7 @@
 	dir = 6;
 	icon_state = "lunar-s"
 	},
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cj" = (
 /obj/decal/fakeobjects/greekgrass/curve,
 /obj/decal/fakeobjects/greekgrass/curve{
@@ -830,7 +830,7 @@
 	dir = 1
 	},
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "ck" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (SOUTHEAST)";
@@ -842,7 +842,7 @@
 	icon_state = "cave-floor";
 	dir = 6
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "cl" = (
 /obj/map/light/brightwhite,
 /turf/unsimulated/greek/cave/floor{
@@ -850,7 +850,7 @@
 	icon_state = "cave-floor";
 	dir = 9
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "cm" = (
 /obj/decal/fakeobjects/greekgrass/curve{
 	tag = "icon-grass-curve (WEST)";
@@ -863,15 +863,15 @@
 	icon_state = "cave-floor";
 	dir = 5
 	},
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "cn" = (
 /obj/map/light/brightwhite,
 /turf/unsimulated/greek/grass,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "co" = (
 /obj/greek/rockwall/alt,
 /turf/unsimulated/greek/water,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cp" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (NORTHEAST)";
@@ -879,11 +879,11 @@
 	dir = 5
 	},
 /turf/unsimulated/greek/water,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cq" = (
 /obj/map/light/brightwhite,
 /turf/unsimulated/greek/cave,
-/area/greek/caves)
+/area/adventure/greek/caves)
 "cr" = (
 /obj/decal/fakeobjects/greekgrass/curve{
 	tag = "icon-grass-curve (SOUTHWEST)";
@@ -892,7 +892,7 @@
 	},
 /obj/map/light/brightwhite,
 /turf/unsimulated/greek/cave/floor,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "cs" = (
 /obj/decal/fakeobjects/greekgrass{
 	tag = "icon-bodge (EAST)";
@@ -905,7 +905,7 @@
 	icon_state = "bodge";
 	dir = 6
 	},
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "ct" = (
 /obj/computer3frame{
 	anchored = 1;
@@ -916,7 +916,7 @@
 	icon_state = "cave-floor";
 	dir = 9
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "cu" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (NORTHWEST)";
@@ -929,7 +929,7 @@
 	icon_state = "cave-floor";
 	dir = 9
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "cv" = (
 /obj/decal/fakeobjects/greekgrass/curve{
 	tag = "icon-grass-curve (SOUTHWEST)";
@@ -947,7 +947,7 @@
 	icon_state = "cave-floor";
 	dir = 1
 	},
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "cw" = (
 /obj/decal/fakeobjects/greekgrass/curve,
 /obj/greek/rockwall{
@@ -960,7 +960,7 @@
 	icon_state = "cave-floor";
 	dir = 5
 	},
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "cx" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (NORTH)";
@@ -968,21 +968,21 @@
 	dir = 1
 	},
 /turf/unsimulated/greek/water,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cy" = (
 /turf/unsimulated/greek/beach/bodge{
 	tag = "icon-beach-curve";
 	icon_state = "beach-curve";
 	dir = 2
 	},
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cz" = (
 /turf/unsimulated/greek/cave/floor{
 	tag = "icon-cave-floor (SOUTHEAST)";
 	icon_state = "cave-floor";
 	dir = 6
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "cA" = (
 /obj/greek/rockwall/alt{
 	tag = "icon-cave-wall-2 (NORTH)";
@@ -990,7 +990,7 @@
 	dir = 1
 	},
 /turf/unsimulated/greek/water,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cB" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (SOUTHEAST)";
@@ -998,14 +998,14 @@
 	dir = 6
 	},
 /turf/unsimulated/greek/water,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cC" = (
 /obj/decal/fakeobjects/greekgrass{
 	tag = "icon-bodge";
 	icon_state = "bodge"
 	},
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cD" = (
 /obj/decal/fakeobjects/greekgrass/curve,
 /obj/greek/rockwall{
@@ -1014,22 +1014,22 @@
 	dir = 8
 	},
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cE" = (
 /turf/unsimulated/greek/cave/floor{
 	tag = "icon-cave-floor (SOUTHWEST)";
 	icon_state = "cave-floor";
 	dir = 10
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "cF" = (
 /obj/greek/rockwall,
 /turf/unsimulated/greek/water,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cG" = (
 /obj/racing_boosterstrip,
 /turf/unsimulated/greek/grass,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "cH" = (
 /turf/unsimulated/floor/setpieces/martian{
 	density = 1;
@@ -1037,11 +1037,11 @@
 	name = "barren desert";
 	opacity = 1
 	},
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cJ" = (
 /obj/critter/cyclops,
 /turf/unsimulated/greek/grass,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "cK" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (EAST)";
@@ -1054,28 +1054,28 @@
 	name = "barren desert";
 	opacity = 1
 	},
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "cL" = (
 /turf/unsimulated/greek/beach/bodge{
 	tag = "icon-beach (WEST)";
 	icon_state = "beach";
 	dir = 8
 	},
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cM" = (
 /turf/unsimulated/greek/beach/curve{
 	tag = "icon-beach-curve (WEST)";
 	icon_state = "beach-curve";
 	dir = 8
 	},
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cN" = (
 /turf/unsimulated/greek/beach/bodge{
 	tag = "icon-beach (NORTHEAST)";
 	icon_state = "beach";
 	dir = 5
 	},
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cO" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (NORTHWEST)";
@@ -1083,7 +1083,7 @@
 	dir = 9
 	},
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cP" = (
 /obj/greek/rockwall/alt{
 	tag = "icon-cave-wall-2 (WEST)";
@@ -1091,7 +1091,7 @@
 	dir = 8
 	},
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cQ" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (NORTHWEST)";
@@ -1099,7 +1099,7 @@
 	dir = 9
 	},
 /turf/unsimulated/greek/water,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cR" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (NORTH)";
@@ -1107,7 +1107,7 @@
 	dir = 1
 	},
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cS" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (WEST)";
@@ -1115,7 +1115,7 @@
 	dir = 8
 	},
 /turf/unsimulated/greek/water,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cT" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (SOUTHWEST)";
@@ -1123,7 +1123,7 @@
 	dir = 10
 	},
 /turf/unsimulated/greek/water,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cU" = (
 /obj/greek/rockwall/alt{
 	tag = "icon-cave-wall-2 (EAST)";
@@ -1131,7 +1131,7 @@
 	dir = 4
 	},
 /turf/unsimulated/greek/water,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cV" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (NORTH)";
@@ -1143,7 +1143,7 @@
 	icon_state = "beach-curve";
 	dir = 8
 	},
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cW" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (NORTHEAST)";
@@ -1151,18 +1151,18 @@
 	dir = 5
 	},
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cX" = (
 /obj/greek/rockwall/alt,
 /turf/unsimulated/greek/beach,
-/area/greek/beach)
+/area/adventure/greek/beach)
 "cY" = (
 /turf/unsimulated/wall/void{
 	icon = 'icons/misc/worlds.dmi';
 	icon_state = "black";
 	name = "???"
 	},
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "cZ" = (
 /turf/unsimulated/wall/void{
 	dir = 4;
@@ -1170,21 +1170,21 @@
 	icon_state = "deepcorners2";
 	name = "???"
 	},
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "da" = (
 /turf/unsimulated/wall/void{
 	icon = 'icons/misc/worlds.dmi';
 	icon_state = "deepcorners";
 	name = "???"
 	},
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "db" = (
 /turf/unsimulated/wall/void{
 	icon = 'icons/misc/worlds.dmi';
 	icon_state = "deepcorners2";
 	name = "???"
 	},
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "dc" = (
 /obj/greek/rockwall/alt{
 	tag = "icon-cave-wall-2 (NORTH)";
@@ -1192,11 +1192,11 @@
 	dir = 1
 	},
 /turf/unsimulated/greek/underworld,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "dd" = (
 /obj/greek/rockwall,
 /turf/unsimulated/greek/underworld,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "de" = (
 /obj/greek/rockwall/alt{
 	tag = "icon-cave-wall-2 (EAST)";
@@ -1204,7 +1204,7 @@
 	dir = 4
 	},
 /turf/unsimulated/greek/underworld,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "df" = (
 /turf/unsimulated/wall/void{
 	dir = 6;
@@ -1212,7 +1212,7 @@
 	icon_state = "deepcorners";
 	name = "???"
 	},
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "dg" = (
 /obj/critter/shade,
 /turf/unsimulated/floor/void{
@@ -1221,7 +1221,7 @@
 	icon_state = "deeps";
 	name = "???"
 	},
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "dh" = (
 /turf/unsimulated/floor/void{
 	desc = "You can barely see ...";
@@ -1229,7 +1229,7 @@
 	icon_state = "deeps";
 	name = "???"
 	},
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "di" = (
 /turf/unsimulated/wall/void{
 	dir = 8;
@@ -1237,7 +1237,7 @@
 	icon_state = "deepcorners";
 	name = "???"
 	},
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "dj" = (
 /obj/greek/rockwall/alt{
 	tag = "icon-cave-wall-2 (NORTH)";
@@ -1245,7 +1245,7 @@
 	dir = 1
 	},
 /turf/unsimulated/wall/cave,
-/area/greek/caves)
+/area/adventure/greek/caves)
 "dk" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (EAST)";
@@ -1253,12 +1253,12 @@
 	dir = 4
 	},
 /turf/unsimulated/greek/underworld,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "dl" = (
 /obj/decal/lightshaft/rainbow,
 /obj/map/light/white,
 /turf/unsimulated/greek/underworld,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "dm" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (WEST)";
@@ -1266,7 +1266,7 @@
 	dir = 8
 	},
 /turf/unsimulated/greek/underworld,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "dn" = (
 /turf/unsimulated/wall/void{
 	dir = 4;
@@ -1274,7 +1274,7 @@
 	icon_state = "deepcorners";
 	name = "???"
 	},
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "do" = (
 /turf/unsimulated/wall/void{
 	dir = 9;
@@ -1282,7 +1282,7 @@
 	icon_state = "deepcorners";
 	name = "???"
 	},
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "dp" = (
 /turf/unsimulated/wall/void{
 	dir = 5;
@@ -1290,7 +1290,7 @@
 	icon_state = "deepcorners";
 	name = "???"
 	},
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "dq" = (
 /obj/landmark{
 	name = "greekfall"
@@ -1301,7 +1301,7 @@
 	icon_state = "deeps";
 	name = "???"
 	},
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "dr" = (
 /turf/unsimulated/floor/setpieces/martian{
 	density = 1;
@@ -1309,13 +1309,13 @@
 	name = "barren desert";
 	opacity = 1
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "ds" = (
 /obj/table/wood/round,
 /obj/item/clothing/head/DONOTSTEAL,
 /obj/map/light/white,
 /turf/unsimulated/greek/underworld,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "dt" = (
 /turf/unsimulated/wall/void{
 	dir = 1;
@@ -1323,7 +1323,7 @@
 	icon_state = "deepcorners2";
 	name = "???"
 	},
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "du" = (
 /turf/unsimulated/wall/void{
 	dir = 8;
@@ -1331,10 +1331,10 @@
 	icon_state = "deepcorners2";
 	name = "???"
 	},
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "dv" = (
 /turf/unsimulated/greek/underworld,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "dw" = (
 /turf/unsimulated/wall/void{
 	dir = 10;
@@ -1342,7 +1342,7 @@
 	icon_state = "deepcorners";
 	name = "???"
 	},
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "dx" = (
 /turf/unsimulated/wall/void{
 	dir = 1;
@@ -1350,14 +1350,14 @@
 	icon_state = "deepcorners";
 	name = "???"
 	},
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "dy" = (
 /obj/greek/rockwall/strange,
 /turf/unsimulated/greek/grass,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "dz" = (
 /turf/cordon,
-/area/greek/underworld)
+/area/adventure/greek/underworld)
 "dA" = (
 /obj/greek/rockwall,
 /turf/unsimulated/greek/cave/floor{
@@ -1365,7 +1365,7 @@
 	icon_state = "cave-floor";
 	dir = 1
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "dB" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (NORTHEAST)";
@@ -1383,7 +1383,7 @@
 	icon_state = "cave-floor";
 	dir = 5
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "dC" = (
 /obj/decal/fakeobjects/greekgrass/curve{
 	tag = "icon-grass-curve (NORTH)";
@@ -1396,7 +1396,7 @@
 	icon_state = "bodge";
 	dir = 10
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "dD" = (
 /obj/greek/rockwall{
 	tag = "icon-cave-wall (NORTHWEST)";
@@ -1414,7 +1414,7 @@
 	icon_state = "cave-floor";
 	dir = 9
 	},
-/area/greek/caves)
+/area/adventure/greek/caves)
 "dE" = (
 /obj/decal/fakeobjects/greekgrass/curve{
 	tag = "icon-grass-diag";
@@ -1427,7 +1427,7 @@
 	},
 /obj/map/light/brightwhite,
 /turf/unsimulated/greek/grass,
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 "dF" = (
 /obj/decal/fakeobjects/greekgrass/diag{
 	tag = "icon-grass-diag (NORTH)";
@@ -1445,7 +1445,7 @@
 	icon_state = "cave-floor";
 	dir = 10
 	},
-/area/greek/cliffs)
+/area/adventure/greek/cliffs)
 
 (1,1,1) = {"
 aa

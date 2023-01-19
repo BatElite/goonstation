@@ -127,7 +127,7 @@
 
 // Areas
 
-/area/mars
+/area/adventure/mars
 	name = "Mars"
 	icon = 'icons/misc/mars_outpost.dmi'
 	icon_state = "area"
@@ -589,22 +589,22 @@
 	..()
 	return
 
-/area/marsoutpost
+/area/adventure/marsoutpost
 	name = "Abandoned Outpost"
 	icon_state = "red"
 	sound_group = "mars"
 	sound_loop = 'sound/ambience/loop/Mars_Interior.ogg'
 	sound_loop_vol = 60
 
-/area/marsoutpost/New()
+/area/adventure/marsoutpost/New()
 	. = ..()
 	START_TRACKING_CAT(TR_CAT_AREA_PROCESS)
 
-/area/marsoutpost/disposing()
+/area/adventure/marsoutpost/disposing()
 	STOP_TRACKING_CAT(TR_CAT_AREA_PROCESS)
 	. = ..()
 
-/area/marsoutpost/area_process()
+/area/adventure/marsoutpost/area_process()
 	if(prob(20))
 		src.sound_fx_2 = pick(
 			'sound/ambience/nature/Mars_Rockslide1.ogg',\
@@ -615,7 +615,7 @@
 		for(var/mob/living/carbon/human/H in src)
 			H.client?.playAmbience(src, AMBIENCE_FX_2, 60)
 
-/area/marsoutpost/duststorm
+/area/adventure/marsoutpost/duststorm
 	name = "Barren Planet"
 	icon_state = "yellow"
 
@@ -638,7 +638,7 @@
 
 
 
-/area/marsoutpost/vault
+/area/adventure/marsoutpost/vault
 	icon_state = "red"
 
 /obj/critter/gunbot/heavy
@@ -765,7 +765,7 @@
 		if (href_list["unlock"])
 			if(!triggered)
 				triggered = 1
-				for(var/area/marsoutpost/vault/V in world)
+				for(var/area/adventure/marsoutpost/vault/V in world)
 					V.overlays += image(icon = 'icons/effects/alert.dmi', icon_state = "blue", layer = EFFECTS_LAYER_1)
 					LAGCHECK(LAG_LOW)
 				for_by_tcl(P, /obj/machinery/door/poddoor)

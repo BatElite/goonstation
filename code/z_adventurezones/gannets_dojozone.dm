@@ -77,7 +77,7 @@ Contents:
 
 // Areas
 
-/area/dojo/sakura
+/area/adventure/dojo/sakura
 	name = "sakura"
 	icon_state = "red"
 	filler_turf = "/turf/unsimulated/dirt"
@@ -90,7 +90,7 @@ Contents:
 
 		overlays += image(icon = 'icons/obj/dojo.dmi', icon_state = "sakura_overlay", layer = EFFECTS_LAYER_BASE)
 
-/area/dojo
+/area/adventure/dojo
 	name = "dojo"
 	icon_state = "blue"
 	filler_turf = "/turf/unsimulated/dirt"
@@ -101,15 +101,15 @@ Contents:
 	sound_loop = 'sound/ambience/dojo/dojoambi.ogg'
 	sound_loop_vol = 50
 
-/area/dojo/New()
+/area/adventure/dojo/New()
 	. = ..()
 	START_TRACKING_CAT(TR_CAT_AREA_PROCESS)
 
-/area/dojo/disposing()
+/area/adventure/dojo/disposing()
 	STOP_TRACKING_CAT(TR_CAT_AREA_PROCESS)
 	. = ..()
 
-/area/dojo/area_process()
+/area/adventure/dojo/area_process()
 	if(prob(15)) // originally 12-22s
 		src.sound_fx_2 = pick('sound/ambience/nature/Biodome_Birds1.ogg',\
 			'sound/ambience/nature/Biodome_Birds2.ogg',\

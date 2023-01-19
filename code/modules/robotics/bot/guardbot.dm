@@ -3982,7 +3982,7 @@
 				else if (!(src.neat_things & NT_AUTOMATON) && istype(AM, /obj/critter/automaton))
 					FOUND_NEAT(NT_AUTOMATON)
 						src.speak_with_maptext("This here is some kind of automaton.  This, uh, porcelain-faced, click-clackity metal man.")
-						. = "Why [istype(get_area(AM), /area/solarium) ? "am I" : "is this"] here?"
+						. = "Why [istype(get_area(AM), /area/adventure/solarium) ? "am I" : "is this"] here?"
 						sleep(6 SECONDS)
 						src.speak_with_maptext(.)
 						END_NEAT

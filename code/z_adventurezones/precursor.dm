@@ -13,21 +13,21 @@
 
 /////////////////// ice moon, hell, and precursor ruins areas
 
-/area/upper_arctic
+/area/adventure/upper_arctic
 	filler_turf = "/turf/unsimulated/floor/arctic/snow"
 	sound_environment = 8
 	skip_sims = 1
 	sims_score = 30
 	sound_group = "ice_moon"
 
-/area/upper_arctic/pod1
+/area/adventure/upper_arctic/pod1
 	name = "Outpost Theta Pod One"
 	icon_state = "green"
 	sound_environment = 3
 	skip_sims = 1
 	sims_score = 30
 
-/area/lower_arctic/pod1
+/area/adventure/lower_arctic/pod1
 	name = "Outpost Theta Pod One"
 	icon_state = "green"
 	sound_environment = 3
@@ -35,14 +35,14 @@
 	sims_score = 30
 	sound_group = "arctic_caves"
 
-/area/upper_arctic/pod2
+/area/adventure/upper_arctic/pod2
 	name = "Outpost Theta Pod Two"
 	icon_state = "purple"
 	sound_environment = 2
 	skip_sims = 1
 	sims_score = 30
 
-/area/upper_arctic/hall
+/area/adventure/upper_arctic/hall
 	name = "Outpost Theta Connecting Hall"
 	icon_state = "yellow"
 	sound_environment = 12
@@ -50,7 +50,7 @@
 	skip_sims = 1
 	sims_score = 30
 
-/area/upper_arctic/comms
+/area/adventure/upper_arctic/comms
 	name = "Communications Hut"
 	icon_state = "storage"
 	sound_environment = 2
@@ -58,7 +58,7 @@
 	skip_sims = 1
 	sims_score = 30
 
-/area/upper_arctic/mining
+/area/adventure/upper_arctic/mining
 	name = "Glacier Access"
 	icon_state = "dk_yellow"
 	sound_environment = 2
@@ -66,7 +66,7 @@
 	skip_sims = 1
 	sims_score = 30
 
-/area/lower_arctic/mining
+/area/adventure/lower_arctic/mining
 	name = "Glacier Access"
 	icon_state = "dk_yellow"
 	sound_environment = 2
@@ -74,7 +74,7 @@
 	skip_sims = 1
 	sims_score = 30
 
-/area/upper_arctic/exterior
+/area/adventure/upper_arctic/exterior
 	sound_environment = 15
 	skip_sims = 1
 	sims_score = 30
@@ -82,25 +82,25 @@
 		..()
 		overlays += image(icon = 'icons/turf/areas.dmi', icon_state = "snowverlay", layer = EFFECTS_LAYER_BASE)
 
-/area/upper_arctic/exterior/surface
+/area/adventure/upper_arctic/exterior/surface
 	name = "Ice Moon Surface"
 	icon_state = "purple"
 	filler_turf = "/turf/unsimulated/floor/arctic/abyss"
 	skip_sims = 1
 	sims_score = 30
 
-/area/upper_arctic/exterior/abyss
+/area/adventure/upper_arctic/exterior/abyss
 	name = "Ice Moon Abyss"
 	icon_state = "dk_yellow"
 	filler_turf = "/turf/unsimulated/floor/arctic/snow"
 	skip_sims = 1
 	sims_score = 30
 
-/area/lower_arctic
+/area/adventure/lower_arctic
 	icon_state = "dk_yellow"
 	sound_group = "ice_moon"
 
-/area/lower_arctic/lower
+/area/adventure/lower_arctic/lower
 	name = "Glacial Abyss"
 	icon_state = "purple"
 	filler_turf = "/turf/unsimulated/floor/arctic/snow/ice"
@@ -108,7 +108,7 @@
 	skip_sims = 1
 	sims_score = 30
 
-/area/precursor // stole this code from the void definition
+/area/adventure/precursor // stole this code from the void definition
 	name = "Peculiar Structure"
 	icon_state = "dk_yellow"
 	filler_turf = "/turf/unsimulated/floor/setpieces/bluefloor"
@@ -118,15 +118,15 @@
 	sound_group = "precursor"  //Differs from the caves it's in, for a mysterious sound-blocking effect.
 	sound_loop = 'sound/ambience/industrial/Precursor_Drone1.ogg'
 
-/area/precursor/New()
+/area/adventure/precursor/New()
 	. = ..()
 	START_TRACKING_CAT(TR_CAT_AREA_PROCESS)
 
-/area/precursor/disposing()
+/area/adventure/precursor/disposing()
 	STOP_TRACKING_CAT(TR_CAT_AREA_PROCESS)
 	. = ..()
 
-/area/precursor/area_process()
+/area/adventure/precursor/area_process()
 	if(prob(20))
 		src.sound_fx_2 = pick('sound/ambience/industrial/Precursor_Drone2.ogg',\
 			'sound/ambience/industrial/Precursor_Choir.ogg',\
@@ -136,7 +136,7 @@
 		for(var/mob/living/carbon/human/H in src)
 			H.client?.playAmbience(src, AMBIENCE_FX_2, 60)
 
-/area/precursor/pit
+/area/adventure/precursor/pit
 	name = "Ominous Pit"
 	icon_state = "purple"
 	filler_turf = "/turf/unsimulated/floor/setpieces/bluefloor/pit" // this might fuck something up but it might also be hilarious

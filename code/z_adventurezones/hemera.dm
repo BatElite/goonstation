@@ -349,7 +349,7 @@ Obsidian Crown
 		if(isrestrictedz(host.z) && prob(0.5))
 			hear_voidSpeak("...the sun...", "<small>", "</small>")
 		var/area/A = get_area(src)
-		if(A.type == /area/solarium && prob(3))
+		if(A.type == /area/adventure/solarium && prob(3))
 			if(prob(10))
 				hear_voidSpeak("Let them touch the sun.")
 			else
@@ -411,7 +411,7 @@ Obsidian Crown
 
 				if(isrestrictedz(M.z))
 					for(var/turf/T in view(M, 4))
-						if (!istype(get_area(M), /area/solarium)) //If we're in a telesci area and this is a change in area.
+						if (!istype(get_area(M), /area/adventure/solarium)) //If we're in a telesci area and this is a change in area.
 							continue
 						if(T.density)
 							continue

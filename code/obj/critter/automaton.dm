@@ -121,7 +121,7 @@ var/global/the_automaton = null
 			else
 				var/area/current_loc = get_area(src)
 				switch (current_loc.type)
-					if (/area/solarium)
+					if (/area/adventure/solarium)
 
 						src.set_dir(4)
 						if (!src.muted)

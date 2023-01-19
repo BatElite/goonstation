@@ -84,7 +84,7 @@ var/list/iomoon_ancient_sounds = list('sound/ambience/industrial/AncientPowerPla
 var/sound/iomoon_alarm_sound = null
 
 //Areas
-/area/iomoon
+/area/adventure/iomoon
 	name = "Lava Moon Surface"
 	icon_state = "red"
 	filler_turf = "/turf/unsimulated/floor/lava"
@@ -100,7 +100,7 @@ var/sound/iomoon_alarm_sound = null
 	var/radiation_level = 0.5
 	var/use_alarm = FALSE
 
-/area/iomoon/New()
+/area/adventure/iomoon/New()
 	. = ..()
 	START_TRACKING_CAT(TR_CAT_AREA_PROCESS)
 	sfx_to_pick_from = iomoon_exterior_sounds
@@ -110,11 +110,11 @@ var/sound/iomoon_alarm_sound = null
 		iomoon_alarm_sound.priority = 255
 		iomoon_alarm_sound.status = SOUND_UPDATE | SOUND_STREAM
 
-/area/iomoon/disposing()
+/area/adventure/iomoon/disposing()
 	STOP_TRACKING_CAT(TR_CAT_AREA_PROCESS)
 	. = ..()
 
-/area/iomoon/area_process()
+/area/adventure/iomoon/area_process()
 	if(prob(20))
 		src.sound_fx_2 = pick(sfx_to_pick_from)
 
@@ -127,7 +127,7 @@ var/sound/iomoon_alarm_sound = null
 		if (use_alarm && iomoon_blowout_state == 1 && length(client_list))
 			playsound_global(client_list, iomoon_alarm_sound, 50, channel = VOLUME_CHANNEL_AMBIENT)
 
-/area/iomoon/base
+/area/adventure/iomoon/base
 	name = "Power Plant"
 	icon_state = "yellow"
 	filler_turf = "/turf/unsimulated/iomoon/floor"
@@ -141,7 +141,7 @@ var/sound/iomoon_alarm_sound = null
 		sfx_to_pick_from = iomoon_powerplant_sounds
 
 
-/area/iomoon/base/underground
+/area/adventure/iomoon/base/underground
 	name = "Power Plant Tunnels"
 	sound_loop = 'sound/ambience/industrial/LavaPowerPlant_Rumbling2.ogg'
 
@@ -149,7 +149,7 @@ var/sound/iomoon_alarm_sound = null
 		. = ..()
 		sfx_to_pick_from = iomoon_basement_sounds
 
-/area/iomoon/caves
+/area/adventure/iomoon/caves
 	name = "Magma Cavern"
 	filler_turf = "/turf/unsimulated/floor/lava"
 	requires_power = 1
@@ -161,7 +161,7 @@ var/sound/iomoon_alarm_sound = null
 		. = ..()
 		sfx_to_pick_from = iomoon_exterior_sounds
 
-/area/iomoon/robot_ruins
+/area/adventure/iomoon/robot_ruins
 	name = "Strange Ruins"
 	icon_state = "purple"
 	filler_turf = "/turf/unsimulated/iomoon/ancient_floor"
@@ -176,7 +176,7 @@ var/sound/iomoon_alarm_sound = null
 		. = ..()
 		sfx_to_pick_from = iomoon_ancient_sounds
 
-/area/iomoon/robot_ruins/boss_chamber
+/area/adventure/iomoon/robot_ruins/boss_chamber
 	name = "Central Chamber"
 	icon_state = "blue"
 	radiation_level = 1
@@ -752,13 +752,13 @@ var/global/iomoon_blowout_state = 0 //0: Hasn't occurred, 1: Moon is irradiated 
 	iomoon_blowout_state = 1
 
 	message_admins("EVENT: IOMOON mini-blowout event triggered.")
-	var/list/iomoon_areas = get_areas(/area/iomoon)
+	var/list/iomoon_areas = get_areas(/area/adventure/iomoon)
 	if (!iomoon_areas.len)
 		iomoon_blowout_state = -1
 		logTheThing("debug", null, null, "IOMOON: Unable to locate areas for event_iomoon_blowout.")
 		return
 
-	for (var/area/iomoon/adjustedArea in iomoon_areas)
+	for (var/area/adventure/iomoon/adjustedArea in iomoon_areas)
 		adjustedArea.irradiated = adjustedArea.radiation_level
 
 		for(var/mob/N in adjustedArea)
@@ -791,13 +791,13 @@ var/global/iomoon_blowout_state = 0 //0: Hasn't occurred, 1: Moon is irradiated 
 
 	iomoon_blowout_state = -1
 	message_admins("EVENT: IOMOON mini-blowout event ending.")
-	var/list/iomoon_areas = get_areas(/area/iomoon)
+	var/list/iomoon_areas = get_areas(/area/adventure/iomoon)
 	if (!iomoon_areas.len)
 		iomoon_blowout_state = -1
 		logTheThing("debug", null, null, "IOMOON: Unable to locate areas for end_iomoon_blowout. Welp!")
 		return
 
-	for (var/area/iomoon/adjustedArea in iomoon_areas)
+	for (var/area/adventure/iomoon/adjustedArea in iomoon_areas)
 		adjustedArea.irradiated = 0
 
 	var/obj/iomoon_puzzle/ancient_robot_door/prizedoor = locate("IOMOON_PRIZEDOOR")

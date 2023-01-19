@@ -22,13 +22,13 @@
 	name = "Greek Adventurezone Sprites"
 	icon = 'icons/turf/adventure_gannets.dmi'
 
-/area/greek
+/area/adventure/greek
 	skip_sims = 1
 	sims_score = 30
 
 // Beach zone Stuff
 
-/area/greek/beach
+/area/adventure/greek/beach
 	name = "Strange Beach"
 	icon_state = "yellow"
 	force_fullbright = 1
@@ -67,12 +67,12 @@
 
 // Cave Stuff
 
-/area/greek/caves
+/area/adventure/greek/caves
 	name = "Strange Caves"
 	icon_state = "green"
 	sound_environment = 8
 
-/area/greek/cliffs
+/area/adventure/greek/cliffs
 	name = "Strange Cliffs"
 	icon_state = "blue"
 	sound_environment = 8
@@ -176,12 +176,12 @@
 
 // Underworld Stuff
 
-/area/greek/underworld
+/area/adventure/greek/underworld
 	name = "Strange Depths"
 	icon_state = "purple"
 	sound_environment = 25
 
-/area/greek/underworld/pit
+/area/adventure/greek/underworld/pit
 	icon_state = "white"
 
 /turf/unsimulated/greek/underworld

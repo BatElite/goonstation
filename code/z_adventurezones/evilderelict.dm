@@ -173,7 +173,7 @@ var/maniac_previous_victim = "Unknown"
 
 
 ////////////
-/area/evilreaver
+/area/debris/evilreaver //Ancient halloween maps and, for some reason, the martian derelict (hence the debris tag)
 	name = "Forgotten Station"
 	icon_state = "derelict"
 	teleport_blocked = 1
@@ -182,54 +182,54 @@ var/maniac_previous_victim = "Unknown"
 	requires_power = FALSE
 #endif
 
-/area/evilreaver/medical
+/area/debris/evilreaver/medical
 	icon_state = "medbay"
 	name = "Forgotten Medical Bay"
 
-/area/evilreaver/genetics
+/area/debris/evilreaver/genetics
 	icon_state = "medbay"
 	name = "Forgotten Medical Research"
 
-/area/evilreaver/storage
+/area/debris/evilreaver/storage
 	icon_state = "storage"
 
-/area/evilreaver/storage/engineering
+/area/debris/evilreaver/storage/engineering
 	name = "Forgotten Engineering Storage"
 
-/area/evilreaver/storage/tools
+/area/debris/evilreaver/storage/tools
 	name = "Forgotten Tools Storage"
 
 
-/area/evilreaver/storage/emergency
+/area/debris/evilreaver/storage/emergency
 	name = "Forgotten Emergency Storage A"
 
-/area/evilreaver/storage/fire
+/area/debris/evilreaver/storage/fire
 	name = "Forgotten Emergency Storage B"
 
-/area/evilreaver/atmospherics
+/area/debris/evilreaver/atmospherics
 	icon_state = "atmos"
 	name = "Forgotten Atmospherics"
 
-/area/evilreaver/security
+/area/debris/evilreaver/security
 	icon_state = "brigcell"
 	name = "Forgotten Security"
 
-/area/evilreaver/toxins
+/area/debris/evilreaver/toxins
 	icon_state = "toxlab"
 	name = "Forgotten Toxins"
 
-/area/evilreaver/chapel
+/area/debris/evilreaver/chapel
 	icon_state = "chapel"
 	name = "Forgotten Chapel"
-/area/evilreaver/bar
+/area/debris/evilreaver/bar
 	icon_state = "bar"
 	name = "Forgotten Bar"
 
-/area/evilreaver/crew
+/area/debris/evilreaver/crew
 	icon_state = "crewquarters"
 	name = "Forgotten Crew Quarters"
 
-/area/evilreaver/bridge
+/area/debris/evilreaver/bridge
 	icon_state = "bridge"
 	name = "Forgotten Bridge"
 

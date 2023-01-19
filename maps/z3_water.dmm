@@ -12,23 +12,23 @@
 /area/dank_trench)
 "ad" = (
 /turf/simulated/martian/wall,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "ae" = (
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "af" = (
 /turf/simulated/martian/floor,
 /turf/simulated/martian/wall{
 	dir = 4;
 	icon_state = "diagonalWall"
 	},
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "ag" = (
 /obj/crevice{
 	pixel_y = 30
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "ah" = (
 /obj/overlay{
 	anchored = 1;
@@ -38,37 +38,37 @@
 	name = "organic wall"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "ai" = (
 /obj/landmark/artifact,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aj" = (
 /obj/decal/cleanable/blood/gibs{
 	icon_state = "gib3"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "ak" = (
 /turf/simulated/martian/floor,
 /turf/simulated/martian/wall{
 	dir = 5;
 	icon_state = "diagonalWall"
 	},
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "al" = (
 /obj/storage/crate/loot,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "am" = (
 /obj/npc/trader/martian,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "ao" = (
 /obj/map/light/dimred,
 /obj/portalmartian,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "ap" = (
 /obj/storage/crate,
 /obj/item/clothing/head/genki,
@@ -76,41 +76,41 @@
 /obj/item/raw_material/miracle,
 /obj/item/clothing/suit/space/suv,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aq" = (
 /obj/critter/martian/soldier,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "ar" = (
 /obj/martianBiotech,
 /obj/decal/cleanable/blood,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "as" = (
 /obj/decal/cleanable/blood{
 	icon_state = "floor5"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "at" = (
 /obj/critter/martian/soldier/dead,
 /obj/decal/cleanable/martian_viscera,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "au" = (
 /obj/decal/cleanable/martian_viscera,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "av" = (
 /obj/decal/aliencomputer{
 	pixel_x = 32
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aw" = (
 /obj/map/light/white,
 /turf/simulated/martian/wall,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "ax" = (
 /turf/unsimulated/wall/auto/supernorn,
 /area/dank_trench)
@@ -120,7 +120,7 @@
 	dir = 6;
 	icon_state = "diagonalWall"
 	},
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "az" = (
 /obj/decal/aliencomputer{
 	pixel_x = 32
@@ -134,23 +134,23 @@
 	name = "organic wall"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aA" = (
 /obj/decal/cleanable/blood{
 	icon_state = "floor6"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aB" = (
 /obj/critter/martian/warrior,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aC" = (
 /obj/decal/cleanable/blood/gibs{
 	icon_state = "gib1"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aD" = (
 /obj/overlay{
 	anchored = 1;
@@ -164,7 +164,7 @@
 /obj/decal/fakeobjects/teleport_pad,
 /obj/map/light/dimred,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aE" = (
 /obj/overlay{
 	anchored = 1;
@@ -175,23 +175,23 @@
 	name = "organic wall"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aF" = (
 /obj/decal/cleanable/blood/gibs{
 	icon_state = "gibdown1"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aG" = (
 /obj/martianBiotech,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aH" = (
 /obj/crevice{
 	pixel_x = -28
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aI" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -202,7 +202,7 @@
 	name = "martian machine"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aJ" = (
 /obj/overlay{
 	anchored = 1;
@@ -213,7 +213,7 @@
 	name = "organic wall"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aK" = (
 /obj/crevice{
 	pixel_y = -30
@@ -230,43 +230,43 @@
 	icon_state = "gibmid2"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aL" = (
 /obj/machinery/door/unpowered/martian,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aM" = (
 /obj/machinery/martianbomb,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aN" = (
 /turf/simulated/martian/floor,
 /turf/simulated/martian/wall{
 	dir = 8;
 	icon_state = "diagonalWall"
 	},
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aO" = (
 /obj/item/reagent_containers/glass/bottle/holywater,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aP" = (
 /obj/item/paper/courtroom{
 	name = "paper- 'A Crash Course in Legal SOP"
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aQ" = (
 /obj/decal/aliencomputer{
 	pixel_x = 0;
 	pixel_y = 32
 	},
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aR" = (
 /obj/item/device/infra_sensor,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aS" = (
 /turf/unsimulated/wall/trench,
 /area/space)
@@ -281,15 +281,15 @@
 	},
 /obj/critter/martian/psychic,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aU" = (
 /obj/portrait_sneaky,
 /turf/simulated/martian/wall,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aV" = (
 /obj/item/clothing/suit/cardboard_box/captain,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aW" = (
 /turf/unsimulated/wall/trench/side,
 /area/space)
@@ -304,121 +304,121 @@
 	},
 /obj/item/paper/sop,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aY" = (
 /obj/storage/crate,
 /obj/item/aiboss_tape/martian,
 /obj/item/clothing/head/XComHair,
 /turf/simulated/martian/floor,
-/area/evilreaver/security)
+/area/debris/evilreaver/security)
 "aZ" = (
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside)
+/area/debris/wrecknsspolaris/outside)
 "ba" = (
 /obj/item/raw_material/rock,
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside)
+/area/debris/wrecknsspolaris/outside)
 "bb" = (
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/teleport)
+/area/debris/wrecknsspolaris/outside/teleport)
 "bc" = (
 /obj/item/sheet/steel,
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside)
+/area/debris/wrecknsspolaris/outside)
 "bd" = (
 /obj/decal/cleanable/machine_debris{
 	icon_state = "gib7"
 	},
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside)
+/area/debris/wrecknsspolaris/outside)
 "be" = (
 /obj/item/raw_material/shard/glass,
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside)
+/area/debris/wrecknsspolaris/outside)
 "bf" = (
 /obj/item/raw_material/scrap_metal,
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside)
+/area/debris/wrecknsspolaris/outside)
 "bg" = (
 /obj/item/sheet/glass,
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bh" = (
 /obj/item/raw_material/shard/glass,
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bi" = (
 /obj/grille,
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bj" = (
 /obj/wingrille_spawn/auto,
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bk" = (
 /obj/item/scrap,
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside)
+/area/debris/wrecknsspolaris/outside)
 "bl" = (
 /obj/decoration/bustedmantapc/bustedmantapc3,
 /turf/unsimulated/floor/longtile,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bm" = (
 /obj/dialogueobj/bustedmantapc,
 /turf/unsimulated/floor/longtile,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bn" = (
 /obj/item/raw_material/shard/glass,
 /obj/grille,
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bo" = (
 /obj/decoration/bustedmantapc/bustedmantapc2,
 /turf/unsimulated/floor/longtile,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bp" = (
 /obj/decoration/bustedmantapc{
 	dir = 1
 	},
 /turf/unsimulated/floor/longtile,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bq" = (
 /obj/decoration/damagedchair{
 	dir = 4
 	},
 /turf/unsimulated/floor/longtile,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "br" = (
 /turf/unsimulated/wall/auto/reinforced/supernorn,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bs" = (
 /obj/decoration/bustedmantapc/bustedmantapc2{
 	dir = 8
 	},
 /turf/unsimulated/floor/longtile,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bt" = (
 /turf/unsimulated/wall/auto/reinforced,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bu" = (
 /turf/simulated/floor/stairs,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bv" = (
 /obj/decal/stage_edge/alt,
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bw" = (
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bx" = (
 /obj/decal/cleanable/machine_debris,
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside)
+/area/debris/wrecknsspolaris/outside)
 "by" = (
 /obj/lattice,
 /obj/decal/floatingtiles,
 /turf/space/fluid/noexplosion/nospawn,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "bz" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	dir = 8;
@@ -429,14 +429,14 @@
 	icon_state = "gib7"
 	},
 /turf/unsimulated/floor/longtile,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bA" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	dir = 4
 	},
 /obj/dialogueobj/securitycorpse2,
 /turf/unsimulated/floor/longtile,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bB" = (
 /obj/shrub/dead,
 /obj/decal/fakeobjects/lighttube_broken{
@@ -444,11 +444,11 @@
 	icon_state = "tube-broken"
 	},
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bC" = (
 /obj/decoration/collapsedwall,
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bD" = (
 /obj/item/pen/fancy,
 /obj/decal/fakeobjects/lighttube_broken{
@@ -456,20 +456,20 @@
 	icon_state = "tube-broken"
 	},
 /turf/unsimulated/floor/wood/two,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bE" = (
 /obj/item/paper_bin,
 /obj/decoration/clock/frozen{
 	pixel_y = 32
 	},
 /turf/unsimulated/floor/wood/two,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bF" = (
 /turf/unsimulated/floor/wood/two,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bG" = (
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bH" = (
 /obj/shrub/dead,
 /obj/decal/fakeobjects/lighttube_broken{
@@ -481,34 +481,34 @@
 	tag = "icon-tube-broken (NORTH)"
 	},
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bI" = (
 /obj/table/wood/auto,
 /obj/item/camera,
 /turf/unsimulated/floor/carpet/arcade,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bJ" = (
 /turf/unsimulated/floor/carpet/arcade,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bK" = (
 /obj/decal/cleanable/blood/gibs{
 	icon_state = "gib1"
 	},
 /turf/unsimulated/floor/longtile,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bL" = (
 /obj/decal/fakeobjects/creepytv{
 	desc = "Only creepy static here."
 	},
 /obj/map/light/screen,
 /turf/unsimulated/floor/wood/two,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bM" = (
 /obj/storage/secure/closet/command/captain/fake{
 	name = "Sergeant's locker"
 	},
 /turf/unsimulated/floor/carpet/arcade,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bN" = (
 /obj/table/reinforced/bar/auto{
 	name = "table"
@@ -518,7 +518,7 @@
 	},
 /obj/map/light/screen,
 /turf/unsimulated/floor/wood/two,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bO" = (
 /obj/stool/chair/comfy/blue{
 	dir = 4;
@@ -526,22 +526,22 @@
 	tag = "icon-chair_comfy-blue (EAST)"
 	},
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bP" = (
 /obj/table/wood/auto,
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bQ" = (
 /obj/stool/chair/comfy/blue{
 	dir = 8
 	},
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bR" = (
 /obj/item/raw_material/shard/glass,
 /obj/fluid_spawner/shortdelaybig,
 /turf/unsimulated/floor/wood/two,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bS" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	dir = 8;
@@ -555,7 +555,7 @@
 	dir = 9;
 	icon_state = "fblue6"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bT" = (
 /obj/stool/chair/comfy/blue{
 	dir = 4;
@@ -566,7 +566,7 @@
 	dir = 1;
 	icon_state = "fblue2"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bU" = (
 /obj/table/reinforced/bar/auto{
 	name = "table"
@@ -581,23 +581,23 @@
 	dir = 5;
 	icon_state = "fblue6"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bV" = (
 /obj/item/stamp/cap,
 /turf/unsimulated/floor/wood/two,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bW" = (
 /obj/decal/cleanable/blood/tracks{
 	dir = 9;
 	icon_state = "tracks"
 	},
 /turf/unsimulated/floor/carpet/arcade,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bX" = (
 /obj/item/furniture_parts/table/wood,
 /obj/fluid_spawner/shortdelaybig,
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bY" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	dir = 8;
@@ -609,7 +609,7 @@
 	pixel_y = 0
 	},
 /turf/unsimulated/floor/carpet/arcade,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "bZ" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -622,20 +622,20 @@
 /obj/item/casing/small,
 /obj/decal/cleanable/blood/tracks,
 /turf/unsimulated/floor/carpet/arcade,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "ca" = (
 /obj/decoration/toiletholder{
 	pixel_y = 32
 	},
 /obj/fluid_spawner/shortdelaybig,
 /turf/unsimulated/floor/sanitary/blue,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cb" = (
 /turf/simulated/floor/carpet{
 	dir = 10;
 	icon_state = "fblue6"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cc" = (
 /obj/table/reinforced/bar/auto{
 	name = "table"
@@ -648,22 +648,22 @@
 	dir = 2;
 	icon_state = "fblue2"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cd" = (
 /obj/item/sheet/steel,
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "ce" = (
 /obj/stool/chair{
 	anchored = 0;
 	dir = 8
 	},
 /turf/unsimulated/floor/wood/two,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cf" = (
 /obj/dialogueobj/syndiecorpse1,
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside)
+/area/debris/wrecknsspolaris/outside)
 "cg" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	desc = "This light might be broken.  It's probably not wired up, though.";
@@ -672,11 +672,11 @@
 	name = "inactive light tube"
 	},
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "ch" = (
 /obj/item/raw_material/scrap_metal,
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "ci" = (
 /obj/stool/chair/comfy/blue{
 	dir = 8
@@ -686,21 +686,21 @@
 	pixel_y = -24
 	},
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cj" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	dir = 4
 	},
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "ck" = (
 /obj/item/storage/toilet,
 /turf/unsimulated/floor/sanitary/blue,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cl" = (
 /obj/decal/cleanable/dirt,
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cm" = (
 /obj/stool/bed,
 /obj/item/clothing/suit/bedsheet/captain,
@@ -709,7 +709,7 @@
 	pixel_y = -24
 	},
 /turf/unsimulated/floor/carpet/arcade,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cn" = (
 /obj/machinery/door/airlock/pyro/command{
 	dir = 8;
@@ -719,7 +719,7 @@
 	},
 /obj/firedoor_spawn,
 /turf/simulated/floor/wood/two,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "co" = (
 /obj/machinery/door/airlock/pyro/command{
 	dir = 8;
@@ -729,7 +729,7 @@
 	},
 /obj/firedoor_spawn,
 /turf/simulated/floor/wood/two,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cq" = (
 /obj/submachine/chef_sink/chem_sink{
 	dir = 8;
@@ -742,16 +742,16 @@
 	name = "inactive light tube"
 	},
 /turf/unsimulated/floor/sanitary/blue,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cr" = (
 /turf/unsimulated/floor{
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cs" = (
 /turf/unsimulated/floor/damaged3,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "ct" = (
 /obj/machinery/door/airlock/pyro/glass/brig{
 	dir = 4;
@@ -761,14 +761,14 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cu" = (
 /obj/machinery/door/airlock/pyro/glass/brig{
 	dir = 4;
 	req_access_txt = null
 	},
 /turf/simulated/floor,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cv" = (
 /obj/shrub/dead{
 	dir = 4
@@ -782,28 +782,28 @@
 	tag = "icon-tube-broken (NORTH)"
 	},
 /turf/unsimulated/floor/wood/two,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cw" = (
 /obj/item/storage/wall/fire,
 /turf/unsimulated/wall/auto/reinforced/supernorn,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cx" = (
 /obj/fluid_spawner/shortdelaybig,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cy" = (
 /turf/unsimulated/wall/auto/reinforced/supernorn,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "cz" = (
 /obj/decal/cleanable/machine_debris,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cA" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -814,7 +814,7 @@
 	name = "broken vending machine"
 	},
 /turf/simulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cB" = (
 /obj/decal/fakeobjects{
 	desc = "The goods inside the machine probably expired before you were even born.";
@@ -827,54 +827,54 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cC" = (
 /obj/item/tile/steel,
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside)
+/area/debris/wrecknsspolaris/outside)
 "cD" = (
 /obj/stool/bench,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cE" = (
 /obj/lattice,
 /obj/item/raw_material/scrap_metal,
 /turf/space/fluid/noexplosion/nospawn,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "cF" = (
 /obj/item/scrap,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cG" = (
 /obj/item/furniture_parts/bench,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cH" = (
 /obj/shrub/dead,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cI" = (
 /obj/machinery/door/firedoor/pyro{
 	dir = 4
 	},
 /turf/unsimulated/floor/sanitary/blue,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cJ" = (
 /obj/decal/cleanable/dirt,
 /turf/unsimulated/floor/carpet/arcade,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cK" = (
 /obj/machinery/shower{
 	dir = 8;
@@ -883,11 +883,11 @@
 	},
 /obj/decal/cleanable/blood/tracks,
 /turf/unsimulated/floor/sanitary/blue,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cL" = (
 /obj/item/scrap,
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cM" = (
 /obj/table/reinforced/bar/auto{
 	name = "table"
@@ -909,14 +909,14 @@
 	dir = 6;
 	icon_state = "fblue6"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cN" = (
 /obj/decal/fakeobjects/apc_broken{
 	pixel_y = -32
 	},
 /obj/decal/cleanable/dirt,
 /turf/unsimulated/floor/wood/two,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cO" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	desc = "This light might be broken.  It's probably not wired up, though.";
@@ -925,20 +925,20 @@
 	name = "inactive light tube"
 	},
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cP" = (
 /obj/storage/crate/classcrate{
 	name = "secure crate"
 	},
 /obj/item/cell/supercell/charged,
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "cQ" = (
 /obj/decoration/ntcratesmall{
 	dir = 4
 	},
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "cR" = (
 /obj/table/wood/auto,
 /obj/decal/fakeobjects/apc_broken{
@@ -953,7 +953,7 @@
 	name = "security camera"
 	},
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cS" = (
 /obj/machinery/door/airlock/pyro/command{
 	name = "Bridge";
@@ -961,7 +961,7 @@
 	},
 /obj/firedoor_spawn,
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cT" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -971,14 +971,14 @@
 	name = "power conduit"
 	},
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cU" = (
 /obj/item/raw_material/scrap_metal,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cV" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -988,7 +988,7 @@
 	name = "security camera"
 	},
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cW" = (
 /obj/item/storage/toolbox/mechanical,
 /obj/decal/fakeobjects/lighttube_broken{
@@ -998,7 +998,7 @@
 	name = "inactive light tube"
 	},
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cX" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -1009,7 +1009,7 @@
 	name = "motor"
 	},
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cY" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -1022,7 +1022,7 @@
 	tag = "icon-conduit (NORTHWEST)"
 	},
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "cZ" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -1043,14 +1043,14 @@
 	tag = "icon-conduit (EAST)"
 	},
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "da" = (
 /obj/decal/cleanable/blood/tracks,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "db" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -1080,7 +1080,7 @@
 	name = "power conduit"
 	},
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dc" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -1101,7 +1101,7 @@
 	name = "power conduit"
 	},
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dd" = (
 /obj/decoration/bookcase{
 	pixel_y = 28
@@ -1109,7 +1109,7 @@
 /obj/decal/cleanable/dirt,
 /obj/dialogueobj/syndiecorpse7,
 /turf/unsimulated/floor/carpet/arcade,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "de" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -1121,7 +1121,7 @@
 	name = "power conduit"
 	},
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "df" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -1133,7 +1133,7 @@
 	name = "power conduit"
 	},
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dg" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -1154,7 +1154,7 @@
 	name = "power conduit"
 	},
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dh" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -1184,7 +1184,7 @@
 	name = "power conduit"
 	},
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "di" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -1214,7 +1214,7 @@
 	name = "power conduit"
 	},
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dj" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -1226,11 +1226,11 @@
 	tag = "icon-conduit (NORTHEAST)"
 	},
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dk" = (
 /obj/fluid_spawner/shortdelaybig,
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dl" = (
 /obj/item/scrap,
 /obj/decal/cleanable/dirt,
@@ -1238,7 +1238,7 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dm" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	dir = 8;
@@ -1248,29 +1248,29 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dn" = (
 /obj/lattice,
 /obj/decal/floatingtiles{
 	icon_state = "floattiles3"
 	},
 /turf/space/fluid/noexplosion/nospawn,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "do" = (
 /obj/item/storage/wall/emergency,
 /turf/unsimulated/wall/auto/reinforced/supernorn,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dp" = (
 /obj/decal/cleanable/rust,
 /turf/unsimulated/wall/auto/reinforced/supernorn,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dq" = (
 /obj/storage/crate/classcrate{
 	name = "secure crate"
 	},
 /obj/item/clothing/head/helmet/hardhat/security/improved,
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "dr" = (
 /obj/lattice,
 /obj/decal/floatingtiles{
@@ -1278,7 +1278,7 @@
 	},
 /obj/item/raw_material/scrap_metal,
 /turf/space/fluid/noexplosion/nospawn,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "ds" = (
 /obj/lattice,
 /obj/decal/floatingtiles{
@@ -1289,62 +1289,62 @@
 	icon_state = "tube-broken"
 	},
 /turf/space/fluid/noexplosion/nospawn,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "dt" = (
 /obj/lattice,
 /obj/decal/floatingtiles{
 	icon_state = "floattiles6"
 	},
 /turf/space/fluid/noexplosion/nospawn,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "du" = (
 /obj/item/casing/shotgun/red,
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside)
+/area/debris/wrecknsspolaris/outside)
 "dv" = (
 /obj/dialogueobj/syndiecorpse2,
 /obj/decal/cleanable/blood,
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside)
+/area/debris/wrecknsspolaris/outside)
 "dw" = (
 /obj/dialogueobj/securitycorpse1,
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside)
+/area/debris/wrecknsspolaris/outside)
 "dx" = (
 /obj/item/raw_material/rock,
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "dy" = (
 /obj/lattice,
 /obj/decal/floatingtiles{
 	icon_state = "floattiles2"
 	},
 /turf/space/fluid/noexplosion/nospawn,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "dz" = (
 /obj/item/raw_material/scrap_metal,
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "dA" = (
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "dB" = (
 /obj/item/scrap,
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "dC" = (
 /obj/decal/cleanable/machine_debris{
 	icon_state = "gib7"
 	},
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "dD" = (
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dE" = (
 /obj/table/reinforced/auto,
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dF" = (
 /obj/lattice,
 /obj/decal/floatingtiles{
@@ -1352,22 +1352,22 @@
 	icon_state = "floattiles4"
 	},
 /turf/space/fluid/noexplosion/nospawn,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "dG" = (
 /obj/fluid_spawner/shortdelaybig,
 /obj/item/raw_material/scrap_metal,
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dH" = (
 /obj/dialogueobj/engineeringcomputer,
 /obj/map/light/screen,
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dI" = (
 /obj/lattice,
 /obj/item/scrap,
 /turf/space/fluid/noexplosion/nospawn,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "dJ" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -1378,38 +1378,38 @@
 	name = "old gas circulator"
 	},
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dK" = (
 /obj/fluid_spawner/shortdelaybig,
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dL" = (
 /obj/machinery/shuttle/engine/heater{
 	icon_state = "alt_heater-R"
 	},
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dM" = (
 /obj/item/sheet/steel,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dN" = (
 /obj/decal/fakeobjects/lighttube_broken,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dO" = (
 /obj/decal/cleanable/dirt,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dP" = (
 /obj/fluid_spawner/shortdelaybig,
 /obj/decal/fakeobjects{
@@ -1424,7 +1424,7 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dQ" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	desc = "This light might be broken.  It's probably not wired up, though.";
@@ -1436,7 +1436,7 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dR" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	desc = "This light might be broken.  It's probably not wired up, though.";
@@ -1449,7 +1449,7 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dS" = (
 /obj/decoration/weirdmark{
 	desc = "The final energy mark on the wall, this time around the important looking crate. It's safe to assume that you're not the first one to enter.";
@@ -1458,7 +1458,7 @@
 	},
 /obj/map/light/green,
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "dT" = (
 /obj/decal/fakeobjects/apc_broken{
 	pixel_y = 32
@@ -1466,7 +1466,7 @@
 /obj/dialogueobj/polariscrate,
 /obj/map/light/screen,
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "dU" = (
 /obj/stool/bench,
 /obj/decal/fakeobjects/lighttube_broken{
@@ -1479,10 +1479,10 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dV" = (
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "dW" = (
 /obj/stool/bench,
 /obj/fluid_spawner/shortdelaybig,
@@ -1494,7 +1494,7 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dX" = (
 /obj/item/scrap,
 /obj/item/raw_material/scrap_metal,
@@ -1502,18 +1502,18 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "dY" = (
 /obj/storage/crate/classcrate{
 	name = "secure crate"
 	},
 /obj/item/paper/manufacturer_blueprint/thrusters,
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "dZ" = (
 /obj/decoration/ntcratesmall,
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "ea" = (
 /obj/storage/crate/classcrate{
 	name = "secure crate"
@@ -1530,7 +1530,7 @@
 	pixel_y = 6
 	},
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "eb" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	desc = "This light might be broken.  It's probably not wired up, though.";
@@ -1542,7 +1542,7 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "ed" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	dir = 1
@@ -1551,7 +1551,7 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "ee" = (
 /obj/decal/cleanable/machine_debris{
 	icon_state = "gib7"
@@ -1560,14 +1560,14 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "ef" = (
 /obj/decal/cleanable/dirt/dirt2,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "eh" = (
 /obj/item/casing/rifle{
 	alpha = 200;
@@ -1581,7 +1581,7 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "ei" = (
 /obj/item/casing/rifle{
 	alpha = 200;
@@ -1595,7 +1595,7 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "ej" = (
 /obj/item/casing/rifle{
 	alpha = 200;
@@ -1609,7 +1609,7 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "ek" = (
 /obj/table/reinforced/auto,
 /obj/item/storage/toolbox/electrical{
@@ -1619,15 +1619,15 @@
 	pixel_y = 32
 	},
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "el" = (
 /obj/decal/cleanable/dirt,
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "em" = (
 /obj/item/raw_material/scrap_metal,
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "en" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -1638,7 +1638,7 @@
 	name = "security camera"
 	},
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "eo" = (
 /obj/decal/cleanable/dirt/dirt5,
 /obj/decal/fakeobjects{
@@ -1653,7 +1653,7 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "ep" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	desc = "This light might be broken.  It's probably not wired up, though.";
@@ -1665,18 +1665,18 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "eq" = (
 /obj/decal/cleanable/dirt/dirt2,
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "er" = (
 /obj/item/tile/steel,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "es" = (
 /obj/decal/cleanable/dirt/dirt2,
 /obj/decal/fakeobjects/lighttube_broken{
@@ -1686,7 +1686,7 @@
 	name = "inactive light tube"
 	},
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "et" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	dir = 8;
@@ -1697,7 +1697,7 @@
 	icon_state = "xtra_bigstripe-corner2"
 	},
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "eu" = (
 /obj/machinery/atmospherics/pipe/simple/insulated/cold{
 	can_rupture = 0;
@@ -1707,7 +1707,7 @@
 	dir = 1
 	},
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "ev" = (
 /obj/machinery/atmospherics/pipe/manifold{
 	level = 2
@@ -1719,14 +1719,14 @@
 	dir = 1
 	},
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "ew" = (
 /obj/decal/cleanable/oil/streak,
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 1
 	},
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "ex" = (
 /obj/machinery/atmospherics/pipe/simple/insulated{
 	dir = 10
@@ -1735,7 +1735,7 @@
 	dir = 1
 	},
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "ey" = (
 /obj/decal/fakeobjects/apc_broken{
 	pixel_x = 32
@@ -1750,22 +1750,22 @@
 	},
 /obj/dialogueobj/syndiecorpse8,
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "ez" = (
 /obj/storage/secure/closet/engineering/engineer,
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "eA" = (
 /obj/stool/chair{
 	dir = 4;
 	icon_state = "chair"
 	},
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "eB" = (
 /obj/item/sheet/steel,
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "eC" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -1776,53 +1776,53 @@
 	name = "security camera"
 	},
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "eD" = (
 /obj/machinery/atmospherics/valve,
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "eE" = (
 /obj/decal/cleanable/machine_debris,
 /obj/item/reagent_containers/food/drinks/carafe,
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "eF" = (
 /obj/item/scrap,
 /obj/item/sheet/steel,
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "eG" = (
 /obj/stool/chair{
 	dir = 8;
 	icon_state = "chair"
 	},
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "eH" = (
 /obj/decal/cleanable/dirt/dirt5,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "eI" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
 	},
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "eJ" = (
 /obj/decal/cleanable/oil/streak,
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "eK" = (
 /obj/machinery/portable_atmospherics/canister/toxins,
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "eL" = (
 /obj/fluid_spawner/shortdelaybig,
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "eM" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -1837,7 +1837,7 @@
 	pixel_y = 32
 	},
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "eN" = (
 /obj/decal/cleanable/machine_debris,
 /obj/decal/fakeobjects/lighttube_broken{
@@ -1850,14 +1850,14 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "eO" = (
 /obj/decal/cleanable/dirt,
 /obj/decal/fakeobjects/apc_broken{
 	pixel_y = 32
 	},
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "eP" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -1870,7 +1870,7 @@
 	},
 /obj/decal/cleanable/dirt/dirt2,
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "eQ" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -1881,7 +1881,7 @@
 	name = "security camera"
 	},
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "eR" = (
 /obj/item/scrap,
 /obj/decal/cleanable/dirt/dirt5,
@@ -1889,15 +1889,15 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "eS" = (
 /obj/decal/cleanable/dirt/dirt2,
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "eT" = (
 /obj/decal/cleanable/dirt/dirt5,
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "eU" = (
 /obj/lattice,
 /obj/item/raw_material/scrap_metal,
@@ -1905,22 +1905,22 @@
 	pixel_y = 32
 	},
 /turf/space/fluid/noexplosion/nospawn,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "eV" = (
 /obj/item/tile/steel,
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "eW" = (
 /obj/lattice,
 /obj/item/sheet/steel,
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "eX" = (
 /obj/decal/floatingtiles{
 	icon_state = "floattiles3"
 	},
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "eY" = (
 /obj/decal/cleanable/blood/splatter{
 	icon_state = "floor5"
@@ -1930,45 +1930,45 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "eZ" = (
 /obj/decal/cleanable/machine_debris,
 /obj/lattice,
 /turf/space/fluid/noexplosion/nospawn,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "fa" = (
 /obj/item/sheet/steel,
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "fb" = (
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "fc" = (
 /obj/machinery/door/airlock/pyro/weapons/noemag,
 /obj/access_spawn/polariscargo,
 /obj/firedoor_spawn,
 /turf/simulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "fd" = (
 /obj/dialogueobj/securitycorpse7,
 /obj/decal/cleanable/blood/splatter{
 	icon_state = "floor5"
 	},
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "fe" = (
 /obj/decal/cleanable/blood{
 	icon_state = "floor6"
 	},
 /obj/dialogueobj/securitycorpse3,
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "ff" = (
 /obj/item/raw_material/scrap_metal,
 /obj/lattice,
 /turf/space/fluid/noexplosion/nospawn,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "fg" = (
 /obj/decal/cleanable/machine_debris,
 /obj/decal/floatingtiles{
@@ -1976,44 +1976,44 @@
 	},
 /obj/lattice,
 /turf/space/fluid/noexplosion/nospawn,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "fh" = (
 /turf/space/fluid/noexplosion/nospawn,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "fi" = (
 /obj/machinery/shuttle/engine/propulsion{
 	dir = 2;
 	icon_state = "alt_propulsion"
 	},
 /turf/space/fluid/noexplosion/nospawn,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "fj" = (
 /obj/item/raw_material/rock,
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/teleport)
+/area/debris/wrecknsspolaris/outside/teleport)
 "fk" = (
 /obj/item/scrap,
 /obj/fluid_spawner/shortdelaybig,
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "fl" = (
 /obj/lattice,
 /obj/decal/cleanable/machine_debris{
 	icon_state = "gib7"
 	},
 /turf/space/fluid/noexplosion/nospawn,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "fm" = (
 /obj/item/tile/steel,
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "fn" = (
 /obj/grille/catwalk{
 	dir = 9;
 	icon_state = "catwalk_cross"
 	},
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "fo" = (
 /obj/decal/fakeobjects/apc_broken{
 	pixel_x = -32
@@ -2024,21 +2024,21 @@
 	},
 /obj/item/raw_material/scrap_metal,
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "fp" = (
 /obj/grille/catwalk{
 	dir = 2;
 	icon_state = "catwalk_cross"
 	},
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "fq" = (
 /obj/grille/catwalk{
 	dir = 5;
 	icon_state = "catwalk_cross"
 	},
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "fr" = (
 /obj/decal/cleanable/dirt/dirt5,
 /obj/decal/cleanable/blood/tracks{
@@ -2046,29 +2046,29 @@
 	icon_state = "tracks"
 	},
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "fs" = (
 /obj/item/tile/steel,
 /obj/decoration/vent{
 	pixel_y = 32
 	},
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "ft" = (
 /obj/item/scrap,
 /obj/decoration/vent{
 	pixel_y = 32
 	},
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "fu" = (
 /obj/map/light/screen,
 /turf/unsimulated/wall/auto/reinforced/supernorn,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "fv" = (
 /obj/lattice,
 /turf/space/fluid/noexplosion/nospawn,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "fw" = (
 /obj/decal/fakeobjects/apc_broken{
 	pixel_y = -32
@@ -2076,7 +2076,7 @@
 /obj/table/wood/auto,
 /obj/dialogueobj/plantoflosthope,
 /turf/unsimulated/floor/carpet/arcade,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "fx" = (
 /obj/decal/cleanable/blood/tracks{
 	icon_state = "drip5"
@@ -2085,14 +2085,14 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "fy" = (
 /obj/machinery/door/airlock/pyro/engineering{
 	dir = 4
 	},
 /obj/firedoor_spawn,
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "fz" = (
 /obj/item/scrap,
 /obj/decal/fakeobjects{
@@ -2104,7 +2104,7 @@
 	name = "old gas turbine"
 	},
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "fA" = (
 /obj/machinery/door/airlock/pyro/weapons/noemag{
 	id = "polarisdoor";
@@ -2113,28 +2113,28 @@
 /obj/access_spawn/polarisimportant,
 /obj/firedoor_spawn,
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "fB" = (
 /obj/decal/cleanable/dirt/dirt4,
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "fC" = (
 /obj/dialogueobj/syndiecorpse10,
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "fD" = (
 /obj/decal/cleanable/blood/splatter{
 	icon_state = "floor2"
 	},
 /obj/dialogueobj/securitycorpse6,
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "fE" = (
 /turf/unsimulated/floor/damaged5,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "fF" = (
 /turf/unsimulated/floor/damaged1,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "fG" = (
 /obj/machinery/handscanner{
 	pixel_y = 32
@@ -2146,10 +2146,10 @@
 	name = "Unmarked Robot"
 	},
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "fH" = (
 /turf/unsimulated/floor/damaged2,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "fI" = (
 /obj/decoration/weirdmark{
 	desc = "A twin pair of weird looking energy burns on the wall, it looks like nothing you have ever seen before.";
@@ -2161,10 +2161,10 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "fJ" = (
 /turf/unsimulated/floor/damaged4,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "fK" = (
 /obj/decal/cleanable/dirt/dirt5,
 /obj/item/parts/human_parts/arm/right/polaris,
@@ -2172,11 +2172,11 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "fL" = (
 /obj/dialogueobj/engineerscorpse,
 /turf/unsimulated/floor/yellow,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "fM" = (
 /obj/machinery/door/airlock/pyro/maintenance,
 /obj/firedoor_spawn,
@@ -2184,7 +2184,7 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "fN" = (
 /obj/machinery/door/airlock/pyro/maintenance{
 	dir = 8;
@@ -2193,7 +2193,7 @@
 	},
 /obj/firedoor_spawn,
 /turf/unsimulated/floor/plating,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "fO" = (
 /obj/machinery/door/airlock/pyro/maintenance{
 	name = "NSS Polaris"
@@ -2203,40 +2203,40 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "fP" = (
 /obj/landmark{
 	name = "polarisfall"
 	},
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/teleport)
+/area/debris/wrecknsspolaris/outside/teleport)
 "fQ" = (
 /obj/machinery/shuttle/engine/heater{
 	dir = 8;
 	icon_state = "alt_heater"
 	},
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "fR" = (
 /obj/machinery/shuttle/engine/propulsion{
 	dir = 4;
 	icon_state = "alt_propulsion"
 	},
 /turf/space/fluid/noexplosion/nospawn,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "fS" = (
 /obj/grille/catwalk{
 	dir = 10;
 	icon_state = "catwalk_cross"
 	},
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "fT" = (
 /obj/grille/catwalk{
 	dir = 6
 	},
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "fU" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	dir = 1
@@ -2248,7 +2248,7 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "fV" = (
 /obj/decal/cleanable/dirt,
 /obj/decoration/bullethole{
@@ -2258,7 +2258,7 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "fW" = (
 /obj/item/scrap,
 /obj/decoration/bullethole{
@@ -2268,11 +2268,11 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "fX" = (
 /obj/decal/cleanable/blood/tracks,
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "fY" = (
 /obj/decoration/weirdmark{
 	desc = "Yet another weid energy marking, this one going deeper into the vault. What the..";
@@ -2286,7 +2286,7 @@
 	name = "Unmarked Robot"
 	},
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "fZ" = (
 /obj/decal/cleanable/dirt/dirt4,
 /obj/decal/fakeobjects{
@@ -2298,34 +2298,34 @@
 	name = "security camera"
 	},
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "ga" = (
 /obj/decoration/ntcrate/ntcrate2,
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "gb" = (
 /obj/decal/cleanable/dirt/dirt4,
 /obj/storage/crate/wooden,
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "gc" = (
 /obj/decal/cleanable/dirt/dirt2,
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "gd" = (
 /obj/storage/crate/wooden,
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "ge" = (
 /obj/item/broken_egun,
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris)
+/area/debris/wrecknsspolaris)
 "gf" = (
 /obj/decoration/ntcrate{
 	desc = "Assortment of two metal crates, both of them sealed shut."
 	},
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "gg" = (
 /obj/machinery/door/airlock/pyro/weapons/noemag{
 	name = "Cargo Bay"
@@ -2333,25 +2333,25 @@
 /obj/access_spawn/polariscargo,
 /obj/firedoor_spawn,
 /turf/unsimulated/floor/black,
-/area/wrecknsspolaris/vault)
+/area/debris/wrecknsspolaris/vault)
 "gh" = (
 /obj/grille/catwalk{
 	dir = 6;
 	icon_state = "catwalk_cross"
 	},
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "gi" = (
 /obj/machinery/shuttle/engine/heater{
 	icon_state = "alt_heater-R"
 	},
 /turf/space/fluid/noexplosion/nospawn,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "gj" = (
 /obj/item/scrap,
 /obj/item/tile/steel,
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "gk" = (
 /obj/item/raw_material/rock,
 /obj/machinery/shuttle/engine/propulsion{
@@ -2359,14 +2359,14 @@
 	icon_state = "alt_propulsion"
 	},
 /turf/space/fluid/noexplosion/nospawn,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "gl" = (
 /obj/dialogueobj/syndiecorpse11,
 /obj/decal/cleanable/blood/splatter{
 	icon_state = "gibbl2"
 	},
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "gm" = (
 /obj/item/casing/rifle{
 	alpha = 200;
@@ -2385,7 +2385,7 @@
 	pixel_y = -3
 	},
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/back)
+/area/debris/wrecknsspolaris/outside/back)
 "gn" = (
 /obj/ladder{
 	icon_state = "ladder_wall";
@@ -2393,56 +2393,56 @@
 	pixel_y = 24
 	},
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/teleport)
+/area/debris/wrecknsspolaris/outside/teleport)
 "go" = (
 /obj/item/sheet/steel,
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/teleport)
+/area/debris/wrecknsspolaris/outside/teleport)
 "gp" = (
 /obj/decal/cleanable/machine_debris{
 	icon_state = "gib7"
 	},
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/teleport)
+/area/debris/wrecknsspolaris/outside/teleport)
 "gq" = (
 /obj/item/raw_material/shard/glass,
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/teleport)
+/area/debris/wrecknsspolaris/outside/teleport)
 "gr" = (
 /obj/item/raw_material/scrap_metal,
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/teleport)
+/area/debris/wrecknsspolaris/outside/teleport)
 "gs" = (
 /obj/item/scrap,
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/teleport)
+/area/debris/wrecknsspolaris/outside/teleport)
 "gt" = (
 /obj/item/raw_material/rock,
 /obj/landmark{
 	name = "polarisfall"
 	},
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside/teleport)
+/area/debris/wrecknsspolaris/outside/teleport)
 "gu" = (
 /obj/landmark{
 	name = "polarisfall"
 	},
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside)
+/area/debris/wrecknsspolaris/outside)
 "gv" = (
 /obj/item/raw_material/shard/glass,
 /obj/landmark{
 	name = "polarisfall"
 	},
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside)
+/area/debris/wrecknsspolaris/outside)
 "gw" = (
 /obj/item/raw_material/rock,
 /obj/landmark{
 	name = "polarisfall"
 	},
 /turf/space/fluid/noexplosion,
-/area/wrecknsspolaris/outside)
+/area/debris/wrecknsspolaris/outside)
 "gx" = (
 /obj/random_item_spawner/junk/one_or_zero,
 /turf/space/fluid/noexplosion,
@@ -3280,27 +3280,27 @@
 "iC" = (
 /turf/space,
 /turf/unsimulated/wall/auto/reinforced/supernorn,
-/area/mantavault)
+/area/debris/mantavault)
 "iD" = (
 /obj/indestructible/invisible_block/opaque,
 /turf/unsimulated/floor/longtile/black,
-/area/mantavault)
+/area/debris/mantavault)
 "iE" = (
 /obj/decoration/ntcratesmall{
 	dir = 4
 	},
 /turf/unsimulated/floor/longtile/black,
-/area/mantavault)
+/area/debris/mantavault)
 "iF" = (
 /turf/space,
 /turf/unsimulated/floor/longtile/black,
-/area/mantavault)
+/area/debris/mantavault)
 "iG" = (
 /obj/dialogueobj/keyhole{
 	pixel_y = 32
 	},
 /turf/unsimulated/floor/longtile/black,
-/area/mantavault)
+/area/debris/mantavault)
 "iH" = (
 /obj/decal/cleanable/gangtag{
 	desc = "Lies of the kings lie behinds this door. Madness and terror, don't make an error. - Ratman";
@@ -3311,25 +3311,25 @@
 	pixel_y = 32
 	},
 /turf/unsimulated/floor/longtile/black,
-/area/mantavault)
+/area/debris/mantavault)
 "iI" = (
 /obj/decoration/ntcrate/ntcrate2,
 /turf/unsimulated/floor/longtile/black,
-/area/mantavault)
+/area/debris/mantavault)
 "iJ" = (
 /obj/machinery/light/incandescent/netural,
 /turf/unsimulated/floor/longtile/black,
-/area/mantavault)
+/area/debris/mantavault)
 "iK" = (
 /obj/decoration/ntcrate{
 	desc = "Assortment of two metal crates, both of them sealed shut."
 	},
 /turf/unsimulated/floor/longtile/black,
-/area/mantavault)
+/area/debris/mantavault)
 "iL" = (
 /obj/decoration/ntcratesmall,
 /turf/unsimulated/floor/longtile/black,
-/area/mantavault)
+/area/debris/mantavault)
 "AE" = (
 /turf/space,
 /turf/unsimulated/wall/trench,
@@ -3345,24 +3345,24 @@
 	pixel_y = 0
 	},
 /turf/unsimulated/floor/longtile/black,
-/area/mantavault)
+/area/debris/mantavault)
 "AL" = (
 /turf/space,
 /turf/unsimulated/floor/special/fogofcheating,
-/area/mantavault)
+/area/debris/mantavault)
 "AR" = (
 /turf/unsimulated/floor/special/fogofcheating,
-/area/mantavault)
+/area/debris/mantavault)
 "AV" = (
 /obj/vaultdoor,
 /turf/unsimulated/floor/longtile/black,
-/area/mantavault)
+/area/debris/mantavault)
 "Bg" = (
 /turf/unsimulated/wall/auto/reinforced/supernorn,
-/area/mantavault)
+/area/debris/mantavault)
 "Co" = (
 /turf/unsimulated/floor/longtile/black,
-/area/mantavault)
+/area/debris/mantavault)
 "Cr" = (
 /turf/space,
 /turf/space,

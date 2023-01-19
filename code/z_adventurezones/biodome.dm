@@ -22,7 +22,7 @@ CRASHING SATTELITE
 SYNDICATE DRONE FACTORY AREAS
 \*----------------------------------------------------------------------------- */
 
-/area/crater
+/area/adventure/crater
 	name = "Cenote"  // renamed, crater doesn't make any sense here
 	icon_state = "yellow"
 	force_fullbright = 0
@@ -31,7 +31,7 @@ SYNDICATE DRONE FACTORY AREAS
 	sims_score = 30
 	sound_group = "biodome"
 
-/area/crater/biodome
+/area/adventure/crater/biodome
 	name = "Botanical Research Outpost Gamma"
 	icon_state = "green"
 	force_fullbright = 0
@@ -67,7 +67,7 @@ SYNDICATE DRONE FACTORY AREAS
 		icon_state = "yellow"
 		sound_environment = 3
 
-/area/crater/cave
+/area/adventure/crater/cave
 	name = "Caves"
 	icon_state = "purple"
 	force_fullbright = 0
@@ -75,7 +75,7 @@ SYNDICATE DRONE FACTORY AREAS
 	skip_sims = 1
 	sims_score = 30
 
-/area/crater/cave/lower
+/area/adventure/crater/cave/lower
 	name = "Lower Caves"
 	icon_state = "purple"
 	force_fullbright = 0
@@ -277,10 +277,10 @@ SYNDICATE DRONE FACTORY AREAS
 		sound_environment = 8
 ////////////////////// crypt place
 
-/area/crypt
+/area/adventure/crypt
 	sound_group = "crypt"
 
-/area/crypt/graveyard
+/area/adventure/crypt/graveyard
 	name = "Graveyard"
 	icon_state = "green"
 	force_fullbright = 0
@@ -309,13 +309,13 @@ SYNDICATE DRONE FACTORY AREAS
 							M.client.playAmbience(src, AMBIENCE_FX_2, 50)
 
 
-/area/crypt/graveyard/swamp
+/area/adventure/crypt/graveyard/swamp
 	name = "Courtyard" // renamed
 	icon_state = "red"
 	skip_sims = 1
 	sims_score = 30
 
-/area/crypt/mausoleum
+/area/adventure/crypt/mausoleum
 	name = "Mausoleum"
 	icon_state = "purple"
 	force_fullbright = 0
@@ -326,40 +326,40 @@ SYNDICATE DRONE FACTORY AREAS
 
 
 //// Jam Mansion 3.0
-/area/crypt/sigma
+/area/adventure/crypt/sigma
 	name = "Research Facility Sigma"
 	icon_state = "derelict"
 	sound_loop = 'sound/ambience/spooky/Evilreaver_Ambience.ogg'
 
-/area/crypt/sigma/mainhall
+/area/adventure/crypt/sigma/mainhall
 	icon_state = "chapel"
 	name = "Research Facility Sigma"
 
-/area/crypt/sigma/rd
+/area/adventure/crypt/sigma/rd
 	icon_state = "bridge"
 	name = "Director's Quarters"
 
-/area/crypt/sigma/lab
+/area/adventure/crypt/sigma/lab
 	icon_state = "toxlab"
 	name = "Laboratory"
 
-/area/crypt/sigma/crew
+/area/adventure/crypt/sigma/crew
 	icon_state = "crewquarters"
 	name = "Crew Quarters"
 
-/area/crypt/sigma/kitchen
+/area/adventure/crypt/sigma/kitchen
 	icon_state = "kitchen"
 	name = "Kitchen"
 
-/area/crypt/sigma/storage
+/area/adventure/crypt/sigma/storage
 	icon_state = "storage"
 	name = "Storage Rooms"
 
-/area/crypt/sigma/morgue
+/area/adventure/crypt/sigma/morgue
 	icon_state = "purple"
 	name = "Morgue"
 
-/area/catacombs
+/area/adventure/catacombs
 	name = "Catacombs"
 	icon_state = "purple"
 	force_fullbright = 0
@@ -1270,7 +1270,7 @@ SYNDICATE DRONE FACTORY AREAS
 			playsound(src.loc, "sound/machines/whistlebeep.ogg", 50, 1)
 			return
 
-		var/area/crypt/graveyard/ourArea = get_area(user)
+		var/area/adventure/crypt/graveyard/ourArea = get_area(user)
 		if (!istype(ourArea))
 			boutput(user, "<span class='alert'>The [src.name] emits a rude beep! It appears to have no signal.</span>")
 			playsound(src.loc, "sound/machines/whistlebeep.ogg", 50, 1)
@@ -1374,7 +1374,7 @@ var/satellite_crash_event_status = -1
 			if (O.density && O.anchored && O != portal)
 				qdel(O)
 
-		var/area/drone/zone/drone_zone = locate()
+		var/area/adventure/drone/zone/drone_zone = locate()
 		if (istype(drone_zone))
 			var/obj/decal/fakeobjects/teleport_pad/pad = locate() in drone_zone.contents
 			if (istype(pad))
@@ -1389,29 +1389,29 @@ var/satellite_crash_event_status = -1
 		qdel(src)
 
 /////////////////////syndicate drone factory areas
-/area/drone
+/area/adventure/drone
 	name = "Drone Assembly Outpost"
 	icon_state = "red"
 	sound_environment = 10
 	sound_group = "drone_factory"
 
-/area/drone/zone
+/area/adventure/drone/zone
 
-/area/drone/crew_quarters
+/area/adventure/drone/crew_quarters
 	name = "Crew Quarters"
 	icon_state = "showers"
 	sound_environment = 4
 
-/area/drone/engineering
+/area/adventure/drone/engineering
 	name = "Engineering"
 	icon_state = "yellow"
 	sound_environment = 5
 
-/area/drone/office
+/area/adventure/drone/office
 	name = "Design Office"
 	icon_state = "purple"
 
-/area/drone/assembly
+/area/adventure/drone/assembly
 	name = "Assembly Floor"
 	icon_state = "storage"
 

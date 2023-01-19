@@ -852,7 +852,7 @@
 /area/jones/radiation)
 "cd" = (
 /turf/unsimulated/wall/setpieces/hospital,
-/area/hospital)
+/area/adventure/hospital)
 "ce" = (
 /obj/item/storage/toilet{
 	dir = 4;
@@ -860,7 +860,7 @@
 	tag = ""
 	},
 /turf/unsimulated/floor/specialroom/freezer,
-/area/hospital)
+/area/adventure/hospital)
 "cf" = (
 /obj/decal/cleanable/gangtag{
 	desc = "A hastily-scrawled sequence of numbers: 1-949-415-6298. What does it mean?";
@@ -871,16 +871,16 @@
 	pixel_y = -28
 	},
 /turf/unsimulated/floor/specialroom/freezer,
-/area/hospital)
+/area/adventure/hospital)
 "cg" = (
 /obj/machinery/door/airlock{
 	name = "Bathroom"
 	},
 /turf/unsimulated/floor/specialroom/freezer,
-/area/hospital)
+/area/adventure/hospital)
 "ch" = (
 /turf/unsimulated/floor/white/grime,
-/area/hospital)
+/area/adventure/hospital)
 "ci" = (
 /obj/map/light/green,
 /obj/decal/cleanable/molten_item,
@@ -963,21 +963,21 @@
 	dir = 4;
 	icon_state = "panelwall_junction"
 	},
-/area/hospital)
+/area/adventure/hospital)
 "cs" = (
 /turf/unsimulated/wall/setpieces/hospital{
 	dir = 4
 	},
-/area/hospital)
+/area/adventure/hospital)
 "ct" = (
 /turf/unsimulated/wall/setpieces/hospital{
 	dir = 8;
 	icon_state = "panelwall_junction"
 	},
-/area/hospital)
+/area/adventure/hospital)
 "cu" = (
 /turf/unsimulated/floor/white,
-/area/hospital)
+/area/adventure/hospital)
 "cv" = (
 /obj/map/light/green,
 /obj/item/raw_material/shard/glass,
@@ -1106,7 +1106,7 @@
 	dir = 8
 	},
 /turf/unsimulated/floor/white,
-/area/hospital)
+/area/adventure/hospital)
 "cI" = (
 /obj/map/light/green,
 /obj/structure/girder/displaced,
@@ -1182,12 +1182,12 @@
 "cR" = (
 /obj/table/wood/round,
 /turf/unsimulated/floor/white/grime,
-/area/hospital)
+/area/adventure/hospital)
 "cS" = (
 /turf/unsimulated/wall/setpieces/hospital{
 	icon_state = "panelwall_cap"
 	},
-/area/hospital)
+/area/adventure/hospital)
 "cT" = (
 /obj/map/light/green,
 /obj/decal/cleanable/molten_item,
@@ -1264,14 +1264,14 @@
 /obj/stool/bed,
 /obj/item/clothing/suit/bedsheet,
 /turf/unsimulated/floor/white/grime,
-/area/hospital)
+/area/adventure/hospital)
 "dd" = (
 /obj/machinery/door/airlock/medical{
 	name = "Patient Room";
 	req_access_txt = ""
 	},
 /turf/unsimulated/floor/white/grime,
-/area/hospital)
+/area/adventure/hospital)
 "de" = (
 /obj/map/light/green,
 /obj/item/raw_material/uqill,
@@ -1310,14 +1310,14 @@
 /turf/unsimulated/wall/setpieces/hospital{
 	dir = 5
 	},
-/area/hospital)
+/area/adventure/hospital)
 "dj" = (
 /obj/machinery/light/worn{
 	brightness = 2;
 	dir = 8
 	},
 /turf/unsimulated/floor/white,
-/area/hospital)
+/area/adventure/hospital)
 "dk" = (
 /obj/map/light/green,
 /obj/decal/cleanable/molten_item,
@@ -1534,7 +1534,7 @@
 "dG" = (
 /obj/table/wood/round,
 /turf/unsimulated/floor/white,
-/area/hospital)
+/area/adventure/hospital)
 "dH" = (
 /turf/unsimulated/wall/auto/gannets/cat,
 /area/jones/bar)
@@ -1775,7 +1775,7 @@
 	words = "remember me"
 	},
 /turf/unsimulated/floor/white/grime,
-/area/hospital)
+/area/adventure/hospital)
 "ei" = (
 /obj/stool/chair/wooden{
 	icon_state = "chair_wooden";
@@ -1872,7 +1872,7 @@
 "et" = (
 /obj/decal/cleanable/ash,
 /turf/unsimulated/floor/white/grime,
-/area/hospital)
+/area/adventure/hospital)
 "eu" = (
 /obj/stool/chair/wooden,
 /turf/unsimulated/floor/wood{
@@ -1932,18 +1932,18 @@
 /turf/unsimulated/wall/setpieces/hospital{
 	dir = 10
 	},
-/area/hospital)
+/area/adventure/hospital)
 "eC" = (
 /turf/unsimulated/wall/setpieces/hospital{
 	icon_state = "panelwall_junction"
 	},
-/area/hospital)
+/area/adventure/hospital)
 "eD" = (
 /turf/unsimulated/wall/setpieces/hospital{
 	dir = 4;
 	icon_state = "panelwall_cap"
 	},
-/area/hospital)
+/area/adventure/hospital)
 "eE" = (
 /obj/machinery/door/poddoor/blast/lunar{
 	desc = "A security door used to separate compartments.";
@@ -1953,7 +1953,7 @@
 	tag = "wards1"
 	},
 /turf/unsimulated/floor/white,
-/area/hospital)
+/area/adventure/hospital)
 "eF" = (
 /obj/table/wood/round/auto,
 /obj/item/game_kit,
@@ -2037,7 +2037,7 @@
 	anchored = 1
 	},
 /turf/unsimulated/floor/white/grime,
-/area/hospital)
+/area/adventure/hospital)
 "eO" = (
 /obj/table/wood/round/auto,
 /obj/item/shaker/salt,
@@ -2090,7 +2090,7 @@
 	dir = 4
 	},
 /turf/unsimulated/floor/white/grime,
-/area/hospital)
+/area/adventure/hospital)
 "eV" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -2155,7 +2155,7 @@
 	dir = 4
 	},
 /turf/unsimulated/floor/white/grime,
-/area/hospital)
+/area/adventure/hospital)
 "ff" = (
 /obj/critter/cat/jones,
 /turf/unsimulated/floor/wood{
@@ -3075,17 +3075,17 @@
 /area/jones/alley)
 "hn" = (
 /turf/unsimulated/wall/setpieces/hospital/cavern,
-/area/hospital/underground)
+/area/adventure/hospital/underground)
 "ho" = (
 /turf/unsimulated/wall/setpieces/hospital{
 	dir = 9
 	},
-/area/hospital/underground)
+/area/adventure/hospital/underground)
 "hp" = (
 /turf/unsimulated/wall/setpieces/hospital{
 	dir = 4
 	},
-/area/hospital/underground)
+/area/adventure/hospital/underground)
 "hq" = (
 /turf/unsimulated/wall{
 	desc = "It's sealed shut.";
@@ -3125,10 +3125,10 @@
 /area/jones/litterbox)
 "hv" = (
 /turf/unsimulated/wall/setpieces/hospital,
-/area/hospital/underground)
+/area/adventure/hospital/underground)
 "hw" = (
 /turf/unsimulated/floor/plating/scorched,
-/area/hospital/underground)
+/area/adventure/hospital/underground)
 "hx" = (
 /obj/machinery/door/unpowered/wood,
 /turf/unsimulated/floor/wood{
@@ -3149,7 +3149,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/hospital/underground)
+/area/adventure/hospital/underground)
 "hB" = (
 /obj/critter/cat/jones,
 /turf/unsimulated/floor/wood{
@@ -3167,13 +3167,13 @@
 	dir = 4;
 	icon_state = "panelwall_junction"
 	},
-/area/hospital/underground)
+/area/adventure/hospital/underground)
 "hE" = (
 /turf/unsimulated/wall/setpieces/hospital{
 	dir = 4;
 	icon_state = "panelwall_cap"
 	},
-/area/hospital/underground)
+/area/adventure/hospital/underground)
 "hF" = (
 /obj/table/wood/round/auto,
 /obj/random_item_spawner/desk_stuff,
@@ -3205,7 +3205,7 @@
 	dir = 8;
 	icon_state = "panelwall_junction"
 	},
-/area/hospital/underground)
+/area/adventure/hospital/underground)
 "hJ" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -3218,7 +3218,7 @@
 	pixel_y = -10
 	},
 /turf/unsimulated/floor/plating/scorched,
-/area/hospital/underground)
+/area/adventure/hospital/underground)
 "hK" = (
 /obj/stool/bed,
 /obj/item/clothing/suit/bedsheet{
@@ -3245,7 +3245,7 @@
 /obj/item/storage/box/mousetraps,
 /obj/item/storage/box/lightbox/tubes,
 /turf/unsimulated/floor/plating/scorched,
-/area/hospital/underground)
+/area/adventure/hospital/underground)
 "hN" = (
 /obj/machinery/door/airlock/maintenance{
 	req_access_txt = ""
@@ -3253,7 +3253,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/hospital/underground)
+/area/adventure/hospital/underground)
 "hO" = (
 /turf/unsimulated/floor/plating/damaged1,
 /area/jones)
@@ -3357,19 +3357,19 @@
 	anchored = 1
 	},
 /turf/unsimulated/floor/plating/damaged3,
-/area/hospital/underground)
+/area/adventure/hospital/underground)
 "hV" = (
 /obj/stool/chair{
 	dir = 8
 	},
 /turf/unsimulated/floor/plating/scorched,
-/area/hospital/underground)
+/area/adventure/hospital/underground)
 "hW" = (
 /turf/unsimulated/wall/setpieces/hospital{
 	dir = 1;
 	icon_state = "panelwall_cap"
 	},
-/area/hospital/underground)
+/area/adventure/hospital/underground)
 "hX" = (
 /turf/unsimulated/aprilfools/grass,
 /area/jones)
@@ -3449,7 +3449,7 @@
 /turf/unsimulated/wall/setpieces/hospital{
 	dir = 10
 	},
-/area/hospital/underground)
+/area/adventure/hospital/underground)
 "ii" = (
 /obj/item/reagent_containers/pill/catdrugs,
 /turf/unsimulated/aprilfools/grass,

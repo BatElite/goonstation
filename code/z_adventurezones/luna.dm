@@ -10,7 +10,7 @@ Contents:
 	A li'l fake bomb for an exhibit.
 **/
 
-/area/moon
+/area/adventure/moon
 	name = "moon"
 	icon_state = "blue"
 	filler_turf = "/turf/unsimulated/floor/lunar"
@@ -19,31 +19,31 @@ Contents:
 	ambient_light = rgb(0.9 * 255, 0.9 * 255, 0.9 * 255)
 	sound_group = "moon"
 
-/area/moon/underground
+/area/adventure/moon/underground
 	name = "Lunar Underground"
 	icon_state = "orange"
 	ambient_light = rgb(0.5 * 255, 0.5 * 255, 0.5 * 255)
 
-/area/moon/underground/hemera
+/area/adventure/moon/underground/hemera
 	name = "Hemera Lunar Office"
 	icon_state = "yellow"
 
-/area/moon/museum
+/area/adventure/moon/museum
 	name = "Museum of Lunar History"
 	icon_state = "purple"
 	ambient_light = rgb(0.5 * 255, 0.5 * 255, 0.5 * 255)
 	sound_loop = 'sound/ambience/industrial/LavaPowerPlant_Rumbling1.ogg'
 	sound_loop_vol = 60
 
-/area/moon/museum/New()
+/area/adventure/moon/museum/New()
 	. = ..()
 	START_TRACKING_CAT(TR_CAT_AREA_PROCESS)
 
-/area/moon/museum/disposing()
+/area/adventure/moon/museum/disposing()
 	STOP_TRACKING_CAT(TR_CAT_AREA_PROCESS)
 	. = ..()
 
-/area/moon/museum/area_process()
+/area/adventure/moon/museum/area_process()
 	if(prob(20))
 		src.sound_fx_2 = pick('sound/ambience/loop/Wind_Low.ogg',\
 		'sound/ambience/station/Machinery_Computers2.ogg',\
@@ -73,16 +73,16 @@ Contents:
 	name = "Elevator"
 
 
-/area/moon/museum/west
+/area/adventure/moon/museum/west
 	icon_state = "red"
 
-/area/moon/museum/giftshop
+/area/adventure/moon/museum/giftshop
 	icon_state = "green"
 
-/area/moon/monorail_station/museum
+/area/adventure/moon/monorail_station/museum
 	icon_state = "shuttle"
 
-/area/moon/monorail_station/district
+/area/adventure/moon/monorail_station/district
 	icon_state = "shuttle2"
 
 /turf/unsimulated/floor/lunar_shaft
@@ -650,7 +650,7 @@ Contents:
 
 	look_for_neat_thing()
 		var/area/ourArea = get_area(src.master)
-		if (istype(ourArea, /area/moon/underground))
+		if (istype(ourArea, /area/adventure/moon/underground))
 			if (!has_been_underground)
 				has_been_underground = TRUE
 				src.distracted = TRUE
@@ -660,7 +660,7 @@ Contents:
 						master.speak("I guess I could narrate?  I um, haven't ever been in the tunnels before.")
 					src.distracted = FALSE
 
-			if (!(neat_things_underground & NT_HEMERA) && istype(ourArea, /area/moon/underground/hemera))
+			if (!(neat_things_underground & NT_HEMERA) && istype(ourArea, /area/adventure/moon/underground/hemera))
 				src.distracted = TRUE
 				neat_things_underground |= NT_HEMERA
 
@@ -690,7 +690,7 @@ Contents:
 
 			return
 
-		if (istype(ourArea, /area/solarium) && !(src.neat_things & NT_SOLARIUM))
+		if (istype(ourArea, /area/adventure/solarium) && !(src.neat_things & NT_SOLARIUM))
 			FOUND_NEAT(NT_SOLARIUM)
 				master.speak("Huh, this place is weird!  This is some ship and that's our sun, right?")
 				if (prob(25))
@@ -753,9 +753,9 @@ Contents:
 						sleep(5 SECOND)
 						if (src.master)
 							var/area/masterArea = get_area(src.master)
-							if (istype(masterArea, /area/russian) || istype(masterArea, /area/debris/salyut) || istype(masterArea, /area/hospital/samostrel))
+							if (istype(masterArea, /area/russian) || istype(masterArea, /area/debris/salyut) || istype(masterArea, /area/adventure/hospital/samostrel))
 								src.master.speak("I hope they don't ask for a travel visa...")
-							else if (istype(masterArea, /area/moon))
+							else if (istype(masterArea, /area/adventure/moon))
 								src.master.speak("You um, don't have to visit the security annex.  That's for humans.  Oh, also fruit.  If you have any fruit or seeds you need to check that in.")
 							else
 								src.master.speak("Is this one of those \"Khrushchev in a supermarket\" things?")

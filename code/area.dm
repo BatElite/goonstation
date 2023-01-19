@@ -501,7 +501,7 @@ ABSTRACT_TYPE(/area) // don't instantiate this directly dummies, use /area/space
 		ambient_light = null
 		force_fullbright = 1
 
-/area/cavetiny
+/area/adventure/cavetiny //Geminorum V
 	name = "Caves"
 	icon_state = "purple"
 	skip_sims = 1
@@ -510,7 +510,7 @@ ABSTRACT_TYPE(/area) // don't instantiate this directly dummies, use /area/space
 	sound_environment = 8
 	teleport_blocked = 1
 	sound_group = "tinycave"
-
+/*
 /area/fermented_potato
 	name = "????"
 	icon_state = "purple"
@@ -518,7 +518,7 @@ ABSTRACT_TYPE(/area) // don't instantiate this directly dummies, use /area/space
 	sims_score = 50
 	force_fullbright = 0
 	teleport_blocked = 1
-
+*/
 /area/area_that_kills_you_if_you_enter_it //People entering VR or exiting VR with stupid exploits are jerks.
 	name = "Invisible energy field that will kill you if you step into it"
 	skip_sims = 1
@@ -955,11 +955,18 @@ ABSTRACT_TYPE(/area/adventure)
 	name = "Adventure Zone"
 	icon_state = "purple"
 	force_fullbright = 0
-	sound_environment = 31
 	skip_sims = 1
-	sims_score = 30
-	virtual = 1
+	sims_score = 30 //I think with skip_sims enabled this does nothing whatsoever
 	expandable = 0
+
+//So, /area/adventure used to have these vars preset too, but that was when only /area/adventure/urs_dungeon and /area/adventure/channel existed
+//In an effort to clean up all the garbage that was the area resource tree I wanted to shove the many many loose azone areas under this grouping
+//And I figured I'd split this off since most azones are actually physical locations
+ABSTRACT_TYPE(/area/adventure/virtual)
+/area/adventure/virtual
+	virtual = 1
+	sound_environment = 31 //IDK what is up with this BTW the EAX presets only go up to 25
+
 
 
 // zewaka - debris field areas/Spacejunk //

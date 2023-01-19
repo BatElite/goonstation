@@ -23,22 +23,22 @@ meaty thoughts from cogwerks to his spacepal aibm:
 - add a horrible distorted wet gurgly scream for the cosmonauts when they attack	DONE
 */
 
-/area/meat_derelict
+/area/adventure/meat_derelict
 	icon_state = "red"
 	force_fullbright = 0
 	sound_group = "meat"
 	sound_loop = 'sound/ambience/spooky/Meatzone_BreathingSlow.ogg'
 	sound_loop_vol = 60
 
-/area/meat_derelict/New()
+/area/adventure/meat_derelict/New()
 	. = ..()
 	START_TRACKING_CAT(TR_CAT_AREA_PROCESS)
 
-/area/meat_derelict/disposing()
+/area/adventure/meat_derelict/disposing()
 	STOP_TRACKING_CAT(TR_CAT_AREA_PROCESS)
 	. = ..()
 
-/area/meat_derelict/area_process()
+/area/adventure/meat_derelict/area_process()
 	if(prob(20))
 		src.sound_fx_2 = pick('sound/ambience/spooky/Meatzone_Squishy.ogg',\
 			'sound/ambience/spooky/Meatzone_Gurgle.ogg',\
@@ -48,23 +48,23 @@ meaty thoughts from cogwerks to his spacepal aibm:
 		for(var/mob/living/carbon/human/H in src)
 			H.client?.playAmbience(src, AMBIENCE_FX_2, 60)
 
-/area/meat_derelict/entry
+/area/adventure/meat_derelict/entry
 	name = "Teleportation Lab"
 	icon_state = "telelab"
 
-/area/meat_derelict/main
+/area/adventure/meat_derelict/main
 	name = "Primary corridor"
 
-/area/meat_derelict/guts
+/area/adventure/meat_derelict/guts
 	name = "The Guts"
 	icon_state = "green"
 
-/area/meat_derelict/soviet
+/area/adventure/meat_derelict/soviet
 	name = "Samostrel patrol craft"
 	icon_state = "purple"
 	sound_loop = 'sound/ambience/spooky/Meatzone_BreathingAndAnthem.ogg'
 
-/area/meat_derelict/boss
+/area/adventure/meat_derelict/boss
 	name = "The Heart"
 	icon_state = "security"
 	sound_loop = 'sound/ambience/spooky/Meatzone_BreathingFast.ogg'

@@ -34527,7 +34527,7 @@
 /area/space)
 "bps" = (
 /turf/simulated/wall,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34542,7 +34542,7 @@
 	icon_state = "grasstodirt";
 	dir = 8
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34552,7 +34552,7 @@
 	icon_state = "grasstodirt";
 	dir = 1
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34563,7 +34563,7 @@
 	icon_state = "grasstodirt";
 	dir = 1
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34578,7 +34578,7 @@
 	icon_state = "grasstodirt";
 	dir = 4
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34624,27 +34624,27 @@
 	icon_state = "grasstodirt";
 	dir = 8
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bpB" = (
 /obj/tombstone,
 /turf/unsimulated/dirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bpC" = (
 /obj/item/brick,
 /turf/unsimulated/dirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bpD" = (
 /turf/unsimulated/dirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34653,7 +34653,7 @@
 	desc = "Here lies Gertrude Jam, thrown into a comically-oversized meat grinder.  RIP."
 	},
 /turf/unsimulated/dirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34662,7 +34662,7 @@
 	desc = "Here lies Thor Odinson, struck down by Ragnarok.  RIP."
 	},
 /turf/unsimulated/dirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34672,7 +34672,7 @@
 	icon_state = "grasstodirt";
 	dir = 4
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34693,7 +34693,7 @@
 	desc = "Here lies Ruford F. Jam, taken from us before his time by GBS.  RIP."
 	},
 /turf/unsimulated/dirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34702,7 +34702,7 @@
 	desc = "Here lies Andrew K. Jam, crushed to death by a mulebot.  RIP."
 	},
 /turf/unsimulated/dirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34715,7 +34715,7 @@
 	punch_damage_min = 11
 	},
 /turf/unsimulated/dirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34724,7 +34724,7 @@
 	desc = "Here lies Garry Jam, beaten to death by an assistant.  RIP."
 	},
 /turf/unsimulated/dirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34733,7 +34733,7 @@
 	desc = "Here lies Dr. Von Overdose, simultaneously punched in the dick by every person on the station.  RIP."
 	},
 /turf/unsimulated/dirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34744,20 +34744,20 @@
 	icon_state = "grasstodirt";
 	dir = 8
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bpP" = (
 /obj/critter/spirit,
 /turf/unsimulated/grasstodirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bpQ" = (
 /turf/unsimulated/grasstodirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34767,7 +34767,7 @@
 	icon_state = "grasstodirt";
 	dir = 10
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34775,7 +34775,7 @@
 /turf/simulated/floor{
 	icon_state = "carpetNW"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34783,7 +34783,7 @@
 /turf/simulated/floor{
 	icon_state = "carpetN"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34794,7 +34794,7 @@
 /turf/simulated/floor{
 	icon_state = "carpetNE"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34804,13 +34804,13 @@
 	name = "Paper-'Scrawled Note'"
 	},
 /turf/simulated/wall,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bpW" = (
 /turf/simulated/floor/black,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34818,14 +34818,14 @@
 /turf/simulated/floor{
 	icon_state = "carpetW"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bpY" = (
 /obj/stool/chair,
 /turf/simulated/floor/carpet,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34833,7 +34833,7 @@
 /turf/simulated/floor{
 	icon_state = "carpetE"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34845,14 +34845,14 @@
 	icon_state = "floor5"
 	},
 /turf/simulated/floor/sanitary,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bqb" = (
 /obj/secure_closet/meat,
 /turf/simulated/floor/sanitary,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34860,14 +34860,14 @@
 /obj/item/reagent_containers/food/drinks/cola_bottle/blue,
 /obj/item/reagent_containers/food/drinks/cola_bottle/blue,
 /turf/simulated/floor/sanitary,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bqd" = (
 /obj/secure_closet/kitchen,
 /turf/simulated/floor/sanitary,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34878,14 +34878,14 @@
 	dir = 8
 	},
 /turf/unsimulated/grasstodirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bqf" = (
 /obj/machinery/light/small,
 /turf/unsimulated/grasstodirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34896,7 +34896,7 @@
 	dir = 4
 	},
 /turf/unsimulated/grasstodirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34907,7 +34907,7 @@
 /turf/simulated/floor{
 	icon_state = "carpetW"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34918,7 +34918,7 @@
 /turf/simulated/floor{
 	icon_state = "carpet1"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34929,7 +34929,7 @@
 /turf/simulated/floor{
 	icon_state = "carpetE"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34938,20 +34938,20 @@
 	dir = 8
 	},
 /turf/simulated/floor/black,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bql" = (
 /turf/simulated/floor/sanitary,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bqm" = (
 /obj/reagent_dispensers/watertank,
 /turf/simulated/floor/sanitary,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34961,7 +34961,7 @@
 	name = "Graveyard"
 	},
 /turf/simulated/floor/black,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34972,7 +34972,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/black,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34984,7 +34984,7 @@
 	},
 /obj/item/reagent_containers/glass/large,
 /turf/simulated/floor/carpet,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -34998,7 +34998,7 @@
 /turf/simulated/floor{
 	icon_state = "carpetE"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35009,7 +35009,7 @@
 	icon_state = "floor6"
 	},
 /turf/simulated/floor/sanitary,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35019,20 +35019,20 @@
 	name = "Freezer"
 	},
 /turf/simulated/floor/sanitary,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bqt" = (
 /turf/simulated/floor/specialroom/bar,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bqu" = (
 /obj/submachine/chef_oven,
 /turf/simulated/floor/specialroom/bar,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35040,7 +35040,7 @@
 /obj/decal/cleanable/cobweb2,
 /obj/submachine/chef_sink,
 /turf/simulated/floor/specialroom/bar,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35054,7 +35054,7 @@
 /turf/simulated/floor{
 	icon_state = "carpet1"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35067,14 +35067,14 @@
 /turf/simulated/floor{
 	icon_state = "carpetE"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bqy" = (
 /obj/crate/freezer,
 /turf/simulated/floor/sanitary,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35084,7 +35084,7 @@
 /obj/item/reagent_containers/food/drinks/wine,
 /obj/item/reagent_containers/food/drinks/wine,
 /turf/simulated/floor/sanitary,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35095,7 +35095,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/black,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35104,7 +35104,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/carpet,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35115,13 +35115,13 @@
 /turf/simulated/floor{
 	icon_state = "carpetE"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bqD" = (
 /turf/unsimulated/wall/other,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35131,7 +35131,7 @@
 	name = "Kitchen"
 	},
 /turf/simulated/floor/black,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35142,13 +35142,13 @@
 /turf/simulated/floor{
 	icon_state = "carpet1"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bqG" = (
 /turf/simulated/wall/r_wall,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35156,20 +35156,20 @@
 /obj/stool/bed,
 /obj/item/clothing/suit/bedsheet,
 /turf/simulated/floor/carpet/grime,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bqI" = (
 /turf/simulated/floor/carpet/grime,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bqJ" = (
 /obj/item/reagent_containers/glass/bottle/antitoxin,
 /turf/simulated/floor/carpet/grime,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35178,14 +35178,14 @@
 /obj/item/clothing/suit/bedsheet,
 /obj/item/reagent_containers/glass/bottle,
 /turf/simulated/floor/carpet/grime,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bqL" = (
 /obj/secure_closet/fridge,
 /turf/simulated/floor/specialroom/bar,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35198,7 +35198,7 @@
 	name = "Paper-'Scrawled Note'"
 	},
 /turf/simulated/floor/specialroom/bar,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35209,7 +35209,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/specialroom/bar,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35221,7 +35221,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/specialroom/bar,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35233,7 +35233,7 @@
 	},
 /obj/item/reagent_containers/food/drinks/cola_bottle/spooky,
 /turf/simulated/floor/specialroom/bar,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35242,7 +35242,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/specialroom/bar,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35250,7 +35250,7 @@
 /turf/simulated/floor{
 	icon_state = "carpetSW"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35258,7 +35258,7 @@
 /turf/simulated/floor{
 	icon_state = "carpetS"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35266,7 +35266,7 @@
 /turf/simulated/floor{
 	icon_state = "carpetSE"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35276,7 +35276,7 @@
 	d2 = 2
 	},
 /turf/simulated/floor/black,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35285,14 +35285,14 @@
 	dir = 5
 	},
 /turf/simulated/floor/carpet/grime,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bqW" = (
 /obj/item/reagent_containers/syringe,
 /turf/simulated/floor/carpet/grime,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35302,7 +35302,7 @@
 	},
 /obj/item/reagent_containers/glass/beaker/strange_reagent,
 /turf/simulated/floor/carpet/grime,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35312,7 +35312,7 @@
 	name = "Dining Hall"
 	},
 /turf/simulated/floor/black,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35323,7 +35323,7 @@
 	d2 = 2
 	},
 /turf/simulated/wall,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35333,7 +35333,7 @@
 	name = "Bedroom"
 	},
 /turf/simulated/floor/black,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35344,7 +35344,7 @@
 	name = "Horace's Room"
 	},
 /turf/simulated/floor/black,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35357,7 +35357,7 @@
 	d2 = 2
 	},
 /turf/simulated/floor,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35366,7 +35366,7 @@
 	charge = 5e+006
 	},
 /turf/simulated/floor,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35381,13 +35381,13 @@
 	icon_state = "0-8"
 	},
 /turf/simulated/floor,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "brf" = (
 /turf/simulated/floor,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35403,7 +35403,7 @@
 /turf/simulated/floor{
 	icon_state = "carpetN"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35412,7 +35412,7 @@
 /turf/simulated/floor{
 	icon_state = "carpetNE"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35422,7 +35422,7 @@
 	icon_state = "grasstodirt";
 	dir = 6
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35445,7 +35445,7 @@
 	},
 /obj/window/reinforced,
 /turf/simulated/floor/plating,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35456,7 +35456,7 @@
 /obj/decal/cleanable/cobweb2,
 /obj/item/storage/goodybag,
 /turf/simulated/floor/carpet/grime,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35465,14 +35465,14 @@
 	dir = 1
 	},
 /turf/simulated/floor/black,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "brm" = (
 /obj/item/reagent_containers/syringe,
 /turf/simulated/floor/black,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35483,13 +35483,13 @@
 	d2 = 2
 	},
 /turf/simulated/floor,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bro" = (
 /turf/simulated/floor/carpet,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35500,7 +35500,7 @@
 	d2 = 2
 	},
 /turf/simulated/floor/carpet,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35517,7 +35517,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35528,7 +35528,7 @@
 	icon_state = "grasstodirt";
 	dir = 4
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35536,7 +35536,7 @@
 /turf/simulated/floor{
 	icon_state = "carpetNE"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35547,20 +35547,20 @@
 /turf/simulated/floor/neutral/side{
 	dir = 8
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bru" = (
 /obj/machinery/light/small,
 /turf/simulated/floor,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "brv" = (
 /turf/unsimulated/grass,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35569,7 +35569,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/carpet/grime,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35580,7 +35580,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/carpet,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35591,7 +35591,7 @@
 	d2 = 2
 	},
 /turf/simulated/floor/black,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35602,7 +35602,7 @@
 /turf/simulated/floor{
 	icon_state = "carpetN"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35612,7 +35612,7 @@
 	icon_state = "grasstodirt";
 	dir = 5
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35621,7 +35621,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/black,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35630,7 +35630,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/black,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35639,7 +35639,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/carpet,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35650,7 +35650,7 @@
 	dir = 10
 	},
 /turf/unsimulated/dirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35663,7 +35663,7 @@
 	icon_state = "grasstodirt";
 	dir = 4
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35676,7 +35676,7 @@
 /turf/simulated/floor{
 	icon_state = "carpetN"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35684,7 +35684,7 @@
 /turf/simulated/floor{
 	icon_state = "carpet2"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35692,7 +35692,7 @@
 /turf/simulated/floor{
 	icon_state = "carpet1"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35703,7 +35703,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/carpet,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35713,7 +35713,7 @@
 	name = "Quarters"
 	},
 /turf/simulated/floor/carpet,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35729,7 +35729,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/carpet,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35742,7 +35742,7 @@
 /turf/simulated/floor{
 	icon_state = "carpet1"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35768,7 +35768,7 @@
 	icon_state = "gibbl3"
 	},
 /turf/simulated/floor/carpet,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35779,7 +35779,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor/carpet,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35794,7 +35794,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor/carpet,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35810,7 +35810,7 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/carpet,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35822,7 +35822,7 @@
 /turf/simulated/floor{
 	icon_state = "carpetE"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35831,7 +35831,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/carpet,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35844,7 +35844,7 @@
 /turf/simulated/floor{
 	icon_state = "carpetS"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35863,7 +35863,7 @@
 	icon_state = "grasstodirt";
 	dir = 5
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35884,7 +35884,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35895,7 +35895,7 @@
 	icon_state = "floor2"
 	},
 /turf/simulated/floor/carpet/grime,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35906,7 +35906,7 @@
 	dir = 9
 	},
 /turf/unsimulated/dirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35917,14 +35917,14 @@
 	dir = 6
 	},
 /turf/unsimulated/dirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "brZ" = (
 /obj/item/shard,
 /turf/simulated/floor/carpet/grime,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35934,7 +35934,7 @@
 	},
 /obj/item/storage/bible,
 /turf/simulated/floor/carpet/grime,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35945,7 +35945,7 @@
 	dir = 1
 	},
 /turf/unsimulated/dirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35956,21 +35956,21 @@
 	dir = 8
 	},
 /turf/unsimulated/dirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bsd" = (
 /obj/decal/cleanable/cobweb,
 /turf/simulated/floor/carpet/grime,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bse" = (
 /obj/machinery/door/unpowered/wood,
 /turf/simulated/floor/plating,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35982,7 +35982,7 @@
 	},
 /obj/decal/cleanable/blood/tracks,
 /turf/unsimulated/dirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -35993,7 +35993,7 @@
 	dir = 4
 	},
 /turf/unsimulated/dirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36004,7 +36004,7 @@
 	dir = 5
 	},
 /turf/unsimulated/dirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36015,7 +36015,7 @@
 	pixel_y = -24
 	},
 /turf/simulated/floor/black,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36026,20 +36026,20 @@
 /turf/simulated/floor{
 	icon_state = "carpet1"
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bsk" = (
 /turf/simulated/floor/plating,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bsl" = (
 /obj/decal/cleanable/cobweb2,
 /turf/simulated/floor/plating,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36049,14 +36049,14 @@
 	name = "Jam Mansion"
 	},
 /turf/simulated/floor/black,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bsn" = (
 /obj/item/razor_blade,
 /turf/simulated/floor/plating,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36066,7 +36066,7 @@
 	icon_state = "gibbl2"
 	},
 /turf/unsimulated/dirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36077,7 +36077,7 @@
 	dir = 10
 	},
 /turf/unsimulated/dirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36089,7 +36089,7 @@
 	},
 /obj/decal/cleanable/blood/splatter,
 /turf/unsimulated/dirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36097,7 +36097,7 @@
 /turf/simulated/floor/neutral/side{
 	dir = 8
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36105,7 +36105,7 @@
 /turf/simulated/floor/neutral/side{
 	dir = 4
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36116,7 +36116,7 @@
 /turf/simulated/floor/neutral/side{
 	dir = 8
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36127,7 +36127,7 @@
 /turf/simulated/floor/neutral/side{
 	dir = 4
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36135,7 +36135,7 @@
 /turf/simulated/floor/neutral/side{
 	dir = 9
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36143,7 +36143,7 @@
 /turf/simulated/floor/neutral/corner{
 	dir = 1
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36151,7 +36151,7 @@
 /turf/simulated/floor/neutral/corner{
 	dir = 4
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36159,32 +36159,32 @@
 /turf/simulated/floor/neutral/side{
 	dir = 5
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bsz" = (
 /turf/simulated/floor/stairs/wide,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bsA" = (
 /turf/simulated/floor/stairs/wide/middle,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bsB" = (
 /turf/simulated/floor/stairs/wide/other,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bsC" = (
 /obj/shrub,
 /turf/unsimulated/grass,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36195,7 +36195,7 @@
 	dir = 4
 	},
 /turf/unsimulated/grass,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36205,7 +36205,7 @@
 	icon_state = "grasstodirt";
 	dir = 9
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36216,7 +36216,7 @@
 	icon_state = "grasstodirt";
 	dir = 4
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36232,7 +36232,7 @@
 	icon_state = "grasstodirt";
 	dir = 8
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36248,14 +36248,14 @@
 	icon_state = "grasstodirt";
 	dir = 4
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bsI" = (
 /obj/tree1,
 /turf/unsimulated/grass,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36266,7 +36266,7 @@
 	dir = 5
 	},
 /turf/unsimulated/grass,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36281,7 +36281,7 @@
 	icon_state = "grasstodirt";
 	dir = 1
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36297,7 +36297,7 @@
 	icon_state = "grasstodirt";
 	dir = 1
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36308,7 +36308,7 @@
 	icon_state = "grasstodirt";
 	dir = 8
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36323,7 +36323,7 @@
 	icon_state = "grasstodirt";
 	dir = 4
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36338,7 +36338,7 @@
 	icon_state = "grasstodirt";
 	dir = 8
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36349,7 +36349,7 @@
 	dir = 10
 	},
 /turf/unsimulated/grass,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36360,7 +36360,7 @@
 	dir = 8
 	},
 /turf/unsimulated/grasstodirt,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36375,7 +36375,7 @@
 	icon_state = "grasstodirt";
 	dir = 10
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36386,7 +36386,7 @@
 	icon_state = "grasstodirt";
 	dir = 4
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36397,7 +36397,7 @@
 	dir = 9
 	},
 /turf/unsimulated/grass,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
@@ -36408,20 +36408,20 @@
 	icon_state = "grasstodirt";
 	dir = 8
 	},
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bsV" = (
 /turf/simulated/floor/caution/north,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})
 "bsW" = (
 /obj/machinery/door/airlock/external,
 /turf/simulated/floor/caution/south,
-/area/crypt{
+/area/adventure/crypt{
 	name = "Jam Mansion";
 	requires_power = 1
 	})

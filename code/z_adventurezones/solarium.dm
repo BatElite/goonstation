@@ -7,7 +7,7 @@ CONTENTS:
 ////////////////////// cogwerks - solar lounge
 //keys are in keys.dm
 
-/area/solarium
+/area/adventure/solarium
 	name = "Solarium"
 	icon_state = "yellow"
 	force_fullbright = 0

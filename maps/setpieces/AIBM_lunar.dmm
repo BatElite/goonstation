@@ -4,13 +4,13 @@
 /area/space)
 "ab" = (
 /turf/unsimulated/wall/setpieces/lunar,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "ac" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 4;
 	icon_state = "leadjunction_white"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "ad" = (
 /turf/unsimulated/wall{
 	desc = "It's sealed shut.";
@@ -19,7 +19,7 @@
 	icon_state = "bdoorleft1";
 	name = "security door"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "ae" = (
 /turf/unsimulated/wall{
 	desc = "It's sealed shut.";
@@ -28,13 +28,13 @@
 	icon_state = "bdoorright1";
 	name = "security door"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "af" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 8;
 	icon_state = "leadjunction_white"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "ag" = (
 /turf/unsimulated/wall/setpieces/lunar,
 /area/space)
@@ -42,100 +42,100 @@
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 9
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "ai" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 6
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aj" = (
 /turf/unsimulated/floor/blue/side{
 	dir = 2
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "ak" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 10
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "al" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 5
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "am" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "an" = (
 /turf/unsimulated/floor/blue,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "ao" = (
 /obj/machinery/light/worn{
 	dir = 4
 	},
 /turf/unsimulated/floor/blue,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "ap" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 1;
 	icon_state = "leadjunction_white"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aq" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 4
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "ar" = (
 /turf/unsimulated/floor/white,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "as" = (
 /obj/table/reinforced/chemistry/auto,
 /turf/unsimulated/floor/white,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "at" = (
 /turf/unsimulated/floor/orangeblack/side/white{
 	dir = 4
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "au" = (
 /turf/unsimulated/floor/blue/side{
 	dir = 1
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "av" = (
 /obj/storage/closet/esdjacket,
 /turf/unsimulated/floor/white,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aw" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	icon_state = "leadcap_white"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "ax" = (
 /turf/unsimulated/floor{
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "ay" = (
 /turf/unsimulated/floor/carpet/office/other,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "az" = (
 /turf/unsimulated/floor/white/side{
 	dir = 8
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aA" = (
 /turf/unsimulated/wall/setpieces/leadwindow/white{
 	dir = 2;
 	icon_state = "leadwindow_white_2"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aB" = (
 /obj/table/wood/auto,
 /turf/unsimulated/floor/carpet/office/other,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aC" = (
 /obj/item/storage/toilet{
 	dir = 4;
@@ -143,23 +143,23 @@
 	tag = ""
 	},
 /turf/unsimulated/floor/specialroom/freezer,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aD" = (
 /obj/decal/cleanable/cobweb2,
 /turf/unsimulated/floor/specialroom/freezer,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aE" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 1;
 	icon_state = "leadcap_white"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aF" = (
 /obj/cable{
 	icon_state = "1-2"
 	},
 /turf/unsimulated/floor/grime,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aG" = (
 /obj/submachine/chef_sink/chem_sink{
 	desc = "A water-filled unit intended for hand-washing purposes.";
@@ -167,14 +167,14 @@
 	pixel_x = -2
 	},
 /turf/unsimulated/floor/specialroom/freezer,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aH" = (
 /obj/cable{
 	tag = "icon-0-2";
 	icon_state = "0-2"
 	},
 /turf/unsimulated/floor/specialroom/freezer,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aI" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -182,30 +182,30 @@
 /turf/unsimulated/floor/blue/side{
 	dir = 2
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aJ" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	icon_state = "leadjunction_white"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aK" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 4;
 	icon_state = "leadcap_white"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aL" = (
 /obj/machinery/door/airlock/glass{
 	name = "Conference Room"
 	},
 /turf/unsimulated/floor/carpet/office/other,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aM" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 8;
 	icon_state = "leadcap_white"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aN" = (
 /obj/machinery/power/data_terminal,
 /obj/cable{
@@ -215,7 +215,7 @@
 /turf/unsimulated/floor/bot/caution{
 	dir = 2
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aO" = (
 /obj/machinery/power/data_terminal,
 /obj/cable{
@@ -225,7 +225,7 @@
 /turf/unsimulated/floor/delivery/caution{
 	dir = 2
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aP" = (
 /obj/cable{
 	icon_state = "0-2";
@@ -235,12 +235,12 @@
 /turf/unsimulated/floor/bot/caution{
 	dir = 2
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aQ" = (
 /turf/unsimulated/floor/orangeblack{
 	dir = 2
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aR" = (
 /obj/machinery/door/airlock{
 	name = "Bathroom"
@@ -249,7 +249,7 @@
 	icon_state = "1-2"
 	},
 /turf/unsimulated/floor/specialroom/freezer,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aS" = (
 /obj/cable{
 	icon_state = "0-4";
@@ -260,7 +260,7 @@
 	dir = 4
 	},
 /turf/unsimulated/floor/blue,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aT" = (
 /obj/cable{
 	icon_state = "0-2";
@@ -272,19 +272,19 @@
 	},
 /obj/cable,
 /turf/unsimulated/floor/blue,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aU" = (
 /obj/window/cubicle{
 	dir = 9
 	},
 /obj/table/auto,
 /turf/unsimulated/floor/carpet/office/other,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aV" = (
 /obj/window/cubicle,
 /obj/table/auto,
 /turf/unsimulated/floor/carpet/office/other,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aW" = (
 /obj/cable{
 	d1 = 1;
@@ -294,7 +294,7 @@
 /turf/unsimulated/floor/orangeblack/side{
 	dir = 9
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aX" = (
 /obj/cable{
 	d2 = 8;
@@ -312,7 +312,7 @@
 /turf/unsimulated/floor/orangeblack/side{
 	dir = 1
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aY" = (
 /obj/cable{
 	icon_state = "4-8"
@@ -324,7 +324,7 @@
 /turf/unsimulated/floor/orangeblack/side{
 	dir = 1
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "aZ" = (
 /obj/cable{
 	icon_state = "4-8"
@@ -337,7 +337,7 @@
 /turf/unsimulated/floor/orangeblack/side{
 	dir = 5
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "ba" = (
 /obj/machinery/power/data_terminal,
 /obj/cable{
@@ -352,7 +352,7 @@
 /turf/unsimulated/floor/bot/caution{
 	dir = 2
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bb" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -361,7 +361,7 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bc" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -369,7 +369,7 @@
 /turf/unsimulated/floor/blue/side{
 	dir = 1
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bd" = (
 /obj/window/cubicle{
 	dir = 4
@@ -378,7 +378,7 @@
 	dir = 8
 	},
 /turf/unsimulated/floor/carpet/office/other,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "be" = (
 /obj/decal/fakeobjects/airlock_broken{
 	desc = "It's jammed, apparently.  Or just really locked.";
@@ -388,19 +388,19 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bf" = (
 /turf/unsimulated/floor/orangeblack/side{
 	dir = 8
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bg" = (
 /obj/machinery/power/data_terminal,
 /obj/cable,
 /turf/unsimulated/floor/bot{
 	dir = 2
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bh" = (
 /obj/cable{
 	icon_state = "1-4"
@@ -411,7 +411,7 @@
 /turf/unsimulated/floor/orangeblack/side{
 	dir = 4
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bi" = (
 /obj/cable{
 	icon_state = "1-4"
@@ -420,7 +420,7 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bj" = (
 /obj/cable{
 	icon_state = "2-8";
@@ -431,7 +431,7 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bk" = (
 /obj/window/cubicle{
 	icon_state = "cubicle";
@@ -439,7 +439,7 @@
 	},
 /obj/stool/chair/office/blue,
 /turf/unsimulated/floor/carpet/office/other,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bl" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -447,7 +447,7 @@
 /turf/unsimulated/floor/orangeblack/side{
 	dir = 4
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bm" = (
 /obj/plasticflaps{
 	name = "particularly dense plastic flaps";
@@ -456,7 +456,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bn" = (
 /obj/window/cubicle{
 	icon_state = "cubicle";
@@ -464,28 +464,28 @@
 	},
 /obj/table/auto,
 /turf/unsimulated/floor/carpet/office/other,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bo" = (
 /obj/window/cubicle{
 	dir = 10
 	},
 /obj/table/auto,
 /turf/unsimulated/floor/carpet/office/other,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bp" = (
 /turf/unsimulated/floor/grime,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bq" = (
 /obj/item/clothing/suit/esdjacket,
 /turf/unsimulated/floor/white,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "br" = (
 /obj/machinery/door/airlock/glass,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bs" = (
 /obj/machinery/door/airlock/command{
 	name = "Computer Core";
@@ -494,7 +494,7 @@
 /turf/unsimulated/floor/yellow/side{
 	dir = 2
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bt" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -502,14 +502,14 @@
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 4
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bu" = (
 /obj/decal/cleanable/cobweb,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bv" = (
 /obj/cable{
 	icon_state = "0-2";
@@ -524,7 +524,7 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bw" = (
 /obj/machinery/power/data_terminal,
 /obj/cable{
@@ -536,19 +536,19 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bx" = (
 /obj/machinery/door/window/northleft,
 /turf/unsimulated/floor/grey/side{
 	dir = 1
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "by" = (
 /obj/machinery/door/window/northright,
 /turf/unsimulated/floor/grey/side{
 	dir = 1
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bz" = (
 /turf/unsimulated/wall{
 	desc = "It's sealed shut.";
@@ -557,17 +557,17 @@
 	icon_state = "bdoorright1";
 	name = "security door"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bA" = (
 /turf/unsimulated/floor/yellow/side{
 	dir = 4
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bB" = (
 /turf/unsimulated/floor/yellow{
 	dir = 2
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bC" = (
 /obj/cable{
 	tag = "icon-1-4";
@@ -576,7 +576,7 @@
 /turf/unsimulated/floor/yellow/side{
 	dir = 8
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bD" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -587,7 +587,7 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bE" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -601,7 +601,7 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bF" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -611,7 +611,7 @@
 /turf/unsimulated/floor/yellow/side{
 	dir = 4
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bG" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -621,7 +621,7 @@
 /turf/unsimulated/floor/yellow{
 	dir = 2
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bH" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -631,7 +631,7 @@
 /turf/unsimulated/floor/yellow/side{
 	dir = 8
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bI" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -646,7 +646,7 @@
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bJ" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -654,7 +654,7 @@
 	d2 = 8
 	},
 /turf/unsimulated/floor/grime,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bK" = (
 /turf/unsimulated/wall{
 	desc = "It's sealed shut.";
@@ -663,29 +663,29 @@
 	icon_state = "bdoorleft1";
 	name = "security door"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bL" = (
 /turf/unsimulated/floor/yellow/side{
 	dir = 8
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bM" = (
 /obj/machinery/light/worn,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/floors.dmi';
 	icon_state = "floor"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bN" = (
 /turf/unsimulated/floor/red/corner{
 	dir = 2
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bO" = (
 /turf/unsimulated/floor/red/side{
 	dir = 2
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bP" = (
 /obj/machinery/door/airlock/maintenance{
 	req_access_txt = ""
@@ -693,26 +693,26 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bQ" = (
 /obj/machinery/door/airlock/security{
 	name = "Security Checkpoint";
 	req_access_txt = "255"
 	},
 /turf/unsimulated/floor/red,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bR" = (
 /obj/table/reinforced/auto,
 /obj/machinery/recharger,
 /turf/unsimulated/floor/red,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bS" = (
 /obj/table/reinforced/auto,
 /turf/unsimulated/floor/red,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bT" = (
 /turf/unsimulated/wall/setpieces/lunar,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "bU" = (
 /turf/unsimulated/floor/lunar_shaft{
 	isHemera = 1
@@ -728,7 +728,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bX" = (
 /obj/ladder{
 	id = "lunar_hemera"
@@ -736,32 +736,32 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bY" = (
 /turf/unsimulated/floor/red,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "bZ" = (
 /obj/decal/fakeobjects/firelock_broken{
 	desc = "Rust has rendered this firelock useless.  Well I mean actually it doesnt have much at all, but it's probably in key areas or something.  Get off my back."
 	},
 /turf/unsimulated/floor/red,
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "ca" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 9
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cb" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 4
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cc" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 8;
 	icon_state = "leadjunction_white"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cd" = (
 /turf/unsimulated/floor/lunar_shaft{
 	dir = 8;
@@ -779,7 +779,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "cg" = (
 /obj/item/mop{
 	desc = "<i>Moonmopper</i> was the worst James Bond movie.";
@@ -788,20 +788,20 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground/hemera)
+/area/adventure/moon/underground/hemera)
 "ch" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "ci" = (
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cj" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 10
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "ck" = (
 /obj/decal/fakeobjects/firelock_broken{
 	density = 1;
@@ -814,12 +814,12 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cl" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 5
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cm" = (
 /obj/grille/catwalk{
 	dir = 9;
@@ -851,7 +851,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cp" = (
 /obj/ladder{
 	icon_state = "ladder_wall";
@@ -861,7 +861,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cq" = (
 /obj/grille/catwalk{
 	dir = 10;
@@ -886,7 +886,7 @@
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 6
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "ct" = (
 /turf/unsimulated/wall{
 	desc = "It's sealed shut.";
@@ -895,7 +895,7 @@
 	icon_state = "bdoorleft1";
 	name = "security door"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cu" = (
 /turf/unsimulated/wall{
 	desc = "It's sealed shut.";
@@ -904,31 +904,31 @@
 	icon_state = "bdoorright1";
 	name = "security door"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cv" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 4;
 	icon_state = "leadjunction_white"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cw" = (
 /turf/unsimulated/wall/setpieces/lunar{
 	dir = 4;
 	icon_state = "lunar-c"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cx" = (
 /turf/unsimulated/wall/setpieces/lunar{
 	dir = 5;
 	icon_state = "lunar-c"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cy" = (
 /turf/unsimulated/wall/setpieces/lunar{
 	dir = 2;
 	icon_state = "lunar-s"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cz" = (
 /turf/unsimulated/floor/lunar/cavern{
 	desc = "Regolith, but in a cavern.  Wow!  Whoa!!";
@@ -936,10 +936,10 @@
 	icon = 'icons/turf/walls.dmi';
 	icon_state = "lunar-s"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cA" = (
 /turf/unsimulated/floor/lunar/cavern,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cB" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 1;
@@ -948,13 +948,13 @@
 	pixel_y = 0
 	},
 /turf/unsimulated/floor/lunar/cavern,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cC" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 4;
 	icon_state = "leadcap_white"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cD" = (
 /turf/unsimulated/wall{
 	desc = "It's sealed shut.";
@@ -963,7 +963,7 @@
 	icon_state = "bdoorleft1";
 	name = "tramway door"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cE" = (
 /turf/unsimulated/wall{
 	desc = "It's sealed shut.";
@@ -972,7 +972,7 @@
 	icon_state = "bdoormid1";
 	name = "tramway door"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cF" = (
 /turf/unsimulated/wall{
 	desc = "It's sealed shut.";
@@ -981,13 +981,13 @@
 	icon_state = "bdoorright1";
 	name = "tramway door"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cG" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 8;
 	icon_state = "leadcap_white"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cH" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -995,7 +995,7 @@
 	pixel_y = 0
 	},
 /turf/unsimulated/floor/lunar/cavern,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cI" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "It's a pipe manifold.  A grimy one.";
@@ -1006,7 +1006,7 @@
 	pixel_y = 0
 	},
 /turf/unsimulated/floor/lunar/cavern,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cJ" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 10;
@@ -1015,7 +1015,7 @@
 	pixel_x = 0
 	},
 /turf/unsimulated/floor/lunar/cavern,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cK" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "The air from it smells faintly of mildew.";
@@ -1027,7 +1027,7 @@
 	tag = ""
 	},
 /turf/unsimulated/floor/lunar/cavern,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cL" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 10;
@@ -1037,18 +1037,18 @@
 	tag = "icon-intact (NORTHWEST)"
 	},
 /turf/unsimulated/floor/lunar/cavern,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cM" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 1;
 	icon_state = "leadjunction_white"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cN" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	icon_state = "leadjunction_white"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cO" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 1;
@@ -1058,23 +1058,23 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cP" = (
 /obj/rail,
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cQ" = (
 /turf/unsimulated/floor/caution/westeast{
 	dir = 1
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cR" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	icon_state = "leadcap_white"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cS" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -1082,7 +1082,7 @@
 	pixel_y = -6
 	},
 /turf/unsimulated/floor/lunar/cavern,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cT" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -1092,7 +1092,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cU" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -1105,7 +1105,7 @@
 	name = "grimy pipe"
 	},
 /turf/unsimulated/floor/lunar/cavern,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cV" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -1118,7 +1118,7 @@
 	pixel_y = 0
 	},
 /turf/unsimulated/floor/lunar/cavern,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cW" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "It's a pipe manifold.  A grimy one.";
@@ -1134,7 +1134,7 @@
 	pixel_y = -6
 	},
 /turf/unsimulated/floor/lunar/cavern,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cX" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -1154,7 +1154,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cY" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -1175,7 +1175,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "cZ" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -1196,7 +1196,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "da" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -1206,7 +1206,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "db" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 9;
@@ -1216,7 +1216,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dc" = (
 /obj/rail/cap,
 /obj/rail/cap{
@@ -1225,12 +1225,12 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dd" = (
 /turf/unsimulated/floor/caution/misc{
 	dir = 2
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "de" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 5;
@@ -1240,7 +1240,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "df" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "It's a pipe manifold.  A grimy one.";
@@ -1253,7 +1253,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dg" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "The air from it smells faintly of mildew.";
@@ -1265,7 +1265,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dh" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -1276,7 +1276,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "di" = (
 /turf/unsimulated/wall{
 	desc = "It's sealed shut.";
@@ -1285,7 +1285,7 @@
 	icon_state = "bdoorright1";
 	name = "tramway door"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dj" = (
 /obj/rail{
 	dir = 4
@@ -1293,7 +1293,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dk" = (
 /obj/rail/cap{
 	dir = 4
@@ -1301,20 +1301,20 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dl" = (
 /obj/rail,
 /turf/unsimulated/floor/caution/corner/nw,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dm" = (
 /turf/unsimulated/floor/caution/north{
 	dir = 1
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dn" = (
 /obj/rail,
 /turf/unsimulated/floor/caution/corner/ne,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "do" = (
 /obj/rail/cap{
 	dir = 8
@@ -1322,7 +1322,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dp" = (
 /turf/unsimulated/wall{
 	desc = "It's sealed shut.";
@@ -1331,35 +1331,35 @@
 	icon_state = "bdoormid1";
 	name = "tramway door"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dq" = (
 /turf/unsimulated/floor/caution/northsouth{
 	dir = 1
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dr" = (
 /turf/unsimulated/floor/caution/misc{
 	dir = 4
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "ds" = (
 /turf/unsimulated/floor/delivery,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dt" = (
 /turf/unsimulated/floor/caution/misc{
 	dir = 8
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "du" = (
 /obj/rail,
 /turf/unsimulated/floor/caution/west,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dv" = (
 /obj/rail,
 /turf/unsimulated/floor/caution/east{
 	dir = 2
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dw" = (
 /turf/unsimulated/wall{
 	desc = "It's sealed shut.";
@@ -1368,34 +1368,34 @@
 	icon_state = "bdoorleft1";
 	name = "tramway door"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dx" = (
 /obj/rail,
 /turf/unsimulated/floor/caution/corner/sw{
 	dir = 1
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dy" = (
 /turf/unsimulated/floor/caution/south,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dz" = (
 /obj/rail,
 /turf/unsimulated/floor{
 	icon_state = "corner_east"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dA" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 1;
 	icon_state = "leadcap_white"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dB" = (
 /turf/unsimulated/wall/setpieces/lunar{
 	dir = 7;
 	icon_state = "lunar-c"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dC" = (
 /turf/unsimulated/floor/lunar/cavern{
 	desc = "Regolith, but in a cavern.  Wow!  Whoa!!";
@@ -1403,15 +1403,15 @@
 	icon = 'icons/turf/walls.dmi';
 	icon_state = "lunar-s"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dD" = (
 /turf/unsimulated/floor/caution/corner/nw,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dE" = (
 /turf/unsimulated/floor/caution/misc{
 	dir = 1
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dF" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -1421,7 +1421,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dG" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "It is not working.";
@@ -1433,7 +1433,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dH" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -1449,7 +1449,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dI" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -1460,16 +1460,16 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dJ" = (
 /turf/unsimulated/wall/setpieces/lunar{
 	dir = 1;
 	icon_state = "lunar-s"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dK" = (
 /turf/unsimulated/floor/caution/west,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dL" = (
 /obj/machinery/door/airlock/maintenance{
 	req_access_txt = ""
@@ -1477,20 +1477,20 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dM" = (
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dN" = (
 /turf/unsimulated/floor/grime,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dO" = (
 /turf/unsimulated/wall/setpieces/leadwindow/white{
 	dir = 4
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dP" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 10;
@@ -1502,7 +1502,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dQ" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 6;
@@ -1512,7 +1512,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dR" = (
 /obj/decal/fakeobjects/pipe{
 	density = 1;
@@ -1526,17 +1526,17 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dS" = (
 /obj/table/auto,
 /turf/unsimulated/floor/plating/scorched,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dT" = (
 /obj/table/auto,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dU" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 1;
@@ -1549,7 +1549,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dV" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 1;
@@ -1557,10 +1557,10 @@
 	pixel_y = 0
 	},
 /turf/unsimulated/floor,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dW" = (
 /turf/unsimulated/floor,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dX" = (
 /obj/decal/fakeobjects/firelock_broken{
 	density = 1;
@@ -1571,7 +1571,7 @@
 	opacity = 1
 	},
 /turf/unsimulated/floor,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dY" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 1;
@@ -1582,7 +1582,7 @@
 	req_access_txt = ""
 	},
 /turf/unsimulated/floor,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "dZ" = (
 /obj/machinery/door/airlock/maintenance{
 	req_access_txt = ""
@@ -1590,7 +1590,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "ea" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "It's a pipe manifold.  A grimy one.";
@@ -1601,18 +1601,18 @@
 	pixel_y = 0
 	},
 /turf/unsimulated/floor,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "eb" = (
 /obj/decal/cleanable/cobweb,
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "ec" = (
 /turf/unsimulated/floor/stairs{
 	dir = 8
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "ed" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "It seems to have been damaged somehow.";
@@ -1622,7 +1622,7 @@
 	name = "filter"
 	},
 /turf/unsimulated/floor,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "ee" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 9;
@@ -1630,13 +1630,13 @@
 	name = "grimy pipe"
 	},
 /turf/unsimulated/floor,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "ef" = (
 /obj/decal/fakeobjects/junction_box,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "eg" = (
 /obj/machinery/door/airlock/maintenance{
 	req_access_txt = "";
@@ -1645,13 +1645,13 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "eh" = (
 /obj/machinery/door/airlock/maintenance{
 	req_access_txt = ""
 	},
 /turf/unsimulated/floor,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "ei" = (
 /obj/machinery/embedded_controller/radio/maintpanel/mnx{
 	pixel_x = 24
@@ -1659,20 +1659,20 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "ej" = (
 /turf/unsimulated/floor/green/side{
 	dir = 4
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "ek" = (
 /turf/unsimulated/floor/stairs/wide/other{
 	dir = 8
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "el" = (
 /turf/space,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "em" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 6;
@@ -1680,7 +1680,7 @@
 	name = "grimy pipe"
 	},
 /turf/unsimulated/floor,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "en" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 9;
@@ -1694,23 +1694,23 @@
 	pixel_y = 0
 	},
 /turf/unsimulated/floor,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "eo" = (
 /turf/unsimulated/wall/setpieces/leadwindow/white{
 	dir = 2;
 	icon_state = "leadwindow_white_2"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "ep" = (
 /turf/unsimulated/floor/stairs/wide/green{
 	dir = 8
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "eq" = (
 /turf/unsimulated/floor/green/corner{
 	dir = 8
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "er" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 1;
@@ -1719,7 +1719,7 @@
 	pixel_y = 0
 	},
 /turf/unsimulated/floor,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "es" = (
 /obj/decal/fakeobjects/firelock_broken{
 	desc = "It's jammed, apparently.  Or just really locked.";
@@ -1728,28 +1728,28 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "et" = (
 /turf/unsimulated/floor/green/corner{
 	dir = 4
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "eu" = (
 /turf/unsimulated/floor/stairs/wide/green,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "ev" = (
 /turf/unsimulated/floor/stairs/wide/other,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "ew" = (
 /turf/unsimulated/floor/caution/east{
 	dir = 2
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "ey" = (
 /turf/unsimulated/floor/green/side{
 	dir = 8
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "ez" = (
 /obj/grille,
 /obj/window/reinforced{
@@ -1765,17 +1765,17 @@
 	dir = 4
 	},
 /turf/unsimulated/floor,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "eA" = (
 /turf/unsimulated/floor/green/side{
 	dir = 10
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "eB" = (
 /turf/unsimulated/floor/green/side{
 	dir = 2
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "eC" = (
 /obj/grille,
 /obj/window/reinforced{
@@ -1787,7 +1787,7 @@
 	dir = 8
 	},
 /turf/unsimulated/floor,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "eD" = (
 /obj/grille,
 /obj/window/reinforced{
@@ -1803,23 +1803,23 @@
 	dir = 4
 	},
 /turf/unsimulated/floor,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "eE" = (
 /obj/machinery/vending/snack,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "eF" = (
 /turf/unsimulated/floor/caution/corner/misc{
 	dir = 4
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "eG" = (
 /turf/unsimulated/floor/caution/corner/misc{
 	dir = 8
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "eH" = (
 /turf/cordon,
 /area/cordon)
@@ -1845,32 +1845,32 @@
 /area/shuttle/lunar_elevator/museum/lower)
 "eK" = (
 /turf/unsimulated/wall/setpieces/lunar,
-/area/moon)
+/area/adventure/moon)
 "eL" = (
 /turf/unsimulated/floor/green/side{
 	dir = 9
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "eM" = (
 /turf/unsimulated/floor/green/side{
 	dir = 1
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "eN" = (
 /turf/unsimulated/floor/green/corner{
 	dir = 1
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "eO" = (
 /turf/unsimulated/floor/caution/corner/misc{
 	dir = 5
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "eP" = (
 /turf/unsimulated/floor/caution/corner/misc{
 	dir = 9
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "eQ" = (
 /obj/grille/catwalk{
 	dir = 10;
@@ -1896,7 +1896,7 @@
 	dir = 5;
 	icon_state = "lunar-c"
 	},
-/area/moon)
+/area/adventure/moon)
 "eT" = (
 /obj/decal/fakeobjects/moonrock{
 	density = 0;
@@ -1907,61 +1907,61 @@
 	dir = 6;
 	icon_state = "lunar-s"
 	},
-/area/moon)
+/area/adventure/moon)
 "eU" = (
 /turf/unsimulated/wall/setpieces/lunar{
 	density = 0;
 	dir = 6;
 	icon_state = "lunar-s"
 	},
-/area/moon)
+/area/adventure/moon)
 "eV" = (
 /turf/unsimulated/wall/setpieces/lunar{
 	dir = 4;
 	icon_state = "lunar-c"
 	},
-/area/moon)
+/area/adventure/moon)
 "eW" = (
 /turf/unsimulated/wall/setpieces/lunar{
 	dir = 2;
 	icon_state = "lunar-s"
 	},
-/area/moon)
+/area/adventure/moon)
 "eX" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar,
-/area/moon)
+/area/adventure/moon)
 "eY" = (
 /turf/unsimulated/floor/caution/corner/misc{
 	dir = 6
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "eZ" = (
 /turf/unsimulated/floor/caution/corner/misc{
 	dir = 10
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "fa" = (
 /turf/unsimulated/floor/lunar,
-/area/moon)
+/area/adventure/moon)
 "fb" = (
 /obj/rail{
 	dir = 6
 	},
 /turf/unsimulated/floor/lunar,
-/area/moon)
+/area/adventure/moon)
 "fc" = (
 /obj/rail{
 	dir = 4
 	},
 /turf/unsimulated/floor/lunar,
-/area/moon)
+/area/adventure/moon)
 "fd" = (
 /obj/machinery/door/lunar_breakdoor,
 /obj/rail{
 	dir = 4
 	},
 /turf/unsimulated/floor/lunar,
-/area/moon)
+/area/adventure/moon)
 "fe" = (
 /obj/machinery/door/airlock{
 	name = "Bathroom"
@@ -1969,10 +1969,10 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/underground)
+/area/adventure/moon/underground)
 "ff" = (
 /turf/unsimulated/floor/specialroom/freezer,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "fg" = (
 /obj/submachine/chef_sink/chem_sink{
 	desc = "A water-filled unit intended for hand-washing purposes.";
@@ -1980,34 +1980,34 @@
 	pixel_x = 2
 	},
 /turf/unsimulated/floor/specialroom/freezer,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "fh" = (
 /turf/unsimulated/wall/setpieces/lunar{
 	dir = 1;
 	icon_state = "lunar-c"
 	},
-/area/moon)
+/area/adventure/moon)
 "fi" = (
 /obj/rail,
 /turf/unsimulated/floor/lunar,
-/area/moon)
+/area/adventure/moon)
 "fj" = (
 /obj/decal/fakeobjects/moonrock{
 	dir = 8
 	},
 /turf/unsimulated/floor/lunar,
-/area/moon)
+/area/adventure/moon)
 "fk" = (
 /turf/unsimulated/wall/setpieces/lunar{
 	density = 0;
 	dir = 5;
 	icon_state = "lunar-s"
 	},
-/area/moon)
+/area/adventure/moon)
 "fl" = (
 /obj/decal/fakeobjects/lighttube_broken,
 /turf/unsimulated/floor/specialroom/freezer,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "fm" = (
 /obj/item/storage/toilet{
 	dir = 8;
@@ -2015,7 +2015,7 @@
 	tag = ""
 	},
 /turf/unsimulated/floor/specialroom/freezer,
-/area/moon/underground)
+/area/adventure/moon/underground)
 "fn" = (
 /obj/rail{
 	dir = 4
@@ -2025,13 +2025,13 @@
 	dir = 5;
 	icon_state = "lunar-s"
 	},
-/area/moon)
+/area/adventure/moon)
 "fo" = (
 /obj/rail/junction{
 	dir = 8
 	},
 /turf/unsimulated/floor/lunar,
-/area/moon)
+/area/adventure/moon)
 "fp" = (
 /obj/rail{
 	dir = 4
@@ -2048,62 +2048,62 @@
 	pixel_y = 8
 	},
 /turf/unsimulated/floor/lunar,
-/area/moon)
+/area/adventure/moon)
 "fq" = (
 /obj/rail{
 	dir = 9
 	},
 /turf/unsimulated/floor/lunar,
-/area/moon)
+/area/adventure/moon)
 "fr" = (
 /turf/unsimulated/wall/setpieces/lunar{
 	dir = 6;
 	icon_state = "lunar-c"
 	},
-/area/moon)
+/area/adventure/moon)
 "fs" = (
 /turf/unsimulated/wall/setpieces/lunar{
 	density = 0;
 	dir = 9;
 	icon_state = "lunar-s"
 	},
-/area/moon)
+/area/adventure/moon)
 "ft" = (
 /turf/unsimulated/wall/setpieces/lunar{
 	dir = 10;
 	icon_state = "lunar-c"
 	},
-/area/moon)
+/area/adventure/moon)
 "fu" = (
 /turf/unsimulated/wall/setpieces/lunar{
 	dir = 7;
 	icon_state = "lunar-c"
 	},
-/area/moon)
+/area/adventure/moon)
 "fv" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 1;
 	icon_state = "leadcap_white"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "fw" = (
 /obj/rail/cap{
 	dir = 8
 	},
 /turf/unsimulated/floor/lunar,
-/area/moon)
+/area/adventure/moon)
 "fx" = (
 /obj/rail{
 	dir = 5
 	},
 /turf/unsimulated/floor/lunar,
-/area/moon)
+/area/adventure/moon)
 "fy" = (
 /obj/rail/cap{
 	dir = 4
 	},
 /turf/unsimulated/floor/lunar,
-/area/moon)
+/area/adventure/moon)
 "fz" = (
 /obj/rail/cap,
 /turf/unsimulated/wall/setpieces/lunar{
@@ -2111,37 +2111,37 @@
 	dir = 10;
 	icon_state = "lunar-s"
 	},
-/area/moon)
+/area/adventure/moon)
 "fA" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 9
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "fB" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 1;
 	icon_state = "leadjunction_white"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "fC" = (
 /turf/unsimulated/wall/setpieces/leadwindow/white{
 	dir = 4;
 	icon_state = "leadwindow_white_2"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "fD" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 5
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "fE" = (
 /turf/unsimulated/wall/setpieces/lunar,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "fF" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 9
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "fG" = (
 /turf/unsimulated/wall{
 	desc = "It's sealed shut.";
@@ -2150,7 +2150,7 @@
 	icon_state = "bdoorleft1";
 	name = "security door"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "fH" = (
 /turf/unsimulated/wall{
 	desc = "It's sealed shut.";
@@ -2159,29 +2159,29 @@
 	icon_state = "bdoorright1";
 	name = "security door"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "fI" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 4
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "fJ" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 5
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "fK" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 4
 	},
-/area/moon)
+/area/adventure/moon)
 "fL" = (
 /obj/machinery/door/lunar_breakdoor,
 /turf/unsimulated/floor/lunar,
-/area/moon)
+/area/adventure/moon)
 "fM" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "fN" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "The air from it smells faintly of mildew.";
@@ -2194,18 +2194,18 @@
 /turf/unsimulated/floor/grey/side{
 	dir = 1
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "fO" = (
 /obj/stool/bench/blue/auto,
 /turf/unsimulated/floor/grey/side{
 	dir = 1
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "fP" = (
 /turf/unsimulated/floor/grey/side{
 	dir = 1
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "fQ" = (
 /obj/shrub{
 	icon = 'icons/obj/stationobjs.dmi';
@@ -2215,61 +2215,61 @@
 /turf/unsimulated/floor/grey/side{
 	dir = 1
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "fR" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	icon_state = "leadjunction_white"
 	},
-/area/moon)
+/area/adventure/moon)
 "fS" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "fT" = (
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "fU" = (
 /turf/unsimulated/floor/grime,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "fV" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 4;
 	icon_state = "leadjunction_white"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "fW" = (
 /obj/decal/cleanable/ripped_poster,
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 4
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "fX" = (
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "fY" = (
 /turf/unsimulated/floor/grey/checker,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "fZ" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	icon_state = "leadcap_white"
 	},
-/area/moon)
+/area/adventure/moon)
 "ga" = (
 /obj/decal/fakeobjects/moonrock{
 	dir = 4;
 	icon = 'icons/misc/lunar.dmi'
 	},
 /turf/unsimulated/floor/lunar,
-/area/moon)
+/area/adventure/moon)
 "gb" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 8;
 	icon_state = "leadjunction_white"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "gc" = (
 /turf/unsimulated/floor/lunar_shaft,
 /area/shuttle/lunar_elevator/museum/upper)
@@ -2285,13 +2285,13 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "gf" = (
 /obj/decal/cleanable/oil,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "gg" = (
 /obj/critter/mannequin{
 	aggressive = 1;
@@ -2304,28 +2304,28 @@
 	tag = "DEATHDUMMY"
 	},
 /turf/unsimulated/floor/grime,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "gh" = (
 /obj/critter/mannequin,
 /obj/decal/cleanable/cobweb2,
 /turf/unsimulated/floor/grime,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "gi" = (
 /turf/unsimulated/wall/setpieces/lunar,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gj" = (
 /turf/unsimulated/floor/black,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gk" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 10
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gl" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 4
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gm" = (
 /turf/unsimulated/floor/lunar_shaft{
 	dir = 8
@@ -2341,7 +2341,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "gp" = (
 /obj/machinery/light{
 	dir = 8;
@@ -2351,7 +2351,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gq" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -2362,7 +2362,7 @@
 	name = "lunar base model"
 	},
 /turf/unsimulated/floor/black,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gr" = (
 /obj/decal/glow{
 	anchored = 1;
@@ -2379,24 +2379,24 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gs" = (
 /turf/unsimulated/wall/setpieces/lunar{
 	dir = 8;
 	icon_state = "lunar-s"
 	},
-/area/moon)
+/area/adventure/moon)
 "gt" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 1;
 	icon_state = "leadjunction_white"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "gu" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	icon_state = "leadjunction_white"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "gv" = (
 /obj/critter/mannequin,
 /obj/machinery/light/small{
@@ -2404,17 +2404,17 @@
 	dir = 4
 	},
 /turf/unsimulated/floor/grime,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "gw" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	icon_state = "leadjunction_white"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gx" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 6
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gy" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -2427,7 +2427,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gz" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -2439,7 +2439,7 @@
 	name = "lunar base model"
 	},
 /turf/unsimulated/floor/black,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gA" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -2451,7 +2451,7 @@
 	name = "lunar base model"
 	},
 /turf/unsimulated/floor/black,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gB" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -2463,7 +2463,7 @@
 	name = "lunar base model"
 	},
 /turf/unsimulated/floor/black,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gC" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -2475,7 +2475,7 @@
 	name = "lunar base model"
 	},
 /turf/unsimulated/floor/black,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gD" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -2487,20 +2487,20 @@
 	name = "lunar base model"
 	},
 /turf/unsimulated/floor/black,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gE" = (
 /turf/unsimulated/wall/setpieces/lunar{
 	dir = 9;
 	icon_state = "lunar-c"
 	},
-/area/moon)
+/area/adventure/moon)
 "gF" = (
 /obj/decal/fakeobjects/moonrock{
 	density = 0;
 	dir = 1
 	},
 /turf/unsimulated/floor/lunar,
-/area/moon)
+/area/adventure/moon)
 "gG" = (
 /obj/decal/fakeobjects/firelock_broken{
 	density = 1;
@@ -2511,16 +2511,16 @@
 	opacity = 1
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "gH" = (
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "gI" = (
 /obj/storage/crate,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "gJ" = (
 /turf/unsimulated/wall{
 	desc = "It's sealed shut.";
@@ -2529,12 +2529,12 @@
 	icon_state = "bdoorleft1";
 	name = "security door"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gK" = (
 /turf/unsimulated/floor/grey/side{
 	dir = 8
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gL" = (
 /obj/machinery/light{
 	dir = 1;
@@ -2543,12 +2543,12 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gM" = (
 /turf/unsimulated/floor/grey/side{
 	dir = 4
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gN" = (
 /obj/machinery/door/poddoor/blast/lunar/tour{
 	icon_state = "bdoorright1"
@@ -2556,7 +2556,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gO" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -2568,7 +2568,7 @@
 	name = "lunar base model"
 	},
 /turf/unsimulated/floor/black,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gP" = (
 /obj/machinery/door/airlock/maintenance{
 	aiControlDisabled = 0;
@@ -2583,18 +2583,18 @@
 /turf/unsimulated/floor/caution/west{
 	dir = 8
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "gQ" = (
 /obj/trigger/critter,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "gR" = (
 /obj/storage/crate,
 /obj/item/device/key/filing_cabinet,
 /turf/unsimulated/floor/grime,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "gS" = (
 /turf/unsimulated/wall{
 	desc = "It's sealed shut.";
@@ -2603,23 +2603,23 @@
 	icon_state = "bdoormid1";
 	name = "security door"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gT" = (
 /obj/machinery/navbeacon/lunar/tour10,
 /turf/unsimulated/floor/grey/side{
 	dir = 8
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gU" = (
 /obj/machinery/door/poddoor/blast/lunar/tour,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gV" = (
 /obj/machinery/navbeacon/lunar/tour9,
 /turf/unsimulated/floor/black,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gW" = (
 /obj/machinery/light{
 	icon_state = "tube1";
@@ -2628,23 +2628,23 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gX" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 4;
 	icon_state = "leadcap_white"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gY" = (
 /obj/machinery/door/lunar_breakdoor,
 /turf/unsimulated/floor/caution/south{
 	dir = 1
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "gZ" = (
 /obj/decal/fakeobjects/lunar_lander,
 /turf/unsimulated/floor/lunar,
-/area/moon)
+/area/adventure/moon)
 "ha" = (
 /obj/window/cubicle{
 	desc = "A panel designed to separate bathroom stalls, turning one gross room into many.";
@@ -2659,10 +2659,10 @@
 	tag = ""
 	},
 /turf/unsimulated/floor/specialroom/freezer,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "hb" = (
 /turf/unsimulated/floor/specialroom/freezer,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "hc" = (
 /obj/window/cubicle{
 	desc = "A panel designed to separate bathroom stalls, turning one gross room into many.";
@@ -2681,7 +2681,7 @@
 	pixel_y = 8
 	},
 /turf/unsimulated/floor/specialroom/freezer,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "hd" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -2702,7 +2702,7 @@
 	tag = ""
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "he" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -2716,7 +2716,7 @@
 	},
 /obj/item/sponge,
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "hf" = (
 /obj/cable{
 	icon_state = "2-4";
@@ -2731,12 +2731,12 @@
 	tag = ""
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "hg" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 6
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "hh" = (
 /turf/unsimulated/wall{
 	desc = "It's sealed shut.";
@@ -2745,7 +2745,7 @@
 	icon_state = "bdoorright1";
 	name = "security door"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "hi" = (
 /obj/machinery/door/poddoor/blast/lunar/tour{
 	icon_state = "bdoorleft1"
@@ -2753,7 +2753,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "hj" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -2766,23 +2766,23 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "hk" = (
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "hl" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	icon_state = "leadcap_white"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "hm" = (
 /obj/machinery/navbeacon/lunar/tour7,
 /turf/unsimulated/floor/lunar,
-/area/moon)
+/area/adventure/moon)
 "hn" = (
 /obj/decal/lunar_bootprint,
 /turf/unsimulated/floor/lunar,
-/area/moon)
+/area/adventure/moon)
 "ho" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -2793,13 +2793,13 @@
 	name = "faded flag"
 	},
 /turf/unsimulated/floor/lunar,
-/area/moon)
+/area/adventure/moon)
 "hp" = (
 /turf/unsimulated/wall/setpieces/lunar{
 	dir = 8;
 	icon_state = "lunar-c"
 	},
-/area/moon)
+/area/adventure/moon)
 "hq" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	desc = "This light might be broken.  It's probably not wired up, though.";
@@ -2809,7 +2809,7 @@
 	name = "inactive light tube"
 	},
 /turf/unsimulated/floor/specialroom/freezer,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "hr" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	desc = "This light might be broken.  It's probably not wired up, though.";
@@ -2818,7 +2818,7 @@
 	name = "inactive light tube"
 	},
 /turf/unsimulated/floor/specialroom/freezer,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "hs" = (
 /obj/window/cubicle{
 	desc = "A panel designed to separate bathroom stalls, turning one gross room into many.";
@@ -2833,7 +2833,7 @@
 	tag = ""
 	},
 /turf/unsimulated/floor/specialroom/freezer,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "ht" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -2846,7 +2846,7 @@
 	pixel_y = 0
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "hu" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -2862,7 +2862,7 @@
 	req_access_txt = ""
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "hv" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -2875,7 +2875,7 @@
 	pixel_y = -6
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "hw" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -2893,7 +2893,7 @@
 	pixel_y = -6
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "hx" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -2914,13 +2914,13 @@
 	opacity = 1
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "hy" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 8;
 	icon_state = "leadjunction_white"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "hz" = (
 /obj/decal/glow{
 	anchored = 1;
@@ -2938,7 +2938,7 @@
 /turf/unsimulated/floor/grey/side{
 	dir = 8
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "hA" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "The air from it smells faintly of mildew.";
@@ -2951,7 +2951,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "hB" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "The air from it smells faintly of mildew.";
@@ -2961,22 +2961,22 @@
 	name = "grimy vent"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "hC" = (
 /obj/machinery/navbeacon/lunar/tour8,
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "hD" = (
 /obj/machinery/door/airlock/external,
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "hE" = (
 /turf/unsimulated/wall/setpieces/lunar{
 	density = 0;
 	dir = 10;
 	icon_state = "lunar-s"
 	},
-/area/moon)
+/area/adventure/moon)
 "hF" = (
 /obj/submachine/chef_sink/chem_sink{
 	desc = "A water-filled unit intended for hand-washing purposes.";
@@ -2984,7 +2984,7 @@
 	pixel_x = -2
 	},
 /turf/unsimulated/floor/specialroom/freezer,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "hG" = (
 /obj/submachine/chef_sink/chem_sink{
 	desc = "A water-filled unit intended for hand-washing purposes.";
@@ -2992,7 +2992,7 @@
 	pixel_x = 2
 	},
 /turf/unsimulated/floor/specialroom/freezer,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "hH" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 6;
@@ -3000,7 +3000,7 @@
 	name = "grimy pipe"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "hI" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -3014,7 +3014,7 @@
 	pixel_x = 2
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "hJ" = (
 /obj/cable{
 	icon_state = "2-4";
@@ -3027,13 +3027,13 @@
 	d2 = 2
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "hK" = (
 /obj/machinery/vending/cola/red,
 /turf/unsimulated/floor{
 	icon_state = "carpetW"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "hL" = (
 /obj/window{
 	desc = "A window.  For a museum exhibit.";
@@ -3041,19 +3041,19 @@
 	name = "exhibit window"
 	},
 /turf/unsimulated/floor/grey/side,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "hM" = (
 /obj/machinery/door/airlock/maintenance{
 	req_access_txt = ""
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "hN" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 4;
 	icon_state = "leadcap_white"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "hO" = (
 /obj/machinery/door/airlock{
 	name = "Bathroom"
@@ -3061,12 +3061,12 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "hP" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	icon_state = "leadcap_white"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "hQ" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 1;
@@ -3077,7 +3077,7 @@
 	req_access_txt = ""
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "hR" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -3085,7 +3085,7 @@
 	d2 = 2
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "hS" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "The air from it smells faintly of mildew.";
@@ -3098,7 +3098,7 @@
 /turf/unsimulated/floor/grey/side{
 	dir = 8
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "hT" = (
 /obj/decal/fakeobjects/lightbulb_broken{
 	desc = "This light is probably broken.  It looks pretty new and ok, though, so it's probably just not wired up.";
@@ -3113,7 +3113,7 @@
 /turf/unsimulated/floor{
 	icon_state = "carpetW"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "hU" = (
 /obj/decal/fakeobjects/pipe{
 	density = 1;
@@ -3130,7 +3130,7 @@
 	icon_state = "floor3";
 	name = "compartment floor"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "hV" = (
 /obj/critter/mannequin{
 	dead_state = "spacemannequin-dead";
@@ -3146,7 +3146,7 @@
 	icon_state = "floor3";
 	name = "compartment floor"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "hW" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -3163,30 +3163,30 @@
 	icon_state = "floor3";
 	name = "compartment floor"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "hX" = (
 /obj/trigger/critter,
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "hY" = (
 /turf/unsimulated/floor{
 	desc = "A textured panel that looks sorta like the lunar surface, kinda.";
 	icon_state = "fakelunar";
 	name = "simulated lunar surface"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "hZ" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 4;
 	icon_state = "leadjunction_white"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "ia" = (
 /obj/machinery/door/airlock/maintenance{
 	req_access_txt = "777"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "ib" = (
 /obj/storage/closet/emergency{
 	anchored = 1;
@@ -3194,7 +3194,7 @@
 	name = "tour eva gear closet"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "ic" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 6;
@@ -3207,7 +3207,7 @@
 	name = "tour eva gear closet"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "id" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -3220,7 +3220,7 @@
 	name = "tour eva gear closet"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "ie" = (
 /obj/securearea{
 	desc = "A warning sign which reads 'SURFACE AIRLOCK'";
@@ -3232,17 +3232,17 @@
 /turf/unsimulated/floor/grey/side{
 	dir = 1
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "if" = (
 /turf/unsimulated/floor/grey/side{
 	dir = 1
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "ig" = (
 /turf/unsimulated/floor/grey/side{
 	dir = 5
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "ih" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 10;
@@ -3256,7 +3256,7 @@
 	d2 = 2
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "ii" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 1;
@@ -3264,7 +3264,7 @@
 	pixel_y = 0
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "ij" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -3281,7 +3281,7 @@
 	pixel_y = 0
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "ik" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -3289,7 +3289,7 @@
 	d2 = 8
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "il" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -3302,7 +3302,7 @@
 	icon_state = "1-8"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "im" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -3315,7 +3315,7 @@
 /turf/unsimulated/floor/grey/side{
 	dir = 8
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "in" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "The air from it smells faintly of mildew.";
@@ -3338,7 +3338,7 @@
 	icon_state = "floor3";
 	name = "compartment floor"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "io" = (
 /obj/window/cubicle{
 	desc = "A panel designed to mimick the interior walls of the LESA base.  It may actually be made out of part of the real LESA base.";
@@ -3353,7 +3353,7 @@
 	icon_state = "floor3";
 	name = "compartment floor"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "ip" = (
 /obj/window/cubicle{
 	desc = "A panel designed to mimick the interior walls of the LESA base.  It may actually be made out of part of the real LESA base.";
@@ -3379,7 +3379,7 @@
 	icon_state = "floor3";
 	name = "compartment floor"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "iq" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 6;
@@ -3387,7 +3387,7 @@
 	name = "grimy pipe"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "ir" = (
 /obj/critter/mannequin{
 	dead_state = "spacemannequin-dead";
@@ -3404,7 +3404,7 @@
 	icon_state = "fakelunar";
 	name = "simulated lunar surface"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "is" = (
 /obj/item/reagent_containers/food/snacks/sandwich/meat_s{
 	desc = "Wax meat between two slices of wax bread.";
@@ -3414,7 +3414,7 @@
 	icon_state = "picnic";
 	name = "picnic mat"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "it" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "The air from it smells faintly of mildew.";
@@ -3437,7 +3437,7 @@
 	icon_state = "fakelunar";
 	name = "simulated lunar surface"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "iu" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "It won't budge.";
@@ -3447,15 +3447,15 @@
 	name = "rusted valve"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "iv" = (
 /obj/decal/fakeobjects/moonrock,
 /turf/unsimulated/floor/lunar,
-/area/moon)
+/area/adventure/moon)
 "iw" = (
 /obj/machinery/door/airlock/external,
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "ix" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 1;
@@ -3464,11 +3464,11 @@
 	},
 /obj/machinery/navbeacon/lunar/tour6,
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "iy" = (
 /obj/machinery/door/airlock/external,
 /turf/unsimulated/floor/caution/west,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "iz" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	desc = "This light might be broken.  It's probably not wired up, though.";
@@ -3479,7 +3479,7 @@
 /turf/unsimulated/floor/grey/side{
 	dir = 4
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "iA" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 5;
@@ -3492,7 +3492,7 @@
 	d2 = 2
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "iB" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "It's a pipe manifold.  A grimy one.";
@@ -3503,7 +3503,7 @@
 	pixel_y = 0
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "iC" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -3526,7 +3526,7 @@
 	pixel_y = 0
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "iD" = (
 /obj/decal/glow{
 	anchored = 1;
@@ -3544,7 +3544,7 @@
 /turf/unsimulated/floor/grey/side{
 	dir = 8
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "iE" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 9;
@@ -3557,7 +3557,7 @@
 	pixel_y = -6
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "iF" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 9;
@@ -3565,13 +3565,13 @@
 	name = "grimy pipe"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "iG" = (
 /turf/unsimulated/wall/setpieces/leadwindow/white{
 	dir = 4;
 	icon_state = "leadwindow_white_2"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "iH" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "The air from it smells faintly of mildew.";
@@ -3583,7 +3583,7 @@
 	tag = ""
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "iI" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 1;
@@ -3597,13 +3597,13 @@
 	pixel_x = -4
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "iJ" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 1;
 	icon_state = "leadcap_white"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "iK" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -3616,7 +3616,7 @@
 /turf/unsimulated/floor/grey/side{
 	dir = 4
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "iL" = (
 /obj/cable{
 	d2 = 8;
@@ -3628,7 +3628,7 @@
 	d2 = 2
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "iM" = (
 /obj/grille/steel,
 /obj/cable,
@@ -3643,7 +3643,7 @@
 	pixel_y = 0
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "iN" = (
 /obj/grille/steel,
 /obj/cable{
@@ -3651,7 +3651,7 @@
 	icon_state = "0-8"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "iO" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 1;
@@ -3659,7 +3659,7 @@
 	pixel_y = 0
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "iP" = (
 /obj/decal/fakeobjects/pipe,
 /obj/decal/fakeobjects/pipe{
@@ -3675,7 +3675,7 @@
 	pixel_y = 0
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "iQ" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -3683,7 +3683,7 @@
 	d2 = 2
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "iR" = (
 /obj/cable{
 	d1 = 1;
@@ -3691,7 +3691,7 @@
 	icon_state = "1-4"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "iS" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -3705,7 +3705,7 @@
 	tag = ""
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "iT" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 1;
@@ -3718,7 +3718,7 @@
 	d2 = 8
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "iU" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -3726,7 +3726,7 @@
 	d2 = 8
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "iV" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -3737,7 +3737,7 @@
 	req_access_txt = ""
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "iW" = (
 /obj/cable{
 	icon_state = "2-8";
@@ -3745,7 +3745,7 @@
 	d2 = 8
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "iX" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "It seems to have been damaged somehow.";
@@ -3755,7 +3755,7 @@
 	name = "filter"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "iY" = (
 /obj/decal/fakeobjects/pipe{
 	density = 1;
@@ -3767,35 +3767,35 @@
 	tag = ""
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "iZ" = (
 /obj/stool/bench/blue/auto,
 /turf/unsimulated/floor/grey/side{
 	dir = 1
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "ja" = (
 /obj/stool/bench/blue/auto,
 /turf/unsimulated/floor/grey/side{
 	dir = 5
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jb" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 10
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jc" = (
 /turf/unsimulated/floor/grey/side{
 	dir = 4
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jd" = (
 /obj/machinery/door/airlock/maintenance{
 	req_access_txt = ""
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "je" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 1;
@@ -3804,7 +3804,7 @@
 	pixel_y = 0
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jf" = (
 /obj/cable{
 	d1 = 1;
@@ -3815,13 +3815,13 @@
 	icon_state = "1-2"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jg" = (
 /obj/machinery/navbeacon/lunar/tour11,
 /turf/unsimulated/floor/grey/side{
 	dir = 8
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "jh" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 5;
@@ -3829,7 +3829,7 @@
 	name = "grimy pipe"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "ji" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 10;
@@ -3838,7 +3838,7 @@
 	pixel_x = 0
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "jj" = (
 /obj/decal/fakeobjects/pipe,
 /obj/decal/fakeobjects/pipe{
@@ -3860,7 +3860,7 @@
 	tag = ""
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "jk" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "It seems to have been damaged somehow.";
@@ -3870,7 +3870,7 @@
 	name = "filter"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "jl" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -3878,7 +3878,7 @@
 	pixel_y = 0
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "jm" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -3896,7 +3896,7 @@
 	d2 = 2
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "jn" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -3915,7 +3915,7 @@
 	tag = ""
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "jo" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -3923,18 +3923,18 @@
 	pixel_y = -6
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "jp" = (
 /obj/machinery/navbeacon/lunar/tour5,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jq" = (
 /turf/unsimulated/floor/grey/corner{
 	dir = 4
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jr" = (
 /obj/decal/glow{
 	anchored = 1;
@@ -3951,7 +3951,7 @@
 /turf/unsimulated/floor/grey/side{
 	dir = 1
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "js" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -3964,7 +3964,7 @@
 /turf/unsimulated/floor/grey/side{
 	dir = 1
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jt" = (
 /obj/machinery/light{
 	dir = 1;
@@ -3973,10 +3973,10 @@
 /turf/unsimulated/floor/grey/side{
 	dir = 1
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "ju" = (
 /turf/unsimulated/floor/grey/corner,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jv" = (
 /obj/shrub{
 	dir = 8;
@@ -3986,7 +3986,7 @@
 /turf/unsimulated/floor/grey/side{
 	dir = 6
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jw" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "The air from it smells faintly of mildew.";
@@ -4001,7 +4001,7 @@
 	d2 = 2
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jx" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 1;
@@ -4011,7 +4011,7 @@
 	},
 /obj/item/tripod_bulb/light,
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jy" = (
 /obj/cable,
 /obj/decal/fakeobjects/pipe{
@@ -4020,7 +4020,7 @@
 	name = "grimy pipe"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jz" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 1;
@@ -4029,28 +4029,28 @@
 	},
 /obj/grille/steel,
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "jA" = (
 /obj/grille/steel,
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "jB" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 8;
 	icon_state = "leadcap_white"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "jC" = (
 /turf/unsimulated/floor/grey/side{
 	dir = 6
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jD" = (
 /obj/cable{
 	icon_state = "1-4"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jE" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 1;
@@ -4061,7 +4061,7 @@
 	icon_state = "4-8"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jF" = (
 /obj/decal/fakeobjects/pipe,
 /obj/decal/fakeobjects/pipe{
@@ -4083,7 +4083,7 @@
 	tag = ""
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "jG" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -4102,7 +4102,7 @@
 	tag = ""
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "jH" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 9;
@@ -4111,16 +4111,16 @@
 	},
 /obj/item/device/multitool,
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "jI" = (
 /turf/unsimulated/floor/grey/side,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jJ" = (
 /obj/machinery/navbeacon/lunar/tour4,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jK" = (
 /obj/window{
 	desc = "A window.  For a museum exhibit.";
@@ -4128,7 +4128,7 @@
 	name = "exhibit window"
 	},
 /turf/unsimulated/floor/grey/side,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jL" = (
 /obj/rack,
 /obj/window{
@@ -4141,7 +4141,7 @@
 	name = "Apollo space suit"
 	},
 /turf/unsimulated/floor/black,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jM" = (
 /obj/rack,
 /obj/window{
@@ -4154,7 +4154,7 @@
 	name = "Apollo space helmet"
 	},
 /turf/unsimulated/floor/black,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jN" = (
 /obj/window{
 	desc = "A window.  For a museum exhibit.";
@@ -4167,7 +4167,7 @@
 	name = "exhibit window"
 	},
 /turf/unsimulated/floor/grey/side,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jO" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "The air from it smells faintly of mildew.";
@@ -4180,7 +4180,7 @@
 /turf/unsimulated/floor/grey/side{
 	dir = 6
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jP" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 6;
@@ -4194,7 +4194,7 @@
 	tag = ""
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jQ" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "It is not working.";
@@ -4204,7 +4204,7 @@
 	name = "pump"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jR" = (
 /obj/grille/steel,
 /obj/cable{
@@ -4212,7 +4212,7 @@
 	d2 = 4
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jS" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 1;
@@ -4238,12 +4238,12 @@
 	name = "sleeping bag"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jT" = (
 /turf/unsimulated/floor/stairs{
 	dir = 1
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "jU" = (
 /obj/critter/moonspy,
 /obj/cable{
@@ -4252,7 +4252,7 @@
 	d2 = 8
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "jV" = (
 /obj/decal/fakeobjects/pipe,
 /obj/decal/fakeobjects/pipe{
@@ -4273,7 +4273,7 @@
 	d2 = 8
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "jW" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -4286,12 +4286,12 @@
 	icon_state = "1-4"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "jX" = (
 /turf/unsimulated/floor/stairs{
 	dir = 1
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jY" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "It seems to have been damaged somehow.";
@@ -4301,11 +4301,11 @@
 	name = "filter"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "jZ" = (
 /obj/grille/steel,
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "ka" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 1;
@@ -4324,7 +4324,7 @@
 	icon_state = "1-4"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "kb" = (
 /obj/decal/fakeobjects/firelock_broken{
 	desc = "A security door used to separate museum compartments.";
@@ -4336,7 +4336,7 @@
 /turf/unsimulated/floor/grey/side{
 	dir = 8
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "kc" = (
 /obj/decal/fakeobjects/firelock_broken{
 	desc = "A security door used to separate museum compartments.";
@@ -4348,7 +4348,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "kd" = (
 /obj/decal/fakeobjects/firelock_broken{
 	desc = "A security door used to separate museum compartments.";
@@ -4360,13 +4360,13 @@
 /turf/unsimulated/floor/grey/side{
 	dir = 4
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "ke" = (
 /obj/shrub,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "kf" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "The air from it smells faintly of mildew.";
@@ -4379,13 +4379,13 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "kg" = (
 /obj/machinery/vending/snack,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "kh" = (
 /obj/decal/fakeobjects/firelock_broken{
 	desc = "A security door used to separate museum compartments.";
@@ -4397,7 +4397,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "ki" = (
 /obj/decal/fakeobjects/firelock_broken{
 	desc = "A security door used to separate museum compartments.";
@@ -4409,13 +4409,13 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "kj" = (
 /obj/machinery/vending/coffee,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "kk" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "The air from it smells faintly of mildew.";
@@ -4435,7 +4435,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "kl" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 9;
@@ -4446,7 +4446,7 @@
 	icon_state = "4-8"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "km" = (
 /obj/cable{
 	icon_state = "4-8"
@@ -4454,7 +4454,7 @@
 /turf/unsimulated/floor/stairs{
 	dir = 1
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "kn" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 5;
@@ -4465,7 +4465,7 @@
 	icon_state = "4-8"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "ko" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 10;
@@ -4477,24 +4477,24 @@
 	icon_state = "4-8"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "kp" = (
 /turf/unsimulated/floor/grey/corner{
 	dir = 4
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "kq" = (
 /obj/table/auto,
 /turf/unsimulated/floor/grey/side{
 	dir = 1
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "kr" = (
 /obj/reagent_dispensers/watertank,
 /turf/unsimulated/floor/grey/side{
 	dir = 5
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "ks" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "The air from it smells faintly of mildew.";
@@ -4515,13 +4515,13 @@
 /turf/unsimulated/floor/escape{
 	dir = 1
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "kt" = (
 /obj/fake_dwarf_bomb,
 /turf/unsimulated/floor/escape{
 	dir = 1
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "ku" = (
 /obj/critter/mannequin{
 	dead_state = "ira_mannequin-dead";
@@ -4534,7 +4534,7 @@
 /turf/unsimulated/floor/escape{
 	dir = 1
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "kv" = (
 /obj/table,
 /obj/item/gun/russianrevolver{
@@ -4545,7 +4545,7 @@
 /turf/unsimulated/floor/escape{
 	dir = 1
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "kw" = (
 /obj/decal/fakeobjects{
 	desc = "Hi, Greg.";
@@ -4554,7 +4554,7 @@
 	name = "greg mannequin"
 	},
 /turf/unsimulated/floor/black,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "kx" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "The air from it smells faintly of mildew.";
@@ -4565,7 +4565,7 @@
 	tag = ""
 	},
 /turf/unsimulated/floor/black,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "ky" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -4575,7 +4575,7 @@
 /turf/unsimulated/floor/stairs{
 	dir = 1
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "kz" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "The air from it smells faintly of mildew.";
@@ -4600,7 +4600,7 @@
 	icon_state = "fakelunar";
 	name = "simulated lunar surface"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "kA" = (
 /obj/window{
 	desc = "A window.  For a museum exhibit.";
@@ -4620,7 +4620,7 @@
 	icon_state = "fakelunar";
 	name = "simulated lunar surface"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "kB" = (
 /obj/window{
 	anchored = 0;
@@ -4631,16 +4631,16 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "kC" = (
 /turf/unsimulated/floor/black,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "kD" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 8;
 	icon_state = "leadcap_white"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "kE" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 1;
@@ -4654,7 +4654,7 @@
 	pixel_y = 0
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "kF" = (
 /turf/unsimulated/wall{
 	desc = "It's sealed shut.";
@@ -4663,17 +4663,17 @@
 	icon_state = "bdoorleft1";
 	name = "security door"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "kG" = (
 /turf/unsimulated/floor/grey/side{
 	dir = 10
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "kH" = (
 /turf/unsimulated/floor/grey/corner{
 	dir = 8
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "kI" = (
 /obj/window{
 	desc = "A window.  For a museum exhibit.";
@@ -4683,7 +4683,7 @@
 /turf/unsimulated/floor/escape{
 	dir = 2
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "kJ" = (
 /obj/window{
 	desc = "A window.  For a museum exhibit.";
@@ -4691,14 +4691,14 @@
 	name = "exhibit window"
 	},
 /turf/unsimulated/floor/black,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "kK" = (
 /turf/unsimulated/floor{
 	desc = "A textured panel that looks sorta like the lunar surface, kinda.";
 	icon_state = "fakelunar";
 	name = "simulated lunar surface"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "kL" = (
 /obj/window{
 	desc = "A window.  For a museum exhibit.";
@@ -4710,22 +4710,22 @@
 	icon_state = "fakelunar";
 	name = "simulated lunar surface"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "kM" = (
 /obj/machinery/navbeacon/lunar/tour2,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "kN" = (
 /turf/unsimulated/floor/grey/checker,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "kO" = (
 /obj/machinery/navbeacon/lunar/tour3,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "kP" = (
 /obj/window{
 	desc = "A window.  For a museum exhibit.";
@@ -4733,7 +4733,7 @@
 	name = "exhibit window"
 	},
 /turf/unsimulated/floor/black,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "kQ" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "The air from it smells faintly of mildew.";
@@ -4752,7 +4752,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "kR" = (
 /turf/unsimulated/wall{
 	desc = "It's sealed shut.";
@@ -4761,7 +4761,7 @@
 	icon_state = "bdoorright1";
 	name = "security door"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "kS" = (
 /obj/machinery/light{
 	dir = 8;
@@ -4771,13 +4771,13 @@
 /turf/unsimulated/floor/grey/side{
 	dir = 8
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "kT" = (
 /obj/machinery/navbeacon/lunar/tour13,
 /turf/unsimulated/floor/grey/side{
 	dir = 1
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "kU" = (
 /obj/machinery/light{
 	dir = 1;
@@ -4786,26 +4786,26 @@
 /turf/unsimulated/floor/grey/side{
 	dir = 1
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "kV" = (
 /obj/machinery/navbeacon/lunar/tour16,
 /turf/unsimulated/floor/grey/side{
 	dir = 1
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "kW" = (
 /obj/trigger/critter,
 /turf/unsimulated/floor/grey/side{
 	dir = 1
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "kX" = (
 /obj/table/auto,
 /obj/machinery/microscope,
 /turf/unsimulated/floor/grey/side{
 	dir = 1
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "kY" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -4830,11 +4830,11 @@
 	icon_state = "fakelunar";
 	name = "simulated lunar surface"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "kZ" = (
 /obj/stool/bench/blue/auto,
 /turf/unsimulated/floor/grey/checker,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "la" = (
 /obj/window{
 	desc = "A window.  For a museum exhibit.";
@@ -4847,7 +4847,7 @@
 	name = "exhibit window"
 	},
 /turf/unsimulated/floor/black,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "lb" = (
 /obj/window{
 	desc = "A window.  For a museum exhibit.";
@@ -4855,7 +4855,7 @@
 	name = "exhibit window"
 	},
 /turf/unsimulated/floor/black,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "lc" = (
 /obj/window{
 	desc = "A window.  For a museum exhibit.";
@@ -4868,7 +4868,7 @@
 	name = "exhibit window"
 	},
 /turf/unsimulated/floor/black,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "ld" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "The air from it smells faintly of mildew.";
@@ -4880,7 +4880,7 @@
 	tag = ""
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "le" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 9;
@@ -4888,7 +4888,7 @@
 	name = "grimy pipe"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "lf" = (
 /obj/decal/fakeobjects/firelock_broken{
 	density = 1;
@@ -4899,13 +4899,13 @@
 	opacity = 1
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "lg" = (
 /obj/machinery/navbeacon/lunar/tour12,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "lh" = (
 /obj/table/auto,
 /obj/item/raw_material/rock{
@@ -4919,7 +4919,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "li" = (
 /obj/machinery/light{
 	dir = 8;
@@ -4929,7 +4929,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "lj" = (
 /obj/window{
 	desc = "A window.  For a museum exhibit.";
@@ -4937,7 +4937,7 @@
 	name = "exhibit window"
 	},
 /turf/unsimulated/floor/black,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "lk" = (
 /obj/machinery/light{
 	icon_state = "tube1";
@@ -4946,7 +4946,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "ll" = (
 /obj/item/caution{
 	desc = "Caution! Construction Zone!";
@@ -4955,7 +4955,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "lm" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 9;
@@ -4974,25 +4974,25 @@
 	setup_string = "lunar_rightroom,EAST HALL DOOR;giftshopinner,GIFT ACCESS;giftshopouter,WEST HALL DOOR;lunar_storage,ACC STORAGE;lunar_terror2,ACTOR 28"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "ln" = (
 /turf/unsimulated/floor/grey/corner,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "lo" = (
 /obj/machinery/light,
 /turf/unsimulated/floor/grey/side,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "lp" = (
 /turf/unsimulated/floor/grey/side,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "lq" = (
 /obj/machinery/navbeacon/lunar/tour14,
 /turf/unsimulated/floor/grey/side,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "lr" = (
 /obj/machinery/navbeacon/lunar/tour15,
 /turf/unsimulated/floor/grey/side,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "ls" = (
 /obj/machinery/door/poddoor/blast/lunar/tour{
 	icon_state = "bdoorright1"
@@ -5000,11 +5000,11 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "lt" = (
 /obj/decal/fakeobjects/moon_on_a_stick,
 /turf/unsimulated/floor/black,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "lu" = (
 /obj/machinery/door/poddoor/blast/lunar/tour{
 	icon_state = "bdoorright1";
@@ -5014,7 +5014,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "lv" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 1;
@@ -5031,7 +5031,7 @@
 	name = "security camera"
 	},
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "lw" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "The air from it smells faintly of mildew.";
@@ -5044,17 +5044,17 @@
 /turf/unsimulated/floor/grey/side{
 	dir = 10
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "lx" = (
 /obj/stool/bench/blue/auto,
 /turf/unsimulated/floor/grey/side,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "ly" = (
 /obj/stool/bench/blue/auto,
 /turf/unsimulated/floor/grey/side{
 	dir = 6
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "lz" = (
 /obj/window{
 	desc = "A window.  For a museum exhibit.";
@@ -5066,7 +5066,7 @@
 	pixel_y = 4
 	},
 /turf/unsimulated/floor/wood,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "lA" = (
 /obj/window{
 	desc = "A window.  For a museum exhibit.";
@@ -5079,7 +5079,7 @@
 	name = "ordinary pen"
 	},
 /turf/unsimulated/floor/wood,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "lB" = (
 /obj/window{
 	desc = "A window.  For a museum exhibit.";
@@ -5087,7 +5087,7 @@
 	name = "exhibit window"
 	},
 /turf/unsimulated/floor/wood,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "lC" = (
 /obj/window{
 	desc = "A window.  For a museum exhibit.";
@@ -5095,7 +5095,7 @@
 	name = "exhibit window"
 	},
 /turf/unsimulated/floor/circuit/white,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "lD" = (
 /obj/shrub{
 	icon = 'icons/obj/stationobjs.dmi';
@@ -5105,13 +5105,13 @@
 /turf/unsimulated/floor/grey/side{
 	dir = 8
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "lE" = (
 /obj/machinery/light,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "lF" = (
 /obj/machinery/door/poddoor/blast/lunar/tour{
 	icon_state = "bdoorleft1"
@@ -5119,7 +5119,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "lG" = (
 /obj/window{
 	desc = "A window.  For a museum exhibit.";
@@ -5132,7 +5132,7 @@
 	name = "exhibit window"
 	},
 /turf/unsimulated/floor/black,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "lH" = (
 /obj/window{
 	desc = "A window.  For a museum exhibit.";
@@ -5140,7 +5140,7 @@
 	name = "exhibit window"
 	},
 /turf/unsimulated/floor/black,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "lI" = (
 /obj/window{
 	desc = "A window.  For a museum exhibit.";
@@ -5153,7 +5153,7 @@
 	name = "exhibit window"
 	},
 /turf/unsimulated/floor/black,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "lJ" = (
 /obj/machinery/door/poddoor/blast/lunar/tour{
 	icon_state = "bdoorleft1";
@@ -5163,7 +5163,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "lK" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "The air from it smells faintly of mildew.";
@@ -5174,7 +5174,7 @@
 	tag = ""
 	},
 /turf/unsimulated/floor/wood,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "lL" = (
 /obj/stool/chair/comfy/green{
 	dir = 1;
@@ -5191,7 +5191,7 @@
 	typeName = "Jam"
 	},
 /turf/unsimulated/floor/wood,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "lM" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -5202,7 +5202,7 @@
 	name = "security camera"
 	},
 /turf/unsimulated/floor/wood,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "lN" = (
 /obj/decal/fakeobjects{
 	anchored = 0;
@@ -5215,7 +5215,7 @@
 	name = "very old robuddy model"
 	},
 /turf/unsimulated/floor/circuit/white,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "lO" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -5227,7 +5227,7 @@
 	name = "old mainframe"
 	},
 /turf/unsimulated/floor/circuit/white,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "lP" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "The air from it smells faintly of mildew.";
@@ -5238,13 +5238,13 @@
 	tag = ""
 	},
 /turf/unsimulated/floor/circuit/white,
-/area/moon/museum/west)
+/area/adventure/moon/museum/west)
 "lQ" = (
 /obj/machinery/navbeacon/lunar/tour1,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "lR" = (
 /obj/item/sheet/electrum,
 /obj/decal/fakeobjects/lighttube_broken{
@@ -5256,42 +5256,42 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "lS" = (
 /obj/item/wirecutters,
 /turf/unsimulated/floor,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "lT" = (
 /turf/unsimulated/wall/setpieces/lunar,
-/area/moon/museum/giftshop)
+/area/adventure/moon/museum/giftshop)
 "lU" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar,
-/area/moon/museum/giftshop)
+/area/adventure/moon/museum/giftshop)
 "lV" = (
 /obj/item/basketball/lunar,
 /turf/unsimulated/floor/grey/checker,
-/area/moon/museum/giftshop)
+/area/adventure/moon/museum/giftshop)
 "lW" = (
 /obj/rack/lunar,
 /obj/item/clothing/suit/lunar_tshirt{
 	pixel_x = 8
 	},
 /turf/unsimulated/floor/grey/checker,
-/area/moon/museum/giftshop)
+/area/adventure/moon/museum/giftshop)
 "lX" = (
 /obj/machinery/light{
 	icon_state = "tube1";
 	dir = 1
 	},
 /turf/unsimulated/floor/grey/checker,
-/area/moon/museum/giftshop)
+/area/adventure/moon/museum/giftshop)
 "lY" = (
 /obj/rack/lunar,
 /obj/item/clothing/shoes/moon{
 	pixel_x = -8
 	},
 /turf/unsimulated/floor/grey/checker,
-/area/moon/museum/giftshop)
+/area/adventure/moon/museum/giftshop)
 "lZ" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -5305,34 +5305,34 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "ma" = (
 /obj/machinery/light,
 /obj/stool/bench/blue/auto,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mb" = (
 /obj/stool/bench/blue/auto,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mc" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 4
 	},
-/area/moon/museum/giftshop)
+/area/adventure/moon/museum/giftshop)
 "md" = (
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum/giftshop)
+/area/adventure/moon/museum/giftshop)
 "me" = (
 /obj/rack/lunar,
 /turf/unsimulated/floor/grey/checker,
-/area/moon/museum/giftshop)
+/area/adventure/moon/museum/giftshop)
 "mf" = (
 /obj/rack/lunar,
 /obj/item/clothing/suit/lunar_tshirt{
@@ -5340,10 +5340,10 @@
 	pixel_y = 0
 	},
 /turf/unsimulated/floor/grey/checker,
-/area/moon/museum/giftshop)
+/area/adventure/moon/museum/giftshop)
 "mg" = (
 /turf/unsimulated/floor/grey/checker,
-/area/moon/museum/giftshop)
+/area/adventure/moon/museum/giftshop)
 "mh" = (
 /obj/decal/fakeobjects/firelock_broken{
 	desc = "A security door used to separate museum compartments.";
@@ -5356,7 +5356,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mi" = (
 /obj/decal/fakeobjects/firelock_broken{
 	desc = "A security door used to separate museum compartments.";
@@ -5369,12 +5369,12 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mj" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	icon_state = "leadjunction_white"
 	},
-/area/moon/museum/giftshop)
+/area/adventure/moon/museum/giftshop)
 "mk" = (
 /obj/decal/fakeobjects/firelock_broken{
 	density = 1;
@@ -5385,12 +5385,12 @@
 	opacity = 1
 	},
 /turf/unsimulated/floor,
-/area/moon/museum/giftshop)
+/area/adventure/moon/museum/giftshop)
 "ml" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 6
 	},
-/area/moon/museum/giftshop)
+/area/adventure/moon/museum/giftshop)
 "mm" = (
 /obj/machinery/door/poddoor/blast/lunar/tour{
 	density = 0;
@@ -5400,14 +5400,14 @@
 	tag = "giftshopinner"
 	},
 /turf/unsimulated/floor/grey/checker,
-/area/moon/museum/giftshop)
+/area/adventure/moon/museum/giftshop)
 "mn" = (
 /obj/machinery/light{
 	dir = 1;
 	name = "light fixture"
 	},
 /turf/unsimulated/floor/grey/checker,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mo" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "The air from it smells faintly of mildew.";
@@ -5418,7 +5418,7 @@
 	tag = ""
 	},
 /turf/unsimulated/floor/grey/checker,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mp" = (
 /obj/decal/glow{
 	anchored = 1;
@@ -5434,7 +5434,7 @@
 	color_r = 0
 	},
 /turf/unsimulated/floor/grey/checker,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mq" = (
 /obj/decal/glow{
 	anchored = 1;
@@ -5449,7 +5449,7 @@
 	color_r = 0
 	},
 /turf/unsimulated/floor/grey/checker,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mr" = (
 /obj/machinery/door/poddoor/blast/lunar/tour{
 	icon_state = "bdoorright1";
@@ -5457,7 +5457,7 @@
 	tag = "giftshopouter"
 	},
 /turf/unsimulated/floor/grey/checker,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "ms" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -5473,7 +5473,7 @@
 	name = "inactive light tube"
 	},
 /turf/unsimulated/floor/grey/checker,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mt" = (
 /obj/machinery/guardbot_dock{
 	autoeject = 2;
@@ -5484,7 +5484,7 @@
 	beacon_freq = 1441
 	},
 /turf/unsimulated/floor/grey/checker,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mu" = (
 /obj/machinery/guardbot_dock{
 	autoeject = 2;
@@ -5496,7 +5496,7 @@
 	name = "light fixture"
 	},
 /turf/unsimulated/floor/grey/checker,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mv" = (
 /obj/machinery/guardbot_dock{
 	autoeject = 2;
@@ -5516,7 +5516,7 @@
 	color_r = 0
 	},
 /turf/unsimulated/floor/grey/checker,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mw" = (
 /obj/machinery/guardbot_dock{
 	autoeject = 2;
@@ -5524,20 +5524,20 @@
 	name = "old docking station"
 	},
 /turf/unsimulated/floor/grey/checker,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mx" = (
 /obj/table/auto,
 /obj/machinery/cashreg,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum/giftshop)
+/area/adventure/moon/museum/giftshop)
 "my" = (
 /obj/rack/lunar{
 	icon_state = "aisleshelfend"
 	},
 /turf/unsimulated/floor/grey/checker,
-/area/moon/museum/giftshop)
+/area/adventure/moon/museum/giftshop)
 "mz" = (
 /obj/machinery/door/poddoor/blast/lunar/tour{
 	density = 0;
@@ -5549,13 +5549,13 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum/giftshop)
+/area/adventure/moon/museum/giftshop)
 "mA" = (
 /obj/machinery/navbeacon/lunar/tour17,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mB" = (
 /obj/machinery/door/poddoor/blast/lunar/tour{
 	id = "giftshopouter";
@@ -5564,7 +5564,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mC" = (
 /obj/landmark{
 	name = "telesci"
@@ -5572,13 +5572,13 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mD" = (
 /obj/machinery/navbeacon/lunar/tour0,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mE" = (
 /obj/machinery/light{
 	dir = 8;
@@ -5588,13 +5588,13 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum/giftshop)
+/area/adventure/moon/museum/giftshop)
 "mF" = (
 /obj/table/auto,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum/giftshop)
+/area/adventure/moon/museum/giftshop)
 "mG" = (
 /obj/machinery/door/poddoor/blast/lunar/tour{
 	density = 0;
@@ -5606,13 +5606,13 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum/giftshop)
+/area/adventure/moon/museum/giftshop)
 "mH" = (
 /obj/machinery/light,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mI" = (
 /obj/machinery/door/poddoor/blast/lunar/tour{
 	icon_state = "bdoorleft1";
@@ -5622,7 +5622,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mJ" = (
 /obj/landmark{
 	name = "telesci"
@@ -5634,7 +5634,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mK" = (
 /turf/unsimulated/wall{
 	desc = "It's sealed shut.";
@@ -5643,13 +5643,13 @@
 	icon_state = "bdoormid1";
 	name = "security door"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mL" = (
 /obj/machinery/light,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum/giftshop)
+/area/adventure/moon/museum/giftshop)
 "mM" = (
 /obj/decal/glow{
 	anchored = 1;
@@ -5667,12 +5667,12 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mN" = (
 /turf/unsimulated/wall/setpieces/leadwall/white/lunar{
 	dir = 10
 	},
-/area/moon/museum/giftshop)
+/area/adventure/moon/museum/giftshop)
 "mO" = (
 /obj/storage/cart/trash{
 	desc = "You would expect them to take this out before starting construction work, but..."
@@ -5682,12 +5682,12 @@
 /turf/unsimulated/floor/red/side{
 	dir = 1
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mP" = (
 /turf/unsimulated/floor/red/side{
 	dir = 1
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mQ" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -5695,7 +5695,7 @@
 /turf/unsimulated/floor/red/side{
 	dir = 1
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mR" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "The air from it smells faintly of mildew.";
@@ -5708,7 +5708,7 @@
 /turf/unsimulated/floor/red/side{
 	dir = 1
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mS" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -5720,22 +5720,22 @@
 /turf/unsimulated/floor/red/side{
 	dir = 1
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mT" = (
 /turf/unsimulated/floor/red/side{
 	dir = 5
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mU" = (
 /turf/unsimulated/floor/red/side{
 	dir = 9
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mV" = (
 /turf/unsimulated/floor/red/corner{
 	dir = 1
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mW" = (
 /obj/machinery/door/poddoor/blast/single{
 	desc = "A security blast door.  You know, as opposed to all of those coat closet blast doors and bathroom blast doors.";
@@ -5746,16 +5746,16 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mX" = (
 /turf/unsimulated/wall/setpieces/leadwindow/white{
 	dir = 4
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mY" = (
 /obj/machinery/vending/cola/red,
 /turf/unsimulated/floor/grey/checker,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "mZ" = (
 /obj/overlay{
 	anchored = 1;
@@ -5770,17 +5770,17 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "na" = (
 /turf/unsimulated/floor/red/side{
 	dir = 4
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "nb" = (
 /turf/unsimulated/floor/red/side{
 	dir = 8
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "nc" = (
 /obj/table,
 /obj/item/pen{
@@ -5800,7 +5800,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "nd" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "The air from it smells faintly of mildew.";
@@ -5816,11 +5816,11 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "ne" = (
 /obj/machinery/door/airlock,
 /turf/unsimulated/floor/delivery,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "nf" = (
 /obj/decal/fakeobjects/firelock_broken{
 	desc = "A security door used to separate museum compartments.";
@@ -5830,14 +5830,14 @@
 	name = "security door"
 	},
 /turf/unsimulated/floor/red,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "ng" = (
 /obj/machinery/door/airlock/security{
 	name = "Security Checkpoint";
 	req_access_txt = "255"
 	},
 /turf/unsimulated/floor/delivery,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "nh" = (
 /obj/stool/chair/office/red{
 	icon_state = "office_chair_red";
@@ -5846,7 +5846,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "ni" = (
 /obj/machinery/computer3/generic/lunarsec{
 	dir = 8
@@ -5854,20 +5854,20 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "nj" = (
 /obj/decal/cleanable/cobweb,
 /turf/unsimulated/floor/grey/blackgrime,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "nk" = (
 /turf/unsimulated/floor/grey/blackgrime,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "nl" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/unsimulated/floor/grey/blackgrime,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "nm" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -5875,10 +5875,10 @@
 /obj/table,
 /obj/item/handcuffs,
 /turf/unsimulated/floor/grey/blackgrime,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "nn" = (
 /turf/unsimulated/wall/setpieces/leadwindow/white,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "no" = (
 /obj/machinery/door_control{
 	desc = "A remote control switch for a security door.";
@@ -5897,7 +5897,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "np" = (
 /obj/decal/cleanable/blood/splatter{
 	icon_state = "floor4"
@@ -5908,7 +5908,7 @@
 	name = "Interrogation Chair"
 	},
 /turf/unsimulated/floor/grey/blackgrime,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "nq" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -5919,12 +5919,12 @@
 	name = "security camera"
 	},
 /turf/unsimulated/floor/grey/blackgrime,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "nr" = (
 /obj/table,
 /obj/item/wirecutters,
 /turf/unsimulated/floor/grey/blackgrime,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "ns" = (
 /obj/stool/barber_chair{
 	desc = "A ratty chair with manacles built into the arms.  Could also be used as a barber chair, probably.  If you're some kind of weirdo.";
@@ -5932,7 +5932,7 @@
 	name = "Interrogation Chair"
 	},
 /turf/unsimulated/floor/grey/blackgrime,
-/area/moon/museum)
+/area/adventure/moon/museum)
 "nt" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 6;
@@ -5954,7 +5954,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "nu" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -5968,7 +5968,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "nv" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 4;
@@ -5979,7 +5979,7 @@
 /turf/unsimulated/floor{
 	name = "plating"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "nw" = (
 /obj/machinery/door/poddoor/blast/single{
 	density = 0;
@@ -5993,13 +5993,13 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "nx" = (
 /obj/machinery/light/small,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "ny" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -6012,7 +6012,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/moon/museum)
+/area/adventure/moon/museum)
 "nz" = (
 /turf/unsimulated/wall{
 	icon = 'icons/obj/singularity.dmi';

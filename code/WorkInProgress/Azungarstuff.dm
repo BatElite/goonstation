@@ -2,7 +2,7 @@
 
 
 //AREAS//
-
+/*
 /area/azarak/cave
 	name = "azarak cave"
 	icon_state = "azarak_cave"
@@ -20,7 +20,7 @@
 	skip_sims = 1
 	sims_score = 15
 	sound_group = "azarak"
-
+*/
 
 
 //FLOORS//
