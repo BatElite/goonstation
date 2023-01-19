@@ -1254,7 +1254,7 @@ obj/critter/madnessowl/switchblade
 //FUCKABLE AREAS!!
 var/list/owlery_sounds = list('sound/voice/animal/hoot.ogg','sound/ambience/owlzone/owlsfx1.ogg','sound/ambience/owlzone/owlsfx2.ogg','sound/ambience/owlzone/owlsfx3.ogg','sound/ambience/owlzone/owlsfx4.ogg','sound/ambience/owlzone/owlsfx5.ogg','sound/machines/hiss.ogg')
 
-/area/owlery
+/area/adventure/owlery
 	name = "owl fuckery"
 	sound_group = "owl"
 	teleport_blocked = 1
@@ -1276,61 +1276,61 @@ var/list/owlery_sounds = list('sound/voice/animal/hoot.ogg','sound/ambience/owlz
 							M.client.playAmbience(src, AMBIENCE_FX_2, 50)
 
 
-/area/owlery/Owlopen
+/area/adventure/owlery/Owlopen
 	name = "Owlery Arrivals"
 	icon_state = "green"
 	sound_loop = 'sound/ambience/owlzone/owlbanjo.ogg'
 	sound_group = "owl_banjo"
 
-/area/owlery/owllock
+/area/adventure/owlery/owllock
 	name = "Owl Observatory Room"
 	icon_state = "yellow"
 	sound_loop = 'sound/ambience/owlzone/owlambi3.ogg'
 	sound_group = "owl_amb3"
 
-/area/owlery/owleryhall
+/area/adventure/owlery/owleryhall
 	name = "Owlery Hall Junction"
 	icon_state = "orange"
 	sound_loop = 'sound/ambience/owlzone/owlbanjo.ogg'
 	sound_group = "owl_banjo"
 
-/area/owlery/gangzone
+/area/adventure/owlery/gangzone
 	name = "Mad Owl Den"
 	icon_state = "purple"
 	sound_loop = 'sound/ambience/owlzone/owlambi2.ogg'
 	sound_group = "owl_amb2"
 
-/area/owlery/staffhall
+/area/adventure/owlery/staffhall
 	name = "Staff Hall"
 	icon_state = "crewquarters"
 	sound_loop = 'sound/ambience/owlzone/owlbanjo.ogg'
 	sound_group = "owl_banjo"
 
-/area/owlery/office
+/area/adventure/owlery/office
 	name = "Office Wing"
 	icon_state = "red"
 	sound_loop = 'sound/ambience/owlzone/owlbanjo.ogg'
 	sound_group = "owl_banjo"
 
-/area/owlery/lab
+/area/adventure/owlery/lab
 	name = "Perfectly Legal Laboratory"
 	icon_state = "blue"
 	sound_loop = 'sound/ambience/owlzone/owlambi5.ogg'
 
-/area/owlery/Owlmait
+/area/adventure/owlery/Owlmait
 	name = "Owl Maintenance"
 	icon_state = "dk_yellow"
 	sound_loop = 'sound/ambience/owlzone/owlbanjo.ogg'
 	sound_group = "owl_banjo"
 
-/area/owlery/solars
+/area/adventure/owlery/solars
 	name = "Listening Post Solar Array"
 	icon_state = "yellow"
 	requires_power = 0
 	luminosity = 1
 	teleport_blocked = 0
 
-/area/owlery/Owlmait2
+/area/adventure/owlery/Owlmait2
 	name = "River Loop Maintenance"
 	icon_state = "dk_yellow"
 	sound_loop = 'sound/ambience/owlzone/owlambi3.ogg'
@@ -1440,7 +1440,7 @@ var/list/owlery_sounds = list('sound/voice/animal/hoot.ogg','sound/ambience/owlz
 	picture = "robot.png"
 	name = "Greg"
 	desc = "Oh hey its Greg! Everyone loves him, but you don't seem to remember why."
-	trader_area = "/area/owlery/staffhall"
+	trader_area = "/area/adventure/owlery/staffhall"
 
 	New()
 		..()

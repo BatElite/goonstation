@@ -2350,7 +2350,7 @@
 	},
 /obj/machinery/drone_recharger,
 /turf/simulated/floor/carpet/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aft" = (
 /obj/machinery/atmospherics/unary/vent_pump/east,
 /obj/cable{
@@ -7743,7 +7743,7 @@
 	dir = 8;
 	icon_state = "wall3_space"
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "asm" = (
 /obj/rack,
 /obj/item/tank/plasma,
@@ -7790,7 +7790,7 @@
 /obj/grille/steel,
 /obj/window/auto/reinforced,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "asv" = (
 /obj/cable{
 	d1 = 4;
@@ -7821,7 +7821,7 @@
 /obj/grille/steel,
 /obj/window/auto,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "asz" = (
 /obj/storage/secure/closet/research/uniform,
 /turf/simulated/floor/purpleblack{
@@ -7974,7 +7974,7 @@
 	dir = 1;
 	icon_state = "wall3_space"
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "asV" = (
 /obj/disposalpipe/trunk{
 	dir = 4
@@ -9971,17 +9971,17 @@
 	dir = 4;
 	icon_state = "wall3"
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ayc" = (
 /obj/table/wood/auto,
 /obj/item/chem_grenade/cleaner,
 /turf/simulated/floor/grey/blackgrime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ayd" = (
 /obj/item/raw_material/shard,
 /obj/reagent_dispensers/watertank,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aye" = (
 /obj/barber_pole,
 /turf/simulated/shuttle/wall{
@@ -10157,7 +10157,7 @@
 	},
 /obj/machinery/power/apc/autoname_west,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ayD" = (
 /obj/cable{
 	d1 = 2;
@@ -10165,14 +10165,14 @@
 	icon_state = "2-8"
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ayE" = (
 /obj/item/reagent_containers/glass/compostbag,
 /turf/simulated/floor/grey/blackgrime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ayF" = (
 /turf/simulated/shuttle/wall,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ayG" = (
 /turf/simulated/floor/grey/blackgrime,
 /area/station/science/spectral)
@@ -10315,10 +10315,10 @@
 "ayX" = (
 /obj/machinery/door/airlock/external,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ayY" = (
 /turf/simulated/floor/grey/blackgrime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ayZ" = (
 /obj/cable{
 	d1 = 2;
@@ -10326,17 +10326,17 @@
 	icon_state = "1-6"
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aza" = (
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "azb" = (
 /obj/machinery/door/airlock/external,
 /turf/simulated/floor/darkblue,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "azc" = (
 /turf/simulated/floor/darkblue,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "azd" = (
 /obj/machinery/door/airlock/external,
 /turf/simulated/floor/plating,
@@ -10501,7 +10501,7 @@
 "azz" = (
 /obj/decal/cleanable/balloon,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "azA" = (
 /obj/cable{
 	d1 = 2;
@@ -10510,7 +10510,7 @@
 	},
 /obj/machinery/light_switch/east,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "azB" = (
 /obj/table/auto,
 /obj/item/pen{
@@ -10673,7 +10673,7 @@
 "azW" = (
 /obj/item/wrench,
 /turf/simulated/floor/grey/blackgrime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "azX" = (
 /obj/cable{
 	d1 = 2;
@@ -10681,7 +10681,7 @@
 	icon_state = "5-10"
 	},
 /turf/simulated/floor/grey/blackgrime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "azY" = (
 /obj/machinery/light/small{
 	dir = 4;
@@ -10689,7 +10689,7 @@
 	},
 /obj/item/wirecutters,
 /turf/simulated/floor/grey/blackgrime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "azZ" = (
 /obj/item/clothing/under/misc/clown/blue,
 /turf/space,
@@ -10813,7 +10813,7 @@
 /area/space)
 "aAo" = (
 /turf/simulated/wall/auto/reinforced/supernorn,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aAp" = (
 /obj/grille/steel,
 /obj/window/auto/reinforced,
@@ -10821,18 +10821,18 @@
 	icon_state = "2-5"
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aAq" = (
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3"
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aAr" = (
 /turf/simulated/shuttle/wall{
 	dir = 4;
 	icon_state = "wall3_space"
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aAs" = (
 /obj/stool/chair/comfy/shuttle{
 	dir = 4
@@ -11024,18 +11024,18 @@
 	},
 /obj/stool/chair/e_chair,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aAO" = (
 /obj/grille/steel,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aAP" = (
 /obj/machinery/shuttle/engine/heater,
 /turf/simulated/shuttle/wall{
 	dir = 4;
 	icon_state = "wall3"
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aAQ" = (
 /obj/item/clothing/shoes/rocket,
 /turf/space,
@@ -11145,7 +11145,7 @@
 	icon_state = "9-10"
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aBe" = (
 /obj/item/raw_material/shard,
 /obj/cable{
@@ -11248,7 +11248,7 @@
 "aBu" = (
 /obj/item/clothing/gloves/yellow/unsulated,
 /turf/simulated/floor/carpet/red/standard/edge/north,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aBv" = (
 /obj/cable{
 	d1 = 2;
@@ -11256,13 +11256,13 @@
 	icon_state = "4-10"
 	},
 /turf/simulated/floor/carpet/red/standard/edge/north,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aBw" = (
 /obj/cable{
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/carpet/red/standard/edge/north,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aBx" = (
 /obj/cable{
 	d1 = 2;
@@ -11275,10 +11275,10 @@
 	icon_state = "6-8"
 	},
 /turf/simulated/floor/carpet/red/standard/edge/ne,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aBy" = (
 /turf/simulated/floor/carpet/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aBz" = (
 /obj/stool/chair/couch{
 	dir = 8;
@@ -11286,7 +11286,7 @@
 	name = "ratty blue couch"
 	},
 /turf/simulated/floor/carpet/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aBA" = (
 /obj/machinery/light{
 	dir = 1;
@@ -11299,7 +11299,7 @@
 	},
 /obj/item/reagent_containers/iv_drip,
 /turf/simulated/floor/carpet/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aBB" = (
 /obj/cable{
 	d1 = 2;
@@ -11307,7 +11307,7 @@
 	icon_state = "4-10"
 	},
 /turf/simulated/floor/carpet/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aBC" = (
 /obj/cable{
 	d1 = 1;
@@ -11398,17 +11398,17 @@
 	icon_state = "5-8"
 	},
 /turf/simulated/floor/carpet/red/standard/edge/south,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aBO" = (
 /turf/simulated/floor/carpet/red/standard/edge/south,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aBP" = (
 /obj/machinery/light/small,
 /turf/simulated/floor/carpet/red/standard/edge/south,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aBQ" = (
 /turf/simulated/floor/carpet/red/standard/edge/se,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aBR" = (
 /obj/cable{
 	d1 = 2;
@@ -11416,7 +11416,7 @@
 	icon_state = "4-9"
 	},
 /turf/simulated/floor/carpet/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aBS" = (
 /obj/cable{
 	icon_state = "4-8"
@@ -11427,13 +11427,13 @@
 	icon_state = "6-8"
 	},
 /turf/simulated/floor/carpet/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aBT" = (
 /obj/cable{
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/carpet/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aBU" = (
 /obj/cable{
 	d1 = 2;
@@ -11441,17 +11441,17 @@
 	icon_state = "5-8"
 	},
 /turf/simulated/floor/carpet/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aBV" = (
 /obj/item/chair/folded,
 /turf/simulated/floor/carpet/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aBW" = (
 /obj/machinery/firealarm,
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3"
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aBX" = (
 /obj/machinery/shuttle/engine/heater,
 /turf/simulated/shuttle/wall{
@@ -11521,7 +11521,7 @@
 	})
 "aCh" = (
 /turf/simulated/floor/black,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aCi" = (
 /obj/cable{
 	d1 = 2;
@@ -11529,12 +11529,12 @@
 	icon_state = "2-9"
 	},
 /turf/simulated/floor/black,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aCj" = (
 /obj/table/wood/auto,
 /obj/item/dice/coin,
 /turf/simulated/floor/black,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aCk" = (
 /obj/machinery/shuttle/engine/propulsion,
 /turf/space,
@@ -57756,7 +57756,7 @@
 /obj/item/stg_booster,
 /obj/decal/cleanable/cobweb,
 /turf/simulated/floor/grey/blackgrime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "udQ" = (
 /obj/machinery/light_switch/west,
 /obj/machinery/lawrack{

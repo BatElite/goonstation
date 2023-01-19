@@ -5147,7 +5147,7 @@
 /area/station/medical/dome)
 "aml" = (
 /turf/simulated/wall/auto/reinforced/supernorn,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "amm" = (
 /turf/simulated/floor/grass{
 	name = "astroturf"
@@ -16592,7 +16592,7 @@
 /obj/machinery/light/incandescent/small,
 /obj/machinery/portable_reclaimer,
 /turf/simulated/floor/caution/north,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aOI" = (
 /obj/table/glass/reinforced/auto,
 /obj/item/plate,
@@ -18391,7 +18391,7 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aTk" = (
 /obj/decal/cleanable/dirt,
 /obj/machinery/drone_recharger,
@@ -18399,7 +18399,7 @@
 	icon_state = "coil1"
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aTl" = (
 /obj/cable{
 	icon_state = "1-2"
@@ -40565,7 +40565,7 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ccg" = (
 /obj/machinery/power/data_terminal,
 /obj/cable{
@@ -40577,7 +40577,7 @@
 	setup_drive_type = null
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cch" = (
 /obj/disposalpipe/segment{
 	dir = 4
@@ -40591,13 +40591,13 @@
 	id = "tech"
 	},
 /turf/simulated/floor/shuttlebay,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ccj" = (
 /obj/machinery/r_door_control{
 	id = "tech"
 	},
 /turf/simulated/wall/auto/reinforced/supernorn,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cck" = (
 /obj/storage/secure/closet/fridge/kitchen{
 	locked = 0;
@@ -40650,7 +40650,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cct" = (
 /obj/cable{
 	d1 = 1;
@@ -40664,7 +40664,7 @@
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ccu" = (
 /obj/cable{
 	icon_state = "1-8"
@@ -40674,10 +40674,10 @@
 	dir = 4
 	},
 /turf/simulated/floor/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ccv" = (
 /turf/simulated/floor/shuttlebay,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ccw" = (
 /obj/machinery/door_control{
 	id = "tech";
@@ -40685,7 +40685,7 @@
 	pixel_x = 22
 	},
 /turf/simulated/floor/shuttlebay,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ccx" = (
 /obj/decal/cleanable/dirt,
 /obj/storage/secure/closet/civilian/kitchen,
@@ -40700,7 +40700,7 @@
 /area/diner/kitchen)
 "ccA" = (
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ccB" = (
 /obj/cable{
 	d1 = 1;
@@ -40708,20 +40708,20 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ccC" = (
 /turf/simulated/floor/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ccD" = (
 /obj/machinery/light/incandescent/small{
 	dir = 8
 	},
 /turf/simulated/floor/shuttlebay,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ccE" = (
 /obj/machinery/vehicle/tank/minisub,
 /turf/simulated/floor/shuttlebay,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ccF" = (
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/plating/random,
@@ -40743,7 +40743,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating/random,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ccJ" = (
 /obj/kitchenspike,
 /obj/securearea{
@@ -40784,7 +40784,7 @@
 "ccP" = (
 /obj/storage/crate/furnacefuel,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ccQ" = (
 /obj/table/auto,
 /obj/machinery/cell_charger,
@@ -40793,7 +40793,7 @@
 	status = 2
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ccR" = (
 /obj/cable{
 	d1 = 2;
@@ -40806,7 +40806,7 @@
 	},
 /obj/machinery/computer/power_monitor,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ccS" = (
 /obj/cable{
 	d2 = 8;
@@ -40818,13 +40818,13 @@
 	output = 2500
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ccT" = (
 /obj/cable{
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ccU" = (
 /obj/machinery/door/airlock/pyro/maintenance/alt,
 /obj/firedoor_spawn,
@@ -40833,7 +40833,7 @@
 "ccV" = (
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/shuttlebay,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ccW" = (
 /obj/decal/cleanable/dirt,
 /obj/machinery/gibber/output_west,
@@ -40869,7 +40869,7 @@
 	pixel_x = -24
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdb" = (
 /obj/cable{
 	d1 = 4;
@@ -40880,7 +40880,7 @@
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdc" = (
 /obj/cable{
 	d1 = 1;
@@ -40893,7 +40893,7 @@
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdd" = (
 /obj/machinery/power/terminal{
 	dir = 1
@@ -40907,7 +40907,7 @@
 	icon_state = "0-8"
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cde" = (
 /obj/cable{
 	d1 = 1;
@@ -40915,26 +40915,26 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdf" = (
 /obj/reagent_dispensers/fueltank,
 /turf/simulated/floor/caution/north,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdg" = (
 /obj/storage/closet/welding_supply,
 /turf/simulated/floor/caution/north,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdh" = (
 /obj/machinery/drainage/big,
 /turf/simulated/floor/stairs,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdi" = (
 /turf/simulated/wall/false_wall/reinforced,
 /area/station/security/checkpoint/escape)
 "cdj" = (
 /obj/machinery/manufacturer/hangar,
 /turf/simulated/floor/caution/north,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdk" = (
 /obj/machinery/power/furnace{
 	active = 1;
@@ -40942,7 +40942,7 @@
 	},
 /obj/cable,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdl" = (
 /obj/cable,
 /obj/machinery/power/furnace{
@@ -40950,15 +40950,15 @@
 	fuel = 600
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdm" = (
 /obj/reagent_dispensers/watertank,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdn" = (
 /obj/machinery/door/airlock/pyro,
 /turf/simulated/floor/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdo" = (
 /obj/machinery/door/airlock/pyro,
 /obj/cable{
@@ -40967,22 +40967,22 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdp" = (
 /obj/machinery/vending/coffee,
 /turf/simulated/floor/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdq" = (
 /obj/machinery/vending/snack,
 /turf/simulated/floor/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdr" = (
 /obj/item/caution{
 	desc = "Caution! Construction Zone!";
 	name = "caution sign"
 	},
 /turf/simulated/floor/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cds" = (
 /obj/securearea{
 	desc = "";
@@ -40991,7 +40991,7 @@
 	pixel_y = 32
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdt" = (
 /obj/cable{
 	d1 = 1;
@@ -41000,34 +41000,34 @@
 	},
 /obj/decal/cleanable/oil,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdu" = (
 /obj/storage/secure/closet/engineering/mechanic,
 /turf/simulated/floor/carpet/red/standard/edge/nw,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdv" = (
 /obj/table/auto,
 /obj/item/storage/belt/utility,
 /obj/item/clothing/head/helmet/hardhat,
 /turf/simulated/floor/carpet/red/standard/edge/ne,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdw" = (
 /obj/machinery/light/incandescent/netural,
 /turf/simulated/floor/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdx" = (
 /obj/table/auto,
 /obj/machinery/computer/security/wooden_tv/small{
 	pixel_y = 8
 	},
 /turf/simulated/floor/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdy" = (
 /obj/cable{
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdz" = (
 /obj/item/tile/steel,
 /obj/cable{
@@ -41036,15 +41036,15 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdA" = (
 /turf/simulated/floor/carpet/red/standard/edge/sw,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdB" = (
 /obj/stool/bed,
 /obj/item/clothing/suit/bedsheet/yellow,
 /turf/simulated/floor/carpet/red/standard/edge/se,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdC" = (
 /obj/shrub{
 	dir = 1;
@@ -41052,43 +41052,43 @@
 	icon_state = "plant"
 	},
 /turf/simulated/floor/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdD" = (
 /obj/stool/chair{
 	dir = 4
 	},
 /turf/simulated/floor/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdE" = (
 /obj/table/auto,
 /obj/machinery/recharger,
 /obj/item/device/light/flashlight,
 /turf/simulated/floor/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdF" = (
 /obj/machinery/door/airlock/pyro,
 /turf/simulated/floor/yellow,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdG" = (
 /obj/machinery/door/airlock/pyro,
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdH" = (
 /obj/item/cable_coil/cut{
 	icon_state = "coil1"
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdI" = (
 /obj/machinery/light/incandescent/netural,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdJ" = (
 /turf/simulated/floor/yellow/side{
 	dir = 1
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdK" = (
 /obj/machinery/vending/computer3{
 	profit = 0
@@ -41096,7 +41096,7 @@
 /turf/simulated/floor/yellow/side{
 	dir = 1
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdL" = (
 /obj/machinery/vending/floppy{
 	profit = 0
@@ -41104,7 +41104,7 @@
 /turf/simulated/floor/yellow/side{
 	dir = 1
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdM" = (
 /obj/cable{
 	d1 = 1;
@@ -41114,23 +41114,23 @@
 /turf/simulated/floor/yellow/side{
 	dir = 1
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdN" = (
 /obj/machinery/vending/standard,
 /turf/simulated/floor/yellow/side{
 	dir = 1
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdO" = (
 /obj/machinery/vending/mechanics,
 /turf/simulated/floor/plating/random,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdP" = (
 /obj/shrub,
 /turf/simulated/floor/yellow/side{
 	dir = 5
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdQ" = (
 /obj/machinery/door/airlock/pyro{
 	dir = 4
@@ -41139,7 +41139,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdR" = (
 /obj/cable{
 	icon_state = "4-8"
@@ -41147,19 +41147,19 @@
 /turf/simulated/floor/yellow/side{
 	dir = 8
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdS" = (
 /obj/cable{
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/caution/corner/nw,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdT" = (
 /obj/cable{
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/caution/north,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdU" = (
 /obj/cable{
 	d1 = 1;
@@ -41167,31 +41167,31 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/caution/north,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdV" = (
 /turf/simulated/floor/caution/north,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdW" = (
 /turf/simulated/floor/caution/corner/ne,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdX" = (
 /turf/simulated/floor/yellow/side{
 	dir = 4
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdY" = (
 /obj/item/tile/steel,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cdZ" = (
 /turf/simulated/floor/caution/west,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cea" = (
 /turf/simulated/floor,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ceb" = (
 /turf/simulated/floor/caution/east,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cec" = (
 /obj/table/auto,
 /obj/item/sheet/glass/reinforced{
@@ -41201,21 +41201,21 @@
 /turf/simulated/floor/yellow/side{
 	dir = 4
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ced" = (
 /obj/wingrille_spawn/auto,
 /turf/simulated/floor/plating/random,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cee" = (
 /obj/machinery/door/airlock/pyro/external,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cef" = (
 /obj/machinery/rkit,
 /turf/simulated/floor/yellow/side{
 	dir = 8
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ceg" = (
 /obj/table/auto,
 /obj/item/sheet/steel{
@@ -41225,24 +41225,24 @@
 	amount = 50
 	},
 /turf/simulated/floor/plating/random,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ceh" = (
 /obj/machinery/drainage/big,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cei" = (
 /obj/machinery/manufacturer/mechanic,
 /turf/simulated/floor/plating/random,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cej" = (
 /turf/simulated/floor/caution/corner/sw,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cek" = (
 /turf/simulated/floor/caution/south,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cel" = (
 /turf/simulated/floor/caution/corner/se,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cem" = (
 /obj/table/auto,
 /obj/item/storage/toolbox/mechanical,
@@ -41255,28 +41255,28 @@
 /obj/item/device/multitool,
 /obj/machinery/light/incandescent/netural,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cen" = (
 /obj/table/auto,
 /obj/item/storage/box/cablesbox,
 /obj/item/electronics/scanner,
 /obj/item/device/t_scanner,
 /turf/simulated/floor/plating/random,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ceo" = (
 /obj/table/auto,
 /obj/machinery/cell_charger,
 /obj/item/cell/supercell/charged,
 /obj/item/cell/supercell/charged,
 /turf/simulated/floor/plating/random,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cep" = (
 /obj/machinery/light/incandescent/netural,
 /turf/simulated/floor/yellow/side,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ceq" = (
 /turf/simulated/floor/yellow/side,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "cer" = (
 /turf/unsimulated/wall/trench,
 /area/cordon)

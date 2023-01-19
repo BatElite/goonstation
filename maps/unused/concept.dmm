@@ -666,7 +666,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/owlery)
+/area/adventure/owlery)
 "abs" = (
 /obj/grille,
 /obj/window/reinforced,
@@ -676,7 +676,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/owlery)
+/area/adventure/owlery)
 "abt" = (
 /obj/grille,
 /obj/window/reinforced,
@@ -738,7 +738,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/owlery)
+/area/adventure/owlery)
 "abz" = (
 /obj/machinery/portableowl/attatched{
 	name = "A Pretty Owl"
@@ -747,7 +747,7 @@
 	name = "astroturf";
 	tag = "icon-grass1"
 	},
-/area/owlery)
+/area/adventure/owlery)
 "abA" = (
 /obj/shrub/captainshrub{
 	desc = "Hooty's most prized possession. Don't touch it. Don't even look at it.";
@@ -757,7 +757,7 @@
 	name = "astroturf";
 	tag = "icon-grass1"
 	},
-/area/owlery)
+/area/adventure/owlery)
 "abB" = (
 /obj/machinery/light{
 	tag = "icon-tube1 (NORTH)";
@@ -768,7 +768,7 @@
 	name = "astroturf";
 	tag = "icon-grass1"
 	},
-/area/owlery)
+/area/adventure/owlery)
 "abC" = (
 /obj/shrub{
 	tag = "icon-shrub (WEST)";
@@ -779,7 +779,7 @@
 	name = "astroturf";
 	tag = "icon-grass1"
 	},
-/area/owlery)
+/area/adventure/owlery)
 "abD" = (
 /turf/simulated/wall,
 /area/security/checkpoint)
@@ -818,7 +818,7 @@
 	name = "astroturf";
 	tag = "icon-grass1"
 	},
-/area/owlery)
+/area/adventure/owlery)
 "abH" = (
 /obj/critter/owl{
 	aggressive = 0;
@@ -831,7 +831,7 @@
 	name = "astroturf";
 	tag = "icon-grass1"
 	},
-/area/owlery)
+/area/adventure/owlery)
 "abI" = (
 /obj/cable{
 	icon_state = "0-2";
@@ -916,7 +916,7 @@
 	name = "astroturf";
 	tag = "icon-grass1"
 	},
-/area/owlery)
+/area/adventure/owlery)
 "abN" = (
 /obj/machinery/light{
 	tag = "icon-tube1 (WEST)";
@@ -990,7 +990,7 @@
 	name = "astroturf";
 	tag = "icon-grass1"
 	},
-/area/owlery)
+/area/adventure/owlery)
 "abW" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -1002,7 +1002,7 @@
 	name = "The Owlery"
 	},
 /turf/simulated/floor,
-/area/owlery)
+/area/adventure/owlery)
 "abX" = (
 /obj/machinery/light{
 	tag = "icon-tube1 (EAST)";
@@ -1079,7 +1079,7 @@
 	name = "astroturf";
 	tag = "icon-grass1"
 	},
-/area/owlery)
+/area/adventure/owlery)
 "ach" = (
 /obj/machinery/portableowl/attatched{
 	name = "an Owl with a chip out of his beak"
@@ -1088,7 +1088,7 @@
 	name = "astroturf";
 	tag = "icon-grass1"
 	},
-/area/owlery)
+/area/adventure/owlery)
 "aci" = (
 /turf/simulated/floor/arrival/corner{
 	dir = 4
@@ -1314,7 +1314,7 @@
 	name = "astroturf";
 	tag = "icon-grass1"
 	},
-/area/owlery)
+/area/adventure/owlery)
 "acH" = (
 /obj/machinery/light{
 	tag = "icon-tube1 (EAST)";
@@ -1325,7 +1325,7 @@
 	name = "astroturf";
 	tag = "icon-grass1"
 	},
-/area/owlery)
+/area/adventure/owlery)
 "acI" = (
 /obj/machinery/camera{
 	c_tag = "Shuttle Bay West";
@@ -1628,7 +1628,7 @@
 	icon = 'floors.dmi';
 	icon_state = "poolwaterfloor"
 	},
-/area/owlery)
+/area/adventure/owlery)
 "adu" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -1747,7 +1747,7 @@
 	},
 /obj/window/reinforced,
 /turf/simulated/floor/plating,
-/area/owlery)
+/area/adventure/owlery)
 "adG" = (
 /obj/grille,
 /obj/window/reinforced,
@@ -1758,10 +1758,10 @@
 	},
 /obj/window/reinforced/east,
 /turf/simulated/floor/plating,
-/area/owlery)
+/area/adventure/owlery)
 "adH" = (
 /turf/simulated/wall/r_wall,
-/area/owlery)
+/area/adventure/owlery)
 "adI" = (
 /turf/simulated/wall/r_wall,
 /area/maintenance/westsolar)

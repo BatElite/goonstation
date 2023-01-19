@@ -3,7 +3,7 @@
 
 
 // SUNKEN AREA
-/area/sunken
+/area/adventure/sunken
   name = "Underwater Facility"
   icon_state = "blue"
   skip_sims = 1

@@ -13,12 +13,12 @@
 /area/adventure/moon/museum/west)
 "e" = (
 /turf/space/fluid,
-/area/sunken)
+/area/adventure/sunken)
 "f" = (
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/sunken)
+/area/adventure/sunken)
 "g" = (
 /turf/space,
 /area/adventure/moon/museum/giftshop)
@@ -28,25 +28,25 @@
 "i" = (
 /obj/machinery/light,
 /turf/space/fluid,
-/area/sunken)
+/area/adventure/sunken)
 "j" = (
 /turf/unsimulated/wall/cave,
-/area/sunken)
+/area/adventure/sunken)
 "k" = (
 /obj/wingrille_spawn/auto,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/sunken)
+/area/adventure/sunken)
 "l" = (
 /obj/machinery/door/airlock/external,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/sunken)
+/area/adventure/sunken)
 "m" = (
 /turf/simulated/martian/floor,
-/area/sunken)
+/area/adventure/sunken)
 "n" = (
 /obj/fluid_spawner{
 	amount = 500
@@ -54,7 +54,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/sunken)
+/area/adventure/sunken)
 "o" = (
 /obj/item/raw_material/shard/glass{
 	pixel_x = -5;
@@ -66,7 +66,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/sunken)
+/area/adventure/sunken)
 "p" = (
 /obj/item/raw_material/shard/glass{
 	pixel_x = -13;
@@ -78,7 +78,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/sunken)
+/area/adventure/sunken)
 "q" = (
 /obj/item/raw_material/shard/glass{
 	pixel_x = 14;
@@ -90,7 +90,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/sunken)
+/area/adventure/sunken)
 "r" = (
 /obj/item/raw_material/shard/glass{
 	pixel_x = 3;
@@ -102,7 +102,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/sunken)
+/area/adventure/sunken)
 "s" = (
 /obj/item/raw_material/shard/glass{
 	pixel_x = -1
@@ -117,7 +117,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/sunken)
+/area/adventure/sunken)
 "t" = (
 /obj/item/raw_material/shard/glass{
 	pixel_x = 0;
@@ -129,7 +129,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/sunken)
+/area/adventure/sunken)
 "u" = (
 /obj/item/raw_material/shard/glass,
 /obj/item/raw_material/shard/glass{
@@ -142,7 +142,7 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/sunken)
+/area/adventure/sunken)
 "v" = (
 /obj/item/raw_material/shard/glass{
 	pixel_x = 7;
@@ -154,10 +154,10 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/sunken)
+/area/adventure/sunken)
 "w" = (
 /turf/unsimulated/wall/auto/gannets,
-/area/sunken)
+/area/adventure/sunken)
 "x" = (
 /obj/machinery/light{
 	icon_state = "tube1";
@@ -166,14 +166,14 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/sunken)
+/area/adventure/sunken)
 "y" = (
 /obj/machinery/light{
 	icon_state = "tube1";
 	dir = 4
 	},
 /turf/space/fluid,
-/area/sunken)
+/area/adventure/sunken)
 "z" = (
 /obj/machinery/light{
 	dir = 8;
@@ -181,7 +181,7 @@
 	tag = ""
 	},
 /turf/space/fluid,
-/area/sunken)
+/area/adventure/sunken)
 "A" = (
 /obj/machinery/light{
 	dir = 8;
@@ -191,10 +191,10 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/sunken)
+/area/adventure/sunken)
 "B" = (
 /turf/simulated/martian/wall,
-/area/sunken)
+/area/adventure/sunken)
 "C" = (
 /obj/machinery/light{
 	icon_state = "tube1";
@@ -203,20 +203,20 @@
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/sunken)
+/area/adventure/sunken)
 "D" = (
 /obj/decal/fakeobjects/lighttube_broken,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
-/area/sunken)
+/area/adventure/sunken)
 "E" = (
 /obj/machinery/light{
 	icon_state = "tube1";
 	dir = 1
 	},
 /turf/space/fluid,
-/area/sunken)
+/area/adventure/sunken)
 
 (1,1,1) = {"
 a

@@ -94,7 +94,7 @@ SYNDICATE DRONE FACTORY AREAS
 
 
 ////////////////// BIODOME EXPANSION PROJECT AREAS ///////////////////
-/area/swampzone
+/area/adventure/swampzone
 	name = "X-05 Fatuus"
 	icon_state = "green"
 	force_fullbright = 0
@@ -115,22 +115,22 @@ SYNDICATE DRONE FACTORY AREAS
 		'sound/voice/Zgroan4.ogg',\
 		'sound/voice/animal/werewolf_howl.ogg')
 
-/area/swampzone/New()
+/area/adventure/swampzone/New()
 	. = ..()
 	START_TRACKING_CAT(TR_CAT_AREA_PROCESS)
 
-/area/swampzone/disposing()
+/area/adventure/swampzone/disposing()
 	STOP_TRACKING_CAT(TR_CAT_AREA_PROCESS)
 	. = ..()
 
-/area/swampzone/area_process()
+/area/adventure/swampzone/area_process()
 	if(prob(20))
 		src.sound_fx_2 = pick(sfx_to_pick_from)
 
 		for(var/mob/living/carbon/human/H in src)
 			H.client?.playAmbience(src, AMBIENCE_FX_2, 50)
 
-/area/swampzone/heights
+/area/adventure/swampzone/heights
 	name = "X-05 Heights"
 	icon_state = "blue"
 	ambient_light = rgb(180, 150, 150)
@@ -141,7 +141,7 @@ SYNDICATE DRONE FACTORY AREAS
 		. = ..()
 		overlays += image(icon = 'icons/turf/areas.dmi', icon_state = "rain_overlay", layer = EFFECTS_LAYER_BASE)
 
-/area/swampzone/ground
+/area/adventure/swampzone/ground
 	name = "X-05 Swamplands"
 	sound_group = "swamp_surface"
 	sound_loop = 'sound/ambience/nature/Rain_Heavy.ogg'
@@ -151,17 +151,17 @@ SYNDICATE DRONE FACTORY AREAS
 		. = ..()
 		overlays += image(icon = 'icons/turf/areas.dmi', icon_state = "rain_overlay", layer = EFFECTS_LAYER_BASE)
 
-/area/swampzone/ground/forest
+/area/adventure/swampzone/ground/forest
 	name = "X-05 Forest"
 	sound_group = "swamp_forest"
 	sound_environment = 15
 
-/area/swampzone/ground/canyon
+/area/adventure/swampzone/ground/canyon
 	name = "X-05 Canyon"
 	sound_group = "swamp_canyon"
 	sound_environment = 14
 
-/area/swampzone/deeps
+/area/adventure/swampzone/deeps
 	name = "X-05 Deep Swamp"
 	icon_state = "green"
 	ambient_light = rgb(10, 50, 35)
@@ -182,7 +182,7 @@ SYNDICATE DRONE FACTORY AREAS
 
 
 // interiors //
-/area/swampzone/interiors
+/area/adventure/swampzone/interiors
 	name = "X-05 Settlement"
 	icon_state = "yellow"
 	ambient_light = null

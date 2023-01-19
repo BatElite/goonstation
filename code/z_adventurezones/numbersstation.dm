@@ -11,7 +11,7 @@ var/global/shut_up_about_the_fucking_numbers_station = 1
 	logTheThing("diary", usr, null, "toggled numbers station alerts [shut_up_about_the_fucking_numbers_station ? "off" : "on"].", "admin")
 	message_admins("[key_name(usr)] toggled numbers station alerts [shut_up_about_the_fucking_numbers_station ? "off" : "on"]")
 
-/area/spyshack
+/area/debris/spyshack
 	name = "Space Shack"
 	icon_state = "yellow"
 

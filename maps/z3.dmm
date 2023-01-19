@@ -6195,7 +6195,7 @@
 /area/traders/flock_trader)
 "art" = (
 /turf/simulated/wall/auto/reinforced/old,
-/area/spyshack)
+/area/debris/spyshack)
 "aru" = (
 /obj/cable{
 	d1 = 1;
@@ -6332,10 +6332,10 @@
 /area/debris/salyut)
 "arN" = (
 /turf/simulated/floor/plating,
-/area/spyshack)
+/area/debris/spyshack)
 "arO" = (
 /turf/simulated/floor/plating/scorched,
-/area/spyshack)
+/area/debris/spyshack)
 "arP" = (
 /obj/machinery/power/apc{
 	dir = 1;
@@ -6347,7 +6347,7 @@
 	icon_state = "0-4"
 	},
 /turf/simulated/floor/plating/scorched,
-/area/spyshack)
+/area/debris/spyshack)
 "arQ" = (
 /obj/machinery/light/small{
 	dir = 1;
@@ -6373,7 +6373,7 @@
 /obj/item/reagent_containers/pill/stox,
 /obj/item/reagent_containers/food/snacks/pie/lemon,
 /turf/simulated/floor/plating,
-/area/spyshack)
+/area/debris/spyshack)
 "arT" = (
 /obj/decal/fakeobjects/lightbulb_broken{
 	dir = 8
@@ -6511,10 +6511,10 @@
 /area/debris/salyut)
 "ash" = (
 /turf/simulated/floor/plating/damaged3,
-/area/spyshack)
+/area/debris/spyshack)
 "asi" = (
 /turf/simulated/floor/plating,
-/area/spyshack{
+/area/debris/spyshack{
 	lightswitch = 0
 	})
 "asj" = (
@@ -6528,7 +6528,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating,
-/area/spyshack)
+/area/debris/spyshack)
 "asl" = (
 /turf/simulated/floor/plating/damaged1,
 /area/debris/salyut)
@@ -6635,7 +6635,7 @@
 	pixel_x = -24
 	},
 /turf/simulated/floor/plating/damaged3,
-/area/spyshack)
+/area/debris/spyshack)
 "asA" = (
 /obj/decal/cleanable/blood/splatter,
 /obj/item/paper/numbers_note,
@@ -6646,7 +6646,7 @@
 /obj/item/paper/empty_bloody,
 /obj/item/paper/empty_bloody,
 /turf/simulated/floor/plating/damaged3,
-/area/spyshack)
+/area/debris/spyshack)
 "asB" = (
 /obj/machinery/door/poddoor/pyro/podbay_autoclose/soviet_horizontal/vertical,
 /turf/simulated/floor/shuttlebay{
@@ -6828,13 +6828,13 @@
 	},
 /obj/stool/chair,
 /turf/simulated/floor/plating/damaged3,
-/area/spyshack)
+/area/debris/spyshack)
 "asY" = (
 /obj/decal/cleanable/blood/tracks{
 	dir = 4
 	},
 /turf/simulated/floor/plating/scorched,
-/area/spyshack)
+/area/debris/spyshack)
 "asZ" = (
 /obj/decal/cleanable/blood/tracks{
 	dir = 4
@@ -6845,7 +6845,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating/damaged3,
-/area/spyshack)
+/area/debris/spyshack)
 "ata" = (
 /obj/decal/fakeobjects/skeleton{
 	desc = "Eugh, the stench is horrible!";
@@ -6854,7 +6854,7 @@
 	name = "decomposed corpse"
 	},
 /turf/simulated/floor/plating/damaged3,
-/area/spyshack)
+/area/debris/spyshack)
 "atb" = (
 /obj/decal/cleanable/machine_debris{
 	icon_state = "gib7"
@@ -7003,7 +7003,7 @@
 	name = "busted radio"
 	},
 /turf/simulated/floor/plating/scorched,
-/area/spyshack)
+/area/debris/spyshack)
 "atu" = (
 /obj/item/skull/strange,
 /turf/simulated/floor/plating,
@@ -7034,7 +7034,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/plating/damaged3,
-/area/spyshack)
+/area/debris/spyshack)
 "aty" = (
 /obj/cable{
 	d1 = 4;
@@ -7042,7 +7042,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/wall/auto/reinforced/old,
-/area/spyshack)
+/area/debris/spyshack)
 "atz" = (
 /obj/lattice{
 	dir = 5;
@@ -7431,7 +7431,7 @@
 /area/debris/buddyfactory)
 "auy" = (
 /turf/simulated/wall/auto/reinforced/old,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "auz" = (
 /obj/item/caution{
 	desc = "Caution! Construction Zone!";
@@ -7476,7 +7476,7 @@
 "auF" = (
 /obj/storage/crate/furnacefuel,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "auG" = (
 /obj/table/auto,
 /obj/machinery/cell_charger,
@@ -7485,7 +7485,7 @@
 	status = 2
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "auH" = (
 /obj/cable{
 	d1 = 2;
@@ -7498,7 +7498,7 @@
 	},
 /obj/machinery/computer/power_monitor,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "auI" = (
 /obj/cable{
 	d2 = 8;
@@ -7510,7 +7510,7 @@
 	output = 2500
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "auJ" = (
 /obj/structure/girder,
 /turf/simulated/floor/plating/airless/asteroid,
@@ -7607,7 +7607,7 @@
 	pixel_x = -24
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "auX" = (
 /obj/cable{
 	d1 = 4;
@@ -7615,7 +7615,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "auY" = (
 /obj/cable{
 	d1 = 1;
@@ -7628,7 +7628,7 @@
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "auZ" = (
 /obj/machinery/power/terminal{
 	dir = 1
@@ -7642,7 +7642,7 @@
 	icon_state = "0-8"
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ava" = (
 /obj/grille/catwalk,
 /turf/simulated/floor/plating/airless/asteroid,
@@ -7687,7 +7687,7 @@
 /turf/simulated/floor/stairs{
 	dir = 1
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avk" = (
 /obj/machinery/power/furnace{
 	active = 1;
@@ -7695,7 +7695,7 @@
 	},
 /obj/cable,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avl" = (
 /obj/cable,
 /obj/machinery/power/furnace{
@@ -7703,11 +7703,11 @@
 	fuel = 600
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avm" = (
 /obj/machinery/door/airlock/pyro/external,
 /turf/simulated/floor/shuttlebay,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avn" = (
 /obj/decal/cleanable/dirt,
 /obj/item/electronics/capacitor,
@@ -7763,7 +7763,7 @@
 	dir = 4;
 	icon_state = "carpetNW"
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avu" = (
 /obj/stool/bed,
 /obj/item/clothing/suit/bedsheet,
@@ -7771,14 +7771,14 @@
 	dir = 4;
 	icon_state = "carpetN"
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avv" = (
 /obj/storage/secure/closet/engineering/mechanic,
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "carpetNE"
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avw" = (
 /obj/table/auto,
 /obj/item/sheet/glass{
@@ -7789,28 +7789,28 @@
 	},
 /obj/item/clothing/head/helmet/hardhat,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avx" = (
 /obj/item/tile/steel,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avy" = (
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avz" = (
 /obj/machinery/light/small{
 	dir = 1;
 	status = 2
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avA" = (
 /obj/table/auto,
 /obj/item/storage/toolbox/emergency,
 /obj/item/storage/belt/utility,
 /obj/item/electronics/soldering,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avB" = (
 /obj/securearea{
 	desc = "";
@@ -7818,31 +7818,31 @@
 	name = "Danger: High Voltage"
 	},
 /turf/simulated/wall/auto/reinforced/old,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avC" = (
 /obj/machinery/door/airlock/pyro,
 /turf/simulated/floor/delivery,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avD" = (
 /obj/storage/closet/welding_supply,
 /turf/simulated/floor/caution/east,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avE" = (
 /turf/simulated/floor/shuttlebay,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avF" = (
 /obj/machinery/light/small{
 	dir = 1;
 	status = 2
 	},
 /turf/simulated/floor/shuttlebay,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avG" = (
 /obj/machinery/r_door_control{
 	id = "hangar_mechoutpost"
 	},
 /turf/simulated/wall/auto/reinforced/old,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avH" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	dir = 8
@@ -7859,19 +7859,19 @@
 	dir = 8;
 	icon_state = "carpetSW"
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avK" = (
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "carpetS"
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avL" = (
 /turf/simulated/floor{
 	dir = 4;
 	icon_state = "carpetSE"
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avM" = (
 /obj/table/auto,
 /obj/item/sheet/steel/reinforced{
@@ -7882,27 +7882,27 @@
 	},
 /obj/item/screwdriver,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avN" = (
 /obj/stool/chair{
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avO" = (
 /obj/table/auto,
 /obj/item/storage/toolbox/mechanical,
 /obj/item/electronics/soldering,
 /obj/item/electronics/scanner,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avP" = (
 /obj/reagent_dispensers/watertank,
 /turf/simulated/floor/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avQ" = (
 /turf/simulated/floor/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avR" = (
 /obj/machinery/vending/coffee,
 /obj/machinery/light_switch{
@@ -7910,15 +7910,15 @@
 	pixel_y = 24
 	},
 /turf/simulated/floor/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avS" = (
 /obj/machinery/vending/snack,
 /turf/simulated/floor/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avT" = (
 /obj/reagent_dispensers/fueltank,
 /turf/simulated/floor/caution/east,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avU" = (
 /obj/machinery/door/poddoor/blast{
 	autoclose = 1;
@@ -7927,7 +7927,7 @@
 	id = "hangar_mechoutpost"
 	},
 /turf/simulated/floor/shuttlebay,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "avV" = (
 /obj/critter/rockworm,
 /turf/simulated/floor/plating/airless/asteroid,
@@ -7989,7 +7989,7 @@
 "awe" = (
 /obj/machinery/door/airlock/pyro,
 /turf/simulated/floor/yellow,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awf" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -8000,11 +8000,11 @@
 	name = "inactive mainframe"
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awg" = (
 /obj/item/cable_coil/cut,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awh" = (
 /obj/item/tile/steel,
 /obj/item/caution{
@@ -8012,30 +8012,30 @@
 	name = "caution sign"
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awi" = (
 /turf/simulated/floor/yellow,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awj" = (
 /turf/simulated/floor/stairs{
 	dir = 4
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awk" = (
 /obj/machinery/door/airlock/pyro/external{
 	dir = 8
 	},
 /turf/simulated/floor/delivery,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awl" = (
 /turf/simulated/floor/stairs{
 	dir = 8
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awm" = (
 /obj/machinery/vehicle/miniputt/armed,
 /turf/simulated/floor/shuttlebay,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awn" = (
 /obj/machinery/door/poddoor/blast{
 	autoclose = 1;
@@ -8043,7 +8043,7 @@
 	id = "hangar_mechoutpost"
 	},
 /turf/simulated/floor/shuttlebay,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awo" = (
 /obj/decal/cleanable/dirt,
 /obj/item/cable_coil/cut{
@@ -8080,13 +8080,13 @@
 "awt" = (
 /obj/structure/girder,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awu" = (
 /obj/machinery/vending/computer3{
 	profit = 0
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awv" = (
 /obj/machinery/vending/floppy{
 	profit = 0
@@ -8096,16 +8096,16 @@
 	status = 2
 	},
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "aww" = (
 /obj/shrub,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awx" = (
 /turf/simulated/floor/yellow/side{
 	dir = 1
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awy" = (
 /obj/item/caution{
 	desc = "Caution! Construction Zone!";
@@ -8118,17 +8118,17 @@
 /turf/simulated/floor/yellow/side{
 	dir = 5
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awz" = (
 /obj/stool/chair{
 	dir = 4
 	},
 /turf/simulated/floor/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awA" = (
 /obj/machinery/manufacturer/hangar,
 /turf/simulated/floor/caution/east,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awB" = (
 /obj/machinery/door/poddoor/blast{
 	autoclose = 1;
@@ -8137,7 +8137,7 @@
 	id = "hangar_mechoutpost"
 	},
 /turf/simulated/floor/shuttlebay,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awC" = (
 /obj/item/storage/toilet{
 	dir = 4
@@ -8148,15 +8148,15 @@
 /turf/simulated/floor/caution/corner/nw{
 	dir = 8
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awF" = (
 /turf/simulated/floor/caution/north{
 	dir = 8
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awG" = (
 /turf/simulated/floor/caution/corner/ne,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awH" = (
 /obj/table/auto,
 /obj/item/storage/box/lightbox/tubes,
@@ -8166,7 +8166,7 @@
 /turf/simulated/floor/yellow/side{
 	dir = 4
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awI" = (
 /obj/shrub{
 	dir = 1;
@@ -8174,7 +8174,7 @@
 	icon_state = "plant"
 	},
 /turf/simulated/floor/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awJ" = (
 /obj/table/auto,
 /obj/machinery/computer/security/wooden_tv/small{
@@ -8182,27 +8182,27 @@
 	},
 /obj/machinery/light/small,
 /turf/simulated/floor/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awK" = (
 /obj/table/auto,
 /obj/machinery/recharger,
 /obj/item/device/light/flashlight,
 /turf/simulated/floor/grime,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awL" = (
 /obj/machinery/portable_reclaimer,
 /turf/simulated/floor/caution/east,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awM" = (
 /obj/machinery/light/small,
 /turf/simulated/floor/shuttlebay,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awO" = (
 /turf/simulated/floor/caution/west,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awP" = (
 /turf/simulated/floor,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awQ" = (
 /obj/stool/chair{
 	dir = 4
@@ -8210,13 +8210,13 @@
 /turf/simulated/floor/caution/east{
 	dir = 8
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awR" = (
 /obj/table/auto,
 /turf/simulated/floor/yellow/side{
 	dir = 4
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awS" = (
 /obj/item/satchel/mining/large,
 /turf/simulated/floor/plating/airless/asteroid,
@@ -8225,7 +8225,7 @@
 /turf/simulated/floor/caution/east{
 	dir = 8
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awU" = (
 /obj/indestructible/shuttle_corner{
 	dir = 10;
@@ -8241,22 +8241,22 @@
 /turf/simulated/floor/yellow/side{
 	dir = 8
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awW" = (
 /turf/simulated/floor/caution/corner/sw,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awX" = (
 /obj/stool/chair,
 /turf/simulated/floor/caution/south,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awY" = (
 /turf/simulated/floor/caution/south,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "awZ" = (
 /turf/simulated/floor{
 	icon_state = "corner_east"
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "axa" = (
 /obj/indestructible/shuttle_corner{
 	dir = 6;
@@ -8277,7 +8277,7 @@
 /turf/simulated/floor/yellow/side{
 	dir = 10
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "axc" = (
 /obj/table/auto,
 /obj/item/storage/box/lightbox/tubes,
@@ -8287,7 +8287,7 @@
 /obj/item/device/multitool,
 /obj/item/device/multitool,
 /turf/simulated/floor/yellow/side,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "axd" = (
 /obj/table/auto,
 /obj/item/storage/toolbox/electrical,
@@ -8295,7 +8295,7 @@
 /obj/item/storage/toolbox/electrical,
 /obj/item/electronics/scanner,
 /turf/simulated/floor/yellow/side,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "axe" = (
 /obj/table/auto,
 /obj/machinery/cell_charger,
@@ -8305,30 +8305,30 @@
 /obj/item/cell/supercell/charged,
 /obj/machinery/light/small,
 /turf/simulated/floor/yellow/side,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "axf" = (
 /obj/machinery/vending/standard,
 /turf/simulated/floor/yellow/side,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "axg" = (
 /obj/machinery/portable_reclaimer,
 /turf/simulated/floor/yellow/side,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "axh" = (
 /obj/machinery/manufacturer/mechanic,
 /turf/simulated/floor/yellow/side,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "axi" = (
 /obj/machinery/rkit,
 /obj/machinery/light/small,
 /turf/simulated/floor/yellow/side,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "axj" = (
 /obj/machinery/vending/mechanics,
 /turf/simulated/floor/yellow/side{
 	dir = 6
 	},
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "axk" = (
 /turf/simulated/shuttle/wall{
 	dir = 10;
@@ -8569,14 +8569,14 @@
 "ayD" = (
 /obj/decal/cleanable/rust,
 /turf/simulated/wall/auto/reinforced/old,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "ayE" = (
 /obj/item/device/radio,
 /obj/storage/crate/loot,
 /obj/item/device/radio,
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/plating/damaged3,
-/area/spyshack)
+/area/debris/spyshack)
 "ayF" = (
 /obj/machinery/plantpot{
 	anchored = 1
@@ -8693,7 +8693,7 @@
 /obj/item/seed/alien/peeker,
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/plating/scorched,
-/area/spyshack)
+/area/debris/spyshack)
 "azJ" = (
 /obj/storage/crate,
 /obj/item/reagent_containers/glass/compostbag,
@@ -8705,29 +8705,29 @@
 /obj/item/plank,
 /obj/item/clothing/mask/balaclava,
 /turf/simulated/floor/plating,
-/area/spyshack)
+/area/debris/spyshack)
 "azK" = (
 /obj/table/wood/auto,
 /obj/item/paper/book/numbers_station_hydroguide,
 /obj/item/reagent_containers/food/drinks/mug/random_color,
 /turf/simulated/floor/plating/damaged3,
-/area/spyshack)
+/area/debris/spyshack)
 "azL" = (
 /obj/stool/bed,
 /obj/item/clothing/suit/bedsheet,
 /turf/simulated/floor/plating/damaged3,
-/area/spyshack)
+/area/debris/spyshack)
 "azM" = (
 /obj/machinery/door/airlock/pyro/classic{
 	dir = 4
 	},
 /turf/simulated/floor/plating/damaged2,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "azN" = (
 /turf/simulated/floor/stairs{
 	dir = 8
 	},
-/area/spyshack)
+/area/debris/spyshack)
 "azO" = (
 /obj/machinery/hydro_growlamp,
 /turf/simulated/floor/shuttle{
@@ -8741,7 +8741,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/plating/scorched,
-/area/spyshack)
+/area/debris/spyshack)
 "azQ" = (
 /obj/cable{
 	d1 = 2;
@@ -8749,7 +8749,7 @@
 	icon_state = "2-8"
 	},
 /turf/simulated/floor/plating/damaged3,
-/area/spyshack)
+/area/debris/spyshack)
 "azR" = (
 /obj/decal/fakeobjects/lightbulb_broken,
 /obj/reagent_dispensers/watertank/big,
@@ -8778,7 +8778,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating/damaged3,
-/area/spyshack)
+/area/debris/spyshack)
 "aAj" = (
 /obj/indestructible/shuttle_corner{
 	dir = 4;
@@ -8800,7 +8800,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating/damaged3,
-/area/spyshack)
+/area/debris/spyshack)
 "aAl" = (
 /obj/critter/gunbot/drone/cutterdrone,
 /turf/simulated/floor/plating/airless/asteroid,
@@ -10302,7 +10302,7 @@
 	name = "ratty blue couch"
 	},
 /turf/simulated/floor/plating/scorched,
-/area/spyshack)
+/area/debris/spyshack)
 "aIT" = (
 /obj/decal/fakeobjects/pipe{
 	dir = 5
@@ -10698,11 +10698,11 @@
 	name = "ratty blue couch"
 	},
 /turf/simulated/floor/plating/scorched,
-/area/spyshack)
+/area/debris/spyshack)
 "aJY" = (
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/plating/scorched,
-/area/spyshack)
+/area/debris/spyshack)
 "aJZ" = (
 /obj/decal/fakeobjects/skeleton{
 	desc = "Eugh, the stench is horrible!";
@@ -11019,15 +11019,15 @@
 /obj/decal/cleanable/cobweb2,
 /obj/random_item_spawner/desk_stuff,
 /turf/simulated/floor/plating/damaged3,
-/area/spyshack)
+/area/debris/spyshack)
 "aKL" = (
 /obj/decal/cleanable/rust,
 /turf/simulated/wall/auto/reinforced/old,
-/area/spyshack)
+/area/debris/spyshack)
 "aKM" = (
 /obj/decal/cleanable/fungus,
 /turf/simulated/wall/auto/reinforced/old,
-/area/spyshack)
+/area/debris/spyshack)
 "aKN" = (
 /obj/decal/mushrooms/type1{
 	desc = "Man, it's gross down here.";
@@ -11035,7 +11035,7 @@
 	},
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/plating/scorched,
-/area/spyshack)
+/area/debris/spyshack)
 "aKO" = (
 /obj/lattice,
 /obj/decal/cleanable/machine_debris,
@@ -11513,7 +11513,7 @@
 	pixel_y = 6
 	},
 /turf/simulated/floor/plating/damaged3,
-/area/spyshack)
+/area/debris/spyshack)
 "aMa" = (
 /obj/stool/chair{
 	dir = 1
@@ -19424,13 +19424,13 @@
 /obj/item/reagent_containers/food/snacks/burger,
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
-/area/spyshack)
+/area/debris/spyshack)
 "biY" = (
 /obj/machinery/computer/security/wooden_tv{
 	desc = "Looks like it's tuned to your station."
 	},
 /turf/simulated/floor/plating/damaged3,
-/area/spyshack)
+/area/debris/spyshack)
 "biZ" = (
 /obj/stool/bed,
 /obj/item/clothing/suit/bedsheet/red,
@@ -19460,7 +19460,7 @@
 	open = 1
 	},
 /turf/simulated/floor/plating/damaged2,
-/area/spyshack)
+/area/debris/spyshack)
 "bjd" = (
 /obj/decal/fakeobjects/operatorconsole,
 /turf/simulated/floor/bot,
@@ -19893,7 +19893,7 @@
 /obj/item/cable_coil/cut,
 /obj/item/device/radio,
 /turf/simulated/floor/plating,
-/area/spyshack)
+/area/debris/spyshack)
 "bkI" = (
 /obj/structure/girder/reinforced,
 /obj/decal/poster/wallsign/warning1,
@@ -19959,7 +19959,7 @@
 	},
 /obj/stool,
 /turf/simulated/floor/plating,
-/area/spyshack)
+/area/debris/spyshack)
 "bkR" = (
 /obj/machinery/door/unpowered/shuttle{
 	autoclose = 1;
@@ -19979,7 +19979,7 @@
 	name = "grubby old ashtray"
 	},
 /turf/simulated/floor/plating/damaged3,
-/area/spyshack)
+/area/debris/spyshack)
 "bkT" = (
 /obj/cable{
 	d1 = 4;
@@ -19992,7 +19992,7 @@
 /obj/decal/cleanable/rust,
 /obj/decal/cleanable/fungus,
 /turf/simulated/wall/auto/reinforced/old,
-/area/spyshack)
+/area/debris/spyshack)
 "bkX" = (
 /obj/grille/steel,
 /turf/simulated/floor/plating/airless/asteroid,
@@ -20764,7 +20764,7 @@
 /obj/item/clothing/under/misc/rusmob,
 /obj/item/clothing/under/misc/colmob,
 /turf/simulated/floor/plating/damaged3,
-/area/spyshack)
+/area/debris/spyshack)
 "bwj" = (
 /obj/grille/steel,
 /turf/space,
@@ -22361,7 +22361,7 @@
 "pXb" = (
 /obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "pZv" = (
 /obj/decal/fakeobjects/shuttleengine{
 	dir = 4;
@@ -22550,7 +22550,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/delivery,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "rKV" = (
 /obj/wingrille_spawn/auto/reinforced,
 /obj/window_blinds/cog2/left{
@@ -23063,7 +23063,7 @@
 "wcU" = (
 /obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
-/area/spyshack)
+/area/debris/spyshack)
 "wfJ" = (
 /obj/storage/secure/closet/personal,
 /obj/item/clothing/under/gimmick/sweater,
@@ -23260,7 +23260,7 @@
 	},
 /obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
-/area/tech_outpost)
+/area/debris/tech_outpost)
 "xpZ" = (
 /turf/unsimulated/floor/white,
 /area/debris/timewarp/ship)
