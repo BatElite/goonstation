@@ -47519,21 +47519,21 @@
 	dir = 9;
 	icon_state = "astedge"
 	},
-/area/h7/asteroid)
+/area/debris/h7/asteroid)
 "bQy" = (
 /turf/space,
 /turf/simulated/wall/auto/asteroid{
 	dir = 1;
 	icon_state = "astedge"
 	},
-/area/h7/asteroid)
+/area/debris/h7/asteroid)
 "bQz" = (
 /turf/space,
 /turf/simulated/wall/auto/asteroid{
 	dir = 5;
 	icon_state = "astedge"
 	},
-/area/h7/asteroid)
+/area/debris/h7/asteroid)
 "bQA" = (
 /turf/space,
 /turf/simulated/wall/auto/asteroid{
@@ -47553,17 +47553,17 @@
 	dir = 9;
 	icon_state = "astdetail"
 	},
-/area/h7/asteroid)
+/area/debris/h7/asteroid)
 "bQD" = (
 /turf/simulated/wall/auto/asteroid,
-/area/h7/asteroid)
+/area/debris/h7/asteroid)
 "bQE" = (
 /turf/space,
 /turf/simulated/wall/auto/asteroid{
 	dir = 5;
 	icon_state = "astdetail"
 	},
-/area/h7/asteroid)
+/area/debris/h7/asteroid)
 "bQF" = (
 /obj/window/reinforced,
 /obj/window/reinforced{
@@ -47586,7 +47586,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/h7/control)
+/area/debris/h7/control)
 "bQH" = (
 /obj/grille,
 /obj/window/reinforced{
@@ -47596,7 +47596,7 @@
 	},
 /obj/window/reinforced,
 /turf/simulated/floor/plating,
-/area/h7/control)
+/area/debris/h7/control)
 "bQI" = (
 /obj/grille,
 /obj/window/reinforced{
@@ -47610,7 +47610,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/h7/control)
+/area/debris/h7/control)
 "bQJ" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -47626,7 +47626,7 @@
 /area/space)
 "bQK" = (
 /turf/space,
-/area/h7/asteroid)
+/area/debris/h7/asteroid)
 "bQL" = (
 /obj/grille,
 /obj/window/reinforced{
@@ -47641,7 +47641,7 @@
 	},
 /obj/window/reinforced,
 /turf/simulated/floor/plating,
-/area/h7/control)
+/area/debris/h7/control)
 "bQM" = (
 /obj/grille,
 /obj/window/reinforced,
@@ -47651,7 +47651,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/h7/control)
+/area/debris/h7/control)
 "bQN" = (
 /obj/machinery/power/data_terminal,
 /obj/cable{
@@ -47668,7 +47668,7 @@
 	state = 1
 	},
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bQO" = (
 /obj/machinery/power/data_terminal,
 /obj/cable{
@@ -47683,7 +47683,7 @@
 /obj/table,
 /obj/item/cable_coil,
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bQP" = (
 /obj/machinery/power/data_terminal,
 /obj/cable{
@@ -47700,7 +47700,7 @@
 	setup_os_string = "H7_MAINFRAME"
 	},
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bQQ" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -47718,7 +47718,7 @@
 	},
 /obj/item/pen,
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bQR" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -47731,7 +47731,7 @@
 	dir = 2
 	},
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bQS" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -47744,7 +47744,7 @@
 	},
 /obj/item/scissors,
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bQT" = (
 /obj/machinery/power/data_terminal,
 /obj/cable{
@@ -47756,7 +47756,7 @@
 	state = 1
 	},
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bQU" = (
 /obj/grille,
 /obj/window/reinforced,
@@ -47766,7 +47766,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/h7/control)
+/area/debris/h7/control)
 "bQV" = (
 /obj/cable{
 	d1 = 1;
@@ -47782,10 +47782,10 @@
 /area/space)
 "bQW" = (
 /turf/simulated/wall,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bQX" = (
 /turf/simulated/wall/r_wall,
-/area/h7/control)
+/area/debris/h7/control)
 "bQY" = (
 /obj/cable{
 	d2 = 4;
@@ -47808,7 +47808,7 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bQZ" = (
 /obj/cable{
 	d1 = 1;
@@ -47819,10 +47819,10 @@
 	dir = 4
 	},
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bRa" = (
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bRb" = (
 /obj/stool/chair{
 	tag = "icon-chair (NORTH)";
@@ -47830,7 +47830,7 @@
 	dir = 1
 	},
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bRc" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -47838,7 +47838,7 @@
 	d2 = 2
 	},
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bRd" = (
 /obj/stool/chair,
 /obj/decal/cleanable/blood/splatter{
@@ -47846,7 +47846,7 @@
 	icon_state = "floor2"
 	},
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bRe" = (
 /obj/cable{
 	d1 = 1;
@@ -47866,20 +47866,20 @@
 	dir = 8;
 	icon_state = "astedge"
 	},
-/area/h7/asteroid)
+/area/debris/h7/asteroid)
 "bRg" = (
 /turf/simulated/floor/orangeblack/side{
 	dir = 8
 	},
-/area/h7/storage)
+/area/debris/h7/storage)
 "bRh" = (
 /turf/simulated/floor,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bRi" = (
 /obj/crate,
 /obj/item/ore/telecrystal,
 /turf/simulated/floor,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bRj" = (
 /obj/machinery/light/worn{
 	tag = "icon-tube1 (NORTH)";
@@ -47887,15 +47887,15 @@
 	dir = 1
 	},
 /turf/simulated/floor,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bRk" = (
 /obj/item/wrench,
 /turf/simulated/floor,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bRl" = (
 /obj/item/storage/trashcan,
 /turf/simulated/floor/grime,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bRm" = (
 /obj/machinery/light/worn{
 	tag = "icon-tube1 (WEST)";
@@ -47907,7 +47907,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bRn" = (
 /obj/cable{
 	icon_state = "2-4";
@@ -47915,7 +47915,7 @@
 	d2 = 4
 	},
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bRo" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -47923,7 +47923,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bRp" = (
 /obj/cable{
 	d1 = 1;
@@ -47941,7 +47941,7 @@
 	location = "Control Room"
 	},
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bRq" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -47954,7 +47954,7 @@
 	dir = 10
 	},
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bRr" = (
 /obj/cable{
 	icon_state = "2-8";
@@ -47967,7 +47967,7 @@
 	dir = 5
 	},
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bRs" = (
 /obj/machinery/light/worn{
 	tag = "icon-tube1 (EAST)";
@@ -47975,11 +47975,11 @@
 	dir = 4
 	},
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bRt" = (
 /obj/shieldgen,
 /turf/simulated/floor/orangeblack,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bRu" = (
 /obj/machinery/power/data_terminal,
 /obj/machinery/networked/secdetector{
@@ -47989,14 +47989,14 @@
 	},
 /obj/cable,
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bRv" = (
 /obj/cable{
 	tag = "icon-1-2";
 	icon_state = "1-2"
 	},
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bRw" = (
 /obj/machinery/firealarm{
 	dir = 1;
@@ -48004,14 +48004,14 @@
 	pixel_y = -24
 	},
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bRx" = (
 /obj/machinery/light_switch{
 	name = "S light switch";
 	pixel_y = -24
 	},
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bRy" = (
 /obj/cable{
 	tag = "icon-1-2";
@@ -48019,18 +48019,18 @@
 	},
 /obj/decal/cleanable/blood/tracks,
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bRz" = (
 /obj/item/storage/trashcan,
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bRA" = (
 /turf/space,
 /turf/simulated/wall/auto/asteroid{
 	dir = 4;
 	icon_state = "astdetail"
 	},
-/area/h7/asteroid)
+/area/debris/h7/asteroid)
 "bRB" = (
 /obj/rack,
 /obj/item/sheet/metal{
@@ -48040,7 +48040,7 @@
 	amount = 10
 	},
 /turf/simulated/floor/orangeblack,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bRC" = (
 /obj/decal/fakeobjects/firelock_broken{
 	tag = "icon-door0 (NORTH)";
@@ -48056,7 +48056,7 @@
 	req_access_txt = "0"
 	},
 /turf/simulated/floor,
-/area/h7/control)
+/area/debris/h7/control)
 "bRD" = (
 /obj/decal/fakeobjects/firelock_broken{
 	tag = "icon-door0 (NORTH)";
@@ -48073,38 +48073,38 @@
 	},
 /obj/decal/cleanable/blood/tracks,
 /turf/simulated/floor,
-/area/h7/computer_core)
+/area/debris/h7/computer_core)
 "bRE" = (
 /turf/simulated/wall/r_wall,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bRF" = (
 /obj/crate/medical,
 /obj/item/storage/firstaid/regular,
 /obj/item/storage/firstaid/toxin,
 /turf/simulated/floor/orangeblack,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bRG" = (
 /turf/simulated/floor/orangeblack/side{
 	dir = 10
 	},
-/area/h7/storage)
+/area/debris/h7/storage)
 "bRH" = (
 /turf/simulated/floor/orangeblack/corner{
 	dir = 8
 	},
-/area/h7/storage)
+/area/debris/h7/storage)
 "bRI" = (
 /obj/crate/medical,
 /turf/simulated/floor,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bRJ" = (
 /turf/simulated/wall/r_wall,
-/area/h7)
+/area/debris/h7)
 "bRK" = (
 /turf/simulated/floor/green/side{
 	dir = 1
 	},
-/area/h7)
+/area/debris/h7)
 "bRL" = (
 /obj/cable{
 	tag = "icon-1-2";
@@ -48113,7 +48113,7 @@
 /turf/simulated/floor/green/side{
 	dir = 1
 	},
-/area/h7)
+/area/debris/h7)
 "bRM" = (
 /obj/machinery/light_switch{
 	name = "W light switch";
@@ -48121,7 +48121,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor,
-/area/h7/computer_core)
+/area/debris/h7/computer_core)
 "bRN" = (
 /obj/cable{
 	tag = "icon-1-2";
@@ -48129,12 +48129,12 @@
 	},
 /obj/decal/cleanable/blood/tracks,
 /turf/simulated/floor,
-/area/h7/computer_core)
+/area/debris/h7/computer_core)
 "bRO" = (
 /turf/simulated/floor/orangeblack/side{
 	dir = 4
 	},
-/area/h7/computer_core)
+/area/debris/h7/computer_core)
 "bRP" = (
 /obj/machinery/power/data_terminal,
 /obj/cable{
@@ -48148,23 +48148,23 @@
 	},
 /obj/machinery/bot/guardbot/bad,
 /turf/simulated/floor/bot,
-/area/h7/computer_core)
+/area/debris/h7/computer_core)
 "bRQ" = (
 /turf/simulated/wall/r_wall,
-/area/h7/computer_core)
+/area/debris/h7/computer_core)
 "bRR" = (
 /turf/space,
 /turf/simulated/wall/auto/asteroid{
 	dir = 10;
 	icon_state = "astedge"
 	},
-/area/h7/asteroid)
+/area/debris/h7/asteroid)
 "bRS" = (
 /turf/space,
 /turf/simulated/wall/auto/asteroid{
 	icon_state = "astedge"
 	},
-/area/h7/asteroid)
+/area/debris/h7/asteroid)
 "bRT" = (
 /obj/cable{
 	icon_state = "0-2";
@@ -48189,7 +48189,7 @@
 /turf/simulated/floor/orangeblack/side{
 	dir = 8
 	},
-/area/h7/storage)
+/area/debris/h7/storage)
 "bRU" = (
 /obj/machinery/navbeacon{
 	codes_txt = "patrol;next_patrol=Living Quarters";
@@ -48197,7 +48197,7 @@
 	location = "Storage"
 	},
 /turf/simulated/floor,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bRV" = (
 /obj/cable{
 	icon_state = "2-4";
@@ -48206,7 +48206,7 @@
 	},
 /obj/structure/girder/displaced,
 /turf/simulated/floor,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bRW" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -48228,7 +48228,7 @@
 	anchored = 1
 	},
 /turf/simulated/floor,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bRX" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -48236,7 +48236,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bRY" = (
 /obj/cable{
 	tag = "icon-1-2";
@@ -48248,13 +48248,13 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bRZ" = (
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bSa" = (
 /turf/simulated/floor,
-/area/h7/computer_core)
+/area/debris/h7/computer_core)
 "bSb" = (
 /obj/cable{
 	d1 = 1;
@@ -48263,7 +48263,7 @@
 	},
 /obj/decal/cleanable/blood/tracks,
 /turf/simulated/floor,
-/area/h7/computer_core)
+/area/debris/h7/computer_core)
 "bSc" = (
 /obj/cable{
 	icon_state = "2-8";
@@ -48278,7 +48278,7 @@
 /turf/simulated/floor/orangeblack/side{
 	dir = 4
 	},
-/area/h7/computer_core)
+/area/debris/h7/computer_core)
 "bSd" = (
 /obj/machinery/power/data_terminal,
 /obj/cable{
@@ -48297,12 +48297,12 @@
 	},
 /obj/machinery/bot/guardbot/bad,
 /turf/simulated/floor/bot,
-/area/h7/computer_core)
+/area/debris/h7/computer_core)
 "bSe" = (
 /obj/crate,
 /obj/item/rcd_ammo,
 /turf/simulated/floor/orangeblack,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bSf" = (
 /obj/crate,
 /obj/item/extinguisher,
@@ -48310,7 +48310,7 @@
 /turf/simulated/floor/orangeblack/side{
 	dir = 9
 	},
-/area/h7/storage)
+/area/debris/h7/storage)
 "bSg" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -48320,7 +48320,7 @@
 /turf/simulated/floor/orangeblack/corner{
 	dir = 1
 	},
-/area/h7/storage)
+/area/debris/h7/storage)
 "bSh" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -48328,10 +48328,10 @@
 	d2 = 2
 	},
 /turf/simulated/floor,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bSi" = (
 /turf/simulated/wall,
-/area/h7)
+/area/debris/h7)
 "bSj" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -48339,7 +48339,7 @@
 	d2 = 2
 	},
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bSk" = (
 /obj/machinery/light/worn{
 	tag = "icon-tube1 (EAST)";
@@ -48347,7 +48347,7 @@
 	dir = 4
 	},
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bSm" = (
 /obj/decal/cleanable/blood/tracks{
 	tag = "icon-tracks (SOUTHEAST)";
@@ -48355,7 +48355,7 @@
 	dir = 6
 	},
 /turf/simulated/floor,
-/area/h7/computer_core)
+/area/debris/h7/computer_core)
 "bSn" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -48365,7 +48365,7 @@
 /turf/simulated/floor/orangeblack/side{
 	dir = 4
 	},
-/area/h7/computer_core)
+/area/debris/h7/computer_core)
 "bSo" = (
 /obj/machinery/power/data_terminal,
 /obj/cable,
@@ -48382,14 +48382,14 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/bot,
-/area/h7/computer_core)
+/area/debris/h7/computer_core)
 "bSp" = (
 /turf/space,
 /turf/simulated/wall/auto/asteroid{
 	dir = 4;
 	icon_state = "astedge"
 	},
-/area/h7/asteroid)
+/area/debris/h7/asteroid)
 "bSq" = (
 /obj/crate,
 /obj/item/caution{
@@ -48405,14 +48405,14 @@
 	name = "research caution sign"
 	},
 /turf/simulated/floor/orangeblack,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bSr" = (
 /obj/cable{
 	tag = "icon-1-2";
 	icon_state = "1-2"
 	},
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bSs" = (
 /obj/cable{
 	icon_state = "0-2";
@@ -48424,7 +48424,7 @@
 	setup_os_string = "H7_MAINFRAME"
 	},
 /turf/simulated/floor/bot,
-/area/h7/computer_core)
+/area/debris/h7/computer_core)
 "bSt" = (
 /obj/cable{
 	d2 = 4;
@@ -48438,7 +48438,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/orangeblack,
-/area/h7/computer_core)
+/area/debris/h7/computer_core)
 "bSu" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -48447,7 +48447,7 @@
 	},
 /obj/plasticflaps,
 /turf/simulated/floor/plating,
-/area/h7/computer_core)
+/area/debris/h7/computer_core)
 "bSv" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -48455,7 +48455,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor/plating,
-/area/h7)
+/area/debris/h7)
 "bSw" = (
 /obj/machinery/power/smes{
 	charge = 3.5e+006;
@@ -48465,15 +48465,15 @@
 	output = 50000
 	},
 /turf/simulated/floor/plating,
-/area/h7)
+/area/debris/h7)
 "bSx" = (
 /turf/simulated/wall,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bSy" = (
 /obj/crate,
 /obj/item/cable_coil,
 /turf/simulated/floor/orangeblack,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bSz" = (
 /obj/cable{
 	icon_state = "2-4";
@@ -48481,7 +48481,7 @@
 	d2 = 4
 	},
 /turf/simulated/floor,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bSA" = (
 /obj/cable{
 	d2 = 8;
@@ -48497,17 +48497,17 @@
 /obj/item/guardbot_frame,
 /obj/item/guardbot_core,
 /turf/simulated/floor/bot,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bSB" = (
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = -24
 	},
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bSC" = (
 /turf/simulated/floor/grime,
-/area/h7)
+/area/debris/h7)
 "bSD" = (
 /obj/cable{
 	icon_state = "2-4";
@@ -48520,7 +48520,7 @@
 	d2 = 2
 	},
 /turf/simulated/floor/orangeblack/side,
-/area/h7/computer_core)
+/area/debris/h7/computer_core)
 "bSE" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -48533,7 +48533,7 @@
 	d2 = 4
 	},
 /turf/simulated/floor/orangeblack/side,
-/area/h7/computer_core)
+/area/debris/h7/computer_core)
 "bSF" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -48553,7 +48553,7 @@
 /turf/simulated/floor/orangeblack/side{
 	dir = 6
 	},
-/area/h7/computer_core)
+/area/debris/h7/computer_core)
 "bSG" = (
 /obj/machinery/power/data_terminal,
 /obj/cable{
@@ -48564,7 +48564,7 @@
 	freq = 1089
 	},
 /turf/simulated/floor/bot,
-/area/h7/computer_core)
+/area/debris/h7/computer_core)
 "bSH" = (
 /obj/cable{
 	icon_state = "2-4";
@@ -48572,7 +48572,7 @@
 	d2 = 4
 	},
 /turf/simulated/floor/plating,
-/area/h7)
+/area/debris/h7)
 "bSI" = (
 /obj/cable{
 	d2 = 8;
@@ -48584,21 +48584,21 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/h7)
+/area/debris/h7)
 "bSJ" = (
 /turf/space,
 /turf/simulated/wall/auto/asteroid{
 	dir = 6;
 	icon_state = "astdetail"
 	},
-/area/h7/asteroid)
+/area/debris/h7/asteroid)
 "bSK" = (
 /turf/space,
 /turf/simulated/wall/auto/asteroid{
 	dir = 6;
 	icon_state = "astedge"
 	},
-/area/h7/asteroid)
+/area/debris/h7/asteroid)
 "bSL" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -48606,19 +48606,19 @@
 	},
 /obj/item/reagent_containers/food/drinks/drinkingglass,
 /turf/simulated/floor/specialroom/bar,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bSM" = (
 /turf/simulated/floor/specialroom/bar,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bSN" = (
 /obj/machinery/door/airlock{
 	name = "Compact Kitchen"
 	},
 /turf/simulated/floor,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bSO" = (
 /turf/simulated/floor/sanitary,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bSP" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -48626,7 +48626,7 @@
 	},
 /obj/item/reagent_containers/food/snacks/burger/moldy,
 /turf/simulated/floor/sanitary,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bSQ" = (
 /obj/cable{
 	d1 = 1;
@@ -48634,7 +48634,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bSR" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -48647,7 +48647,7 @@
 	pixel_y = -24
 	},
 /turf/simulated/floor,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bSS" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -48660,7 +48660,7 @@
 	d2 = 4
 	},
 /turf/simulated/floor,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bST" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -48673,7 +48673,7 @@
 	pixel_y = -24
 	},
 /turf/simulated/floor,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bSU" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -48681,7 +48681,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bSV" = (
 /obj/cable,
 /obj/cable{
@@ -48695,7 +48695,7 @@
 	dir = 8
 	},
 /turf/simulated/floor,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bSW" = (
 /obj/machinery/power/data_terminal,
 /obj/cable,
@@ -48706,7 +48706,7 @@
 	setup_drive_type = /obj/item/disk/data/tape/h7_logs
 	},
 /turf/simulated/floor/bot,
-/area/h7/computer_core)
+/area/debris/h7/computer_core)
 "bSX" = (
 /obj/machinery/power/data_terminal,
 /obj/cable,
@@ -48714,7 +48714,7 @@
 	tag = "H7_MAINFRAME"
 	},
 /turf/simulated/floor/delivery,
-/area/h7/computer_core)
+/area/debris/h7/computer_core)
 "bSY" = (
 /obj/machinery/power/data_terminal,
 /obj/overlay{
@@ -48727,7 +48727,7 @@
 	},
 /obj/cable,
 /turf/simulated/floor/bot,
-/area/h7/computer_core)
+/area/debris/h7/computer_core)
 "bSZ" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -48735,10 +48735,10 @@
 	d2 = 2
 	},
 /turf/simulated/floor/plating,
-/area/h7)
+/area/debris/h7)
 "bTa" = (
 /turf/simulated/floor/plating,
-/area/h7)
+/area/debris/h7)
 "bTb" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -48746,7 +48746,7 @@
 	},
 /obj/item/kitchen/utensil/spoon,
 /turf/simulated/floor/specialroom/bar,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTc" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -48755,22 +48755,22 @@
 /obj/item/plate,
 /obj/item/kitchen/utensil/fork,
 /turf/simulated/floor/specialroom/bar,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTd" = (
 /obj/stool,
 /turf/simulated/floor/specialroom/bar,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTe" = (
 /obj/secure_closet/fridge{
 	icon_state = "fridge";
 	locked = 0
 	},
 /turf/simulated/floor/sanitary,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTf" = (
 /obj/submachine/chef_oven,
 /turf/simulated/floor/sanitary,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTg" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -48782,11 +48782,11 @@
 	name = "Storage"
 	},
 /turf/simulated/floor,
-/area/h7/storage)
+/area/debris/h7/storage)
 "bTh" = (
 /obj/item/wirecutters,
 /turf/simulated/floor/plating,
-/area/h7)
+/area/debris/h7)
 "bTi" = (
 /turf/simulated/wall/auto/asteroid{
 	dir = 9;
@@ -48812,37 +48812,37 @@
 	dir = 4
 	},
 /turf/simulated/floor/specialroom/bar,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTm" = (
 /obj/machinery/deep_fryer,
 /turf/simulated/floor/sanitary,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTn" = (
 /obj/machinery/light/worn,
 /turf/simulated/floor/sanitary,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTo" = (
 /obj/cable{
 	icon_state = "0-2";
 	d2 = 2
 	},
 /turf/simulated/floor/sanitary,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTp" = (
 /obj/submachine/chef_sink,
 /turf/simulated/floor/sanitary,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTq" = (
 /turf/simulated/floor/plating/scorched,
-/area/h7)
+/area/debris/h7)
 "bTr" = (
 /obj/grille,
 /turf/simulated/floor/plating,
-/area/h7)
+/area/debris/h7)
 "bTs" = (
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bTt" = (
 /turf/simulated/wall/auto/asteroid{
 	dir = 9;
@@ -48870,7 +48870,7 @@
 	d2 = 4
 	},
 /turf/simulated/floor/specialroom/bar,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTx" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -48878,7 +48878,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor/specialroom/bar,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTy" = (
 /obj/cable{
 	d2 = 8;
@@ -48886,7 +48886,7 @@
 	},
 /obj/stool,
 /turf/simulated/floor/specialroom/bar,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTz" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -48894,7 +48894,7 @@
 	d2 = 2
 	},
 /turf/simulated/wall,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTA" = (
 /obj/cable{
 	tag = "icon-1-2";
@@ -48906,7 +48906,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bTB" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -48914,7 +48914,7 @@
 	d2 = 8
 	},
 /turf/simulated/wall,
-/area/h7)
+/area/debris/h7)
 "bTC" = (
 /obj/cable{
 	d1 = 1;
@@ -48924,7 +48924,7 @@
 /obj/item/spacecash/fifty,
 /obj/item/storage/backpack,
 /turf/simulated/floor/plating,
-/area/h7)
+/area/debris/h7)
 "bTD" = (
 /obj/landmark/mining{
 	name = "CoVe41";
@@ -48936,7 +48936,7 @@
 /obj/table,
 /obj/item/reagent_containers/food/drinks/drinkingglass,
 /turf/simulated/floor/specialroom/bar,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTF" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -48944,12 +48944,12 @@
 	d2 = 2
 	},
 /turf/simulated/floor/specialroom/bar,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTG" = (
 /obj/table,
 /obj/item/plate,
 /turf/simulated/floor/specialroom/bar,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTH" = (
 /obj/grille,
 /obj/window/reinforced{
@@ -48968,7 +48968,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTI" = (
 /obj/decal/cleanable/blood/splatter{
 	tag = "icon-floor4";
@@ -48978,7 +48978,7 @@
 	pixel_y = 24
 	},
 /turf/simulated/floor,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTJ" = (
 /obj/machinery/light/worn{
 	tag = "icon-tube1 (NORTH)";
@@ -48986,7 +48986,7 @@
 	dir = 1
 	},
 /turf/simulated/floor,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTK" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -49007,7 +49007,7 @@
 	name = "Paper-Complaint #9"
 	},
 /turf/simulated/floor,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTL" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -49019,7 +49019,7 @@
 	pixel_y = 24
 	},
 /turf/simulated/floor,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTM" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -49027,7 +49027,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTN" = (
 /obj/cable{
 	d2 = 8;
@@ -49043,7 +49043,7 @@
 	detector_id = "Living Quarters"
 	},
 /turf/simulated/floor/bot,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTO" = (
 /obj/grille,
 /obj/window/reinforced,
@@ -49058,7 +49058,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/h7)
+/area/debris/h7)
 "bTP" = (
 /obj/grille,
 /obj/window/reinforced,
@@ -49068,7 +49068,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/h7)
+/area/debris/h7)
 "bTQ" = (
 /obj/grille,
 /obj/window/reinforced,
@@ -49083,7 +49083,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/h7)
+/area/debris/h7)
 "bTR" = (
 /obj/machinery/light/worn{
 	tag = "icon-tube1 (WEST)";
@@ -49091,7 +49091,7 @@
 	dir = 8
 	},
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bTS" = (
 /obj/decal/fakeobjects/firealarm_broken{
 	pixel_y = 24
@@ -49099,7 +49099,7 @@
 /turf/simulated/floor/green/corner{
 	dir = 4
 	},
-/area/h7)
+/area/debris/h7)
 "bTT" = (
 /obj/decal/fakeobjects/firelock_broken,
 /obj/cable{
@@ -49110,7 +49110,7 @@
 	name = "Compartment Hatch"
 	},
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bTU" = (
 /obj/landmark/mining{
 	icon_state = "mining2";
@@ -49149,7 +49149,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTX" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -49160,13 +49160,13 @@
 /turf/simulated/floor/neutral/side{
 	dir = 1
 	},
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTY" = (
 /obj/machinery/door/window/northright,
 /turf/simulated/floor/neutral/side{
 	dir = 1
 	},
-/area/h7/crew)
+/area/debris/h7/crew)
 "bTZ" = (
 /obj/grille,
 /obj/window/reinforced,
@@ -49181,7 +49181,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bUa" = (
 /obj/grille,
 /obj/window/reinforced,
@@ -49191,10 +49191,10 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bUb" = (
 /turf/simulated/floor,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bUc" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -49202,7 +49202,7 @@
 	d2 = 2
 	},
 /turf/simulated/floor,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bUd" = (
 /obj/machinery/light_switch{
 	name = "W light switch";
@@ -49210,7 +49210,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bUe" = (
 /obj/machinery/light/worn{
 	tag = "icon-tube1 (NORTH)";
@@ -49218,11 +49218,11 @@
 	dir = 1
 	},
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bUf" = (
 /obj/decal/cleanable/cobweb2,
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bUg" = (
 /obj/cable{
 	icon_state = "2-4";
@@ -49230,7 +49230,7 @@
 	d2 = 4
 	},
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bUh" = (
 /obj/cable{
 	d1 = 1;
@@ -49243,7 +49243,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bUi" = (
 /obj/cable{
 	icon_state = "2-8";
@@ -49251,7 +49251,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bUj" = (
 /turf/simulated/wall/auto/asteroid{
 	dir = 8;
@@ -49266,7 +49266,7 @@
 	icon_state = "space"
 	},
 /turf/simulated/wall,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bUl" = (
 /obj/machinery/navbeacon{
 	codes_txt = "patrol;next_patrol=Lab Access";
@@ -49274,14 +49274,14 @@
 	location = "Living Quarters"
 	},
 /turf/simulated/floor,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bUm" = (
 /obj/item/paper{
 	info = "Ever since we began tests, the Secbuddies have been acting strangely.  Yesterday, one of them followed me around for an hour while pointing at me excitedly and beeping.  Is this a joke? Do I amuse you? It's not funny!!";
 	name = "Paper-Complaint #11"
 	},
 /turf/simulated/floor,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bUn" = (
 /obj/cable{
 	icon_state = "2-4";
@@ -49294,7 +49294,7 @@
 	d2 = 2
 	},
 /turf/simulated/floor,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bUo" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -49315,7 +49315,7 @@
 	name = "broken airlock"
 	},
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bUp" = (
 /obj/decal/fakeobjects/firelock_broken{
 	tag = "icon-door0 (WEST)";
@@ -49331,7 +49331,7 @@
 	name = "Compartment Hatch"
 	},
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bUq" = (
 /obj/cable{
 	d1 = 1;
@@ -49344,7 +49344,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bUr" = (
 /obj/machinery/navbeacon{
 	codes_txt = "patrol;next_patrol=Storage";
@@ -49352,7 +49352,7 @@
 	location = "Central Junction"
 	},
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bUs" = (
 /obj/cable{
 	d1 = 1;
@@ -49365,7 +49365,7 @@
 	d2 = 4
 	},
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bUt" = (
 /obj/decal/fakeobjects/firelock_broken{
 	tag = "icon-door0 (EAST)";
@@ -49384,15 +49384,15 @@
 	secondsElectrified = -1
 	},
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bUu" = (
 /obj/machinery/door/airlock/maintenance,
 /turf/simulated/floor/plating,
-/area/h7)
+/area/debris/h7)
 "bUv" = (
 /obj/item/wrench,
 /turf/simulated/floor/plating,
-/area/h7)
+/area/debris/h7)
 "bUw" = (
 /obj/landmark/mining{
 	name = "CoVe41";
@@ -49408,11 +49408,11 @@
 "bUx" = (
 /obj/machinery/door/airlock/external,
 /turf/simulated/floor/caution/west,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bUy" = (
 /obj/machinery/door/airlock/external,
 /turf/simulated/floor,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bUz" = (
 /obj/cable{
 	d1 = 1;
@@ -49425,7 +49425,7 @@
 	d2 = 2
 	},
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bUA" = (
 /obj/cable{
 	d1 = 1;
@@ -49433,11 +49433,11 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bUB" = (
 /obj/machinery/light/worn,
 /turf/simulated/floor,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bUC" = (
 /obj/cable{
 	d1 = 1;
@@ -49445,7 +49445,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bUD" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -49458,7 +49458,7 @@
 	d2 = 4
 	},
 /turf/simulated/floor,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bUE" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -49471,7 +49471,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bUF" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -49480,7 +49480,7 @@
 	},
 /obj/machinery/light/worn,
 /turf/simulated/floor,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bUG" = (
 /obj/cable{
 	d1 = 1;
@@ -49489,7 +49489,7 @@
 	},
 /obj/item/crowbar,
 /turf/simulated/floor/grime,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bUH" = (
 /obj/cable{
 	d2 = 4;
@@ -49508,7 +49508,7 @@
 	setup_networkapc = 1
 	},
 /turf/simulated/floor/grime,
-/area/h7)
+/area/debris/h7)
 "bUI" = (
 /obj/machinery/light/worn{
 	tag = "icon-tube1 (EAST)";
@@ -49520,7 +49520,7 @@
 	pixel_y = -24
 	},
 /turf/simulated/floor/purple/corner,
-/area/h7)
+/area/debris/h7)
 "bUJ" = (
 /turf/simulated/wall/auto/asteroid{
 	dir = 6;
@@ -49557,11 +49557,11 @@
 	d2 = 2
 	},
 /turf/simulated/floor/plating,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bUN" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bUO" = (
 /obj/grille,
 /obj/window/reinforced,
@@ -49576,22 +49576,22 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bUP" = (
 /obj/item/tile,
 /turf/simulated/floor/plating,
-/area/h7)
+/area/debris/h7)
 "bUQ" = (
 /obj/item/storage/toolbox/electrical,
 /turf/simulated/floor/plating,
-/area/h7)
+/area/debris/h7)
 "bUR" = (
 /turf/space,
 /turf/simulated/wall/auto/asteroid{
 	dir = 10;
 	icon_state = "astdetail"
 	},
-/area/h7/asteroid)
+/area/debris/h7/asteroid)
 "bUS" = (
 /turf/simulated/wall/auto/asteroid{
 	dir = 10;
@@ -49603,33 +49603,33 @@
 /turf/simulated/floor{
 	icon_state = "carpetW"
 	},
-/area/h7/crew)
+/area/debris/h7/crew)
 "bUU" = (
 /turf/simulated/floor/carpet,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bUV" = (
 /obj/cable{
 	tag = "icon-1-2";
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/carpet,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bUW" = (
 /turf/simulated/floor/neutral/side{
 	dir = 8
 	},
-/area/h7/crew)
+/area/debris/h7/crew)
 "bUX" = (
 /turf/simulated/floor/neutral/side{
 	dir = 4
 	},
-/area/h7/crew)
+/area/debris/h7/crew)
 "bUY" = (
 /obj/stool/bed,
 /turf/simulated/floor{
 	icon_state = "carpetE"
 	},
-/area/h7/crew)
+/area/debris/h7/crew)
 "bUZ" = (
 /obj/item/skull,
 /turf/space,
@@ -49644,7 +49644,7 @@
 /turf/simulated/floor{
 	icon_state = "carpetE"
 	},
-/area/h7/crew)
+/area/debris/h7/crew)
 "bVc" = (
 /obj/decal/fakeobjects/firelock_broken{
 	tag = "icon-door0 (EAST)";
@@ -49653,7 +49653,7 @@
 	},
 /obj/machinery/door/airlock/maintenance,
 /turf/simulated/floor/plating,
-/area/h7)
+/area/debris/h7)
 "bVd" = (
 /obj/stool/bed,
 /obj/window/basic{
@@ -49664,7 +49664,7 @@
 /turf/simulated/floor{
 	icon_state = "carpetW"
 	},
-/area/h7/crew)
+/area/debris/h7/crew)
 "bVe" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -49672,32 +49672,32 @@
 	d2 = 2
 	},
 /turf/simulated/floor/carpet,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bVf" = (
 /obj/decal/cleanable/generic,
 /turf/simulated/floor/neutral/side{
 	dir = 4
 	},
-/area/h7/crew)
+/area/debris/h7/crew)
 "bVg" = (
 /obj/stool/bed,
 /obj/item/clothing/suit/bedsheet,
 /turf/simulated/floor{
 	icon_state = "carpetE"
 	},
-/area/h7/crew)
+/area/debris/h7/crew)
 "bVh" = (
 /obj/lattice,
 /turf/space/asteroid,
 /area/space)
 "bVi" = (
 /turf/simulated/wall,
-/area/h7/asteroid)
+/area/debris/h7/asteroid)
 "bVj" = (
 /obj/decal/cleanable/blood,
 /obj/decal/cleanable/cobweb,
 /turf/simulated/floor/plating,
-/area/h7)
+/area/debris/h7)
 "bVk" = (
 /obj/stool/bed,
 /obj/window/basic{
@@ -49709,12 +49709,12 @@
 /turf/simulated/floor{
 	icon_state = "carpetSW"
 	},
-/area/h7/crew)
+/area/debris/h7/crew)
 "bVl" = (
 /turf/simulated/floor{
 	icon_state = "carpet2"
 	},
-/area/h7/crew)
+/area/debris/h7/crew)
 "bVm" = (
 /obj/stool/bed,
 /obj/window/basic{
@@ -49726,15 +49726,15 @@
 /turf/simulated/floor{
 	icon_state = "carpetSE"
 	},
-/area/h7/crew)
+/area/debris/h7/crew)
 "bVn" = (
 /obj/item/weldingtool,
 /turf/simulated/floor/plating,
-/area/h7)
+/area/debris/h7)
 "bVo" = (
 /obj/item/stamp,
 /turf/simulated/floor/plating,
-/area/h7)
+/area/debris/h7)
 "bVp" = (
 /obj/cable{
 	d2 = 4;
@@ -49759,7 +49759,7 @@
 /turf/simulated/floor{
 	icon_state = "carpetSW"
 	},
-/area/h7/crew)
+/area/debris/h7/crew)
 "bVq" = (
 /obj/cable{
 	d1 = 1;
@@ -49770,7 +49770,7 @@
 /turf/simulated/floor{
 	icon_state = "carpetS"
 	},
-/area/h7/crew)
+/area/debris/h7/crew)
 "bVr" = (
 /obj/stool/chair{
 	dir = 4
@@ -49778,11 +49778,11 @@
 /turf/simulated/floor/neutral/side{
 	dir = 8
 	},
-/area/h7/crew)
+/area/debris/h7/crew)
 "bVs" = (
 /obj/table,
 /turf/simulated/floor/grime,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bVt" = (
 /obj/stool/chair{
 	dir = 8
@@ -49790,12 +49790,12 @@
 /turf/simulated/floor/neutral/side{
 	dir = 4
 	},
-/area/h7/crew)
+/area/debris/h7/crew)
 "bVu" = (
 /turf/simulated/floor{
 	icon_state = "carpetS"
 	},
-/area/h7/crew)
+/area/debris/h7/crew)
 "bVv" = (
 /obj/machinery/light/worn{
 	tag = "icon-tube1 (EAST)";
@@ -49806,16 +49806,16 @@
 /turf/simulated/floor{
 	icon_state = "carpetSE"
 	},
-/area/h7/crew)
+/area/debris/h7/crew)
 "bVw" = (
 /turf/simulated/wall/r_wall,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bVx" = (
 /turf/simulated/wall,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bVy" = (
 /turf/simulated/wall/false_wall,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bVz" = (
 /obj/grille,
 /obj/window/reinforced,
@@ -49825,10 +49825,10 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/h7/crew)
+/area/debris/h7/crew)
 "bVA" = (
 /turf/simulated/floor,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bVB" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	tag = "icon-tube-broken (NORTH)";
@@ -49836,20 +49836,20 @@
 	dir = 1
 	},
 /turf/simulated/floor,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bVC" = (
 /obj/decal/fakeobjects/firealarm_broken{
 	pixel_y = 24
 	},
 /turf/simulated/floor,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bVD" = (
 /obj/decal/cleanable/blood/splatter{
 	tag = "icon-floor3";
 	icon_state = "floor3"
 	},
 /turf/simulated/floor,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bVE" = (
 /obj/machinery/power/data_terminal,
 /obj/cable{
@@ -49863,7 +49863,7 @@
 /turf/simulated/floor/red/side{
 	dir = 9
 	},
-/area/h7/lab)
+/area/debris/h7/lab)
 "bVF" = (
 /obj/decal/cleanable/blood/splatter{
 	tag = "icon-floor4";
@@ -49872,13 +49872,13 @@
 /turf/simulated/floor/red/side{
 	dir = 1
 	},
-/area/h7/lab)
+/area/debris/h7/lab)
 "bVG" = (
 /obj/decal/cleanable/cobweb2,
 /turf/simulated/floor/red/side{
 	dir = 5
 	},
-/area/h7/lab)
+/area/debris/h7/lab)
 "bVH" = (
 /obj/machinery/light/worn{
 	tag = "icon-tube1 (NORTH)";
@@ -49888,14 +49888,14 @@
 /turf/simulated/floor/red/side{
 	dir = 8
 	},
-/area/h7)
+/area/debris/h7)
 "bVI" = (
 /obj/structure/girder,
 /turf/simulated/floor/plating/airless,
-/area/h7)
+/area/debris/h7)
 "bVJ" = (
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bVK" = (
 /obj/decal/floatingtiles{
 	tag = "icon-floattiles4 (NORTH)";
@@ -49903,14 +49903,14 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bVL" = (
 /turf/simulated/aprilfools{
 	desc = "A strange shifting void ...";
 	icon_state = "void";
 	name = "void"
 	},
-/area/h7/lab)
+/area/debris/h7/lab)
 "bVM" = (
 /obj/decal/floatingtiles{
 	tag = "icon-floattiles5";
@@ -49921,7 +49921,7 @@
 	icon_state = "void";
 	name = "void"
 	},
-/area/h7/lab)
+/area/debris/h7/lab)
 "bVN" = (
 /obj/grille,
 /obj/window/reinforced{
@@ -49940,7 +49940,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bVO" = (
 /obj/cable{
 	tag = "icon-1-2";
@@ -49953,36 +49953,36 @@
 /turf/simulated/floor/red/side{
 	dir = 8
 	},
-/area/h7/lab)
+/area/debris/h7/lab)
 "bVP" = (
 /obj/stool/chair{
 	dir = 8
 	},
 /turf/simulated/floor,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bVQ" = (
 /turf/simulated/floor/red/side{
 	dir = 4
 	},
-/area/h7/lab)
+/area/debris/h7/lab)
 "bVR" = (
 /turf/simulated/floor/red/side{
 	dir = 8
 	},
-/area/h7)
+/area/debris/h7)
 "bVS" = (
 /turf/simulated/floor/airless,
-/area/h7)
+/area/debris/h7)
 "bVT" = (
 /turf/simulated/floor/airless/grime,
-/area/h7)
+/area/debris/h7)
 "bVU" = (
 /turf/simulated/floor/plating/airless,
-/area/h7)
+/area/debris/h7)
 "bVV" = (
 /obj/machinery/door/airlock/maintenance,
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bVW" = (
 /obj/decal/floatingtiles{
 	tag = "icon-floattiles1 (EAST)";
@@ -49994,7 +49994,7 @@
 	icon_state = "void";
 	name = "void"
 	},
-/area/h7/lab)
+/area/debris/h7/lab)
 "bVX" = (
 /obj/decal/floatingtiles{
 	tag = "icon-floattiles4";
@@ -50005,7 +50005,7 @@
 	icon_state = "void";
 	name = "void"
 	},
-/area/h7/lab)
+/area/debris/h7/lab)
 "bVY" = (
 /obj/decal/floatingtiles{
 	tag = "icon-floattiles3 (WEST)";
@@ -50017,7 +50017,7 @@
 	icon_state = "void";
 	name = "void"
 	},
-/area/h7/lab)
+/area/debris/h7/lab)
 "bVZ" = (
 /obj/grille,
 /obj/window/reinforced{
@@ -50032,7 +50032,7 @@
 	},
 /obj/window/reinforced,
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWa" = (
 /obj/cable{
 	d1 = 1;
@@ -50047,7 +50047,7 @@
 /turf/simulated/floor/red/side{
 	dir = 10
 	},
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWb" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -50055,7 +50055,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor/red/side,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWc" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -50065,7 +50065,7 @@
 /turf/simulated/floor/red/side{
 	dir = 6
 	},
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWd" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -50082,7 +50082,7 @@
 	req_access_txt = ""
 	},
 /turf/simulated/floor/red,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWe" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -50092,7 +50092,7 @@
 /turf/simulated/floor/red/side{
 	dir = 8
 	},
-/area/h7)
+/area/debris/h7)
 "bWf" = (
 /obj/cable{
 	tag = "icon-0-2";
@@ -50109,7 +50109,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bWg" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -50128,7 +50128,7 @@
 	secondsElectrified = -1
 	},
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bWh" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -50136,7 +50136,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor/airless,
-/area/h7)
+/area/debris/h7)
 "bWi" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -50144,7 +50144,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor/airless/damaged5,
-/area/h7)
+/area/debris/h7)
 "bWj" = (
 /obj/cable{
 	d2 = 8;
@@ -50152,7 +50152,7 @@
 	},
 /obj/item/cable_coil/cut,
 /turf/simulated/floor/airless/plating/damaged1,
-/area/h7)
+/area/debris/h7)
 "bWk" = (
 /turf/space,
 /turf/simulated/wall/auto/asteroid{
@@ -50167,7 +50167,7 @@
 	dir = 8
 	},
 /turf/simulated/floor,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWm" = (
 /obj/critter/floateye,
 /turf/simulated/aprilfools{
@@ -50175,7 +50175,7 @@
 	icon_state = "void";
 	name = "void"
 	},
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWn" = (
 /obj/decal/floatingtiles{
 	tag = "icon-floattiles2";
@@ -50186,7 +50186,7 @@
 	icon_state = "void";
 	name = "void"
 	},
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWo" = (
 /obj/decal/fakeobjects/lighttube_broken{
 	tag = "icon-tube-broken (EAST)";
@@ -50194,7 +50194,7 @@
 	dir = 4
 	},
 /turf/simulated/floor,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWp" = (
 /obj/grille,
 /obj/window/reinforced,
@@ -50209,7 +50209,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWq" = (
 /obj/grille,
 /obj/window/reinforced,
@@ -50224,7 +50224,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWr" = (
 /obj/landmark/mining{
 	icon_state = "mining5";
@@ -50247,7 +50247,7 @@
 	icon_state = "void";
 	name = "void"
 	},
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWt" = (
 /obj/decal/glow{
 	brightness = 8;
@@ -50262,14 +50262,14 @@
 	icon_state = "void";
 	name = "void"
 	},
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWu" = (
 /obj/decal/floatingtiles{
 	tag = "icon-floattiles3";
 	icon_state = "floattiles3"
 	},
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWv" = (
 /obj/cable{
 	icon_state = "0-2";
@@ -50282,7 +50282,7 @@
 	name = "dusty docking station"
 	},
 /turf/simulated/floor/bot,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWw" = (
 /obj/machinery/firealarm{
 	dir = 8;
@@ -50291,7 +50291,7 @@
 /turf/simulated/floor/purple/side{
 	dir = 8
 	},
-/area/h7)
+/area/debris/h7)
 "bWx" = (
 /obj/cable{
 	tag = "icon-1-2";
@@ -50303,7 +50303,7 @@
 	location = "Lab Access"
 	},
 /turf/simulated/floor,
-/area/h7)
+/area/debris/h7)
 "bWy" = (
 /obj/decal/floatingtiles{
 	tag = "icon-floattiles6 (WEST)";
@@ -50315,7 +50315,7 @@
 	icon_state = "void";
 	name = "void"
 	},
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWz" = (
 /obj/item/tile,
 /turf/simulated/aprilfools{
@@ -50323,7 +50323,7 @@
 	icon_state = "void";
 	name = "void"
 	},
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWA" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -50331,22 +50331,22 @@
 	d2 = 2
 	},
 /turf/simulated/floor/purple/corner,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWB" = (
 /turf/simulated/floor/purple/side{
 	dir = 8
 	},
-/area/h7)
+/area/debris/h7)
 "bWC" = (
 /turf/simulated/wall/auto/asteroid,
-/area/h7)
+/area/debris/h7)
 "bWD" = (
 /turf/space,
 /turf/simulated/wall/auto/asteroid{
 	dir = 4;
 	icon_state = "astedge"
 	},
-/area/h7)
+/area/debris/h7)
 "bWE" = (
 /obj/item/cable_coil/cut{
 	tag = "icon-coil1";
@@ -50378,7 +50378,7 @@
 	name = "Hemera Solar Control"
 	},
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWH" = (
 /obj/decal/floatingtiles{
 	tag = "icon-floattiles1 (NORTH)";
@@ -50390,7 +50390,7 @@
 	icon_state = "void";
 	name = "void"
 	},
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWI" = (
 /obj/decal/floatingtiles,
 /turf/simulated/aprilfools{
@@ -50398,7 +50398,7 @@
 	icon_state = "void";
 	name = "void"
 	},
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWJ" = (
 /obj/cable{
 	icon_state = "2-4";
@@ -50413,7 +50413,7 @@
 /turf/simulated/floor/purple/side{
 	dir = 4
 	},
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWK" = (
 /obj/decal/fakeobjects/firelock_broken{
 	tag = "icon-door0 (EAST)";
@@ -50430,7 +50430,7 @@
 	req_access_txt = ""
 	},
 /turf/simulated/floor/purple,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWL" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -50444,7 +50444,7 @@
 /turf/simulated/floor/purple/side{
 	dir = 8
 	},
-/area/h7)
+/area/debris/h7)
 "bWM" = (
 /obj/cable,
 /obj/cable{
@@ -50528,7 +50528,7 @@
 	d2 = 8
 	},
 /turf/simulated/wall/r_wall,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWS" = (
 /obj/cable{
 	d2 = 8;
@@ -50537,7 +50537,7 @@
 /obj/cable,
 /obj/machinery/power/terminal,
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWT" = (
 /obj/cable{
 	d2 = 4;
@@ -50556,7 +50556,7 @@
 	setup_networkapc = 1
 	},
 /turf/simulated/floor,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWU" = (
 /obj/cable{
 	icon_state = "2-8";
@@ -50564,15 +50564,15 @@
 	d2 = 8
 	},
 /turf/simulated/floor,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWV" = (
 /obj/critter/zombie/h7,
 /turf/simulated/floor,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWW" = (
 /obj/item/device/guardbot_tool/taser,
 /turf/simulated/floor,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWX" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -50582,21 +50582,21 @@
 /turf/simulated/floor/purple/corner{
 	dir = 8
 	},
-/area/h7/lab)
+/area/debris/h7/lab)
 "bWY" = (
 /turf/space,
 /turf/simulated/wall/auto/asteroid{
 	dir = 6;
 	icon_state = "astdetail"
 	},
-/area/h7)
+/area/debris/h7)
 "bWZ" = (
 /turf/space,
 /turf/simulated/wall/auto/asteroid{
 	dir = 6;
 	icon_state = "astedge"
 	},
-/area/h7)
+/area/debris/h7)
 "bXa" = (
 /obj/cable,
 /obj/machinery/power/solar{
@@ -50617,7 +50617,7 @@
 	output = 50000
 	},
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXc" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -50625,7 +50625,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXd" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -50633,7 +50633,7 @@
 	d2 = 8
 	},
 /turf/simulated/wall,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXe" = (
 /obj/cable{
 	d1 = 1;
@@ -50646,7 +50646,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor/orangeblack/side,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXf" = (
 /obj/cable{
 	icon_state = "2-4";
@@ -50659,7 +50659,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor/orangeblack/side,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXg" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -50667,7 +50667,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor/orangeblack/side,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXh" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -50676,7 +50676,7 @@
 	},
 /obj/decal/fakeobjects/lighttube_broken,
 /turf/simulated/floor/orangeblack/side,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXi" = (
 /obj/cable{
 	icon_state = "2-4";
@@ -50690,7 +50690,7 @@
 	},
 /obj/decal/ash,
 /turf/simulated/floor/orangeblack/side,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXj" = (
 /obj/cable{
 	d1 = 1;
@@ -50698,7 +50698,7 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/orangeblack/side,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXk" = (
 /obj/cable{
 	d2 = 8;
@@ -50711,7 +50711,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/grime,
-/area/h7)
+/area/debris/h7)
 "bXl" = (
 /obj/landmark/mining{
 	icon_state = "mining2";
@@ -50732,7 +50732,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXn" = (
 /obj/securearea{
 	desc = "";
@@ -50741,7 +50741,7 @@
 	tag = "icon-shock"
 	},
 /turf/simulated/wall,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXo" = (
 /obj/cable,
 /obj/cable{
@@ -50760,14 +50760,14 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXp" = (
 /obj/securearea{
 	desc = "A warning sign telling of the dangers of HEPT emission fields. They are probably not good for you.";
 	name = "Molecular Integrity Hazard"
 	},
 /turf/simulated/wall,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXq" = (
 /obj/decal/fakeobjects/firelock_broken{
 	tag = "icon-door0 (NORTH)";
@@ -50782,7 +50782,7 @@
 	name = "Supply Closet"
 	},
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXr" = (
 /obj/grille,
 /obj/cable{
@@ -50791,7 +50791,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXs" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -50804,7 +50804,7 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXt" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -50822,7 +50822,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXu" = (
 /obj/grille,
 /obj/cable{
@@ -50830,11 +50830,11 @@
 	icon_state = "0-8"
 	},
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXv" = (
 /obj/item/sheet/metal,
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXw" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -50842,10 +50842,10 @@
 	d2 = 2
 	},
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXx" = (
 /turf/simulated/floor/plating/scorched,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXy" = (
 /obj/cable{
 	d2 = 4;
@@ -50861,7 +50861,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXz" = (
 /obj/cable{
 	d1 = 1;
@@ -50869,11 +50869,11 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXA" = (
 /obj/grille,
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXB" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -50886,19 +50886,19 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXD" = (
 /obj/structure/girder/displaced,
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXE" = (
 /obj/crate/trashcart,
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXF" = (
 /obj/item/storage/toolbox/mechanical,
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXG" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -50907,11 +50907,11 @@
 	},
 /obj/decal/fakeobjects/firelock_broken,
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXH" = (
 /obj/decal/cleanable/cobweb,
 /turf/simulated/floor,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXI" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -50919,7 +50919,7 @@
 	d2 = 2
 	},
 /turf/simulated/floor,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXJ" = (
 /obj/cable,
 /obj/cable{
@@ -50927,17 +50927,17 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXK" = (
 /obj/item/storage/trashcan,
 /turf/simulated/floor,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXL" = (
 /turf/simulated/floor/caution/east,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXM" = (
 /turf/simulated/floor/caution/west,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXN" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -50945,7 +50945,7 @@
 	},
 /obj/item/electronics/board,
 /turf/simulated/floor,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXO" = (
 /obj/machinery/light/worn{
 	tag = "icon-tube1 (WEST)";
@@ -50953,7 +50953,7 @@
 	dir = 8
 	},
 /turf/simulated/floor,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXP" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -50966,10 +50966,10 @@
 	},
 /obj/item/ore/telecrystal,
 /turf/simulated/floor,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXQ" = (
 /turf/simulated/floor/grime,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXR" = (
 /obj/cable{
 	icon_state = "1-2";
@@ -50982,7 +50982,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXS" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -50990,7 +50990,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXT" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -50998,7 +50998,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor/caution/east,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXU" = (
 /obj/cable,
 /obj/cable{
@@ -51015,7 +51015,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXV" = (
 /obj/cable{
 	icon_state = "4-8";
@@ -51023,7 +51023,7 @@
 	d2 = 8
 	},
 /turf/simulated/floor/caution/west,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXW" = (
 /obj/cable{
 	d1 = 1;
@@ -51033,7 +51033,7 @@
 /obj/stool,
 /obj/critter/zombie/h7,
 /turf/simulated/floor,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXX" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -51041,7 +51041,7 @@
 	},
 /obj/item/device/audio_log/h7,
 /turf/simulated/floor,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXY" = (
 /obj/cable{
 	d2 = 4;
@@ -51054,7 +51054,7 @@
 	setup_os_string = "H7_MAINFRAME"
 	},
 /turf/simulated/floor/bot,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bXZ" = (
 /obj/cable{
 	d1 = 1;
@@ -51063,13 +51063,13 @@
 	},
 /obj/stool/chair,
 /turf/simulated/floor,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bYa" = (
 /obj/machinery/power/data_terminal,
 /obj/cable,
 /obj/machinery/networked/h7_emitter,
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bYb" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -51078,13 +51078,13 @@
 /obj/item/paper/hept_qr,
 /obj/item/pen,
 /turf/simulated/floor,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bYc" = (
 /turf/space,
 /turf/simulated/wall/auto/asteroid{
 	icon_state = "astdetail"
 	},
-/area/h7/asteroid)
+/area/debris/h7/asteroid)
 "bYd" = (
 /obj/table{
 	contents = newlist();
@@ -51097,7 +51097,7 @@
 	pixel_y = -10
 	},
 /turf/simulated/floor,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bYe" = (
 /obj/table{
 	icon_state = "tabledir";
@@ -51109,11 +51109,11 @@
 	pixel_y = 6
 	},
 /turf/simulated/floor,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bYf" = (
 /obj/decal/cleanable/dirt,
 /turf/simulated/floor/grime,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bYg" = (
 /turf/unsimulated/floor{
 	tag = "icon-a10";
@@ -51125,7 +51125,7 @@
 /obj/structure/girder,
 /obj/item/sheet/metal,
 /turf/simulated/floor/airless/plating/damaged1,
-/area/h7/lab)
+/area/debris/h7/lab)
 "bYi" = (
 /obj/item/sheet/metal,
 /turf/space,
@@ -67176,7 +67176,7 @@
 /turf/simulated/floor{
 	icon_state = "carpetW"
 	},
-/area/h7/crew)
+/area/debris/h7/crew)
 "nDU" = (
 /obj/displaycase{
 	displayed = new /obj/item/captaingun
@@ -67218,7 +67218,7 @@
 	},
 /obj/decal/fakeobjects/skeleton,
 /turf/simulated/floor,
-/area/h7/computer_core)
+/area/debris/h7/computer_core)
 "spA" = (
 /obj/decal/cleanable/blood/splatter,
 /obj/decal/fakeobjects/skeleton,
@@ -67233,7 +67233,7 @@
 	},
 /obj/decal/fakeobjects/skeleton,
 /turf/simulated/floor/plating,
-/area/h7/lab)
+/area/debris/h7/lab)
 "wLC" = (
 /obj/decal/fakeobjects/skeleton,
 /obj/item/ore/cobryl,

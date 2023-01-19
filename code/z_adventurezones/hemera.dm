@@ -6,7 +6,7 @@ Hemera Mainframe stuff
 Obsidian Crown
 */
 
-/area/h7
+/area/debris/h7
 	name = "Hemera VII"
 	icon_state = "yellow"
 	sound_environment = 12
@@ -14,42 +14,42 @@ Obsidian Crown
 	skip_sims = 1
 	sims_score = 30
 
-/area/h7/computer_core
+/area/debris/h7/computer_core
 	name = "Aged Computer Core"
 	icon_state = "ai"
 	sound_environment = 3
 	skip_sims = 1
 	sims_score = 30
 
-/area/h7/control
+/area/debris/h7/control
 	name = "Control Room"
 	icon_state = "purple"
 	sound_environment = 3
 	skip_sims = 1
 	sims_score = 30
 
-/area/h7/lab
+/area/debris/h7/lab
 	name = "Anomalous Materials Laboratory"
 	icon_state = "toxlab"
 	sound_environment = 10
 	skip_sims = 1
 	sims_score = 30
 
-/area/h7/crew
+/area/debris/h7/crew
 	name = "Living Quarters"
 	icon_state = "crewquarters"
 	sound_environment = 2
 	skip_sims = 1
 	sims_score = 30
 
-/area/h7/storage
+/area/debris/h7/storage
 	name = "Equipment Storage"
 	icon_state = "storage"
 	sound_environment = 2
 	skip_sims = 1
 	sims_score = 30
 
-/area/h7/asteroid
+/area/debris/h7/asteroid
 	name = "Shattered Asteroid"
 	icon_state = "green"
 	skip_sims = 1
