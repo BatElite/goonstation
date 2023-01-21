@@ -743,7 +743,7 @@
 /turf/unsimulated/floor/void,
 /area/shuttle/escape/centcom)
 "bg" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "bh" = (
@@ -1184,7 +1184,7 @@
 	pixel_y = 0;
 	transform = list(2,0,16,0,2,16)
 	},
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "bY" = (
@@ -1356,7 +1356,7 @@
 	pixel_y = 0;
 	transform = list(2,0,16,0,2,16)
 	},
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "cp" = (
@@ -1444,7 +1444,7 @@
 	pixel_y = 0;
 	transform = list(2,0,16,0,2,16)
 	},
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "cA" = (

@@ -10,7 +10,7 @@
 /turf/simulated/floor/plating,
 /area/prefab/sequestered_cloner)
 "bm" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/simulated/floor/plating,
 /area/prefab/sequestered_cloner)
 "co" = (
@@ -307,7 +307,7 @@
 /turf/simulated/floor/plating,
 /area/prefab/sequestered_cloner)
 "tW" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /obj/window_blinds/cog2{
 	dir = 8
 	},

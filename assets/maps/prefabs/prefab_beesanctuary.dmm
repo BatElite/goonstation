@@ -498,7 +498,7 @@
 /turf/unsimulated/wall/auto/reinforced/supernorn,
 /area/prefab/bee_sanctuary)
 "rb" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/unsimulated/floor/black/grime,
 /area/prefab/bee_sanctuary)
 "ru" = (
@@ -1567,7 +1567,7 @@
 /turf/variableTurf/clear,
 /area/noGenerate)
 "RR" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/unsimulated/floor,
 /area/prefab/bee_sanctuary)
 "SM" = (
@@ -1580,7 +1580,7 @@
 /turf/unsimulated/grass,
 /area/prefab/bee_sanctuary)
 "SN" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/white,
 /area/prefab/bee_sanctuary)
 "SP" = (

@@ -202,7 +202,7 @@
 /turf/unsimulated/floor/black/grime,
 /area/prefab/bee_sanctuary)
 "ik" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/white,
 /area/prefab/bee_sanctuary)
 "il" = (
@@ -457,7 +457,7 @@
 /turf/unsimulated/floor,
 /area/prefab/bee_sanctuary)
 "sC" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/unsimulated/floor/black/grime,
 /area/prefab/bee_sanctuary)
 "sH" = (
@@ -1278,7 +1278,7 @@
 /turf/unsimulated/floor/damaged5,
 /area/prefab/bee_sanctuary)
 "VH" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/unsimulated/floor,
 /area/prefab/bee_sanctuary)
 "VU" = (

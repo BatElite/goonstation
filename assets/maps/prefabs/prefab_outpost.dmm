@@ -85,7 +85,7 @@
 /turf/simulated/floor/carpet/grime,
 /area/mining/miningoutpost)
 "ap" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/mining/miningoutpost)
 "aq" = (
@@ -371,7 +371,7 @@
 	},
 /area/mining/miningoutpost)
 "bn" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /obj/decal/poster/wallsign/medbay,
 /turf/simulated/floor/plating,
 /area/mining/miningoutpost)

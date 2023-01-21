@@ -877,7 +877,7 @@
 /turf/unsimulated/floor/white,
 /area/adventure/hospital)
 "adp" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor{
 	name = "plating"
 	},
@@ -1672,7 +1672,7 @@
 /turf/unsimulated/floor/specialroom/freezer,
 /area/adventure/hospital)
 "afi" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/shuttle.dmi';
 	icon_state = "floor3"
@@ -4464,7 +4464,7 @@
 	layer = 2.5;
 	name = "power conduit"
 	},
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/engine,
 /area/adventure/hospital/samostrel)
 "aoE" = (
@@ -10174,7 +10174,7 @@
 	},
 /area/adventure/moon/museum)
 "aHj" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/void,
 /area/diner/cow)
 "aHo" = (
@@ -11058,7 +11058,7 @@
 	},
 /area/adventure/marsoutpost)
 "aKz" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/unsimulated/floor/plating/random,
 /area/syndicate_station/battlecruiser)
 "aKA" = (
@@ -13597,7 +13597,7 @@
 /obj/channel{
 	required_to_pass = 1e+009
 	},
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/unsimulated/floor/plating/scorched,
 /area/adventure/crater/biodome/north)
 "aSs" = (
@@ -21508,7 +21508,7 @@
 /turf/unsimulated/floor/engine,
 /area/adventure/marsoutpost)
 "bnn" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor,
 /area/adventure/marsoutpost)
 "bno" = (
@@ -29468,7 +29468,7 @@
 /turf/unsimulated/floor/shuttlebay,
 /area/syndicate_station/battlecruiser)
 "bMg" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/adventure/crunch)
 "bMm" = (
@@ -33154,7 +33154,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/adventure/crunch)
 "bYB" = (
@@ -34761,7 +34761,7 @@
 	},
 /area/adventure/meat_derelict/guts)
 "cdK" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor,
 /area/adventure/meat_derelict/guts)
 "cdL" = (
@@ -35069,7 +35069,7 @@
 	},
 /area/adventure/meat_derelict/entry)
 "ceL" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor,
 /area/adventure/meat_derelict/entry)
 "ceM" = (
@@ -36736,7 +36736,7 @@
 	},
 /area/sim/area2)
 "cji" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /obj/cable,
 /obj/machinery/power/terminal,
 /turf/unsimulated/floor/plating/random,
@@ -39986,7 +39986,7 @@
 /turf/unsimulated/wall/other,
 /area/adventure/crunch/wtc)
 "csF" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/adventure/crunch/wtc)
 "csG" = (
@@ -40101,7 +40101,7 @@
 /area/adventure/crunch/wtc)
 "csV" = (
 /obj/item/mechanics/triplaser,
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/adventure/crunch/wtc)
 "csW" = (
@@ -41002,7 +41002,7 @@
 /turf/unsimulated/iomoon/floor/arena,
 /area/afterlife/arena)
 "cvy" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/blackwhite{
 	dir = 8
 	},
@@ -41404,7 +41404,7 @@
 /turf/unsimulated/floor/lava,
 /area/afterlife/hell)
 "cwJ" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/white,
 /area/adventure/owlery/staffhall)
 "cwL" = (
@@ -41770,7 +41770,7 @@
 /turf/unsimulated/floor/black,
 /area/adventure/owlery/staffhall)
 "cxA" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/black,
 /area/adventure/owlery/staffhall)
 "cxB" = (
@@ -42325,7 +42325,7 @@
 /turf/unsimulated/floor/sanitary/white,
 /area/adventure/owlery/staffhall)
 "cyZ" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/adventure/owlery/staffhall)
 "cza" = (
@@ -43268,7 +43268,7 @@
 	},
 /area/adventure/owlery/staffhall)
 "cBq" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/black,
 /area/adventure/owlery/gangzone)
 "cBr" = (
@@ -43355,7 +43355,7 @@
 	},
 /area/adventure/owlery/Owlmait)
 "cBE" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/adventure/owlery/Owlmait)
 "cBF" = (
@@ -43964,7 +43964,7 @@
 /obj/cable{
 	icon_state = "2-4"
 	},
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/adventure/owlery/Owlmait)
 "cDa" = (
@@ -44212,7 +44212,7 @@
 /obj/cable{
 	icon_state = "1-2"
 	},
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/adventure/owlery/Owlmait)
 "cDE" = (
@@ -44836,7 +44836,7 @@
 /obj/channel{
 	required_to_pass = 1e+009
 	},
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/unsimulated/floor/plating/scorched,
 /area/adventure/crater/biodome/south)
 "cFa" = (
@@ -44892,7 +44892,7 @@
 /turf/unsimulated/floor/black,
 /area/adventure/owlery/lab)
 "cFg" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/black,
 /area/adventure/owlery/lab)
 "cFh" = (
@@ -45863,7 +45863,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/adventure/owlery/Owlmait)
 "cHA" = (
@@ -46234,7 +46234,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/adventure/owlery/office)
 "cIu" = (
@@ -48375,11 +48375,11 @@
 	},
 /area/adventure/owlery/gangzone)
 "cNY" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/redblack/corner,
 /area/adventure/owlery/gangzone)
 "cNZ" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/redblack/corner{
 	dir = 4
 	},
@@ -48756,7 +48756,7 @@
 	dir = 1;
 	icon_state = "pipe-c"
 	},
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/black,
 /area/adventure/owlery/gangzone)
 "cOH" = (
@@ -49715,7 +49715,7 @@
 /obj/disposalpipe/segment{
 	dir = 4
 	},
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/black,
 /area/adventure/owlery/gangzone)
 "cQO" = (
@@ -50161,7 +50161,7 @@
 	},
 /area/adventure/owlery/gangzone)
 "cRJ" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/adventure/owlery/owleryhall)
 "cRK" = (
@@ -50261,13 +50261,13 @@
 /turf/unsimulated/floor/stairs/dark,
 /area/adventure/owlery/Owlmait2)
 "cRU" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/redblack/corner{
 	dir = 8
 	},
 /area/adventure/owlery/gangzone)
 "cRV" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/redblack/corner{
 	dir = 1
 	},
@@ -52325,7 +52325,7 @@
 /turf/unsimulated/grass,
 /area/adventure/owlery/Owlmait2)
 "cWh" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/adventure/owlery/Owlmait2)
 "cWi" = (
@@ -57854,7 +57854,7 @@
 /turf/unsimulated/floor/shuttlebay,
 /area/wizard_station)
 "dkm" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/wizard_station)
 "dkn" = (
@@ -58749,7 +58749,7 @@
 /turf/unsimulated/outdoors/grass,
 /area/centcom/outside)
 "drM" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/shuttle/merchant_shuttle/right_centcom/cogmap2)
 "drN" = (
@@ -58794,7 +58794,7 @@
 	},
 /area/shuttle/merchant_shuttle/right_centcom/cogmap2)
 "drU" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/engine,
 /area/shuttle/merchant_shuttle/right_centcom/cogmap2)
 "drV" = (
@@ -59225,7 +59225,7 @@
 /turf/unsimulated/floor/plating/scorched,
 /area/adventure/hospital/underground)
 "duc" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/shuttle,
 /area/shuttle/merchant_shuttle/right_centcom/cogmap)
 "due" = (
@@ -59361,7 +59361,7 @@
 	},
 /area/shuttle/merchant_shuttle/left_centcom/donut2)
 "duB" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/shuttle{
 	icon_state = "floor2"
 	},
@@ -63510,7 +63510,7 @@
 	},
 /area/centcom/lounge)
 "dGR" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor{
 	name = "plating"
 	},
@@ -64691,7 +64691,7 @@
 	},
 /area/centcom/lounge)
 "dKk" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor{
 	name = "plating"
 	},
@@ -64947,7 +64947,7 @@
 	},
 /area/centcom/garden)
 "dKL" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor{
 	name = "plating"
 	},
@@ -67361,7 +67361,7 @@
 /turf/unsimulated/outdoors/grass,
 /area/centcom/outside)
 "dRC" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor{
 	name = "plating"
 	},
@@ -68740,7 +68740,7 @@
 /turf/unsimulated/floor/wood/six,
 /area/centcom/offices/zamujasa)
 "eTR" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/shuttle,
 /area/shuttle/merchant_shuttle/left_centcom/cogmap)
 "eUd" = (
@@ -69403,7 +69403,7 @@
 	},
 /area/adventure/moon/museum/west)
 "gIA" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/shuttle/merchant_shuttle/left_centcom/cogmap2)
 "gJJ" = (
@@ -69830,7 +69830,7 @@
 /obj/channel{
 	required_to_pass = 1e+009
 	},
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/unsimulated/floor/plating/scorched,
 /area/adventure/crater/biodome/south)
 "hOu" = (
@@ -70209,7 +70209,7 @@
 /turf/unsimulated/floor,
 /area/adventure/meat_derelict/guts)
 "iMA" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/shuttle{
 	icon_state = "floor2"
 	},
@@ -70237,7 +70237,7 @@
 	},
 /area/centcom/offices/pali)
 "iOJ" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/shuttle{
 	icon_state = "floor2"
 	},
@@ -70410,7 +70410,7 @@
 /turf/unsimulated/floor/carpet/grime,
 /area/adventure/iomoon/base)
 "jjv" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/unsimulated/floor/black,
 /area/syndicate_station/assault_pod)
 "jkH" = (
@@ -71851,7 +71851,7 @@
 	icon_state = "blue"
 	})
 "mVb" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/shuttle/merchant_shuttle/diner_centcom)
 "mWP" = (
@@ -73528,7 +73528,7 @@
 	},
 /area/titlescreen)
 "qhR" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/engine,
 /area/shuttle/merchant_shuttle/left_centcom/cogmap2)
 "qjb" = (
@@ -73589,7 +73589,7 @@
 	},
 /area/afterlife/bar)
 "qsP" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/engine,
 /area/shuttle/merchant_shuttle/diner_centcom)
 "qtB" = (
@@ -73676,7 +73676,7 @@
 	},
 /area/sim/area2)
 "qCU" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/shuttle{
 	icon_state = "floor2"
 	},
@@ -75358,7 +75358,7 @@
 	icon_state = "blue"
 	})
 "tZZ" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor{
 	name = "plating"
 	},
@@ -77033,7 +77033,7 @@
 	icon_state = "blue"
 	})
 "yan" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/outdoors/grass,
 /area/diner/cow)
 "yaC" = (

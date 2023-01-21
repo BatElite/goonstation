@@ -129,7 +129,7 @@
 	},
 /area/prefab/synd_lab)
 "s" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/simulated/floor/redblack{
 	dir = 1
 	},
@@ -204,7 +204,7 @@
 	},
 /area/prefab/synd_lab)
 "C" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/simulated/floor/black,
 /area/prefab/synd_lab)
 "D" = (

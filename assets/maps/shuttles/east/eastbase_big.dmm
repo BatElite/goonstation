@@ -1522,7 +1522,7 @@
 	},
 /area/centcom)
 "cg" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/shuttle,
 /area/shuttle/escape/centcom)
 "ch" = (
@@ -1927,7 +1927,7 @@
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
 "cU" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/shuttle{
 	icon_state = "floor2"
 	},

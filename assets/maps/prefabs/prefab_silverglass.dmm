@@ -62,7 +62,7 @@
 /turf/simulated/floor/grey,
 /area/prefab/silverglass/bay)
 "cd" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/simulated/floor/plating,
 /area/prefab/silverglass/research)
 "cs" = (
@@ -147,7 +147,7 @@
 /turf/simulated/floor/airless/plating/damaged3,
 /area/prefab/silverglass/research)
 "fk" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/simulated/floor/airless/engine,
 /area/prefab/silverglass/research)
 "fI" = (
@@ -425,7 +425,7 @@
 /turf/simulated/floor/sanitary,
 /area/prefab/silverglass)
 "nS" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/prefab/silverglass)
 "oj" = (
@@ -652,7 +652,7 @@
 /turf/simulated/floor/airless/darkblue,
 /area/prefab/silverglass/research)
 "tN" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/prefab/silverglass/research)
 "tQ" = (
@@ -982,7 +982,7 @@
 /turf/simulated/floor/grey,
 /area/prefab/silverglass/bay)
 "Hx" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/prefab/silverglass/bay)
 "HX" = (
@@ -1544,7 +1544,7 @@
 /turf/simulated/floor/grey,
 /area/prefab/silverglass/bay)
 "YS" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/prefab/silverglass/eats)
 "YY" = (

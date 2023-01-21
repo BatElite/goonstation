@@ -660,7 +660,7 @@
 /turf/unsimulated/floor/marble,
 /area/shuttle/escape/centcom)
 "UE" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /obj/item/storage/wall/medical{
 	dir = 4
 	},
@@ -853,7 +853,7 @@
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "ZN" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/unsimulated/floor/marble/black,
 /area/shuttle/escape/centcom)
 

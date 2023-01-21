@@ -697,7 +697,7 @@
 /turf/simulated/floor/wood/seven,
 /area/space)
 "cq" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/space)
 "cr" = (
@@ -1454,12 +1454,12 @@
 /turf/simulated/floor/engine,
 /area/space)
 "eL" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /obj/securearea,
 /turf/simulated/floor/airless/plating,
 /area/space)
 "eM" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /obj/securearea,
 /turf/simulated/floor/plating,
 /area/space)
@@ -1876,7 +1876,7 @@
 /turf/simulated/floor,
 /area/space)
 "fY" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor,
 /area/space)
 "fZ" = (
@@ -2232,7 +2232,7 @@
 /turf/simulated/floor/plating/airless/asteroid/dark,
 /area/space)
 "hc" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/engine,
 /area/space)
 "hd" = (
@@ -2568,7 +2568,7 @@
 /turf/simulated/floor/airless/engine/caution/south,
 /area/space)
 "hY" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/space,
 /area/space)
 "hZ" = (
@@ -6988,7 +6988,7 @@
 /turf/simulated/floor/shuttlebay,
 /area/space)
 "tV" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/shuttle,
 /area/space)
 "tW" = (
@@ -7557,7 +7557,7 @@
 /turf/simulated/floor/grey,
 /area/space)
 "vu" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/grey,
 /area/space)
 "vv" = (

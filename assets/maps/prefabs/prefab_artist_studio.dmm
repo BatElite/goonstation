@@ -186,7 +186,7 @@
 /turf/simulated/floor/darkblue,
 /area/prefab/art_workshop)
 "ry" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/prefab/art_workshop)
 "sy" = (
@@ -477,7 +477,7 @@
 /turf/simulated/floor/longtile/blue,
 /area/prefab/art_workshop)
 "Sn" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/longtile/blue,
 /area/prefab/art_workshop)
 "Sw" = (

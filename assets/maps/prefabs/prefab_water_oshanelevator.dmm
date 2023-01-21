@@ -8,7 +8,7 @@
 	},
 /area/shuttle/sea_elevator)
 "c" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/space/fluid,
 /area/shuttle/sea_elevator)
 "d" = (
@@ -94,7 +94,7 @@
 	},
 /area/shuttle/sea_elevator)
 "t" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/simulated/floor/black/grime,
 /area/shuttle/sea_elevator)
 "u" = (

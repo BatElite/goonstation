@@ -143,7 +143,7 @@
 /turf/simulated/floor,
 /area/prefab/tunnelsnake)
 "aC" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/prefab/tunnelsnake)
 "aE" = (
@@ -585,7 +585,7 @@
 /turf/simulated/floor,
 /area/prefab/tunnelsnake)
 "cv" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/simulated/floor/plating,
 /area/prefab/tunnelsnake)
 "cw" = (

@@ -840,7 +840,7 @@
 /turf/unsimulated/floor/void,
 /area/shuttle/escape/centcom)
 "bn" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "bo" = (
@@ -1109,11 +1109,11 @@
 	pixel_y = 0;
 	transform = list(2,0,16,0,2,16)
 	},
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating/airless,
 /area/shuttle/escape/centcom)
 "bN" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating/airless,
 /area/shuttle/escape/centcom)
 "bO" = (
@@ -1193,7 +1193,7 @@
 	pixel_y = 0;
 	transform = list(2,0,16,0,2,16)
 	},
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating/airless,
 /area/shuttle/escape/centcom)
 "ca" = (
@@ -1267,7 +1267,7 @@
 /area/shuttle/escape/centcom)
 "cm" = (
 /obj/decal/cleanable/dirt/jen,
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/plating,
 /area/shuttle/escape/centcom)
 "cn" = (
@@ -1296,7 +1296,7 @@
 	pixel_y = 0;
 	transform = list(2,0,16,0,2,16)
 	},
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating/airless,
 /area/shuttle/escape/centcom)
 "cp" = (
@@ -2061,11 +2061,11 @@
 	pixel_y = 0;
 	transform = list(2,0,16,0,2,16)
 	},
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/space,
 /area/shuttle/escape/centcom)
 "dT" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/space,
 /area/shuttle/escape/centcom)
 "dU" = (

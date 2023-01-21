@@ -54,14 +54,14 @@
 /turf/space,
 /area/noGenerate)
 "aj" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/diner/motel/observatory)
 "ak" = (
 /turf/simulated/wall/auto/reinforced/old,
 /area/diner/arcade)
 "al" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/diner/arcade)
 "am" = (
@@ -473,7 +473,7 @@
 /turf/simulated/floor/carpet/grime,
 /area/diner/motel)
 "bL" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/diner/motel)
 "bM" = (
@@ -829,11 +829,11 @@
 /turf/simulated/wall/auto/reinforced/old,
 /area/diner/hangar)
 "cO" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/diner/hangar)
 "cP" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor{
 	icon_state = "hive"
 	},
@@ -873,7 +873,7 @@
 	},
 /area/traders/bee_trader)
 "cU" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/shuttlebay,
 /area/traders/bee_trader)
 "cV" = (
@@ -1116,7 +1116,7 @@
 "dK" = (
 /obj/decal/cleanable/blood,
 /obj/item/c_tube,
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/shuttlebay,
 /area/traders/bee_trader)
 "dL" = (
@@ -1160,7 +1160,7 @@
 /turf/simulated/floor/carpet/blue/fancy/edge/east,
 /area/diner/hallway)
 "dS" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/diner/hallway/docking)
 "dT" = (
@@ -1558,7 +1558,7 @@
 /turf/simulated/wall/auto/reinforced/old,
 /area/diner/hallway)
 "eZ" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/diner/hallway)
 "fa" = (
@@ -2182,7 +2182,7 @@
 /turf/simulated/floor/arrival,
 /area/diner/hallway)
 "gK" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/arrival,
 /area/diner/hallway)
 "gL" = (
@@ -3128,35 +3128,35 @@
 /area/diner/bathroom)
 "iR" = (
 /obj/decal/poster/wallsign/stencil/right/b,
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/diner/hallway)
 "iS" = (
 /obj/decal/poster/wallsign/stencil/right/t,
 /obj/decal/poster/wallsign/stencil/left/u,
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/diner/hallway)
 "iT" = (
 /obj/decal/poster/wallsign/stencil/right/e,
 /obj/decal/poster/wallsign/stencil/left/t,
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/diner/hallway)
 "iU" = (
 /obj/decal/poster/wallsign/stencil/left/s,
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/diner/hallway)
 "iV" = (
 /obj/decal/poster/wallsign/stencil/right/o,
 /obj/decal/poster/wallsign/stencil/left/m,
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/diner/hallway)
 "iW" = (
 /obj/decal/poster/wallsign/stencil/left/l,
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/diner/hallway)
 "iX" = (
@@ -3522,7 +3522,7 @@
 /turf/simulated/floor/grime,
 /area/diner/motel/pool)
 "jJ" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/diner/motel/pool)
 "jK" = (
@@ -3546,7 +3546,7 @@
 	},
 /area/diner/jucer_trader)
 "jO" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/diner/jucer_trader)
 "jP" = (
@@ -3958,7 +3958,7 @@
 /area/diner/dining)
 "kX" = (
 /obj/decal/poster/wallsign/bar,
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/diner/dining)
 "kY" = (
@@ -4119,7 +4119,7 @@
 /obj/cable{
 	icon_state = "4-8"
 	},
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/diner/hangar)
 "lu" = (
@@ -4815,7 +4815,7 @@
 /turf/simulated/floor/caution/west,
 /area/diner/hangar)
 "nc" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/diner/dining)
 "nd" = (
@@ -5050,7 +5050,7 @@
 /obj/cable{
 	icon_state = "0-2"
 	},
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/diner/dining)
 "pu" = (
@@ -5358,7 +5358,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/diner/dining)
 "tP" = (
@@ -5399,7 +5399,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/diner/dining)
 "uk" = (
@@ -5424,7 +5424,7 @@
 	icon_state = "0-8"
 	},
 /obj/cable,
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/simulated/floor/plating,
 /area/diner/dining)
 "us" = (

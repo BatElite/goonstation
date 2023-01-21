@@ -1697,7 +1697,7 @@
 	},
 /area/centcom)
 "cJ" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/unsimulated/floor/shiny,
 /area/shuttle/escape/centcom)
 "cK" = (
@@ -1782,7 +1782,7 @@
 	},
 /area/centcom)
 "cT" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/wood/three,
 /area/shuttle/escape/centcom)
 "cU" = (
@@ -2324,7 +2324,7 @@
 /turf/unsimulated/floor/white,
 /area/shuttle/escape/centcom)
 "eg" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/unsimulated/floor/white,
 /area/shuttle/escape/centcom)
 "eh" = (
@@ -2376,7 +2376,7 @@
 /turf/unsimulated/floor/shuttlebay,
 /area/centcom/outside)
 "el" = (
-/obj/wingrille_spawn/auto,
+/obj/wingrille_spawn/auto/reinforced,
 /turf/unsimulated/floor/shuttle{
 	icon_state = "floor2"
 	},

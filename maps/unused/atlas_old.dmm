@@ -96,7 +96,7 @@
 /turf/simulated/floor/plating,
 /area/station/chapel/sanctuary)
 "ar" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/simulated/floor/plating,
 /area/station/security/brig)
 "as" = (
@@ -129,7 +129,7 @@
 /turf/space,
 /area/space)
 "aw" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/simulated/floor/plating,
 /area/station/hallway/primary/west)
 "ax" = (
@@ -2430,7 +2430,7 @@
 	},
 /area/station/bridge/captain)
 "gQ" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /obj/disposalpipe/segment/brig,
 /turf/simulated/floor/plating,
 /area/station/security/brig)
@@ -3758,7 +3758,7 @@
 	dir = 4;
 	id = "engine_room"
 	},
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/simulated/floor/plating,
 /area/station/engine/engineering)
 "jV" = (
@@ -4836,7 +4836,7 @@
 	dir = 4;
 	id = "burn_chamber"
 	},
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/simulated/floor/engine,
 /area/station/engine/combustion_chamber)
 "ms" = (
@@ -9992,7 +9992,7 @@
 	dir = 4;
 	id = "burn_chamber"
 	},
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/simulated/floor/engine,
 /area/station/engine/combustion_chamber)
 "yj" = (
@@ -11880,7 +11880,7 @@
 /turf/simulated/floor/plating,
 /area/station/science/storage)
 "BQ" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/simulated/floor/white,
 /area/station/science/lab)
 "BR" = (
@@ -14375,7 +14375,7 @@
 /turf/simulated/floor/plating/random,
 /area/listeningpost/power)
 "HI" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/simulated/floor/airless/circuit/red,
 /area/listeningpost/power)
 "HJ" = (
@@ -14468,7 +14468,7 @@
 	},
 /area/listeningpost)
 "HU" = (
-/obj/wingrille_spawn/auto/crystal,
+/obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/simulated/floor/plating/random,
 /area/listeningpost)
 "HV" = (
