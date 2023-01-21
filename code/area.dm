@@ -332,6 +332,8 @@ ABSTRACT_TYPE(/area) // don't instantiate this directly dummies, use /area/space
 		waking_critters = 1
 		if(isnull(enteringM))
 			enteringM = usr
+		if(isnull(enteringM)) //Hey fuckers, usr isn't a foolproof backup you rubes
+			return //(A critter being woken by a projectile for instance)
 		for(var/obj/critter/C in src.registered_critters)
 			C.wake_from_hibernation()
 		if(enteringM?.client)
