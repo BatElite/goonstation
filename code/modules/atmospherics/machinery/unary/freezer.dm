@@ -5,6 +5,7 @@
 	density = 1
 	anchored = 1.0
 	current_heat_capacity = 1000
+	mats = list("MET-1" = 8, "CON-1" = 15) //IDK it's something
 
 	north
 		dir = NORTH
