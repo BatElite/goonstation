@@ -55,7 +55,7 @@ ABSTRACT_TYPE(/obj/item/atmospherics/pipeframe)
 	//The amount of connections this frame/assembly needs, gets overridden when a module is added
 	var/expected_connections = 2
 	//Direction does not matter for placing this thing
-	var/direction_ambivalent = TRUE
+	var/direction_matters = FALSE
 	//Gets slapped into the orientation HTML, basically "how the fuck do I place this"
 	var/orientation_instructions = "Just slap it down IDK"
 	w_class = W_CLASS_SMALL //pipebombs are normal size but I don't wanna have these be bulky.
@@ -157,7 +157,7 @@ ABSTRACT_TYPE(/obj/item/atmospherics/pipeframe)
 /obj/item/atmospherics/pipeframe/proc/validate_settings(orientation, direction, no_of_connections, mob/user)
 	if (no_of_connections != expected_connections)
 		return 0
-	if (!(orientation & direction) && !direction_ambivalent) //Direction isn't included in orientation (AKA settings are nonsense)
+	if (!(orientation & direction) && direction_matters) //Direction isn't included in orientation (AKA settings are nonsense)
 		boutput(user, "<span class='alert'>Your chosen direction isn't one of the sides the component connect to!</span>")
 		return 0 //Would every single machine type necessarily care? No, but the buildy procs assume direction is good
 	return 1
@@ -188,7 +188,7 @@ ABSTRACT_TYPE(/obj/item/atmospherics/pipeframe)
 	icon_state = "junction_to-weld"
 	frame_makes = /obj/machinery/atmospherics/pipe/simple/junction
 	icon_welded = "frame_junction"
-	direction_ambivalent = FALSE
+	direction_matters = TRUE
 	orientation_instructions = "Straight pieces only, set direction to the side the exchanger end should be on."
 
 	pre_welded
@@ -211,7 +211,7 @@ ABSTRACT_TYPE(/obj/item/atmospherics/pipeframe)
 	var/obj/item/atmospherics/module/gizmo =  null
 	//IDK what all these variants are but this is what I found used on atlas
 	frame_makes = /obj/machinery/atmospherics/pipe/simple/insulated
-	direction_ambivalent = TRUE //unless overridden
+	direction_matters = FALSE //unless overridden
 	orientation_instructions = "Regular pipes can be placed in any 2 or 3 connection orientation, the latter making manifolds. Direction does not matter."
 
 	disposing()
@@ -288,7 +288,7 @@ ABSTRACT_TYPE(/obj/item/atmospherics/pipeframe)
 
 			to_b_combined.expected_connections = to_b_combined.gizmo.expected_connections
 			to_b_combined.name = "[to_b_combined.gizmo.assembly_prefix] pipe assembly"
-			to_b_combined.direction_ambivalent = to_b_combined.gizmo.cares_about_direction
+			to_b_combined.direction_matters = to_b_combined.gizmo.cares_about_direction
 			to_b_combined.orientation_instructions = to_b_combined.gizmo.module_instructions
 
 			var/image/scrumpy = image(to_b_combined.gizmo.icon, to_b_combined.gizmo.icon_state)
@@ -343,7 +343,7 @@ ABSTRACT_TYPE(/obj/item/atmospherics/pipeframe)
 	var/machine_path = /obj/machinery/atmospherics/valve
 	///How many pipe connections come out of this thing, used for making sure that the player has a sensible configuration.
 	var/expected_connections = 2
-	///These override orientation_instructions and direction_ambivalent on the pipe frame
+	///These override orientation_instructions and direction_matters on the pipe frame
 	var/module_instructions = "Someone didn't write instructions for me :)"
 	var/cares_about_direction = TRUE
 
