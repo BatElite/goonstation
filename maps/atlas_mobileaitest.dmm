@@ -2104,7 +2104,10 @@
 /turf/simulated/wall/auto/myotis,
 /area/station/mining/staff_room)
 "fo" = (
-/obj/item/atmospherics/pipeframe/regular,
+/obj/item/atmospherics/pipeframe/regular{
+	icon_state = "Pipe_Hollow";
+	welded = 1
+	},
 /turf/simulated/floor/plating,
 /area/space)
 "fr" = (
@@ -14461,9 +14464,6 @@
 /turf/simulated/floor/orangeblack,
 /area/station/hangar/arrivals)
 "IN" = (
-/obj/machinery/atmospherics/unary/furnace_connector{
-	dir = 8
-	},
 /obj/machinery/power/furnace/thermo,
 /turf/simulated/floor/plating,
 /area/space)
@@ -17015,6 +17015,11 @@
 /obj/rail,
 /turf/simulated/floor,
 /area/station/hallway/primary/north)
+"Pr" = (
+/obj/machinery/rkit,
+/obj/item/electronics/scanner,
+/turf/simulated/floor/plating,
+/area/space)
 "Ps" = (
 /obj/lattice,
 /turf/space,
@@ -17666,11 +17671,6 @@
 /obj/machinery/power/data_terminal,
 /turf/simulated/floor/black,
 /area/station/storage/tech)
-"QM" = (
-/obj/machinery/light/small/floor,
-/obj/item/atmospherics/pipeframe/regular,
-/turf/simulated/floor/plating,
-/area/space)
 "QO" = (
 /obj/disposalpipe/segment,
 /obj/rail{
@@ -18071,6 +18071,10 @@
 /obj/item/device/light/flashlight,
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/southeast)
+"RQ" = (
+/obj/machinery/atmospherics/unary/cold_sink/freezer,
+/turf/simulated/floor/plating,
+/area/space)
 "RR" = (
 /obj/machinery/portable_atmospherics/pump,
 /turf/simulated/floor,
@@ -18714,6 +18718,7 @@
 /obj/item/device/analyzer/atmospheric/upgraded,
 /obj/item/device/analyzer/atmospheric/upgraded,
 /obj/item/wrench,
+/obj/item/clothing/head/helmet/space,
 /turf/simulated/floor/plating,
 /area/space)
 "Ty" = (
@@ -19106,7 +19111,6 @@
 /area/station/engine/core)
 "Ux" = (
 /obj/storage/closet/welding_supply,
-/obj/item/clothing/head/helmet/space,
 /turf/simulated/floor/plating,
 /area/space)
 "Uy" = (
@@ -19148,6 +19152,12 @@
 /obj/wingrille_spawn/auto/crystal/reinforced,
 /turf/simulated/floor/plating,
 /area/station/bridge/united_command)
+"UC" = (
+/obj/machinery/manufacturer/general{
+	free_resource_amt = 500
+	},
+/turf/simulated/floor/plating,
+/area/space)
 "UD" = (
 /obj/machinery/power/terminal,
 /obj/cable,
@@ -19570,7 +19580,10 @@
 /turf/simulated/floor,
 /area/station/hangar/main)
 "VJ" = (
-/obj/item/atmospherics/pipeframe/regular,
+/obj/item/atmospherics/pipeframe/regular{
+	icon_state = "Pipe_Hollow";
+	welded = 1
+	},
 /obj/machinery/light/small/floor,
 /turf/simulated/floor/plating,
 /area/space)
@@ -72193,7 +72206,7 @@ aa
 dr
 Ux
 fo
-QM
+VJ
 fo
 fo
 fo
@@ -73401,7 +73414,7 @@ aa
 Pb
 fg
 fo
-QM
+VJ
 fo
 fo
 fo
@@ -77627,17 +77640,17 @@ aa
 aa
 aa
 dr
-Jl
-Jl
-Jl
-Jl
+UC
+Pr
+IN
+RQ
 vN
 Jl
 IN
-IN
+Jl
 vN
-IN
-IN
+Jl
+Jl
 Jl
 Ti
 Pb
