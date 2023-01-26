@@ -1168,7 +1168,8 @@ obj/machinery/atmospherics/pipe
 			west
 				dir = WEST
 
-		New()
+		New(loc, specify_direction = null)
+			..()
 			switch(dir)
 				if(NORTH)
 					initialize_directions = EAST|SOUTH|WEST
@@ -1178,8 +1179,6 @@ obj/machinery/atmospherics/pipe
 					initialize_directions = SOUTH|WEST|NORTH
 				if(WEST)
 					initialize_directions = NORTH|EAST|SOUTH
-
-			..()
 
 		hide(var/i)
 			if(level == 1 && istype(loc, /turf/simulated))
@@ -1255,8 +1254,8 @@ obj/machinery/atmospherics/pipe
 
 				icon_state = "manifold_[connected]_[unconnected]"
 
-				if(!connected)
-					qdel(src)
+				//if(!connected) excuse me what the hell
+				//	qdel(src)
 
 			return
 

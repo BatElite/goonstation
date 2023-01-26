@@ -39,6 +39,8 @@ obj/machinery/atmospherics/mixer
 	var/frequency
 
 	update_icon()
+		icon_state = "intact[flipped?"_flipped":""]_[on?"on":"off"]"
+		/* TODO revive this when buildable atmos works more
 		if(node_in1&&node_in2&&node_out)
 			icon_state = "intact[flipped?"_flipped":""]_[on?"on":"off"]"
 		else
@@ -51,7 +53,7 @@ obj/machinery/atmospherics/mixer
 
 			on = 0
 
-		return
+		return*/
 
 	network_disposing(datum/pipe_network/reference)
 		if (network_in1 == reference)
