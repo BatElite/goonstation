@@ -550,50 +550,54 @@
 /datum/emote/miranda/enact(mob/user, voluntary = 0, param)
 	if (user.mind && (user.mind.assigned_role in list("Captain", "Head of Personnel", "Head of Security", "Security Officer", "Security Assistant", "Detective", "Vice Officer", "Regional Director", "Inspector")))
 		user.recite_miranda()
+	return list(,,)
 
-/datum/emote/suicide //Now with 100% less pedantry 8)
+/datum/emote/suicide
 /datum/emote/suicide/enact(mob/user, voluntary = 0, param)
-	user.suicide()
-	return list(null, null, null)
+	user.do_suicide()
+	return list(,,)
 
-/datum/emote/help //TODO: figure out how to listtarget and listbasic well, maybe just have one emote for the whole deal?
-/datum/emote/help/enact(mob/user, voluntary = 0, param)
-	user.show_text("To use emotes, simply enter 'me (emote)' in the input bar. Certain emotes can be targeted at other characters - to do this, enter 'me (emote) (name of character)' without the brackets.")
-	user.show_text("For a list of all emotes, use 'me list'. For a list of basic emotes, use 'me listbasic'. For a list of emotes that can be targeted, use 'me listtarget'.")
-	return list(null, null, null)
-
-/datum/emote/custom //This one asks input
+/datum/emote/custom
 /datum/emote/custom/enact(mob/user, voluntary = 0, param)
-	if (!user.client) return
 	if (IS_TWITCH_CONTROLLED(user)) return
+	var/m_type
 	var/input = sanitize(html_encode(input("Choose an emote to display.")))
 	var/input2 = input("Is this a visible or audible emote?") in list("Visible","Audible")
-	var/m_type
-	if (input2 == "Visible") m_type = 1
-	else if (input2 == "Audible") m_type = 2
+	if (input2 == "Visible") m_type = MESSAGE_VISIBLE
+	else if (input2 == "Audible") m_type = MESSAGE_AUDIBLE
 	else
 		alert("Unable to use this emote, must be either audible or visible.")
 		return
 	phrase_log.log_phrase("emote", input)
-	return list("<B>[user]</B> [input]", "<I>[regex({"(&#34;.*?&#34;)"}, "g").Replace(input, "</i>$1<i>")]</I>", m_type)
-	//custom = copytext(input, 1, 10)
+	return list("<B>[user]</B> [input]", "<I>[input]</I>", m_type, copytext(input, 1, 10))
 
-/datum/emote/me //these use param instead
-	var/m_type = MESSAGE_VISIBLE
-	customv //I think this means custom visible
-		m_type = MESSAGE_VISIBLE
-		enact(mob/user, voluntary = 0, param) // *me just returns without param but these two ask
-			if (!param)
-				param = input("Choose an emote to display.")
-			. = ..()
-
-		customh //custom hearing?
-			m_type = MESSAGE_AUDIBLE
-
-/datum/emote/me/enact(mob/user, voluntary = 0, param)
+/datum/emote/customv //custom visible
+/datum/emote/customv/enact(mob/user, voluntary = 0, param)
 	if (IS_TWITCH_CONTROLLED(user)) return
-	if(!param) return //also catches failing to input an emote for the subtypes
+	if (!param)
+		param = input("Choose an emote to display.")
+		if(!param) return
+
 	param = sanitize(html_encode(param))
 	phrase_log.log_phrase("emote", param)
-	return list("<b>[user]</b> [param]", "<I>[regex({"(&#34;.*?&#34;)"}, "g").Replace(param, "</i>$1<i>")]</I>", m_type)
-	//custom = copytext(param, 1, 10) //"used for chat groupings" - I don't know what chat groupings are but I hope I can just ignore this one
+	return list("<b>[user]</b> [param]","<I>[param]</I>",MESSAGE_VISIBLE,copytext(param, 1, 10))
+
+/datum/emote/customh //custom heard
+/datum/emote/customh/enact(mob/user, voluntary = 0, param)
+	if (IS_TWITCH_CONTROLLED(user)) return
+	if (!param)
+		param = input("Choose an emote to display.")
+		if(!param) return
+
+	param = sanitize(html_encode(param))
+	phrase_log.log_phrase("emote", param)
+	return list("<b>[user]</b> [param]","<I>[param]</I>",MESSAGE_AUDIBLE,copytext(param, 1, 10))
+
+/datum/emote/me //AFAIK this exists for me_verb
+/datum/emote/me/enact(mob/user, voluntary = 0, param)
+	if (IS_TWITCH_CONTROLLED(user)) return
+	if (!param)
+		return
+	param = sanitize(html_encode(param))
+	phrase_log.log_phrase("emote", param)
+	return list("<b>[user]</b> [param]","<I>[param]</I>",MESSAGE_VISIBLE,copytext(param, 1, 10))

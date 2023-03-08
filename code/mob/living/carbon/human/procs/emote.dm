@@ -47,6 +47,7 @@
 				maptext_out = mutantrace_emote_stuff[2]
 
 	if (!message)
+		//Much of this ideally gets turned into a separate proc
 		var/what_to_do = human_emotes.Find(lowertext(act))
 		var/list/what_have_we_done = null
 		if (what_to_do)
@@ -58,34 +59,12 @@
 		if (islist(what_have_we_done))
 			message = what_have_we_done[1]
 			maptext_out = what_have_we_done[2]
-			m_type = what_have_we_done[3]
+			m_type = what_have_we_done[3] //visible or audible emote
+			if (length(what_have_we_done) > 3) //(I'm not changing the returns on ~130 emotes that don't even fucking use it)
+				custom = what_have_we_done[4] //emote grouping 4 custom emotes
 		else
 			src.show_text("Unusable emote '[act]'. 'Me help' for a list.", "blue")
 			return
-		//switch (lowertext(act))
-
-
-			// These still need datumising/looking at but to my count I datumised 129 emotes already (not counting doubles or the bullshit that the middle finger ones are up to)
-			// you can sort these out probably
-			/*
-			if ("help") //This one has a datum but we need a better solution than these lists
-				src.show_text("To use emotes, simply enter 'me (emote)' in the input bar. Certain emotes can be targeted at other characters - to do this, enter 'me (emote) (name of character)' without the brackets.")
-				src.show_text("For a list of all emotes, use 'me list'. For a list of basic emotes, use 'me listbasic'. For a list of emotes that can be targeted, use 'me listtarget'.")
-
-			if ("listbasic")
-				src.show_text("smile, grin, smirk, frown, scowl, grimace, sulk, pout, nod, blink, drool, shrug, tremble, quiver, shiver, shudder, shake, \
-				think, ponder, clap, wave, salute, flap, aflap, laugh, chuckle, giggle, chortle, guffaw, cough, hiccup, sigh, mumble, grumble, groan, moan, sneeze, \
-				wheeze, sniff, snore, whimper, yawn, choke, gasp, weep, sob, wail, whine, gurgle, gargle, blush, flinch, blink_r, eyebrow, shakehead, shakebutt, \
-				pale, flipout, rage, shame, raisehand, crackknuckles, stretch, rude, cry, retch, raspberry, tantrum, gesticulate, wgesticulate, smug, \
-				nosepick, flex, facepalm, panic, snap, airquote, twitch, twitch_v, faint, deathgasp, signal, wink, collapse, trip, dance, scream, \
-				burp, fart, monologue, contemplate, custom")
-
-			if ("listtarget")
-				src.show_text("salute, bow, hug, wave, glare, stare, look, nod, flipoff, doubleflip, shakefist, handshake, daps, slap, boggle, highfive, fingerguns")
-			*/
-
-
-	//showmessage:
 
 	//copy paste lol
 
