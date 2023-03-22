@@ -1388,16 +1388,12 @@ TYPEINFO_NEW(/obj/table/glass)
 	name = "tool cart"
 	desc = "A cart filled with tools, so you don't have to lug them in yourself. You'll return them, right?"
 	icon = 'icons/obj/furniture/single_tables.dmi' //All the furniture dmis are set up for autotiling and this has no place anywhere, but a tool cart is *sorta* a table for industrial purposes
-	icon_state = "tool_cart-B"
+	icon_state = "tool_cart"
 	mechanics_type_override = /obj/table/tool_cart //In case someone scans a prepared cart
 	has_storage = TRUE
 	has_brakes = TRUE
 	anchored = FALSE
 	p_class = 1.5 //easier to pull
-
-	New(loc, obj/a_drawer)
-		icon_state = pick("tool_cart-A", "tool_cart-B")
-		..()
 
 /obj/table/tool_cart/prepared //typepath following belt precedent
 	New(loc, obj/a_drawer)
