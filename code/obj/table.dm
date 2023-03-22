@@ -27,6 +27,10 @@ TYPEINFO_NEW(/obj/table)
 	var/slaps = 0
 	var/hulk_immune = FALSE
 
+	///How much will move with this table until stuff starts falling off (inherited from surgery trays when merging those in)
+	var/max_to_move = 10
+	///Can be (un)anchored at will
+	var/has_brakes = FALSE
 
 	New(loc, obj/a_drawer)
 		..()
@@ -39,6 +43,21 @@ TYPEINFO_NEW(/obj/table)
 		else if (a_drawer)
 			a_drawer.set_loc(get_turf(src))
 
+		//Surgery tray copy paste
+		if (!islist(src.attached_objs))
+			src.attached_objs = list()
+		if (!ticker) // pre-roundstart, this is a thing made on the map so we want to grab whatever's been placed on top of us automatically
+			SPAWN(0)
+				var/stuff_added = 0
+				for (var/obj/item/I in src.loc.contents)
+					if (I.anchored || I.layer < src.layer)
+						continue
+					else
+						attach(I)
+						stuff_added++
+						if (stuff_added >= src.max_to_move)
+							break
+		//copy paste end
 		#ifdef XMAS
 		if(src.z == Z_LEVEL_STATION && current_state <= GAME_STATE_PREGAME)
 			xmasify()
@@ -149,6 +168,19 @@ TYPEINFO_NEW(/obj/table)
 			victim.force_laydown_standup()
 		src.visible_message("<span class='alert'>[user] puts [victim] on \the [src].</span>")
 
+	proc/attach(obj/item/I as obj)
+		if(I.anchored) return //don't grab anything that is anchored thanx
+		else if (istype(I, /obj/item/mechanics) || istype(I, /obj/item/storage/mechanics))
+			return
+		src.attached_objs.Add(I) // attach the item to the table
+		I.glide_size = 0 // required for smooth movement with the tray
+		// register for pickup, register for being pulled off the table, register for item deletion while attached to table
+		SPAWN(0)
+			RegisterSignal(I, list(COMSIG_ITEM_PICKUP, COMSIG_MOVABLE_MOVED, COMSIG_PARENT_PRE_DISPOSING), .proc/detach)
+
+	proc/detach(obj/item/I as obj) //remove from the attached items list and deregister signals
+		src.attached_objs.Remove(I)
+		UnregisterSignal(I, list(COMSIG_ITEM_PICKUP, COMSIG_MOVABLE_MOVED, COMSIG_PARENT_PRE_DISPOSING))
 
 	custom_suicide = 1
 	suicide(var/mob/user as mob) //if this is TOO ridiculous just remove it idc
@@ -198,6 +230,9 @@ TYPEINFO_NEW(/obj/table)
 			for (var/obj/item/I in OL)
 				Ar.sims_score -= 4
 			Ar.sims_score = max(Ar.sims_score, 0)
+
+		for (var/obj/item/I in src.attached_objs)
+			detach(I)
 		..()
 
 	blob_act(var/power)
@@ -281,7 +316,12 @@ TYPEINFO_NEW(/obj/table)
 		else if (istype(W, /obj/item/cloth/towel))
 			user.visible_message("<span class='notice'>[user] wipes down [src] with [W].</span>")
 
+		else if (istype(W, /obj/item/mechanics)) //IDK apparently folks aren't supposed to put mech stuff on surgery trays?
+			user.show_text("[W] slips off [src].")
+			return ..()
+
 		else if (istype(W) && src.place_on(W, user, params))
+			src.attach(W)
 			return
 
 		else
@@ -318,6 +358,13 @@ TYPEINFO_NEW(/obj/table)
 						shake_camera(N, 4, 8, 0.5)
 			if(ismonkey(H))
 				actions.start(new /datum/action/bar/icon/railing_jump/table_jump(user, src), user)
+
+		if (src.has_brakes) //TODO - this overlaps with the drawer QOL
+			if (!anchored)
+				boutput(user, "You apply \the [name]'s brake.")
+			else
+				boutput(user, "You release \the [name]'s brake.")
+			anchored = !anchored
 		return
 
 	Cross(atom/movable/mover)
@@ -378,6 +425,31 @@ TYPEINFO_NEW(/obj/table)
 		if(!isalive(M))
 			return
 		actions.start(new /datum/action/bar/icon/railing_jump/table_jump(M, src), M)
+
+	//Another surgery tray copy paste
+	Move(NewLoc,Dir)
+		. = ..()
+		if (.)
+			if (prob(75) && src.has_brakes) //assuming that only tables with brakes have castors :V
+				playsound(src, "sound/misc/chair/office/scoot[rand(1,5)].ogg", 40, 1)
+
+			//if we're over the max amount a table can fit, have a chance to drop an item. Chance increases with items on tray
+			if (prob((length(src.attached_objs)-max_to_move)*1.1))
+				var/obj/item/falling = pick(src.attached_objs)
+				detach(falling)
+				// src.visible_message("[falling] falls off of [src]!")
+				var/target = get_offset_target_turf(get_turf(src), rand(5)-rand(5), rand(5)-rand(5))
+				falling.set_loc(get_turf(src))
+
+				falling?.throw_at(target, 1, 1)
+
+	hitby(atom/movable/AM, datum/thrown_thing/thr)
+		..()
+		if (isitem(AM))
+			src.visible_message("[AM] lands on [src]!")
+			AM.set_loc(get_turf(src))
+			attach(AM)
+	//Copy paste end
 
 //Replacement for monkies walking through tables: They now parkour over them.
 //Note: Max count of tables traversable is 2 more than the iteration limit
@@ -816,6 +888,8 @@ TYPEINFO_NEW(/obj/table/glass)
 	proc/smash()
 		if (src.glass_broken)
 			return
+		for (var/obj/item/I in src.attached_objs)
+			detach(I)
 		src.visible_message("<span class='alert'>\The [src] shatters!</span>")
 		playsound(src, "sound/impact_sounds/Glass_Shatter_[rand(1,3)].ogg", 100, 1)
 		if (src.material?.mat_id in list("gnesis", "gnesisglass"))
@@ -875,6 +949,11 @@ TYPEINFO_NEW(/obj/table/glass)
 		src.parts_type = src.reinforced ? /obj/item/furniture_parts/table/glass/reinforced : /obj/item/furniture_parts/table/glass
 		src.set_density(initial(src.density))
 		src.set_up()
+
+	attach(obj/item/I as obj)
+		if (src.glass_broken)
+			return
+		..()
 
 	ex_act(severity)
 		if (src.glass_broken)
@@ -1284,3 +1363,42 @@ TYPEINFO_NEW(/obj/table/glass)
 		playsound(the_table, "sound/items/Deconstruct.ogg", 50, 1)
 		owner.visible_message("<span class='notice'>[owner] disassembles [the_table].</span>")
 		the_table.deconstruct()
+
+//Surgery trays (and kitchen islands) were near enough tables, let's just make them tables
+/obj/table/surgery_tray
+	name = "tray"
+	desc = "A lightweight tray with little wheels on it. You can place stuff on this and then move the stuff elsewhere! Isn't that totally amazing??"
+	icon = 'icons/obj/surgery.dmi'
+	icon_state = "tray"
+	anchored = FALSE
+	has_brakes = TRUE
+	p_class = 1.5
+	parts_type = /obj/item/furniture_parts/surgery_tray
+
+/obj/table/kitchen_island
+	name = "kitchen island"
+	desc = "a table! with WHEELS!"
+	icon = 'icons/obj/kitchen.dmi'
+	icon_state = "kitchen_island"
+	has_brakes = TRUE
+	anchored = FALSE
+	p_class = 1.5 //easier to pull
+
+/obj/table/tool_cart
+	name = "tool cart"
+	desc = "A cart filled with tools, so you don't have to lug them in yourself. You'll return them, right?"
+	icon = 'icons/obj/furniture/single_tables.dmi' //All the furniture dmis are set up for autotiling and this has no place anywhere, but a tool cart is *sorta* a table for industrial purposes
+	icon_state = "tool_cart-B"
+	mechanics_type_override = /obj/table/tool_cart //In case someone scans a prepared cart
+	has_storage = TRUE
+	has_brakes = TRUE
+	anchored = FALSE
+	p_class = 1.5 //easier to pull
+
+	New(loc, obj/a_drawer)
+		icon_state = pick("tool_cart-A", "tool_cart-B")
+		..()
+
+/obj/table/tool_cart/prepared //typepath following belt precedent
+	New(loc, obj/a_drawer)
+		..(loc, new /obj/item/storage/desk_drawer/prepared_tool_cart(src)) //Might be a hack, buuuut

@@ -23010,7 +23010,7 @@
 	pixel_x = 10;
 	pixel_y = 24
 	},
-/obj/surgery_tray,
+/obj/table/surgery_tray,
 /turf/simulated/floor/blue,
 /area/station/medical/robotics)
 "gve" = (
@@ -52861,7 +52861,7 @@
 /area/station/crew_quarters/bar)
 "ptw" = (
 /obj/disposalpipe/segment/transport,
-/obj/surgery_tray/kitchen_island,
+/obj/table/kitchen_island,
 /obj/noticeboard/persistent{
 	name = "Kitchen persistent notice board";
 	persistent_id = "kitchen"
@@ -78685,7 +78685,7 @@
 	},
 /area/station/hallway/primary/west)
 "wKj" = (
-/obj/surgery_tray,
+/obj/table/surgery_tray,
 /obj/item/circular_saw{
 	pixel_x = 3;
 	pixel_y = 12

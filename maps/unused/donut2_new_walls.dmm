@@ -16245,7 +16245,7 @@
 	},
 /area/station/medical/robotics)
 "aNf" = (
-/obj/surgery_tray,
+/obj/table/surgery_tray,
 /obj/item/circular_saw{
 	pixel_x = 3;
 	pixel_y = 12
@@ -17347,7 +17347,7 @@
 	frequency = 1445;
 	name = "Medical Intercom"
 	},
-/obj/surgery_tray,
+/obj/table/surgery_tray,
 /obj/item/circular_saw{
 	pixel_y = 8
 	},
@@ -18926,7 +18926,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/surgery_tray,
+/obj/table/surgery_tray,
 /obj/item/circular_saw{
 	pixel_y = 8
 	},

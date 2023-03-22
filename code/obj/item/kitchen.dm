@@ -1057,19 +1057,7 @@ TRAYS
 		else
 			..()
 
-//kitchen island
-/obj/surgery_tray/kitchen_island
-	name = "kitchen island"
-	desc = "a table! with WHEELS!"
-	icon = 'icons/obj/kitchen.dmi'
-	icon_state = "kitchen_island"
 
-//kitchen island
-/obj/surgery_tray/kitchen_island
-	name = "kitchen island"
-	desc = "a table! with wheels!"
-	icon = 'icons/obj/kitchen.dmi'
-	icon_state = "kitchen_island"
 
 /obj/item/fish/random // used by the Wholetuna Cordata plant
 	New()

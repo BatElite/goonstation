@@ -20400,7 +20400,7 @@
 	},
 /area/station/medical/robotics)
 "aPj" = (
-/obj/surgery_tray,
+/obj/table/surgery_tray,
 /obj/item/circular_saw{
 	pixel_y = 8
 	},
@@ -21872,7 +21872,7 @@
 	frequency = 1445;
 	name = "Medical Intercom"
 	},
-/obj/surgery_tray,
+/obj/table/surgery_tray,
 /obj/item/circular_saw{
 	pixel_y = 8
 	},
@@ -23677,7 +23677,7 @@
 	d1 = 4;
 	d2 = 8
 	},
-/obj/surgery_tray,
+/obj/table/surgery_tray,
 /obj/item/circular_saw{
 	pixel_y = 8
 	},
