@@ -295,7 +295,7 @@
 
 			ai_pickupstuff()
 			ai_obstacle(1)
-			ai_openclosets()
+			//ai_openclosets()
 			//ai_findtarget()
 			if (ai_calm_down && ai_aggressive && prob(20))
 				ai_aggressive = 0
@@ -500,7 +500,7 @@
 
 /mob/living/carbon/human/proc/ai_put_away_thing(obj/item/thing)
 
-
+//Just gonna fucking comment out a ton of this obnoxious shit
 /mob/living/carbon/human/proc/ai_do_hand_stuff()
 	if(prob(10))
 		src.in_throw_mode = !src.in_throw_mode
@@ -537,7 +537,7 @@
 		throw_equipped |= prob(80)
 
 	// pull things out of other things!
-	if(istype(src.equipped(), /obj/item/storage))
+	/*if(istype(src.equipped(), /obj/item/storage))
 		var/obj/item/storage/storage = src.equipped()
 		if(!length(storage.contents) && src.hand) // keep toolboxes in the right hand
 			throw_equipped |= prob(80)
@@ -548,10 +548,10 @@
 			storage.dropped(src)
 			storage.layer = initial(storage.layer)
 			taken.set_loc(storage.loc)
-			src.put_in_hand_or_drop(taken)
+			src.put_in_hand_or_drop(taken)*/
 
 	// wear clothes
-	if(src.hand && IS_NPC_CLOTHING(src.equipped()) && prob(80) && (!(src.equipped().flags & ONBELT) || prob(0.1)))
+	/*if(src.hand && IS_NPC_CLOTHING(src.equipped()) && prob(80) && (!(src.equipped().flags & ONBELT) || prob(0.1)))
 		src.hud.relay_click("invtoggle", src, list())
 		if(src.equipped())
 			throw_equipped |= prob(80)
@@ -569,10 +569,10 @@
 					if(!welder.welding)
 						welder.AttackSelf(src)
 				src.ai_attack_target(cigarette, src.equipped())
-				throw_equipped = 1
+				throw_equipped = 1*/
 
 	// eat, drink, splash!
-	if(istype(src.equipped(), /obj/item/reagent_containers))
+	/*if(istype(src.equipped(), /obj/item/reagent_containers))
 		var/poured = FALSE
 		if(istype(src.equipped(), /obj/item/reagent_containers/glass) || prob(20))
 			for(var/obj/item/reagent_containers/container in view(1, src))
@@ -589,7 +589,7 @@
 			src.u_equip(thing)
 			thing.set_loc(src.loc)
 			thing.dropped(src)
-			thing.layer = initial(thing.layer)
+			thing.layer = initial(thing.layer)*/
 
 	// draw
 	if(istype(src.equipped(), /obj/item/pen/crayon) && prob(20))
@@ -733,6 +733,7 @@
 
 	if(pickup && !src.l_hand)
 		src.swap_hand(1)
+		pickup.pickup(src) //goshdang monkeys bypassing item pickup sigs
 		if(pickup.equipped_in_slot)
 			src.u_equip(pickup)
 		if(src.put_in_hand_or_drop(pickup))

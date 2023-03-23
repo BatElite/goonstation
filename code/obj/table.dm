@@ -381,7 +381,8 @@ TYPEINFO_NEW(/obj/table)
 			return
 
 		if (ismob(O) && O == user)
-			boutput(user, "<span class='alert'>This table looks way too intimidating for you to scale on your own! You'll need a partner to help you over.</span>")
+			actions.start(new /datum/action/bar/icon/railing_jump/table_climb(user, src, FALSE), user)
+			//boutput(user, "<span class='alert'>This table looks way too intimidating for you to scale on your own! You'll need a partner to help you over.</span>")
 			return
 
 		if (!isitem(O))
@@ -491,6 +492,10 @@ TYPEINFO_NEW(/obj/table)
 			if (is_athletic_jump) // athletic jumps are more athletic!!
 				the_text = "[ownerMob] swooces right over [the_railing]!"
 			M.show_text("[the_text]", "red")
+
+/datum/action/bar/icon/railing_jump/table_climb
+	do_bump()
+		return FALSE
 
 /* ======================================== */
 /* ---------------------------------------- */
