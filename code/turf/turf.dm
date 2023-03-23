@@ -539,6 +539,13 @@ proc/generate_space_color()
 		icon_old = icon_state // a hack but OH WELL, leagues better than before
 		name_old = name
 
+	//experimental
+	#ifndef SIMPLELIGHT_STAR_LIGHT
+	var/init_LumR = initial(src.RL_LumR)
+	var/init_LumG = initial(src.RL_LumG)
+	var/init_LumB = initial(src.RL_LumB)
+	#endif
+
 	/*
 	if (!src.fullbright)
 		var/area/old_loc = src.loc
@@ -632,9 +639,18 @@ proc/generate_space_color()
 	new_turf.RL_MulOverlay = rlmuloverlay
 	new_turf.RL_AddOverlay = rladdoverlay
 
+	#ifndef SIMPLELIGHT_STAR_LIGHT //gotta adjust for the purple glow on space turfs
+	var/dif_LumR = init_LumR - initial(new_turf.RL_LumR)
+	var/dif_LumG = init_LumG - initial(new_turf.RL_LumG)
+	var/dif_LumB = init_LumB - initial(new_turf.RL_LumB)
+	new_turf.RL_LumR = rllumr - dif_LumR
+	new_turf.RL_LumG = rllumg - dif_LumG
+	new_turf.RL_LumB = rllumb - dif_LumB
+	#else //simplelights
 	new_turf.RL_LumR = rllumr
 	new_turf.RL_LumG = rllumg
 	new_turf.RL_LumB = rllumb
+	#endif
 	new_turf.RL_AddLumR = rladdlumr
 	new_turf.RL_AddLumG = rladdlumg
 	new_turf.RL_AddLumB = rladdlumb
@@ -659,6 +675,13 @@ proc/generate_space_color()
 	//This might not be necessary, i think its just the wall overlays that could be manually cleared here.
 	new_turf.RL_Cleanup() //Cleans up/mostly removes the lighting.
 	new_turf.RL_Init()
+
+	#ifndef SIMPLELIGHT_STAR_LIGHT
+	if (dif_LumR || dif_LumG || dif_LumB) //If there's a difference between the inbaked RL values of the two turf types, update tiles reliant on this turf
+		RL_UPDATE_LIGHT(get_step(new_turf, WEST))
+		RL_UPDATE_LIGHT(get_step(new_turf, SOUTH))
+		RL_UPDATE_LIGHT(get_step(new_turf, SOUTHWEST))
+	#endif
 
 	//The following is required for when turfs change opacity during replace. Otherwise nearby lights will not be applying to the correct set of tiles.
 	//example of failure : fire destorying a wall, the fire goes away, the area BEHIND the wall that used to be blocked gets strip()ped and now it leaves a blue glow (negative fire color)
