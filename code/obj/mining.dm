@@ -1131,7 +1131,7 @@ TYPEINFO_NEW(/turf/simulated/wall/auto/asteroid)
 		src.topnumber = pick(1,2,3)
 		src.orenumber = pick(1,2,3)
 		..()
-		worldgenCandidates += src
+		//worldgenCandidates += src
 		if(current_state <= GAME_STATE_PREGAME)
 			src.build_icon()
 
@@ -2210,6 +2210,7 @@ obj/item/clothing/gloves/concussive
 	var/cell = null
 	var/target = null
 	var/group = null
+	processing_tier = PROCESSING_HALF //~0.8s
 
 	New()
 		var/obj/item/cell/P = new/obj/item/cell(src)
