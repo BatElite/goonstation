@@ -823,14 +823,17 @@
 			else
 				src.set_dir(face_dir)
 
-			if (src.dir == NORTH)
-				src.layer = FLY_LAYER+1
-			else
-				src.layer = OBJ_LAYER
+			UpdateIcon()
 			if (buckled_guy)
 				var/mob/living/carbon/C = src.buckled_guy
 				C.set_dir(dir)
 		return
+
+	update_icon()
+		if (src.dir == NORTH)
+			src.layer = FLY_LAYER+1
+		else
+			src.layer = OBJ_LAYER
 
 	blue
 		icon_state = "chair-b"
@@ -944,18 +947,6 @@
 		src.overl.master = src
 		src.overl.set_dir(src.dir)
 */
-	rotate()
-		set src in oview(1)
-		set category = "Local"
-
-		src.set_dir(turn(src.dir, 90))
-//		src.overl.set_dir(src.dir)
-		src.UpdateIcon()
-		if (buckled_guy)
-			var/mob/living/carbon/C = src.buckled_guy
-			C.set_dir(dir)
-		return
-
 
 	update_icon()
 
