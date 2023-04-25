@@ -31,8 +31,10 @@
 /// 1atm, now in kPa
 #define ONE_ATMOSPHERE		101.325
 
-#define CELL_VOLUME 2500	//liters in a cell
-#define MOLES_CELLSTANDARD (ONE_ATMOSPHERE*CELL_VOLUME/(T20C*R_IDEAL_GAS_EQUATION))	//moles in a 2.5 m^3 cell at 101.325 Pa and 20 degC
+///liters in a cell (turf)
+#define CELL_VOLUME 2500
+///moles in a 2.5 m^3 cell at 101.325 Pa and 20 degC
+#define MOLES_CELLSTANDARD (ONE_ATMOSPHERE*CELL_VOLUME/(T20C*R_IDEAL_GAS_EQUATION))	//Unless someone changed the defines, this is nearly 104 moles
 
 #define O2STANDARD 0.21
 #define N2STANDARD 0.79
