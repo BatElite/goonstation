@@ -177,7 +177,6 @@ Shield and graivty well generators
 	opacity = 0
 	anchored = 0
 	pressure_resistance = 2*ONE_ATMOSPHERE
-	processing_tier = PROCESSING_HALF //~0.8s
 
 	var/active = 0
 	var/strength = 144		//strength is basically G if you know your newton law of gravitation
