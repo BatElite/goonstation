@@ -11,7 +11,7 @@
 
 #define MAX_LEN 5
 /obj/machinery/status_display
-	icon = 'icons/obj/status_display.dmi'
+	icon = 'icons/obj/machines/status_display.dmi'
 	icon_state = "frame"
 	name = "status display"
 	anchored = 1
@@ -63,7 +63,7 @@
 		MAKE_DEFAULT_RADIO_PACKET_COMPONENT(null, frequency)
 
 		if(glow_in_dark_screen)
-			src.screen_image = image('icons/obj/status_display.dmi', src.icon_state, -1)
+			src.screen_image = image('icons/obj/machines/status_display.dmi', src.icon_state, -1)
 			screen_image.plane = PLANE_LIGHTING
 			screen_image.blend_mode = BLEND_ADD
 			screen_image.layer = LIGHTING_LAYER_BASE
@@ -196,7 +196,7 @@
 			return
 		src.maptext = ""
 		picture_state = state
-		UpdateOverlays(image('icons/obj/status_display.dmi', icon_state=picture_state), "picture")
+		UpdateOverlays(image('icons/obj/machines/status_display.dmi', icon_state=picture_state), "picture")
 		UpdateOverlays(null, "overlay_image")
 		UpdateOverlays(crt_image, "crt")
 
@@ -207,8 +207,8 @@
 			return
 		src.maptext = ""
 		picture_state = state+overlay
-		UpdateOverlays(image('icons/obj/status_display.dmi', icon_state=state), "picture")
-		UpdateOverlays(image('icons/obj/status_display.dmi', icon_state=overlay), "overlay_image")
+		UpdateOverlays(image('icons/obj/machines/status_display.dmi', icon_state=state), "picture")
+		UpdateOverlays(image('icons/obj/machines/status_display.dmi', icon_state=overlay), "overlay_image")
 		UpdateOverlays(crt_image, "crt")
 
 	proc/update_display_lines(var/line1, var/line2, var/image/override = null)
@@ -275,7 +275,7 @@
 	mode = 6
 
 /obj/machinery/ai_status_display
-	icon = 'icons/obj/status_display.dmi'
+	icon = 'icons/obj/machines/status_display.dmi'
 	icon_state = "ai_frame"
 	name = "\improper AI display"
 	anchored = 1
@@ -300,9 +300,9 @@
 
 	New()
 		..()
-		face_image = image('icons/obj/status_display.dmi', icon_state = "", layer = FLOAT_LAYER)
-		glow_image = image('icons/obj/status_display.dmi', icon_state = "ai_glow", layer = FLOAT_LAYER - 1)
-		back_image = image('icons/obj/status_display.dmi', icon_state = "ai_white", layer = FLOAT_LAYER - 2)
+		face_image = image('icons/obj/machines/status_display.dmi', icon_state = "", layer = FLOAT_LAYER)
+		glow_image = image('icons/obj/machines/status_display.dmi', icon_state = "ai_glow", layer = FLOAT_LAYER - 1)
+		back_image = image('icons/obj/machines/status_display.dmi', icon_state = "ai_white", layer = FLOAT_LAYER - 2)
 
 
 		if(pixel_y == 0 && pixel_x == 0)

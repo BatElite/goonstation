@@ -1,7 +1,7 @@
 /obj/machinery/atmospherics/unary/cryo_cell
 	name = "cryogenic healing pod"
 	desc = "A glass tube full of a strange fluid that uses supercooled oxygen and cryoxadone to rapidly heal patients."
-	icon = 'icons/obj/Cryogenic2.dmi'
+	icon = 'icons/obj/machines/Cryogenic2.dmi'
 	icon_state = "celltop-P"
 	density = TRUE
 	anchored = 1.0
@@ -254,12 +254,12 @@
 			if(!src.defib)
 				src.UpdateOverlays(null, "defib")
 				return
-			src.UpdateOverlays(src.SafeGetOverlayImage("defib", 'icons/obj/Cryogenic2.dmi', "defib-off", 2, pixel_y=-32), "defib")
+			src.UpdateOverlays(src.SafeGetOverlayImage("defib", 'icons/obj/machines/Cryogenic2.dmi', "defib-off", 2, pixel_y=-32), "defib")
 		SPAWN(src.defib.charge_time)
 			if(!src.defib)
 				src.UpdateOverlays(null, "defib")
 				return
-			src.UpdateOverlays(src.SafeGetOverlayImage("defib", 'icons/obj/Cryogenic2.dmi', "defib-on", 2, pixel_y=-32), "defib")
+			src.UpdateOverlays(src.SafeGetOverlayImage("defib", 'icons/obj/machines/Cryogenic2.dmi', "defib-on", 2, pixel_y=-32), "defib")
 
 	update_icon()
 		if(on)
@@ -269,12 +269,12 @@
 			light.disable()
 			icon_state = "celltop-p"
 		if(src.node)
-			src.UpdateOverlays(src.SafeGetOverlayImage("bottom", 'icons/obj/Cryogenic2.dmi', "cryo_bottom_[src.on]", 1, pixel_y=-32), "bottom")
+			src.UpdateOverlays(src.SafeGetOverlayImage("bottom", 'icons/obj/machines/Cryogenic2.dmi', "cryo_bottom_[src.on]", 1, pixel_y=-32), "bottom")
 		else
-			src.UpdateOverlays(src.SafeGetOverlayImage("bottom", 'icons/obj/Cryogenic2.dmi', "cryo_bottom", 1, pixel_y=-32), "bottom")
+			src.UpdateOverlays(src.SafeGetOverlayImage("bottom", 'icons/obj/machines/Cryogenic2.dmi', "cryo_bottom", 1, pixel_y=-32), "bottom")
 		src.pixel_y = 32
 		if(src.defib)
-			src.UpdateOverlays(src.SafeGetOverlayImage("defib", 'icons/obj/Cryogenic2.dmi', "defib-on", 2, pixel_y=-32), "defib")
+			src.UpdateOverlays(src.SafeGetOverlayImage("defib", 'icons/obj/machines/Cryogenic2.dmi', "defib-on", 2, pixel_y=-32), "defib")
 		else
 			src.UpdateOverlays(null, "defib")
 
@@ -394,6 +394,6 @@
 		src.UpdateIcon()
 
 /obj/shock_overlay
-	icon = 'icons/obj/Cryogenic2.dmi'
+	icon = 'icons/obj/machines/Cryogenic2.dmi'
 	layer = 3
 	icon_state = "defib-shock"

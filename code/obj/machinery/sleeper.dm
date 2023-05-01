@@ -15,7 +15,7 @@
 /obj/machinery/sleep_console
 	name = "sleeper console"
 	desc = "A device that displays the vital signs of the occupant of the sleeper, and can dispense chemicals."
-	icon = 'icons/obj/Cryogenic2.dmi'
+	icon = 'icons/obj/machines/Cryogenic2.dmi'
 	icon_state = "sleeperconsole"
 	anchored = 1
 	density = 1
@@ -231,7 +231,7 @@
 
 /obj/machinery/sleeper
 	name = "sleeper"
-	icon = 'icons/obj/Cryogenic2.dmi'
+	icon = 'icons/obj/machines/Cryogenic2.dmi'
 	icon_state = "sleeper"//_0"
 	desc = "An enterable machine that analyzes and stabilizes the vital signs of the occupant."
 	density = 1
@@ -765,7 +765,7 @@
 /obj/machinery/sleeper/compact
 	name = "Compact Sleeper"
 	desc = "Has the same air supply and stabilization capabilites as your usual model, but compact this time. Wow!"
-	icon = 'icons/obj/compact_machines.dmi'
+	icon = 'icons/obj/machines/compact_machines.dmi'
 	icon_state = "compact_sleeper"
 	anchored = 1
 

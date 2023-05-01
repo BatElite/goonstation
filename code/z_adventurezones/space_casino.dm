@@ -126,7 +126,7 @@
 
 /obj/decal/fakeobjects/genetics_scrambler
 	name = "modified GeneTek Scanner"
-	icon = 'icons/obj/Cryogenic2.dmi'
+	icon = 'icons/obj/machines/Cryogenic2.dmi'
 	icon_state = "scanner_0"
 	anchored = 1
 	density = 1
