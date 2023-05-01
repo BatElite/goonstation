@@ -15,7 +15,7 @@
 	density = 1
 	anchored = 0
 	name = "Computer-frame"
-	icon = 'icons/obj/computer_frame.dmi'
+	icon = 'icons/obj/machines/computer_frame.dmi'
 	icon_state = "0"
 	material_amt = 0.5
 	var/state = 0
