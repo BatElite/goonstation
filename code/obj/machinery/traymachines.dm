@@ -29,7 +29,7 @@ ABSTRACT_TYPE(/obj/machinery/traymachine)
 /obj/machinery/traymachine
 	name = "tray machine"
 	desc = "This thing sure has a big tray that goes vwwwwwwsh when you slide it in and out."
-	icon = 'icons/obj/stationobjs.dmi'
+	icon = 'icons/obj/machines/tray_machines.dmi'
 	icon_state = "morgue1"
 	density = TRUE
 	anchored = TRUE
@@ -211,7 +211,7 @@ ABSTRACT_TYPE(/obj/machinery/traymachine/locking)
 ABSTRACT_TYPE(/obj/machine_tray)
 /obj/machine_tray
 	name = "machine tray"
-	icon = 'icons/obj/stationobjs.dmi'
+	icon = 'icons/obj/machines/tray_machines.dmi'
 	icon_state = "morguet"
 	density = TRUE
 	layer = FLOOR_EQUIP_LAYER1
@@ -266,7 +266,6 @@ ABSTRACT_TYPE(/obj/machine_tray)
 //Morgues prevent decomposition, but that functionality is handled by /datum/lifeprocess/decomposition
 /obj/machinery/traymachine/morgue
 	name = "morgue"
-	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "morgue1"
 
 	tray_type = /obj/machine_tray/morgue
@@ -285,7 +284,6 @@ ABSTRACT_TYPE(/obj/machine_tray)
 /obj/machinery/traymachine/locking/crematorium
 	name = "crematorium"
 	desc = "A human incinerator."
-	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "crema1"
 	powerdraw_use = 1500
 	var/id = 1 //crema switch uses this when finding crematoria
@@ -371,7 +369,7 @@ ABSTRACT_TYPE(/obj/machine_tray)
 /obj/machinery/crema_switch
 	name = "crematorium igniter"
 	desc = "Burn baby burn!"
-	icon = 'icons/obj/power.dmi'
+	icon = 'icons/obj/machines/buttons_and_switches.dmi' //So button sprites were all over the place but WTF was this doing in 'icons/obj/power.dmi'
 	icon_state = "crema_switch"
 	anchored = TRUE
 	req_access = list(access_crematorium)
@@ -413,7 +411,7 @@ ABSTRACT_TYPE(/obj/machine_tray)
 /obj/machinery/traymachine/locking/tanning
 	name = "tanning bed"
 	desc = "Now bringing the rays of Space Hawaii to your local spa!"
-	icon = 'icons/obj/stationobjs.dmi'
+	icon = 'icons/obj/machines/tray_machines.dmi'
 	icon_state = "tanbed"
 	var/id = 2 //this gets used when the tanning computer links to the bed
 	powerdraw_use = 1000 //power cost while tanning
@@ -516,7 +514,7 @@ ABSTRACT_TYPE(/obj/machine_tray)
 /obj/machine_tray/tanning
 	name = "tanning bed tray"
 	desc = "The perfect place to lay down after a long day indoors."
-	icon = 'icons/obj/stationobjs.dmi'
+	icon = 'icons/obj/machines/tray_machines.dmi'
 	icon_state = "tantray_empty"
 
 	var/obj/item/light/tube/tanningtube = null
@@ -525,7 +523,7 @@ ABSTRACT_TYPE(/obj/machine_tray)
 
 	proc/generate_overlay_icon(var/tubecolor)
 		if (!trayoverlay)
-			src.trayoverlay = image('icons/obj/stationobjs.dmi', "tantray_overlay")
+			src.trayoverlay = image('icons/obj/machines/tray_machines.dmi', "tantray_overlay")
 		UpdateOverlays(null, "tube")
 		if (tanningtube)
 			src.trayoverlay.color = tubecolor
@@ -593,7 +591,7 @@ ABSTRACT_TYPE(/obj/machine_tray)
 /obj/machinery/computer/tanning
 	name = "tanning computer"
 	desc = "Used to control a tanning bed."
-	icon = 'icons/obj/stationobjs.dmi'
+	icon = 'icons/obj/machines/tray_machines.dmi'
 	mats = 20
 	id = 2
 	icon_state = "tanconsole"

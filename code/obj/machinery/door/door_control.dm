@@ -1,6 +1,6 @@
 /obj/machinery/door_control
 	name = "Remote Door Control"
-	icon = 'icons/obj/stationobjs.dmi'
+	icon = 'icons/obj/machines/buttons_and_switches.dmi'
 	icon_state = "doorctrl0"
 	desc = "A remote control switch for a door."
 	var/id = null
@@ -482,7 +482,7 @@
 ABSTRACT_TYPE(/obj/machinery/activation_button)
 /obj/machinery/activation_button
 	name = "Activation Button"
-	icon = 'icons/obj/objects.dmi'
+	icon = 'icons/obj/machines/buttons_and_switches.dmi'
 	icon_state = "launcherbtt"
 	desc = "A remote control switch for ... something."
 	/// compatible machines with a matching id will be activated
@@ -566,7 +566,7 @@ ABSTRACT_TYPE(/obj/machinery/activation_button)
 
 /obj/machinery/r_door_control
 	name = "Remote Door Control"
-	icon = 'icons/obj/stationobjs.dmi'
+	icon = 'icons/obj/machines/buttons_and_switches.dmi'
 	icon_state = "sec_lock"
 	desc = "A remote recieving device for a door."
 	var/id = null
