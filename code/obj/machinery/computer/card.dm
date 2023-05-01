@@ -30,10 +30,10 @@
 	..()
 	src.allowed_access_list = civilian_access_list + engineering_access_list + supply_access_list + research_access_list + command_access_list + security_access_list - access_maxsec
 /obj/machinery/computer/card/console_upper
-	icon = 'icons/obj/computerpanel.dmi'
+	icon = 'icons/obj/machines/computerpanel.dmi'
 	icon_state = "id1"
 /obj/machinery/computer/card/console_lower
-	icon = 'icons/obj/computerpanel.dmi'
+	icon = 'icons/obj/machines/computerpanel.dmi'
 	icon_state = "id2"
 /obj/item/acesscomputerunfolder
 	icon = 'icons/obj/items/storage.dmi'

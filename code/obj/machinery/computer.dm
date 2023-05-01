@@ -106,7 +106,7 @@
 	light.attach(src)
 
 	if(glow_in_dark_screen)
-		src.screen_image = image('icons/obj/computer_screens.dmi', src.icon_state, -1)
+		src.screen_image = image('icons/obj/machines/computer_screens.dmi', src.icon_state, -1)
 		screen_image.plane = PLANE_LIGHTING
 		screen_image.blend_mode = BLEND_ADD
 		screen_image.layer = LIGHTING_LAYER_BASE
@@ -191,7 +191,7 @@
 
 /obj/machinery/computer/update_icon()
 	if(src.glow_in_dark_screen)
-		src.screen_image = image('icons/obj/computer_screens.dmi', src.icon_state, -1)
+		src.screen_image = image('icons/obj/machines/computer_screens.dmi', src.icon_state, -1)
 		src.screen_image.plane = PLANE_LIGHTING
 		src.screen_image.blend_mode = BLEND_ADD
 		src.screen_image.layer = LIGHTING_LAYER_BASE

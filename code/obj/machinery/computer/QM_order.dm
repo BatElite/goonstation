@@ -17,10 +17,10 @@
 		MAKE_SENDER_RADIO_PACKET_COMPONENT("pda", FREQ_PDA)
 
 /obj/machinery/computer/ordercomp/console_upper
-	icon = 'icons/obj/computerpanel.dmi'
+	icon = 'icons/obj/machines/computerpanel.dmi'
 	icon_state = "qmreq1"
 /obj/machinery/computer/ordercomp/console_lower
-	icon = 'icons/obj/computerpanel.dmi'
+	icon = 'icons/obj/machines/computerpanel.dmi'
 	icon_state = "qmreq1"
 
 /obj/machinery/computer/ordercomp/attack_ai(var/mob/user as mob)

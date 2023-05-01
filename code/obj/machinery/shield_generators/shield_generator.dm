@@ -207,7 +207,7 @@
 
 
 /obj/machinery/shield_generator/console_upper
-	icon = 'icons/obj/computerpanel.dmi'
+	icon = 'icons/obj/machines/computerpanel.dmi'
 	icon_state = "engine1"
 
 	update_icon()
@@ -215,7 +215,7 @@
 		return
 
 /obj/machinery/shield_generator/console_lower
-	icon = 'icons/obj/computerpanel.dmi'
+	icon = 'icons/obj/machines/computerpanel.dmi'
 	icon_state = "engine2"
 
 	update_icon()
@@ -235,11 +235,11 @@
 	setup_starting_program = /datum/computer/file/terminal_program/shield_control
 
 /obj/machinery/computer3/generic/shield_control/console_upper
-	icon = 'icons/obj/computerpanel.dmi'
+	icon = 'icons/obj/machines/computerpanel.dmi'
 	icon_state = "engine1"
 	base_icon_state = "engine1"
 /obj/machinery/computer3/generic/shield_control/console_lower
-	icon = 'icons/obj/computerpanel.dmi'
+	icon = 'icons/obj/machines/computerpanel.dmi'
 	icon_state = "engine2"
 	base_icon_state = "engine2"
 

@@ -92,11 +92,11 @@
 	))
 
 /obj/machinery/computer/power_monitor/console_upper
-	icon = 'icons/obj/computerpanel.dmi'
+	icon = 'icons/obj/machines/computerpanel.dmi'
 	icon_state = "power1"
 
 /obj/machinery/computer/power_monitor/console_lower
-	icon = 'icons/obj/computerpanel.dmi'
+	icon = 'icons/obj/machines/computerpanel.dmi'
 	icon_state = "power2"
 
 // tweaked version to hook up to the engine->smes powernet and show SMES usage stats and power produced

@@ -39,7 +39,7 @@
 
 	desktop //Those old desktop computers
 		name = "Desktop Computer-frame"
-		icon = 'icons/obj/computer_frame_desk.dmi'
+		icon = 'icons/obj/machines/computer_frame_desk.dmi'
 		created_icon_state = "old"
 		max_peripherals = 3
 		metal_given = 3
@@ -48,7 +48,7 @@
 
 	azungarcomputer_upper
 		name = "Terminal Frame"
-		icon = 'icons/obj/computerpanel_upper.dmi'
+		icon = 'icons/obj/machines/computerpanel_upper.dmi'
 		created_icon_state = "4"
 		max_peripherals = 3
 		metal_given = 3
@@ -56,7 +56,7 @@
 
 	azungarcomputer_lower
 		name = "Terminal Frame"
-		icon = 'icons/obj/computerpanel_lower.dmi'
+		icon = 'icons/obj/machines/computerpanel_lower.dmi'
 		created_icon_state = "4"
 		max_peripherals = 3
 		metal_given = 3

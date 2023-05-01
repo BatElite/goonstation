@@ -13266,7 +13266,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "The power cord seems to have been completely ripped off.";
-	icon = 'icons/obj/computer_frame_desk.dmi';
+	icon = 'icons/obj/machines/computer_frame_desk.dmi';
 	icon_state = "1";
 	name = "broken computer";
 	pixel_y = 7
@@ -13852,7 +13852,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "The power cord seems to have been completely ripped off.";
-	icon = 'icons/obj/computer_frame_desk.dmi';
+	icon = 'icons/obj/machines/computer_frame_desk.dmi';
 	icon_state = "1";
 	name = "broken computer";
 	pixel_y = 8
@@ -19220,7 +19220,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "The power cord seems to have been completely ripped off.";
-	icon = 'icons/obj/computer_frame_desk.dmi';
+	icon = 'icons/obj/machines/computer_frame_desk.dmi';
 	icon_state = "1";
 	name = "broken computer";
 	pixel_y = 7
@@ -20160,7 +20160,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "The power cord seems to have been completely ripped off.";
-	icon = 'icons/obj/computer_frame_desk.dmi';
+	icon = 'icons/obj/machines/computer_frame_desk.dmi';
 	icon_state = "1";
 	name = "broken computer";
 	pixel_y = 7

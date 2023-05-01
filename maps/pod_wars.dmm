@@ -4539,7 +4539,7 @@
 /obj/decal/fakeobjects{
 	desc = "It seems to be locked";
 	dir = 4;
-	icon = 'icons/obj/computerpanel.dmi';
+	icon = 'icons/obj/machines/computerpanel.dmi';
 	icon_state = "engine1";
 	name = "Engineering Console"
 	},
@@ -12970,7 +12970,7 @@
 /obj/decal/fakeobjects{
 	desc = "It seems to be locked";
 	dir = 4;
-	icon = 'icons/obj/computerpanel.dmi';
+	icon = 'icons/obj/machines/computerpanel.dmi';
 	icon_state = "securitycomputer2";
 	name = "Weapons Console"
 	},
