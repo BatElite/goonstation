@@ -18,7 +18,7 @@ var/list/datum/chem_request/chem_requests = list()
 
 /obj/machinery/computer/chem_requester
 	name = "Chemical request console"
-	icon = 'icons/obj/computer.dmi'
+	icon = 'icons/obj/machines/computer.dmi'
 	icon_state = "chemreq"
 	var/datum/chem_request/request = new
 	var/obj/item/card/id/card = null
@@ -113,7 +113,7 @@ var/list/datum/chem_request/chem_requests = list()
 
 /obj/machinery/computer/chem_request_receiver
 	name = "Chemical request display"
-	icon = 'icons/obj/computer.dmi'
+	icon = 'icons/obj/machines/computer.dmi'
 	icon_state = "chemreq"
 	req_access = list(access_chemistry)
 	object_flags = CAN_REPROGRAM_ACCESS

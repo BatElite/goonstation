@@ -636,7 +636,7 @@
 /obj/computerframe{
 	name = "smashed computer";
 	desc = "It is highly unlikely that this still works.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "datamedb";
 	dir = 8;
 	anchored = 1

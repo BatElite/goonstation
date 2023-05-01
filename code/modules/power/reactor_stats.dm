@@ -1,7 +1,7 @@
 /* reactor statistics computer for nerds. by kremlin */
 /obj/machinery/power/reactor_stats
 	name = "Engine Statistics Computer"
-	icon = 'icons/obj/computer.dmi'
+	icon = 'icons/obj/machines/computer.dmi'
 	icon_state = "reactor_stats"
 	desc = "A powerful supercomputer used to model the generator and provide corresponding statistical analysis"
 	density = TRUE

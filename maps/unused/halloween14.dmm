@@ -40514,7 +40514,7 @@
 	tag = "icon-aiuploadb";
 	name = "broken computer";
 	desc = "This computer is incredibly broken.  Look at how broken it is!  Very much so.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "aiuploadb";
 	density = 1;
 	anchored = 1
@@ -40595,7 +40595,7 @@
 	tag = "icon-aiuploadb";
 	name = "broken computer";
 	desc = "This computer is incredibly broken.  Look at how broken it is!  Very much so.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "aiuploadb";
 	density = 1;
 	anchored = 1
@@ -40607,7 +40607,7 @@
 	tag = "icon-dterm0";
 	name = "broken computer";
 	desc = "This computer is incredibly broken.  Look at how broken it is!  Very much so.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "dterm0";
 	density = 1;
 	anchored = 1
@@ -40829,7 +40829,7 @@
 	anchored = 1;
 	density = 1;
 	desc = "This computer is incredibly broken.  Look at how broken it is!  Very much so.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "offbroken";
 	name = "broken computer"
 	},
@@ -43268,7 +43268,7 @@
 /obj/computerframe{
 	anchored = 1;
 	desc = "It is highly unlikely that this still works.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "datamedb";
 	name = "smashed computer"
 	},
@@ -46023,7 +46023,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "An old computer that is obviously very broken.  It might actually not even be plugged in.  BROKEN.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "old0";
 	name = "broken computer"
 	},
@@ -46037,7 +46037,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "An old computer that is obviously very broken.  It might actually not even be plugged in.  BROKEN.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "old0";
 	name = "broken computer"
 	},
@@ -46062,7 +46062,7 @@
 	tag = "icon-oldb";
 	name = "broken computer";
 	desc = "An old computer that is obviously very broken.  It might actually not even be plugged in.  BROKEN.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "oldb";
 	anchored = 1
 	},
@@ -46615,7 +46615,7 @@
 /obj/computerframe{
 	anchored = 1;
 	desc = "It is highly unlikely that this still works.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "datamedb";
 	name = "smashed computer"
 	},
@@ -48770,7 +48770,7 @@
 	tag = "icon-aiuploadb";
 	name = "broken computer";
 	desc = "This computer is incredibly broken.  Look at how broken it is!  Very much so.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "aiuploadb";
 	density = 1;
 	anchored = 1
@@ -53306,7 +53306,7 @@
 	tag = "icon-dterm0";
 	name = "broken computer";
 	desc = "This computer is incredibly broken.  Look at how broken it is!  Very much so.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "dterm0";
 	density = 1;
 	anchored = 1
@@ -53868,7 +53868,7 @@
 	anchored = 1;
 	density = 1;
 	desc = "This computer is incredibly broken.  Look at how broken it is!  Very much so.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "offbroken";
 	name = "broken computer"
 	},
@@ -56143,7 +56143,7 @@
 	anchored = 1;
 	density = 1;
 	desc = "This computer is incredibly broken.  Look at how broken it is!  Very much so.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "offbroken";
 	name = "broken computer"
 	},
@@ -56248,7 +56248,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "This appears to be a control panel for that big microwave array thing?  It doesn't seem to work.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "wallterm0";
 	name = "broken computer"
 	},
@@ -57384,7 +57384,7 @@
 	anchored = 1;
 	density = 1;
 	desc = "This computer is incredibly broken.  Look at how broken it is!  Very much so.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "offbroken";
 	name = "broken computer"
 	},
@@ -58476,7 +58476,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "An old computer that is obviously very broken.  It might actually not even be plugged in.  BROKEN.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "old0";
 	name = "broken computer"
 	},
@@ -58556,7 +58556,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "This appears to be a control panel for that blast door.  It doesn't seem to work.  Maybe there is an override or something?";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "wallterm0";
 	name = "broken computer"
 	},
@@ -59501,7 +59501,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "An old computer that is obviously very broken.  It might actually not even be plugged in.  BROKEN.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "old0";
 	name = "broken computer"
 	},
@@ -61995,7 +61995,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "This appears to be a control panel for that furance gizmo.  The screen is off and there isn't any visible power switch.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "wallterm0";
 	name = "broken computer"
 	},
@@ -63727,7 +63727,7 @@
 	anchored = 1;
 	density = 1;
 	desc = "This computer is incredibly broken.  Look at how broken it is!  Very much so.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "offbroken";
 	name = "broken computer"
 	},
@@ -64783,7 +64783,7 @@
 /obj/computerframe{
 	anchored = 1;
 	desc = "It is highly unlikely that this still works.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "datamedb";
 	name = "smashed computer"
 	},
@@ -66392,7 +66392,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "An old computer that doesn't appear to be plugged in.  Do you see the cord anywhere? No? Dang.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "old0";
 	name = "inactive computer";
 	pixel_x = 4
@@ -66972,7 +66972,7 @@
 	tag = "icon-dterm0";
 	name = "broken computer";
 	desc = "This computer is incredibly broken.  Look at how broken it is!  Very much so.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "dterm0";
 	density = 1;
 	anchored = 1
@@ -67726,7 +67726,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "An old computer that is obviously very broken.  It might actually not even be plugged in.  BROKEN.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "old0";
 	name = "broken computer"
 	},
@@ -68174,7 +68174,7 @@
 	tag = "icon-dterm0";
 	name = "broken computer";
 	desc = "This computer is incredibly broken.  Look at how broken it is!  Very much so.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "dterm0";
 	density = 1;
 	anchored = 1
@@ -68384,7 +68384,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "An old computer that is obviously very broken.  It might actually not even be plugged in.  BROKEN.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "old0";
 	name = "broken computer"
 	},
@@ -68403,7 +68403,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "An old computer that is obviously very broken.  It might actually not even be plugged in.  BROKEN.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "old0";
 	name = "broken computer"
 	},
@@ -68577,7 +68577,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "This appears to be a control panel for that big microwave array thing?  It doesn't seem to work.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "wallterm0";
 	name = "broken computer"
 	},
@@ -68653,7 +68653,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "An old computer that doesn't appear to be plugged in.  Do you see the cord anywhere? No? Dang.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "old0";
 	name = "inactive computer";
 	pixel_x = 4
@@ -69100,7 +69100,7 @@
 	tag = "icon-dterm0";
 	name = "broken computer";
 	desc = "This computer is incredibly broken.  Look at how broken it is!  Very much so.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "dterm0";
 	density = 1;
 	anchored = 1
@@ -69174,7 +69174,7 @@
 	tag = "icon-aiuploadb";
 	name = "broken computer";
 	desc = "This computer is incredibly broken.  Look at how broken it is!  Very much so.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "aiuploadb";
 	density = 1;
 	anchored = 1
@@ -71010,7 +71010,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "An old computer that is obviously very broken.  It might actually not even be plugged in.  BROKEN.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "old0";
 	name = "broken computer"
 	},
@@ -72097,7 +72097,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "An old computer that is obviously very broken.  It might actually not even be plugged in.  BROKEN.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "old0";
 	name = "broken computer"
 	},
@@ -72305,7 +72305,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "A computer that is obviously completely broken, more so than previous obviously broken computers.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "oldb";
 	name = "broken computer"
 	},
@@ -72960,7 +72960,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "An old computer that is obviously very broken.  It might actually not even be plugged in.  BROKEN.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "old0";
 	name = "broken computer"
 	},
@@ -73743,7 +73743,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "An old computer that is obviously very broken.  It might actually not even be plugged in.  BROKEN.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "old0";
 	name = "broken computer"
 	},
@@ -75159,7 +75159,7 @@
 	anchored = 1;
 	density = 1;
 	desc = "A computer that is so completely, irreparably broken that you are in disbelief at just how destroyed it is. ";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "offbroken";
 	name = "broken computer"
 	},
@@ -79021,7 +79021,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	density = 1;
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "messyfiles";
 	name = "locked filing cabinet"
 	},
@@ -80003,7 +80003,7 @@
 "djU" = (
 /obj/computerframe{
 	desc = "It is highly unlikely that this still works.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "datamedb";
 	name = "smashed computer"
 	},
@@ -80425,7 +80425,7 @@
 /obj/computerframe{
 	anchored = 1;
 	desc = "It is highly unlikely that this still works.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "datamedb";
 	name = "smashed computer"
 	},
@@ -81035,7 +81035,7 @@
 	anchored = 1;
 	density = 1;
 	desc = "A computer that is so completely, irreparably broken that you are in disbelief at just how destroyed it is. ";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "offbroken";
 	name = "broken computer"
 	},
@@ -81428,7 +81428,7 @@
 	density = 1;
 	desc = "A computer that is so completely, irreparably broken that you are in disbelief at just how destroyed it is. ";
 	dir = 8;
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "offbroken";
 	name = "broken computer"
 	},
@@ -81943,7 +81943,7 @@
 /obj/computerframe{
 	anchored = 1;
 	desc = "It is highly unlikely that this still works.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "datamedb";
 	name = "smashed computer"
 	},
@@ -82692,7 +82692,7 @@
 /obj/computerframe{
 	anchored = 1;
 	desc = "It is highly unlikely that this still works.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "datamedb";
 	name = "smashed computer"
 	},
@@ -86475,7 +86475,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "An old computer that doesn't appear to be plugged in.  Do you see the cord anywhere? No? Dang.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "old0";
 	name = "inactive computer";
 	pixel_x = 4
@@ -87995,7 +87995,7 @@
 /obj/computerframe{
 	anchored = 1;
 	desc = "It is highly unlikely that this still works.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "datamedb";
 	name = "smashed computer"
 	},
@@ -89243,7 +89243,7 @@
 /obj/computerframe{
 	anchored = 1;
 	desc = "It is highly unlikely that this still works.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "datamedb";
 	name = "smashed computer"
 	},
@@ -90014,7 +90014,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "An old computer that is obviously very broken.  It might actually not even be plugged in.  BROKEN.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "old0";
 	name = "broken computer"
 	},

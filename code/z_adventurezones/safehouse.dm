@@ -442,7 +442,7 @@ obj/item/reagent_containers/iv_drip/dead_exec
 /obj/decal/fakeobjects/safehouse/cloning_console
 	name = "cloning console"
 	desc = "A console used to operate a cloning scanner and pod. This one looks like it's seen better days."
-	icon = 'icons/obj/computer.dmi'
+	icon = 'icons/obj/machines/computer.dmi'
 	icon_state = "scannerb"
 	anchored = 1
 	density = 1

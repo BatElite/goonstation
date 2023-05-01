@@ -281,7 +281,7 @@
 /obj/computerframe{
 	desc = "It is highly unlikely that this still works.";
 	dir = 8;
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "datamedb";
 	name = "smashed computer"
 	},

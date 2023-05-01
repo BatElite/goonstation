@@ -3,7 +3,7 @@
 /obj/machinery/computer3
 	name = "computer"
 	desc = "A computer that uses the bleeding-edge command line OS ThinkDOS."
-	icon = 'icons/obj/computer.dmi'
+	icon = 'icons/obj/machines/computer.dmi'
 	icon_state = "computer_generic"
 	density = 1
 	anchored = 1.0
@@ -967,7 +967,7 @@ function lineEnter (ev)
 //Special overrides and what-not for luggables.
 /obj/item/luggable_computer
 	name = "briefcase"
-	icon = 'icons/obj/computer.dmi'
+	icon = 'icons/obj/machines/computer.dmi'
 	icon_state = "briefcase"
 	inhand_image_icon = 'icons/mob/inhand/hand_general.dmi'
 	item_state = "briefcase"

@@ -307,7 +307,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "An old computer that is obviously very broken.  It might actually not even be plugged in.  BROKEN.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "oldb";
 	name = "broken computer"
 	},
@@ -953,7 +953,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "This appears to be a control panel for that blast door.  It doesn't seem to work.  Maybe there is an override or something?";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "wallterm0";
 	name = "broken computer"
 	},
@@ -1067,7 +1067,7 @@
 	density = 1;
 	desc = "This computer is incredibly broken.  Look at how broken it is!  Very much so.";
 	dir = 4;
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "offbroken";
 	name = "broken computer";
 	tag = "icon-offbroken (EAST)"

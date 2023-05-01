@@ -2741,7 +2741,7 @@
 	density = 1;
 	desc = "A computer that is so completely, irreparably broken that you are in disbelief at just how destroyed it is. ";
 	dir = 8;
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "offbroken";
 	name = "busted computer"
 	},
@@ -4540,7 +4540,7 @@
 	anchored = 1;
 	density = 1;
 	desc = "This computer is incredibly broken.  Look at how broken it is!  Very much so.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "aiuploadb";
 	name = "broken computer"
 	},
@@ -7407,7 +7407,7 @@
 	anchored = 1;
 	density = 1;
 	desc = "This computer is incredibly broken.  Look at how broken it is!  Very much so.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "dterm0";
 	name = "broken computer"
 	},
@@ -10649,7 +10649,7 @@
 	anchored = 1;
 	density = 1;
 	desc = "This computer is incredibly broken.  Look at how broken it is!  Very much so.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "dterm0";
 	name = "broken computer"
 	},
@@ -10937,7 +10937,7 @@
 	anchored = 1;
 	density = 1;
 	desc = "This computer is incredibly broken.  Look at how broken it is!  Very much so.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "dterm0";
 	name = "broken computer"
 	},
@@ -13689,7 +13689,7 @@
 	anchored = 1;
 	density = 1;
 	desc = "This computer is incredibly broken.  Look at how broken it is!  Very much so.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "aiuploadb";
 	name = "broken computer"
 	},
@@ -18359,7 +18359,7 @@
 /obj/decal/fakeobjects{
 	anchored = 1;
 	desc = "This appears to be a control panel for that big microwave array thing?  It doesn't seem to work.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "wallterm0";
 	name = "broken computer"
 	},

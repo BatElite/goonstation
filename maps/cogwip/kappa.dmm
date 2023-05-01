@@ -7468,7 +7468,7 @@
 "ve" = (
 /obj/decal/fakeobjects/broadcastcomputer{
 	name = "old PC";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "access"
 	},
 /turf/simulated/floor/grey,

@@ -3815,7 +3815,7 @@
 "oA" = (
 /obj/computerframe{
 	desc = "It is highly unlikely that this still works.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "datamedb";
 	name = "smashed computer"
 	},
@@ -8071,7 +8071,7 @@
 "Eh" = (
 /obj/computerframe{
 	desc = "It is highly unlikely that this still works.";
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "datamedb";
 	name = "smashed computer"
 	},
@@ -10996,7 +10996,7 @@
 /obj/computerframe{
 	desc = "It is highly unlikely that this still works.";
 	dir = 8;
-	icon = 'icons/obj/computer.dmi';
+	icon = 'icons/obj/machines/computer.dmi';
 	icon_state = "datamedb";
 	name = "smashed computer"
 	},

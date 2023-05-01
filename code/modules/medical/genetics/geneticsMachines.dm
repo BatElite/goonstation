@@ -6,7 +6,7 @@
 
 /obj/machinery/computer/genetics
 	name = "genetics console"
-	icon = 'icons/obj/computer.dmi'
+	icon = 'icons/obj/machines/computer.dmi'
 	icon_state = "scanner"
 	req_access = list() //Excuse me let's not make this medlab access??
 	object_flags = CAN_REPROGRAM_ACCESS

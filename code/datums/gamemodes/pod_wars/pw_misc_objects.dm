@@ -544,7 +544,7 @@ ABSTRACT_TYPE(/obj/deployable_turret/pod_wars)
 
 /obj/control_point_computer
 	name = "computer"	//name it based on area.
-	icon = 'icons/obj/computer.dmi'
+	icon = 'icons/obj/machines/computer.dmi'
 	icon_state = "computer_generic"
 	density = 1
 	anchored = 1.0
