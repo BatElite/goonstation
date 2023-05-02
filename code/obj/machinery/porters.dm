@@ -290,7 +290,7 @@ var/global/list/portable_machinery = list() // stop looping through world for th
 
 /obj/machinery/port_a_brig
 	name = "Port-A-Brig"
-	icon = 'icons/obj/cloning.dmi'
+	icon = 'icons/obj/machines/cloning.dmi'
 	icon_state = "port_a_brig_0"
 	desc = "A portable holding cell with teleporting capabilites."
 	density = 1

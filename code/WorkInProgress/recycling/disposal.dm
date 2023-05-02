@@ -171,7 +171,7 @@
 // Disposal pipes
 
 /obj/disposalpipe
-	icon = 'icons/obj/disposal.dmi'
+	icon = 'icons/obj/machines/disposal.dmi'
 	name = "disposal pipe"
 	desc = "An underfloor disposal pipe."
 	anchored = 1
@@ -1676,7 +1676,7 @@
 /obj/disposaloutlet
 	name = "disposal outlet"
 	desc = "An outlet for the pneumatic disposal system."
-	icon = 'icons/obj/disposal.dmi'
+	icon = 'icons/obj/machines/disposal.dmi'
 	icon_state = "outlet"
 	density = 1
 	anchored = 1

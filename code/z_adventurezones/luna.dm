@@ -1129,7 +1129,7 @@ Contents:
 #define REASON_UPDATETEXT	4
 obj/machinery/embedded_controller/radio/maintpanel
 	name = "maintenance access panel"
-	icon = 'icons/obj/airlock_machines.dmi'
+	icon = 'icons/obj/machines/airlock_machines.dmi'
 	icon_state = "museum_control"
 	anchored = 1
 	density = 0

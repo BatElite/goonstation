@@ -12,7 +12,7 @@
 /obj/machinery/disposal
 	name = "disposal unit"
 	desc = "A pressurized trashcan that flushes things you put into it through pipes, usually to disposals."
-	icon = 'icons/obj/disposal.dmi'
+	icon = 'icons/obj/machines/disposal.dmi'
 	icon_state = "disposal"
 	anchored = 1
 	density = 1
@@ -356,9 +356,9 @@
 		UpdateOverlays(I, "status", 0, 1)
 		/*
 		if(mode == 1)
-			overlays += image('icons/obj/disposal.dmi', "dispover-charge")
+			overlays += image('icons/obj/machines/disposal.dmi', "dispover-charge")
 		else if(mode == 2)
-			overlays += image('icons/obj/disposal.dmi', "dispover-ready")
+			overlays += image('icons/obj/machines/disposal.dmi', "dispover-ready")
 		*/
 	// timed process
 	// charge the gas reservoir and perform flush if ready
@@ -484,7 +484,7 @@
 		return 1
 
 /obj/machinery/disposal/small
-	icon = 'icons/obj/disposal_small.dmi'
+	icon = 'icons/obj/machines/disposal_small.dmi'
 	handle_normal_state = "disposal-handle"
 	density = 0
 
@@ -504,7 +504,7 @@
 	icon_style = "brig"
 
 /obj/machinery/disposal/brig/small
-	icon = 'icons/obj/disposal_small.dmi'
+	icon = 'icons/obj/machines/disposal_small.dmi'
 	handle_normal_state = "brig-handle"
 	density = 0
 
@@ -536,7 +536,7 @@
 	icon_style = "ore"
 
 /obj/machinery/disposal/ore/small
-	icon = 'icons/obj/disposal_small.dmi'
+	icon = 'icons/obj/machines/disposal_small.dmi'
 	handle_normal_state = "ore-handle"
 	density = 0
 
@@ -608,7 +608,7 @@
 
 /obj/machinery/disposal/transport
 	name = "transportation unit"
-	icon = 'icons/obj/disposal.dmi'
+	icon = 'icons/obj/machines/disposal.dmi'
 	icon_state = "scichute"
 	desc = "A pneumatic delivery chute for transporting people. Ever see Futurama? It's like that."
 	icon_style = "sci"
@@ -652,7 +652,7 @@
 	duration = 0.2 SECONDS
 	interrupt_flags =  INTERRUPT_STUNNED | INTERRUPT_ACT
 	id = "shoveMobIntoChute"
-	icon = 'icons/obj/disposal.dmi'
+	icon = 'icons/obj/machines/disposal.dmi'
 	icon_state = "shoveself-disposal" //varies, see below
 	var/obj/machinery/disposal/chute
 	var/mob/user

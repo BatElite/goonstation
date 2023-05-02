@@ -47229,7 +47229,7 @@
 /obj/decal/fakeobjects{
 	tag = "icon-grey_target_prism (SOUTHEAST)";
 	name = "unpowered turret";
-	icon = 'turrets.dmi';
+	icon = 'icons/obj/machines/turrets.dmi';
 	icon_state = "grey_target_prism";
 	dir = 6;
 	anchored = 1
@@ -47239,7 +47239,7 @@
 "bVt" = (
 /obj/decal/fakeobjects{
 	anchored = 1;
-	icon = 'turrets.dmi';
+	icon = 'icons/obj/machines/turrets.dmi';
 	icon_state = "grey_target_prism";
 	name = "unpowered turret"
 	},
@@ -47400,7 +47400,7 @@
 /obj/decal/fakeobjects{
 	tag = "icon-grey_target_prism (NORTHEAST)";
 	name = "unpowered turret";
-	icon = 'turrets.dmi';
+	icon = 'icons/obj/machines/turrets.dmi';
 	icon_state = "grey_target_prism";
 	dir = 5;
 	anchored = 1
@@ -47411,7 +47411,7 @@
 /obj/decal/fakeobjects{
 	tag = "icon-grey_target_prism (NORTHWEST)";
 	name = "unpowered turret";
-	icon = 'turrets.dmi';
+	icon = 'icons/obj/machines/turrets.dmi';
 	icon_state = "grey_target_prism";
 	dir = 9;
 	anchored = 1

@@ -120,7 +120,7 @@
 "ax" = (
 /obj/decal/fakeobjects/pipe{
 	desc = "";
-	icon = 'icons/obj/disposal.dmi';
+	icon = 'icons/obj/machines/disposal.dmi';
 	icon_state = "pipe-s";
 	name = "coolant pipe"
 	},

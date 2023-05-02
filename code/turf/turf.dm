@@ -1288,7 +1288,7 @@ proc/generate_space_color()
 
 /turf/unsimulated/null_hole
 	name = "expedition chute"
-	icon = 'icons/obj/delivery.dmi'
+	icon = 'icons/obj/machines/delivery.dmi'
 	icon_state = "floorflush_o"
 
 	Entered(atom/movable/mover, atom/forget)
