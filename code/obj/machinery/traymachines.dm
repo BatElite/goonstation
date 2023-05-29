@@ -34,6 +34,7 @@ ABSTRACT_TYPE(/obj/machinery/traymachine)
 	density = TRUE
 	anchored = TRUE
 	power_usage = TRAYMACHINE_DEFAULT_DRAW
+	HELP_MESSAGE_OVERRIDE({"Click to extend or retract the tray. You can use a <b>pen</b> to label this unit."})
 
 	//tray related variables
 	var/obj/machine_tray/my_tray = null
@@ -266,6 +267,7 @@ ABSTRACT_TYPE(/obj/machine_tray)
 //Morgues prevent decomposition, but that functionality is handled by /datum/lifeprocess/decomposition
 /obj/machinery/traymachine/morgue
 	name = "morgue"
+	desc = "A big machine for storing corpses in, preventing decomposure."
 	icon_state = "morgue1"
 
 	tray_type = /obj/machine_tray/morgue
@@ -516,6 +518,7 @@ ABSTRACT_TYPE(/obj/machine_tray)
 	desc = "The perfect place to lay down after a long day indoors."
 	icon = 'icons/obj/machines/tray_machines.dmi'
 	icon_state = "tantray_empty"
+	HELP_MESSAGE_OVERRIDE({"You can use a <b>crowbar</b> to remove the light tube, then insert <b>another tube</b> to affect the color of your tan."})
 
 	var/obj/item/light/tube/tanningtube = null
 	var/image/trayoverlay

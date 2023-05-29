@@ -18,6 +18,7 @@
 	rc_flags = RC_VISIBLE | RC_FULLNESS | RC_SPECTRO
 	amount_per_transfer_from_this = 5
 	initial_volume = 250//100
+	HELP_MESSAGE_OVERRIDE({"Use on someone to insert the drip's needle. Use in hand to toggle between giving or drawing fluid. Use a <b>cutting tool</b> to slice the bag open and get direct access to the contents."})
 	var/image/fluid_image = null
 	var/image/image_inj_dr = null
 	var/mob/living/carbon/human/patient = null
@@ -216,6 +217,7 @@
 	icon_state = "IVstand"
 	anchored = 0
 	density = 0
+	HELP_MESSAGE_OVERRIDE({"You can add/remove an <b>IV drip</b> to/from the stand. Click-drag the stand onto someone to insert the drip's needle. The stand can be dragged onto a surgery table for compactness."})
 	var/image/fluid_image = null
 	var/image/bag_image = null
 	var/obj/item/reagent_containers/iv_drip/IV = null

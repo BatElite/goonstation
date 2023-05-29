@@ -16,6 +16,7 @@ obj/item/engivac
 	icon_state = "engivac"
 	inhand_image_icon = 'icons/mob/inhand/hand_tools.dmi'
 	item_state = "engivac_"
+	HELP_MESSAGE_OVERRIDE({"To use, you must load a <b>toolbox</b> into the vacuum. <b>Use in hand</b> to change its settings, then it will automatically pick and lay things as you walk. The vacuum can be used hand-held or while worn on your back or belt."})
 	flags = ONBELT | ONBACK | EQUIPPED_WHILE_HELD //engis & mechs will want to keep their toolbelts on with this, most other crew their backpacks. Hope this doesn't break stuff.
 	w_class = W_CLASS_BULKY
 

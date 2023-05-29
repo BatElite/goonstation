@@ -16,6 +16,7 @@
 	icon_state = "pod_0_lowmeat"
 	object_flags = CAN_REPROGRAM_ACCESS
 	mats = list("MET-1"=35, "honey"=5)
+	HELP_MESSAGE_OVERRIDE({"You can add reagents from beakers to the pod. An ID with <b>medical equipment</b> access can unlock the pod mid-cloning, after which you can eject the occupant through the right-click menu."})
 	var/meat_used_per_tick = DEFAULT_MEAT_USED_PER_TICK
 	var/mob/living/occupant
 	var/heal_level = 10 //The clone is released once its health^W damage (maxHP - HP) reaches this level.

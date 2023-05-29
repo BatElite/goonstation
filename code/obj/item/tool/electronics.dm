@@ -882,6 +882,8 @@
 	tool_flags = TOOL_SAWING
 	flags = ONBELT | FPRINT | TABLEPASS
 	w_class = W_CLASS_NORMAL
+	HELP_MESSAGE_OVERRIDE({"To use, hit a machine you want to deconstruct with the deconstruction device, then use appropriate tools on the icons that pop over the machine.
+		Once all of those are gone, finish the job with this tool."})
 
 	proc/finish_decon(atom/target,mob/user) // deconstructing work
 		if (!isobj(target))
