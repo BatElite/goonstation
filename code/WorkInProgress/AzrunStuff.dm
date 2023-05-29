@@ -193,7 +193,7 @@
 					stuffnearby += X
 			if(length(stuffnearby))
 				var/mob/living/target = pick(stuffnearby)
-				var/datum/callback/C = new(src, .proc/alter_projectile)
+				var/datum/callback/C = new(src,  PROC_REF(alter_projectile))
 				if(prob(10))
 					shoot_projectile_ST(POT, projectile, get_step(target, pick(ordinal)), alter_proj=C)
 				else

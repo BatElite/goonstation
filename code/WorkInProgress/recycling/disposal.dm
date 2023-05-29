@@ -177,6 +177,7 @@
 	anchored = 1
 	density = 0
 	text = ""
+	HELP_MESSAGE_OVERRIDE({"You can use a <b>welding tool</b> to detach the pipe to move it around."})
 
 	level = 1			// underfloor only
 	var/dpdir = 0		// bitmask of pipe directions
