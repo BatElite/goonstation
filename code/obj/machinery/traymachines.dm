@@ -30,7 +30,7 @@ ABSTRACT_TYPE(/obj/machinery/traymachine)
 	name = "tray machine"
 	desc = "This thing sure has a big tray that goes vwwwwwwsh when you slide it in and out."
 	icon = 'icons/obj/machines/tray_machines.dmi'
-	icon_state = "morgue1"
+	icon_state = "morgue_w-closed"
 	density = TRUE
 	anchored = TRUE
 	power_usage = TRAYMACHINE_DEFAULT_DRAW
@@ -45,9 +45,9 @@ ABSTRACT_TYPE(/obj/machinery/traymachine)
 	var/list/non_tray_contents = list()
 
 	//icon_state names for the default update proc, unused if you override that and don't use them yourself.
-	var/icon_trayopen = "morgue0"
-	var/icon_unoccupied = "morgue1"
-	var/icon_occupied = "morgue2" //When the machine has things in contents that aren't the tray or in non_tray_contents
+	var/icon_trayopen = "morgue_w-open"
+	var/icon_unoccupied = "morgue_w-closed"
+	var/icon_occupied = "morgue_w-full" //When the machine has things in contents that aren't the tray or in non_tray_contents
 
 
 /obj/machinery/traymachine/New()
@@ -268,16 +268,21 @@ ABSTRACT_TYPE(/obj/machine_tray)
 /obj/machinery/traymachine/morgue
 	name = "morgue"
 	desc = "A big machine for storing corpses in, preventing decomposure."
-	icon_state = "morgue1"
+	icon_state = "morgue_w-closed"
 
 	tray_type = /obj/machine_tray/morgue
 
 	dir = EAST //IDK why morgues default east but
 
-	icon_trayopen = "morgue0"
-	icon_unoccupied = "morgue1"
-	icon_occupied = "morgue2"
+	icon_trayopen = "morgue_w-open"
+	icon_unoccupied = "morgue_w-closed"
+	icon_occupied = "morgue_w-full"
 
+/obj/machinery/traymachine/morgue/black
+	icon_state = "morgue_b-closed"
+	icon_trayopen = "morgue_b-open"
+	icon_unoccupied = "morgue_b-closed"
+	icon_occupied = "morgue_b-full"
 
 //-----------------------------------------------------
 /*~ Crematorium ~*/
