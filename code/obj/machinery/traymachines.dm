@@ -145,7 +145,7 @@ ABSTRACT_TYPE(/obj/machinery/traymachine)
 			continue
 		AM.set_loc(T)
 		AM.pixel_x = 28 * (T_src.x - T.x) // 28 instead of 32 to obscure the double handle on morgues
-		AM.pixel_y = 28 * (T_src.y - T.y)
+		AM.pixel_y = 20 * (T_src.y - T.y) // 20 helps bridge some perspective-induced layering artifacts (among which that at 28px, the tray starts peeking out the bottom of north-facing morgues oops)
 
 		var/orig_layer = AM.layer
 		if (AM != my_tray)
