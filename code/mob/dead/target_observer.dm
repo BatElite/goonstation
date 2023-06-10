@@ -91,7 +91,9 @@
 		//If there's an existing target we should clean up after ourselves
 		if(src.target == target)
 			return //No sense in doing all this if we're not changing targets
+		var/area/old_area
 		if(src.target)
+			old_area = get_area(src.target)
 			var/mob/living/M = src.target
 			src.target = null
 			M.removeOverlaysClient(src.client)
@@ -106,6 +108,7 @@
 		//Let's have a proc so as to make it easier to reassign an observer.
 		src.target = target
 		src.set_loc(target)
+		src.client?.parallax_controller?.update_area_parallax_layers(get_area(src.target), old_area)
 
 		set_eye(target)
 

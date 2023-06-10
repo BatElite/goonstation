@@ -245,6 +245,7 @@ datum/special_respawn
 		if(istype(T, /turf/simulated/floor))
 			var/turf/simulated/floor/F = T
 			if (was_eaten)
+				F.icon = 'icons/turf/floors.dmi'
 				F.icon_state = "bloodfloor_2"
 				F.name = "fleshy floor"
 			else

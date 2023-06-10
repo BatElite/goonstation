@@ -9,5 +9,7 @@
 #define CLIENT_IMAGE_GROUP_ARREST_ICONS "arrest_icons"
 #define CLIENT_IMAGE_GROUP_HEALTH_MON_ICONS "health_mon_icons"
 #define CLIENT_IMAGE_GROUP_PACKETVISION "packetvision"
+#define CLIENT_IMAGE_GROUP_GHOSTDRONE "ghostdrone_static_icons"
+#define CLIENT_IMAGE_GROUP_MOB_OVERLAY "mob_overlay"
 
 #define CAM_RANGE 7

@@ -74,6 +74,7 @@ var/list/server_toggles_tab_verbs = list(\
 /datum/admins/proc/toggleautoending,\
 /datum/admins/proc/toggleaprilfools,\
 /datum/admins/proc/togglespeechpopups,\
+/datum/admins/proc/toggle_global_parallax,\
 /datum/admins/proc/togglemonkeyspeakhuman,\
 /datum/admins/proc/togglelatetraitors,\
 /datum/admins/proc/togglesoundwaiting,\
@@ -804,6 +805,20 @@ client/proc/toggle_ghost_respawns()
 	logTheThing("admin", usr, null, "toggled speech popups [speechpopups ? "on" : "off"].")
 	logTheThing("diary", usr, null, "toggled speech popups [speechpopups ? "on" : "off"].", "admin")
 	message_admins("[key_name(usr)] toggled speech popups [speechpopups ? "on" : "off"]")
+
+/datum/admins/proc/toggle_global_parallax()
+	SET_ADMIN_CAT(ADMIN_CAT_SERVER_TOGGLES)
+	set name = "Toggle Global Parallax"
+	set desc = "Toggles parallax on or off globally. Toggling on respects client preferences in regard to parallax."
+
+	parallax_enabled = !parallax_enabled
+
+	for (var/client/client in clients)
+		client.toggle_parallax()
+
+	logTheThing("admin", src, "toggled parallax [parallax_enabled ? "on" : "off"] globally.")
+	logTheThing("diary", src, "toggled parallax [parallax_enabled ? "on" : "off"] globally.", "admin")
+	message_admins("[key_name(src)] toggled parallax [parallax_enabled ? "on" : "off"] globally.")
 
 /datum/admins/proc/togglemonkeyspeakhuman()
 	SET_ADMIN_CAT(ADMIN_CAT_SERVER_TOGGLES)

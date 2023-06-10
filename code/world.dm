@@ -520,14 +520,6 @@ var/f_color_selector_handler/F_Color_Selector
 	Z_LOG_DEBUG("World/Init", "Loading intraround jars...")
 	load_intraround_jars()
 
-	if (derelict_mode)
-		Z_LOG_DEBUG("World/Init", "Derelict mode stuff")
-		creepify_station()
-		voidify_world()
-		signal_loss = 80 // heh
-		bust_lights()
-		master_mode = "disaster" // heh pt. 2
-
 	//SpyStructures and caches live here
 	UPDATE_TITLE_STATUS("Updating cache")
 	Z_LOG_DEBUG("World/Init", "Building various caches...")
@@ -555,6 +547,14 @@ var/f_color_selector_handler/F_Color_Selector
 	Z_LOG_DEBUG("World/Init", "Setting up mining level...")
 	makeMiningLevel()
 	#endif
+
+	if (derelict_mode)
+		Z_LOG_DEBUG("World/Init", "Derelict mode stuff")
+		creepify_station()
+		voidify_world()
+		signal_loss = 80 // heh
+		bust_lights()
+		master_mode = "disaster" // heh pt. 2
 
 	UPDATE_TITLE_STATUS("Lighting up")
 	Z_LOG_DEBUG("World/Init", "RobustLight2 init...")

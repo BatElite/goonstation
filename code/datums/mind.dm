@@ -111,10 +111,8 @@ datum/mind
 				current.removeOverlaysClient(current.client)
 				tgui_process.on_transfer(current, new_character)
 				new_character.lastKnownIP = current.client.address
-				if(isghostdrone(src.current)) //clear the static overlays on death, qdel, being cloned, etc.
-					current.client.images.Remove(mob_static_icons)
 			current.mind = null
-			SEND_SIGNAL(src, COMSIG_MIND_DETACH_FROM_MOB, current)
+			SEND_SIGNAL(src, COMSIG_MIND_DETACH_FROM_MOB, current, new_character)
 
 		new_character.mind = src
 		current = new_character
@@ -217,7 +215,7 @@ datum/mind
 		src.store_memory("Time of death: [tod]", 0)
 		// stuff for critter respawns
 		src.last_death_time = world.timeofday
-	
+
 	/// Gets an existing antagonist datum of the provided ID role_id.
 	proc/get_antagonist(role_id)
 		for (var/datum/antagonist/A as anything in src.antagonists)
@@ -252,7 +250,7 @@ datum/mind
 				qdel(A)
 				return TRUE
 		return FALSE
-	
+
 	/// Removes ALL antagonists from this mind. Use with caution!
 	proc/wipe_antagonists()
 		for (var/datum/antagonist/A as anything in src.antagonists)

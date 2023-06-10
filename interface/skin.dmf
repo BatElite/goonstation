@@ -249,6 +249,13 @@ menu "menu"
 		is-checked = true
 		can-check = true
 		saved-params = "is-checked"
+	elem "toggle_parallax"
+		name = "&Parallax"
+		command = "toggle-parallax"
+		category = "&Effects"
+		is-checked = true
+		can-check = true
+		saved-params = "is-checked"
 	elem "set_tint"
 		name = "&View Tint"
 		command = "apply-view-tint"

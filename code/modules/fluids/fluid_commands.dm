@@ -167,6 +167,7 @@ client/proc/replace_space_exclusive()
 			T.color = ocean_color
 			LAGCHECK(LAG_REALTIME)
 
+		remove_all_parallax_layers()
 		message_admins("Finished space replace!")
 		map_currently_underwater = 1
 
@@ -200,11 +201,13 @@ client/proc/dereplace_space()
 					var/turf/orig = locate(F.x, F.y, F.z)
 					orig.ReplaceWith(/turf/space, FALSE, TRUE, FALSE, TRUE)
 				LAGCHECK(LAG_REALTIME)
+			restore_parallax_layers_to_default(Z_LEVEL_STATION)
 		else
 			for(var/turf/space/fluid/F in world)
 				var/turf/orig = locate(F.x, F.y, F.z)
 				orig.ReplaceWith(/turf/space, FALSE, TRUE, FALSE, TRUE)
 				LAGCHECK(LAG_REALTIME)
+			restore_parallax_layers_to_default()
 
 		message_admins("Finished space dereplace!")
 		map_currently_underwater = 0

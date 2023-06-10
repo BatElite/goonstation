@@ -45,12 +45,8 @@ var/global/area/current_battle_spawn = null
 				player.mind.special_role = ROLE_BATTLER
 				living_battlers.Add(player.mind)
 
-	for (var/turf/space/space in world)
-		LAGCHECK(LAG_LOW)
-		if(space.icon_state != "darkvoid")
-			space.icon_state = "darkvoid"
-			space.icon = 'icons/turf/floors.dmi'
-			space.name = "void"
+	generate_void()
+	map_settings.space_turf_replacement = /turf/simulated/floor/void
 
 	storm = new /datum/random_event/special/battlestorm()
 	dropper = new/datum/random_event/special/supplydrop()
@@ -141,7 +137,6 @@ var/global/area/current_battle_spawn = null
 		T = locate(world.maxx - 2, y, Z_LEVEL_STATION)	// Why is the Z change edge not at the actual edge??
 		T.ReplaceWith(/turf/unsimulated/wall/void, force = TRUE)
 	return 1
-
 
 	// Things we are skipping:
 	// Antag selection. Everyone is an antag!

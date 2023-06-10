@@ -138,6 +138,7 @@ var/global/derelict_mode = 0
 				LAGCHECK(LAG_LOW)
 				space.icon_state = "howlingsun"
 				space.icon = 'icons/misc/worlds.dmi'
+			remove_all_parallax_layers()
 			playsound_global(world, "sound/machines/lavamoon_plantalarm.ogg", 70)
 			SPAWN(1 DECI SECOND)
 				for(var/mob/living/carbon/human/H in mobs)
@@ -171,20 +172,18 @@ proc/voidify_world()
 	lobby_titlecard.set_pregame_html()
 
 	SPAWN(3 SECONDS)
-		for (var/turf/space/space in world)
-			LAGCHECK(LAG_LOW)
-			if(was_eaten)
+		if (was_eaten)
+			for (var/turf/space/space in world)
+				LAGCHECK(LAG_LOW)
 				if (space.icon_state != "acid_floor")
 					space.icon_state = "acid_floor"
 					space.icon = 'icons/misc/meatland.dmi'
 					space.name = "stomach acid"
-					if (space.z == 1)
+					if (space.z == Z_LEVEL_STATION)
 						new /obj/stomachacid(space)
-			else
-				if(space.icon_state != "darkvoid")
-					space.icon_state = "darkvoid"
-					space.icon = 'icons/turf/floors.dmi'
-					space.name = "void"
+			remove_all_parallax_layers()
+		else
+			generate_void(TRUE)
 		//var/obj/overlay/the_sun = locate("the_sun")
 		//if (istype(the_sun))
 		if (the_sun)

@@ -5329,7 +5329,9 @@ var/global/noir = 0
 	if (M.mind)
 		M.mind.damned = 0
 		M.mind.transfer_to(newM)
-	newM.Login()
+	else
+		newM.key = M.key
+		newM.Login()
 	newM.sight = SEE_TURFS //otherwise the HUD remains in the login screen
 	qdel(M)
 

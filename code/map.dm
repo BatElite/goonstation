@@ -63,6 +63,8 @@ var/global/list/mapNames = list(
 			if (!map_settings)
 				map_settings = new /datum/map_settings
 				CRASH("A mapName entry for '[src.name]' wasn't found!")
+
+			setup_z_level_parallax_settings()
 		..()
 
 //Setting maps to be underwater is handled in the map config file, aka [mapname].dm
@@ -75,6 +77,12 @@ var/global/list/mapNames = list(
 	var/goonhub_map = "https://goonhub.com/maps/cogmap"
 	var/arrivals_type = MAP_SPAWN_SHUTTLE
 	var/dir_fore = null
+
+	var/list/atom/movable/screen/parallax_layer/parallax_layers = list(
+		/atom/movable/screen/parallax_layer/space_1,
+		/atom/movable/screen/parallax_layer/space_2,
+		/atom/movable/screen/parallax_layer/asteroids_near/sparse,
+		)
 
 	var/walls = /turf/simulated/wall/auto
 	var/rwalls = /turf/simulated/wall/auto/reinforced
@@ -192,6 +200,13 @@ var/global/list/mapNames = list(
 	walls = /turf/simulated/wall/auto/supernorn
 	rwalls = /turf/simulated/wall/auto/reinforced/supernorn
 
+	parallax_layers = list(
+		/atom/movable/screen/parallax_layer/space_1,
+		/atom/movable/screen/parallax_layer/space_2,
+		/atom/movable/screen/parallax_layer/typhon/donut2,
+		/atom/movable/screen/parallax_layer/asteroids_near/sparse,
+		)
+
 	escape_dir = WEST
 
 	windows = /obj/window/auto
@@ -216,6 +231,13 @@ var/global/list/mapNames = list(
 	airlock_style = "pyro"
 	walls = /turf/simulated/wall/auto/jen
 	rwalls = /turf/simulated/wall/auto/reinforced/jen
+
+	parallax_layers = list(
+		/atom/movable/screen/parallax_layer/space_1,
+		/atom/movable/screen/parallax_layer/space_2,
+		/atom/movable/screen/parallax_layer/typhon/donut3,
+		/atom/movable/screen/parallax_layer/asteroids_near/sparse,
+		)
 
 	escape_dir = NORTH
 	default_shuttle = "donut3"
@@ -269,6 +291,14 @@ var/global/list/mapNames = list(
 	walls = /turf/simulated/wall/auto/supernorn
 	rwalls = /turf/simulated/wall/auto/reinforced/supernorn
 
+	parallax_layers = list(
+		/atom/movable/screen/parallax_layer/space_1,
+		/atom/movable/screen/parallax_layer/space_2,
+		/atom/movable/screen/parallax_layer/typhon/cogmap,
+		/atom/movable/screen/parallax_layer/planet/mundus,
+		/atom/movable/screen/parallax_layer/asteroids_near/sparse,
+		)
+
 	windows = /obj/window/auto
 	windows_thin = /obj/window/pyro
 	rwindows = /obj/window/auto/reinforced
@@ -311,6 +341,14 @@ var/global/list/mapNames = list(
 	goonhub_map = "https://goonhub.com/maps/cogmap2"
 	walls = /turf/simulated/wall/auto/supernorn
 	rwalls = /turf/simulated/wall/auto/reinforced/supernorn
+
+	parallax_layers = list(
+		/atom/movable/screen/parallax_layer/space_1,
+		/atom/movable/screen/parallax_layer/space_2,
+		/atom/movable/screen/parallax_layer/typhon/cogmap2,
+		/atom/movable/screen/parallax_layer/planet/iustitia,
+		/atom/movable/screen/parallax_layer/asteroids_near/sparse,
+		)
 
 	windows = /obj/window/auto
 	windows_thin = /obj/window/pyro
@@ -357,6 +395,11 @@ var/global/list/mapNames = list(
 	goonhub_map = "https://goonhub.com/maps/destiny"
 	arrivals_type = MAP_SPAWN_CRYO
 	dir_fore = NORTH
+
+	parallax_layers = list(
+		/atom/movable/screen/parallax_layer/space_1/south,
+		/atom/movable/screen/parallax_layer/space_2/south,
+		)
 
 	walls = /turf/simulated/wall/auto/supernorn
 	rwalls = /turf/simulated/wall/auto/reinforced/supernorn
@@ -502,6 +545,8 @@ var/global/list/mapNames = list(
 	style = "ship"
 	arrivals_type = MAP_SPAWN_CRYO
 
+	parallax_layers = list()
+
 	windows = /obj/window/auto
 	windows_thin = /obj/window/pyro
 	rwindows = /obj/window/auto/reinforced
@@ -579,6 +624,11 @@ var/global/list/mapNames = list(
 	arrivals_type = MAP_SPAWN_CRYO
 	dir_fore = NORTH
 
+	parallax_layers = list(
+		/atom/movable/screen/parallax_layer/space_1/west,
+		/atom/movable/screen/parallax_layer/space_2/west,
+		)
+
 	walls = /turf/simulated/wall/auto/supernorn
 	rwalls = /turf/simulated/wall/auto/reinforced/supernorn
 
@@ -616,6 +666,13 @@ var/global/list/mapNames = list(
 	goonhub_map = "https://goonhub.com/maps/kondaru"
 	walls = /turf/simulated/wall/auto/supernorn
 	rwalls = /turf/simulated/wall/auto/reinforced/supernorn
+
+	parallax_layers = list(
+		/atom/movable/screen/parallax_layer/space_1,
+		/atom/movable/screen/parallax_layer/space_2,
+		/atom/movable/screen/parallax_layer/typhon/kondaru,
+		/atom/movable/screen/parallax_layer/asteroids_far/kondaru,
+		)
 
 	arrivals_type = MAP_SPAWN_CRYO
 
@@ -855,6 +912,8 @@ var/global/list/mapNames = list(
 
 	arrivals_type = MAP_SPAWN_MISSILE
 
+	parallax_layers = list()
+
 	walls = /turf/simulated/wall/auto/supernorn
 	rwalls = /turf/simulated/wall/auto/reinforced/supernorn
 
@@ -947,6 +1006,12 @@ var/global/list/mapNames = list(
 	rwalls = /turf/simulated/wall/auto/reinforced/supernorn
 	style = "spess"
 
+	parallax_layers = list(
+		/atom/movable/screen/parallax_layer/space_1,
+		/atom/movable/screen/parallax_layer/space_2,
+		/atom/movable/screen/parallax_layer/asteroids_far,
+		/atom/movable/screen/parallax_layer/asteroids_near,
+		)
 
 	arrivals_type = MAP_SPAWN_CRYO
 
