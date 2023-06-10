@@ -595,6 +595,11 @@
 	sound_group = "mars"
 	sound_loop = 'sound/ambience/loop/Mars_Interior.ogg'
 	sound_loop_vol = 60
+	area_parallax_layers = list(
+		/atom/movable/screen/parallax_layer/foreground/dust,
+		/atom/movable/screen/parallax_layer/foreground/dust/sparse,
+		)
+	occlude_foreground_parallax_layers = TRUE
 
 /area/adventure/marsoutpost/New()
 	. = ..()
@@ -619,9 +624,10 @@
 	name = "Barren Planet"
 	icon_state = "yellow"
 
-	New()
+	occlude_foreground_parallax_layers = FALSE
+	/*New()
 		..()
-		overlays += image(icon = 'icons/turf/areas.dmi', icon_state = "dustverlay", layer = EFFECTS_LAYER_BASE)
+		overlays += image(icon = 'icons/turf/areas.dmi', icon_state = "dustverlay", layer = EFFECTS_LAYER_BASE)*/
 
 	Entered(atom/movable/O)
 		..()

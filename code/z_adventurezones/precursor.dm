@@ -19,6 +19,11 @@
 	skip_sims = 1
 	sims_score = 30
 	sound_group = "ice_moon"
+	area_parallax_layers = list(
+		/atom/movable/screen/parallax_layer/foreground/snow,
+		/atom/movable/screen/parallax_layer/foreground/snow/sparse,
+		)
+	occlude_foreground_parallax_layers = TRUE
 
 /area/adventure/upper_arctic/pod1
 	name = "Outpost Theta Pod One"
@@ -78,9 +83,10 @@
 	sound_environment = 15
 	skip_sims = 1
 	sims_score = 30
-	New()
+	occlude_foreground_parallax_layers = FALSE
+	/*New()
 		..()
-		overlays += image(icon = 'icons/turf/areas.dmi', icon_state = "snowverlay", layer = EFFECTS_LAYER_BASE)
+		overlays += image(icon = 'icons/turf/areas.dmi', icon_state = "snowverlay", layer = EFFECTS_LAYER_BASE)*/
 
 /area/adventure/upper_arctic/exterior/surface
 	name = "Ice Moon Surface"
