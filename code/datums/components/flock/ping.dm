@@ -8,6 +8,7 @@
 	var/outline_color = "#00ff9d"
 
 	Initialize()
+		. = ..()
 		if (!ismovable(parent) && !isturf(parent))
 			return COMPONENT_INCOMPATIBLE
 

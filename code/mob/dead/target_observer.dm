@@ -121,7 +121,7 @@
 				src.attach_hud(hud)
 
 		if (isobj(target))
-			src.RegisterSignal(target, list(COMSIG_PARENT_PRE_DISPOSING), .verb/stop_observing)
+			src.RegisterSignal(target, COMSIG_PARENT_PRE_DISPOSING, .verb/stop_observing)
 
 
 	verb

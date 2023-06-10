@@ -5,9 +5,10 @@ TYPEINFO(/datum/component/waddling)
 	initialization_args = list()
 
 /datum/component/waddling/Initialize()
+	. = ..()
 	if(!isliving(parent))
 		return COMPONENT_INCOMPATIBLE
-	RegisterSignal(parent, list(COMSIG_MOVABLE_MOVED), .proc/Waddle)
+	RegisterSignal(parent, COMSIG_MOVABLE_MOVED, .proc/Waddle)
 
 /datum/component/waddling/proc/Waddle()
 	var/mob/living/L = parent

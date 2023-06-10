@@ -87,7 +87,7 @@ proc/qdel(var/datum/O)
 
 	src.tag = null // not part of components but definitely should happen
 
-	signal_enabled = FALSE
+	//signal_enabled = FALSE
 	var/list/dc = datum_components
 	if(dc)
 		var/all_components = dc[/datum/component]

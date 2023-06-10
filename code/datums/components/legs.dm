@@ -6,6 +6,7 @@ TYPEINFO(/datum/component/legs)
 	initialization_args = list()
 
 /datum/component/legs/Initialize()
+	. = ..()
 	if(!istype(parent, /atom/movable))
 		return COMPONENT_INCOMPATIBLE
 	legs = new/obj{icon = 'icons/misc/SomepotatoArt.dmi'; pixel_y = -14; icon_state = "feet"}

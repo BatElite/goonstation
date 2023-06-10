@@ -18,6 +18,7 @@ TYPEINFO(/datum/component/bullet_holes)
 	var/list/cooldowns //datums don't have this inherently
 
 /datum/component/bullet_holes/Initialize(max_holes, req_damage)
+	. = ..()
 	if (!isatom(parent))
 		return COMPONENT_INCOMPATIBLE
 	src.max_holes = max_holes
