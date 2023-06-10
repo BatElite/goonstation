@@ -559,6 +559,7 @@ var/list/ai_emotions = list("Happy" = "ai_happy",\
 		logTheThing("combat", user, src, "removes [constructTarget(src,"combat")]'s brain at [log_loc(src)].") // Should be logged, really (Convair880).
 	else
 		src.visible_message("<span class='alert'><b>[src.name]'s</b> CPU unit is launched out of its core!</span>")
+	playsound(src, "sound/misc/boing/[rand(1,6)].ogg", 40, 1) //Feel that this would make killswitches better
 
 	// Stick the player (if one exists) in a ghost mob
 	src.death()
@@ -590,6 +591,10 @@ var/list/ai_emotions = list("Happy" = "ai_happy",\
 
 	if (!isdead(src))
 		boutput(user, "[src.name] is working! How did you even get here?")
+		return
+
+	if (!src.brain) //runtime prevention
+		boutput(user, "<span class='alert'>After poking the restart button you see sparks erupts from where the AI's processing unit should be, and then nothing happens afterwards.</span>")
 		return
 
 	if (src.turn_it_back_on())
