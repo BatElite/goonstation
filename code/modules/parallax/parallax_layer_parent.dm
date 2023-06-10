@@ -68,7 +68,7 @@
 				src.scroll_speed = params["scroll_speed"]
 			if (params["scroll_angle"])
 				src.scroll_angle = params["scroll_angle"]
-			if (params["tessellate"])
+			if (!isnull(params["tessellate"])) //Look man "if (params["tessellate"])" isn't gonna work when false = 0
 				src.tessellate = params["tessellate"]
 			if (params["initial_x_coordinate"])
 				src.initial_x_coordinate = params["initial_x_coordinate"]
