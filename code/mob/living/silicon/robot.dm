@@ -97,7 +97,7 @@
 	var/image/i_details
 
 	// moved up to silicon.dm
-	killswitch = 0
+	killswitch = FALSE
 	killswitch_at = 0
 	weapon_lock = 0
 	weaponlock_time = 120
@@ -2549,7 +2549,7 @@
 			if(killswitch_at <= TIME)
 				if(src.client)
 					boutput(src, "<span class='alert'><B>Killswitch Activated!</B></span>")
-				killswitch = 0
+				killswitch = FALSE
 				logTheThing("combat", src, null, "has died to the killswitch robot self destruct protocol")
 
 				// Pop the head ompartment open and eject the brain

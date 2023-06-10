@@ -1352,7 +1352,7 @@ var/list/ai_emotions = list("Happy" = "ai_happy",\
 		if(killswitch_time <= 0)
 			if(src.client)
 				boutput(message_mob, "<span class='alert'><B>Killswitch Process Complete!</B></span>")
-			killswitch = 0
+			killswitch = FALSE
 			logTheThing("combat", src, null, "has died to the killswitch robot self destruct protocol")
 			// doink
 			src.eject_brain()

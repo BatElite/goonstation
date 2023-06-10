@@ -1,15 +1,21 @@
 /mob/living/silicon
 	mob_flags = USR_DIALOG_UPDATES_RANGE
 	gender = NEUTER
-	var/syndicate = 0 // Do we get Syndicate laws?
-	var/syndicate_possible = 0 //  Can we become a Syndie robot?
-	var/emagged = 0 // Are we emagged, removing all laws?
-	var/emaggable = 0 // Can we be emagged?
+	/// Do we get Syndicate laws?
+	var/syndicate = 0
+	/// Can we become a Syndie robot?
+	var/syndicate_possible = 0
+	/// Are we emagged, removing all laws?
+	var/emagged = 0
+	/// Can we be emagged?
+	var/emaggable = 0
 	robot_talk_understand = 1
 	see_infrared = 1
 	var/list/req_access = list()
 
-	var/killswitch = 0
+	///Is our killswitch active?
+	var/killswitch = FALSE
+	///Timestamp when the killswitch should trigger
 	var/killswitch_at = 0
 	var/weapon_lock = 0
 	var/weaponlock_time = 120

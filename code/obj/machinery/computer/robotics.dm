@@ -54,13 +54,13 @@
 				//dat += "<A href='?src=\ref[src];lock=2;ai=\ref[A]'>Cancel Lockout</A><BR>"
 
 			if(!A.killswitch)
-				dat += "<A href='?src=\ref[src];gib=1;ai=\ref[A]'>Kill Switch AI *Swipe ID*</A><BR>"
+				dat += "<A href='?src=\ref[src];gib=start;ai=\ref[A]'>Kill Switch AI *Swipe ID*</A><BR>"
 			else
 				var/timeleft = round((A.killswitch_at - TIME)/10, 1)
 				timeleft = "[(timeleft / 60) % 60]:[add_zero(num2text(timeleft % 60), 2)]"
 				dat += "Time left:[timeleft]"
 				if (!isAI(user))
-					dat += " | <A href='?src=\ref[src];gib=2;ai=\ref[A]'>Cancel</A>"
+					dat += " | <A href='?src=\ref[src];gib=stop;ai=\ref[A]'>Cancel</A>"
 				dat += "<BR>"
 
 		dat += "<BR> Connected Cyborgs<BR>"
@@ -88,18 +88,18 @@
 			if(isAI(user))
 				if(user == A || user == A.eyecam)
 					if(!R.weapon_lock)
-						dat += "<A href='?src=\ref[src];lock=1;bot=\ref[R]'>Lockdown Bot</A><BR>"
+						dat += "<A href='?src=\ref[src];lock=start;bot=\ref[R]'>Lockdown Bot</A><BR>"
 					else
 						dat += "Time left:[R.weaponlock_time] | "
-						dat += "<A href='?src=\ref[src];lock=2;bot=\ref[R]'>Cancel Lockdown</A><BR>"
+						dat += "<A href='?src=\ref[src];lock=stop;bot=\ref[R]'>Cancel Lockdown</A><BR>"
 			else if(!isrobot(user)&&!ishivebot(user))
 				if(!R.killswitch)
-					dat += "<A href='?src=\ref[src];gib=1;bot=\ref[R]'>Kill Switch *Swipe ID*</A><BR>"
+					dat += "<A href='?src=\ref[src];gib=start;bot=\ref[R]'>Kill Switch *Swipe ID*</A><BR>"
 				else
 					var/timeleft = round((R.killswitch_at - TIME)/10, 1)
 					timeleft = "[(timeleft / 60) % 60]:[add_zero(num2text(timeleft % 60), 2)]"
 					dat += "Time left:[timeleft] | "
-					dat += "<A href='?src=\ref[src];gib=2;bot=\ref[R]'>Cancel</A><BR>"
+					dat += "<A href='?src=\ref[src];gib=stop;bot=\ref[R]'>Cancel</A><BR>"
 			dat += "*----------*<BR>"
 
 	var/found_drones = FALSE
@@ -142,7 +142,7 @@
 					else
 						boutput(usr, "<span class='alert'>Access Denied.</span>")
 
-			if("1")
+			if("start")
 				var/obj/item/card/id/I = usr.equipped()
 				if (istype(I))
 					if(src.check_access(I))
@@ -166,17 +166,17 @@
 					else
 						boutput(usr, "<span class='alert'>Access Denied.</span>")
 
-			if("2")
+			if("stop")
 				if(istype(R))
 					R.killswitch_at = 0
-					R.killswitch = 0
+					R.killswitch = FALSE
 					message_admins("<span class='alert'>[key_name(usr)] has stopped the robot self destruct on [key_name(R, 1, 1)].</span>")
 					logTheThing("combat", usr, R, "has stopped the robot killswitch process on [constructTarget(R,"combat")].")
 					if(R.client)
 						boutput(R, "<span class='notice'><b>Killswitch process deactivated.</b></span>")
 				else if(istype(A))
 					A.killswitch_at = 0
-					A.killswitch = 0
+					A.killswitch = FALSE
 					var/mob/message = A.get_message_mob()
 					message_admins("<span class='alert'>[key_name(usr)] has stopped the AI self destruct on [key_name(message, 1, 1)].</span>")
 					logTheThing("combat", usr, message, "has stopped the AI killswitch process on [constructTarget(message,"combat")].")
@@ -186,7 +186,7 @@
 
 	if (href_list["lock"])
 		switch(href_list["lock"])
-			if("1")
+			if("start")
 				if(istype(R))
 					if(R.client)
 						if (R.emagged)
@@ -216,7 +216,7 @@
 					else
 						boutput(usr, "<span class='alert'>Access Denied.</span>")
 
-			if("2")
+			if("stop")
 				if(istype(R))
 					if(R.emagged) return
 					if(R.client)
