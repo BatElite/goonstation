@@ -440,6 +440,21 @@ proc/debug_map_apc_count(delim,zlim)
 				img.app.desc = "-unsimulated-"
 				img.app.color = "#202020"
 	*/
+	atmos_superconducting
+		name = "atmos superconducting turfs"
+		help = "Green if the turf is superconducting, red if not but simulated."
+		GetInfo(var/turf/theTurf, var/image/debugoverlay/img)
+			var/turf/simulated/sim = theTurf
+			if(istype(sim, /turf/simulated))//byondood
+				if(sim in air_master.active_super_conductivity)
+					img.app.color = "#33ff33"
+					//img.app.desc = "No Atmos Group<br/>[MOLES_REPORT(sim)]Temperature=[sim.temperature]"
+				else
+					img.app.color = "#ff3333"
+					//img.app.desc = "No Atmos Group<br/>[MOLES_REPORT(sim)]Temperature=[sim.temperature]"
+			else
+				img.app.desc = "-unsimulated-"
+				img.app.color = "#202020"
 
 	atmos_status
 		name = "atmos status"

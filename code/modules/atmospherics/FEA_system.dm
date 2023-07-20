@@ -195,9 +195,11 @@ var/global/total_gas_mixtures = 0
 /datum/controller/air_system/proc/process()
 	current_cycle++
 
+	//Space replace turfs that are waiting to do so. Must happen before is_busy is set or these turfs just don't and re-add themselves to the list
 	process_tiles_to_space()
-	is_busy = TRUE
+	is_busy = TRUE //Prevent turf conversion to space until we're done
 
+	//If there's no explosions currently being processed, process tile & airgroup updates
 	if(!explosions.exploding)
 		if(groups_to_rebuild.len > 0)
 			process_rebuild_select_groups()
@@ -207,15 +209,18 @@ var/global/total_gas_mixtures = 0
 			process_update_tiles()
 		LAGCHECK(LAG_REALTIME)
 
+	//Process normal airgroups (both group processing and not, so long as a turf is part of an airgroup it happens in here)
 	process_groups()
 	LAGCHECK(LAG_REALTIME)
 
+	//Process turfs that are not part of an airgroup and are active (Generally open doors and lone floors adjacent to space)
 	process_singletons()
 	LAGCHECK(LAG_REALTIME)
 
 	process_super_conductivity()
 	LAGCHECK(LAG_REALTIME)
 
+	//Moving things around due to air pressure
 	process_high_pressure_delta()
 	LAGCHECK(LAG_REALTIME)
 
@@ -224,7 +229,7 @@ var/global/total_gas_mixtures = 0
 			AG.check_regroup()
 			LAGCHECK(LAG_REALTIME)
 
-	is_busy = FALSE
+	is_busy = FALSE //Allow turf conversion to space
 	return 1
 
 //Used by process()

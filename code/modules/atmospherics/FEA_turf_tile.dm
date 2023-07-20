@@ -253,8 +253,8 @@ proc/filter_out_hotly_processed_turfs()
 			gas_icon_overlay = null
 
 
-#ifdef ATMOS_ARCHIVING
 /turf/simulated/proc/archive()
+#ifdef ATMOS_ARCHIVING
 	if(air) //For open space like floors
 		air.archive()
 
@@ -458,7 +458,6 @@ proc/filter_out_hotly_processed_turfs()
 
 								else
 									air.temperature_share(modeled_neighbor.air, WINDOW_HEAT_TRANSFER_COEFFICIENT)
-				//			boutput(world, "OPEN, OPEN")
 
 						else //Solid but neighbor is open
 							if(modeled_neighbor.parent && modeled_neighbor.parent.group_processing)
@@ -468,7 +467,6 @@ proc/filter_out_hotly_processed_turfs()
 									modeled_neighbor.air.temperature_turf_share(src, modeled_neighbor.thermal_conductivity)
 							else
 								modeled_neighbor.air.temperature_turf_share(src, modeled_neighbor.thermal_conductivity)
-				//			boutput(world, "SOLID, OPEN")
 
 					else
 						if(air) //Open but neighbor is solid
@@ -478,11 +476,9 @@ proc/filter_out_hotly_processed_turfs()
 									air.temperature_turf_share(modeled_neighbor, modeled_neighbor.thermal_conductivity)
 							else
 								air.temperature_turf_share(modeled_neighbor, modeled_neighbor.thermal_conductivity)
-				//			boutput(world, "OPEN, SOLID")
 
 						else //Both tiles are solid
 							share_temperature_mutual_solid(modeled_neighbor, modeled_neighbor.thermal_conductivity)
-				//			boutput(world, "SOLID, SOLID")
 
 					modeled_neighbor.consider_superconductivity()
 
