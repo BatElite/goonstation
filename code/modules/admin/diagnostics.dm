@@ -422,7 +422,24 @@ proc/debug_map_apc_count(delim,zlim)
 				img.app.desc = "-unsimulated-"
 				img.app.color = "#202020"
 
-
+	//Nothing really wrong with this one I just only needed it once and don't want it cluttering up the menu
+	/*
+	atmos_singletons
+		name = "atmos active singletons"
+		help = "Green if the turf is an active singleton, red if not but simulated."
+		GetInfo(var/turf/theTurf, var/image/debugoverlay/img)
+			var/turf/simulated/sim = theTurf
+			if(istype(sim, /turf/simulated))//byondood
+				if(sim in air_master.active_singletons)
+					img.app.color = "#33ff33"
+					//img.app.desc = "No Atmos Group<br/>[MOLES_REPORT(sim)]Temperature=[sim.temperature]"
+				else
+					img.app.color = "#ff3333"
+					//img.app.desc = "No Atmos Group<br/>[MOLES_REPORT(sim)]Temperature=[sim.temperature]"
+			else
+				img.app.desc = "-unsimulated-"
+				img.app.color = "#202020"
+	*/
 
 	atmos_status
 		name = "atmos status"
@@ -1302,7 +1319,7 @@ proc/info_overlay_choices()
 		if(usr.client.activeOverlay)
 			var/list/lparams = params2list(params)
 			var/offs = splittext(lparams["screen-loc"], ",")
-			if (!offs) //Sometimes there's no screen-loc parameter? IDK why but I'm sick of this runtime
+			if (!length(offs)) //Sometimes there's no screen-loc parameter? IDK why but I'm sick of this runtime
 				return
 			var/x = text2num(splittext(offs[1], ":")[1])
 			var/y = text2num(splittext(offs[2], ":")[1])
