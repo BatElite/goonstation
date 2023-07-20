@@ -195,6 +195,7 @@
 	proc/Translate(var/x = 0, var/y = 0)
 		src.transform = matrix(src.transform, x, y, MATRIX_TRANSLATE)
 
+	///Take an air group to maybe incorporate into some air group we have
 	proc/assume_air(datum/air_group/giver)
 		giver.dispose()
 		return null

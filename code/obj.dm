@@ -184,6 +184,7 @@
 	proc/pixelaction(atom/target, params, mob/user, reach)
 		return 0
 
+	///Make it our location's problem (probably a turf)
 	assume_air(datum/air_group/giver)
 		if (loc)
 			return loc.assume_air(giver)

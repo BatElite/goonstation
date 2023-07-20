@@ -307,6 +307,7 @@
 	return_air()
 		return loc?.return_air()
 
+	///Make it our location's problem (probably a turf)
 	assume_air(datum/air_group/giver)
 		return loc?.assume_air(giver)
 

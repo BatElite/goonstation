@@ -1302,7 +1302,8 @@ proc/info_overlay_choices()
 		if(usr.client.activeOverlay)
 			var/list/lparams = params2list(params)
 			var/offs = splittext(lparams["screen-loc"], ",")
-
+			if (!offs) //Sometimes there's no screen-loc parameter? IDK why but I'm sick of this runtime
+				return
 			var/x = text2num(splittext(offs[1], ":")[1])
 			var/y = text2num(splittext(offs[2], ":")[1])
 			var/image/im = usr.client.infoOverlayImages["[x]-[y]"]
