@@ -217,6 +217,7 @@ var/global/total_gas_mixtures = 0
 	process_singletons()
 	LAGCHECK(LAG_REALTIME)
 
+	//Hot turfs spreading their heat around
 	process_super_conductivity()
 	LAGCHECK(LAG_REALTIME)
 

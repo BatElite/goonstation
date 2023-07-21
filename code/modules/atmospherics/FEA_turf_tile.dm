@@ -396,6 +396,7 @@ proc/filter_out_hotly_processed_turfs()
 
 	return 1
 
+///Hot turfs share their heat around more
 /turf/simulated/proc/super_conduct()
 	var/conductivity_directions = 0
 	if(gas_impermeable)
