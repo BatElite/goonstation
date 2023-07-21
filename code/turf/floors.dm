@@ -161,6 +161,11 @@
 				src.set_dir(pdir)
 			qdel(P)
 
+/turf/simulated/floor/ReplaceWith(what, keep_old_material, handle_air, handle_dir, force)
+	icon_old = icon_state // a hack but OH WELL, leagues better than before
+	name_old = name
+	return ..()
+
 
 /* ._.-'~'-._.-'~'-._.-'~'-._.-'~'-._.-'~'-._.-'~'-._.-'~'-._. */
 /*-=-=-=FUCK I AM TIRED OF MAPING WITH NON-PATHED FLOORS-=-=-=-*/

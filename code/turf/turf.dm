@@ -543,10 +543,6 @@ proc/generate_space_color()
 
 	#undef _OLD_GAS_VAR_DEF
 
-	if (istype(src, /turf/simulated/floor))
-		icon_old = icon_state // a hack but OH WELL, leagues better than before
-		name_old = name
-
 	//experimental
 	#ifndef SIMPLELIGHT_STAR_LIGHT
 	var/init_LumR = initial(src.RL_LumR)
