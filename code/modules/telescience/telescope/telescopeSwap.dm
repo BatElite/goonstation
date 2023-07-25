@@ -1,3 +1,6 @@
+//This whole file is about an area that loads zones dynamically. /area/swap and the lower left corner mark used to occupy a chunk of upper right Z2.
+//I didn't test it and AFAIK no zones were ever made for it, and the region allocator is a more flexible replacement so in the dusty corner it does.
+
 /obj/swapAreaEntry
 	name = "entry point"
 	icon = 'icons/obj/stationobjs.dmi'
