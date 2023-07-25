@@ -139,7 +139,7 @@ var/global/datum/region_allocator/region_allocator = new
 		for(var/turf/T in REGION_TILES(src))
 			var/target_type = turf_on_border(T) ? edge_turf : main_turf
 			T = T.ReplaceWith(target_type, FALSE, FALSE, FALSE, force=TRUE)
-			if(!isnull(main_area))
+			if(!isnull(main_area) && T)
 				main_area.contents += T
 			for(var/atom/movable/AM in T)
 				if(!istype(AM, /obj/overlay/tile_effect))
@@ -220,7 +220,9 @@ var/global/datum/region_allocator/region_allocator = new
 
 	proc/add_z_level()
 		RETURN_TYPE(/datum/region_node)
+		global.dont_init_space = TRUE
 		world.setMaxZ(world.maxz + 1)
+		global.dont_init_space = FALSE
 		var/size = min(world.maxx, world.maxy)
 		. = new/datum/region_node(1, 1, world.maxz, size, parent=null)
 

@@ -219,6 +219,8 @@
 
 /turf/space/New()
 	..()
+	if(global.dont_init_space)
+		return
 	if (icon_state == "placeholder") icon_state = "[rand(1,25)]"
 	if (icon_state == "aplaceholder")
 		icon_state = "a[rand(1,10)]"
@@ -682,9 +684,13 @@ proc/generate_space_color()
 
 	#ifndef SIMPLELIGHT_STAR_LIGHT
 	if (dif_LumR || dif_LumG || dif_LumB) //If there's a difference between the inbaked RL values of the two turf types, update tiles reliant on this turf
-		RL_UPDATE_LIGHT(get_step(new_turf, WEST))
-		RL_UPDATE_LIGHT(get_step(new_turf, SOUTH))
-		RL_UPDATE_LIGHT(get_step(new_turf, SOUTHWEST))
+		if (src.x > 1)
+			RL_UPDATE_LIGHT(get_step(new_turf, WEST))
+			if (src.y > 1)
+				RL_UPDATE_LIGHT(get_step(new_turf, SOUTHWEST))
+		if (src.y > 1)
+			RL_UPDATE_LIGHT(get_step(new_turf, SOUTH))
+
 	#endif
 
 	//The following is required for when turfs change opacity during replace. Otherwise nearby lights will not be applying to the correct set of tiles.

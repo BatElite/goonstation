@@ -50,6 +50,8 @@
 
 	New()
 		..()
+		if(global.dont_init_space) //IDK if this is correct here
+			return
 		var/area/A = loc
 
 		#ifdef UNDERWATER_MAP //FUCK THIS SHIT. NO FULLBRIGHT ON THE MINING LEVEL, I DONT CARE.

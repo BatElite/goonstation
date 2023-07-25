@@ -60,7 +60,8 @@
 
 	New()
 		..()
-
+		if(global.dont_init_space)
+			return
 		if (randomIcon)
 			switch(rand(1,3))
 				if(1)
