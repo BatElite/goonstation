@@ -10177,6 +10177,9 @@
 /area/station/hallway/primary/east)
 "aDF" = (
 /obj/disposalpipe/segment,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/stairs{
 	dir = 1;
 	icon_state = "Stairs_wide"
@@ -51826,9 +51829,6 @@
 /obj/submachine/seed_manipulator{
 	dir = 8
 	},
-/obj/machinery/light{
-	dir = 4
-	},
 /turf/simulated/floor/green/corner{
 	dir = 4
 	},
@@ -60077,9 +60077,6 @@
 /obj/submachine/seed_manipulator{
 	dir = 8
 	},
-/obj/machinery/light{
-	dir = 4
-	},
 /turf/simulated/floor/green/corner,
 /area/station/hydroponics/bay)
 "rFM" = (
@@ -62167,6 +62164,9 @@
 /turf/simulated/floor/plating,
 /area/station/maintenance/northeast)
 "uqe" = (
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/stairs{
 	icon_state = "Stairs2_wide"
 	},
@@ -126943,7 +126943,7 @@ adC
 adC
 adC
 avj
-apZ
+srq
 arn
 arn
 auc
@@ -126956,7 +126956,7 @@ avj
 xiw
 arn
 arn
-aHw
+srq
 avj
 adC
 adC
@@ -127245,7 +127245,7 @@ adC
 adC
 adC
 avj
-apZ
+srq
 arn
 arn
 fnq
@@ -127258,7 +127258,7 @@ nhn
 fnq
 arn
 arn
-aHw
+srq
 avj
 adC
 adC
