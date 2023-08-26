@@ -8,12 +8,12 @@
 
 	south
 		parallax_value = 0.005
-		scroll_speed = 240
+		scroll_speed = 720
 		scroll_angle = 180
 
 	west
 		parallax_value = 0.005
-		scroll_speed = 240
+		scroll_speed = 720
 		scroll_angle = 270
 
 /atom/movable/screen/parallax_layer/space_2
@@ -22,11 +22,11 @@
 	blend_mode = BLEND_ADD
 
 	south
-		scroll_speed = 240
+		scroll_speed = 720
 		scroll_angle = 180
 
 	west
-		scroll_speed = 240
+		scroll_speed = 720
 		scroll_angle = 270
 
 
