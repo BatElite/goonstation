@@ -20,6 +20,7 @@
 	power_level = SHIELD_BLOCK_GAS //1 for atmos shield, 2 for liquid, 3 for solid material
 	var/max_power = SHIELD_BLOCK_ALL
 	var/min_power = SHIELD_BLOCK_GAS
+	display_active = "energyShieldOn"
 	min_range = 1
 	max_range = 4
 	direction = "dir"
@@ -27,7 +28,6 @@
 
 	New()
 		..()
-		display_active.icon_state = "energyShieldOn"
 		src.power_usage = 5
 
 	get_desc(dist, mob/user)
@@ -112,13 +112,14 @@
 
 		// update_nearby_tiles()
 		playsound(src.loc, src.sound_on, 50, 1)
+		//Lightening these compared to the forcefields for visual interest
 		if (src.power_level == 1)
-			display_active.color = "#0000FA"
+			display_color = "#99E8FA"
 		else if (src.power_level == 2)
-			display_active.color = "#00FF00"
+			display_color = "#DFFF00"
 		else
-			display_active.color = "#FA0000"
-		build_icon()
+			display_color = "#FACC55"
+		src.UpdateIcon()
 
 	//Changes shield orientation based on direction the generator is facing
 	proc/update_orientation()
@@ -176,8 +177,9 @@
 		src.active = TRUE
 
 		playsound(src.loc, src.sound_on, 50, 1)
-		display_active.color = "#00FF00"
-		build_icon()
+		//emission sprite is already green
+		//display_color = "#DFFF00"
+		src.UpdateIcon()
 
 #undef SHIELD_BLOCK_GAS
 #undef SHIELD_BLOCK_FLUID

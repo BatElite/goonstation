@@ -29,4 +29,4 @@
 		src.anchored = 1
 		src.active = 1
 		playsound(src.loc, src.sound_on, 50, 1)
-		build_icon()
+		src.UpdateIcon()

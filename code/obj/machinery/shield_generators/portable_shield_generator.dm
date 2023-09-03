@@ -18,34 +18,31 @@
 	var/max_range = 6
 	var/battery_level = 0
 	var/power_level = 1	//unused in meteor, used in energy shield
-	var/image/display_active = null
-	var/image/display_battery = null
-	var/image/display_panel = null
+	var/display_active = "on"
+	var/display_color = "#ffffff"
 	var/sound/sound_on = "sound/effects/shielddown.ogg"
 	var/sound/sound_off = "sound/effects/shielddown2.ogg"
 	var/sound/sound_shieldhit = "sound/impact_sounds/Energy_Hit_1.ogg"
 	var/sound/sound_battwarning = "sound/machines/pod_alarm.ogg"
 	var/list/deployed_shields = list()
-	var/direction = ""	//for building the icon, always north or directional
+	//Gets appended to sprite states,
+	var/direction = ""
 	var/connected = 0	//determine if gen is wrenched over a wire.
 	var/backup = 0		//if equip power went out while connected to wire, this should be true. Used to automatically turn gen back on if power is restored
 	var/first = 0		//tic when the power goes out.
 	New()
 		PCEL = new /obj/item/cell/supercell(src)
 		PCEL.charge = PCEL.maxcharge
-
+		/*
 		src.display_active = image('icons/obj/meteor_shield.dmi', "on")
 		src.display_battery = image('icons/obj/meteor_shield.dmi', "")
-		src.display_panel = image('icons/obj/meteor_shield.dmi', "")
+		src.display_panel = image('icons/obj/meteor_shield.dmi', "")*/
 		..()
 
 	disposing()
 		shield_off(1)
-		PCEL?.dispose()
+		qdel(PCEL)
 		PCEL = null
-		display_active = null
-		display_battery = null
-		display_panel = null
 		sound_on = null
 		sound_off = null
 		sound_battwarning = null
@@ -115,7 +112,7 @@
 				src.shield_on()
 
 			src.battery_level = 3
-			src.build_icon()
+			src.UpdateIcon()
 
 			return
 		else //connected grid has no power
@@ -144,7 +141,7 @@
 
 		if(current_battery_level != src.battery_level)
 			src.battery_level = current_battery_level
-			src.build_icon()
+			src.UpdateIcon()
 			if(src.battery_level == 1)
 				playsound(src.loc, src.sound_battwarning, 50, 1)
 				src.visible_message("<span class='alert'>The <b>[src.name] emits a low battery alarm!</b></span>")
@@ -207,7 +204,7 @@
 						src.visible_message("<b>[user.name]</b> powers up the [src.name].")
 					else
 						boutput(user, "The [src.name]'s battery light flickers briefly.")
-		build_icon()
+		src.UpdateIcon()
 
 	attackby(obj/item/W, mob/user)
 		if(ispryingtool(W))
@@ -251,37 +248,37 @@
 		else
 			..()
 
-		build_icon()
+		src.UpdateIcon()
 
 	attack_ai(mob/user as mob)
 		return attack_hand(user)
 
-	proc/build_icon()
-		src.overlays = null
+	update_icon(...)
 		if(src.coveropen)
-			if(istype(src.PCEL,/obj/item/cell/))
-				src.display_panel.icon_state = "panel-batt[direction]"
-			else
-				src.display_panel.icon_state = "panel-nobatt[direction]"
-
-			src.overlays += src.display_panel
+			UpdateOverlays(image(src.icon, istype(src.PCEL) ? "panel-batt[direction]" : "panel-nobatt[direction]"), "panel")
+		else
+			UpdateOverlays(null, "panel")
 
 		if(src.active)
-			src.overlays += src.display_active
+			var/image/display_img = image(src.icon, display_active)
+			display_img.color = display_color
+			UpdateOverlays(display_img, "emission")
 			if(istype(src.PCEL,/obj/item/cell))
 				var/charge_percentage = null
 				if(PCEL.charge > 0 && PCEL.maxcharge > 0)
 					charge_percentage = round((PCEL.charge/PCEL.maxcharge)*100)
 					switch(charge_percentage)
 						if(75 to 100)
-							src.display_battery.icon_state = "batt-3[direction]"
+							UpdateOverlays(image(src.icon, "batt-3[direction]"), "battery_light")
 						if(35 to 74)
-							src.display_battery.icon_state = "batt-2[direction]"
+							UpdateOverlays(image(src.icon, "batt-2[direction]"), "battery_light")
 						else
-							src.display_battery.icon_state = "batt-1[direction]"
+							UpdateOverlays(image(src.icon, "batt-1[direction]"), "battery_light")
 				else
-					src.display_battery.icon_state = "batt-3[direction]"
-				src.overlays += src.display_battery
+					UpdateOverlays(image(src.icon, "batt-3[direction]"), "battery_light")
+		else
+			UpdateOverlays(null, "emission")
+			UpdateOverlays(null, "battery_light")
 
 	//this method should be overridden in child. Currenlty just draws single tile meteor shield
 	proc/shield_on()
@@ -298,8 +295,7 @@
 		src.anchored = 1
 		src.active = 1
 		playsound(src.loc, src.sound_on, 50, 1)
-		build_icon()
-
+		src.UpdateIcon()
 
 	proc/shield_off(var/failed = 0)
 		for(var/obj/forcefield/S in src.deployed_shields)
@@ -317,7 +313,7 @@
 		if(failed)
 			src.visible_message("The <b>[src.name]</b> fails, and shuts down!")
 		playsound(src.loc, src.sound_off, 50, 1)
-		build_icon()
+		src.UpdateIcon()
 
 /*
 /Force field objects for various generators
