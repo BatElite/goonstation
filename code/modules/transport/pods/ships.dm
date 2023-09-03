@@ -78,10 +78,12 @@
 	checkhealth()
 		..()
 		if(health/maxhealth <= 0.25)
-			damaged = image("icon" = 'icons/obj/ship.dmi', "icon_state" = "saucer_damage", "layer" = MOB_LAYER)
-			overlays += damaged
+			UpdateOverlays(image("icon" = 'icons/obj/ship.dmi', "icon_state" = "saucer_damage", "layer" = MOB_LAYER) , "damage")
+			//damaged = image("icon" = 'icons/obj/ship.dmi', "icon_state" = "saucer_damage", "layer" = MOB_LAYER)
+			//overlays += damaged
 		else
-			overlays -=damaged
+			UpdateOverlays(null, "damage")
+			//overlays -=damaged
 
 
 ////// miniputt shuttles
