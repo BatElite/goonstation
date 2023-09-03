@@ -270,6 +270,7 @@ ABSTRACT_TYPE(/obj/item/gun/kinetic)
 	w_class = W_CLASS_TINY
 	var/forensic_ID = null
 	burn_possible = 0
+	plane = PLANE_NOSHADOW_BELOW //2023-9-3 - if this breaks layering remove, but IMO bullet casings shouldn't really be casting shadows
 
 	small
 		icon_state = "small"

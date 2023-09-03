@@ -1622,3 +1622,4 @@ meaty thoughts from cogwerks to his spacepal aibm:
 	anchored = 1
 	opacity = 0
 	density = 0
+	plane = PLANE_NOSHADOW_BELOW

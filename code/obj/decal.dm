@@ -248,6 +248,7 @@ obj/decal/fakeobjects/cargopad
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "cargopad"
 	anchored = 1
+	plane = PLANE_NOSHADOW_BELOW
 
 /obj/decal/fakeobjects/robot
 	name = "Inactive Robot"
@@ -301,6 +302,8 @@ obj/decal/fakeobjects/teleport_pad
 	icon = 'icons/obj/lighting.dmi'
 	icon_state = "tube-broken"
 	anchored = 1
+	layer = EFFECTS_LAYER_UNDER_1
+	plane = PLANE_NOSHADOW_ABOVE
 
 /obj/decal/fakeobjects/lightbulb_broken
 	name = "shattered light bulb"
@@ -308,6 +311,8 @@ obj/decal/fakeobjects/teleport_pad
 	icon = 'icons/obj/lighting.dmi'
 	icon_state = "bulb-broken"
 	anchored = 1
+	layer = EFFECTS_LAYER_UNDER_1
+	plane = PLANE_NOSHADOW_ABOVE
 
 /obj/decal/fakeobjects/airmonitor_broken
 	name = "broken air monitor"
