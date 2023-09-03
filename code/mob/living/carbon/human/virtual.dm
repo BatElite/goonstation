@@ -57,7 +57,7 @@
 
 	ex_act(severity)
 		src.flash(3 SECONDS)
-		if(severity == 1)
+		if(severity >= 6) //was expecting old severity 1
 			src.death()
 		return
 

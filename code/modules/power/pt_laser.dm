@@ -457,13 +457,13 @@
 
 /obj/machinery/power/pt_laser/ex_act(severity)
 	switch(severity)
-		if(1.0)
+		if(OLD_EX_SEVERITY_1)
 			qdel(src)
-		if(2.0)
+		if(OLD_EX_SEVERITY_2)
 			if (prob(50))
 				status |= BROKEN
 				UpdateIcon()
-		if(3.0)
+		if(OLD_EX_SEVERITY_3)
 			if (prob(25))
 				status |= BROKEN
 				UpdateIcon()

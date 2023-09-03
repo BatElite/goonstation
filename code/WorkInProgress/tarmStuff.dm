@@ -111,7 +111,7 @@
 
 	on_hit(atom/hit, direction, obj/projectile/P)
 		. = ..()
-		hit.ex_act(2)
+		hit.ex_act(OLD_EX_HEAVY)
 
 /obj/item/ammo/bullets/rifle_3006/rakshasa
 	name = "\improper Rakshasa round"

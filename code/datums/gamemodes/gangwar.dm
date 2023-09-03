@@ -1035,7 +1035,7 @@
 			src.visible_message("<span class='notice'><b>The door to [src] swings shut and switches back on!<b></span>")
 
 	ex_act(severity)
-		take_damage(250-50*severity)
+		take_damage(75+25*severity) //Adjusted from 250-50*severity with granular explosion change, so it's not the same but sort of similar?
 		return
 
 	attackby(obj/item/W, mob/user)

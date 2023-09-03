@@ -874,7 +874,7 @@ toxic - poisons
 
 			if(hit && isturf(hit))
 				T.throw_shrapnel(T, 1, 1)
-				T.ex_act(2)
+				T.ex_act(OLD_EX_HEAVY)
 
 //1.0
 /datum/projectile/bullet/rod // for the coilgun

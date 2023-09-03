@@ -117,9 +117,9 @@ toxic - poisons
 	on_hit(atom/hit, dir, obj/projectile/P)
 		fireflash(get_turf(hit), 0)
 		if((istype(hit, /turf/simulated) || istype(hit, /obj/structure/girder)))
-			hit.ex_act(2)
+			hit.ex_act(OLD_EX_HEAVY)
 		else
-			hit.ex_act(3, src, 1.5) //don't stun humans nearly as much
+			hit.ex_act(OLD_EX_LIGHT, src, 1.5) //don't stun humans nearly as much
 		P.die() //explicitly kill projectile - not a mining laser
 
 /datum/projectile/laser/light // for the drones

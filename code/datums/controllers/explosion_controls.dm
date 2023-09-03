@@ -17,13 +17,12 @@ var/datum/explosion_controller/explosions
 				SEND_SIGNAL(loc_ancestor, COMSIG_ATOM_EXPLODE_INSIDE, args)
 		var/atom/A = epicenter
 		if(istype(A))
-			var/severity = power >= 6 ? 1 : power > 3 ? 2 : 3
 			var/fprint = null
 			if(istype(source))
 				fprint = source.fingerprintslast
 			while(!istype(A, /turf))
 				if(!istype(A, /mob) && A != source)
-					A.ex_act(severity, fprint, power)
+					A.ex_act(power, fprint)
 				A = A.loc
 		if (!istype(epicenter, /turf))
 			epicenter = get_turf(epicenter)
@@ -61,15 +60,8 @@ var/datum/explosion_controller/explosions
 			p = queued_turfs[T]
 			last_touched = queued_turfs_blame[T]
 			//boutput(world, "P1 [p]")
-			if (p >= 6)
-				for (var/mob/M in T)
-					M.ex_act(1, last_touched, p)
-			else if (p > 3)
-				for (var/mob/M in T)
-					M.ex_act(2, last_touched, p)
-			else
-				for (var/mob/M in T)
-					M.ex_act(3, last_touched, p)
+			for (var/mob/M in T)
+				M.ex_act(p, last_touched)
 
 		LAGCHECK(LAG_HIGH)
 
@@ -77,25 +69,12 @@ var/datum/explosion_controller/explosions
 			p = queued_turfs[T]
 			last_touched = queued_turfs_blame[T]
 			//boutput(world, "P1 [p]")
-			if (p >= 6)
-				for (var/obj/O in T)
-					if(istype(O, /obj/overlay) || next_turf_safe && istype(O, /obj/window))
-						continue
-					O.ex_act(1, last_touched, p)
-					if (istype(O, /obj/cable)) // these two are hacky, newcables should relieve the need for this
-						needrebuild = 1
-			else if (p > 3)
-				for (var/obj/O in T)
-					if(istype(O, /obj/overlay) || next_turf_safe && istype(O, /obj/window))
-						continue
-					O.ex_act(2, last_touched, p)
-					if (istype(O, /obj/cable))
-						needrebuild = 1
-			else
-				for (var/obj/O in T)
-					if(istype(O, /obj/overlay) || next_turf_safe && istype(O, /obj/window))
-						continue
-					O.ex_act(3, last_touched, p)
+			for (var/obj/O in T)
+				if(istype(O, /obj/overlay) || next_turf_safe && istype(O, /obj/window))
+					continue
+				O.ex_act(p, last_touched)
+				if (istype(O, /obj/cable)) // these two are hacky, newcables should relieve the need for this
+					needrebuild = 1
 
 		LAGCHECK(LAG_HIGH)
 
@@ -109,21 +88,22 @@ var/datum/explosion_controller/explosions
 			last_touched = queued_turfs_blame[T]
 			//boutput(world, "P2 [p]")
 #ifdef EXPLOSION_MAPTEXT_DEBUGGING
-			if (p >= 6)
-				T.maptext = "<span style='color: #ff0000;' class='pixel c sh'>[p]</span>"
-			else if (p > 3)
-				T.maptext = "<span style='color: #ffff00;' class='pixel c sh'>[p]</span>"
-			else
-				T.maptext = "<span style='color: #00ff00;' class='pixel c sh'>[p]</span>"
+			switch(p)
+
+				if (OLD_EX_SEVERITY_1)
+					T.maptext = "<span style='color: #ff0000;' class='pixel c sh'>[p]</span>"
+				if (OLD_EX_SEVERITY_2)
+					T.maptext = "<span style='color: #ffff00;' class='pixel c sh'>[p]</span>"
+				else
+					T.maptext = "<span style='color: #00ff00;' class='pixel c sh'>[p]</span>"
 
 #else
-			var/severity = p >= 6 ? 1 : p > 3 ? 2 : 3
 			if(next_turf_safe)
 				if(istype(T, /turf/simulated/wall))
 					continue // they can break even on severity 3
 				else if(istype(T, /turf/simulated))
-					severity = max(severity, 3)
-			T.ex_act(severity, last_touched)
+					p = max(p, 3)
+			T.ex_act(p, last_touched)
 #endif
 		LAGCHECK(LAG_HIGH)
 

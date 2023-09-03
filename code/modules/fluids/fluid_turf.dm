@@ -273,7 +273,7 @@
 		if (captured)
 			return
 
-		if (!prob(severity*20))
+		if (!prob(severity*10)) //down from severity*20 under old ex_act severity
 			for (var/obj/O in src)
 				if (istype(O, /obj/lattice) || istype(O, /obj/cable/reinforced) || istype(O, /obj/item/heat_dowsing) || istype(O, /obj/machinery/conveyor) || istype(O,/obj/item/cable_coil/reinforced) )
 					return

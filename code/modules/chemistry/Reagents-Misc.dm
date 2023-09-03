@@ -3369,7 +3369,7 @@ datum
 				#ifdef SECRETS_ENABLED
 				one_with_everything(M)
 				#else
-				M.ex_act(1)
+				M.ex_act(OLD_EX_TOTAL)
 				#endif
 
 
@@ -3377,14 +3377,14 @@ datum
 				//if (!istype(O, /obj/effects/foam)
 				//	&& !istype(O, /obj/item/reagent_containers)
 				//	&& !istype(O, /obj/item/chem_grenade))
-				O.ex_act(1)
+				O.ex_act(OLD_EX_TOTAL)
 
 			on_mob_life(var/mob/M, var/mult = 1)
 				..()
 				#ifdef SECRETS_ENABLED
 				one_with_everything(M)
 				#else
-				M.ex_act(1)
+				M.ex_act(OLD_EX_TOTAL)
 				if (ishuman(M))
 					logTheThing("combat", M, null, "was gibbed by reagent [name] at [log_loc(M)].")
 				M.gib()
@@ -3410,15 +3410,15 @@ datum
 				. = ..()
 				if(istype(M, /mob/dead))
 					return
-				M.ex_act(1)
+				M.ex_act(OLD_EX_TOTAL)
 
 
 			reaction_obj(var/obj/O, var/volume)
-				O.ex_act(1)
+				O.ex_act(OLD_EX_TOTAL)
 
 			on_mob_life(var/mob/M, var/mult = 1)
 				..()
-				M.ex_act(1)
+				M.ex_act(OLD_EX_TOTAL)
 				if (isliving(M))
 					logTheThing("combat", M, null, "was gibbed by reagent [name] at [log_loc(M)].")
 				M.gib()

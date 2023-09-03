@@ -644,7 +644,7 @@
 		return ..()
 
 	ex_act(severity)
-		if (severity <= 2)
+		if (severity < 6) //old ex_act severity 2 or lower
 			if (src.bed && src.bed.sheet == src)
 				src.bed.sheet = null
 			qdel(src)

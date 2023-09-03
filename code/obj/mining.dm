@@ -513,11 +513,11 @@
 
 	ex_act(severity)
 		switch(severity)
-			if(1)
+			if(OLD_EX_SEVERITY_1)
 				src.damage(rand(75,120))
-			if(2)
+			if(OLD_EX_SEVERITY_2)
 				src.damage(rand(25,75))
-			if(3)
+			if(OLD_EX_SEVERITY_3)
 				src.damage(rand(10,25))
 
 	meteorhit()
@@ -1142,11 +1142,11 @@ TYPEINFO_NEW(/turf/simulated/wall/auto/asteroid)
 
 	ex_act(severity)
 		switch(severity)
-			if(1.0)
+			if(OLD_EX_SEVERITY_1)
 				src.damage_asteroid(7)
-			if(2.0)
+			if(OLD_EX_SEVERITY_2)
 				src.damage_asteroid(5)
-			if(3.0)
+			if(OLD_EX_SEVERITY_3)
 				src.damage_asteroid(3)
 		return
 
@@ -2510,7 +2510,7 @@ var/global/datum/cargo_pad_manager/cargo_pad_manager
 		return
 
 	ex_act(severity)
-		if (severity == 1.0)
+		if (severity >= 6) //old ex_act severity 1
 			if (prob(8))
 				src.RL_SetOpacity(0)
 				src.set_density(0)

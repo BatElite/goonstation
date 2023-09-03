@@ -193,16 +193,16 @@
 
 /obj/machinery/power/solar/ex_act(severity)
 	switch(severity)
-		if(1.0)
+		if(OLD_EX_SEVERITY_1)
 			qdel(src)
 			if(prob(15))
 				var/obj/item/raw_material/shard/glass/G = new /obj/item/raw_material/shard/glass
 				G.set_loc(src.loc)
 			return
-		if(2.0)
+		if(OLD_EX_SEVERITY_2)
 			if (prob(50))
 				broken()
-		if(3.0)
+		if(OLD_EX_SEVERITY_3)
 			if (prob(25))
 				broken()
 	return

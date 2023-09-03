@@ -301,9 +301,9 @@
 
 	ex_act(severity)
 		switch (severity)
-			if (1)
+			if (OLD_EX_SEVERITY_1)
 				qdel(src)
-			if (2,3)
+			else
 				if(!prob(60 + severity*10))
 					qdel(src)
 

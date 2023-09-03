@@ -186,7 +186,7 @@ datum
 					return
 				if (T.material && T.material.mat_id == "steel")
 					//T.visible_message("<span class='alert'>[T] melts!</span>")
-					T.ex_act(2)
+					T.ex_act(OLD_EX_HEAVY)
 
 		combustible/thermite
 			name = "thermite"
@@ -479,10 +479,10 @@ datum
 							if(0 to 15)
 								if(prob(15))
 									//T.visible_message("<span class='alert'>[T] melts!</span>")
-									T.ex_act(2)
+									T.ex_act(OLD_EX_HEAVY)
 							if(16 to INFINITY)
 								//T.visible_message("<span class='alert'>[T] melts!</span>")
-								T.ex_act(2)
+								T.ex_act(OLD_EX_HEAVY)
 				return
 
 			reaction_mob(var/mob/M, var/method=TOUCH, var/volume)

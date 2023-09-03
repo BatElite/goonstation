@@ -1605,20 +1605,20 @@ DEFINE_FLOORS(solidcolor/black/fullbright,
 
 /turf/simulated/floor/burn_down()
 	if (src.intact)
-		src.ex_act(2)
+		src.ex_act(OLD_EX_HEAVY)
 	else //make sure plating always burns down to space and not... plating
-		src.ex_act(1)
+		src.ex_act(OLD_EX_TOTAL)
 
 /turf/simulated/floor/ex_act(severity)
 	switch(severity)
-		if(1.0)
+		if(OLD_EX_SEVERITY_1)
 			src.ReplaceWithSpace()
 #ifdef UNDERWATER_MAP
 			//if (prob(10))
 			//	src.ex_act(severity+1)
 #endif
 
-		if(2.0)
+		if(OLD_EX_SEVERITY_2)
 			switch(pick(1,2;75,3))
 				if (1)
 					if(prob(33))
@@ -1646,7 +1646,7 @@ DEFINE_FLOORS(solidcolor/black/fullbright,
 					else
 						src.break_tile()
 					src.hotspot_expose(1000,CELL_VOLUME)
-		if(3.0)
+		if(OLD_EX_SEVERITY_3)
 			if (prob(50))
 				src.break_tile()
 				src.hotspot_expose(1000,CELL_VOLUME)

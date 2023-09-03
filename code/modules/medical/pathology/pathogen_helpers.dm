@@ -29,7 +29,7 @@
 			src.mob_inside = null
 
 	ex_act(severity)
-		if(severity == 1)
+		if(severity >= 6) //old ex_act severity 1
 			var/mob/M = src.mob_inside
 			if(M)
 				src.mob_inside = null

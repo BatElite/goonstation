@@ -196,17 +196,17 @@ TYPEINFO_NEW(/obj/table)
 
 	ex_act(severity)
 		switch (severity)
-			if (1.0)
+			if (OLD_EX_SEVERITY_1)
 				qdel(src)
 				return
-			if (2.0)
+			if (OLD_EX_SEVERITY_2)
 				if (prob(50))
 					qdel(src)
 					return
 				else
 					src.deconstruct()
 					return
-			if (3.0)
+			if (OLD_EX_SEVERITY_3)
 				if (prob(25))
 					src.deconstruct()
 					return
@@ -963,20 +963,21 @@ TYPEINFO_NEW(/obj/table/glass)
 	ex_act(severity)
 		if (src.glass_broken)
 			return ..()
-		if (severity == 2.0)
-			if (prob(25))
-				src.smash()
-				return
+		switch(severity)
+			if (OLD_EX_SEVERITY_2)
+				if (prob(25))
+					src.smash()
+					return
+				else
+					return ..()
+			if (OLD_EX_SEVERITY_3)
+				if (prob(25))
+					src.smash()
+					return
+				else
+					return ..()
 			else
 				return ..()
-		else if (severity == 3.0)
-			if (prob(25))
-				src.smash()
-				return
-			else
-				return ..()
-		else
-			return ..()
 
 	meteorhit()
 		if (prob(25))
