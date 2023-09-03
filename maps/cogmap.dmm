@@ -39322,6 +39322,7 @@
 "cba" = (
 /obj/securearea{
 	desc = "A poster that reads 'CLEAN HANDS SAVE LIVES'.";
+	icon = 'icons/obj/decals/posters.dmi';
 	icon_state = "chsl";
 	name = "CLEAN HANDS SAVE LIVES";
 	pixel_x = 32
