@@ -143,31 +143,38 @@ var/list/stinkThingies = list("ass","taint","armpit","excretions","leftovers","a
 	click_dummy.set_loc(null)
 	return TRUE
 
-/proc/can_reach(mob/user, atom/target)
+/proc/can_reach(mob/user, atom/target) //Hi this is bat here adding some comments to a very fundamental and fucking opaque proc
+	//First, things that are inside the shared bible inventory
 	if (target in bible_contents)
-		target = locate(/obj/item/storage/bible) in range(1, user) // fuck bibles
+		target = locate(/obj/item/storage/bible) in range(1, user) // fuck bibles (<that one isn't mine, it's the single thing anyone ever thought was worth commenting on in here)
 		if (!target)
 			return 0
-	var/turf/UT = get_turf(user)
-	var/turf/TT = get_turf(target)
+	//FUCK UT AND TT WRITE SHIT OUT GOD DAMN IT
+	var/turf/user_turf = get_turf(user)
+	var/turf/target_turf = get_turf(target)
+	//These cover objects are near enough unused (only one in an admin office), so I reckon commenting this out can't hurt
+	//They kinda suck anyway. The way this is coded you can't touch your own inventory when inside one of these
+	/*
 	if (TT)
 		var/obj/cover/C = locate() in TT
 		if (C && target != C)
 			return 0
-	if (UT && TT != UT)
+	if (user_turf && TT != user_turf)
 		var/obj/cover/C = locate() in UT
 		if (C && target != C)
 			return 0
+	*/
 	if (isturf(user.loc))
 		if (!in_interact_range(target, user))
 			return 0
-		var/T1 = get_turf(user)
-		var/T2 = get_turf(target)
-		if (T1 == T2)
-			return 1
+		//FUCK OOOOOOOOOOOOOOOFFFFFF
+		//var/turf/T1 = get_turf(user)
+		//var/turf/T2 = get_turf(target)
+		if (user_turf == target_turf)
+			return 1 //reaching things in your inventory exits here
 		else
-			var/dir = get_dir(T1, T2)
-			if (dir & (dir-1))
+			var/dir = get_dir(user_turf, target_turf)
+			if (dir & (dir-1)) //this is some kind of diagonal dir check
 				var/dir1, dir2
 				switch (dir)
 					if (NORTHEAST)
@@ -182,17 +189,17 @@ var/list/stinkThingies = list("ass","taint","armpit","excretions","leftovers","a
 					if (SOUTHWEST)
 						dir1 = SOUTH
 						dir2 = WEST
-				var/turf/D1 = get_step(T1, dir1)
-				var/turf/D2 = get_step(T1, dir2)
+				var/turf/D1 = get_step(user_turf, dir1)
+				var/turf/D2 = get_step(user_turf, dir2)
 
-				if (!D1.density && test_click(T1, D1))
-					if ((target.flags & ON_BORDER) || test_click(D1, T2))
+				if ((!D1.density || target_turf.density) && test_click(user_turf, D1))
+					if ((target.flags & ON_BORDER) || test_click(D1, target_turf))
 						return 1
-				if (!D2.density && test_click(T1, D2))
-					if ((target.flags & ON_BORDER) || test_click(D2, T2))
+				if ((!D2.density || target_turf.density) && test_click(user_turf, D2))
+					if ((target.flags & ON_BORDER) || test_click(D2, target_turf))
 						return 1
-			else
-				return (target.flags & ON_BORDER) || test_click(T1, T2)
+			else //target is not on a diagonal from user
+				return (target.flags & ON_BORDER) || test_click(user_turf, target_turf)
 	else if (isobj(target) || ismob(target))
 		var/atom/L = target.loc
 		while (L && !isturf(L))
