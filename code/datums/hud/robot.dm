@@ -7,8 +7,68 @@
 	MouseExited(location, control, params)
 		src.maptext = null
 
+/atom/movable/screen/hud/robot
+	icon = 'icons/mob/hud_robot.dmi'
+	//var/case_colour = "#FFFFFF"
+	var/image/overlay
+	var/initial_case_state = ""
+	New()
+		..()
+		//So due to maptext taking on it's atom's colour (despite being independently colourable)
+		//instead of having a case with a screen overlay we're forced to have these be screens with a case overlay
+		overlay = image('icons/mob/hud_robot.dmi', initial_case_state, layer = HUD_LAYER+0.5) //layer behind ourself
+		overlay.appearance_flags = PIXEL_SCALE | NO_CLIENT_COLOR | RESET_COLOR
+		UpdateOverlays(overlay, "case")
+/atom/movable/screen/hud/robot/proc/update_case(colour)
+	overlay.color = colour
+	UpdateOverlays(overlay, "case")
+
+/atom/movable/screen/hud/robot/mod1 //left equipped slot
+	icon_state = "mod1-screen0"
+	initial_case_state = "mod1-case"
+/atom/movable/screen/hud/robot/mod2 //center equipped slot
+	icon_state = "mod2-screen0"
+	initial_case_state = "mod2-case"
+/atom/movable/screen/hud/robot/mod3 //right equipped slot
+	icon_state = "mod3-screen0"
+	initial_case_state = "mod3-case"
+/atom/movable/screen/hud/robot/charge
+	icon_state = "charge-screen4"
+	initial_case_state = "charge-case"
+/atom/movable/screen/hud/robot/module //pick module & open inventory
+	icon_state = "module-initial"
+	initial_case_state = "module-case"
+/atom/movable/screen/hud/robot/intent //help or harm
+	icon_state = "intent-help"
+	initial_case_state = "intent-case"
+/atom/movable/screen/hud/robot/pulling //stop pull button
+	icon_state = "pull-screen0"
+	initial_case_state = "pull-case"
+/atom/movable/screen/hud/robot/radio //access internal radio, largely irrelevant in gameplay
+	icon_state = "radio-screen"
+	initial_case_state = "radio-case"
+/atom/movable/screen/hud/robot/upgrades //toggles upgrade bar
+	icon_state = "upgrades-screen"
+	initial_case_state = "upgrades-case"
+/atom/movable/screen/hud/robot/store //put tool away
+	icon_state = "store-screen"
+	initial_case_state = "store-case"
+/atom/movable/screen/hud/robot/health
+	icon_state = "health-screen0"
+	initial_case_state = "health-case"
+/atom/movable/screen/hud/robot/oxy
+	icon_state = "oxy-screen0"
+	initial_case_state = "oxy-case"
+/atom/movable/screen/hud/robot/temp
+	icon_state = "temp-screen0"
+	initial_case_state = "temp-case"
+/atom/movable/screen/hud/robot/upgrade
+	icon_state = "upgrade-back0"
+	initial_case_state = "upgrade-case"
+
 /datum/hud/robot
-	var/atom/movable/screen/hud
+	var/atom/movable/screen/hud/robot
+		//bottom row
 		mod1
 		mod2
 		mod3
@@ -16,23 +76,29 @@
 		module
 		intent
 		pulling
+		//added these for the recolour thing
+		radio
+		store
+		upgrades
 
+		//left side
 		prev
 		boxes
 		next
 		close
 
+		//top right
 		health
 		oxy
 		temp
 
-		pda
-		eyecam
+	var/atom/movable/screen/hud/pda
+	var/atom/movable/screen/hud/eyecam
 
 	var/list/screen_tools = list()
 
 	var/list/atom/movable/screen/hud/upgrade_bg = list()
-	var/list/atom/movable/screen/hud/upgrade_slots = list()
+	var/list/atom/movable/screen/hud/robot/upgrade_slots = list()
 	var/show_upgrades = 1
 
 	var/items_screen = 1
@@ -47,6 +113,9 @@
 	var/icon/icon_hud = 'icons/mob/hud_robot.dmi'
 
 	var/image/storage_bg
+
+	//Keep track of the last colour we received, in case the upgrade bar needs to be rebuilt
+	var/last_hud_colour
 
 
 	var/list/statusUiElements = list() //Assoc. List  STATUS EFFECT INSTANCE : UI ELEMENT add_screen(atom/movable/screen/S). Used to hold the ui elements since they shouldnt be on the status effects themselves.
@@ -205,8 +274,8 @@
 		// @TODO i fucking hate the boxes not being clickable so here's a gross hack to fix it
 		src.storage_bg = image('icons/mob/screen1.dmi', icon_state = "block")
 		src.storage_bg.appearance_flags |= RESET_COLOR | RESET_ALPHA | RESET_TRANSFORM
-
-		src.boxes = create_screen("boxes", "Storage", 'icons/mob/screen1.dmi', "block", "1, 10 to 1, 1")
+		//Left-side tool bar, which is hidden after creating
+		src.boxes = create_screen("boxes", "Storage", 'icons/mob/screen1.dmi', "block", "1, 10 to 1, 1") //grey background bits
 		remove_screen(boxes)
 		src.prev = create_screen("prev", "Previous Page", 'icons/mob/screen1.dmi', "up_dis", "1, 10", HUD_LAYER+1)
 		remove_screen(prev)
@@ -214,11 +283,12 @@
 		remove_screen(next)
 		src.close = create_screen("close", "Close", 'icons/mob/screen1.dmi', "x", "1, 1", HUD_LAYER+1)
 		remove_screen(close)
-		for (var/i = 1, i <= 7, i++)
+		for (var/i = 1, i <= 7, i++) //the 7 slots that tools are displayed in
 			var/S = create_screen("object[i]", "object", null, null, "1, [10 - i]", HUD_LAYER + 1, customType = /atom/movable/screen/hud/robotstorage)
 			remove_screen(S)
 			screen_tools += S
 
+		//Setting up the semi-transparent background block
 		create_screen("", "", 'icons/mob/hud_common.dmi', "hotbar_bg", "CENTER-5, SOUTH to CENTER+5, SOUTH", HUD_LAYER)
 		create_screen("", "", 'icons/mob/hud_common.dmi', "hotbar_side", "CENTER-5, SOUTH+1 to CENTER+5, SOUTH+1", HUD_LAYER, SOUTH)
 		create_screen("", "", 'icons/mob/hud_common.dmi', "hotbar_side", "CENTER-6, SOUTH+1", HUD_LAYER, SOUTHWEST)
@@ -226,31 +296,33 @@
 		create_screen("", "", 'icons/mob/hud_common.dmi', "hotbar_side", "CENTER+6, SOUTH+1", HUD_LAYER, SOUTHEAST)
 		create_screen("", "", 'icons/mob/hud_common.dmi', "hotbar_side", "CENTER+6, SOUTH", HUD_LAYER, WEST)
 
-		mod1 = create_screen("mod1", "Module 1", icon_hud, "mod10", "CENTER-5, SOUTH", HUD_LAYER+1)
-		mod2 = create_screen("mod2", "Module 2", icon_hud, "mod20", "CENTER-4, SOUTH", HUD_LAYER+1)
-		mod3 = create_screen("mod3", "Module 3", icon_hud, "mod30", "CENTER-3, SOUTH", HUD_LAYER+1)
+		//bottom bar, left to right
+		mod1 = create_screen("mod1", "Module 1", null, null, "CENTER-5, SOUTH", HUD_LAYER+1, customType = /atom/movable/screen/hud/robot/mod1)
+		mod2 = create_screen("mod2", "Module 2", null, null, "CENTER-4, SOUTH", HUD_LAYER+1, customType = /atom/movable/screen/hud/robot/mod2)
+		mod3 = create_screen("mod3", "Module 3", null, null, "CENTER-3, SOUTH", HUD_LAYER+1, customType = /atom/movable/screen/hud/robot/mod3)
 
-		create_screen("store", "Store", icon_hud, "store", "CENTER-2, SOUTH", HUD_LAYER+1)
-		charge = create_screen("charge", "Battery", icon_hud, "charge4", "CENTER-1, SOUTH", HUD_LAYER+1)
-		charge.maptext_y = -5
+		store = create_screen("store", "Store", null, null, "CENTER-2, SOUTH", HUD_LAYER+1, customType = /atom/movable/screen/hud/robot/store)
+		charge = create_screen("charge", "Battery", null, null, "CENTER-1, SOUTH", HUD_LAYER+1, customType = /atom/movable/screen/hud/robot/charge)
+		charge.maptext_y = 10 //was -5, now renders just on top of the hud bg
 		charge.maptext_width = 48
 		charge.maptext_x = -9
 
-		module = create_screen("module", "Module", icon_hud, "module-initial", "CENTER, SOUTH", HUD_LAYER+1)
-		create_screen("radio", "Radio", icon_hud, "radio", "CENTER+1, SOUTH", HUD_LAYER+1)
-		intent = create_screen("intent", "Intent", icon_hud, "intent-[master.a_intent]", "CENTER+2, SOUTH", HUD_LAYER+1)
+		module = create_screen("module", "Module", null, null, "CENTER, SOUTH", HUD_LAYER+1, customType = /atom/movable/screen/hud/robot/module)
+		radio = create_screen("radio", "Radio", null, null, "CENTER+1, SOUTH", HUD_LAYER+1, customType = /atom/movable/screen/hud/robot/radio)
+		intent = create_screen("intent", "Intent", null, null, "CENTER+2, SOUTH", HUD_LAYER+1, customType = /atom/movable/screen/hud/robot/intent)
+		//zone_sel goes in CENTER+3
+		pulling = create_screen("pulling", "Pulling", null, null, "CENTER+4, SOUTH", HUD_LAYER+1, customType = /atom/movable/screen/hud/robot/pulling)
+		upgrades = create_screen("upgrades", "Upgrades", null, null, "CENTER+5, SOUTH", HUD_LAYER+1, customType = /atom/movable/screen/hud/robot/upgrades)
 
-		pulling = create_screen("pulling", "Pulling", icon_hud, "pull0", "CENTER+4, SOUTH", HUD_LAYER+1)
-		create_screen("upgrades", "Upgrades", icon_hud, "upgrades", "CENTER+5, SOUTH", HUD_LAYER+1)
-
-		health = create_screen("health", "Health", icon_hud, "health0", "EAST, NORTH")
+		//top right bit, top to bottom
+		health = create_screen("health", "Health", null, null, "EAST, NORTH", customType = /atom/movable/screen/hud/robot/health)
 		health.maptext_width = 148
 		health.maptext_height = 64
 		health.maptext_x = -150
 		health.maptext_y = -36
 
-		oxy = create_screen("oxy", "Oxygen", icon_hud, "oxy0", "EAST, NORTH-1")
-		temp = create_screen("temp", "Temperature", icon_hud, "temp0", "EAST, NORTH-2")
+		oxy = create_screen("oxy", "Oxygen", null, null, "EAST, NORTH-1", customType = /atom/movable/screen/hud/robot/oxy)
+		temp = create_screen("temp", "Temperature", null, null, "EAST, NORTH-2", customType = /atom/movable/screen/hud/robot/temp)
 
 		if (master.module_active)
 			set_active_tool(master.module_states.Find(master.module_active))
@@ -260,7 +332,7 @@
 		update_module()
 		update_upgrades()
 		update_equipment()
-
+		//some odd screens
 		pda = create_screen("pda", "Cyborg PDA", 'icons/mob/hud_ai.dmi', "pda", "WEST, NORTH+0.5", HUD_LAYER)
 		pda.underlays += "button"
 
@@ -436,9 +508,9 @@
 
 	proc
 		set_active_tool(active) // naming these tools to distinuish it from the module of a borg
-			mod1.icon_state = "mod1[active == 1]"
-			mod2.icon_state = "mod2[active == 2]"
-			mod3.icon_state = "mod3[active == 3]"
+			mod1.icon_state = "mod1-screen[active == 1]"
+			mod2.icon_state = "mod2-screen[active == 2]"
+			mod3.icon_state = "mod3-screen[active == 3]"
 
 		set_show_upgrades(show)
 			if (show == show_upgrades)
@@ -447,14 +519,14 @@
 			if (show)
 				for (var/atom/movable/screen/hud/H in upgrade_bg)
 					add_screen(H)
-				for (var/atom/movable/screen/hud/H in upgrade_slots)
+				for (var/atom/movable/screen/hud/robot/H in upgrade_slots)
 					add_screen(H)
 				for (var/obj/item/roboupgrade/upgrade in last_upgrades)
 					add_object(upgrade, HUD_LAYER+2)
 			else
 				for (var/atom/movable/screen/hud/H in upgrade_bg)
 					remove_screen(H)
-				for (var/atom/movable/screen/hud/H in upgrade_slots)
+				for (var/atom/movable/screen/hud/robot/H in upgrade_slots)
 					remove_screen(H)
 				for (var/obj/item/roboupgrade/upgrade in last_upgrades)
 					remove_object(upgrade)
@@ -491,17 +563,17 @@
 
 				switch(round(100*master.cell.charge/master.cell.maxcharge))
 					if(75 to INFINITY)
-						charge.icon_state = "charge4"
+						charge.icon_state = "charge-screen4"
 					if(50 to 75)
-						charge.icon_state = "charge3"
+						charge.icon_state = "charge-screen3"
 					if(25 to 50)
-						charge.icon_state = "charge2"
+						charge.icon_state = "charge-screen2"
 					if(1 to 25)
-						charge.icon_state = "charge1"
+						charge.icon_state = "charge-screen1"
 					else
-						charge.icon_state = "charge0"
+						charge.icon_state = "charge-screen0"
 			else
-				charge.icon_state = "charge-none"
+				charge.icon_state = "charge-screen-none"
 				charge.maptext = "<span class='ps2p ol vt c' style='color: #f00;'>---</span>"
 
 		maptext_health_percent(var/obj/item/parts/robot_parts/part)
@@ -546,21 +618,21 @@
 
 				switch(master.health)
 					if(100 to INFINITY)
-						health.icon_state = "health0"
+						health.icon_state = "health-screen0"
 					if(80 to 100)
-						health.icon_state = "health1"
+						health.icon_state = "health-screen1"
 					if(60 to 80)
-						health.icon_state = "health2"
+						health.icon_state = "health-screen2"
 					if(40 to 60)
-						health.icon_state = "health3"
+						health.icon_state = "health-screen3"
 					if(20 to 40)
-						health.icon_state = "health4"
+						health.icon_state = "health-screen4"
 					if(0 to 20)
-						health.icon_state = "health5"
+						health.icon_state = "health-screen5"
 					else
-						health.icon_state = "health6"
+						health.icon_state = "health-screen6"
 			else
-				health.icon_state = "health7"
+				health.icon_state = "health-screen7"
 
 			// I put this here because there's nowhere else for it right now.
 			// @TODO robot hud needs a general update() call imo.
@@ -569,7 +641,7 @@
 
 
 		update_pulling()
-			pulling.icon_state = "pull[master.pulling ? 1 : 0]"
+			pulling.icon_state = "pull-screen[master.pulling ? 1 : 0]"
 
 		update_environment()
 			var/turf/T = get_turf(master)
@@ -577,23 +649,23 @@
 				var/datum/gas_mixture/environment = T.return_air()
 				var/total = TOTAL_MOLES(environment)
 				if (total > 0) // prevent a division by zero
-					oxy.icon_state = "oxy[environment.oxygen/total*MIXTURE_PRESSURE(environment) < 17]"
+					oxy.icon_state = "oxy-screen[environment.oxygen/total*MIXTURE_PRESSURE(environment) < 17]"
 				else
-					oxy.icon_state = "oxy1"
+					oxy.icon_state = "oxy-screen1"
 				switch (environment.temperature)
 					if (350 to INFINITY)
-						temp.icon_state = "temp1"
+						temp.icon_state = "temp-screen1"
 					if (280 to 350)
-						temp.icon_state = "temp0"
+						temp.icon_state = "temp-screen0"
 					else
-						temp.icon_state = "temp-1"
+						temp.icon_state = "temp-screen-1"
 
 		update_upgrades()
 			var/startx = 5 - master.max_upgrades
 			if (master.max_upgrades != upgrade_slots.len)
 				for (var/atom/movable/screen/hud/H in upgrade_bg)
 					remove_screen(H)
-				for (var/atom/movable/screen/hud/H in upgrade_slots)
+				for (var/atom/movable/screen/hud/robot/H in upgrade_slots)
 					remove_screen(H)
 
 				upgrade_bg.len = 0
@@ -606,13 +678,17 @@
 
 				upgrade_slots.len = 0
 				for (var/i = 0; i < master.max_upgrades; i++)
-					upgrade_slots += create_screen("upgrade[i+1]", "Upgrade [i+1]", icon_hud, "upgrade0", "CENTER+[startx+i]:24, SOUTH+1:4", HUD_LAYER+1)
+					upgrade_slots += create_screen("upgrade[i+1]", "Upgrade [i+1]", null, null, "CENTER+[startx+i]:24, SOUTH+1:4", HUD_LAYER+1, customType = /atom/movable/screen/hud/robot/upgrade)
 
 				if (!show_upgrades) // this is dumb
 					for (var/atom/movable/screen/hud/H in upgrade_bg)
 						remove_screen(H)
-					for (var/atom/movable/screen/hud/H in upgrade_slots)
+					for (var/atom/movable/screen/hud/robot/H in upgrade_slots)
 						remove_screen(H)
+
+			//keep paint updated :)
+			for (var/atom/movable/screen/hud/robot/H in upgrade_slots)
+				H.update_case(last_hud_colour)
 
 			for (var/obj/item/roboupgrade/upgrade in last_upgrades)
 				remove_object(upgrade)
@@ -621,8 +697,8 @@
 				if (i >= upgrade_slots.len)
 					break
 
-				var/atom/movable/screen/hud/slot = upgrade_slots[i+1]
-				slot.icon_state = "upgrade[upgrade.activated]"
+				var/atom/movable/screen/hud/robot/slot = upgrade_slots[i+1]
+				slot.icon_state = "upgrade-back[upgrade.activated]"
 				if (show_upgrades)
 					add_object(upgrade, HUD_LAYER+2, "CENTER+[startx+i]:24, SOUTH+1:4")
 					i++
@@ -633,6 +709,30 @@
 			var/atom/senderAtom = sender
 			if (senderAtom.loc != master.module) // An equipped tool has changed its icon; refresh module display
 				update_equipment()
+
+//What if the hud coloured to the borg? :)
+/datum/hud/robot/proc/recolour(colour)
+	if (!is_valid_color_string(colour))
+		return
+	last_hud_colour = colour
+
+	mod1.update_case(colour)
+	mod2.update_case(colour)
+	mod3.update_case(colour)
+	charge.update_case(colour)
+	module.update_case(colour)
+	intent.update_case(colour)
+	pulling.update_case(colour)
+	radio.update_case(colour)
+	store.update_case(colour)
+	upgrades.update_case(colour)
+	health.update_case(colour)
+	oxy.update_case(colour)
+	temp.update_case(colour)
+	for (var/atom/movable/screen/hud/robot/H in upgrade_slots)
+		H.update_case(colour)
+	master.zone_sel.update_case(colour)
+
 
 /mob/living/silicon/robot
 	updateStatusUi()

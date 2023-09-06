@@ -121,7 +121,7 @@
 		for (var/atom/A in src.objects)
 			C.screen -= A
 
-	proc/create_screen(id, name, icon, state, loc, layer = HUD_LAYER, dir = SOUTH, tooltipTheme = null, desc = null, customType = null, mouse_opacity = 1)
+	proc/create_screen(id, name, icon = null, state = null, loc, layer = HUD_LAYER, dir = SOUTH, tooltipTheme = null, desc = null, customType = null, mouse_opacity = 1)
 		var/atom/movable/screen/hud/S
 		if (customType)
 			if (!ispath(customType, /atom/movable/screen/hud))
@@ -134,8 +134,11 @@
 		S.desc = desc
 		S.id = id
 		S.master = src
-		S.icon = icon
-		S.icon_state = state
+		//these two are optional now for the sake of borg hud (I'm making subtypes) but if you do leave them out elsewhere it'll probably be a bad time
+		if (!isnull(icon))
+			S.icon = icon
+		if (!isnull(state))
+			S.icon_state = state
 		S.screen_loc = loc
 		S.layer = layer
 		S.set_dir(dir)

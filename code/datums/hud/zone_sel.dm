@@ -70,3 +70,7 @@
 			if (l_leg) l_leg.icon = new_file
 			if (r_leg) r_leg.icon = new_file
 			if (selection) selection.icon = new_file
+	//for borg HUD
+	proc/update_case(colour)
+		SPAWN(0) //ugh
+			background.color = colour

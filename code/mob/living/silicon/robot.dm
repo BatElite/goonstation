@@ -172,7 +172,7 @@
 
 		src.cosmetic_mods = new /datum/robot_cosmetic(src)
 
-		update_bodypart()
+		//update_bodypart()
 
 		if (src.shell)
 			if (!(src in available_ai_shells))
@@ -195,6 +195,8 @@
 		src.zone_sel = new(src, "CENTER+3, SOUTH")
 		src.zone_sel.change_hud_style('icons/mob/hud_robot.dmi')
 		src.attach_hud(zone_sel)
+		//must come after hud setup
+		update_bodypart()
 
 		SPAWN(0.4 SECONDS)
 			if (!src.connected_ai && !syndicate && !(src.dependent || src.shell))
@@ -2580,12 +2582,14 @@
 				col = list(255, 255, 255)
 			var/avg = (col[1] + col[2] + col[3]) / 255 / 3
 			var/w = (1.5 - avg / 2) / 3
-			var/too_dark = max(0, 0.15 - avg)
+			var/too_dark = max(0, 0.25 - avg) //up from 0.15 with recolourable borg HUDs (black HUD was too dark and the borgs were getting too dark highlights)
 			col[1] += too_dark * 255
 			col[2] += too_dark * 255
 			col[3] += too_dark * 255
 			color_matrix = list(0,0,0,w, 0,0,0,w, 0,0,0,w, 0,0,0,0, col[1]/255, col[2]/255, col[3]/255, -0.3)
-
+			hud.recolour("#[num2hex(col[1],2)][num2hex(col[2],2)][num2hex(col[3],2)]")
+		else
+			hud.recolour("#FFFFFF") //reset to white
 		if (part == "head" || update_all)
 			if (src.part_head && !src.automaton_skin && !src.alohamaton_skin && !src.metalman_skin)
 				src.i_head = image('icons/mob/robots.dmi', "head-" + src.part_head.appearanceString)
