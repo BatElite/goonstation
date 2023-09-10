@@ -388,6 +388,8 @@ obj/machinery/atmospherics/pipe
 
 		attackby(var/obj/item/W, var/mob/user)
 			if(isweldingtool(W))
+				//Welder + wrench for decon
+				if(user.find_tool_in_hand(TOOL_WRENCHING))
 
 				if(!ruptured)
 					boutput(user, "<span class='alert'>That isn't damaged!</span>")
@@ -405,6 +407,19 @@ obj/machinery/atmospherics/pipe
 				actions.start(new /datum/action/bar/private/welding(user, src, 2 SECONDS, /obj/machinery/atmospherics/pipe/simple/proc/repair_pipe, \
 						list(user), "<span class='notice'>[user] repairs the [src.name].</span>", positions[1], positions[2]),user)
 
+
+			else if(iswrenchingtool(W)) //wrench + welder is also fine we're not picky
+				var/obj/item/welder = user.find_tool_in_hand(TOOL_WELDING)
+				if(!welder)
+					return
+
+				if(!welder:try_weld(user, 1.2, noisy=2))
+					return
+
+				var/datum/gas_mixture/gas = return_air()
+				var/pressure = MIXTURE_PRESSURE(gas)
+
+				//SETUP_GENERIC_ACTIONBAR(user, src)
 
 			else if(destroyed && istype(W, /obj/item/rods))
 				var/duration = 15 SECONDS

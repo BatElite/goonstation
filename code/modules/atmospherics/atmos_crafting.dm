@@ -41,12 +41,13 @@ Tank transfer valves aren't incorporated into this, sorry.
 ///This isn't a proper thing but I figured it'd be nice on the object tree to group it all under one parent
 ABSTRACT_TYPE(/obj/item/atmospherics)
 /obj/item/atmospherics
+	icon = 'icons/obj/atmospherics/atmos_parts.dmi'
 
 ///Parent crafting item, the pipe frame end of things. BTW these are stackable watch out
 ABSTRACT_TYPE(/obj/item/atmospherics/pipeframe)
 /obj/item/atmospherics/pipeframe
 	name = "the platonic ideal of atmospheric piping frame"
-	icon = 'icons/obj/atmospherics/atmos_parts.dmi'
+
 	///What does this look like after welding?
 	var/icon_welded
 	///What's this going to turn into when deployed (sans gizmo)?
@@ -818,3 +819,69 @@ ABSTRACT_TYPE(/obj/item/atmospherics/pipeframe)
 		if (istype(target, /obj/machinery/atmospherics))
 			qdel(target)
 		..()
+
+//Gonna steal a lot from the geothermal dowsing rods, but I feel there's not enough overlap to justify making this a subtype
+/obj/item/atmospherics/purger
+	name = "pipeline gas purger"
+	desc = "A machine that attaches to pipes and slowly disintegrates gases inside them"
+	icon_state = "purger_undeployed"
+	w_class = W_CLASS_NORMAL
+	//All of this is just copied from the dowsing rod
+	throwforce = 6
+	force = 6
+	throw_speed = 4
+	throw_range = 5
+	stamina_damage = 30
+	stamina_cost = 15
+	stamina_crit_chance = 1
+
+	///This many moles will be deleted per item process tick
+	var/moles_per_tick = 2 //For reference, an O2/plasma/CO2/N2O can has ~1,8k moles. N2 has like 6,5k and air cans much more
+	var/deployed = FALSE
+	var/obj/machinery/atmospherics/pipe/currently_attached
+
+/obj/item/atmospherics/purger/afterattack(obj/machinery/atmospherics/pipe/P, var/mob/user)
+	if (istype(P))
+		user.drop_item()
+		src.set_loc(get_turf(P))
+		src.deploy(P)
+		return
+	..()
+
+
+/obj/item/atmospherics/purger/process()
+	..() //Something about timekeeping in here? IDK
+	if ((istype(currently_attached) && !currently_attached.disposed && (src.loc != get_turf(currently_attached)))) //not a valid pipe or we've somehow come off of the pipe
+		undeploy()
+		return
+	var/datum/pipeline/pipeline = currently_attached.parent
+	if (!pipeline)
+		return
+	var/datum/gas_mixture/gas2purge = pipeline.air
+	if (!gas2purge)
+		UpdateOverlays(null, "plasma")
+		return
+	if (gas2purge.remove(moles_per_tick))
+		UpdateOverlays(image(src.icon, "purger_effect"), "plasma")
+	else
+		UpdateOverlays(null, "plasma")
+
+///Undeploy when moved (including on pickup, I'm pretty sure)
+/obj/item/atmospherics/purger/set_loc(newloc)
+	if (deployed)
+		undeploy()
+	..()
+
+/obj/item/atmospherics/purger/proc/deploy(obj/machinery/atmospherics/pipe/attach_to)
+	if (istype(attach_to))
+		deployed = TRUE
+		processing_items |= src
+		icon_state = "purger_deployed"
+		currently_attached = attach_to
+
+/obj/item/atmospherics/purger/proc/undeploy()
+	currently_attached = null
+	processing_items -= src
+	deployed = FALSE
+	icon_state = "purger_undeployed"
+	UpdateOverlays(null, "plasma")

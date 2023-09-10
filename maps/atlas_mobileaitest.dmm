@@ -5418,6 +5418,13 @@
 	},
 /turf/simulated/floor,
 /area/station/hallway/primary/east)
+"nw" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/item/atmospherics/purger,
+/turf/simulated/floor/plating,
+/area/space)
 "nx" = (
 /obj/disposalpipe/junction/left/east,
 /obj/rail{
@@ -6877,6 +6884,7 @@
 	can_rupture = 0;
 	dir = 6
 	},
+/obj/item/atmospherics/purger,
 /turf/simulated/floor/engine,
 /area/station/engine/core)
 "qU" = (
@@ -6919,6 +6927,7 @@
 	dir = 4;
 	layer = 2.13
 	},
+/obj/item/atmospherics/purger,
 /turf/simulated/floor/engine,
 /area/station/engine/core)
 "qZ" = (
@@ -18382,6 +18391,10 @@
 /obj/machinery/power/data_terminal,
 /turf/simulated/floor/engine/vacuum,
 /area/station/science/lab)
+"SH" = (
+/obj/item/atmospherics/purger,
+/turf/simulated/floor/plating,
+/area/space)
 "SI" = (
 /obj/cable{
 	icon_state = "4-8"
@@ -76432,7 +76445,7 @@ cl
 dr
 dr
 dr
-dQ
+nw
 Jl
 Jl
 Jl
@@ -76734,7 +76747,7 @@ aa
 aa
 aa
 dr
-Jl
+SH
 Jl
 Jl
 Jl
@@ -77036,7 +77049,7 @@ aa
 aa
 aa
 dr
-Jl
+SH
 Jl
 US
 Jl
@@ -77338,7 +77351,7 @@ aa
 aa
 aa
 dr
-Jl
+SH
 Jl
 Jl
 Jl
