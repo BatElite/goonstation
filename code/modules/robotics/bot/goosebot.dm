@@ -67,16 +67,6 @@
 /obj/machinery/bot/goosebot/gib()
 	return src.explode()
 
-/obj/machinery/bot/goosebot/explode()
-	if(src.exploding) return
-	src.exploding = 1
-	src.on = 0
-	src.visible_message("<span class='combat'><B>[src] blows apart!</B></span>", 1)
-	playsound(src.loc, "sound/impact_sounds/Machinery_Break_1.ogg", 40, 1)
-	explosion(src, src.loc , 0, 0, 1, 1)
-	qdel(src)
-	return
-
 /obj/machinery/bot/goosebot/proc/throw_egg_is_true()
 	var/mob/living/target = locate() in view(7,src)
 	if(target && !target.lying)

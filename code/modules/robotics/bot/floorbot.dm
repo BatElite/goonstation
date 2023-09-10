@@ -467,16 +467,9 @@
 
 /obj/machinery/bot/floorbot/explode()
 	if(src.exploding) return
-	src.exploding = 1
-	src.on = 0
-	src.visible_message("<span class='alert'><B>[src] blows apart!</B></span>", 1)
-	playsound(src.loc, "sound/impact_sounds/Machinery_Break_1.ogg", 40, 1)
-	elecflash(src, radius=1, power=3, exclude_center = 0)
-	new /obj/item/tile/steel(src.loc)
-	new /obj/item/device/prox_sensor(src.loc)
-	new /obj/item/storage/toolbox/mechanical/empty(src.loc)
-	qdel(src)
-	return
+	var/list/guff = list(new /obj/item/tile/steel, new /obj/item/device/prox_sensor, new /obj/item/storage/toolbox/mechanical/empty)
+	..(guff)
+
 
 /datum/action/bar/icon/floorbot_repair
 	duration = 10

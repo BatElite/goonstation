@@ -161,7 +161,17 @@
 			src.explode()
 		return
 
-	proc/explode()
+	//hey what if this parent proc actually did common things ffs
+	proc/explode(list/ejectables = null)
+		if(src.exploding) return
+		src.exploding = 1
+		src.on = 0
+		src.visible_message("<span class='alert'><B>[src] blows apart!</B></span>")
+		playsound(src.loc, "sound/impact_sounds/Machinery_Break_1.ogg", 40, 1)
+		elecflash(src, radius=1, power=3, exclude_center = 0)
+		if (ejectables)
+			handle_ejectables(src.loc, ejectables)
+		qdel(src)
 		return
 
 	proc/speak(var/message, var/sing, var/just_float, var/just_chat)

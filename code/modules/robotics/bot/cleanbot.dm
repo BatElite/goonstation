@@ -329,27 +329,14 @@
 			src.explode()
 		return
 
+
 	explode()
-		if (!src)
-			return
-
 		if(src.exploding) return
-		src.exploding = 1
-		src.on = 0
-		src.visible_message("<span class='alert'><B>[src] blows apart!</B></span>", 1)
-		playsound(src.loc, "sound/impact_sounds/Machinery_Break_1.ogg", 40, 1)
+		var/list/guff = list(new bucket_type_on_destruction, new /obj/item/device/prox_sensor)
+		if (prob(50))
+			guff += new /obj/item/parts/robot_parts/arm/left/standard
+		..(guff)
 
-		elecflash(src, radius=1, power=3, exclude_center = 0)
-
-		var/turf/T = get_turf(src)
-		if (T && isturf(T))
-			new bucket_type_on_destruction(T)
-			new /obj/item/device/prox_sensor(T)
-			if (prob(50))
-				new /obj/item/parts/robot_parts/arm/left/standard(T)
-
-		qdel(src)
-		return
 
 	red
 		icon_state = "cleanbot-red0"

@@ -360,26 +360,14 @@
 
 /obj/machinery/bot/firebot/explode()
 	if(src.exploding) return
-	src.exploding = 1
-	src.on = 0
-	src.visible_message("<span class='alert'><B>[src] blows apart!</B></span>", 1)
-	playsound(src.loc, "sound/impact_sounds/Machinery_Break_1.ogg", 40, 1)
-	var/turf/Tsec = get_turf(src)
-
-	new /obj/item/device/prox_sensor(Tsec)
-
-	new /obj/item/extinguisher(Tsec)
-
+	var/list/guff = list(new /obj/item/extinguisher, new /obj/item/device/prox_sensor)
 	if (prob(50))
-		new /obj/item/parts/robot_parts/arm/left/standard(Tsec)
-
-	var/obj/item/storage/toolbox/emergency/emptybox = new /obj/item/storage/toolbox/emergency(Tsec)
+		guff += new /obj/item/parts/robot_parts/arm/left/standard
+	var/obj/item/storage/toolbox/emergency/emptybox = new /obj/item/storage/toolbox/emergency
 	for(var/obj/item/I in emptybox.contents) //Empty the toolbox so we don't have infinite crowbars or whatever
 		qdel(I)
-
-	elecflash(src, radius=1, power=3, exclude_center = 0)
-	qdel(src)
-	return
+	guff += emptybox
+	..(guff)
 
 /obj/machinery/bot/firebot/proc/toggle_power()
 	src.on = !src.on

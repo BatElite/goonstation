@@ -98,26 +98,11 @@
 	return src.explode()
 
 /obj/machinery/bot/cambot/explode()
-	if (!src)
-		return
-
 	if(src.exploding) return
-	src.exploding = 1
-	src.on = 0
-	src.visible_message("<span class='alert'><B>[src] blows apart!</B></span>", 1)
-	playsound(src.loc, "sound/impact_sounds/Machinery_Break_1.ogg", 40, 1)
-
-	elecflash(src, radius=1, power=3, exclude_center = 0)
-
-	var/turf/T = get_turf(src)
-	if (T && isturf(T))
-		new /obj/item/camera(T)
-		new /obj/item/device/prox_sensor(T)
-		if (prob(50))
-			new /obj/item/parts/robot_parts/arm/left/standard(T)
-
-	qdel(src)
-	return
+	var/list/guff = list(new /obj/item/camera, new /obj/item/device/prox_sensor)
+	if (prob(50))
+		guff += new /obj/item/parts/robot_parts/arm/left/standard
+	..(guff)
 
 /obj/machinery/bot/cambot/proc/toggle_power(var/force_on = 0)
 	if (!src)
