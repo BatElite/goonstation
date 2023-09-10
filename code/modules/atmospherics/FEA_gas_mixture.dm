@@ -32,6 +32,7 @@ What are the archived variables for?
 	#undef _DEFINE_ARCH_GAS
 #endif
 
+	///Measured in Kelvin
 	var/temperature = 0
 #ifdef ATMOS_ARCHIVING
 	var/tmp/ARCHIVED(temperature)
